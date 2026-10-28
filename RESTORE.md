@@ -49,3 +49,18 @@ python restore_archive.py --manifest downloads/manifest.json --parts downloads -
 `local-verification.json` 记录归档流的逐文件恢复检查。
 `remote-verification.json` 记录实际从私有 Release 重新下载每份分卷后的 SHA-256。
 `cleanup-receipt.json` 在用户要求的本地清理完成后追加，记录实际删除范围与空间变化。
+
+## 上传期间的新进度补充包
+
+同一 Release 还包含 supplement-001.zip、manifest-supplement-001.json 和 restore_supplement.py。
+它保存主对话在上传期间新增或更新的五项内容。完成基础恢复后执行：
+
+```powershell
+python restore_supplement.py --manifest downloads/manifest-supplement-001.json --zip downloads/supplement-001.zip --extract-to restored
+```
+
+补充恢复在覆盖基础快照文件前检查其原 SHA-256，拒绝覆盖后来编辑的文件。
+`post-snapshot/` 提供该补充包的浏览副本。
+
+本地已清理 18,849 个旧快照文件、约 11 GiB；正在使用的现成角色预览、最新状态及被服务占用的小日志保留，避免破坏主对话的新进度。
+原始快照中的全部 18,855 个文件均已上传并逐文件回下载验证。

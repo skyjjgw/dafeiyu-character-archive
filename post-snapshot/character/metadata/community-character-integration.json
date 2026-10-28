@@ -1,0 +1,44 @@
+{
+  "schema": "dafeiyu.community-character-integration.v1",
+  "verifiedAtUtc": "2026-10-28T16:20:50.996Z",
+  "userInstruction": [
+    "有的话直接用他的吧",
+    "他是桌宠，你按照我们的改改"
+  ],
+  "source": "https://github.com/PC2005-cloud/dsh-pet",
+  "sourceVersion": "0.3.8",
+  "panelVersion": "0.2.2",
+  "clips": 18,
+  "videoBytes": 8157196,
+  "videoBytesUnchanged": true,
+  "assetManifest": "E:\\zzz\\dafeiyu-dsh-panel\\hud\\upstream-character.json",
+  "preview": "http://127.0.0.1:4348/character-companion.html",
+  "oldPreviewPreserved": true,
+  "oldPreviewSha256": "6abe1e431b3b14f30ea65ac03c16c07ea7a9e138a46f9012dd4ea6f9765ccc9d",
+  "installedPlugin": "E:/zzz/dafeiyu-dsh-original/home/profiles/desktop/node_modules/dsh-plugin-dafeiyu-panel",
+  "installedClientSha256": "038bff1fa1736a3e5aa3bdc9ee5e01eab2acf8cae69ab0c615d6000300f5c089",
+  "installedMatchesBuiltClient": true,
+  "tests": {
+    "regressionPassed": 15,
+    "regressionFailed": 0,
+    "browserObserved": [
+      "transparent full-character playback",
+      "manual greeting selection",
+      "full turn animation",
+      "hide removes stage",
+      "show remounts character"
+    ]
+  },
+  "changes": [
+    "Character occupies the existing panel central stage by default.",
+    "Greeting, expression and action controls are visual only.",
+    "Existing DSH conversation, cancellation, permissions and original-view adapter retained.",
+    "No roaming desktop pet, independent chat backend, balance widget or copied upstream personality prompt."
+  ],
+  "limits": [
+    "Keyless preview: no live DSH conversation or model requests.",
+    "Real DSH login and conversation still require user setup.",
+    "Pre-rendered full-character clips; no arbitrary body physics, audio lip sync or new skeleton acceptance."
+  ],
+  "complete": false
+}

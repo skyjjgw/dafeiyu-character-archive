@@ -1,0 +1,62 @@
+{
+  "verifiedFiles": 18855,
+  "verifiedBytes": 11820070543,
+  "allFileHashesMatch": true,
+  "gzipTrailerChecked": true,
+  "extracted": false,
+  "repository": "skyjjgw/dafeiyu-character-archive",
+  "tag": "archive-20261028",
+  "allRemotePartsDownloadedAndHashed": true,
+  "allRemoteMetadataMatch": true,
+  "remoteParts": [
+    {
+      "name": "dafeiyu-full-20261028.tar.gz.part001",
+      "size": 1073741824,
+      "sha256": "08f4dc0acf524d172d875266930611915e7222019510e2e88c7402dd0be419a1",
+      "actualDownloadVerified": true
+    },
+    {
+      "name": "dafeiyu-full-20261028.tar.gz.part002",
+      "size": 1073741824,
+      "sha256": "61deb1dfcf74ffb8c8d9b04716ff02d590be17b489853c320165c4c46dc89a6b",
+      "actualDownloadVerified": true
+    },
+    {
+      "name": "dafeiyu-full-20261028.tar.gz.part003",
+      "size": 1073741824,
+      "sha256": "c79501f5ee6dc16e788ffd53393de6666029900eb9756babc9e7345f08b71615",
+      "actualDownloadVerified": true
+    },
+    {
+      "name": "dafeiyu-full-20261028.tar.gz.part004",
+      "size": 1073741824,
+      "sha256": "7202cf9fb2167065c285fae90749e482d6972f9fa12bb1d10df7bd6a9fc4afdc",
+      "actualDownloadVerified": true
+    },
+    {
+      "name": "dafeiyu-full-20261028.tar.gz.part005",
+      "size": 1073741824,
+      "sha256": "20249cdd030028eea289c11b34864133969cfffa85b60e3f26cb74c783416ab3",
+      "actualDownloadVerified": true
+    },
+    {
+      "name": "dafeiyu-full-20261028.tar.gz.part006",
+      "size": 1073741824,
+      "sha256": "684801ae7bfb73bd811e934c23609f97889c77b07e900e110a3be470e6ced69c",
+      "actualDownloadVerified": true
+    },
+    {
+      "name": "dafeiyu-full-20261028.tar.gz.part007",
+      "size": 1073741824,
+      "sha256": "cfb63e1d279a5c74b78f30a6a3d104b84b3468ccc8b56d0d0d259beb89721b97",
+      "actualDownloadVerified": true
+    },
+    {
+      "name": "dafeiyu-full-20261028.tar.gz.part008",
+      "size": 876588991,
+      "sha256": "b030282b711174237d974b1d56fa6fb1b314ba8a115a7edf4bbacfe628f6810b",
+      "actualDownloadVerified": true
+    }
+  ],
+  "allOriginalFileHashesMatchRemoteArchive": true
+}

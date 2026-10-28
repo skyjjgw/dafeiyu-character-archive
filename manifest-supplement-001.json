@@ -1,0 +1,49 @@
+{
+  "schema": "dafeiyu.post-snapshot.supplement.v1",
+  "purpose": "New/updated work created by the main chat while the original archive was uploading. Preserved locally to avoid disrupting ongoing work.",
+  "archive": {
+    "name": "supplement-001.zip",
+    "size": 8420046,
+    "sha256": "a82f19993f72fd3ad7ef5cc81543df27515463f38b106fac72d5d1afa31555cc"
+  },
+  "files": [
+    {
+      "path": "character/metadata/community-character-integration.json",
+      "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\community-character-integration.json",
+      "size": 1825,
+      "mtime_ns": 1793204451004395800,
+      "sha256": "a18102f97ffd24e136568b74ebbb30c5801d856db0f300b34c72686adbae6628"
+    },
+    {
+      "path": "character/metadata/active-character-goal.json",
+      "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\active-character-goal.json",
+      "size": 9828,
+      "mtime_ns": 1793204451006081600,
+      "sha256": "b7c24e2ac8577989c3ef6ddf5dd30f3522ef36e037091d0cb6c7e32b424ff1c8",
+      "previousSHA256": "cae0088276b90a2a5ecdabeec6be5aad610febba81fc0aee94c371904094dd5a"
+    },
+    {
+      "path": "character/metadata/character-current-state.json",
+      "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\character-current-state.json",
+      "size": 8880,
+      "mtime_ns": 1793204451005012000,
+      "sha256": "3ce59b3b8dcdda10b2c845b0d2e2c994ff325a4d4a01c48267764cd2a31a7348",
+      "previousSHA256": "301ed5aad067308f22636e73335cd15e3bfa4d842b92cb87ba3f450d8739c961"
+    },
+    {
+      "path": "character/metadata/selected-preview-20261028.stderr.log",
+      "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\selected-preview-20261028.stderr.log",
+      "size": 995,
+      "mtime_ns": 1793204723213027100,
+      "sha256": "de317869a9dfe60482ae5fc8fa46446fabaf87316e704eb28fcbd3af64e425b8",
+      "previousSHA256": "5805c488d02900de693219113a3fb7cb524260d19a14c24cc6cb683c8e4cc09a"
+    },
+    {
+      "path": "selected-preview/character-companion.html",
+      "source": "E:\\zzz\\dafeiyu-dsh-panel\\qa\\character-companion.html",
+      "size": 10982206,
+      "mtime_ns": 1793204041656154700,
+      "sha256": "42b29540c1b645e078454cf7177c7f708ea7af60ec1a518a2a65f751206e27de"
+    }
+  ]
+}

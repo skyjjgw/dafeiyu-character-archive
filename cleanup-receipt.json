@@ -1,0 +1,88 @@
+{
+  "remainingRootsWithNewWork": [
+    "E:\\zzz\\dafeiyu-character-materials-20261025"
+  ],
+  "sourceRoots": [
+    "E:\\zzz\\dafeiyu-character-materials-20261025",
+    "D:\\CodexTaskData\\dafeiyu-whole-form-20261028",
+    "D:\\CodexTaskData\\dafeiyu-whole-head-20261028",
+    "D:\\CodexTaskData\\dafeiyu-whole-lookdev-20261028",
+    "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028",
+    "D:\\CodexTaskData\\dafeiyu-whole-model-references-20261028",
+    "D:\\CodexTaskData\\dafeiyu-whole-review-20261028",
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028"
+  ],
+  "deletedSourceBytes": 11820012184.0,
+  "preservedOpenFiles": [
+    "character/metadata/materials-preview-20261028.stderr.log",
+    "character/metadata/materials-preview-20261028.stdout.log",
+    "character/metadata/selected-preview-20261028.stdout.log"
+  ],
+  "freeSpaceAfterSourceDeletion": [
+    {
+      "freeBytes": 21300547584,
+      "drive": "C"
+    },
+    {
+      "freeBytes": 17182941184,
+      "drive": "D"
+    },
+    {
+      "freeBytes": 10494967808,
+      "drive": "E"
+    }
+  ],
+  "newCommunityPreviewPreserved": "E:/zzz/dafeiyu-dsh-panel/qa/character-companion.html",
+  "release": "archive-20261028",
+  "freeSpaceBefore": [
+    {
+      "freeBytes": 21279617024,
+      "drive": "C"
+    },
+    {
+      "freeBytes": 13990862848,
+      "drive": "D"
+    },
+    {
+      "freeBytes": 1850482688,
+      "drive": "E"
+    }
+  ],
+  "deletedThisRun": 18791,
+  "preservedPostSnapshotFiles": [
+    "character/metadata/community-character-integration.json"
+  ],
+  "completeForInactiveSnapshotFiles": true,
+  "removedJunctions": [
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\whole-character-rebuild\\form\\work",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\whole-character-rebuild\\reference-assets",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\whole-character-rebuild\\review-work",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\whole-character-rebuild\\tail\\work"
+  ],
+  "preservedChangedSnapshotFiles": [
+    "character/metadata/active-character-goal.json",
+    "character/metadata/character-current-state.json",
+    "character/metadata/selected-preview-20261028.stderr.log"
+  ],
+  "sourceFileHashesVerified": true,
+  "allRemoteDownloadedAndVerified": true,
+  "globalRuntimeAndOtherProjectsPreserved": true,
+  "repository": "https://github.com/skyjjgw/dafeiyu-character-archive",
+  "deletedSourceFiles": 18849,
+  "localArchiveCachesRemoved": true,
+  "preservedConcurrentChanges": [],
+  "freeSpaceAfterCacheCleanup": [
+    {
+      "freeBytes": 21294006272,
+      "drive": "C"
+    },
+    {
+      "freeBytes": 33985421312,
+      "drive": "D"
+    },
+    {
+      "freeBytes": 10493775872,
+      "drive": "E"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "supplementFiles": 5,
+  "actualRemoteDownloadVerified": true,
+  "allFileHashesMatch": true,
+  "preservedActiveFiles": [
+    "character/metadata/community-character-integration.json",
+    "character/metadata/active-character-goal.json",
+    "character/metadata/character-current-state.json",
+    "character/metadata/selected-preview-20261028.stderr.log",
+    "selected-preview/character-companion.html"
+  ],
+  "archiveSHA256": "a82f19993f72fd3ad7ef5cc81543df27515463f38b106fac72d5d1afa31555cc"
+}

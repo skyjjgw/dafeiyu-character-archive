@@ -1,0 +1,12 @@
+127.0.0.1 - - [28/Oct/2026 18:18:30] "GET /character-preview.html HTTP/1.1" 304 -
+127.0.0.1 - - [28/Oct/2026 18:18:32] code 404, message File not found
+127.0.0.1 - - [28/Oct/2026 18:18:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [28/Oct/2026 20:26:14] code 404, message File not found
+127.0.0.1 - - [28/Oct/2026 20:26:14] "GET /production/appearance-preserving-body/body-continuity-v1/review.html HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2026 00:04:55] "GET /character-companion.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 00:08:33] "GET /character-companion.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 00:14:50] "GET /character-companion.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 00:23:50] "GET /character-companion.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 00:23:51] code 404, message File not found
+127.0.0.1 - - [29/Oct/2026 00:23:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2026 00:25:23] "HEAD /character-companion.html HTTP/1.1" 200 -

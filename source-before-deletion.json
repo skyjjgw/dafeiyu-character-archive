@@ -1,0 +1,31 @@
+{
+  "files": 18855,
+  "bytes": 11820070543,
+  "allRemovableSourceHashesMatch": true,
+  "noMissingSnapshotFiles": true,
+  "postSnapshotFilesPreserved": [
+    "character/metadata/community-character-integration.json"
+  ],
+  "preservedChangedSnapshotFiles": [
+    {
+      "path": "character/metadata/active-character-goal.json",
+      "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\active-character-goal.json",
+      "sha256": "b7c24e2ac8577989c3ef6ddf5dd30f3522ef36e037091d0cb6c7e32b424ff1c8",
+      "previousSHA256": "cae0088276b90a2a5ecdabeec6be5aad610febba81fc0aee94c371904094dd5a"
+    },
+    {
+      "path": "character/metadata/character-current-state.json",
+      "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\character-current-state.json",
+      "sha256": "3ce59b3b8dcdda10b2c845b0d2e2c994ff325a4d4a01c48267764cd2a31a7348",
+      "previousSHA256": "301ed5aad067308f22636e73335cd15e3bfa4d842b92cb87ba3f450d8739c961"
+    },
+    {
+      "path": "character/metadata/selected-preview-20261028.stderr.log",
+      "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\selected-preview-20261028.stderr.log",
+      "sha256": "de317869a9dfe60482ae5fc8fa46446fabaf87316e704eb28fcbd3af64e425b8",
+      "previousSHA256": "5805c488d02900de693219113a3fb7cb524260d19a14c24cc6cb683c8e4cc09a"
+    }
+  ],
+  "junctionsUnchanged": true,
+  "snapshotDirectoriesPresent": true
+}
