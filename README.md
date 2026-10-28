@@ -4,7 +4,7 @@
 
 ## 全量文件在哪里
 
-完整文件存放于本仓库的 **[archive-20261028 Release](../../releases/tag/archive-20261028)**。
+完整文件存放于本仓库的 **[archive-20261028 Release](https://github.com/skyjjgw/dafeiyu-character-archive/releases/tag/archive-20261028)**。
 必须下载 `manifest.json`、`SHA256SUMS.txt` 和全部 `dafeiyu-full-20261028.tar.gz.partNNN` 分卷。
 GitHub 自动生成的 Source code ZIP 只包含本仓库内容，**不包含完整创作文件**。
 
@@ -27,3 +27,7 @@ GLB/PLY、纹理、历史与未验收版本、实际截图、运行代码、工�
 
 需要 Python 3.11 或以上；恢复工具只使用标准库。详见 [RESTORE.md](RESTORE.md)。
 仓库保持私有；第三方模型、工具和参考作品的原许可文件随原文件保存，没有重新授予许可。
+
+## 归档规模
+
+18,855 个原文件，原始总字节数 11,820,070,543；8 个分卷合计 8,392,781,759 字节。全部文件的本地归档恢复哈希已通过，远端下载校验与删除收据另附。
