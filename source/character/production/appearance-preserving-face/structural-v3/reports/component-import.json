@@ -1,0 +1,149 @@
+{
+	"cleanupValidated": true,
+	"completed": true,
+	"finalQualityPassed": false,
+	"gpuRendered": false,
+	"headless": true,
+	"rootTransform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+	"schema": "dafeiyu.continuous-head-v3.component-import.v1",
+	"setup": {
+		"component": "continuous-head-v3",
+		"fixed_topology": true,
+		"instances": 20,
+		"last_kernel_ms": 22.3887,
+		"last_submit_ms": 0.276,
+		"mapped_vertices": 91820,
+		"maximum_import_position_error": 0.0,
+		"maximum_import_uv_error": 0.0,
+		"mesh_rebuilds_during_updates": 0,
+		"ok": true,
+		"structure": {
+			"cage_triangles": 55651,
+			"native_grid_resolution": 128,
+			"new_roles": 5,
+			"ok": true,
+			"source_grid_resolution": 48,
+			"support_anchors": 288
+		},
+		"surfaces": 23,
+		"updates": 5
+	},
+	"sourceFaceHidden": true,
+	"states": [
+		{
+			"state": {
+				"blink": 0.0,
+				"talk": 0.0
+			},
+			"update": {
+				"component": "continuous-head-v3",
+				"fixed_topology": true,
+				"instances": 20,
+				"last_kernel_ms": 11.2298,
+				"last_submit_ms": 0.474,
+				"mapped_vertices": 91820,
+				"maximum_import_position_error": 0.0,
+				"maximum_import_uv_error": 0.0,
+				"mesh_rebuilds_during_updates": 0,
+				"ok": true,
+				"structure": {
+					"cage_triangles": 55651,
+					"native_grid_resolution": 128,
+					"new_roles": 5,
+					"ok": true,
+					"source_grid_resolution": 48,
+					"support_anchors": 288
+				},
+				"surfaces": 23,
+				"updates": 2
+			}
+		},
+		{
+			"state": {
+				"blink": 0.5,
+				"gazeX": 0.4,
+				"talk": 0.4
+			},
+			"update": {
+				"component": "continuous-head-v3",
+				"fixed_topology": true,
+				"instances": 20,
+				"last_kernel_ms": 20.7406,
+				"last_submit_ms": 0.447,
+				"mapped_vertices": 91820,
+				"maximum_import_position_error": 0.0,
+				"maximum_import_uv_error": 0.0,
+				"mesh_rebuilds_during_updates": 0,
+				"ok": true,
+				"structure": {
+					"cage_triangles": 55651,
+					"native_grid_resolution": 128,
+					"new_roles": 5,
+					"ok": true,
+					"source_grid_resolution": 48,
+					"support_anchors": 288
+				},
+				"surfaces": 23,
+				"updates": 3
+			}
+		},
+		{
+			"state": {
+				"blink": 1.0,
+				"talk": 0.0
+			},
+			"update": {
+				"component": "continuous-head-v3",
+				"fixed_topology": true,
+				"instances": 20,
+				"last_kernel_ms": 18.9318,
+				"last_submit_ms": 0.599,
+				"mapped_vertices": 91820,
+				"maximum_import_position_error": 0.0,
+				"maximum_import_uv_error": 0.0,
+				"mesh_rebuilds_during_updates": 0,
+				"ok": true,
+				"structure": {
+					"cage_triangles": 55651,
+					"native_grid_resolution": 128,
+					"new_roles": 5,
+					"ok": true,
+					"source_grid_resolution": 48,
+					"support_anchors": 288
+				},
+				"surfaces": 23,
+				"updates": 4
+			}
+		},
+		{
+			"state": {
+				"blink": 0.2,
+				"gazeY": -0.5,
+				"happy": 1.0,
+				"talk": 1.0
+			},
+			"update": {
+				"component": "continuous-head-v3",
+				"fixed_topology": true,
+				"instances": 20,
+				"last_kernel_ms": 22.3887,
+				"last_submit_ms": 0.276,
+				"mapped_vertices": 91820,
+				"maximum_import_position_error": 0.0,
+				"maximum_import_uv_error": 0.0,
+				"mesh_rebuilds_during_updates": 0,
+				"ok": true,
+				"structure": {
+					"cage_triangles": 55651,
+					"native_grid_resolution": 128,
+					"new_roles": 5,
+					"ok": true,
+					"source_grid_resolution": 48,
+					"support_anchors": 288
+				},
+				"surfaces": 23,
+				"updates": 5
+			}
+		}
+	]
+}

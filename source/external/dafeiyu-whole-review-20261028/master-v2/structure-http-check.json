@@ -1,0 +1,87 @@
+{
+  "finalAccepted": false,
+  "root_browser_visual_review_required": true,
+  "http": [
+    {
+      "path": "production/whole-character-rebuild/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": "3006"
+    },
+    {
+      "path": "production/whole-character-rebuild/viewer.mjs",
+      "status": 200,
+      "content_type": "application/javascript",
+      "bytes": "4103"
+    },
+    {
+      "path": "production/whole-character-rebuild/review-work/master-v2/actual.glb",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": "48937184"
+    },
+    {
+      "path": "production/whole-character-rebuild/review-work/master-v2/manifest.json",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": "112600"
+    },
+    {
+      "path": "production/rig3d-prototype/vendor/three.module.js",
+      "status": 200,
+      "content_type": "application/javascript",
+      "bytes": "603113"
+    },
+    {
+      "path": "production/rig3d-prototype/vendor/three.core.js",
+      "status": 200,
+      "content_type": "application/javascript",
+      "bytes": "1403455"
+    },
+    {
+      "path": "production/rig3d-prototype/vendor/package/examples/jsm/controls/OrbitControls.js",
+      "status": 200,
+      "content_type": "application/javascript",
+      "bytes": "38703"
+    },
+    {
+      "path": "production/character3d/ai-shape-study/vendor/loaders/GLTFLoader.js",
+      "status": 200,
+      "content_type": "application/javascript",
+      "bytes": "114739"
+    },
+    {
+      "path": "production/character3d/ai-shape-study/vendor/utils/BufferGeometryUtils.js",
+      "status": 200,
+      "content_type": "application/javascript",
+      "bytes": "35539"
+    },
+    {
+      "path": "production/appearance-preserving-geometry/hair-continuity-v1/reports/root-front.png",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": "348910"
+    }
+  ],
+  "glb_bytes": 48937184,
+  "glb_sha256": "4789433b89adf88f5cacef57fa7897889f893cdb658f875d30d3c2b38b91c57c",
+  "meshes": 113,
+  "triangles": 791929,
+  "images": 9,
+  "attributes_by_primitive": {
+    "POSITION": 113,
+    "NORMAL": 113,
+    "COLOR_0": 113,
+    "TEXCOORD_0": 22,
+    "COLOR_1": 14,
+    "TEXCOORD_1": 9,
+    "COLOR_2": 1,
+    "TEXCOORD_2": 2
+  },
+  "colored_vertex_primitives": 104,
+  "white_vertex_primitives_for_texture_or_white_material": 9,
+  "no_external_asset_uris": true,
+  "no_animation_skin_camera_lights": true,
+  "buffer_view_bounds_valid": true,
+  "source_file_and_snapshot_geometry_integrity": true
+}

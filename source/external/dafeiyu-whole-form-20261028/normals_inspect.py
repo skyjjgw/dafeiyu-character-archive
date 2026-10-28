@@ -1,0 +1,2 @@
+import bpy,bmesh
+bpy.ops.wm.open_mainfile(filepath='D:/CodexTaskData/dafeiyu-whole-form-20261028/projection-v4.blend');o=next(o for o in bpy.data.objects if o.type=='MESH');bm=bmesh.new();bm.from_mesh(o.data);print('signed volume',bm.calc_volume(signed=True),'verts',len(bm.verts),'faces',len(bm.faces),'boundary',sum(e.is_boundary for e in bm.edges),'nonmanifold',sum(not e.is_manifold for e in bm.edges));bmesh.ops.recalc_face_normals(bm,faces=bm.faces);print('post signed',bm.calc_volume(signed=True));bm.free()

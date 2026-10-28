@@ -1,0 +1,606 @@
+{
+  "schema": "dafeiyu.selected-hand-retopology-check.v1",
+  "candidates": [
+    {
+      "schema": "dafeiyu.selected-hand-retopology.v1",
+      "side": "left",
+      "scope": "Local hand topology candidate, not grasp/collision certification and not installed into selected original page",
+      "vertices": 5144,
+      "triangles": 10284,
+      "radialSegments": 32,
+      "longitudinalLevels": [
+        0,
+        0.025,
+        0.055,
+        0.09,
+        0.14,
+        0.22,
+        0.3,
+        0.35,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.47,
+        0.5,
+        0.57,
+        0.63,
+        0.67,
+        0.69,
+        0.71,
+        0.72,
+        0.74,
+        0.77,
+        0.81,
+        0.86,
+        0.9,
+        0.935,
+        0.96,
+        0.98,
+        1
+      ],
+      "sourceDigits": [
+        {
+          "name": "thumb",
+          "base": [
+            397.5,
+            880
+          ],
+          "tip": [
+            415.7,
+            884.8
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            35,
+            65,
+            70
+          ]
+        },
+        {
+          "name": "index",
+          "base": [
+            393.3,
+            884.4
+          ],
+          "tip": [
+            414,
+            896.2
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            70,
+            95,
+            65
+          ]
+        },
+        {
+          "name": "middle",
+          "base": [
+            389,
+            885.5
+          ],
+          "tip": [
+            397.4,
+            906.8
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            75,
+            100,
+            70
+          ]
+        },
+        {
+          "name": "ring",
+          "base": [
+            385.3,
+            884.4
+          ],
+          "tip": [
+            377.7,
+            906
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            75,
+            100,
+            70
+          ]
+        },
+        {
+          "name": "little",
+          "base": [
+            382.7,
+            881.4
+          ],
+          "tip": [
+            365.8,
+            895
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            70,
+            95,
+            65
+          ]
+        }
+      ],
+      "rootRadiiSourcePixels": [
+        2.75,
+        2.65,
+        2.8,
+        2.65,
+        2.3
+      ],
+      "zRadiiSourcePixels": [
+        2.15,
+        2.1,
+        2.15,
+        2.05,
+        1.85
+      ],
+      "centerZ": 0.1775,
+      "coordinateFrame": "Original study bind: Y up +Z front, px→(px-580)/260; right source mirror1156-px",
+      "palette": {
+        "sourceTint": "#ccd0c6",
+        "safeSourceRgb": {
+          "base": [
+            253,
+            234,
+            220
+          ],
+          "highlight": [
+            253,
+            248,
+            246
+          ],
+          "crease": [
+            250,
+            200,
+            179
+          ],
+          "shadow": [
+            227,
+            186,
+            176
+          ]
+        },
+        "linear": {
+          "base": [
+            0.5931097358889333,
+            0.5189779862609138,
+            0.4041603542849117
+          ],
+          "highlight": [
+            0.5931097358889333,
+            0.5920827220033024,
+            0.520427877679977
+          ],
+          "crease": [
+            0.577242845901073,
+            0.3643129846055276,
+            0.25456391816763785
+          ],
+          "shadow": [
+            0.46383066307217313,
+            0.3097149051267555,
+            0.24517155358224763
+          ]
+        }
+      },
+      "materialRule": "Use returned unlit COLOR material; UV is diagnostic only and must not be passed to the old whole-hand image material",
+      "neutralChanges": "Five original centreline endpoints retained. Tips rounded over last12% length, MCP roots use real elliptic rings, thin source angular webs rounded by 3D palm volume. No edits to other body parts.",
+      "topology": {
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "orientationContradictions": 0,
+        "signedVolume": 0.00013179643773853536,
+        "notSelfIntersectionProof": true
+      }
+    },
+    {
+      "schema": "dafeiyu.selected-hand-retopology.v1",
+      "side": "right",
+      "scope": "Local hand topology candidate, not grasp/collision certification and not installed into selected original page",
+      "vertices": 5144,
+      "triangles": 10284,
+      "radialSegments": 32,
+      "longitudinalLevels": [
+        0,
+        0.025,
+        0.055,
+        0.09,
+        0.14,
+        0.22,
+        0.3,
+        0.35,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.47,
+        0.5,
+        0.57,
+        0.63,
+        0.67,
+        0.69,
+        0.71,
+        0.72,
+        0.74,
+        0.77,
+        0.81,
+        0.86,
+        0.9,
+        0.935,
+        0.96,
+        0.98,
+        1
+      ],
+      "sourceDigits": [
+        {
+          "name": "thumb",
+          "base": [
+            397.5,
+            880
+          ],
+          "tip": [
+            415.7,
+            884.8
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            35,
+            65,
+            70
+          ]
+        },
+        {
+          "name": "index",
+          "base": [
+            393.3,
+            884.4
+          ],
+          "tip": [
+            414,
+            896.2
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            70,
+            95,
+            65
+          ]
+        },
+        {
+          "name": "middle",
+          "base": [
+            389,
+            885.5
+          ],
+          "tip": [
+            397.4,
+            906.8
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            75,
+            100,
+            70
+          ]
+        },
+        {
+          "name": "ring",
+          "base": [
+            385.3,
+            884.4
+          ],
+          "tip": [
+            377.7,
+            906
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            75,
+            100,
+            70
+          ]
+        },
+        {
+          "name": "little",
+          "base": [
+            382.7,
+            881.4
+          ],
+          "tip": [
+            365.8,
+            895
+          ],
+          "fractions": [
+            0,
+            0.42,
+            0.72
+          ],
+          "maxFlex": [
+            70,
+            95,
+            65
+          ]
+        }
+      ],
+      "rootRadiiSourcePixels": [
+        2.75,
+        2.65,
+        2.8,
+        2.65,
+        2.3
+      ],
+      "zRadiiSourcePixels": [
+        2.15,
+        2.1,
+        2.15,
+        2.05,
+        1.85
+      ],
+      "centerZ": 0.1775,
+      "coordinateFrame": "Original study bind: Y up +Z front, px→(px-580)/260; right source mirror1156-px",
+      "palette": {
+        "sourceTint": "#ccd0c6",
+        "safeSourceRgb": {
+          "base": [
+            253,
+            234,
+            220
+          ],
+          "highlight": [
+            253,
+            248,
+            246
+          ],
+          "crease": [
+            250,
+            200,
+            179
+          ],
+          "shadow": [
+            227,
+            186,
+            176
+          ]
+        },
+        "linear": {
+          "base": [
+            0.5931097358889333,
+            0.5189779862609138,
+            0.4041603542849117
+          ],
+          "highlight": [
+            0.5931097358889333,
+            0.5920827220033024,
+            0.520427877679977
+          ],
+          "crease": [
+            0.577242845901073,
+            0.3643129846055276,
+            0.25456391816763785
+          ],
+          "shadow": [
+            0.46383066307217313,
+            0.3097149051267555,
+            0.24517155358224763
+          ]
+        }
+      },
+      "materialRule": "Use returned unlit COLOR material; UV is diagnostic only and must not be passed to the old whole-hand image material",
+      "neutralChanges": "Five original centreline endpoints retained. Tips rounded over last12% length, MCP roots use real elliptic rings, thin source angular webs rounded by 3D palm volume. No edits to other body parts.",
+      "topology": {
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "orientationContradictions": 0,
+        "signedVolume": 0.00013179643773854856,
+        "notSelfIntersectionProof": true
+      }
+    }
+  ],
+  "finite": true,
+  "weightError": 2.9802322387695312e-8,
+  "minimumTriangleArea": 2.1903827541260364e-7,
+  "unchangedOtherParts": true,
+  "changedParts": [
+    "left hand",
+    "right hand"
+  ],
+  "poses": [
+    {
+      "side": "left",
+      "grip": 0,
+      "minimum": [
+        -0.83494900136332,
+        -0.08119285641446974,
+        0.15585634112358093
+      ],
+      "maximum": [
+        -0.6413025711439987,
+        0.06418030451304765,
+        0.1991436630487442
+      ],
+      "maximumDistanceFromOrigin": 0.8541683643230498
+    },
+    {
+      "side": "left",
+      "grip": 0.25,
+      "minimum": [
+        -0.8217051714234229,
+        -0.06287049047526032,
+        0.15585634112358093
+      ],
+      "maximum": [
+        -0.6479169993612552,
+        0.06418030451304765,
+        0.2292796839176375
+      ],
+      "maximumDistanceFromOrigin": 0.851096183610303
+    },
+    {
+      "side": "left",
+      "grip": 0.55,
+      "minimum": [
+        -0.7967645908583945,
+        -0.032066341533250886,
+        0.15585634112358093
+      ],
+      "maximum": [
+        -0.6647841414904762,
+        0.06418030451304765,
+        0.24995341283814498
+      ],
+      "maximumDistanceFromOrigin": 0.8268257429369092
+    },
+    {
+      "side": "left",
+      "grip": 0.8,
+      "minimum": [
+        -0.7899826078631815,
+        -0.022416146646173495,
+        0.15585634112358093
+      ],
+      "maximum": [
+        -0.673870188708728,
+        0.06418030451304765,
+        0.23597569105177188
+      ],
+      "maximumDistanceFromOrigin": 0.8167295522796865
+    },
+    {
+      "side": "left",
+      "grip": 1,
+      "minimum": [
+        -0.7838459175824621,
+        -0.014245859773225171,
+        0.15585634112358093
+      ],
+      "maximum": [
+        -0.6794092737048368,
+        0.06418030451304765,
+        0.22660225374329357
+      ],
+      "maximumDistanceFromOrigin": 0.8115944123716453
+    },
+    {
+      "side": "right",
+      "grip": 0,
+      "minimum": [
+        0.6259235640276922,
+        -0.08160819053770728,
+        0.15585634112358093
+      ],
+      "maximum": [
+        0.8195699346640932,
+        0.06376497038981008,
+        0.1991436630487442
+      ],
+      "maximumDistanceFromOrigin": 0.8391567878471816
+    },
+    {
+      "side": "right",
+      "grip": 0.25,
+      "minimum": [
+        0.6325379920334362,
+        -0.06328582476259711,
+        0.15585634112358093
+      ],
+      "maximum": [
+        0.8063261640440924,
+        0.06376497038981008,
+        0.2292796841844746
+      ],
+      "maximumDistanceFromOrigin": 0.8362730772152918
+    },
+    {
+      "side": "right",
+      "grip": 0.55,
+      "minimum": [
+        0.6494051337421092,
+        -0.03248167592966082,
+        0.15585634112358093
+      ],
+      "maximum": [
+        0.7813855828571259,
+        0.06376497038981008,
+        0.24995341219775458
+      ],
+      "maximumDistanceFromOrigin": 0.8120382411611166
+    },
+    {
+      "side": "right",
+      "grip": 0.8,
+      "minimum": [
+        0.6584911807714536,
+        -0.022831481116975853,
+        0.15585634112358093
+      ],
+      "maximum": [
+        0.7746035997290481,
+        0.06376497038981008,
+        0.2359756910308778
+      ],
+      "maximumDistanceFromOrigin": 0.8018691193381927
+    },
+    {
+      "side": "right",
+      "grip": 1,
+      "minimum": [
+        0.6640302657863087,
+        -0.014661194165376153,
+        0.15585634112358093
+      ],
+      "maximum": [
+        0.768466910382599,
+        0.06376497038981008,
+        0.22660225377513954
+      ],
+      "maximumDistanceFromOrigin": 0.796750976896422
+    }
+  ],
+  "numericalPass": true,
+  "visualPass": false,
+  "visualStatus": "Requires actual front/3q/side rest/curl and full-character review; no self-intersection, grip or contact certification"
+}

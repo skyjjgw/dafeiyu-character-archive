@@ -1,0 +1,31 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {connectDshProjection} from '../dsh-client.mjs';
+import {trustedArguments,prepareChildEnvironment,TRUSTED_PROFILES} from '../runner.mjs';
+test('client uses exact official RPC envelope, coalesces, and removes subscription',async()=>{
+ const calls=[];let publish;let unsubscribed=false;
+ const adapter={subscribe(fn){publish=fn;fn({connected:false});return()=>{unsubscribed=true;};}};
+ const connection={rpc:{async call(path,endpoint,body){calls.push({path,endpoint,body});return {ok:true,value:{ok:true}};}}};
+ const bridge=await connectDshProjection({adapter,connection});
+ publish({connected:true,session:{status:'running'},approvals:[{}],apiKey:'synthetic-ignore',error:'not-forwarded'});
+ publish({connected:true,session:{status:'running'},approvals:[{},{}]});
+ await new Promise(resolve=>setTimeout(resolve,210));
+ assert.equal(calls.filter(c=>c.endpoint.endsWith('/state')).length,1);
+ const state=calls.find(c=>c.endpoint.endsWith('/state'));assert.equal(state.path,'/api');assert.equal(state.body.args.payload.approvals,2);
+ assert.equal(JSON.stringify(state).includes('synthetic-ignore'),false);
+ await bridge.behavior('wave');await assert.rejects(bridge.behavior('shell'),/unsupported_behavior/);
+ await bridge.dispose();assert.equal(unsubscribed,true);assert.equal(calls.at(-1).endpoint,'dafeiyuCharacter/stop');
+});
+test('launch profiles are closed and child data paths are isolated',async()=>{
+ assert.throws(()=>trustedArguments('../../other-project'),/unsupported_launch_profile/);
+ assert.equal(trustedArguments('character-visible').includes('--headless'),false);
+ assert.deepEqual(Object.keys(TRUSTED_PROFILES).sort(),['protocol-test','selected-character','selected-character-headless','selected-character-capture','selected-current','selected-current-headless','selected-current-capture','character-visible','character-visible-capture'].sort());
+ assert.equal(trustedArguments('selected-character').includes('--headless'),false);
+ assert.equal(trustedArguments('selected-character-headless').includes('--headless'),true);
+ assert.ok(trustedArguments('selected-character').some(arg=>arg.endsWith('selected_entry.gd')));
+ assert.ok(trustedArguments('selected-current').includes('--selected-current'));
+ const env=await prepareChildEnvironment();
+ assert.match(env.APPDATA,/native-character-bridge[\\/]\.runtime-user[\\/]roaming$/);
+ assert.match(env.LOCALAPPDATA,/native-character-bridge[\\/]\.runtime-user[\\/]local$/);
+ assert.notEqual(env.APPDATA,process.env.APPDATA);assert.equal(Object.keys(env).some(k=>/KEY|TOKEN|SECRET/.test(k)),false);
+});

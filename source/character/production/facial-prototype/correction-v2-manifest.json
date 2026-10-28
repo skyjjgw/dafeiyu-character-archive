@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-25",
+  "tool": "built-in imagegen",
+  "reason": "用户指出原型五官完全不对；原型通用眼型、缩放和位置偏离统一原画，停用旧拼接部件",
+  "canonical": "assets/corrected-v2/canonical.png",
+  "canonical_source": "../v1/neutral-front.png",
+  "strategy": "默认使用完整原画不改变原有五官；只在眼区和嘴区显示同一原画的局部表情差分，不变形独立通用眼睛",
+  "assets": [
+    {
+      "id": "blink",
+      "file": "blink.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-8dd774bb-cfee-4561-810b-d7d57d185249.png",
+      "generation": {
+        "id": "blink",
+        "prompt": "Use case: identity-preserve.\nEdit target: the provided transparent full-body front-view whale maid illustration. It is the canonical accepted facial identity. Preserve this exact character, wide round face, eye spacing, head size, original asymmetrical eye highlights, gentle eyebrows, tiny nose, blush, hair bangs, maid outfit, pose, proportions, colors and linework. Preserve the original canvas, transparent margins, body position and scale as closely as possible. The edit is a subtle facial expression difference for animation. Do not independently invent or paste generic eyes, lips or brows. Do not change the pose, tilt the head, enlarge the character, add a background or crop anything.\nPreserve actual alpha transparency, no checkerboard artwork. No captions, labels or watermark.\nChange ONLY the two eyes into a natural complete relaxed blink. Upper eyelids lower to gently meet lower eyelids, retaining the original eyes' positions and widths and the original dark lash weight. Both eyes fully closed, no exposed blue irises or white sclera. Keep eyebrows and the original tiny closed smiling mouth UNCHANGED. Closed eyelids must not become a new angry or exaggerated cheerful expression. Preserve every other facial feature and body part.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1144,
+      "height": 1375,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 835516,
+      "sha256": "1248da4c22e8a6f3e1bc9eb2e8e99792f98d95f4256927716f78dff91f910330"
+    },
+    {
+      "id": "mouth-half",
+      "file": "mouth-half.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-5c42dd7b-6692-4387-b994-8a8e9e8497d3.png",
+      "generation": {
+        "id": "mouth-half",
+        "prompt": "Use case: identity-preserve.\nEdit target: the provided transparent full-body front-view whale maid illustration. It is the canonical accepted facial identity. Preserve this exact character, wide round face, eye spacing, head size, original asymmetrical eye highlights, gentle eyebrows, tiny nose, blush, hair bangs, maid outfit, pose, proportions, colors and linework. Preserve the original canvas, transparent margins, body position and scale as closely as possible. The edit is a subtle facial expression difference for animation. Do not independently invent or paste generic eyes, lips or brows. Do not change the pose, tilt the head, enlarge the character, add a background or crop anything.\nPreserve actual alpha transparency, no checkerboard artwork. No captions, labels or watermark.\nChange ONLY her mouth from its original tiny closed smile into a SMALL slightly open talking shape, as if softly saying a short word. Preserve the original mouth CENTER and understated width. Interior is a simple muted dark rose with a tiny tongue hint, no large teeth strip or glossy lips. Keep both original eyes fully open EXACTLY in their original shapes/positions with original highlight directions, and keep eyebrows UNCHANGED. This is a restrained half-open mouth, not a big smile or laugh. Preserve everything else.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1144,
+      "height": 1375,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 845116,
+      "sha256": "8ee026e62b07956b21eb5d0682ae4cb4f70f0aec12111f9580d6a9c9c5eef69e"
+    },
+    {
+      "id": "mouth-open",
+      "file": "mouth-open.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-f97ffb18-b013-4b32-bc8f-8ea688c3fcb4.png",
+      "generation": {
+        "id": "mouth-open",
+        "prompt": "Use case: identity-preserve.\nEdit target: the provided transparent full-body front-view whale maid illustration. It is the canonical accepted facial identity. Preserve this exact character, wide round face, eye spacing, head size, original asymmetrical eye highlights, gentle eyebrows, tiny nose, blush, hair bangs, maid outfit, pose, proportions, colors and linework. Preserve the original canvas, transparent margins, body position and scale as closely as possible. The edit is a subtle facial expression difference for animation. Do not independently invent or paste generic eyes, lips or brows. Do not change the pose, tilt the head, enlarge the character, add a background or crop anything.\nPreserve actual alpha transparency, no checkerboard artwork. No captions, labels or watermark.\nChange ONLY her mouth from its original tiny closed smile into a moderately open rounded talking shape. Preserve the original mouth CENTER and petite scale appropriate to this face, a little wider than the half-open shape but never a scream. Keep a clean brown anime outline, muted rose mouth interior, small pale pink tongue, no thick white tooth bar or realistic lips. Keep both original eyes fully open EXACTLY with their original shapes/positions and original asymmetrical white highlights, and keep eyebrows UNCHANGED. No new emotion, head tilt, face shape, body pose or props. Preserve everything else.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1144,
+      "height": 1375,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 845463,
+      "sha256": "a5e9d39b6e1f51b5d0190ddb85c2e84ddfac8026df99caa2e1834c1a553f81ed"
+    }
+  ],
+  "status": "static_facial_differences_not_live2d_rig",
+  "canonical_sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+  "alignment": {
+    "blink": [
+      -4,
+      0
+    ],
+    "mouth-half": [
+      -1,
+      0
+    ],
+    "mouth-open": [
+      -1,
+      0
+    ],
+    "method": "Local template matching on unchanged nose/chin/collar/cheek; display translation only, no PNG resampling"
+  }
+}

@@ -1,0 +1,100 @@
+{
+	"blend_shape": {
+		"count": 1,
+		"name": "ExpressionProbe",
+		"weight": 0.400000005960464
+	},
+	"checks": {
+		"blend_shape_weight": true,
+		"hinge_exercised": true,
+		"hinge_limits_respected": true,
+		"jolt_selected": true,
+		"npr_shader_resources_parse": true,
+		"physical_bones_bound": true,
+		"physical_bones_drive_skeleton": true,
+		"physical_bones_simulate": true,
+		"rigid_body_contact": true,
+		"rigid_body_no_floor_tunneling": true,
+		"rigid_body_rest_height": true,
+		"soft_body_deforms_under_gravity": true,
+		"soft_body_pins": true,
+		"two_bone_ik_reaches_target": true
+	},
+	"drop": {
+		"center_y": 0.200000002980232,
+		"floor_contacts": 1,
+		"minimum_center_y": 0.200000002980232,
+		"sleeping": true
+	},
+	"engine_version": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"headless": true,
+	"hinge": {
+		"final_angle": 0.250328212976456,
+		"limit": 0.35,
+		"maximum_angle": 0.350589543581009
+	},
+	"passed": true,
+	"physical_bones": {
+		"bone_ids": [
+			0,
+			1
+		],
+		"final_root_y": 0.698814570903778,
+		"final_skeleton_root_y": 0.898814558982849,
+		"initial_root_y": 2.29999995231628,
+		"simulating": true
+	},
+	"physics_setting": "Jolt Physics",
+	"samples": 960,
+	"scope": "Small primitive physics/API fixture, not character-art, animation quality, garment quality or whole-body balance acceptance",
+	"shader": {
+		"outline": {
+			"gpu_compile_verified": false,
+			"loaded": true,
+			"mode": 0,
+			"uniforms": [
+				"outline_width",
+				"outline_color"
+			]
+		},
+		"rendered_pixels_verified": false,
+		"toon": {
+			"gpu_compile_verified": false,
+			"loaded": true,
+			"mode": 0,
+			"uniforms": [
+				"base_color",
+				"shadow_threshold",
+				"highlight_threshold"
+			]
+		}
+	},
+	"soft_body": {
+		"free_point": [
+			-1.09984958171844,
+			1.56974291801453,
+			-2.417405128479
+		],
+		"free_point_drop": 0.630161285400391,
+		"pin_0": true,
+		"pin_0_drift": 0.00000137994732085645,
+		"pin_6": true,
+		"pin_6_drift": 0.00000137994732085645,
+		"point_count": 49
+	},
+	"two_bone_ik": {
+		"class": "TwoBoneIK3D",
+		"end_target_error": 0.000000133280039449346,
+		"samples": 961
+	}
+}

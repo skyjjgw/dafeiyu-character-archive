@@ -1,0 +1,125 @@
+{
+  "tool": "built-in imagegen",
+  "created_on": "2026-10-25",
+  "direction_acceptance": {
+    "status": "用户表示“可以了”，接受v2两张的首版外观方向",
+    "accepted_references": [
+      "concepts/v2/D-anime-fullbody.png",
+      "concepts/v2/E-anime-closeup.png"
+    ],
+    "new_production_assets_status": "本轮派生制作参考，尚非逐图最终定稿"
+  },
+  "assets": [
+    {
+      "id": "neutral-front",
+      "title": "正面中性透明立绘",
+      "file": "neutral-front.png",
+      "status": "flat_reference_not_separated",
+      "source_path": "E:/CodexData/Users/skyjj/.codex/generated_images/01a17213-eb64-70f1-aadc-491d8c4cdcf2/exec-596ee6aa-e877-46f9-a4c6-aee4f10c1b33.png",
+      "generation": {
+        "prompt": "Use case: identity-preserve.\nReframe the provided transparent full-body whale maid illustration for use as a neutral character reference. Preserve this exact character design, exact front-facing neutral pose, round face, closed tiny mouth, eyes, outfit, hair colors, cel-shaded linework and tail. Do not redesign or change the expression.\nThe sole correction is SAFE FRAMING: put the entire character at a SMALLER SCALE in the CENTER of a much more spacious portrait canvas. Empty fully transparent alpha border must occupy AT LEAST FIFTEEN PERCENT of the final canvas on ALL FOUR sides. Highest ahoge, widest hair/ears, outer tail fin and bottom of shoes must all be safely away from image edges. Show the complete pair of shoes and curved ahoge with nothing cropped. Keep ALL character pixels and antialiasing comfortably inside that central 70 percent region. Do not fill the new margins by enlarging the character.\nNo background, floor or cast shadow. Actual transparency, not a painted checkerboard. No labels, watermark, text or additional features. Deliver one intact centered full-body PNG illustration with the generous transparent empty border, ready for future material separation.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front-draft.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1144,
+      "height": 1375,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox_alpha_gt_16": [
+        235,
+        242,
+        970,
+        1137
+      ],
+      "visible_margins_px": [
+        235,
+        242,
+        174,
+        238
+      ],
+      "transparent_corners": true,
+      "bytes": 824663,
+      "sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14"
+    },
+    {
+      "id": "expressions",
+      "title": "六种表情设计参考",
+      "file": "expression-reference.png",
+      "status": "reference_sheet_not_runnable_expression_files",
+      "source_path": "E:/CodexData/Users/skyjj/.codex/generated_images/01a17213-eb64-70f1-aadc-491d8c4cdcf2/exec-c23d2e99-038b-46c8-823e-f6eef0412d62.png",
+      "generation": {
+        "id": "expressions",
+        "prompt": "Use case: stylized-concept.\nCreate a clear expression reference sheet for the SAME anime whale maid girl in the two attached user-approved images. Identity and costume must stay consistent; no redesign. Reference 1 fixes design/proportions; reference 2 fixes large blue eyes, broad round cheeks and anime linework.\nExactly SIX equal head-and-shoulder portraits in a tidy 3-column by 2-row grid, each facing DIRECTLY FORWARD at identical scale and camera angle. Keep complete ahoge/headband/fin ears in every portrait, generous margin and no overlap. White/very light neutral background. No text or captions; labels will be supplied outside the image.\nReading order: top-left NEUTRAL: open blue eyes, relaxed eyebrows, tiny closed mouth. Top-middle BLINK: both eyes naturally closed with relaxed eyebrows, same neutral closed mouth, no big smile. Top-right HAPPY: open happy blue eyes, slightly lifted eyebrows, cheerful small open smile. Bottom-left ANGRY: eyes open, eyebrows angled down toward nose, puffed displeased cheeks and small open speaking mouth; cute but clear anger. Bottom-middle SAD: eyebrows up at inner ends, watery open eyes and a tiny downturned closed mouth, restrained tears, not exaggerated facial distortion. Bottom-right SURPRISED: wide open blue eyes, raised eyebrows and a small rounded O mouth.\nPreserve broad round face, tiny nose dot, grouped dark cobalt/navy hair with lighter blue ends, curved ahoge, pointed central bangs, side blue bows, navy whale-fin ears with pale underside, white pleated maid headband, navy/white high-collared maid upper dress with dark bow and blue clasp. The face width, eye spacing, bangs, hair groups, accessories and outfit must be identical across all six portraits; ONLY eyebrows, eyelids, pupils, mouth and blush/tears change.\nMatch the references' clean anime episode cel shading: crisp dark blue-gray lines, simple large flat colors and restrained bounded shadows. Do not use painterly skin, oil paint, 3D toy texture or a sharper adult chin. No hands/props covering faces. No speech bubbles, decorative icons, extra mini faces, watermarks, other characters or UI.\nThis is a reference sheet for expression design, not separated model layers.",
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/concepts/v2/D-anime-fullbody.png",
+          "E:/zzz/dafeiyu-character-materials-20261025/concepts/v2/E-anime-closeup.png"
+        ]
+      },
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 2087297,
+      "sha256": "d2ad0d6e00124a3147ba9ba25284b880521c5fe7707b7a51b466dbb5d1805c97"
+    },
+    {
+      "id": "neutral-draft",
+      "title": "透明立绘初稿（留白不足）",
+      "file": "neutral-front-draft.png",
+      "status": "superseded_draft_kept_for_provenance",
+      "source_path": "E:/CodexData/Users/skyjj/.codex/generated_images/01a17213-eb64-70f1-aadc-491d8c4cdcf2/exec-ef2f2e6a-1aea-4b0e-bee4-c09a02d6e76b.png",
+      "generation": {
+        "id": "neutral",
+        "prompt": "Use case: identity-preserve.\nEdit the SAME anime whale maid girl in reference image 1 into a standard front-facing neutral full-body reference for later Live2D material separation. Image 1 is the user-approved full-body design; image 2 is supporting facial identity. Keep her recognisably identical; do not redesign her.\nChange only: remove all room/background, use real alpha transparency; straighten her head and torso to face directly forward, level eye line; both blue eyes fully open, eyebrows relaxed, tiny gently closed neutral mouth. Both short arms rest slightly away from her sides so hands and sleeves are visible independently. Feet visible and separated. No raised hand, tilt, action pose or strong perspective. Keep short compact torso/legs, wide rounded face, big simple blue eyes, same blue grouped hair, curved ahoge, pleated white maid headband, blue side bows, horizontal navy whale-fin ears with pale lower trim, navy long-sleeved maid dress, collar bow and blue clasp, white apron straps, white scalloped apron with blue whale emblem, layered short skirt, striped short socks and dark shoes. One thick whale tail curves to the side with the entire tail and flukes visible.\nDrawing style MUST stay the same as reference 1: clean precise dark blue-gray anime contours, clear cel-shaded color areas and restrained gradients. Maintain all existing proportions and accessory shapes. Do not elongate her body or shrink the head. Neutral even light with no external cast shadow.\nFraming: portrait canvas with comfortable 10 percent empty transparent safety space ABOVE the highest ahoge, BELOW the shoes, and outside the widest hair/whale tail on both sides. All character pixels fully inside image; do not crop any feature. Full body occupies about 80 percent of image height. Keep natural neutral front pose suitable for tracing and material separation.\nDeliver ONE intact illustration, not an exploded diagram or part sheet. Truly transparent background, no checkerboard artwork, no floor, no scenery, no text or labels, no props, no frame or watermark. Do not add gold ornaments, extra characters or new clothes.",
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/concepts/v2/D-anime-fullbody.png",
+          "E:/zzz/dafeiyu-character-materials-20261025/concepts/v2/E-anime-closeup.png"
+        ]
+      },
+      "width": 1144,
+      "height": 1375,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox_alpha_gt_16": [
+        66,
+        34,
+        1114,
+        1338
+      ],
+      "visible_margins_px": [
+        66,
+        34,
+        30,
+        37
+      ],
+      "transparent_corners": true,
+      "bytes": 1464446,
+      "sha256": "9ae38559ce18f147dbace987a2fa0031dcbe6e962262fbe3419c6d579b7d169c"
+    }
+  ],
+  "expression_reading_order": [
+    "neutral",
+    "blink",
+    "happy",
+    "angry",
+    "sad",
+    "surprised"
+  ],
+  "stage": "art_reference_prepared_material_separation_pending",
+  "not_yet_created": [
+    "layered PSD",
+    "editable Cubism cmo3",
+    "compiled moc3/model3 package",
+    "character animation renderer",
+    "audio-driven lip sync"
+  ]
+}

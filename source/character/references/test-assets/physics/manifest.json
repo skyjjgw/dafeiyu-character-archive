@@ -1,0 +1,105 @@
+{
+  "purpose": "Read-only reference fixtures for comparison and numeric/Godot tests; downloaded source was not executed, built, or migrated into product code.",
+  "files": [
+    {
+      "path": "jolt/LICENSE",
+      "source": "https://github.com/jrouwe/JoltPhysics/blob/5d5275c38074c44b14f38b85bc9c73573078c808/LICENSE",
+      "commit": "5d5275c38074c44b14f38b85bc9c73573078c808",
+      "license": "MIT",
+      "bytes": 1052,
+      "sha256": "800ABE35D64AD9DEFD636FF1EE8C961E06F0EBCA3EF8D10083E8AA0E8EF86AC3",
+      "fixture": "license text"
+    },
+    {
+      "path": "jolt/Samples__Tests__SoftBody__SoftBodyBendConstraintTest.cpp",
+      "source": "https://github.com/jrouwe/JoltPhysics/blob/5d5275c38074c44b14f38b85bc9c73573078c808/Samples/Tests/SoftBody/SoftBodyBendConstraintTest.cpp",
+      "commit": "5d5275c38074c44b14f38b85bc9c73573078c808",
+      "license": "MIT (SPDX header; repository LICENSE included)",
+      "bytes": 8368,
+      "sha256": "2EBB8C82E3071E70B2CDA6C827995031091AA30482ECDF178D81632157E7E133",
+      "fixture": "cloth bend constraint comparison source; not executed"
+    },
+    {
+      "path": "jolt/Samples__Tests__SoftBody__SoftBodyBendConstraintTest.h",
+      "source": "https://github.com/jrouwe/JoltPhysics/blob/5d5275c38074c44b14f38b85bc9c73573078c808/Samples/Tests/SoftBody/SoftBodyBendConstraintTest.h",
+      "commit": "5d5275c38074c44b14f38b85bc9c73573078c808",
+      "license": "MIT (SPDX header; repository LICENSE included)",
+      "bytes": 773,
+      "sha256": "244B0DDD897A0F74B19B2D148FB999FC1239B7AE044003B8FE28F7E5938BE730",
+      "fixture": "parameter definitions"
+    },
+    {
+      "path": "jolt/Samples__Utils__SoftBodyCreator.cpp",
+      "source": "https://github.com/jrouwe/JoltPhysics/blob/5d5275c38074c44b14f38b85bc9c73573078c808/Samples/Utils/SoftBodyCreator.cpp",
+      "commit": "5d5275c38074c44b14f38b85bc9c73573078c808",
+      "license": "MIT (SPDX header; repository LICENSE included)",
+      "bytes": 4632,
+      "sha256": "03080DB7E6FBC88576592D39BC87A52404A6322B4D59FD642B6186D05FC09BEA",
+      "fixture": "cloth topology generation source; not executed"
+    },
+    {
+      "path": "jolt/Samples__Utils__SoftBodyCreator.h",
+      "source": "https://github.com/jrouwe/JoltPhysics/blob/5d5275c38074c44b14f38b85bc9c73573078c808/Samples/Utils/SoftBodyCreator.h",
+      "commit": "5d5275c38074c44b14f38b85bc9c73573078c808",
+      "license": "MIT (SPDX header; repository LICENSE included)",
+      "bytes": 1705,
+      "sha256": "8A7828B98E99C0AE76F2F1C7C429D02F331148CC91DBAE73DCF78942287BB12A",
+      "fixture": "cloth creator interface"
+    },
+    {
+      "path": "ten-minute-physics/14-cloth.html",
+      "source": "https://github.com/matthias-research/pages/blob/bfc4b63667c7e3ef683a7d6491c26f13c7e0d831/tenMinutePhysics/14-cloth.html",
+      "commit": "bfc4b63667c7e3ef683a7d6491c26f13c7e0d831",
+      "license": "MIT (license notice embedded in source: Copyright 2022 Matthias Müller)",
+      "bytes": 259373,
+      "sha256": "8B375329BEAD6AEAE54F619AA381D87C67849F58E0D2C01276E65F73A64C2376",
+      "fixture": "self-contained chapter source for cloth simulation; not executed; references Three.js 0.139.2 from unpkg if run"
+    },
+    {
+      "path": "ten-minute-physics/15-selfCollision.html",
+      "source": "https://github.com/matthias-research/pages/blob/bfc4b63667c7e3ef683a7d6491c26f13c7e0d831/tenMinutePhysics/15-selfCollision.html",
+      "commit": "bfc4b63667c7e3ef683a7d6491c26f13c7e0d831",
+      "license": "MIT (license notice embedded in source: Copyright 2022 Matthias Müller)",
+      "bytes": 26465,
+      "sha256": "8751A467B4A0DF77EBB7C941247F60F057866DB4058C6CD9A57E12DDBFF87F38",
+      "fixture": "self-collision chapter source; not executed; references Three.js 0.139.2 from unpkg if run"
+    }
+  ],
+  "comparison_parameters": {
+    "jolt_soft_body_bend_test": {
+      "grid_vertices_x": 10,
+      "grid_vertices_z": 10,
+      "vertex_spacing": 0.5,
+      "inverse_mass": "0 for z<2, otherwise 1",
+      "random_seed": 1234,
+      "perturbation": "X/Z uniform[-0.1,0.1]; Y alternates -0.1/+0.1 by z parity",
+      "bend_variants": [
+        "None",
+        "Distance",
+        "Dihedral"
+      ]
+    },
+    "ten_minute_physics_15": {
+      "grid_vertices_x": 30,
+      "grid_vertices_y": 200,
+      "vertices": 6000,
+      "triangles": 11542,
+      "spacing": 0.01,
+      "thickness": 0.01,
+      "source_observation": "values are initialized in initPhysics in saved chapter source; mesh is generated procedurally by Cloth, not loaded from clothMesh.js",
+      "triangleCountDerivation": "The actual source pushes 2 triangles only when i<numX-1 and j<numY-1: 2*29*199=11542, not 2*numParticles.",
+      "randomness": "Original jitter uses Math.random without a fixed seed; any seeded reproduction must be labelled an adaptation.",
+      "collisionScope": "Particle/hash self-contact with numerical velocity limiting in the tutorial; not vertex-face/edge-edge continuous collision acceptance."
+    }
+  },
+  "not_downloaded": [
+    {
+      "item": "clothMesh.js",
+      "status": "not found in the pinned repository tree and not referenced by chapter 15; chapter builds grid procedurally. No separate mesh data file was downloaded."
+    },
+    {
+      "item": "PBD InteractiveComputerGraphics/PositionBasedDynamics samples",
+      "status": "not included in this light-weight fixture pass; can add separately after exact files and license scope are pinned."
+    }
+  ]
+}

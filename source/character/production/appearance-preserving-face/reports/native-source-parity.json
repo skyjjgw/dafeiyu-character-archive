@@ -1,0 +1,69 @@
+{
+	"authority": "http://127.0.0.1:4348/character-preview.html",
+	"byAttribute": {
+		"color": {
+			"components": 836528,
+			"maxError": 0.0,
+			"unequal": 0
+		},
+		"position": {
+			"components": 1630596,
+			"maxError": 0.0,
+			"unequal": 0
+		},
+		"uv": {
+			"components": 295152,
+			"maxError": 0.0,
+			"unequal": 0
+		}
+	},
+	"byMesh": {
+		"continuous smile contour": 0.0,
+		"continuously deforming skin around mouth": 0.0,
+		"continuously opening mouth cavity": 0.0,
+		"left deforming skin eyelid": 0.0,
+		"left exposed sclera": 0.0,
+		"left moving eyelid crease": 0.0,
+		"left moving lower eyelash": 0.0,
+		"left moving upper eyelash": 0.0,
+		"left pointed outer lashes": 0.0,
+		"left sampled original iris": 0.0,
+		"right deforming skin eyelid": 0.0,
+		"right exposed sclera": 0.0,
+		"right moving eyelid crease": 0.0,
+		"right moving lower eyelash": 0.0,
+		"right moving upper eyelash": 0.0,
+		"right pointed outer lashes": 0.0,
+		"right sampled original iris": 0.0,
+		"tongue inside opening": 0.0
+	},
+	"components": 2762276,
+	"depthOverrideReversible": true,
+	"dynamic_meshes": 18,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"kernelMeanMs": 3.33567954545454,
+	"kernelWorstMs": 4.894,
+	"maxError": 0.0,
+	"maxULP": 0,
+	"passed": true,
+	"schema": "dafeiyu.selected-face-native-parity.v1",
+	"sourceHashes": {
+		"face.js": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8",
+		"profile-volume.js": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8"
+	},
+	"source_default": true,
+	"states": 44,
+	"unequalFloat32Bits": 0,
+	"unequalFloat32Components": 0,
+	"visibilityMismatches": 0
+}

@@ -1,0 +1,23 @@
+[
+	{
+		"height": 1080,
+		"index": 0,
+		"name": "decoded-source-0.rgba8",
+		"sourceSha256": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+		"width": 1920
+	},
+	{
+		"height": 1375,
+		"index": 1,
+		"name": "decoded-source-1.rgba8",
+		"sourceSha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+		"width": 1144
+	},
+	{
+		"height": 770,
+		"index": 2,
+		"name": "decoded-source-2.rgba8",
+		"sourceSha256": "408f5df1b2a7a58689201ce2d34f3be3d9fe359e5f6ffc4cff9c95f18b84ea34",
+		"width": 2043
+	}
+]

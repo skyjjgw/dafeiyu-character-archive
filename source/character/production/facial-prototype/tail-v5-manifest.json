@@ -1,0 +1,92 @@
+{
+  "revision": 5,
+  "tool": "built-in imagegen",
+  "request": "参考这个（最新冬装蓝色尾巴截图）",
+  "file": "assets/tail-v5/tail-blue-reference.png",
+  "generated_source_path": "E:/CodexData/Users/skyjj/.codex/generated_images/01a17213-eb64-70f1-aadc-491d8c4cdcf2/exec-0afd5bab-8fe3-459c-9629-8240e2461824.png",
+  "generation": {
+    "prompt": "Use case: precise-object-edit.\nInput image 1 is the edit target: a transparent full-body blue-haired whale maid with a corrected double-fluked tail. Input image 2 is the NEW USER-PRIORITY COLOR REFERENCE: a small winter-clothed blue-haired character in a snowy night scene. Look specifically at her whale tail along the bottom right of image 2. ONLY recolor the whale tail of image 1 to match that reference. Do not copy the winter outfit or night background.\nThe previous tail edit became too neutral purple-gray, with a conspicuous wide light gray-lavender belly stripe. The new reference instead shows a coherent cool muted INDIGO/BLUE tail, with soft lighter BLUE planes, deep navy outline and blue shadows. Restore that blue family. Tail upper surface: restrained slate/navy blue, approximate neutral-light guide #344D7E to #3C588B. Tail lighter underside and fluke planes: softly desaturated medium blue/periwinkle-blue, approximate #59749F to #687EAA. Deep shadows #283D67. These approximate guides must be interpreted through the reference, not flat uniform fills. Keep cel-shaded volume and a subtle restrained highlight. Make the color transition between upper and underside softer and lower-contrast than the current gray belly strip. The underside must read as the SAME BLUE MATERIAL, not a gray or white ribbon. No bright cyan, turquoise, electric rim light or neon gradient.\nGeometry invariants: preserve the exact current root, curved tapering tail stalk, two fluke lobes, central notch, silhouette, lineart, position, pose, scale, and all transparent margins. Recolor only; do not reshape, move, enlarge or shorten the tail. Do not add stripes or decorative elements.\nPreserve everything outside the tail, including canonical face, eyes, brows, mouth, skin, grouped blue hair and its cyan tips, ears, headband, bows, black/navy-and-white maid outfit, apron whale emblem, hands, legs, shoes, exact canvas framing. Do not globally apply blue night lighting or recolor the girl. No added fur or winter clothes. One full-body illustration with actual transparent alpha background; no scene, text, labels, watermark or checkerboard artwork.",
+    "referenced_image_paths": [
+      "E:/zzz/dafeiyu-character-materials-20261025/production/facial-prototype/assets/tail-v4/tail-color-corrected.png",
+      "E:/zzz/dafeiyu-character-materials-20261025/references/user/tail-color-reference-v5.png"
+    ],
+    "transparent_background": true
+  },
+  "reference": "../../references/user/tail-color-reference-v5.png",
+  "fixes": [
+    "以用户最新冬装截图为尾部配色优先参考",
+    "尾巴整体改为冷靛蓝与柔和蓝色亮面",
+    "降低原先灰紫腹面色带的对比",
+    "保留双瓣鲸尾和原五官局部组合"
+  ],
+  "scope": "局部尾部组合，canonical原五官和corrected-v2脸部差分不变",
+  "status": "tail_blue_palette_static_prototype",
+  "sha256": "ef2fe06235fbe1915bd59d233cbee49a2e1ec558f3d40ebdb1d5e2be8d9a12a1",
+  "bytes": 1158908,
+  "width": 1144,
+  "height": 1375,
+  "render_layout": {
+    "file": "assets/tail-v5/tail-blue-reference.png",
+    "width": 1144,
+    "height": 1375,
+    "matrix": [
+      0.7956183,
+      -0.000327,
+      0.000327,
+      0.7956183,
+      114.3206,
+      132.1949
+    ],
+    "replacement_polygon": [
+      [
+        700,
+        930
+      ],
+      [
+        815,
+        930
+      ],
+      [
+        815,
+        860
+      ],
+      [
+        1120,
+        860
+      ],
+      [
+        1120,
+        1120
+      ],
+      [
+        700,
+        1120
+      ],
+      [
+        700,
+        1080
+      ],
+      [
+        675,
+        1080
+      ],
+      [
+        675,
+        992
+      ],
+      [
+        700,
+        992
+      ]
+    ],
+    "sha256": "ef2fe06235fbe1915bd59d233cbee49a2e1ec558f3d40ebdb1d5e2be8d9a12a1",
+    "status": "static_blue_palette_and_shape_correction_not_physics_rig",
+    "revision": 5
+  },
+  "alignment": {
+    "method": "SIFT unchanged-art anchors and RANSAC similarity; SVG display transform only; PNG not resampled",
+    "inliers": 248,
+    "matches": 367,
+    "canonical_sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14"
+  }
+}

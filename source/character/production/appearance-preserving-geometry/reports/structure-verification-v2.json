@@ -1,0 +1,423 @@
+{
+  "schema": "dafeiyu.continuous-head-verification.v2",
+  "scope": "Numerical structure/projection checks, not visual acceptance or collision certification",
+  "sourceProjection": [
+    {
+      "name": "curved face with genuine eye and mouth openings",
+      "sourceVertices": 77568,
+      "maxXY": 0,
+      "maxInferredZDifference": 0.10815000534057617
+    },
+    {
+      "name": "closed rounded back of skull",
+      "sourceVertices": 19041,
+      "maxXY": 5.960464477539063e-8,
+      "maxInferredZDifference": 0.11433638632297516
+    }
+  ],
+  "retainedVisibleAttributes": [
+    {
+      "name": "reference skin, nose and cheek paint only",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        },
+        "uv": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "continuous short rounded chin contour",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "left deforming skin eyelid",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        },
+        "color": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "left sampled original iris",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        },
+        "uv": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "left moving upper eyelash",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "left pointed outer lashes",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "left moving lower eyelash",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "left moving eyelid crease",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "right deforming skin eyelid",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        },
+        "color": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "right sampled original iris",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        },
+        "uv": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "right moving upper eyelash",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "right pointed outer lashes",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "right moving lower eyelash",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "right moving eyelid crease",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "continuously deforming skin around mouth",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        },
+        "color": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "tongue inside opening",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    },
+    {
+      "name": "continuous smile contour",
+      "attributes": {
+        "position": {
+          "maxProjectedXYOrAttributeDifference": 0
+        }
+      }
+    }
+  ],
+  "globeFront": [
+    {
+      "name": "left closed source-fitted ocular globe",
+      "maxNeutralSourceFrontXY": 0,
+      "topology": {
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "signedVolume": 0.006639555596632305,
+        "orientable": true
+      }
+    },
+    {
+      "name": "right closed source-fitted ocular globe",
+      "maxNeutralSourceFrontXY": 0,
+      "topology": {
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "signedVolume": 0.00501563601896551,
+        "orientable": true
+      }
+    }
+  ],
+  "states": [
+    {
+      "input": {},
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 75.55690000000004
+    },
+    {
+      "input": {
+        "blink": 0
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 78.21219999999994
+    },
+    {
+      "input": {
+        "blink": 0.1
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 83.07909999999993
+    },
+    {
+      "input": {
+        "blink": 0.2
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 76.85050000000001
+    },
+    {
+      "input": {
+        "blink": 0.3
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 63.473999999999705
+    },
+    {
+      "input": {
+        "blink": 0.4
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 68.13430000000017
+    },
+    {
+      "input": {
+        "blink": 0.5
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 63.76130000000012
+    },
+    {
+      "input": {
+        "blink": 0.6
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 60.42270000000008
+    },
+    {
+      "input": {
+        "blink": 0.7
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 64.63469999999961
+    },
+    {
+      "input": {
+        "blink": 0.8
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 66.47949999999992
+    },
+    {
+      "input": {
+        "blink": 0.9
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 59.471100000000206
+    },
+    {
+      "input": {
+        "blink": 1
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 60.92000000000007
+    },
+    {
+      "input": {
+        "talk": 0.5
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 72.32459999999992
+    },
+    {
+      "input": {
+        "talk": 1
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 68.26019999999971
+    },
+    {
+      "input": {
+        "mood": "happy",
+        "talk": 1,
+        "blink": 0.5,
+        "gazeX": 1,
+        "gazeY": -1
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 61.35530000000017
+    },
+    {
+      "input": {
+        "mood": "sad",
+        "talk": 0.6,
+        "blink": 0.3,
+        "gazeX": -1,
+        "gazeY": 1
+      },
+      "finite": true,
+      "indexCount": 250368,
+      "vertexCount": 41730,
+      "retainedXYDifference": 0,
+      "bodyBoneMatrixDifference": 0,
+      "totalSourceAndCandidateUpdateMs": 64.64840000000004
+    }
+  ],
+  "failures": [],
+  "headTopology": {
+    "components": 1,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "orientable": true,
+    "signedVolume": 0.4624262926396666,
+    "note": "Mouth closure can have intentional contact/collapsed triangles in neutral. No self-intersection or dynamic collision certification."
+  },
+  "maxInferredFrontZRepair": 0.0035998616367578506,
+  "depthPolicy": {
+    "schema": "dafeiyu.selected-depth-policy.v2",
+    "parameters": {
+      "strength": 1,
+      "noseProjection": 0,
+      "lipProjection": 0,
+      "chinProjection": 0,
+      "noseCenterX": 0.066,
+      "lipCenterX": 0.035,
+      "noseWidth": 0.095,
+      "lipWidth": 0.16,
+      "cheekExponent": 0.5
+    },
+    "maxSourceDepthDelta": 0.11433639159164588,
+    "sourceXY": "unchanged",
+    "sourceUV": "unchanged",
+    "originalDefaultKernelCompatible": false,
+    "notes": [
+      "All facial drawing surfaces follow the same new frontZ with their original small depth offsets.",
+      "Back skin uses the same sampled color field as the front; no new face painting or iris pixels.",
+      "The depth guide is inferred, not original-author 3D truth."
+    ]
+  },
+  "unverified": [
+    "Actual GPU front pixel comparison remains required.",
+    "Closed orientable topology does not prove absence of all self-intersections.",
+    "Mouth is intentionally a contact seam at neutral; open mouth and tongue are not certified dental/tongue anatomy.",
+    "No collision or soft-tissue dynamics have been implemented by this head candidate.",
+    "Eye volume keeps the old front cap; gaze still follows the selected artwork projection rather than a fully rotating physiological eyeball."
+  ],
+  "passed": true
+}

@@ -1,0 +1,166 @@
+{
+  "schema": "dafeiyu.selected-motion-review.v1",
+  "date": "2026-10-28",
+  "scope": "Current code provenance and fresh headless control check; not final visual or GPU acceptance",
+  "files": [
+    {
+      "path": "motion_scene.gd",
+      "sha256": "14fd4ceba1cde5d6abaf90ff6263f54e3a16ad1af20b60dc9b8e82ed3b58f2d7"
+    },
+    {
+      "path": "motion_controller.gd",
+      "sha256": "efa50d2bfac4867ed05811e0786b138f19dd54929361d6ec5616657a7d871c1d"
+    },
+    {
+      "path": "motion_rig.gd",
+      "sha256": "72f97858f4a1211740e0b684efaba9cd9c2e83c8d32b5cf93209b67e8b6ee5cf"
+    },
+    {
+      "path": "motion_asset.gd",
+      "sha256": "d0e1f2e692d07fb1c49c92d4bd8d21028367b8bd04be77a0cdceb9bd7418b903"
+    },
+    {
+      "path": "motion_checks.gd",
+      "sha256": "5524777680ef0677bfcd3f41ffc870f1d9c15e3872f3be95d289cbc6663174ba"
+    },
+    {
+      "path": "Run-Motion.ps1",
+      "sha256": "82d8d0704dbd035a9b7109348ae3a6f31c1d93801dc9899600901804dfde367c"
+    },
+    {
+      "path": "assets/motion-rig.json",
+      "sha256": "e15645925a8e62234c47e13b66fde49621def94d04e361909336b76e2241c388"
+    },
+    {
+      "path": "assets/selected-appearance.glb",
+      "sha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078"
+    },
+    {
+      "path": "reports/motion-headless-checks.json",
+      "sha256": "1f876acfa4a8dc7a9f896967fe8a55e0fe119ed5cedabea95242d881714dac72"
+    },
+    {
+      "path": "reports/motion-headless.stdout.log",
+      "sha256": "2332228e236942da0a66bb414bc74cb84b80738430fa3777b6e5ed2d563c6673"
+    },
+    {
+      "path": "reports/motion-headless.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "E:/zzz/dafeiyu-dsh-panel/hud/character-entry.js",
+      "matched": true,
+      "expectedSha256": "7f425ae454f3928df54e60d42909b70be5124ad554bd3af89486ad1cb94a6a6b"
+    },
+    {
+      "path": "E:/zzz/dafeiyu-dsh-panel/scripts/build-character.mjs",
+      "matched": true,
+      "expectedSha256": "b303cc2dc3d9860da0456d48d5336a61184e42a17ae5be492c281fa3cd8a6160"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\app.js",
+      "matched": true,
+      "expectedSha256": "06faa2f0f89d2af085c04d660f4528e07acc547dece60cc4682a26b1fb318c12"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\body-full.js",
+      "matched": true,
+      "expectedSha256": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\body.js",
+      "matched": true,
+      "expectedSha256": "f048c225d9c99083d4488419d587991ef13bab2e59f92e3fab75f5dbffe0fcee"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\character.js",
+      "matched": true,
+      "expectedSha256": "f5c9383466f268f228af48ed9b33243a8aac4063417993a6c8ce18ef42812d95"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\face.js",
+      "matched": true,
+      "expectedSha256": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\hair.js",
+      "matched": true,
+      "expectedSha256": "095319ae6f67c68d9f7935fea3d46d7a5b6f3bb88d0ee4c754aa7d2d9d87b40b"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\performance.js",
+      "matched": true,
+      "expectedSha256": "30412dbf3abb38860c73c9333bfdafbcf4f71f7a21a978fa1b49ac8715702d44"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\profile-volume.js",
+      "matched": true,
+      "expectedSha256": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\rear-hair.js",
+      "matched": true,
+      "expectedSha256": "ce8b1430690eb356a8eab911c5cc40fd5ad98beb492f2f9cbaa4d84cab72d7d0"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\secondary-motion.js",
+      "matched": true,
+      "expectedSha256": "afb65b07d2ff06a93be5271b12cb55536ca99c596d36187f08f3c9e752171c98"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\stage.js",
+      "matched": true,
+      "expectedSha256": "9a132abc8558a428eda3c010fb08a44eed7fadc7fd12c0587c4a47ce3a8b8301"
+    }
+  ],
+  "faceRuntimeFiles": [
+    {
+      "path": "face_adapter.gd",
+      "matched": true
+    },
+    {
+      "path": "bin/selected_face_kernel.windows.release.x86_64.dll",
+      "matched": true
+    },
+    {
+      "path": "source-equations.json",
+      "matched": true
+    },
+    {
+      "path": "source-descriptors.json",
+      "matched": true
+    },
+    {
+      "path": "selected_face_kernel.gdextension",
+      "matched": true
+    }
+  ],
+  "sourceAllMatched": true,
+  "faceAllMatched": true,
+  "headless": {
+    "scope": "Headless real-time rig/physics control checks only; no GPU/render/visual acceptance",
+    "wallSeconds": 30.957234,
+    "simulationSeconds": 31.0041666666652,
+    "physicsTicks": 7436,
+    "gpuRendered": false,
+    "checks": {
+      "all_pose_delta_under_0_05rad_per_tick": true,
+      "bone_length_under_0_02mm": true,
+      "cancel_delta_under_0_05rad_per_tick": true,
+      "jerk_bounded_3_01m_s3": true,
+      "root_floor_penetration_under_1mm": true,
+      "support_slip_under_1mm": true,
+      "velocity_delta_under_0_005m_s_per_tick": true
+    },
+    "pass": true,
+    "maxSupportSlip": 0.0000581724088988267
+  },
+  "visual": {
+    "rootNeutralScreenshot": "reports/cua-selected-motion-neutral-20261028.png",
+    "motionButtonFlowThisRound": "Not inspected due active user control; window retained",
+    "side90": "FAIL: old hair, clothes, shoe thin-layer defects remain",
+    "fullCompletion": false
+  }
+}

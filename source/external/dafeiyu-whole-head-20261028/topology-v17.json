@@ -1,0 +1,202 @@
+[
+  {
+    "name": "FACE__continuous head skin sockets oral lining and neck",
+    "vertices": 11485,
+    "faces": 15480,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "FACE__left closed source-fitted ocular globe",
+    "vertices": 2690,
+    "faces": 5376,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "FACE__right closed source-fitted ocular globe",
+    "vertices": 2690,
+    "faces": 5376,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__bang_center",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__bang_swept_-1",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__bang_swept_1",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_-1_0",
+    "vertices": 2024,
+    "faces": 4044,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_-1_1",
+    "vertices": 2096,
+    "faces": 4188,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_-1_2",
+    "vertices": 1747,
+    "faces": 3488,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_1_0",
+    "vertices": 2024,
+    "faces": 4044,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_1_1",
+    "vertices": 2096,
+    "faces": 4188,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_1_2",
+    "vertices": 1747,
+    "faces": 3488,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__cheek_frame_-1",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__cheek_frame_1",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__closed_scalp_foundation",
+    "vertices": 7680,
+    "faces": 7680,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_0",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_1",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_2",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_3",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_4",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_5",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_6",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__inner_curl_-1",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__inner_curl_1",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  },
+  {
+    "name": "HAIR__whale_ahoge",
+    "vertices": 1300,
+    "faces": 1282,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "loose": 0
+  }
+]

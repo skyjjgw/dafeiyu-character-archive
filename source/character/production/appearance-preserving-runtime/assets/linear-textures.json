@@ -1,0 +1,44 @@
+[
+  {
+    "height": 1080,
+    "index": 0,
+    "name": "decoded-source-0.rgba8",
+    "sourceSha256": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+    "width": 1920,
+    "linearCache": "source-linear-0.rgba16f",
+    "decodedRGBA8Sha256": "45cea8f653deb693f7c9a8ed9237377eb372f877eeaa73f7f6e7d1c07b55d0ba",
+    "linearCacheSha256": "38e185a68c3e64f9c01eb26a0c1267e284ccd4ddebaeefc85574218c8ed2a80b",
+    "bytes": 16588800,
+    "format": "RGBA16F",
+    "rgb": "exact standard sRGB inverse transfer then float16 encoding; no artistic color correction",
+    "alpha": "original normalized linear alpha"
+  },
+  {
+    "height": 1375,
+    "index": 1,
+    "name": "decoded-source-1.rgba8",
+    "sourceSha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+    "width": 1144,
+    "linearCache": "source-linear-1.rgba16f",
+    "decodedRGBA8Sha256": "8f594944364473c9764e720758ec5c592d09ea43c2a707cba90a9f4dfe968e50",
+    "linearCacheSha256": "52817a784183eb0dd23284f932b1889d76c9767f760b75c09707fe7e8a0cc856",
+    "bytes": 12584000,
+    "format": "RGBA16F",
+    "rgb": "exact standard sRGB inverse transfer then float16 encoding; no artistic color correction",
+    "alpha": "original normalized linear alpha"
+  },
+  {
+    "height": 770,
+    "index": 2,
+    "name": "decoded-source-2.rgba8",
+    "sourceSha256": "408f5df1b2a7a58689201ce2d34f3be3d9fe359e5f6ffc4cff9c95f18b84ea34",
+    "width": 2043,
+    "linearCache": "source-linear-2.rgba16f",
+    "decodedRGBA8Sha256": "84aee2dd7cf7fc3fcf5ff8ab03b4c07a8ec01db647895f65665278da7cf54c8e",
+    "linearCacheSha256": "7230669531dad641e867fa1b23fc7bc66c7c1141db14bda8cca272223ae35438",
+    "bytes": 12584880,
+    "format": "RGBA16F",
+    "rgb": "exact standard sRGB inverse transfer then float16 encoding; no artistic color correction",
+    "alpha": "original normalized linear alpha"
+  }
+]

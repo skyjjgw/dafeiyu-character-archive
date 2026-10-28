@@ -1,0 +1,81 @@
+{
+  "revision": 4,
+  "tool": "built-in imagegen",
+  "request": "尾巴颜色和参考的不太一样",
+  "file": "assets/tail-v4/tail-color-corrected.png",
+  "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-1e5b7d8a-988e-4498-9463-2e2496983c3d.png",
+  "generation": {
+    "prompt": "Use case: precise-object-edit.\nEdit target is image 1, the transparent blue-haired whale maid whose double-fluked whale TAIL silhouette has just been corrected. Image 2 is the user's color reference. Correct ONLY THE TAIL COLORS in image 1 to match the restrained tail palette of image 2.\nKeep the exact tail root, curved tapered stalk, two fluke lobes, central notch, outline, size, pose, location, existing upper/underside color-region boundaries and cel-shadow shapes. Do not reshape, rotate, move, enlarge or crop the tail.\nSpecific color correction: the current upper tail is too chromatically navy blue, and the underside stripe is far too vivid cyan/sky blue. In the reference, the upper tail is a deep muted blue-gray with a slight violet/slate undertone; its underside is a subdued gray-blue / gray-lavender, lighter than the upper surface but NOT luminous saturated blue.\nRecolor the upper tail in dark desaturated slate-indigo (rough neutral-light guide #383B50 to #45475A). Recolor the existing underside band in restrained cool gray-lavender / gray-blue (rough guide #777B89 in light, #626573 in shade). These are approximate neutral-light guides, not flat uniform fills; keep the original subtle cel shading and coherent volume. The reference is warmly lit, so do not tint the entire illustration yellow or brown to copy its lighting.\nThe tail must feel darker and grayer than the bright blue hair tips. No cyan belly, electric blue rim, turquoise glow, glossy neon gradients, bright white fabric-like underside or added stripes.\nPreserve EVERYTHING outside the tail: original face and eyes, brows, closed mouth, skin, blue hair including hair-tip saturation, maid headband and bows, ears, full outfit, apron emblem, hands, legs, shoes, posture, exact canvas and transparent margins. Do not globally desaturate the girl, change the background, alter the body, or add any new details.\nOne intact full-body illustration, actual transparent alpha background. No text, watermark, labels, UI or checkerboard artwork.",
+    "referenced_image_paths": [
+      "E:/zzz/dafeiyu-character-materials-20261025/production/facial-prototype/assets/tail-v3/tail-corrected.png",
+      "E:/zzz/dafeiyu-character-materials-20261025/references/user/reference-1.jpg"
+    ],
+    "transparent_background": true
+  },
+  "reference": "../../references/user/reference-1.jpg",
+  "fixes": [
+    "背面改为低饱和深灰蓝／紫灰",
+    "腹面改为柔和灰蓝／灰紫，去除亮青蓝",
+    "保留v3双瓣、缺口和尾柄轮廓"
+  ],
+  "scope": "应用仅局部替换尾部，canonical原五官和corrected-v2脸部差分不变",
+  "status": "tail_palette_correction_static_prototype",
+  "sha256": "e39e109feab8c77aa372c464e789821528ba8921912bfd7083c81524c8f6b1a9",
+  "bytes": 831410,
+  "width": 1144,
+  "height": 1375,
+  "render_layout": {
+    "file": "assets/tail-v4/tail-color-corrected.png",
+    "width": 1144,
+    "height": 1375,
+    "translate": [
+      -2,
+      -1
+    ],
+    "replacement_polygon": [
+      [
+        700,
+        930
+      ],
+      [
+        815,
+        930
+      ],
+      [
+        815,
+        860
+      ],
+      [
+        1120,
+        860
+      ],
+      [
+        1120,
+        1120
+      ],
+      [
+        700,
+        1120
+      ],
+      [
+        700,
+        1080
+      ],
+      [
+        675,
+        1080
+      ],
+      [
+        675,
+        992
+      ],
+      [
+        700,
+        992
+      ]
+    ],
+    "sha256": "e39e109feab8c77aa372c464e789821528ba8921912bfd7083c81524c8f6b1a9",
+    "status": "static_palette_and_shape_correction_not_physics_rig",
+    "revision": 4
+  }
+}

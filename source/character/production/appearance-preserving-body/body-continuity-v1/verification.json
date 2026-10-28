@@ -1,0 +1,66 @@
+{
+  "finalAccepted": false,
+  "glbSha256": {
+    "baseline": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+    "candidate": "3b8517cb0d6ea9f9cfdbdc014474be35559e6c3ba1c5e6cd8d0973dbfd5af057"
+  },
+  "candidateBodySourceSHA256": "2181b2e2eaa2ed843268b2d400a3c7ce5867c62a3eada96e55bd3aa2cf4b2ded",
+  "meshAttributesChanged": [
+    "left traced mary jane shoe",
+    "right traced mary jane shoe"
+  ],
+  "otherMeshIndicesIdentical": true,
+  "bodyJointsIdentical": true,
+  "shoes": {
+    "left traced mary jane shoe": {
+      "minXYZ": [
+        -0.39576923847198486,
+        -1.045230746269226,
+        -0.125
+      ],
+      "maxXYZ": [
+        -0.10769230872392654,
+        -0.7771801352500916,
+        0.32499998807907104
+      ],
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "areaBelow1e-9": 0,
+      "frontProjection": {
+        "positive": 720,
+        "negative": 0,
+        "edgeOn": 0
+      }
+    },
+    "right traced mary jane shoe": {
+      "minXYZ": [
+        0.0923076942563057,
+        -1.045230746269226,
+        -0.125
+      ],
+      "maxXYZ": [
+        0.380384624004364,
+        -0.7771801352500916,
+        0.32499998807907104
+      ],
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "areaBelow1e-9": 0,
+      "frontProjection": {
+        "positive": 720,
+        "negative": 0,
+        "edgeOn": 0
+      }
+    }
+  },
+  "limitations": [
+    "Visual and target-runtime review pending.",
+    "Side and back inferred; no movement or contact validation."
+  ],
+  "profileInterpolation": "shape-preserving cubic Hermite, C1; local maximum slope zero, no overshoot between profile points",
+  "profileSampleCheck": {
+    "samplesPerInterval": 101,
+    "overshootingIntervals": [],
+    "toeMaximumSlope": 0
+  }
+}

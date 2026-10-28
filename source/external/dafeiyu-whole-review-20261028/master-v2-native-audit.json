@@ -1,0 +1,3017 @@
+{
+  "source": "D:\\CodexTaskData\\dafeiyu-whole-form-20261028\\body\\whole-character-master-v2.blend",
+  "sha256": "90d29197780e82df651ad2b4244ac6573f15f545758a53cf2e329d19e53e6a65",
+  "blender": "4.5.15 LTS",
+  "units": "METRIC",
+  "world_frame": "X+ front, Y across, Z+ up",
+  "objects": [
+    {
+      "name": "dafeiyu-animation-look-study",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "painted-full-body-study",
+      "type": "ARMATURE",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "head-control",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "painted-face",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "source-painted-hair",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "continuous-scalp-and-rear-hair",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "left-auxiliary-source-traced-long-curls",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "right-auxiliary-source-traced-long-curls",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "left-face-framing-hair",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "right-face-framing-hair",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "central-forked-bangs",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "left-whale-fin-ear",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "right-whale-fin-ear",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "left-blue-ribbon",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "right-blue-ribbon",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "left-painted-white-frill",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "right-painted-white-frill",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "inferred-rounded-crown-using-original-blue-pixels",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "auxiliary-painted-hook-ahoge",
+      "type": "EMPTY",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.000000238418579
+    },
+    {
+      "name": "key",
+      "type": "LIGHT",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "fill",
+      "type": "LIGHT",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 0.9999999403953552
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0000001192092896
+    },
+    {
+      "name": "Tail_opening_cutter_hidden",
+      "type": "MESH",
+      "collections": [
+        "Scene Collection"
+      ],
+      "hide_render": true,
+      "visible_viewport": false,
+      "transform_determinant": 1.0,
+      "vertices_base": 18694,
+      "polygons_base": 29667,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Tail • deep navy / medium blue"
+      ],
+      "modifiers": [
+        {
+          "name": "Silhouette smoothing",
+          "type": "SUBSURF",
+          "render": true
+        }
+      ],
+      "vertex_groups": 1,
+      "shape_keys": [],
+      "signed_volume_base": 0.0034452398193160765
+    },
+    {
+      "name": "neck under collar",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": true,
+      "visible_viewport": false,
+      "transform_determinant": 1.0,
+      "vertices_base": 288,
+      "polygons_base": 194,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm skin"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00033019013372527554
+    },
+    {
+      "name": "tailored closed bodice",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 576,
+      "polygons_base": 482,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.003079616506475163
+    },
+    {
+      "name": "white shaped blouse chest bib",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 221,
+      "polygons_base": 192,
+      "boundary_edges_base": 56,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "blouse thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "narrow navy chest placket",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 24,
+      "polygons_base": 14,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.995951508874065e-06
+    },
+    {
+      "name": "neck bow folded loop -1",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 80,
+      "polygons_base": 66,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 1.81156823366755e-05
+    },
+    {
+      "name": "neck bow pointed tail -1",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.180679169202055e-06
+    },
+    {
+      "name": "folded white collar -1",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 4,
+      "polygons_base": 1,
+      "boundary_edges_base": 4,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "collar thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "neck bow folded loop 1",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 80,
+      "polygons_base": 66,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 1.8115683358021352e-05
+    },
+    {
+      "name": "neck bow pointed tail 1",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.168117648026053e-06
+    },
+    {
+      "name": "folded white collar 1",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 4,
+      "polygons_base": 1,
+      "boundary_edges_base": 4,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "collar thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "bow brooch gold",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 8.800000159681076e-07,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "neck brooch metal"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 5.103972263771748
+    },
+    {
+      "name": "bow blue stone",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 2.1000001027005055e-07,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "whale blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 5.108908570573157
+    },
+    {
+      "name": "ivory blouse button",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 4.800000752425149e-08,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 5.278407111834685
+    },
+    {
+      "name": "ivory blouse button.001",
+      "type": "MESH",
+      "collections": [
+        "01_Neck_and_Bodice"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 4.800000752425149e-08,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.921213768948968
+    },
+    {
+      "name": "tailored puff sleeve -1",
+      "type": "MESH",
+      "collections": [
+        "02_Sleeves_and_Cuffs"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 140,
+      "polygons_base": 122,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0009814916075415786
+    },
+    {
+      "name": "ivory striped cuff -1",
+      "type": "MESH",
+      "collections": [
+        "02_Sleeves_and_Cuffs"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 60,
+      "polygons_base": 42,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.196539821319371e-05
+    },
+    {
+      "name": "cuff navy fine stripe -1",
+      "type": "MESH",
+      "collections": [
+        "02_Sleeves_and_Cuffs"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 40,
+      "polygons_base": 22,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "seam navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 2.2415636817151117e-05
+    },
+    {
+      "name": "tailored puff sleeve 1",
+      "type": "MESH",
+      "collections": [
+        "02_Sleeves_and_Cuffs"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 140,
+      "polygons_base": 122,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0009793472033587083
+    },
+    {
+      "name": "ivory striped cuff 1",
+      "type": "MESH",
+      "collections": [
+        "02_Sleeves_and_Cuffs"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 60,
+      "polygons_base": 42,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.218243238165319e-05
+    },
+    {
+      "name": "cuff navy fine stripe 1",
+      "type": "MESH",
+      "collections": [
+        "02_Sleeves_and_Cuffs"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 40,
+      "polygons_base": 22,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "seam navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 2.2415620942572596e-05
+    },
+    {
+      "name": "closed flared navy overskirt",
+      "type": "MESH",
+      "collections": [
+        "03_Skirt_and_Frilly_Petticoat"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 14458,
+      "polygons_base": 13978,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.012366862885646809
+    },
+    {
+      "name": "encircling ivory hem piping -0.262",
+      "type": "MESH",
+      "collections": [
+        "03_Skirt_and_Frilly_Petticoat"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 499,
+      "polygons_base": 245,
+      "boundary_edges_base": 499,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "encircling ivory hem piping -0.271",
+      "type": "MESH",
+      "collections": [
+        "03_Skirt_and_Frilly_Petticoat"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 502,
+      "polygons_base": 247,
+      "boundary_edges_base": 502,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "skirt ivory dot",
+      "type": "MESH",
+      "collections": [
+        "03_Skirt_and_Frilly_Petticoat"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.9600001621711272e-07,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.07055074045895
+    },
+    {
+      "name": "skirt ivory dot.001",
+      "type": "MESH",
+      "collections": [
+        "03_Skirt_and_Frilly_Petticoat"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.9600001621711272e-07,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.070550740458951
+    },
+    {
+      "name": "skirt ivory dot.002",
+      "type": "MESH",
+      "collections": [
+        "03_Skirt_and_Frilly_Petticoat"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.9600001621711272e-07,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.070550740458951
+    },
+    {
+      "name": "skirt ivory dot.003",
+      "type": "MESH",
+      "collections": [
+        "03_Skirt_and_Frilly_Petticoat"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.9600001621711272e-07,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.070550740458949
+    },
+    {
+      "name": "continuous gathered ivory petticoat",
+      "type": "MESH",
+      "collections": [
+        "03_Skirt_and_Frilly_Petticoat"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 6784,
+      "polygons_base": 6115,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0004736708429071768
+    },
+    {
+      "name": "waist wrap sash",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 192,
+      "polygons_base": 98,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0005834457836998867
+    },
+    {
+      "name": "apron curved front cloth",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1353,
+      "polygons_base": 1280,
+      "boundary_edges_base": 144,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "apron original whale and cloth print"
+      ],
+      "modifiers": [
+        {
+          "name": "apron fabric thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "continuous gathered apron frill",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 294,
+      "polygons_base": 146,
+      "boundary_edges_base": 294,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "cloth thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "front apron shoulder strap -1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 2.8549333113151477e-05
+    },
+    {
+      "name": "shoulder gathered trim -1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 82,
+      "polygons_base": 40,
+      "boundary_edges_base": 82,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "ruffle thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "back crossed apron strap -1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.503767298040533e-05
+    },
+    {
+      "name": "back bow loop -1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 80,
+      "polygons_base": 66,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.424048063046305e-05
+    },
+    {
+      "name": "back bow hanging tail -1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.817495124150583e-06
+    },
+    {
+      "name": "front apron shoulder strap 1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 2.8495741040388077e-05
+    },
+    {
+      "name": "shoulder gathered trim 1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 82,
+      "polygons_base": 40,
+      "boundary_edges_base": 82,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "ruffle thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "back crossed apron strap 1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.502176737247722e-05
+    },
+    {
+      "name": "back bow loop 1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 80,
+      "polygons_base": 66,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.4216675947611204e-05
+    },
+    {
+      "name": "back bow hanging tail 1",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.81453178987082e-06
+    },
+    {
+      "name": "back bow knot",
+      "type": "MESH",
+      "collections": [
+        "04_Apron_and_Straps"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 2.3659999897063244e-06,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.0705505361891685
+    },
+    {
+      "name": "thigh -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 144,
+      "polygons_base": 98,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm skin"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0004042907598370045
+    },
+    {
+      "name": "white sock -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 144,
+      "polygons_base": 98,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00031143557251602026
+    },
+    {
+      "name": "sock cuff -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 96,
+      "polygons_base": 50,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 7.513602254747968e-05
+    },
+    {
+      "name": "sock over instep -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 192,
+      "polygons_base": 162,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "rounded leather",
+          "type": "SUBSURF",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00037293782917135224
+    },
+    {
+      "name": "mary jane heel quarter -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 160,
+      "polygons_base": 130,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [
+        {
+          "name": "rounded leather",
+          "type": "SUBSURF",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00010220809850160587
+    },
+    {
+      "name": "rounded mary jane toe cap -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 192,
+      "polygons_base": 162,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [
+        {
+          "name": "rounded leather",
+          "type": "SUBSURF",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00014598402669447537
+    },
+    {
+      "name": "thin shoe outsole -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 192,
+      "polygons_base": 130,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "seam navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00011451766032787112
+    },
+    {
+      "name": "mary jane strap -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.611123983622472e-06
+    },
+    {
+      "name": "shoe bright button -1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 8.000000661922968e-08,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.07055074045895
+    },
+    {
+      "name": "thigh 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 144,
+      "polygons_base": 98,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm skin"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00040429076096460943
+    },
+    {
+      "name": "white sock 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 144,
+      "polygons_base": 98,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0003114355678112124
+    },
+    {
+      "name": "sock cuff 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 96,
+      "polygons_base": 50,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 7.513602689711231e-05
+    },
+    {
+      "name": "sock over instep 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 192,
+      "polygons_base": 162,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "rounded leather",
+          "type": "SUBSURF",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00037293783506716965
+    },
+    {
+      "name": "mary jane heel quarter 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 160,
+      "polygons_base": 130,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [
+        {
+          "name": "rounded leather",
+          "type": "SUBSURF",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00010220809893847874
+    },
+    {
+      "name": "rounded mary jane toe cap 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 192,
+      "polygons_base": 162,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [
+        {
+          "name": "rounded leather",
+          "type": "SUBSURF",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00014598402782537695
+    },
+    {
+      "name": "thin shoe outsole 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 192,
+      "polygons_base": 130,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "seam navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00011451766010624393
+    },
+    {
+      "name": "mary jane strap 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 36,
+      "polygons_base": 26,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.611124111576292e-06
+    },
+    {
+      "name": "shoe bright button 1",
+      "type": "MESH",
+      "collections": [
+        "05_Legs_Socks_Shoes"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 8.000000661922968e-08,
+      "vertices_base": 266,
+      "polygons_base": 288,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 4.070550740458953
+    },
+    {
+      "name": "left traced open hand and fingers",
+      "type": "MESH",
+      "collections": [
+        "06_Hands"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 0.03125587850809097,
+      "vertices_base": 5249,
+      "polygons_base": 10494,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Source-fitted safe skin vertex COLOR"
+      ],
+      "modifiers": [],
+      "vertex_groups": 52,
+      "shape_keys": [],
+      "signed_volume_base": 0.00017052870924389365
+    },
+    {
+      "name": "right traced open hand and fingers",
+      "type": "MESH",
+      "collections": [
+        "06_Hands"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 0.03125587850809097,
+      "vertices_base": 5249,
+      "polygons_base": 10494,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Source-fitted safe skin vertex COLOR"
+      ],
+      "modifiers": [],
+      "vertex_groups": 52,
+      "shape_keys": [],
+      "signed_volume_base": 0.0001705287443460631
+    },
+    {
+      "name": "RAW_GUIDE_HIDDEN",
+      "type": "MESH",
+      "collections": [
+        "90_Frozen_Guide"
+      ],
+      "hide_render": true,
+      "visible_viewport": false,
+      "transform_determinant": 1.0,
+      "vertices_base": 63503,
+      "polygons_base": 127006,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": -0.09468750251334004
+    },
+    {
+      "name": "HEAD_ROOT__raw_coordinate_frame",
+      "type": "EMPTY",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "ACCESSORY__fin_ivory_inset_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Maid ivory cloth"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.691852486060549e-05
+    },
+    {
+      "name": "ACCESSORY__fin_ivory_inset_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Maid ivory cloth"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.696531752041957e-05
+    },
+    {
+      "name": "ACCESSORY__whale_side_fin_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair recessed navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00017708784506392152
+    },
+    {
+      "name": "ACCESSORY__whale_side_fin_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair recessed navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00017724238752151773
+    },
+    {
+      "name": "FACE__continuous head skin sockets oral lining and neck",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 10709,
+      "polygons_base": 14696,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Original facial paint unified smooth skin"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.018174976859700178
+    },
+    {
+      "name": "FACE__continuous smile contour",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 194,
+      "polygons_base": 192,
+      "boundary_edges_base": 194,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_008"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__left closed source-fitted ocular globe",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 2690,
+      "polygons_base": 5376,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_011"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00012216501561113292
+    },
+    {
+      "name": "FACE__left moving eyelid crease",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 130,
+      "polygons_base": 128,
+      "boundary_edges_base": 130,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_006"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__left moving lower eyelash",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 162,
+      "polygons_base": 160,
+      "boundary_edges_base": 162,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_005"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__left moving upper eyelash",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 162,
+      "polygons_base": 160,
+      "boundary_edges_base": 162,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_004"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__left pointed outer lashes",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 3,
+      "polygons_base": 1,
+      "boundary_edges_base": 3,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_004"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__left sampled original iris",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1677,
+      "polygons_base": 3192,
+      "boundary_edges_base": 160,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_003"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__right closed source-fitted ocular globe",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 2690,
+      "polygons_base": 5376,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_011"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.285195633465483e-05
+    },
+    {
+      "name": "FACE__right moving eyelid crease",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 130,
+      "polygons_base": 128,
+      "boundary_edges_base": 130,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_006"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__right moving lower eyelash",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 162,
+      "polygons_base": 160,
+      "boundary_edges_base": 162,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_005"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__right moving upper eyelash",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 162,
+      "polygons_base": 160,
+      "boundary_edges_base": 162,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_004"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__right pointed outer lashes",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 3,
+      "polygons_base": 1,
+      "boundary_edges_base": 3,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_004"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__right sampled original iris",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1677,
+      "polygons_base": 3192,
+      "boundary_edges_base": 160,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_003"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "FACE__tongue inside opening",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 325,
+      "polygons_base": 512,
+      "boundary_edges_base": 136,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "SOURCE_007"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "HAIR__bang_center",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0004809547588313776
+    },
+    {
+      "name": "HAIR__bang_swept_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00045536475225418666
+    },
+    {
+      "name": "HAIR__bang_swept_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0004544118338690115
+    },
+    {
+      "name": "HAIR__cheek_frame_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00047328298376883007
+    },
+    {
+      "name": "HAIR__cheek_frame_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.000472279182818313
+    },
+    {
+      "name": "HAIR__closed_scalp_foundation",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 7680,
+      "polygons_base": 7680,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair recessed navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.002801469459907693
+    },
+    {
+      "name": "HAIR__crown_rear_panel_0",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.000666715488104451
+    },
+    {
+      "name": "HAIR__crown_rear_panel_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0006588090585954642
+    },
+    {
+      "name": "HAIR__crown_rear_panel_2",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0006385969255284762
+    },
+    {
+      "name": "HAIR__crown_rear_panel_3",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0006275912122919276
+    },
+    {
+      "name": "HAIR__crown_rear_panel_4",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0006385912768705975
+    },
+    {
+      "name": "HAIR__crown_rear_panel_5",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.000658799790238242
+    },
+    {
+      "name": "HAIR__crown_rear_panel_6",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0006667170819719555
+    },
+    {
+      "name": "HAIR__inner_curl_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00021156156168697992
+    },
+    {
+      "name": "HAIR__inner_curl_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00021164146892631863
+    },
+    {
+      "name": "HAIR__long_wave_-1_0",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00029880604909319797
+    },
+    {
+      "name": "HAIR__long_wave_-1_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0003037707220005667
+    },
+    {
+      "name": "HAIR__long_wave_-1_2",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.0003033910061642175
+    },
+    {
+      "name": "HAIR__long_wave_1_0",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00029837810982653873
+    },
+    {
+      "name": "HAIR__long_wave_1_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00030352221526444903
+    },
+    {
+      "name": "HAIR__long_wave_1_2",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.00030329133951051694
+    },
+    {
+      "name": "HAIR__sculpted_wave_fan_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 3278,
+      "polygons_base": 6550,
+      "boundary_edges_base": 4,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 2,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "HAIR__sculpted_wave_fan_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 3278,
+      "polygons_base": 6550,
+      "boundary_edges_base": 4,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 2,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "HAIR__whale_ahoge",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 6.887301517557044e-05
+    },
+    {
+      "name": "HEADWEAR__bow_knot_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.3000000080864993e-06,
+      "vertices_base": 114,
+      "polygons_base": 128,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.9265957102287747
+    },
+    {
+      "name": "HEADWEAR__bow_knot_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.3000000080864993e-06,
+      "vertices_base": 114,
+      "polygons_base": 128,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 3.9265957102287743
+    },
+    {
+      "name": "HEADWEAR__bow_wing_-1_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.174193290521532e-06
+    },
+    {
+      "name": "HEADWEAR__bow_wing_-1_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.174174757873744e-06
+    },
+    {
+      "name": "HEADWEAR__bow_wing_1_-1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.1743315399603e-06
+    },
+    {
+      "name": "HEADWEAR__bow_wing_1_1",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 1300,
+      "polygons_base": 1282,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 9.174329052560824e-06
+    },
+    {
+      "name": "HEADWEAR__continuous_satin_band",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 4112,
+      "polygons_base": 3840,
+      "boundary_edges_base": 542,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Maid ivory cloth"
+      ],
+      "modifiers": [
+        {
+          "name": "fabric thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "HEADWEAR__gathered_ruffle",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 4112,
+      "polygons_base": 3840,
+      "boundary_edges_base": 542,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Maid ivory cloth"
+      ],
+      "modifiers": [
+        {
+          "name": "folded cloth thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "INTERFACE__neck_center_0105_m006_0045",
+      "type": "EMPTY",
+      "collections": [
+        "DAFEIYU_HEAD_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "Whale_Tail_Continuous_Editable",
+      "type": "MESH",
+      "collections": [
+        "DAFEIYU_TAIL_NATIVE"
+      ],
+      "hide_render": false,
+      "visible_viewport": true,
+      "transform_determinant": 1.0,
+      "vertices_base": 62310,
+      "polygons_base": 62308,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "Tail • deep navy / medium blue"
+      ],
+      "modifiers": [
+        {
+          "name": "Silhouette smoothing",
+          "type": "SUBSURF",
+          "render": true
+        }
+      ],
+      "vertex_groups": 1,
+      "shape_keys": [],
+      "signed_volume_base": 0.002950189645235145
+    },
+    {
+      "name": "TAIL_ROOT_pelvis",
+      "type": "EMPTY",
+      "collections": [
+        "DAFEIYU_TAIL_NATIVE"
+      ],
+      "hide_render": true,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "TAIL_STEM_bend",
+      "type": "EMPTY",
+      "collections": [
+        "DAFEIYU_TAIL_NATIVE"
+      ],
+      "hide_render": true,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "TAIL_FLUKE_center",
+      "type": "EMPTY",
+      "collections": [
+        "DAFEIYU_TAIL_NATIVE"
+      ],
+      "hide_render": true,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "TAIL_FRAME_Xfront_Yacross_Zup",
+      "type": "EMPTY",
+      "collections": [
+        "DAFEIYU_TAIL_NATIVE"
+      ],
+      "hide_render": true,
+      "visible_viewport": true,
+      "transform_determinant": 1.0
+    },
+    {
+      "name": "closed flared navy overskirt_before_opening",
+      "type": "MESH",
+      "collections": [
+        "91_Opening_Source_Backups_Hidden"
+      ],
+      "hide_render": true,
+      "visible_viewport": false,
+      "transform_determinant": 1.0,
+      "vertices_base": 768,
+      "polygons_base": 642,
+      "boundary_edges_base": 0,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "signed_volume_base": 0.012871110705210314
+    },
+    {
+      "name": "continuous gathered ivory petticoat_before_opening",
+      "type": "MESH",
+      "collections": [
+        "91_Opening_Source_Backups_Hidden"
+      ],
+      "hide_render": true,
+      "visible_viewport": false,
+      "transform_determinant": 1.0,
+      "vertices_base": 2496,
+      "polygons_base": 2304,
+      "boundary_edges_base": 384,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [
+        {
+          "name": "fabric thickness",
+          "type": "SOLIDIFY",
+          "render": true
+        }
+      ],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "encircling ivory hem piping -0.262_before_opening",
+      "type": "MESH",
+      "collections": [
+        "91_Opening_Source_Backups_Hidden"
+      ],
+      "hide_render": true,
+      "visible_viewport": false,
+      "transform_determinant": 1.0,
+      "vertices_base": 512,
+      "polygons_base": 256,
+      "boundary_edges_base": 512,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    },
+    {
+      "name": "encircling ivory hem piping -0.271_before_opening",
+      "type": "MESH",
+      "collections": [
+        "91_Opening_Source_Backups_Hidden"
+      ],
+      "hide_render": true,
+      "visible_viewport": false,
+      "transform_determinant": 1.0,
+      "vertices_base": 512,
+      "polygons_base": 256,
+      "boundary_edges_base": 512,
+      "loose_edges_base": 0,
+      "overconnected_edges_base": 0,
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "modifiers": [],
+      "vertex_groups": 0,
+      "shape_keys": []
+    }
+  ],
+  "counts": {
+    "meshes": 120,
+    "armatures": 1,
+    "render_enabled_meshes": 113
+  },
+  "scope": "Native source file inventory and base topology only; modifiers, cloth contact, deformation, identity and final visuals require separate inspection.",
+  "appearanceAccepted": false,
+  "rigAccepted": false,
+  "physicsAccepted": false,
+  "finalAccepted": false
+}

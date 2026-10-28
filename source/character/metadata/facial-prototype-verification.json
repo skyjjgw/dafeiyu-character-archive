@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-25",
+  "prototype_url": "http://127.0.0.1:4334/production/facial-prototype/",
+  "assets": 6,
+  "checks": {
+    "real_alpha": "All six PNG files inspected, transparency minimum 0 and visible content alpha >=128",
+    "manual": "Observed hold-closed eyes and 0.70 mouth position in UI",
+    "audio": "Three-second local WAV played through Web Audio in muted output; peak mouth value 1.00",
+    "reset": "Observed audio ended at 3.00 s, mouth 0.00, UI reported reset",
+    "console_errors": 0,
+    "javascript_syntax": "node --check passed"
+  },
+  "screenshots": [
+    "metadata/facial-prototype-closed.png",
+    "metadata/facial-prototype-preview.png"
+  ],
+  "limitations": [
+    "Hair, body, tail and face base remain combined",
+    "Eye components still paired; sclera, iris and lids not separated",
+    "No layered PSD, Cubism project or DSH runtime installation"
+  ],
+  "bundle": "production/facial-prototype/facial-parts-prototype.zip"
+}

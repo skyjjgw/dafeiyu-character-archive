@@ -1,0 +1,19 @@
+import * as THREE from '../../rig3d-prototype/vendor/three.module.js';
+export async function loadGarmentComponent(model,garmentTexture){
+  const contract=await fetch('./assets/component.json').then(r=>{if(!r.ok)throw Error('Garment contract unavailable');return r.json();}),binary=await fetch('./assets/'+contract.binary.file).then(r=>{if(!r.ok)throw Error('Garment binary unavailable');return r.arrayBuffer();});
+  const hash=async bytes=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),v=>v.toString(16).padStart(2,'0')).join('');
+  if(binary.byteLength!==contract.binary.bytes||await hash(binary)!==contract.binary.sha256)throw Error('Garment binary integrity failed');
+  const arrays={};for(const[name,a]of Object.entries(contract.arrays)){const buffer=binary.slice(a.offset,a.offset+a.bytes);if(await hash(buffer)!==a.sha256)throw Error('Garment attribute integrity failed '+name);const Constructor={float32:Float32Array,uint32:Uint32Array,uint16:Uint16Array}[a.type];arrays[name]=new Constructor(buffer);}
+  let original;model.root.traverse(o=>{if(o.name==='continuous flared skirt, painted front apron and encircling ivory hem')original=o;});if(!original)throw Error('Selected original skirt not found');
+  if(original.skeleton.bones.map(b=>b.name).join('|')!==contract.source22.names.join('|'))throw Error('Source22 skeleton mapping differs from garment contract');
+  const meshes=[],resources=[];
+  for(const layer of contract.layers){
+    const g=new THREE.BufferGeometry(),r=layer.render;g.setAttribute('position',new THREE.Float32BufferAttribute(arrays[r.positionsBind],3));g.setAttribute('normal',new THREE.Float32BufferAttribute(arrays[r.normalsBind],3));
+    for(const[name,key]of Object.entries(r.attributes)){const itemSize=contract.arrays[key].itemSize;g.setAttribute(name,name==='skinIndex'?new THREE.Uint16BufferAttribute(arrays[key],itemSize):new THREE.Float32BufferAttribute(arrays[key],itemSize));}g.setIndex(new THREE.Uint32BufferAttribute(arrays[r.triangles],1));g.computeBoundingBox();g.computeBoundingSphere();
+    const spec=contract.materials[r.material],m=new THREE.MeshBasicMaterial({map:spec.painted?garmentTexture:null,vertexColors:spec.painted,side:THREE.FrontSide,toneMapped:false});m.name=spec.name;
+    m.onBeforeCompile=shader=>{shader.uniforms.garmentNavy={value:new THREE.Color().fromArray(spec.sideNavyLinear)};shader.uniforms.garmentCream={value:new THREE.Color().fromArray(spec.sideCreamLinear)};shader.vertexShader='attribute float sideBlend; attribute float hemT; varying float vGarmentBlend; varying float vGarmentHem;\n'+shader.vertexShader;shader.vertexShader=shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nvGarmentBlend=sideBlend;vGarmentHem=hemT;');shader.fragmentShader='uniform vec3 garmentNavy; uniform vec3 garmentCream; varying float vGarmentBlend; varying float vGarmentHem;\n'+shader.fragmentShader;shader.fragmentShader=shader.fragmentShader.replace('#include <color_fragment>','#include <color_fragment>\nvec3 inferredCloth=mix(garmentNavy,garmentCream,smoothstep(.85,.88,vGarmentHem));diffuseColor.rgb=mix(diffuseColor.rgb,inferredCloth,vGarmentBlend);');};m.customProgramCacheKey=()=>spec.name;
+    const mesh=new THREE.SkinnedMesh(g,m);mesh.name='production '+layer.id+' garment static skin fallback';mesh.frustumCulled=false;original.parent.add(mesh);mesh.bind(original.skeleton,original.bindMatrix);mesh.bindMode=original.bindMode;meshes.push(mesh);resources.push(g,m);
+  }
+  const originalVisible=original.visible;original.visible=false;model.root.updateMatrixWorld(true);
+  return{contract,arrays,meshes,original,setVisible(value){for(const m of meshes)m.visible=value;original.visible=!value;},dispose(){original.visible=originalVisible;meshes.forEach(m=>m.removeFromParent());resources.forEach(r=>r.dispose());}};
+}

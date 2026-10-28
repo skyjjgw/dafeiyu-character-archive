@@ -1,0 +1,3209 @@
+{
+  "schema": "dafeiyu.appearance-contract.4348.v1",
+  "status": "read_only_baseline_contract_not_a_new_character",
+  "authoritativeBaseline": {
+    "url": "http://127.0.0.1:4348/character-preview.html",
+    "frozenDirectory": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027",
+    "previewSha256": "6abe1e431b3b14f30ea65ac03c16c07ea7a9e138a46f9012dd4ea6f9765ccc9d",
+    "userMeaning": "该页面旧曲面人物是最贴近的外观；并非确认旧结构已满足自然动作、全角度和物理要求",
+    "rejectedNativeArtIsNotAuthority": true
+  },
+  "measurements": {
+    "exactMeshLandmarkFile": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\appearance-measurements-4348-20261027.json",
+    "hairAuditFile": "E:\\zzz\\dafeiyu-character-materials-20261025\\metadata\\appearance-hair-contract-20261027.json",
+    "method": "Snapshot module graph instantiated in Node; metadata-only textures, no pixel render, no browser and no new model/art asset.",
+    "noVisualAngleAcceptanceClaim": true,
+    "rootOwnsCUA": true,
+    "counts": {
+      "meshes": 77,
+      "vertices": 236695,
+      "triangles": 216368,
+      "bodySkinnedMeshes": 13,
+      "bodyBones": 22,
+      "additionalHeadControlBones": 1
+    }
+  },
+  "coordinates": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X",
+    "scale": "Uncalibrated local study units; do not silently reinterpret as physical metres."
+  },
+  "camera": {
+    "authoritativeSource": "source/character-entry.js, not source/app.js",
+    "projection": "orthographic",
+    "position": [
+      0.195,
+      0.565,
+      6
+    ],
+    "target": [
+      0.195,
+      0.565,
+      0
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "near": 0.01,
+    "far": 30,
+    "halfY": "max(3.42/2,2.82/(2*(width/height)))*1.035",
+    "halfX": "halfY*(width/height)",
+    "pixelMapping": {
+      "x": "width/2 + (worldX-.195)*height/(2*halfY)",
+      "y": "height/2 - (worldY-.565)*height/(2*halfY)"
+    },
+    "aspectSwitch": 0.8245614035087719,
+    "minHalfY": 1.76985,
+    "pixelRatioCap": 1.5,
+    "outputColorSpace": "SRGBColorSpace",
+    "toneMapping": "NoToneMapping",
+    "clearColor": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "rootTransform": "identity; no replacement normalization/scaling"
+  },
+  "canonicalStaticState": {
+    "input": {
+      "mode": "manual",
+      "framing": "full",
+      "action": "idle",
+      "mood": "neutral",
+      "yaw": 0,
+      "pitch": 0,
+      "gazeX": 0,
+      "gazeY": 0,
+      "blink": 0,
+      "talking": 0,
+      "happy": 0,
+      "sad": 0
+    },
+    "headWorld": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1.1,
+      0,
+      1
+    ],
+    "posedBounds": {
+      "min": [
+        -1.061481237411499,
+        -1.0550000000000006,
+        -0.550000011920929
+      ],
+      "max": [
+        1.4884614944458008,
+        2.14010546207428,
+        0.4979851543903351
+      ],
+      "size": [
+        2.5499427318573,
+        3.1951054620742805,
+        1.047985166311264
+      ]
+    },
+    "initial4348IdleAtTime0": {
+      "yaw": 0,
+      "pitch": 0.0035047650807778544,
+      "blink": 0,
+      "talking": 0,
+      "gazeX": 0,
+      "gazeY": 0,
+      "mood": "neutral",
+      "mode": "idle",
+      "wave": 0,
+      "walk": 0,
+      "happy": 0,
+      "sad": 0
+    },
+    "note": "4348 normally runs idle over elapsed time; canonical manual/full/t0 freezes the same neutral identity for numerical comparison. Its head is y=1.1, not y=1.088."
+  },
+  "sourceGraph": {
+    "runtimeEntry": "source/character-entry.js",
+    "runtimeImportedSnapshotModules": [
+      "character.js",
+      "face.js",
+      "profile-volume.js",
+      "hair.js",
+      "rear-hair.js",
+      "body-full.js",
+      "performance.js",
+      "secondary-motion.js"
+    ],
+    "frozenButNot4348CameraOrGeometryAuthority": [
+      "app.js",
+      "body.js",
+      "stage.js"
+    ],
+    "buildOnly": "build-character.mjs",
+    "warning": "app.js 16 degree perspective fitting and stage.js floor are not mounted by the 4348 entry; do not copy them as the approved camera."
+  },
+  "lockedNeutralAppearance": {
+    "primaryRule": "Keep the existing visible front XYZ, source UV and painted material, then add structure behind it. For a remesh, transfer both positions/UV and enforce the frozen projection landmarks; do not fit a generic new face.",
+    "notOnlySilhouette": [
+      "Eye upper/lower curves, unequal iris sizes and aperture offsets",
+      "Short asymmetric chin and existing cheek width/profile",
+      "Hair lock contours, face occlusions, blue bows, white frill and hook ahoge",
+      "Current body/leg proportions and the asymmetric two-fluke tail contour",
+      "Original pixels, vertex tint, unlit front shading, alpha/depth behavior",
+      "Orthographic framing, node transforms and actual bind-vs-neutral bone matrices"
+    ],
+    "preserveXYZRatherThanOnlyXYReason": "The accepted model already has curved front depth; changing Z changes the accepted oblique identity even when the frontal orthographic XY projection remains fixed.",
+    "doNotSymmetrize": {
+      "eyes": "Left/right iris radii and aperture curves are different, intentionally following the cover.",
+      "primaryHair": "Left/right original-cover contours are separately traced.",
+      "bodyMirror": "Right sleeve/hand/leg source uses 1156-px, a mirror axis at image px578, not the source mapping origin580.",
+      "auxiliaryLongCurls": "These already mirror one approved left auxiliary trace; preserve this existing behavior rather than replacing it."
+    }
+  },
+  "textureAndUVContracts": {
+    "ordinaryUVNotFrameSwitch": {
+      "fact": "Original raster images are normal UV textures on continuously deformed 3D geometry. No whole-character billboard, per-action full-image replacement or video generation is used by this baseline.",
+      "limitation": "A normal UV texture does not itself certify physical topology, authored side/rear identity, articulated fingers or realistic contact."
+    },
+    "primary": {
+      "file": "assets/BV1g2JX6HEHX.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "originPx": [
+        815,
+        583
+      ],
+      "pixelsPerUnit": 775,
+      "tiltRadians": 0.06,
+      "pixelToHeadXY": [
+        "x=(cos(.06)*(px-815)-sin(.06)*(py-583))/775",
+        "y=(-sin(.06)*(px-815)-cos(.06)*(py-583))/775"
+      ],
+      "headXYToPixel": [
+        "px=815+775*(cos(.06)*x-sin(.06)*y)",
+        "py=583-775*(sin(.06)*x+cos(.06)*y)"
+      ],
+      "rawUV": [
+        "u=px/1920",
+        "v=1-py/1080"
+      ],
+      "uses": [
+        "Visible face skin/nose/cheek subset",
+        "Original iris pupil and highlights, sampled together",
+        "Original-cover front hair/ears/blue bows/white frill",
+        "Narrow inferred crown extension reusing top blue pixels"
+      ],
+      "facePaintZOffset": 0.0012,
+      "imageBytesUnmodified": true
+    },
+    "garment": {
+      "file": "assets/neutral-front.png",
+      "size": [
+        1144,
+        1375
+      ],
+      "role": "Approved auxiliary original painting for body, long curls and ahoge; not a scan or independent side/back truth.",
+      "bodyPixelToWorldBindXY": [
+        "x=(px-580)/260",
+        "y=.20+(835-py)/260 if py<=1003",
+        "y=.20+(835-1003)/260+(1003-py)/260*1.18 if py>1003"
+      ],
+      "rawUV": [
+        "u=px/1144",
+        "v=1-py/1375"
+      ],
+      "frontBodyTintSRGB": "#e2ded7",
+      "frontHandThighTintSRGB": "#ccd0c6",
+      "tailFrontMaterialTintSRGB": "#8187a6",
+      "tailBackSRGB": "#283450",
+      "tailEdgeSRGB": "#26314d",
+      "tailBellySRGB": "#4a6381",
+      "bodyFrontOnlyTextureRule": "Source pixels are assigned to forward groups. Inferred side/back groups use authored plain colors. No alpha cutout supplies body volume closure.",
+      "longHairMapping": {
+        "localXY": [
+          "x=(px-582)/340 for left, x negated for right",
+          "y=(586-py)/340-.02"
+        ],
+        "z": "-.045+.055*clamp((py-626)/392,0,1)^2-.09*((px-350)/150)^2",
+        "tintSRGB": "#9a88b0"
+      },
+      "ahogeMapping": {
+        "x": "(px-564)/360",
+        "y": ".735+(353-py)/360",
+        "z": ".17-.10*clamp((353-py)/109,0,1)-.025*(x/.45)^2"
+      }
+    },
+    "rearAuxiliary": {
+      "file": "assets/turnaround-auxiliary-v2.png",
+      "size": [
+        2043,
+        770
+      ],
+      "role": "Inferred safe blue rear-head region and side depth guide; not user-approved new anatomy.",
+      "rearBlueUV": [
+        "u=(1818-halfWidth(py)*sin(theta))/2043",
+        "v=1-py/770"
+      ],
+      "safeRows": [
+        100,
+        370
+      ],
+      "safeBlueHalfWidths": [
+        [
+          96,
+          43
+        ],
+        [
+          120,
+          73
+        ],
+        [
+          150,
+          94
+        ],
+        [
+          180,
+          102
+        ],
+        [
+          220,
+          108
+        ],
+        [
+          260,
+          108
+        ],
+        [
+          300,
+          106
+        ],
+        [
+          340,
+          100
+        ],
+        [
+          370,
+          76
+        ]
+      ],
+      "noClothingBowSampled": true
+    },
+    "runtimeSampling": {
+      "threeTextureFlipY": true,
+      "threeTextureColorSpace": "SRGBColorSpace",
+      "sourceImageBytesMustStayIdentical": true,
+      "rawUVArrayMustStayIdenticalOrBeRetainedSeparately": true,
+      "godotOrGLTFVAdaptation": "If retaining raw source UV and original image bytes, apply vSample=1-v once at the runtime sampler boundary, or a documented equivalent texture transform. Never flip both exported UV and sampler again.",
+      "frontMaterials": "MeshBasicMaterial / unlit, toneMapped=false; output sRGB without a new tone mapper or generic cel repaint.",
+      "dynamicFaceCautions": [
+        "Gaze changes UV arrays, not only vertex position.",
+        "Eyelid and mouth skin annuli use dynamically updated RGBA vertex alpha and depthWrite=false.",
+        "Iris/white visibility near complete blink and tongue visibility are local occlusion optimizations, not whole-image action switching.",
+        "Auxiliary hair/frill can combine blend transparency and alphaTest; ordinary glTF MASK versus BLEND alone is not exact."
+      ]
+    }
+  },
+  "faceContract": {
+    "landmarks": {
+      "chin": {
+        "headLocal": [
+          0.023,
+          -0.382,
+          0.21585000001803356
+        ],
+        "canonicalWorld": [
+          0.023,
+          0.7180000000000001,
+          0.21585000001803356
+        ]
+      },
+      "crown": {
+        "headLocal": [
+          0,
+          0.64,
+          0.015
+        ],
+        "canonicalWorld": [
+          0,
+          1.7400000000000002,
+          0.015
+        ]
+      },
+      "mouth": {
+        "sourcePixel": [
+          852,
+          741
+        ],
+        "headLocal": [
+          0.03543110574690363,
+          -0.20636690780580866,
+          0.44674149663600243
+        ],
+        "canonicalWorld": [
+          0.03543110574690363,
+          0.8936330921941914,
+          0.44674149663600243
+        ]
+      },
+      "eyes": [
+        {
+          "name": "left",
+          "apertureSourcePixel": [
+            615,
+            588
+          ],
+          "irisSourcePixel": [
+            634.5,
+            590
+          ],
+          "aperture": {
+            "headLocal": [
+              -0.2579870038960491,
+              0.009034578833823094,
+              0.4164813309453803
+            ],
+            "canonicalWorld": [
+              -0.2579870038960491,
+              1.1090345788338232,
+              0.4164813309453803
+            ]
+          },
+          "iris": {
+            "headLocal": [
+              -0.23302573613375543,
+              0.00494980566450751,
+              0.42602193188699167
+            ],
+            "canonicalWorld": [
+              -0.23302573613375543,
+              1.1049498056645075,
+              0.42602193188699167
+            ]
+          },
+          "sourceIrisRadiusPixels": [
+            74.5,
+            87
+          ],
+          "irisRadiusLocal": [
+            0.09612903225806452,
+            0.11225806451612903
+          ]
+        },
+        {
+          "name": "right",
+          "apertureSourcePixel": [
+            1020,
+            569
+          ],
+          "irisSourcePixel": [
+            1003.5,
+            569
+          ],
+          "aperture": {
+            "headLocal": [
+              0.26512336358377947,
+              0.0021705628784602807,
+              0.41490710645896806
+            ],
+            "canonicalWorld": [
+              0.26512336358377947,
+              1.1021705628784604,
+              0.41490710645896806
+            ]
+          },
+          "iris": {
+            "headLocal": [
+              0.2438713520883848,
+              0.0034472159196355535,
+              0.42400926777597103
+            ],
+            "canonicalWorld": [
+              0.2438713520883848,
+              1.1034472159196356,
+              0.42400926777597103
+            ]
+          },
+          "sourceIrisRadiusPixels": [
+            63.5,
+            82
+          ],
+          "irisRadiusLocal": [
+            0.08193548387096775,
+            0.10580645161290322
+          ]
+        }
+      ],
+      "visibleFacePaintSourceContour": [
+        [
+          476,
+          573
+        ],
+        [
+          522,
+          500
+        ],
+        [
+          573,
+          422
+        ],
+        [
+          632,
+          305
+        ],
+        [
+          662,
+          418
+        ],
+        [
+          704,
+          494
+        ],
+        [
+          756,
+          532
+        ],
+        [
+          793,
+          559
+        ],
+        [
+          780,
+          574
+        ],
+        [
+          817,
+          570
+        ],
+        [
+          840,
+          551
+        ],
+        [
+          866,
+          572
+        ],
+        [
+          915,
+          568
+        ],
+        [
+          892,
+          542
+        ],
+        [
+          911,
+          465
+        ],
+        [
+          938,
+          363
+        ],
+        [
+          953,
+          292
+        ],
+        [
+          981,
+          379
+        ],
+        [
+          1045,
+          426
+        ],
+        [
+          1099,
+          462
+        ],
+        [
+          1140,
+          510
+        ],
+        [
+          1168,
+          581
+        ],
+        [
+          1153,
+          661
+        ],
+        [
+          1127,
+          711
+        ],
+        [
+          1084,
+          716
+        ],
+        [
+          1107,
+          737
+        ],
+        [
+          1145,
+          743
+        ],
+        [
+          1115,
+          790
+        ],
+        [
+          1072,
+          820
+        ],
+        [
+          976,
+          855
+        ],
+        [
+          912,
+          858
+        ],
+        [
+          896,
+          848
+        ],
+        [
+          802,
+          848
+        ],
+        [
+          783,
+          864
+        ],
+        [
+          740,
+          867
+        ],
+        [
+          623,
+          849
+        ],
+        [
+          549,
+          818
+        ],
+        [
+          521,
+          791
+        ],
+        [
+          580,
+          768
+        ],
+        [
+          532,
+          758
+        ],
+        [
+          499,
+          721
+        ],
+        [
+          477,
+          667
+        ],
+        [
+          463,
+          608
+        ]
+      ],
+      "bodySourceContours": {
+        "torsoRows": [
+          [
+            692,
+            554,
+            609
+          ],
+          [
+            700,
+            519,
+            642
+          ],
+          [
+            713,
+            506,
+            654
+          ],
+          [
+            735,
+            504,
+            657
+          ],
+          [
+            765,
+            507,
+            655
+          ],
+          [
+            795,
+            507,
+            654
+          ],
+          [
+            811,
+            504,
+            655
+          ],
+          [
+            830,
+            508,
+            652
+          ]
+        ],
+        "skirt": [
+          [
+            508,
+            819
+          ],
+          [
+            496,
+            836
+          ],
+          [
+            480,
+            857
+          ],
+          [
+            461,
+            879
+          ],
+          [
+            438,
+            899
+          ],
+          [
+            410,
+            917
+          ],
+          [
+            392,
+            927
+          ],
+          [
+            380,
+            935
+          ],
+          [
+            377,
+            941
+          ],
+          [
+            382,
+            950
+          ],
+          [
+            392,
+            955
+          ],
+          [
+            393,
+            961
+          ],
+          [
+            397,
+            968
+          ],
+          [
+            405,
+            974
+          ],
+          [
+            416,
+            978
+          ],
+          [
+            420,
+            982
+          ],
+          [
+            429,
+            989
+          ],
+          [
+            438,
+            995
+          ],
+          [
+            450,
+            999
+          ],
+          [
+            466,
+            1000
+          ],
+          [
+            480,
+            997
+          ],
+          [
+            483,
+            1005
+          ],
+          [
+            494,
+            1012
+          ],
+          [
+            510,
+            1015
+          ],
+          [
+            526,
+            1016
+          ],
+          [
+            539,
+            1012
+          ],
+          [
+            544,
+            1005
+          ],
+          [
+            549,
+            1010
+          ],
+          [
+            557,
+            1016
+          ],
+          [
+            566,
+            1020
+          ],
+          [
+            583,
+            1021
+          ],
+          [
+            595,
+            1017
+          ],
+          [
+            603,
+            1010
+          ],
+          [
+            607,
+            1006
+          ],
+          [
+            614,
+            1012
+          ],
+          [
+            629,
+            1016
+          ],
+          [
+            645,
+            1013
+          ],
+          [
+            656,
+            1007
+          ],
+          [
+            666,
+            999
+          ],
+          [
+            679,
+            999
+          ],
+          [
+            696,
+            995
+          ],
+          [
+            711,
+            990
+          ],
+          [
+            717,
+            982
+          ],
+          [
+            735,
+            979
+          ],
+          [
+            742,
+            969
+          ],
+          [
+            748,
+            960
+          ],
+          [
+            756,
+            954
+          ],
+          [
+            761,
+            947
+          ],
+          [
+            767,
+            940
+          ],
+          [
+            764,
+            933
+          ],
+          [
+            756,
+            925
+          ],
+          [
+            747,
+            918
+          ],
+          [
+            727,
+            899
+          ],
+          [
+            701,
+            879
+          ],
+          [
+            681,
+            857
+          ],
+          [
+            664,
+            836
+          ],
+          [
+            652,
+            819
+          ]
+        ],
+        "leftSleeveRows": [
+          [
+            748,
+            451,
+            481
+          ],
+          [
+            758,
+            440,
+            493
+          ],
+          [
+            775,
+            426,
+            498
+          ],
+          [
+            793,
+            433,
+            487
+          ],
+          [
+            812,
+            415,
+            474
+          ],
+          [
+            832,
+            400,
+            458
+          ],
+          [
+            848,
+            397,
+            443
+          ],
+          [
+            860,
+            392,
+            428
+          ],
+          [
+            873,
+            384,
+            409
+          ]
+        ],
+        "leftHand": [
+          [
+            397,
+            869
+          ],
+          [
+            411,
+            878
+          ],
+          [
+            417,
+            883
+          ],
+          [
+            416,
+            887
+          ],
+          [
+            406,
+            886
+          ],
+          [
+            416,
+            894
+          ],
+          [
+            415,
+            898
+          ],
+          [
+            411,
+            900
+          ],
+          [
+            399,
+            895
+          ],
+          [
+            401,
+            905
+          ],
+          [
+            397,
+            909
+          ],
+          [
+            392,
+            905
+          ],
+          [
+            386,
+            896
+          ],
+          [
+            382,
+            905
+          ],
+          [
+            377,
+            908
+          ],
+          [
+            374,
+            904
+          ],
+          [
+            379,
+            892
+          ],
+          [
+            368,
+            898
+          ],
+          [
+            363,
+            896
+          ],
+          [
+            364,
+            892
+          ],
+          [
+            378,
+            883
+          ],
+          [
+            382,
+            876
+          ]
+        ],
+        "leftShoe": [
+          [
+            486,
+            1075
+          ],
+          [
+            511,
+            1068
+          ],
+          [
+            537,
+            1073
+          ],
+          [
+            547,
+            1085
+          ],
+          [
+            552,
+            1101
+          ],
+          [
+            552,
+            1116
+          ],
+          [
+            546,
+            1128
+          ],
+          [
+            533,
+            1135
+          ],
+          [
+            507,
+            1137
+          ],
+          [
+            490,
+            1132
+          ],
+          [
+            480,
+            1123
+          ],
+          [
+            477,
+            1108
+          ],
+          [
+            479,
+            1091
+          ]
+        ]
+      }
+    },
+    "upperLowerEyeSourceTraces": [
+      {
+        "upper": [
+          [
+            499,
+            607
+          ],
+          [
+            516,
+            557
+          ],
+          [
+            542,
+            521
+          ],
+          [
+            578,
+            496
+          ],
+          [
+            618,
+            487
+          ],
+          [
+            656,
+            492
+          ],
+          [
+            689,
+            514
+          ],
+          [
+            709,
+            551
+          ],
+          [
+            724,
+            598
+          ]
+        ],
+        "lower": [
+          [
+            499,
+            607
+          ],
+          [
+            519,
+            634
+          ],
+          [
+            550,
+            659
+          ],
+          [
+            591,
+            677
+          ],
+          [
+            639,
+            682
+          ],
+          [
+            684,
+            666
+          ],
+          [
+            713,
+            642
+          ],
+          [
+            724,
+            598
+          ]
+        ]
+      },
+      {
+        "upper": [
+          [
+            916,
+            573
+          ],
+          [
+            926,
+            529
+          ],
+          [
+            948,
+            495
+          ],
+          [
+            978,
+            474
+          ],
+          [
+            1010,
+            470
+          ],
+          [
+            1040,
+            481
+          ],
+          [
+            1067,
+            507
+          ],
+          [
+            1088,
+            541
+          ],
+          [
+            1104,
+            592
+          ]
+        ],
+        "lower": [
+          [
+            916,
+            573
+          ],
+          [
+            924,
+            597
+          ],
+          [
+            940,
+            622
+          ],
+          [
+            971,
+            648
+          ],
+          [
+            1008,
+            651
+          ],
+          [
+            1057,
+            650
+          ],
+          [
+            1083,
+            630
+          ],
+          [
+            1104,
+            592
+          ]
+        ]
+      }
+    ],
+    "rightSilhouetteBezierControlPoints": [
+      [
+        [
+          0,
+          0.64
+        ],
+        [
+          0.39,
+          0.64
+        ],
+        [
+          0.6,
+          0.44
+        ],
+        [
+          0.6,
+          0.2
+        ]
+      ],
+      [
+        [
+          0.6,
+          0.2
+        ],
+        [
+          0.6,
+          0.04
+        ],
+        [
+          0.54,
+          -0.1
+        ],
+        [
+          0.41,
+          -0.245
+        ]
+      ],
+      [
+        [
+          0.41,
+          -0.245
+        ],
+        [
+          0.3,
+          -0.345
+        ],
+        [
+          0.12,
+          -0.382
+        ],
+        [
+          0.023,
+          -0.382
+        ]
+      ]
+    ],
+    "leftContourRule": "Mirror the sampled right contour, then add .046*smooth(clamp((-y-.1)/.282)) to X below the cheek. Preserve the current sampled edges, not a newly evaluated generic oval.",
+    "installedZProfile": {
+      "type": "optional-anime-profile-volume",
+      "installed": true,
+      "validatedAt90Degrees": false,
+      "reference": {
+        "path": "production/animation-look-study/turnaround-auxiliary-v2.png",
+        "size": [
+          2043,
+          770
+        ],
+        "role": "Generated auxiliary side view used only to estimate hidden depth",
+        "calibration": {
+          "eyeRow": 248,
+          "chinRow": 308,
+          "pixelsPerUnit": 157,
+          "depthReferencePixelX": 1156,
+          "depthReferenceZ": 0.42,
+          "facing": "left"
+        },
+        "observations": [
+          {
+            "name": "forehead",
+            "pixel": [
+              1158,
+              210
+            ],
+            "y": 0.242,
+            "z": 0.407
+          },
+          {
+            "name": "upper nose bridge",
+            "pixel": [
+              1156,
+              235
+            ],
+            "y": 0.083,
+            "z": 0.42
+          },
+          {
+            "name": "lower nose bridge",
+            "pixel": [
+              1152,
+              250
+            ],
+            "y": -0.013,
+            "z": 0.445
+          },
+          {
+            "name": "nose tip",
+            "pixel": [
+              1141,
+              260
+            ],
+            "y": -0.076,
+            "z": 0.515
+          },
+          {
+            "name": "nose base",
+            "pixel": [
+              1143,
+              270
+            ],
+            "y": -0.14,
+            "z": 0.503
+          },
+          {
+            "name": "lip plane",
+            "pixel": [
+              1146,
+              280
+            ],
+            "y": -0.204,
+            "z": 0.484
+          },
+          {
+            "name": "lower lip / front chin",
+            "pixel": [
+              1152,
+              290
+            ],
+            "y": -0.267,
+            "z": 0.445
+          },
+          {
+            "name": "lower front chin",
+            "pixel": [
+              1160,
+              300
+            ],
+            "y": -0.331,
+            "z": 0.394
+          },
+          {
+            "name": "chin",
+            "pixel": [
+              1166,
+              305
+            ],
+            "y": -0.363,
+            "z": 0.356
+          },
+          {
+            "name": "lowest chin",
+            "pixel": [
+              1171,
+              308
+            ],
+            "y": -0.382,
+            "z": 0.324
+          }
+        ],
+        "uncertainty": "Approximate skin-contour observations; hair occludes the forehead and rear jaw. Absolute depth and camera yaw are inferred, not measured."
+      },
+      "parameters": {
+        "strength": 0.65,
+        "noseProjection": 0,
+        "lipProjection": 0,
+        "chinProjection": 0,
+        "noseCenterX": 0.066,
+        "lipCenterX": 0.035,
+        "noseWidth": 0.095,
+        "lipWidth": 0.16,
+        "cheekExponent": 0.25
+      },
+      "parameterHelp": {
+        "strength": "0 retains the previous depth; 1 uses this candidate. Start side QA at .65, then compare 1.",
+        "noseProjection": "Additional nose depth in local units; suggested tuning range -.025 to +.025.",
+        "lipProjection": "Additional lip depth; suggested tuning range -.020 to +.020.",
+        "chinProjection": "Advances the entire lower closing jaw and seam together; suggested -.040 to +.040.",
+        "noseCenterX": "Align the 3D nose with the original painted nose, approximately local X +.066.",
+        "lipCenterX": "Original painted mouth axis, approximately local X +.035.",
+        "noseWidth": "Nose deformation falloff width; suggested .075 to .120. Does not widen X/Y geometry.",
+        "lipWidth": "Lower-face feature falloff width; suggested .130 to .190.",
+        "cheekExponent": "Lateral cheek curvature; .25 retains the current upper-face cross section."
+      },
+      "frontalInvariants": [
+        "Existing vertex X/Y coordinates",
+        "Original UV coordinates and reference pixels",
+        "Existing eye/mouth apertures and dynamic topology"
+      ],
+      "integration": [
+        "Create this volume with the original widthAt/centerAt functions.",
+        "Use frontZ for every existing face layer; keep current per-layer Z offsets and alpha seam blend.",
+        "Use backZ in backGeometry, retaining its existing X/Y rows. Both edges use boundaryZ.",
+        "Recompute changed geometry bounds/normals. Keep scalp geometry independently volumetric."
+      ],
+      "limitations": [
+        "Auxiliary side depth is inferred and has not passed rendered 90° QA.",
+        "Perspective projection can change apparent frontal size after Z edits even though geometric X/Y and UV are unchanged.",
+        "This only closes the face shell. It does not fix scalp, hair, ear or body side topology."
+      ],
+      "closure": {
+        "minY": -0.382,
+        "maxY": 0.64,
+        "sharedSeam": true,
+        "chinZ": 0.21585,
+        "crownZ": 0.015
+      },
+      "implementation": {
+        "sectionSamples": 1025,
+        "interpolation": "linear precomputed sections; exact silhouette evaluation near boundary"
+      }
+    },
+    "layerOffsetsFromSharedFaceSurfaceZ": {
+      "paint": 0.0012,
+      "exposedSclera": 0.0032,
+      "iris": 0.0048,
+      "skinEyelidAndMouthRing": 0.006,
+      "upperEyelash": 0.008,
+      "lowerEyelash": 0.007,
+      "eyebrowCrease": 0.0072,
+      "outerLashWing": 0.0083,
+      "jawContour": 0.004,
+      "mouthColoredFan": 0.003,
+      "tongue": 0.004,
+      "lipContour": 0.0075
+    },
+    "currentStructure": "Curved front shell with 2 eye holes and a mouth hole plus a rounded back skull meeting at the silhouette. Separate dynamically deformed surface annuli/strips/fans complete the visible face; they are not a single welded eyelid/oral topology.",
+    "eyeVolumeLimit": "White and iris are curved surface patches following faceSurfaceZ, not separate closed eye globes/socket cavities.",
+    "oralVolumeLimit": "The object called mouth cavity is a front curved colored fan, not a deep closed oral cavity with lining.",
+    "geometryControls": [
+      "blink",
+      "talk",
+      "happy",
+      "sad",
+      "gazeX",
+      "gazeY"
+    ],
+    "visibilityThresholds": {
+      "irisHiddenAtBlink": 0.993,
+      "scleraHiddenAtBlink": 0.998,
+      "tongueVisibleAboveTalk": 0.25
+    }
+  },
+  "volumeAudit": {
+    "bodyParts": [
+      {
+        "name": "traced collar, bib, bow and continuous bodice",
+        "posedWorldBounds": {
+          "min": [
+            -0.29230771122070487,
+            0.2072307710647583,
+            -0.1850000078976155
+          ],
+          "max": [
+            0.2961538500224168,
+            0.738,
+            0.2550000028312205
+          ],
+          "size": [
+            0.5884615612431217,
+            0.5307692289352417,
+            0.440000010728836
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "Y",
+          "sections": 31,
+          "angularSegments": 48,
+          "inferredSides": true,
+          "frontFitContour": [
+            [
+              554,
+              692
+            ],
+            [
+              519,
+              700
+            ],
+            [
+              506,
+              713
+            ],
+            [
+              504,
+              735
+            ],
+            [
+              507,
+              765
+            ],
+            [
+              507,
+              795
+            ],
+            [
+              504,
+              811
+            ],
+            [
+              508,
+              830
+            ],
+            [
+              652,
+              830
+            ],
+            [
+              655,
+              811
+            ],
+            [
+              654,
+              795
+            ],
+            [
+              655,
+              765
+            ],
+            [
+              657,
+              735
+            ],
+            [
+              654,
+              713
+            ],
+            [
+              642,
+              700
+            ],
+            [
+              609,
+              692
+            ]
+          ],
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 1490,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "continuous flared skirt, painted front apron and encircling ivory hem",
+        "posedWorldBounds": {
+          "min": [
+            -0.7791634318107876,
+            -0.5371932740211487,
+            -0.3199999928474426
+          ],
+          "max": [
+            0.719230781782132,
+            0.24953847575187682,
+            0.3499999940395355
+          ],
+          "size": [
+            1.4983942135929196,
+            0.7867317497730255,
+            0.6699999868869781
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "Y",
+          "sections": 29,
+          "angularSegments": 96,
+          "inferredSides": true,
+          "frontFitContour": [
+            [
+              508,
+              819
+            ],
+            [
+              496,
+              836
+            ],
+            [
+              480,
+              857
+            ],
+            [
+              461,
+              879
+            ],
+            [
+              438,
+              899
+            ],
+            [
+              410,
+              917
+            ],
+            [
+              392,
+              927
+            ],
+            [
+              380,
+              935
+            ],
+            [
+              377,
+              941
+            ],
+            [
+              382,
+              950
+            ],
+            [
+              392,
+              955
+            ],
+            [
+              393,
+              961
+            ],
+            [
+              397,
+              968
+            ],
+            [
+              405,
+              974
+            ],
+            [
+              416,
+              978
+            ],
+            [
+              420,
+              982
+            ],
+            [
+              429,
+              989
+            ],
+            [
+              438,
+              995
+            ],
+            [
+              450,
+              999
+            ],
+            [
+              466,
+              1000
+            ],
+            [
+              480,
+              997
+            ],
+            [
+              483,
+              1005
+            ],
+            [
+              494,
+              1012
+            ],
+            [
+              510,
+              1015
+            ],
+            [
+              526,
+              1016
+            ],
+            [
+              539,
+              1012
+            ],
+            [
+              544,
+              1005
+            ],
+            [
+              549,
+              1010
+            ],
+            [
+              557,
+              1016
+            ],
+            [
+              566,
+              1020
+            ],
+            [
+              583,
+              1021
+            ],
+            [
+              595,
+              1017
+            ],
+            [
+              603,
+              1010
+            ],
+            [
+              607,
+              1006
+            ],
+            [
+              614,
+              1012
+            ],
+            [
+              629,
+              1016
+            ],
+            [
+              645,
+              1013
+            ],
+            [
+              656,
+              1007
+            ],
+            [
+              666,
+              999
+            ],
+            [
+              679,
+              999
+            ],
+            [
+              696,
+              995
+            ],
+            [
+              711,
+              990
+            ],
+            [
+              717,
+              982
+            ],
+            [
+              735,
+              979
+            ],
+            [
+              742,
+              969
+            ],
+            [
+              748,
+              960
+            ],
+            [
+              756,
+              954
+            ],
+            [
+              761,
+              947
+            ],
+            [
+              767,
+              940
+            ],
+            [
+              764,
+              933
+            ],
+            [
+              756,
+              925
+            ],
+            [
+              747,
+              918
+            ],
+            [
+              727,
+              899
+            ],
+            [
+              701,
+              879
+            ],
+            [
+              681,
+              857
+            ],
+            [
+              664,
+              836
+            ],
+            [
+              652,
+              819
+            ]
+          ],
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 2786,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "left traced puff sleeve and cuff",
+        "posedWorldBounds": {
+          "min": [
+            -0.7304283331253627,
+            0.04774745198459703,
+            -0.11489731989647922
+          ],
+          "max": [
+            -0.3377067131147675,
+            0.5243070704960515,
+            0.19489731184985204
+          ],
+          "size": [
+            0.3927216200105952,
+            0.4765596185114545,
+            0.30979463174633126
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "shoulder-elbow-wrist",
+          "sections": 30,
+          "angularSegments": 40,
+          "inferredSides": true,
+          "frontFitContour": [
+            [
+              451,
+              748
+            ],
+            [
+              440,
+              758
+            ],
+            [
+              426,
+              775
+            ],
+            [
+              433,
+              793
+            ],
+            [
+              415,
+              812
+            ],
+            [
+              400,
+              832
+            ],
+            [
+              397,
+              848
+            ],
+            [
+              392,
+              860
+            ],
+            [
+              384,
+              873
+            ],
+            [
+              409,
+              873
+            ],
+            [
+              428,
+              860
+            ],
+            [
+              443,
+              848
+            ],
+            [
+              458,
+              832
+            ],
+            [
+              474,
+              812
+            ],
+            [
+              487,
+              793
+            ],
+            [
+              498,
+              775
+            ],
+            [
+              493,
+              758
+            ],
+            [
+              481,
+              748
+            ]
+          ],
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 1202,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "left traced open hand and fingers",
+        "posedWorldBounds": {
+          "min": [
+            -0.8450839598272648,
+            -0.0896097815457465,
+            0.1460309624671936
+          ],
+          "max": [
+            -0.6361174979394327,
+            0.06418030451304765,
+            0.20896904170513153
+          ],
+          "size": [
+            0.20896646188783208,
+            0.15379008605879416,
+            0.06293807923793793
+          ]
+        },
+        "volumeStudy": {
+          "kind": "biconvex-lens",
+          "inferredSides": true,
+          "edgeThickness": 0.004,
+          "maximumThickness": 0.08499999999999999,
+          "frontFitContour": [
+            [
+              397,
+              869
+            ],
+            [
+              411,
+              878
+            ],
+            [
+              417,
+              883
+            ],
+            [
+              416,
+              887
+            ],
+            [
+              406,
+              886
+            ],
+            [
+              416,
+              894
+            ],
+            [
+              415,
+              898
+            ],
+            [
+              411,
+              900
+            ],
+            [
+              399,
+              895
+            ],
+            [
+              401,
+              905
+            ],
+            [
+              397,
+              909
+            ],
+            [
+              392,
+              905
+            ],
+            [
+              386,
+              896
+            ],
+            [
+              382,
+              905
+            ],
+            [
+              377,
+              908
+            ],
+            [
+              374,
+              904
+            ],
+            [
+              379,
+              892
+            ],
+            [
+              368,
+              898
+            ],
+            [
+              363,
+              896
+            ],
+            [
+              364,
+              892
+            ],
+            [
+              378,
+              883
+            ],
+            [
+              382,
+              876
+            ]
+          ],
+          "frontVertexCount": 960
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 410,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "left traced thigh, sock and ankle",
+        "posedWorldBounds": {
+          "min": [
+            -0.3884615394340539,
+            -0.8734943365974912,
+            -0.12787062156703638
+          ],
+          "max": [
+            -0.1230769231915474,
+            -0.4258506625929409,
+            0.1869474592349006
+          ],
+          "size": [
+            0.26538461624250653,
+            0.4476436740045503,
+            0.31481808080193696
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "Y",
+          "sections": 21,
+          "angularSegments": 48,
+          "inferredSides": true,
+          "frontFitContour": [
+            [
+              486,
+              1001
+            ],
+            [
+              479,
+              1015
+            ],
+            [
+              479,
+              1034
+            ],
+            [
+              482,
+              1050
+            ],
+            [
+              484,
+              1070
+            ],
+            [
+              482,
+              1085
+            ],
+            [
+              484,
+              1095
+            ],
+            [
+              544,
+              1095
+            ],
+            [
+              545,
+              1085
+            ],
+            [
+              543,
+              1070
+            ],
+            [
+              543,
+              1050
+            ],
+            [
+              545,
+              1034
+            ],
+            [
+              546,
+              1015
+            ],
+            [
+              548,
+              1001
+            ]
+          ],
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 1010,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "left traced mary jane shoe",
+        "posedWorldBounds": {
+          "min": [
+            -0.3958735466003418,
+            -1.0550000000000006,
+            -0.12499999999999997
+          ],
+          "max": [
+            -0.10769230872392654,
+            -0.786949388980866,
+            0.33500000834465027
+          ],
+          "size": [
+            0.28818123787641525,
+            0.26805061101913463,
+            0.46000000834465027
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "heel-instep-toe",
+          "sections": 33,
+          "angularSegments": 48,
+          "inferredSides": true,
+          "frontFitContour": [
+            [
+              486,
+              1075
+            ],
+            [
+              511,
+              1068
+            ],
+            [
+              537,
+              1073
+            ],
+            [
+              547,
+              1085
+            ],
+            [
+              552,
+              1101
+            ],
+            [
+              552,
+              1116
+            ],
+            [
+              546,
+              1128
+            ],
+            [
+              533,
+              1135
+            ],
+            [
+              507,
+              1137
+            ],
+            [
+              490,
+              1132
+            ],
+            [
+              480,
+              1123
+            ],
+            [
+              477,
+              1108
+            ],
+            [
+              479,
+              1091
+            ]
+          ],
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 1586,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "right traced puff sleeve and cuff",
+        "posedWorldBounds": {
+          "min": [
+            0.3223230685771212,
+            0.04733211786135946,
+            -0.11489731989647922
+          ],
+          "max": [
+            0.7150493256653087,
+            0.524122459553177,
+            0.19489731184985204
+          ],
+          "size": [
+            0.3927262570881875,
+            0.47679034169181755,
+            0.30979463174633126
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "shoulder-elbow-wrist",
+          "sections": 30,
+          "angularSegments": 40,
+          "inferredSides": true,
+          "frontFitContour": [
+            [
+              675,
+              748
+            ],
+            [
+              663,
+              758
+            ],
+            [
+              658,
+              775
+            ],
+            [
+              669,
+              793
+            ],
+            [
+              682,
+              812
+            ],
+            [
+              698,
+              832
+            ],
+            [
+              713,
+              848
+            ],
+            [
+              728,
+              860
+            ],
+            [
+              747,
+              873
+            ],
+            [
+              772,
+              873
+            ],
+            [
+              764,
+              860
+            ],
+            [
+              759,
+              848
+            ],
+            [
+              756,
+              832
+            ],
+            [
+              741,
+              812
+            ],
+            [
+              723,
+              793
+            ],
+            [
+              730,
+              775
+            ],
+            [
+              716,
+              758
+            ],
+            [
+              705,
+              748
+            ]
+          ],
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 1202,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "right traced open hand and fingers",
+        "posedWorldBounds": {
+          "min": [
+            0.6207384908231264,
+            -0.09002511566898408,
+            0.1470118761062622
+          ],
+          "max": [
+            0.8297049527109583,
+            0.06376497038981008,
+            0.20798812806606293
+          ],
+          "size": [
+            0.20896646188783197,
+            0.15379008605879416,
+            0.06097625195980072
+          ]
+        },
+        "volumeStudy": {
+          "kind": "biconvex-lens",
+          "inferredSides": true,
+          "edgeThickness": 0.004,
+          "maximumThickness": 0.08499999999999999,
+          "frontFitContour": [
+            [
+              759,
+              869
+            ],
+            [
+              745,
+              878
+            ],
+            [
+              739,
+              883
+            ],
+            [
+              740,
+              887
+            ],
+            [
+              750,
+              886
+            ],
+            [
+              740,
+              894
+            ],
+            [
+              741,
+              898
+            ],
+            [
+              745,
+              900
+            ],
+            [
+              757,
+              895
+            ],
+            [
+              755,
+              905
+            ],
+            [
+              759,
+              909
+            ],
+            [
+              764,
+              905
+            ],
+            [
+              770,
+              896
+            ],
+            [
+              774,
+              905
+            ],
+            [
+              779,
+              908
+            ],
+            [
+              782,
+              904
+            ],
+            [
+              777,
+              892
+            ],
+            [
+              788,
+              898
+            ],
+            [
+              793,
+              896
+            ],
+            [
+              792,
+              892
+            ],
+            [
+              778,
+              883
+            ],
+            [
+              774,
+              876
+            ]
+          ],
+          "frontVertexCount": 960
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 410,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "right traced thigh, sock and ankle",
+        "posedWorldBounds": {
+          "min": [
+            0.10769230872392654,
+            -0.8734943365974912,
+            -0.12787062156703638
+          ],
+          "max": [
+            0.3730769246010681,
+            -0.4258506625929409,
+            0.1869474592349006
+          ],
+          "size": [
+            0.26538461587714157,
+            0.4476436740045503,
+            0.31481808080193696
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "Y",
+          "sections": 21,
+          "angularSegments": 48,
+          "inferredSides": true,
+          "frontFitContour": [
+            [
+              608,
+              1001
+            ],
+            [
+              610,
+              1015
+            ],
+            [
+              611,
+              1034
+            ],
+            [
+              613,
+              1050
+            ],
+            [
+              613,
+              1070
+            ],
+            [
+              611,
+              1085
+            ],
+            [
+              612,
+              1095
+            ],
+            [
+              672,
+              1095
+            ],
+            [
+              674,
+              1085
+            ],
+            [
+              672,
+              1070
+            ],
+            [
+              674,
+              1050
+            ],
+            [
+              677,
+              1034
+            ],
+            [
+              677,
+              1015
+            ],
+            [
+              670,
+              1001
+            ]
+          ],
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 1010,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "right traced mary jane shoe",
+        "posedWorldBounds": {
+          "min": [
+            0.0923076942563057,
+            -1.0550000000000006,
+            -0.12499999999999997
+          ],
+          "max": [
+            0.38048893213272095,
+            -0.786949388980866,
+            0.33500000834465027
+          ],
+          "size": [
+            0.28818123787641525,
+            0.26805061101913463,
+            0.46000000834465027
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "heel-instep-toe",
+          "sections": 33,
+          "angularSegments": 48,
+          "inferredSides": true,
+          "frontFitContour": [
+            [
+              670,
+              1075
+            ],
+            [
+              645,
+              1068
+            ],
+            [
+              619,
+              1073
+            ],
+            [
+              609,
+              1085
+            ],
+            [
+              604,
+              1101
+            ],
+            [
+              604,
+              1116
+            ],
+            [
+              610,
+              1128
+            ],
+            [
+              623,
+              1135
+            ],
+            [
+              649,
+              1137
+            ],
+            [
+              666,
+              1132
+            ],
+            [
+              676,
+              1123
+            ],
+            [
+              679,
+              1108
+            ],
+            [
+              677,
+              1091
+            ]
+          ],
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 1586,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "continuous rounded whale tail stem",
+        "posedWorldBounds": {
+          "min": [
+            0.23575156927108765,
+            -0.5918700871506303,
+            -0.41625000286847325
+          ],
+          "max": [
+            0.8929318536185135,
+            -0.13775601041316987,
+            -0.2150000035762787
+          ],
+          "size": [
+            0.6571802843474258,
+            0.4541140767374604,
+            0.20124999929219456
+          ]
+        },
+        "volumeStudy": {
+          "kind": "360-sections",
+          "axis": "tail centerline",
+          "sections": 25,
+          "angularSegments": 32,
+          "inferredSides": true,
+          "frontFitContour": null,
+          "frontMaterialIndex": 0
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 802,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "indigo whale left biconvex fluke",
+        "posedWorldBounds": {
+          "min": [
+            0.4230769296320012,
+            -0.7077692292997464,
+            -0.38500000193715067
+          ],
+          "max": [
+            0.9076923115035662,
+            -0.18892308127880098,
+            -0.28499998793005954
+          ],
+          "size": [
+            0.484615381871565,
+            0.5188461480209454,
+            0.10000001400709113
+          ]
+        },
+        "volumeStudy": {
+          "kind": "biconvex-lens",
+          "inferredSides": true,
+          "edgeThickness": 0.004,
+          "maximumThickness": 0.10000000000000003,
+          "frontFitContour": [
+            [
+              712,
+              941
+            ],
+            [
+              733,
+              933
+            ],
+            [
+              753,
+              949
+            ],
+            [
+              773,
+              973
+            ],
+            [
+              792,
+              985
+            ],
+            [
+              811,
+              990
+            ],
+            [
+              816,
+              1018
+            ],
+            [
+              808,
+              1039
+            ],
+            [
+              785,
+              1052
+            ],
+            [
+              761,
+              1058
+            ],
+            [
+              737,
+              1053
+            ],
+            [
+              716,
+              1040
+            ],
+            [
+              700,
+              1021
+            ],
+            [
+              690,
+              1002
+            ],
+            [
+              695,
+              978
+            ]
+          ],
+          "frontVertexCount": 2496
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 954,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      },
+      {
+        "name": "indigo whale right biconvex fluke",
+        "posedWorldBounds": {
+          "min": [
+            0.8769230842590332,
+            -0.7032307948836916,
+            -0.38500000193715067
+          ],
+          "max": [
+            1.4884614944458008,
+            0.0033846153989434136,
+            -0.28499998793005954
+          ],
+          "size": [
+            0.6115384101867676,
+            0.706615410282635,
+            0.10000001400709113
+          ]
+        },
+        "volumeStudy": {
+          "kind": "biconvex-lens",
+          "inferredSides": true,
+          "edgeThickness": 0.004,
+          "maximumThickness": 0.10000000000000003,
+          "frontFitContour": [
+            [
+              811,
+              990
+            ],
+            [
+              813,
+              980
+            ],
+            [
+              815,
+              970
+            ],
+            [
+              819,
+              960
+            ],
+            [
+              824,
+              950
+            ],
+            [
+              832,
+              940
+            ],
+            [
+              843,
+              930
+            ],
+            [
+              859,
+              920
+            ],
+            [
+              889,
+              910
+            ],
+            [
+              920,
+              905
+            ],
+            [
+              933,
+              900
+            ],
+            [
+              947,
+              890
+            ],
+            [
+              958,
+              883
+            ],
+            [
+              964,
+              891
+            ],
+            [
+              967,
+              906
+            ],
+            [
+              967,
+              925
+            ],
+            [
+              965,
+              946
+            ],
+            [
+              960,
+              966
+            ],
+            [
+              954,
+              985
+            ],
+            [
+              944,
+              1005
+            ],
+            [
+              930,
+              1022
+            ],
+            [
+              911,
+              1038
+            ],
+            [
+              888,
+              1050
+            ],
+            [
+              862,
+              1057
+            ],
+            [
+              842,
+              1057
+            ],
+            [
+              822,
+              1049
+            ],
+            [
+              808,
+              1039
+            ],
+            [
+              816,
+              1018
+            ]
+          ],
+          "frontVertexCount": 4992
+        },
+        "bindTopologyAudit": {
+          "method": "Raw bind geometry position-weld at 1e-6, omit collapsed triangles; no T-junction splitting or self-intersection test",
+          "weldedPositions": 1890,
+          "collapsedTriangles": 0,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0
+        }
+      }
+    ],
+    "bodyInterpretation": "All 13 body parts are individually closed after positional welding. They are capped overlapping parts, not continuous anatomy across neck/shoulder/wrist/hip. Closed render solids must not be blindly used as a solid skirt collider.",
+    "hands": "Each hand is one biconvex traced whole-hand volume bound to one wrist bone, no individual digit bones.",
+    "tail": "Tubular stem and two separately closed biconvex flukes, 0.10 nominal fin thickness with 0.004 rim; pieces are not a welded fork branch. Keep these approved source contours in any structural integration.",
+    "skirt": "A 29x96 capped continuous section volume with painted apron/frill; the apron is not an independently simulated cloth layer. True hollow garment/petticoat and tail opening remain structural work.",
+    "hairTopology": [
+      {
+        "name": "continuous-scalp-front-side-back-shell",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 18432,
+        "collapsedTriangles": 192,
+        "weldedPositions": 9218,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "rounded-posterior-waterfall-hair-volume",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 12288,
+        "collapsedTriangles": 96,
+        "weldedPositions": 6146,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "continuous-rounded-three-dimensional-headband",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 3072,
+        "collapsedTriangles": 0,
+        "weldedPositions": 1552,
+        "boundaryEdges": 32,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "left-auxiliary-source-traced-long-curls",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 1804,
+        "collapsedTriangles": 0,
+        "weldedPositions": 1031,
+        "boundaryEdges": 646,
+        "nonmanifoldEdges": 4,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "right-auxiliary-source-traced-long-curls",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 1804,
+        "collapsedTriangles": 0,
+        "weldedPositions": 1031,
+        "boundaryEdges": 646,
+        "nonmanifoldEdges": 4,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "left-face-framing-hair",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 12334,
+        "collapsedTriangles": 0,
+        "weldedPositions": 6741,
+        "boundaryEdges": 2182,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "right-face-framing-hair",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 16898,
+        "collapsedTriangles": 0,
+        "weldedPositions": 9130,
+        "boundaryEdges": 2446,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "central-forked-bangs",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 8490,
+        "collapsedTriangles": 0,
+        "weldedPositions": 4654,
+        "boundaryEdges": 1578,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "left-whale-fin-ear",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 1614,
+        "collapsedTriangles": 0,
+        "weldedPositions": 919,
+        "boundaryEdges": 478,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "right-whale-fin-ear",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 1142,
+        "collapsedTriangles": 0,
+        "weldedPositions": 650,
+        "boundaryEdges": 342,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "left-blue-ribbon",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 764,
+        "collapsedTriangles": 0,
+        "weldedPositions": 418,
+        "boundaryEdges": 204,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "right-blue-ribbon",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 506,
+        "collapsedTriangles": 0,
+        "weldedPositions": 270,
+        "boundaryEdges": 82,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "left-painted-white-frill",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 4844,
+        "collapsedTriangles": 0,
+        "weldedPositions": 2700,
+        "boundaryEdges": 1172,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "right-painted-white-frill",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 2270,
+        "collapsedTriangles": 0,
+        "weldedPositions": 1284,
+        "boundaryEdges": 666,
+        "nonmanifoldEdges": 16,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "inferred-rounded-crown-using-original-blue-pixels",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 592,
+        "collapsedTriangles": 0,
+        "weldedPositions": 354,
+        "boundaryEdges": 256,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      },
+      {
+        "name": "auxiliary-painted-hook-ahoge",
+        "method": "position weld at 1e-6; collapsed triangles omitted; no T-junction splitting",
+        "triangles": 680,
+        "collapsedTriangles": 0,
+        "weldedPositions": 376,
+        "boundaryEdges": 204,
+        "nonmanifoldEdges": 0,
+        "note": "Unmatched edges on independently subdivided front/sides may be geometric T-junctions rather than visible holes. This is not a self-intersection/solid-volume certificate."
+      }
+    ],
+    "hairInterpretation": "Scalp and rear waterfall are true closed volumes. Source-painted locks have front/side/back surfaces but adaptive subdivision and T-junctions prevent treating every closed-thickness label as a certified simulation manifold. Headband ends are open.",
+    "physicsCertification": false,
+    "methodLimits": "Position-weld topology statistics are not signed-solid, self-intersection or deformation acceptance."
+  },
+  "angleLimits": {
+    "actualHeadYawClampDegrees": [
+      -25,
+      25
+    ],
+    "actualHeadPitchClampDegrees": [
+      -8,
+      8
+    ],
+    "requested90SourceResult": 25.00000000000001,
+    "at25": [
+      "Actual head geometry rotates continuously; body counterturn is only 10 percent opposite yaw.",
+      "The front paint and attached curves retain identity, but head shell/eye depth and side hair seams still require actual render review.",
+      "The current range is an implementation allowance, not proof that every expression/occlusion at both signs has passed."
+    ],
+    "at90": [
+      "Current head control cannot reach 90; it clamps to 25. A camera orbit or whole-root turn is a separate diagnostic.",
+      "Near-side eyes/eyelashes/lips remain thin layered surfaces on the original curved front, without fully integrated socket/oral depth.",
+      "Scalp side and body volume exist, but many visible side surfaces are inferred plain colors or patch edges, not authored artwork continuation.",
+      "Profile depth comes from an approximate generated auxiliary image with installed strength .65 and validatedAt90Degrees=false."
+    ],
+    "rear": [
+      "Rear hair samples a limited generated blue region and stretches it over the waterfall volume.",
+      "Bodice/sleeves/legs/shoes/skirt rear colors are inferred solids; back silhouette/paint has not been identity-accepted.",
+      "Closed separate parts, unsolved intersections and incomplete physical collisions remain; a closed back alone is not all-angle anatomy."
+    ],
+    "renderedVisualReviewInThisTask": false
+  },
+  "implementationRecommendation": [
+    {
+      "step": 1,
+      "action": "Finish a faithful static source transfer first",
+      "invariants": "Same source geometry, UV, materials, texture bytes, orthographic camera and skin/head hierarchy. Compare front neutral pixels/landmarks in the old page and new runtime before adding anything.",
+      "avoid": "No normalization to a different head/body ratio, symmetric face fitting, new eye shader, new hair design or native-v2/v3/v4 doll substitution."
+    },
+    {
+      "step": 2,
+      "action": "Retain the approved front surface, complete hidden anatomical structure behind it",
+      "method": "Trace actual front boundary loops and align new hidden cross-sections with their tangents. Build coherent C1 side/back volume and joint rings; weld/retopologize openings with shared weights rather than thicken an entire drawing into a stack of plates. Constrain neutral front XYZ/UV and canonical projected landmarks during fitting.",
+      "checks": "Exact frozen front placement/paint retained; shared-edge orientation, closed or intentionally open garment boundaries, positive local solids and no self-intersections."
+    },
+    {
+      "step": 3,
+      "action": "Integrate eye and mouth deformation without replacing their drawings",
+      "method": "Use the existing aperture/iris/lash/lip traces as master curves. Add hidden socket/eye-lens and oral lining volumes, continuous lid/lip skin loops and corrective deformations that meet those same traces. Preserve original iris UV/pupil/highlights and current gaze UV behavior; transfer alpha transitions deliberately.",
+      "checks": "Neutral front identical; continuous blink, speech and gaze across both yaw signs; no sprite swapping or layer popping."
+    },
+    {
+      "step": 4,
+      "action": "Turn the existing body and hair into deformable physical structures",
+      "method": "Keep visible fitted garment/hand/tail contours and UV. Add continuous hidden body at the joints and real articulated digits behind the approved hand surface. Make skirt a hollow cloth shell with an inner garment and a tail exit matching the original tail route/appearance. Weld curved hair surfaces and create strand chains/contact volumes inside the same locks.",
+      "checks": "Bone lengths/attachments fixed, joint limits, live cloth/contact and tail/hair response; source-front visual invariants must still hold."
+    },
+    {
+      "step": 5,
+      "action": "Review increasing angles and then a continuous contact sequence",
+      "method": "Freeze front acceptance first, then compare both signs at 15/25/45/90 degrees and rear using actual rendered views. Add view-conditioned anime corrective geometry only from the locked identity. Finally test turn, step, reach/grip and stop with actual support contacts.",
+      "avoid": "Do not label an index closure test, a single front screenshot or an in-place sine motion as full-angle physical completion."
+    }
+  ],
+  "acceptanceLedger": {
+    "sourceReadOnly": true,
+    "newModelOrAppearanceGenerated": false,
+    "newRendererOrBrowserWindowOpened": false,
+    "sourcePixelRenderPerformed": false,
+    "futureAngleScreenshots": "Requested from root, who owns CUA.",
+    "frontRasterEqualityNotYetMeasuredInThisTask": true,
+    "allFrozenSourceHashesVerified": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "views": [
+    {
+      "azimuth_degrees": 0,
+      "image": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-000.png"
+    },
+    {
+      "azimuth_degrees": 45,
+      "image": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-045.png"
+    },
+    {
+      "azimuth_degrees": 90,
+      "image": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-090.png"
+    },
+    {
+      "azimuth_degrees": 135,
+      "image": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-135.png"
+    },
+    {
+      "azimuth_degrees": 180,
+      "image": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-180.png"
+    },
+    {
+      "azimuth_degrees": 225,
+      "image": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-225.png"
+    },
+    {
+      "azimuth_degrees": 270,
+      "image": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-270.png"
+    },
+    {
+      "azimuth_degrees": 315,
+      "image": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-315.png"
+    }
+  ],
+  "bounds": [
+    [
+      -0.176466703414917,
+      -0.42940887808799744,
+      -0.5067750811576843
+    ],
+    [
+      0.3026294708251953,
+      0.41767847537994385,
+      0.5009510517120361
+    ]
+  ],
+  "mesh_objects": 1,
+  "rigged": false,
+  "physics": false,
+  "source": "Actual PLY mesh imported from official TripoSR inference, raw Z-up; GLB also supplied"
+}

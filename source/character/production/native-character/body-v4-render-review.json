@@ -1,0 +1,29 @@
+{
+  "status": "native_actual_render_review_pending_art_acceptance",
+  "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v4.blend",
+  "sourceSha256": "252588cf0a844c3a076511f0770afd0fd0e7c2c86861ec91bb5c66cf7f7ddce5",
+  "sourceUnchanged": true,
+  "renders": {
+    "final-front": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v4\\final-front.png",
+    "final-side": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v4\\final-side.png",
+    "final-back": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v4\\final-back.png",
+    "final-threequarter": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v4\\final-threequarter.png",
+    "final-outlet-close": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v4\\final-outlet-close.png",
+    "final-tail-clay-geometry": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v4\\final-tail-clay-geometry.png",
+    "final-tail-palette": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v4\\final-tail-palette.png",
+    "final-wave-wrist": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v4\\final-wave-wrist.png"
+  },
+  "waveIKTargetNative": [
+    -0.48,
+    -0.26,
+    1.92
+  ],
+  "posedBoneLengthMaxError": 8.557090939720347e-07,
+  "wristLocalEuler": [
+    0.0,
+    -0.0,
+    0.0
+  ],
+  "limits": "MCH-hand local anatomical constraint, not global orientation forced beyond the wrist range",
+  "scope": "Body only. No new face/hair or parent assembly change. Clay view tests actual tail geometry independently of toon material bands."
+}

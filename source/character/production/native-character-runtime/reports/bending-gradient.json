@@ -1,0 +1,7 @@
+{
+  "cases": 300,
+  "max_gradient_error": 1.1369644115077904e-10,
+  "max_net_force": 4.47545209131181e-16,
+  "max_net_torque": 9.321907481344796e-16,
+  "passed": true
+}

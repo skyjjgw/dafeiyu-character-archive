@@ -1,0 +1,39 @@
+{
+  "schema": "dafeiyu.head-v3.partial-visual-review.v1",
+  "date": "2026-10-28",
+  "reviewer": "Root CUA actual WebGL; this geometry agent inspected root exported screenshot with view_image",
+  "sourceMetrics": "reports/gpu-front-v3-comparison-root-20261028.json",
+  "screenshot": "reports/cua-head-v3-front-20261028.png",
+  "measurements": {
+    "rgbRMSE": 1.7501202694738172,
+    "maxRGBDifference": 184,
+    "pixelsRGBDifferenceOver1": 301,
+    "alphaSilhouetteDifference": 0,
+    "faceRegion": {
+      "worldXY": [
+        [
+          -0.61,
+          0.71
+        ],
+        [
+          0.61,
+          1.75
+        ]
+      ],
+      "rgbRMSE": 5.237884308811879,
+      "pixelsRGBDifferenceOver1": 301
+    }
+  },
+  "finding": "Limited neutral frontal identity retained; original selected girl and painting preserved, v2 forehead/hair ordering differences substantially reduced. Not pixel-identical and not final quality.",
+  "acceptedScope": [
+    "Neutral frontal source identity retained for this independent structural candidate"
+  ],
+  "pending": [
+    "Actual 45 degree combined blink/talk/gaze review",
+    "Actual 90 degree head volume review",
+    "All-angle intersection/contact/physical validation",
+    "Native canonical roles/depth policy implementation"
+  ],
+  "nativeIntegrated": false,
+  "finalVisualAcceptance": false
+}

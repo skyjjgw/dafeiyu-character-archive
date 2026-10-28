@@ -1,0 +1,1232 @@
+{
+  "schema": "dafeiyu.selected-motion-rig.v1",
+  "glbSha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+  "source": "Frozen original selected character, not native art",
+  "metersPerSourceUnit": 0.35,
+  "modelLiftSourceUnits": 1.055,
+  "aliases": {
+    "hips": {
+      "name": "pelvis / garment anchor",
+      "godotName": "pelvis _ garment anchor",
+      "skinJointIndex": 0,
+      "localPosition": [
+        0,
+        0.188,
+        0
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.188,
+        0,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.2,
+        0,
+        1
+      ]
+    },
+    "spine": {
+      "name": "bodice spine",
+      "godotName": "bodice spine",
+      "skinJointIndex": 1,
+      "localPosition": [
+        0,
+        0.28,
+        0
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.468,
+        0,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.48000000000000004,
+        0,
+        1
+      ]
+    },
+    "chest": {
+      "name": "collar / chest",
+      "godotName": "collar _ chest",
+      "skinJointIndex": 2,
+      "localPosition": [
+        0,
+        0.18,
+        0
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.648,
+        0,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.66,
+        0,
+        1
+      ]
+    },
+    "skirtLeft": {
+      "name": "left skirt cloth",
+      "godotName": "left skirt cloth",
+      "skinJointIndex": 3,
+      "localPosition": [
+        -0.23,
+        -0.06,
+        0
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.23,
+        0.128,
+        0,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.23,
+        -0.14,
+        0,
+        1
+      ]
+    },
+    "skirtRight": {
+      "name": "right skirt cloth",
+      "godotName": "right skirt cloth",
+      "skinJointIndex": 4,
+      "localPosition": [
+        0.23,
+        -0.06,
+        0
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.23,
+        0.128,
+        0,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.23,
+        -0.14,
+        0,
+        1
+      ]
+    },
+    "skirtFront": {
+      "name": "front apron cloth",
+      "godotName": "front apron cloth",
+      "skinJointIndex": 5,
+      "localPosition": [
+        0,
+        -0.08,
+        0.17
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.108,
+        0.17,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.12000000000000001,
+        -0.17,
+        1
+      ]
+    },
+    "skirtBack": {
+      "name": "back skirt cloth",
+      "godotName": "back skirt cloth",
+      "skinJointIndex": 6,
+      "localPosition": [
+        0,
+        -0.08,
+        -0.15
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.108,
+        -0.15,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.12000000000000001,
+        0.15,
+        1
+      ]
+    },
+    "leftUpperArm": {
+      "name": "left upper sleeve",
+      "godotName": "left upper sleeve",
+      "skinJointIndex": 7,
+      "localPosition": [
+        -0.355,
+        0.025,
+        0.035
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        -0.0059999640000648,
+        0.999982000054
+      ],
+      "neutralGlobal": [
+        0.9999280008639958,
+        -0.011999712002073592,
+        0,
+        0,
+        0.011999712002073592,
+        0.9999280008639958,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.355,
+        0.49300000000000005,
+        0.035,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.355,
+        -0.505,
+        -0.035,
+        1
+      ]
+    },
+    "leftForeArm": {
+      "name": "left elbow / sleeve",
+      "godotName": "left elbow _ sleeve",
+      "skinJointIndex": 8,
+      "localPosition": [
+        -0.17,
+        -0.265,
+        0.015
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        -0.007499929687697754,
+        0.9999718751318357
+      ],
+      "neutralGlobal": [
+        0.9996355221428369,
+        -0.026996719619572146,
+        0,
+        0,
+        0.026996719619572146,
+        0.9996355221428369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.5281676838274287,
+        0.23005903081139362,
+        0.05,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.525,
+        -0.24,
+        -0.05,
+        1
+      ]
+    },
+    "leftHand": {
+      "name": "left wrist / fingers",
+      "godotName": "left wrist _ fingers",
+      "skinJointIndex": 9,
+      "localPosition": [
+        -0.13,
+        -0.185,
+        0.07
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        0.9996355221428369,
+        -0.026996719619572146,
+        0,
+        0,
+        0.026996719619572146,
+        0.9996355221428369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.6631146948356184,
+        0.048636032765513176,
+        0.12000000000000001,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.655,
+        -0.05499999999999999,
+        -0.12000000000000001,
+        1
+      ]
+    },
+    "leftUpperLeg": {
+      "name": "left hip / thigh",
+      "godotName": "left hip _ thigh",
+      "skinJointIndex": 10,
+      "localPosition": [
+        -0.245,
+        -0.667,
+        0.015
+      ],
+      "neutralLocalQuaternion": [
+        -0.10580130093147684,
+        0,
+        0,
+        0.9943872911100621
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.9776121694424141,
+        -0.2104149380583435,
+        0,
+        0,
+        0.2104149380583435,
+        0.9776121694424141,
+        0,
+        -0.245,
+        -0.47900000000000004,
+        0.015,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.245,
+        0.467,
+        -0.015,
+        1
+      ]
+    },
+    "leftLowerLeg": {
+      "name": "left knee / sock",
+      "godotName": "left knee _ sock",
+      "skinJointIndex": 11,
+      "localPosition": [
+        0,
+        -0.235,
+        0.025
+      ],
+      "neutralLocalQuaternion": [
+        0.20636597693048497,
+        0,
+        0,
+        0.9784748763077806
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.9793208137288864,
+        0.20231347903041977,
+        0,
+        0,
+        -0.20231347903041977,
+        0.9793208137288864,
+        0,
+        -0.245,
+        -0.7034784863675088,
+        0.08888781467977107,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.245,
+        0.702,
+        -0.04,
+        1
+      ]
+    },
+    "leftFoot": {
+      "name": "left ankle / shoe",
+      "godotName": "left ankle _ shoe",
+      "skinJointIndex": 12,
+      "localPosition": [
+        0,
+        -0.235,
+        0.065
+      ],
+      "neutralLocalQuaternion": [
+        -0.10168378993505742,
+        0,
+        0,
+        0.9948167704981873
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -5.551115123125783e-17,
+        0,
+        0,
+        5.551115123125783e-17,
+        1,
+        0,
+        -0.245,
+        -0.9467692537307744,
+        0.10500000000000004,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.245,
+        0.9369999999999999,
+        -0.10500000000000001,
+        1
+      ]
+    },
+    "rightUpperArm": {
+      "name": "right upper sleeve",
+      "godotName": "right upper sleeve",
+      "skinJointIndex": 13,
+      "localPosition": [
+        0.355,
+        0.025,
+        0.035
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0.0059999640000648,
+        0.999982000054
+      ],
+      "neutralGlobal": [
+        0.9999280008639958,
+        0.011999712002073592,
+        0,
+        0,
+        -0.011999712002073592,
+        0.9999280008639958,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.355,
+        0.49300000000000005,
+        0.035,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.355,
+        -0.505,
+        -0.035,
+        1
+      ]
+    },
+    "rightForeArm": {
+      "name": "right elbow / sleeve",
+      "godotName": "right elbow _ sleeve",
+      "skinJointIndex": 14,
+      "localPosition": [
+        0.17,
+        -0.265,
+        0.015
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0.007499929687697754,
+        0.9999718751318357
+      ],
+      "neutralGlobal": [
+        0.9996355221428369,
+        0.026996719619572146,
+        0,
+        0,
+        -0.026996719619572146,
+        0.9996355221428369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.5281676838274287,
+        0.23005903081139362,
+        0.05,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.525,
+        -0.24,
+        -0.05,
+        1
+      ]
+    },
+    "rightHand": {
+      "name": "right wrist / fingers",
+      "godotName": "right wrist _ fingers",
+      "skinJointIndex": 15,
+      "localPosition": [
+        0.13,
+        -0.185,
+        0.07
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        0.9996355221428369,
+        0.026996719619572146,
+        0,
+        0,
+        -0.026996719619572146,
+        0.9996355221428369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.6631146948356184,
+        0.048636032765513176,
+        0.12000000000000001,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.655,
+        -0.05499999999999999,
+        -0.12000000000000001,
+        1
+      ]
+    },
+    "rightUpperLeg": {
+      "name": "right hip / thigh",
+      "godotName": "right hip _ thigh",
+      "skinJointIndex": 16,
+      "localPosition": [
+        0.245,
+        -0.667,
+        0.015
+      ],
+      "neutralLocalQuaternion": [
+        -0.10580130093147684,
+        0,
+        0,
+        0.9943872911100621
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.9776121694424141,
+        -0.2104149380583435,
+        0,
+        0,
+        0.2104149380583435,
+        0.9776121694424141,
+        0,
+        0.245,
+        -0.47900000000000004,
+        0.015,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.245,
+        0.467,
+        -0.015,
+        1
+      ]
+    },
+    "rightLowerLeg": {
+      "name": "right knee / sock",
+      "godotName": "right knee _ sock",
+      "skinJointIndex": 17,
+      "localPosition": [
+        0,
+        -0.235,
+        0.025
+      ],
+      "neutralLocalQuaternion": [
+        0.20636597693048497,
+        0,
+        0,
+        0.9784748763077806
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.9793208137288864,
+        0.20231347903041977,
+        0,
+        0,
+        -0.20231347903041977,
+        0.9793208137288864,
+        0,
+        0.245,
+        -0.7034784863675088,
+        0.08888781467977107,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.245,
+        0.702,
+        -0.04,
+        1
+      ]
+    },
+    "rightFoot": {
+      "name": "right ankle / shoe",
+      "godotName": "right ankle _ shoe",
+      "skinJointIndex": 18,
+      "localPosition": [
+        0,
+        -0.235,
+        0.065
+      ],
+      "neutralLocalQuaternion": [
+        -0.10168378993505742,
+        0,
+        0,
+        0.9948167704981873
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -5.551115123125783e-17,
+        0,
+        0,
+        5.551115123125783e-17,
+        1,
+        0,
+        0.245,
+        -0.9467692537307744,
+        0.10500000000000004,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.245,
+        0.9369999999999999,
+        -0.10500000000000001,
+        1
+      ]
+    },
+    "tailBase": {
+      "name": "whale tail base",
+      "godotName": "whale tail base",
+      "skinJointIndex": 19,
+      "localPosition": [
+        0.37,
+        -0.56,
+        -0.26
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.37,
+        -0.37200000000000005,
+        -0.26,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.37,
+        0.36000000000000004,
+        0.26,
+        1
+      ]
+    },
+    "tailMid": {
+      "name": "whale tail middle",
+      "godotName": "whale tail middle",
+      "skinJointIndex": 20,
+      "localPosition": [
+        0.42,
+        -0.02,
+        -0.025
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.79,
+        -0.39200000000000007,
+        -0.28500000000000003,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.79,
+        0.38000000000000006,
+        0.28500000000000003,
+        1
+      ]
+    },
+    "tailTip": {
+      "name": "whale tail flukes",
+      "godotName": "whale tail flukes",
+      "skinJointIndex": 21,
+      "localPosition": [
+        0.43,
+        0.075,
+        0
+      ],
+      "neutralLocalQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "neutralGlobal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.22,
+        -0.31700000000000006,
+        -0.28500000000000003,
+        1
+      ],
+      "inverseBind": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1.22,
+        0.30500000000000005,
+        0.28500000000000003,
+        1
+      ]
+    }
+  },
+  "shoes": {
+    "left": {
+      "name": "left traced mary jane shoe",
+      "soleLocal": [
+        -0.001411102262523536,
+        -0.10823074626922566,
+        -0.025260482626717668
+      ],
+      "heelLocal": [
+        -0.008846152262254199,
+        -0.10823074626922612,
+        -0.23000000000000004
+      ],
+      "toeLocal": [
+        -0.008846153616905217,
+        -0.10823074626922612,
+        0.23000000834465026
+      ],
+      "soleMinimumY": -0.10823074626922613,
+      "sampleCount": 287
+    },
+    "right": {
+      "name": "right traced mary jane shoe",
+      "soleLocal": [
+        -0.013973514437675543,
+        -0.10823074626922566,
+        -0.025260482626717668
+      ],
+      "heelLocal": [
+        -0.006538462205366651,
+        -0.10823074626922612,
+        -0.23000000000000004
+      ],
+      "toeLocal": [
+        -0.006538462205366651,
+        -0.10823074626922612,
+        0.23000000834465026
+      ],
+      "soleMinimumY": -0.10823074626922613,
+      "sampleCount": 287
+    }
+  },
+  "head": {
+    "name": "head-control",
+    "localPosition": [
+      0,
+      0.45200000000000007,
+      0
+    ],
+    "neutralLocalQuaternion": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "neutralGlobal": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1.1,
+      0,
+      1
+    ]
+  },
+  "limits": [
+    "22 body bones plus Head node; hands have one wrist bone each, no finger grip rig",
+    "Three original tail bones remain static until real dynamics are fitted",
+    "Existing skirt bones are not full cloth and remain static, no sine physics substitute"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "asset": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\hair-v3.blend",
+  "coordinates": {
+    "up": "+Z",
+    "front": "-Y",
+    "HeadRoot": [
+      0,
+      0,
+      0
+    ]
+  },
+  "meshes": 26,
+  "vertices": 15142,
+  "hairBones": 49,
+  "deformingLocks": 16,
+  "imageCards": 0,
+  "imageTextures": 0,
+  "rigged": true,
+  "physicsStatus": "Native constraint-ready bone chains; dynamic rigid-body/soft-body simulation is assembled and verified separately",
+  "renders": [
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\hair-v3\\front.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\hair-v3\\side.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\hair-v3\\back.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\hair-v3\\threequarter.png"
+  ],
+  "visualStatus": "Needs actual multi-angle likeness review; not finished reference quality",
+  "variant": "v3"
+}

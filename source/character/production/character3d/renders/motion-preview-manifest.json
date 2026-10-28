@@ -1,0 +1,122 @@
+{
+  "status": "native_model_rendered",
+  "source_blend": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\dafeiyu-master-v1.blend",
+  "source_blend_sha256_before": "e1a951beb0feae04e46509122274034c3cf631a67e435ff9dac8365b7c85d330",
+  "source_blend_sha256_after": "e1a951beb0feae04e46509122274034c3cf631a67e435ff9dac8365b7c85d330",
+  "source_master_unchanged": true,
+  "script_sha256": "2de3dd8831d464b61176e96c5b5ee963ce91164c50142122177971e844a27b10",
+  "video": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\motion-preview.mp4",
+  "video_bytes": 1018162,
+  "video_sha256": "02caa3db3c61c89cab9cddc2eafd35f365eba96f7f83fab13b26457930c7ea33",
+  "frames": 192,
+  "fps": 24,
+  "duration_seconds": 8.0,
+  "resolution": [
+    512,
+    512
+  ],
+  "actual_render_wall_seconds": 33.635441999998875,
+  "total_wall_seconds": 34.89493480001693,
+  "blender_version": "4.5.15 LTS",
+  "renderer": "Eevee",
+  "render_samples": 8,
+  "camera": "Ortho / threequarter",
+  "nla_segments": [
+    {
+      "object": "Body + costume + hair + tail / weighted geometry",
+      "track": "turn",
+      "action": "turn",
+      "start": 97.0,
+      "end": 193.0,
+      "source_start": 0.0,
+      "source_end": 120.0,
+      "scale": 0.800000011920929
+    },
+    {
+      "object": "Body + costume + hair + tail / weighted geometry",
+      "track": "wave",
+      "action": "wave",
+      "start": 37.0,
+      "end": 97.0,
+      "source_start": 0.0,
+      "source_end": 75.0,
+      "scale": 0.800000011920929
+    },
+    {
+      "object": "Body + costume + hair + tail / weighted geometry",
+      "track": "idle",
+      "action": "idle",
+      "start": 1.0,
+      "end": 37.0,
+      "source_start": 0.0,
+      "source_end": 45.0,
+      "scale": 0.800000011920929
+    }
+  ],
+  "facial_demo": {
+    "mesh_count": 36,
+    "shape_keys": [
+      "happy",
+      "aa"
+    ],
+    "audio_driven": false,
+    "audio_present": false
+  },
+  "limitations": [
+    "Native clips include baked hair/tail secondary motion, not a live Blender physics solve.",
+    "No walk clip is shown; this video does not demonstrate the Web foot IK/controller.",
+    "Facial morph weights are a scripted demonstration, not speech-driven animation.",
+    "Procedural refinement preview, not final likeness or production-topology approval."
+  ],
+  "independent_video_decode": {
+    "decoder": "OpenCV 4.13.0",
+    "decoded_frames": 192,
+    "container_frames": 192,
+    "fps": 24.0,
+    "duration_seconds": 8.0,
+    "resolution": [
+      512,
+      512
+    ],
+    "samples": [
+      {
+        "frame": 1,
+        "label": "idle",
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\motion-preview-review\\001-idle.png",
+        "decoded_pixel_sha256": "70f16c037add2831cfd6f9bdf773a3b5ae7c0f741701492743374d7d9f39f443"
+      },
+      {
+        "frame": 61,
+        "label": "wave",
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\motion-preview-review\\061-wave.png",
+        "decoded_pixel_sha256": "97037c2ba4f466342c77cbf6d2bd888ec818df8b145099a926f3c4f547d1524c"
+      },
+      {
+        "frame": 121,
+        "label": "turn-side",
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\motion-preview-review\\121-turn-side.png",
+        "decoded_pixel_sha256": "8df0e21f373cea364c95e8d2980a17c32c2f26f73498d1c6c8177f170ea7ae4f"
+      },
+      {
+        "frame": 156,
+        "label": "turn-back",
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\motion-preview-review\\156-turn-back.png",
+        "decoded_pixel_sha256": "a49a31845eae7aa5a29f7561c033ada999aec8d639569f3a085a0f917950ad6d"
+      }
+    ]
+  },
+  "visual_review": {
+    "sample_frames": [
+      1,
+      61,
+      121,
+      156
+    ],
+    "whole_character_in_frame": true,
+    "wave_hand_visible_beside_face": true,
+    "notes": [
+      "Updated native wave clip shows the raised hand in front of the side hair beside the face.",
+      "Scripted happy/aa expression demonstration, no audio-driven claim."
+    ]
+  }
+}

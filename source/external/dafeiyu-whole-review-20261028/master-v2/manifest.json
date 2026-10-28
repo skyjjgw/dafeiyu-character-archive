@@ -1,0 +1,4635 @@
+{
+  "finalAccepted": false,
+  "status": "整体造型建模中，未完成",
+  "source_blend": "D:\\CodexTaskData\\dafeiyu-whole-form-20261028\\body\\whole-character-master-v2.blend",
+  "source_sha256": "90d29197780e82df651ad2b4244ac6573f15f545758a53cf2e329d19e53e6a65",
+  "source_unchanged": true,
+  "source_frame": 1,
+  "export": "actual.glb",
+  "glb_sha256": "4789433b89adf88f5cacef57fa7897889f893cdb658f875d30d3c2b38b91c57c",
+  "glb_bytes": 48937184,
+  "coordinate_conversion": "standard glTF Y-up export: Blender (X,Y,Z) => glTF (X,Z,-Y); native object coordinates/transforms preserved through this rigid basis change",
+  "visible_source_meshes": 113,
+  "excluded": "render-hidden/excluded collections, hidden raw guides, cameras, lights, non-mesh objects, armatures, animation clips",
+  "geometry_unchanged_after_material_conversion": true,
+  "objects": [
+    {
+      "name": "tailored closed bodice",
+      "vertices": 576,
+      "polygons": 482,
+      "triangles": 1148,
+      "evaluated_geometry_sha256": "263bb82dba3c26146a9fb2b28f1611b03634ff0818a5e7db578d4ce6035b7b92",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "white shaped blouse chest bib",
+      "vertices": 442,
+      "polygons": 440,
+      "triangles": 880,
+      "evaluated_geometry_sha256": "628339e0a9ffa0ce7bdb923b9cda5b2c65efd970d97fc95e76d5ba052af16c8f",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "narrow navy chest placket",
+      "vertices": 24,
+      "polygons": 14,
+      "triangles": 44,
+      "evaluated_geometry_sha256": "b33bbb80fdf53382957afe55352c936c28aef5581714d1e72a7b2bd1a07bf322",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "neck bow folded loop -1",
+      "vertices": 80,
+      "polygons": 66,
+      "triangles": 156,
+      "evaluated_geometry_sha256": "9478e71e036277b14314001f79cfe358c61528b27223225f24585dae14b1101d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "neck bow pointed tail -1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "8b2a37bb14a4fbb78334c352795c9c114f2a6a1691ad0a266aa8d974926571f0",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "folded white collar -1",
+      "vertices": 8,
+      "polygons": 6,
+      "triangles": 12,
+      "evaluated_geometry_sha256": "eac0d4eede3102f622289aaabc68caf2dedaf1cef85c9995ae433b4ebd1b96d6",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "neck bow folded loop 1",
+      "vertices": 80,
+      "polygons": 66,
+      "triangles": 156,
+      "evaluated_geometry_sha256": "2a3d7763a71e31c5599a69ea2acb39bbc3999b9d56c298cc8f4ed0f0450457d5",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "neck bow pointed tail 1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "8618eaa5d066e1d576213802173301476950a878906f26fae5b90b463785b7ce",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "folded white collar 1",
+      "vertices": 8,
+      "polygons": 6,
+      "triangles": 12,
+      "evaluated_geometry_sha256": "d43f34f02ed9ad2f3ab981854c9580c58f038e4b9f172009fb4307beecc72c4a",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "bow brooch gold",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "9c200ed516bd34db327fd9c97a8b64c83dfd80c17f16404bd7d2d296c66b38bf",
+      "world_matrix": [
+        [
+          0.00800000037997961,
+          0.0,
+          0.0,
+          0.13699999451637268
+        ],
+        [
+          0.0,
+          0.009999999776482582,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          0.010999999940395355,
+          -0.017000000923871994
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "neck brooch metal"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "bow blue stone",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "65532e8c54ff43ebf69737459f24f91126d1aef2bc7e90efe282fbead3154564",
+      "world_matrix": [
+        [
+          0.004999999888241291,
+          0.0,
+          0.0,
+          0.14499999582767487
+        ],
+        [
+          0.0,
+          0.006000000052154064,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          0.007000000216066837,
+          -0.017000000923871994
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "whale blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "ivory blouse button",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "07a82ebd5b737e4fe298193215562c37f825b07bee478b86092441d782817422",
+      "world_matrix": [
+        [
+          0.003000000026077032,
+          0.0,
+          0.0,
+          0.12600000202655792
+        ],
+        [
+          0.0,
+          0.004000000189989805,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          0.004000000189989805,
+          -0.04600000008940697
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "ivory blouse button.001",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "e83373943241c9aa9238dd897cf9eac60550210d5f6472a42bab484e2d69a9e9",
+      "world_matrix": [
+        [
+          0.003000000026077032,
+          0.0,
+          0.0,
+          0.12600000202655792
+        ],
+        [
+          0.0,
+          0.004000000189989805,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          0.004000000189989805,
+          -0.0729999989271164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "tailored puff sleeve -1",
+      "vertices": 140,
+      "polygons": 122,
+      "triangles": 276,
+      "evaluated_geometry_sha256": "c71f00c25c22704b0baae6b6d638654471d96afe0486ac72c17a96e497a65d65",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "ivory striped cuff -1",
+      "vertices": 60,
+      "polygons": 42,
+      "triangles": 116,
+      "evaluated_geometry_sha256": "46897b01febbaecacad1bdda7641923c15fc1caf0636a44cbfffa3a1bc9da135",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "cuff navy fine stripe -1",
+      "vertices": 40,
+      "polygons": 22,
+      "triangles": 76,
+      "evaluated_geometry_sha256": "d4e5b86796a8e2850e0060d1f9dc6cd4debcfe47162dcda8056512702f647c44",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "seam navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "tailored puff sleeve 1",
+      "vertices": 140,
+      "polygons": 122,
+      "triangles": 276,
+      "evaluated_geometry_sha256": "14f7e1d2874d4e016910670d4adc7caaca921e3fe3dd96b118cf808683a07f82",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "ivory striped cuff 1",
+      "vertices": 60,
+      "polygons": 42,
+      "triangles": 116,
+      "evaluated_geometry_sha256": "920109d94c884c32a61d5446c5c611a86821d55e8c06df178ea5ab756514543b",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "cuff navy fine stripe 1",
+      "vertices": 40,
+      "polygons": 22,
+      "triangles": 76,
+      "evaluated_geometry_sha256": "6ac4592c5a841dd72d9a1b8ff6afbf0a165fd60fc0201bd2360e902b50a0830c",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "seam navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "closed flared navy overskirt",
+      "vertices": 14458,
+      "polygons": 13978,
+      "triangles": 28912,
+      "evaluated_geometry_sha256": "b3204f0a74bb84ca0aa38429e7b9c55c86ba9b058426b7818e053c00a3ef8b97",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [
+        "Tail_Indigo_Two_Bands"
+      ],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "encircling ivory hem piping -0.262",
+      "vertices": 499,
+      "polygons": 245,
+      "triangles": 497,
+      "evaluated_geometry_sha256": "869dc5cbe3b966eccd3cb43e7280c2c1b8f7527bb125ea5eb3345860c39a38f4",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [
+        "Tail_Indigo_Two_Bands"
+      ],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "encircling ivory hem piping -0.271",
+      "vertices": 502,
+      "polygons": 247,
+      "triangles": 500,
+      "evaluated_geometry_sha256": "175db7b12b70dd92dad79e5c8351ef7045baf6fe3ef21d91d985748d2d280a05",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [
+        "Tail_Indigo_Two_Bands"
+      ],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "skirt ivory dot",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "d3cbb11795d6d54ad932dc85237c8033d25b16d71e61d8b6ee9570471cd18129",
+      "world_matrix": [
+        [
+          0.004000000189989805,
+          0.0,
+          0.0,
+          0.11981434375047684
+        ],
+        [
+          0.0,
+          0.007000000216066837,
+          0.0,
+          -0.24139165878295898
+        ],
+        [
+          0.0,
+          0.0,
+          0.007000000216066837,
+          -0.2669999897480011
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "skirt ivory dot.001",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "45b526987dd707e6db05f37de5a1f1dbc00eb46cd81ffab85712695972ff814e",
+      "world_matrix": [
+        [
+          0.004000000189989805,
+          0.0,
+          0.0,
+          0.16310258209705353
+        ],
+        [
+          0.0,
+          0.007000000216066837,
+          0.0,
+          -0.17845451831817627
+        ],
+        [
+          0.0,
+          0.0,
+          0.007000000216066837,
+          -0.2669999897480011
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "skirt ivory dot.002",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "1b4f100df04ae6f7578a129a83160b9b5021f3049eea309a015ade9962ddf01a",
+      "world_matrix": [
+        [
+          0.004000000189989805,
+          0.0,
+          0.0,
+          0.16310258209705353
+        ],
+        [
+          0.0,
+          0.007000000216066837,
+          0.0,
+          0.058454521000385284
+        ],
+        [
+          0.0,
+          0.0,
+          0.007000000216066837,
+          -0.2669999897480011
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "skirt ivory dot.003",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "080a89ad7dc40fe1401c57f38ce6548496f89672cb3d1e93d1a74932df2d68a2",
+      "world_matrix": [
+        [
+          0.004000000189989805,
+          0.0,
+          0.0,
+          0.11981434375047684
+        ],
+        [
+          0.0,
+          0.007000000216066837,
+          0.0,
+          0.1213916540145874
+        ],
+        [
+          0.0,
+          0.0,
+          0.007000000216066837,
+          -0.2669999897480011
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "continuous gathered ivory petticoat",
+      "vertices": 6784,
+      "polygons": 6115,
+      "triangles": 13568,
+      "evaluated_geometry_sha256": "674455e4c3f7935710541f08fe01aaa07ff1b268e5324348519d4e3193eeabd4",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [
+        "Tail_Indigo_Two_Bands"
+      ],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "waist wrap sash",
+      "vertices": 192,
+      "polygons": 98,
+      "triangles": 380,
+      "evaluated_geometry_sha256": "7783bb6659cb663ed83d4078362d08969e7ff79d878f03db2ce254f023e985d1",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "apron curved front cloth",
+      "vertices": 2706,
+      "polygons": 2704,
+      "triangles": 5408,
+      "evaluated_geometry_sha256": "d898e076214c958bb49ae6f3a28dcf4399fa34ecef57933697a8ae14e1e76c99",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "front_apron_art"
+      ],
+      "source_color_attributes": [
+        "whale_mask"
+      ],
+      "source_materials": [
+        "apron original whale and cloth print"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 1024px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "continuous gathered apron frill",
+      "vertices": 588,
+      "polygons": 586,
+      "triangles": 1172,
+      "evaluated_geometry_sha256": "5a4127e9797e74b1cb41da9a9e52486673c076d9e00c7958a14f831b36a6af6a",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "front apron shoulder strap -1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "611fb9ea280b16432879349bc3dcc62edc9b12096d58833f404d0a32373bf257",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "shoulder gathered trim -1",
+      "vertices": 164,
+      "polygons": 162,
+      "triangles": 324,
+      "evaluated_geometry_sha256": "3c4ffaa363f3752f94610cbd26551587e955fbf1eb14cc6c4d9a10ed81f7e0bf",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "back crossed apron strap -1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "0713e664bd1ddfedf5ce44e3333dc88252d858f851eb4925f03817b76043965f",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "back bow loop -1",
+      "vertices": 80,
+      "polygons": 66,
+      "triangles": 156,
+      "evaluated_geometry_sha256": "29a845e0ae1c71bcfd723832d5093bbfeaf52dd96bc26f32ea39f3c7dc81af4a",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "back bow hanging tail -1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "151f49e567cea5896206fb8ea2eeb5d5c8f1cc25e066d4750435c04182a2c906",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "front apron shoulder strap 1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "7848154152aee4eba2020d9928b6db2eb78d572fb189195069f69c16f60b5ac2",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "shoulder gathered trim 1",
+      "vertices": 164,
+      "polygons": 162,
+      "triangles": 324,
+      "evaluated_geometry_sha256": "a4486733a4cf43f5bd7d8c2b87f2f01ea108b8813285c2d067d9129687a1288c",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "back crossed apron strap 1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "02fe80e536cc81611037513b2257601a5d7f8af625bfc888368686a4d4697e7e",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "back bow loop 1",
+      "vertices": 80,
+      "polygons": 66,
+      "triangles": 156,
+      "evaluated_geometry_sha256": "b0407a206071b99224145a70d267b44a35b2dc9229d58ff47e1e3f81e67dfe9d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "back bow hanging tail 1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "5a7a4efa0c5ef60b2462218ad17091b28de402cc60b9b3e8badf7303cbc77fdc",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "back bow knot",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "74c02304f11b8a39a51f4b11d3f67663a9a9652d21f691ebdbc519450aa020e3",
+      "world_matrix": [
+        [
+          0.013000000268220901,
+          0.0,
+          0.0,
+          -0.052000001072883606
+        ],
+        [
+          0.0,
+          0.014000000432133675,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          0.013000000268220901,
+          -0.11999999731779099
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "thigh -1",
+      "vertices": 144,
+      "polygons": 98,
+      "triangles": 284,
+      "evaluated_geometry_sha256": "4e85c64fb08579d3ffa93c0f465fd31bb969aa37f8336783a862fdb9a0541b5c",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm skin"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "white sock -1",
+      "vertices": 144,
+      "polygons": 98,
+      "triangles": 284,
+      "evaluated_geometry_sha256": "447be325fd88e5bf1ef5f7fafa8a1675415a8cdcd5519a5054a9d0be535cc57d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "sock cuff -1",
+      "vertices": 96,
+      "polygons": 50,
+      "triangles": 188,
+      "evaluated_geometry_sha256": "f0bdfb2d2aa9a9b08dee863eb5096a37923c8a1475cbb18e6664329c9d1fa872",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "sock over instep -1",
+      "vertices": 2818,
+      "polygons": 2816,
+      "triangles": 5632,
+      "evaluated_geometry_sha256": "a6871870dc83652aafab08f951403476c276da12f556b3922b51559e80666f51",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "mary jane heel quarter -1",
+      "vertices": 2306,
+      "polygons": 2304,
+      "triangles": 4608,
+      "evaluated_geometry_sha256": "505148ca74017131d829ee701d2c490183419b1cfbb2965d2c033542bc43d09d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "rounded mary jane toe cap -1",
+      "vertices": 2818,
+      "polygons": 2816,
+      "triangles": 5632,
+      "evaluated_geometry_sha256": "0677c6faf18ad308baf575565e46a9a926ec04c8341e5cbd132a27b474e9f8b7",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "thin shoe outsole -1",
+      "vertices": 192,
+      "polygons": 130,
+      "triangles": 380,
+      "evaluated_geometry_sha256": "74be04f5df3e5db11c3058be9d306bde2203942518fa37edc73dcdddec7510c6",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "seam navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "mary jane strap -1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "7ef36953ec9b1ed432b9163afbc82e32f716287958237d29130342bdb6f6db6c",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "shoe bright button -1",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "96c49455d56a8d3e025a834ca36590192e2fab6d2e2512d8991fcd0da67c604e",
+      "world_matrix": [
+        [
+          0.004000000189989805,
+          0.0,
+          0.0,
+          0.09799999743700027
+        ],
+        [
+          0.0,
+          0.004999999888241291,
+          0.0,
+          -0.1420000046491623
+        ],
+        [
+          0.0,
+          0.0,
+          0.004000000189989805,
+          -0.46399998664855957
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "thigh 1",
+      "vertices": 144,
+      "polygons": 98,
+      "triangles": 284,
+      "evaluated_geometry_sha256": "7e158787706b2bc802f5d4fd31c43b57bda51909987ed238813f7a7e3083ed95",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm skin"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "white sock 1",
+      "vertices": 144,
+      "polygons": 98,
+      "triangles": 284,
+      "evaluated_geometry_sha256": "55df8e461d11c190684fee1ce7f094c327e9318507f9940fa2486c6767212931",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "sock cuff 1",
+      "vertices": 96,
+      "polygons": 50,
+      "triangles": 188,
+      "evaluated_geometry_sha256": "16d5de82a7f8252a3a0679520d5e8d3bdff3905cc9cdda466cc246c527c79877",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "sock over instep 1",
+      "vertices": 2818,
+      "polygons": 2816,
+      "triangles": 5632,
+      "evaluated_geometry_sha256": "58048be4e5aea5c387fc37f15eb5c460defbd2cb70e38f66757b87a8e7b55095",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "mary jane heel quarter 1",
+      "vertices": 2306,
+      "polygons": 2304,
+      "triangles": 4608,
+      "evaluated_geometry_sha256": "d9bbda0d57b06993400362065acaaa2d24fdb615e6b12568ab5a999639222173",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "rounded mary jane toe cap 1",
+      "vertices": 2818,
+      "polygons": 2816,
+      "triangles": 5632,
+      "evaluated_geometry_sha256": "7ff226a4f5c2cd4846f91f94b0f80f8a07f0cb31201260667c27d0f17a5fa545",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "thin shoe outsole 1",
+      "vertices": 192,
+      "polygons": 130,
+      "triangles": 380,
+      "evaluated_geometry_sha256": "d8fb5c4287c3db679eb9503cab40fa322a30b0fc76a337e3569086a05a0b0925",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "seam navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "mary jane strap 1",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "evaluated_geometry_sha256": "39ae776f63667e4fe28b034552b934e6dbf4243bde5c47c3734dbec312107278",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "dress deep ocean navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "shoe bright button 1",
+      "vertices": 266,
+      "polygons": 288,
+      "triangles": 528,
+      "evaluated_geometry_sha256": "4d522fdab9611bf8d1a3558a84102529fd080d3f67e3801263aa0e606ae11a3e",
+      "world_matrix": [
+        [
+          0.004000000189989805,
+          0.0,
+          0.0,
+          0.09799999743700027
+        ],
+        [
+          0.0,
+          0.004999999888241291,
+          0.0,
+          0.02199999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.004000000189989805,
+          -0.46399998664855957
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "warm ivory fabric"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "left traced open hand and fingers",
+      "vertices": 5249,
+      "polygons": 10494,
+      "triangles": 10494,
+      "evaluated_geometry_sha256": "0b0db42625e3359c3db0701eb209d4a6e1e0d841d3c569d99e1bcf6c76bc9673",
+      "world_matrix": [
+        [
+          -4.2323041071767875e-08,
+          -0.3150000274181366,
+          0.0,
+          0.03999999910593033
+        ],
+        [
+          0.3150000274181366,
+          -4.2323041071767875e-08,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          0.3149999976158142,
+          -0.1899999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [
+        "Color"
+      ],
+      "source_materials": [
+        "Source-fitted safe skin vertex COLOR"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "right traced open hand and fingers",
+      "vertices": 5249,
+      "polygons": 10494,
+      "triangles": 10494,
+      "evaluated_geometry_sha256": "c821225559b6f99bf0a60968e6d1e6bf8570216d1bad1e11509fd1eb7c6438df",
+      "world_matrix": [
+        [
+          -4.2323041071767875e-08,
+          -0.3150000274181366,
+          0.0,
+          0.03999999910593033
+        ],
+        [
+          0.3150000274181366,
+          -4.2323041071767875e-08,
+          0.0,
+          -0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          0.3149999976158142,
+          -0.1899999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [
+        "Color"
+      ],
+      "source_materials": [
+        "Source-fitted safe skin vertex COLOR"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "ACCESSORY__fin_ivory_inset_-1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "83adc13f202ed9fa446f0cc963595a4f16828e38b07f9a6351b6383c203c51e0",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Maid ivory cloth"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "ACCESSORY__fin_ivory_inset_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "1de90df514e457fbfb694f56b39f63f6d1314b864cc18093a5b9ee2dbb732f96",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Maid ivory cloth"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "ACCESSORY__whale_side_fin_-1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "f41556b7555de95aa456d3cd3dd98c017f6711c0d14fc687c80503ee1175124c",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair recessed navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "ACCESSORY__whale_side_fin_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "621b387475ad2e1b32708d07261d1ab041ddca072631d8dcd886f99117b5ba96",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair recessed navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__continuous head skin sockets oral lining and neck",
+      "vertices": 10709,
+      "polygons": 14696,
+      "triangles": 21414,
+      "evaluated_geometry_sha256": "640fb7a4589f3b2ccb1c7d3ac9026dc975b1ae720c0e7207d9fa1add1ad6e6f4",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "SourceFaceUV"
+      ],
+      "source_color_attributes": [
+        "SourcePaintMask",
+        "SourceSkinBase"
+      ],
+      "source_materials": [
+        "Original facial paint unified smooth skin"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 1024px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__continuous smile contour",
+      "vertices": 194,
+      "polygons": 192,
+      "triangles": 192,
+      "evaluated_geometry_sha256": "98aa2ca605e5135822593dfbf889159b84e3d650fea23327c2b970cfea9caccb",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_008"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__left closed source-fitted ocular globe",
+      "vertices": 2690,
+      "polygons": 5376,
+      "triangles": 5376,
+      "evaluated_geometry_sha256": "a810cdf68a737ce033323164144f7e0d797fbb25cee55dc00e2881974dcca033",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_011"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__left moving eyelid crease",
+      "vertices": 130,
+      "polygons": 128,
+      "triangles": 128,
+      "evaluated_geometry_sha256": "fac5a0207ed37196bed0ab587207ecb81e35706704af14eeeaad8aae40feccd5",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_006"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__left moving lower eyelash",
+      "vertices": 162,
+      "polygons": 160,
+      "triangles": 160,
+      "evaluated_geometry_sha256": "62f719d512a4e554c73c08297c7404164396531951ca3900822abf1d263d7a51",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_005"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__left moving upper eyelash",
+      "vertices": 162,
+      "polygons": 160,
+      "triangles": 160,
+      "evaluated_geometry_sha256": "2dd0d9f49cc35102dec22f0ec04371af2cbf7157235d6eaada45282d622e102d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_004"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__left pointed outer lashes",
+      "vertices": 3,
+      "polygons": 1,
+      "triangles": 1,
+      "evaluated_geometry_sha256": "6d654a579162c8fb5ae002e78d2ebca76088b827ea2e92d55b4842352eceeb44",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_004"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__left sampled original iris",
+      "vertices": 1677,
+      "polygons": 3192,
+      "triangles": 3192,
+      "evaluated_geometry_sha256": "5157902f73e050361c7f69ec883ea610440cc5f6ca55db77bb8985df54a4f60a",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_003"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 512px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__right closed source-fitted ocular globe",
+      "vertices": 2690,
+      "polygons": 5376,
+      "triangles": 5376,
+      "evaluated_geometry_sha256": "af2bb4c3010231bd22c0440fa9b6f527d429c204369195b40fff3ce54dad8f97",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_011"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__right moving eyelid crease",
+      "vertices": 130,
+      "polygons": 128,
+      "triangles": 128,
+      "evaluated_geometry_sha256": "105a0239c65be05317a95ba4de4221764cc56c2174378107a80b08bbe38b3ab8",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_006"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__right moving lower eyelash",
+      "vertices": 162,
+      "polygons": 160,
+      "triangles": 160,
+      "evaluated_geometry_sha256": "8f244f1dc94dec3640e27023bd5bc1678ba3eb3dd45238ef21345474c7012db0",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_005"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__right moving upper eyelash",
+      "vertices": 162,
+      "polygons": 160,
+      "triangles": 160,
+      "evaluated_geometry_sha256": "2894105308093bb091d515229ad8595b06f5bd59c2be6cb2a39bd69011ea3466",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_004"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__right pointed outer lashes",
+      "vertices": 3,
+      "polygons": 1,
+      "triangles": 1,
+      "evaluated_geometry_sha256": "b056a871c9d406e3c1d4aa8d921a679000a2fb0265fb7787b78d73f7d666a884",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_004"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__right sampled original iris",
+      "vertices": 1677,
+      "polygons": 3192,
+      "triangles": 3192,
+      "evaluated_geometry_sha256": "e4b38785e90fb9d5869ee08e9862f51fbdba3afb6920b57bcad00cfbed7ac590",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_003"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 512px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "FACE__tongue inside opening",
+      "vertices": 325,
+      "polygons": 512,
+      "triangles": 512,
+      "evaluated_geometry_sha256": "9ef53aba04c6f4eefb51ebf53b942f4588238cf2d9b4c56981ad4a6cdbedfa97",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "SOURCE_007"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__bang_center",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "b20e6f3cc034e4e4a352b6fe3d94aadf3f9dae270fefa51907b6e2eb1b2296b5",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "SelectedHairPaint"
+      ],
+      "source_color_attributes": [
+        "SelectedHairWeight"
+      ],
+      "source_materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 512px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__bang_swept_-1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "88bcfdc7e6d48f4cf49b42c767a2295be7b68afc1750e98175be25063f10cb39",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "SelectedHairPaint"
+      ],
+      "source_color_attributes": [
+        "SelectedHairWeight"
+      ],
+      "source_materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 512px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__bang_swept_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "29fd32c777f25b332468e444cdc156495155cb9d05277fce81ea85632a4850e1",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "SelectedHairPaint"
+      ],
+      "source_color_attributes": [
+        "SelectedHairWeight"
+      ],
+      "source_materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 512px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__cheek_frame_-1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "a1cbdcd7c3c93b5f5094e507d97e5613b707e2abe53f0ba6fce4486df3478a12",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "SelectedHairPaint"
+      ],
+      "source_color_attributes": [
+        "SelectedHairWeight"
+      ],
+      "source_materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 512px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__cheek_frame_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "460434e440ecf0a03189d160653d4cc7700fdcca4e112f32e871b16edbbcb6be",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "SelectedHairPaint"
+      ],
+      "source_color_attributes": [
+        "SelectedHairWeight"
+      ],
+      "source_materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only 512px UV texture; original UV/colors retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__closed_scalp_foundation",
+      "vertices": 7680,
+      "polygons": 7680,
+      "triangles": 15360,
+      "evaluated_geometry_sha256": "e321911130035dc51a4fc47155817574fdd1d9ea32a11fbfb4d27d63e265002c",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair recessed navy"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__crown_rear_panel_0",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "92da5690948ae8504cd5a2fc2c55f1633f2ba3989d3062ce4b4dcfda095ab974",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__crown_rear_panel_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "0226fd7f6978dc98089bd057706fb7114988509d78bba520323684ad4cde0545",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__crown_rear_panel_2",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "0e2ba0a5e2e4165b89825498b4b906145003d86ac47164db4d63da9f79558bfa",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__crown_rear_panel_3",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "4959ab57c0d23a352b270856635a7da4acabc243739929b9a7f8905041fd6add",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__crown_rear_panel_4",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "24a37bef0d35f8b2856d6457cc08c610b875fdaa2bc4224a65ee7266968a74bf",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__crown_rear_panel_5",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "c8d9333451d2e1a8ea2dda7134cd4ee0ccb5decd316c19a51796dd527421bf46",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__crown_rear_panel_6",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "9744455fb31128c379341bdab56e5e6fbda887f1d25ac5a33a6646a4486cfd25",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__inner_curl_-1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "460602686ca867a53715497aec1d71389b5f66aa8f5ca260130304811470b9fd",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__inner_curl_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "0efd6b0ec5441fc3c65d6abc0aa781d0f6237c7811aaceac131891d8ab9becd8",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__long_wave_-1_0",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "d6affcfd07612d1b6fdf2bc09c5b76ba33680d0277a7be7e496fc1086d8398d3",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__long_wave_-1_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "ada9ba569205f25ace078880ebbe82ffcde30fc8a50ce6f6d752a04c199fd4ae",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__long_wave_-1_2",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "8c09a887185bcf33c82bc06801656c372cdebcbd399b89fb751b98436e6908fd",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__long_wave_1_0",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "433d7fa7e8bc013660b30a9ba96ac305f24b058f12b4e5db7bcfff834e1deb85",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__long_wave_1_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "09dcf3e63f5fea47fe8d86be2e8fda87827de5ac97b72ef5a7315c8d7be4c210",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__long_wave_1_2",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "765397f4d80d952962b9962f9bb521b05bb44252aed47bf0f361906992a1cc3b",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__sculpted_wave_fan_-1",
+      "vertices": 3278,
+      "polygons": 6550,
+      "triangles": 6550,
+      "evaluated_geometry_sha256": "b34da6b53807fb99026c2af93898fb49e1be57caa2c08f4270613f7ea5c257b4",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__sculpted_wave_fan_1",
+      "vertices": 3278,
+      "polygons": 6550,
+      "triangles": 6550,
+      "evaluated_geometry_sha256": "4187216e2a6c293997e03f44d66fa8d88bbcc261d354ebb46c70e6975b216cfe",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HAIR__whale_ahoge",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "963504f6144bfb110f355c0f26627bfec956361e47880de2a30e827fed05fd84",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Hair cobalt blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HEADWEAR__bow_knot_-1",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "evaluated_geometry_sha256": "e2fb41587b47ee827f180207d6a7de3f7b9bbc01fb03d73b5844861a6b3c3d86",
+      "world_matrix": [
+        [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.2849999964237213
+        ],
+        [
+          0.0,
+          0.009999999776482582,
+          0.0,
+          -0.28600001335144043
+        ],
+        [
+          0.0,
+          0.0,
+          0.013000000268220901,
+          0.25200000405311584
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Bow ocean blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HEADWEAR__bow_knot_1",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "evaluated_geometry_sha256": "e4bab5e16a6a858fb301ef83d372dc277cef2a90af579fe7b84f2b4a0ec5fa16",
+      "world_matrix": [
+        [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.2849999964237213
+        ],
+        [
+          0.0,
+          0.009999999776482582,
+          0.0,
+          0.16599999368190765
+        ],
+        [
+          0.0,
+          0.0,
+          0.013000000268220901,
+          0.25200000405311584
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [
+        "UVMap"
+      ],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Bow ocean blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HEADWEAR__bow_wing_-1_-1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "ed35a906e2ea88b76c515843eef25294218bfcf42d5550d85ff88c71417dac2d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Bow ocean blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HEADWEAR__bow_wing_-1_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "f3f2eee27db47a3f6261aed66b3adb5808529a041feb39e53d340e6a19082d74",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Bow ocean blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HEADWEAR__bow_wing_1_-1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "e224d3a86158f88ed779f32314c006e6a467accd8be4300ff8a4a56c83681091",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Bow ocean blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HEADWEAR__bow_wing_1_1",
+      "vertices": 1300,
+      "polygons": 1282,
+      "triangles": 2596,
+      "evaluated_geometry_sha256": "c5f975fb080d34d9a864066a6b749034092ebd83726fd89fea9143d7f400409a",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Bow ocean blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HEADWEAR__continuous_satin_band",
+      "vertices": 8224,
+      "polygons": 8222,
+      "triangles": 16444,
+      "evaluated_geometry_sha256": "fc77aa412e8ab6bede4ac190013939cce237bde832fd668788578ec1755dee30",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Maid ivory cloth"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "HEADWEAR__gathered_ruffle",
+      "vertices": 8224,
+      "polygons": 8222,
+      "triangles": 16444,
+      "evaluated_geometry_sha256": "af23ec3d0cd6bd3aee088c622d5dd024f3e10cf41e9ea28e4e566eb2c10ec9c6",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [],
+      "source_materials": [
+        "Maid ivory cloth"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    },
+    {
+      "name": "Whale_Tail_Continuous_Editable",
+      "vertices": 249234,
+      "polygons": 249232,
+      "triangles": 498464,
+      "evaluated_geometry_sha256": "aa0db8092d030d741120ac6a45fda8b114ad1676f5fd7acddf4cd4dfd3303b0c",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_uv_layers": [],
+      "source_color_attributes": [
+        "Tail_Indigo_Two_Bands"
+      ],
+      "source_materials": [
+        "Tail • deep navy / medium blue"
+      ],
+      "base_color_conversion": "original shader base stream baked to export-only corner ReviewBaseColor; source color layers retained",
+      "snapshot_geometry_unchanged_after_color_conversion": true
+    }
+  ],
+  "glb_structure": {
+    "meshes": 113,
+    "nodes": 113,
+    "materials": 113,
+    "images": 9,
+    "animations": 0,
+    "skins": 0,
+    "cameras": 0,
+    "extensionsUsed": [
+      "KHR_materials_unlit"
+    ]
+  },
+  "limits": [
+    "Static rest-armature evaluated snapshot only. No motion, physics, final model acceptance or runtime readiness.",
+    "Original base streams are baked only on export copies for glTF compatibility; Blender shader graphs and NPR lighting are not portable.",
+    "Texture base streams are baked at 512/1024px and can differ by texture filtering, UV rasterization and color conversion. Original UV/color layers retained; source files unchanged.",
+    "No identity generation, full-character image plane, camera-dependent geometry, hidden-guide export or silhouette repair.",
+    "Geometry and material problems remain visible; rear design remains inferred."
+  ],
+  "glTF_unlit_base_color_compatibility": {
+    "binary_geometry_and_images_unchanged": true,
+    "glb_sha256_before_material_compatibility": "43a83c6622bc8456b2f67ed6332022b92aff16eedea1014eff10ae0c5c1ee109"
+  }
+}

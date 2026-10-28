@@ -1,0 +1,394 @@
+{
+  "schema": "dafeiyu.selected-production.components.v1",
+  "version": "0.1.5-current",
+  "status": "current-production-in-progress-not-final",
+  "appearanceAuthority": "http://127.0.0.1:4348/character-preview.html",
+  "appearancePolicy": "Retain the selected original girl. Components improve structure and motion; never fall back to rejected generic native art.",
+  "scene": "res://selected-production/current.tscn",
+  "controller": "One existing CharacterBody3D controller; source bones, greeting override and hand rig share the same action queue/cancel/camera.",
+  "coordinateContract": {
+    "source": "Frozen selected study units, Y up +Z forward",
+    "metersPerSourceUnit": 0.35,
+    "modelLiftSourceUnits": 1.055,
+    "physicalScaleMeasured": false
+  },
+  "capabilities": {
+    "state": true,
+    "wave": true,
+    "cancel": true,
+    "walk": true,
+    "turn": true,
+    "look": true,
+    "fingerMotion": true,
+    "pickup": false,
+    "release": false,
+    "forceClosureGrasp": false,
+    "voiceLipSync": false,
+    "tailSecondary": true,
+    "remoteActions": [
+      "state",
+      "wave",
+      "cancel"
+    ],
+    "localControls": {
+      "walk": true,
+      "turn": true,
+      "look": true,
+      "fingerMotion": true,
+      "cameraViews": true
+    },
+    "hairPhysics": false
+  },
+  "components": [
+    {
+      "id": "selected-look-and-body22",
+      "required": true,
+      "status": "active-current-work",
+      "finalAccepted": false,
+      "files": [
+        {
+          "path": "res://assets/selected-appearance.glb",
+          "bytes": 13635692,
+          "sha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078"
+        },
+        {
+          "path": "res://assets/source-rendering.json",
+          "bytes": 109643,
+          "sha256": "b8ea9ce655d4920b795d1e803bd2540be3aa76734f4aa4c3595911182c231c1d"
+        },
+        {
+          "path": "res://assets/source-float-colors.json",
+          "bytes": 22172,
+          "sha256": "3c18317bb216dd73e7d301711760be049a24255ffa798193ee7c3d92c749aeeb"
+        },
+        {
+          "path": "res://assets/source-float-colors.bin",
+          "bytes": 2262400,
+          "sha256": "c280e3543e5b28f934441250547983060e80afe1f3efd65c5c15dba8b3f654dd"
+        },
+        {
+          "path": "res://assets/motion-rig.json",
+          "bytes": 19675,
+          "sha256": "e15645925a8e62234c47e13b66fde49621def94d04e361909336b76e2241c388"
+        },
+        {
+          "path": "res://motion_asset.gd",
+          "bytes": 1724,
+          "sha256": "d0e1f2e692d07fb1c49c92d4bd8d21028367b8bd04be77a0cdceb9bd7418b903"
+        },
+        {
+          "path": "res://static_comparison.gd",
+          "bytes": 11499,
+          "sha256": "c49b33bd1797ea4f3c06baa712ccb69fe03461bb1718fbfa453ae483611b7948"
+        },
+        {
+          "path": "res://motion_controller.gd",
+          "bytes": 11448,
+          "sha256": "efa50d2bfac4867ed05811e0786b138f19dd54929361d6ec5616657a7d871c1d"
+        },
+        {
+          "path": "res://motion_rig.gd",
+          "bytes": 13552,
+          "sha256": "72f97858f4a1211740e0b684efaba9cd9c2e83c8d32b5cf93209b67e8b6ee5cf"
+        },
+        {
+          "path": "res://assets/linear-textures.json",
+          "bytes": 1912,
+          "sha256": "d575330e6a8d512a122a3b7386ad120db2259290becb53b7a6cdebe15488850b"
+        },
+        {
+          "path": "res://assets/source-linear-0.rgba16f",
+          "bytes": 16588800,
+          "sha256": "38e185a68c3e64f9c01eb26a0c1267e284ccd4ddebaeefc85574218c8ed2a80b"
+        },
+        {
+          "path": "res://assets/source-linear-1.rgba16f",
+          "bytes": 12584000,
+          "sha256": "52817a784183eb0dd23284f932b1889d76c9767f760b75c09707fe7e8a0cc856"
+        },
+        {
+          "path": "res://assets/source-linear-2.rgba16f",
+          "bytes": 12584880,
+          "sha256": "7230669531dad641e867fa1b23fc7bc66c7c1141db14bda8cca272223ae35438"
+        }
+      ],
+      "scope": "Original source appearance and 22-body-bone locomotion. Whole-body anatomy/side/back remain incomplete."
+    },
+    {
+      "id": "source-face-default",
+      "required": true,
+      "status": "available-original-comparison",
+      "finalAccepted": false,
+      "files": [
+        {
+          "path": "res://face-kernel/component-manifest.json",
+          "bytes": 3204,
+          "sha256": "1015a45a9abc4c848c7cb90fc5d434a2e73b1f22e339f9498b330c0c709ffe85"
+        },
+        {
+          "path": "res://face-kernel/selected_face_kernel.gdextension",
+          "bytes": 210,
+          "sha256": "8462be3cb70eda29aeb5f9bdc81458e154df258ad734e39310c7e8b217897964"
+        },
+        {
+          "path": "res://face-kernel/bin/selected_face_kernel.windows.release.x86_64.dll",
+          "bytes": 416256,
+          "sha256": "7f30f4bdc0b23f6c15a125880ff876e489bf14e305df1138cca16bf88f68b3ef"
+        },
+        {
+          "path": "res://face-kernel/face_adapter.gd",
+          "bytes": 7346,
+          "sha256": "aba8f4173120780f8380937cdbebc3941665f614889efe13454295673c423ca2"
+        },
+        {
+          "path": "res://face-kernel/source-equations.json",
+          "bytes": 170798,
+          "sha256": "97a24124b9b59ee09ffbf1ade29578bd40af1b7e2878295186d5bf5e93268578"
+        },
+        {
+          "path": "res://face-kernel/source-descriptors.json",
+          "bytes": 23154,
+          "sha256": "33239a45193485bf555a041917d232bdf52552072cf1feb8d82e4d0404bd4032"
+        }
+      ],
+      "scope": "Original source-default continuous facial kernel. No audio => talk0. Not the structural head v3 kernel."
+    },
+    {
+      "id": "local-hands-v2",
+      "required": true,
+      "status": "active-current-work",
+      "finalAccepted": false,
+      "files": [
+        {
+          "path": "res://hands-candidate/assets/hand-package.json",
+          "bytes": 84832,
+          "sha256": "b91716b444fca4db7553c857b8001766c1318377a34d541cd0411360505f7208"
+        },
+        {
+          "path": "res://hands-candidate/assets/hand-package.bin",
+          "bytes": 1308312,
+          "sha256": "eb661169fcfcfc37d2fc737ade14e4e49c563eea7df71c25d37f0bca24621e77"
+        },
+        {
+          "path": "res://hands-candidate/hand_adapter.gd",
+          "bytes": 11382,
+          "sha256": "a6a184957d459f80a7b0af7d61ef5936b1cdeb7f59951053931fab46880aeb8f"
+        },
+        {
+          "path": "res://hands-candidate/greeting_rig.gd",
+          "bytes": 4130,
+          "sha256": "a398c2781ab29d5040f93f37b1f88ea4638f7fcef2f185a0077cc4a901e5cdd0"
+        },
+        {
+          "path": "res://hands-candidate/scene.gd",
+          "bytes": 2815,
+          "sha256": "132abcb2a5632116914cfb1709d96531a2e204a3a1734f11b3cff33d7e478c63"
+        }
+      ],
+      "scope": "Real local fingers, exact body22 mapping, explicit packed skin weight error; limited greeting pose improvement, not force-closure grasp."
+    },
+    {
+      "id": "selected-tail-jolt",
+      "required": true,
+      "status": "active-current-work",
+      "finalAccepted": false,
+      "files": [
+        {
+          "path": "res://selected-production/assets/tail-jolt.json",
+          "bytes": 1082499,
+          "sha256": "d544b559142e3089d7c2552d1c5f3e152ad02e94a1c2e137df7cfbf573049831"
+        },
+        {
+          "path": "res://selected-production/tail_jolt.gd",
+          "bytes": 9940,
+          "sha256": "a516e850cc580356e240af948addac5117580acf5db58750d8115049503f1bcc"
+        }
+      ],
+      "scope": "Three original blue tail bones driven by true Jolt rigid-body angular springs, gravity and root boundary; approximate convex contacts, self-contact and garment coupling incomplete."
+    },
+    {
+      "id": "current-scene-host",
+      "required": true,
+      "status": "active-current-work",
+      "finalAccepted": false,
+      "files": [
+        {
+          "path": "res://selected-production/current.gd",
+          "bytes": 14310,
+          "sha256": "242cf7625c904f25074508ea4bb38439914f0ae7a9b8d24bf8b81e038b992ac4"
+        },
+        {
+          "path": "res://selected-production/component_registry.gd",
+          "bytes": 4360,
+          "sha256": "6f2cfd04a848b6a8e762fc159182b96b912d6d6f7ed337d235bedeb50f8847f3"
+        },
+        {
+          "path": "res://motion_scene.gd",
+          "bytes": 9587,
+          "sha256": "14fd4ceba1cde5d6abaf90ff6263f54e3a16ad1af20b60dc9b8e82ed3b58f2d7"
+        }
+      ],
+      "scope": "Single composable current host; required component guard, truthful capabilities, lifecycle and explicit unsupported action responses."
+    },
+    {
+      "id": "continuous-head-v3",
+      "required": false,
+      "status": "startup-selected-development",
+      "finalAccepted": false,
+      "files": [
+        {
+          "path": "res://selected-production/components/continuous-head-v3/contract.json",
+          "bytes": 2757,
+          "sha256": "1c3611c7d6066d77be5c4029917877bdb852246b18cb4bd623cfcfcd3f807339"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/head-local.glb",
+          "bytes": 7449816,
+          "sha256": "13fdf1d136a81a13b5ba80943bd4e9a2303979a215c70d747271bb919cbfd1e1"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/canonical.bin",
+          "bytes": 5376896,
+          "sha256": "a69786fa02f64ac6c1b2d5c1f67dff0d4edb6fb8d015a7c064612855c616cca3"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/descriptors.json",
+          "bytes": 5807,
+          "sha256": "8ffdd18b3c59a706cd8fc51dcc5825d64e53dff397980f85003447a0fa259135"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/source-equations.json",
+          "bytes": 170798,
+          "sha256": "97a24124b9b59ee09ffbf1ade29578bd40af1b7e2878295186d5bf5e93268578"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/structure.json",
+          "bytes": 10059455,
+          "sha256": "68712688a60541349e0e78210147b407df74f95d91d2fdfcd3a406768530ae5a"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/rendering.json",
+          "bytes": 70513,
+          "sha256": "f128a7a7e42667a27d089cfb2b1f2fdcf9a74ecdebc7990aefdabd542bf67538"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/face_adapter.gd",
+          "bytes": 8845,
+          "sha256": "80dfad98d0295f27f60cae7672729d69764021c215e81ef4265af44bdc606fa1"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/factory.gd",
+          "bytes": 3039,
+          "sha256": "3069d0e188d57e9926771596c18088d8b6f2d9dd7278f298a75dcea49ba199a1"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/selected_structural_face_kernel.gdextension",
+          "bytes": 208,
+          "sha256": "998792863e07635182ffe3e1f8586d1dbf9a90fc072088c2c73e783e9e9957e9"
+        },
+        {
+          "path": "res://selected-production/components/continuous-head-v3/bin/selected_structural_face_kernel.windows.release.x86_64.dll",
+          "bytes": 496128,
+          "sha256": "d25ce205577bd9f568808fdb8dc29c406ee1d5cc5375959c718e11f8459728f6"
+        }
+      ],
+      "scope": "Actual reviewed continuous head and closed eyes/socket/oral structure; original paint and expression channels retained. Performance and full all-angle anatomy are not accepted."
+    },
+    {
+      "id": "headband-continuous-shell",
+      "required": false,
+      "status": "startup-selected-development",
+      "finalAccepted": false,
+      "files": [
+        {
+          "path": "res://selected-production/components/headband-v2/contract.json",
+          "bytes": 2463,
+          "sha256": "a3a027088140d842fcd79db89df6eb4dd9e0dbe8c2eba84e9a41f3e7c8fedb18"
+        },
+        {
+          "path": "res://selected-production/components/headband-v2/factory.gd",
+          "bytes": 12606,
+          "sha256": "a35934a4e2a44576900b68338fae771b2499cda10a5ecc503fe27fa64ddfd59f"
+        },
+        {
+          "path": "res://selected-production/components/headband-v2/headband-material.gdshader",
+          "bytes": 1366,
+          "sha256": "370132edea7bbd8f850fdd0106afc91de6d738418922494fa1884eedba76ce9e"
+        },
+        {
+          "path": "res://selected-production/components/headband-v2/headband-v2.glb",
+          "bytes": 1223644,
+          "sha256": "c46ab19cb79e8b6768b2b0a86ddc0f09b3681957932a47c4b9ed0b0083014ebb"
+        },
+        {
+          "path": "res://selected-production/components/headband-v2/geometry-contract.json",
+          "bytes": 6122,
+          "sha256": "84d8ebbf8d9c31ccdecbda62cf7351b519110f2a4a159b3a2593762cfe4fcff3"
+        }
+      ],
+      "scope": "Reviewed continuous rigid Head-local ribbon and source grey-white paint. Fixed attachment, not cloth simulation or final visual quality."
+    },
+    {
+      "id": "selected-hair-continuous",
+      "required": false,
+      "status": "startup-selected-development",
+      "finalAccepted": false,
+      "files": [
+        {
+          "path": "res://selected-production/components/hair-v1/contract.json",
+          "bytes": 3578,
+          "sha256": "a59f7d33b3be4e65088abef5eb47a8ec0c98271c50434a1e3bcf33fd53aa659f"
+        },
+        {
+          "path": "res://selected-production/components/hair-v1/factory.gd",
+          "bytes": 14567,
+          "sha256": "788b157b4f9ceb628859f313cc52f64d6d22765f8b9488cd4c122e31f00b647a"
+        },
+        {
+          "path": "res://selected-production/components/hair-v1/hair-v1.glb",
+          "bytes": 3483308,
+          "sha256": "8b1a87855163fdd3432910228c8048f925cafc8cd62a1690885f05b9115558a5"
+        },
+        {
+          "path": "res://selected-production/components/hair-v1/rendering.json",
+          "bytes": 14054,
+          "sha256": "7ca352a4663a7046524cb3c7096ea1326458d0fbe3017e5d74b30c3dbc687e93"
+        },
+        {
+          "path": "res://selected-production/components/hair-v1/check.gd",
+          "bytes": 8294,
+          "sha256": "21f4179b8f682d0fcb41cb2bad4156bebcd6a9bf6833c7ca2dd54ab2db521211"
+        }
+      ],
+      "scope": "Five source-painted continuous locks, static Head-local attachment. Repairs finite side/back topology, not hair physics or accepted final all-angle art."
+    }
+  ],
+  "reservedComponents": [
+    {
+      "id": "selected-garment-cloth",
+      "status": "awaiting-source-frame-solver-and-barycentric-package",
+      "loaded": false
+    },
+    {
+      "id": "selected-hair-secondary",
+      "status": "pending",
+      "loaded": false
+    }
+  ],
+  "unsupportedActions": {
+    "pickup": "Not implemented: no verified hand-object contact or grasp constraint.",
+    "release": "Not implemented: no held-object state; do not acknowledge a fabricated release."
+  },
+  "quality": {
+    "selectedIdentityRetained": true,
+    "fullAngles": false,
+    "naturalActingComplete": false,
+    "allPhysicsComplete": false,
+    "finalAccepted": false
+  },
+  "startupComponents": {
+    "continuousHeadV3": true,
+    "headbandV2": true,
+    "hairV1": true
+  }
+}

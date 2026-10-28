@@ -1,0 +1,12 @@
+{
+  "schema": "dafeiyu.long-curls-conforming.gpu-front.v1",
+  "width": 640,
+  "height": 704,
+  "rgbRMSE": 1.1799538443560436,
+  "maxRGBDifference": 133,
+  "pixelsRGBDifferenceOver1": 2662,
+  "alphaSilhouetteDifference": 214,
+  "visualPass": false,
+  "finalAccepted": false,
+  "scope": "Actual same-renderer GPU difference; does not establish side/back quality or physics"
+}

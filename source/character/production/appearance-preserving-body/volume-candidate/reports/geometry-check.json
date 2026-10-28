@@ -1,0 +1,52 @@
+{
+  "schema": "dafeiyu.selected-skirt-depth-check.v1",
+  "metadata": {
+    "schema": "dafeiyu.selected-skirt-inferred-depth.v1",
+    "scope": "Single skirt inferred-depth candidate only, not cloth simulation or final back design",
+    "depthGain": 0.85,
+    "modifiedVertices": 2786,
+    "preserved": [
+      "position XY",
+      "original UV",
+      "source textures/materials/colors",
+      "index topology",
+      "all22 body bones and skin weights"
+    ],
+    "changed": [
+      "position Z inferred from original width",
+      "normals derived from actual changed geometry"
+    ],
+    "sourceCoordinateScale": "Uncalibrated original study units, not physical metres",
+    "method": "z = -0.015 + (sourceZ+0.015)*(1+depthGain*smoothstep((rowT-.12)/.88)); cap centers follow actual ring mean",
+    "limits": [
+      "Front occlusion must be reviewed; fixed XY alone does not guarantee unchanged render",
+      "No new side/back painting",
+      "No collision, thickness material, dynamics or force validation",
+      "Other source body/head/hair/shoe issues remain"
+    ]
+  },
+  "vertices": 2786,
+  "triangles": 5568,
+  "finite": true,
+  "maxXY": 0,
+  "maxZ": 0.31025001406669617,
+  "unchangedAttributes": {
+    "uv": true,
+    "skinIndex": true,
+    "skinWeight": true,
+    "color": true
+  },
+  "indexBytesIdentical": true,
+  "unchangedOtherMeshes": true,
+  "body22WorldMaximumDifference": 0,
+  "topology": {
+    "components": 1,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "signedVolume": 0.42961143583267797,
+    "minimumTriangleArea": 0.00017253925457361987
+  },
+  "visualPass": false,
+  "physicsPass": false,
+  "numericalPass": true
+}

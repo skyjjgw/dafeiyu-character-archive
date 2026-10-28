@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>原页面脸部方程 · 独立同机位对照</title>
+<style>
+html,body{margin:0;background:#182027;color:#dce8ef;font:14px system-ui}main{width:704px;max-width:100vw;margin:auto}header{padding:14px 0;display:flex;gap:12px;align-items:center;flex-wrap:wrap}select,button{background:#283947;color:inherit;border:1px solid #7890a0;border-radius:4px;padding:6px}canvas{display:block;width:704px;height:704px;max-width:100vw;max-height:100vw;background:transparent}p{font-size:12px;line-height:1.5;color:#a9bbc7}body.capture{background:transparent}body.capture header,body.capture p{display:none}
+</style>
+<main><header><strong>冻结原方程 · 同机位对照</strong><select id="state"></select><button id="save">保存原方程 PNG</button></header><div id="view"></div><p id="status">正在核对原文件与纹理…</p><p>仅用于与独立原生 face-only 探针对照，人物头发有意不加载。不会改原页面。可用 ?state=blink-5&amp;capture=1 隐藏操作栏。</p></main>
+<script type="module">
+import * as THREE from '../rig3d-prototype/vendor/three.module.js';
+const params=new URLSearchParams(location.search),source=await fetch('./fixtures/source-samples.json').then(r=>r.json());
+const hash=async text=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text))),n=>n.toString(16).padStart(2,'0')).join('');
+const profileText=await fetch('../appearance-baseline-20261027/source/profile-volume.js').then(r=>r.text());
+const faceText=await fetch('../appearance-baseline-20261027/source/face.js').then(r=>r.text());
+// Fetch bytes rather than normalize newlines: frozen Windows source hashes
+// are calculated from their original byte representation.
+const byteHash=async url=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',await fetch(url).then(r=>r.arrayBuffer()))),n=>n.toString(16).padStart(2,'0')).join('');
+for(const file of ['face.js','profile-volume.js'])if(await byteHash('../appearance-baseline-20261027/source/'+file)!==source.sourceHashes[file])throw Error('冻结源文件不符 '+file);
+const profileURL=URL.createObjectURL(new Blob([profileText],{type:'text/javascript'}));
+const threeURL=new URL('../rig3d-prototype/vendor/three.module.js',location.href).href;
+const faceURL=URL.createObjectURL(new Blob([faceText.replace("'../rig3d-prototype/vendor/three.module.js'",JSON.stringify(threeURL)).replace("'./profile-volume.js'",JSON.stringify(profileURL))],{type:'text/javascript'}));
+const {createPaintedFace}=await import(faceURL);
+const atlas='../appearance-baseline-20261027/assets/BV1g2JX6HEHX.jpg';
+if(await byteHash(atlas)!==source.sourceTextureSha256)throw Error('原纹理不符');
+const texture=await new THREE.TextureLoader().loadAsync(atlas);texture.colorSpace=THREE.SRGBColorSpace;
+const renderer=new THREE.WebGLRenderer({alpha:true,antialias:false,preserveDrawingBuffer:true});renderer.setSize(704,704);renderer.setPixelRatio(1);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;renderer.setClearColor(0,0);document.querySelector('#view').append(renderer.domElement);
+const scene=new THREE.Scene(),head=new THREE.Group();scene.add(head);
+const face=createPaintedFace({head,resources:new Set(),texture,sourceWidth:1920,sourceHeight:1080});
+const camera=new THREE.OrthographicCamera(-.725,.725,.725,-.725,.01,30);camera.position.set(0,.08,4);camera.lookAt(0,.08,0);
+const select=document.querySelector('#state');
+for(const frame of source.frames){const option=document.createElement('option');option.value=frame.state.label;option.textContent=frame.state.label;select.append(option);}
+select.value=params.get('state')||'blink-0';if(!select.value)select.value='blink-0';
+function render(){const frame=source.frames.find(f=>f.state.label===select.value);face.update(1/60,0,frame.state);renderer.render(scene,camera);document.querySelector('#status').textContent='原文件哈希已核对。'+JSON.stringify(frame.state);window.sourceComparison={state:frame.state,sourceHashes:source.sourceHashes,rendered:true};}
+select.addEventListener('change',render);document.querySelector('#save').addEventListener('click',()=>{render();const link=document.createElement('a');link.download='source-face-'+select.value+'.png';link.href=renderer.domElement.toDataURL('image/png');link.click();});
+if(params.has('capture'))document.body.classList.add('capture');render();
+window.addEventListener('pagehide',()=>{face.dispose();texture.dispose();renderer.dispose();URL.revokeObjectURL(profileURL);URL.revokeObjectURL(faceURL);},{once:true});
+</script>
+</html>

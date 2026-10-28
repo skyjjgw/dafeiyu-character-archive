@@ -1,0 +1,71 @@
+{
+  "schema": "dafeiyu.hollow-layered-skirt-check.v2",
+  "metadata": {
+    "schema": "dafeiyu.selected-hollow-skirt.v2",
+    "scope": "Hollow fabric structural candidate, not physical cloth simulation or final clothing fidelity",
+    "sourceFrontProjection": "Outer forward vertices retain source XY; original painting kept. Back/inner projection stays inferred and must be checked by actual front render.",
+    "depthGain": 0.85,
+    "clothThickness": 0.0035,
+    "layers": 2,
+    "eachLayer": {
+      "rows": 29,
+      "segments": 96,
+      "outerVertices": 2784,
+      "totalVertices": 5568,
+      "solidCenterCaps": false,
+      "waistOpening": true,
+      "hemOpening": true
+    },
+    "geometry": "Closed thin cloth sheets with outer/inner faces and narrow edge rims; two independent layers separated in space. No solid skirt-body disk caps.",
+    "frontMaterial": "Original texture/UV/color on forward outer cloth; smooth blend over side into original inferred navy/cream palette. No new artwork or angle images.",
+    "changes": [
+      "Back Y/radius drape inferred inside original front projection instead of copying frontContour around rear",
+      "Independent smaller petticoat and actual gathered hem",
+      "Source22 skin bones/weights retained for outer and sampled for lining"
+    ],
+    "limitations": [
+      "Baked oblique projection and true-world hem need future consistent full-character camera calibration",
+      "Side/back colors remain inferred; smooth blend is not new source painting",
+      "No garment/body/inner self-collision solver or physical bending/stretch material",
+      "Source high-side hem is retained on forward boundary; this is not a claim every side-fold now meets target",
+      "No default/4348 promotion"
+    ]
+  },
+  "layers": [
+    {
+      "vertices": 5568,
+      "triangles": 11136,
+      "components": 1,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "eulerCharacteristic": 0,
+      "signedFabricVolume": 0.007592041197420965,
+      "minimumTriangleArea": 0.000025612494858219145,
+      "finite": true,
+      "maximumWeightSumError": 4.470348358154297e-8,
+      "centerVerticalRayFabricHits": 0,
+      "centerCapAbsent": true
+    },
+    {
+      "vertices": 5568,
+      "triangles": 11136,
+      "components": 1,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "eulerCharacteristic": 0,
+      "signedFabricVolume": 0.005230154444349219,
+      "minimumTriangleArea": 0.000021837368505774314,
+      "finite": true,
+      "maximumWeightSumError": 4.470348358154297e-8,
+      "centerVerticalRayFabricHits": 0,
+      "centerCapAbsent": true
+    }
+  ],
+  "forwardOuterXYMax": 0,
+  "forwardOuterUVMax": 0,
+  "body22WorldMaximumDifference": 0,
+  "numericalPass": true,
+  "visualPass": false,
+  "physicsPass": false,
+  "note": "Closed thin fabric surfaces are genus1; the central waist and hem openings are real, unlike a solid sphere/skirt volume. No continuous collision or cloth solver is implied."
+}

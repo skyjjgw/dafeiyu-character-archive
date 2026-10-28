@@ -1,0 +1,39 @@
+{
+  "scope": "Same-view static transfer analysis only. Does not certify identity for other views, natural motion, complete anatomy or physical behavior.",
+  "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\selected-neutral.png",
+  "target": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-runtime\\reports\\selected-appearance-godot.png",
+  "sha256": {
+    "selected-neutral.png": "59d1d4518c792ed8eb0ae93c83b380970562be01af8aba03184d223c9f31f5fb",
+    "selected-appearance-godot.png": "e1b85a88f20579945396abc68f45fed7aa3510ebb1b1ab55e206fa1c37c6d035"
+  },
+  "size": [
+    640,
+    704
+  ],
+  "foregroundIoU": 0.9988471617685101,
+  "foregroundPixels": {
+    "source": 177702,
+    "target": 177737,
+    "intersection": 177617,
+    "union": 177822
+  },
+  "opaqueInteriorPixels": 163524,
+  "meanAbsoluteRGBError": [
+    2.9940620337075905,
+    1.9315452166042906,
+    1.2473887625058095
+  ],
+  "medianAbsoluteRGBError": [
+    2.0,
+    1.0,
+    0.0
+  ],
+  "p95AbsoluteRGBError": [
+    9.0,
+    8.0,
+    6.0
+  ],
+  "opaqueInteriorFractionAnyChannelOver8": 0.061006335461461315,
+  "opaqueInteriorFractionAnyChannelOver16": 0.031720114478608646,
+  "alphaDifferenceMeanOnUnion": 0.5367389861771884
+}

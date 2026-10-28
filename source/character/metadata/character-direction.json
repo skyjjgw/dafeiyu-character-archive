@@ -1,0 +1,250 @@
+{
+  "updated_on": "2026-10-26",
+  "user_direction": "用户已确认冬冰四个视频中的人物效果为目标：动画截图式Q版",
+  "medium": "实现技术待定，以用户确认的冬冰视频最终观感为准；不能预先等同于纯2D、Live2D或当前程序化3D",
+  "current_alignment": {
+    "date": "2026-10-26",
+    "user_corrections": ["我觉得我们方向错了就不应该是3d", "纯2d的话明显和视频里的效果差很多", "现在你先理解我的想法"],
+    "activity": "先复看用户确认的四个原视频动态并对齐目标；暂不继续改模型或指定替代技术",
+    "latest_quality_requirement": "用户接受所示GuiltyGear参考效果，但明确担心我们达不到；不得以参考作品、技术测试或漂亮静态图作为我们能交付的证明。质量门槛见metadata/visual-quality-gate-20261026.json",
+    "objective": "保留视频中人物的外观、空间感、连贯细腻表演和生动动作，最终成为能实时互动、持续扩展能力的虚拟人物；不制作视频生成模型",
+    "evidence_boundary": "作者披露含AI生成内容，尚无证据确认其具体软件、模型或角色控制管线；封面与关键帧不等于完整观看"
+  },
+  "primary_reference": "冬冰四个用户确认视频，详见primary_references",
+  "primary_references": [
+    {
+      "id": "BV1Tonb6JExo",
+      "title": "可是它长得本来就像饭盆嘛！【AI全民制作人】",
+      "author": "冬冰",
+      "source_url": "https://www.bilibili.com/video/BV1Tonb6JExo/",
+      "cover_path": "references/video-covers/BV1Tonb6JExo.jpg",
+      "use": "动画画法、宽圆脸、蓝色大眼和请求表情；冬装作为服装变体"
+    },
+    {
+      "id": "BV1t6nu6bEsf",
+      "title": "压力一只大肥鱼？",
+      "author": "冬冰",
+      "source_url": "https://www.bilibili.com/video/BV1t6nu6bEsf/",
+      "cover_path": "references/video-covers/BV1t6nu6bEsf.jpg",
+      "use": "女仆默认造型、短身体短四肢、清楚的眉眼嘴形和说话表情"
+    },
+    {
+      "id": "BV1g2JX6HEHX",
+      "title": "再给我一个好吗",
+      "author": "冬冰",
+      "source_url": "https://www.bilibili.com/video/BV1g2JX6HEHX/",
+      "cover_path": "references/video-covers/BV1g2JX6HEHX.jpg",
+      "use": "脸部轮廓、简洁蓝眼、刘海分组、请求神态与局部腮红"
+    },
+    {
+      "id": "BV1C2pg6cEZW",
+      "title": "你尾巴里有没有藏吃的",
+      "author": "冬冰",
+      "source_url": "https://www.bilibili.com/video/BV1C2pg6cEZW/",
+      "cover_path": "references/video-covers/BV1C2pg6cEZW.jpg",
+      "use": "同一女仆造型的脸部、蓝色大组发束、耳鳍与互动神态"
+    }
+  ],
+  "secondary_reference": "references/user/reference-1.jpg；references/user/reference-2.jpg",
+  "secondary_reference_use": "最初抱锅奔跑图和流泪HUD近景降为辅助情绪、动作意图与场景氛围参考；不再覆盖冬冰四个主参考的画法和比例",
+  "secondary_references": [
+    {
+      "id": "user-1",
+      "path": "references/user/reference-1.jpg",
+      "use": "抱锅奔跑的动作意图、小巧感和场景氛围"
+    },
+    {
+      "id": "user-2",
+      "path": "references/user/reference-2.jpg",
+      "use": "流泪情绪和人物在HUD中的呈现氛围"
+    }
+  ],
+  "primary_reference_policy": "整体形象以用户最新确认的冬冰四个视频为主参考；尾巴配色优先采用新用户参考references/user/tail-color-reference-v5.png，高于旧抱锅暖光图。近似图与社区正侧背仅作对照，不能把同角色、同为Q版视为同一套资产；不得将旧探索稿标为用户选定造型",
+  "priority_reference_ids": [
+    "BV1Tonb6JExo",
+    "BV1t6nu6bEsf",
+    "BV1g2JX6HEHX",
+    "BV1C2pg6cEZW"
+  ],
+  "comparison_reference_ids": [
+    "daozizhentian-04",
+    "daozizhentian-07"
+  ],
+  "detail_reference_ids": [
+    "deepseek202610230019",
+    "chibi-aigengtu-05-chibi-blue-maid"
+  ],
+  "visual_anchors": [
+    "动画截图式Q版",
+    "短身体、短四肢、宽圆脸",
+    "大而简洁的蓝色眼睛",
+    "蓝色大组发束与清楚的刘海轮廓",
+    "鲸鳍耳与鲸尾",
+    "白色褶边女仆头饰与蓝色蝴蝶结",
+    "深蓝白配色女仆装为默认，冬装为变体",
+    "清楚线稿、赛璐璐阴影与有限柔和渐变",
+    "生动清楚的眉眼嘴形"
+  ],
+  "rendering_policy": "人物保持动画线稿和成组色块，细腻感来自表情、形状和场景配合；避免写实或油画式体积、厚涂雾化边缘、过密发丝、过长腿身及精致娃娃比例；不使用粗白边贴纸效果。封面有裁切，精确头身比例仍需同版本全身画面核对",
+  "exploration_concepts": [
+    {
+      "path": "concepts/v1/A-refined-petite.png",
+      "status": "未被用户选定的探索稿",
+      "limitations": "偏厚涂与柔光体积，脸型和身体偏长，不能作为主造型"
+    },
+    {
+      "path": "concepts/v1/B-cinematic-run.png",
+      "status": "未被用户选定的探索稿",
+      "limitations": "偏电影式柔光厚涂，腿身偏长，不能作为主造型"
+    },
+    {
+      "path": "concepts/v1/C-emotional-closeup.png",
+      "status": "未被用户选定的探索稿",
+      "limitations": "偏厚涂情绪肖像，脸型与眼睛比例偏离动画Q版，不能作为主造型"
+    }
+  ],
+  "review_scope": {
+    "covers": "四张封面已目视，并已与v1 A/B/C静态探索稿比较",
+    "video_evidence": "2026-10-26已在官方播放器复看四个用户确认视频的代表动态片段，时间点与可见效果记于metadata/reference-motion-review-20261026.json；此前另有封面及storyboard研究",
+    "limitations": "未宣称完整看完四个视频；封面与storyboard不能替代完整动作、连续口型和各角度一致性检查"
+  },
+  "initial_animation_targets": [
+    "眨眼",
+    "待机呼吸与轻微摆动",
+    "说话嘴型",
+    "表情切换",
+    "视线变化",
+    "尾巴轻摆"
+  ],
+  "initial_animation_targets_status": "制作目标，尚未在大肥鱼软件完成接入",
+  "live2d_candidate": "model-candidate/model/c_0120.model3.json",
+  "live2d_candidate_status": "仅作技术试跑；脸部、刘海、画风与尾巴轮廓和用户参考有差异，不能直接作为外观定稿",
+  "missing_same_version_evidence": [
+    "四个主参考中同版本的高清连续画面与动作核对",
+    "无遮挡的默认女仆胸前、围裙和尾部连接",
+    "同版本侧背面",
+    "可供Live2D制作的统一分层原画"
+  ],
+  "framing": "用户尚未指定，待人物摆放时结合面板空间确定",
+  "voice": "尚未确定",
+  "personality_and_backstory": "尚未确定，不从素材梗图自动写入人设",
+  "product_position": "能力持续扩展的全能女性虚拟人物，DSH承载执行能力",
+  "accepted_concept_direction": {
+    "date": "2026-10-25",
+    "user_message": "可以了继续后面怎么操作",
+    "references": [
+      "concepts/v2/D-anime-fullbody.png",
+      "concepts/v2/E-anime-closeup.png"
+    ],
+    "scope": "首版外观方向接受；不等于新派生素材逐图终审或完成模型"
+  },
+  "production": {
+    "stage": "facial_identity_corrected_v2_full_psd_pending",
+    "preview": "production/v1/index.html",
+    "neutral_reference": "production/v1/neutral-front.png",
+    "expression_reference": "production/v1/expression-reference.png",
+    "layer_checklist": "production/v1/layer-checklist.json",
+    "runtime_contract": "production/v1/runtime-contract.json",
+    "next_required": "先按本轮current_alignment复看原视频并明确可见效果要求；旧PSD/Live2D与程序化3D均为历史试作，不自动作为下一步路线",
+    "renderer_installed": false,
+    "facial_prototype": "production/facial-prototype/index.html",
+    "facial_prototype_assets": 4,
+    "facial_prototype_capabilities": [
+      "自动眨眼差分切换",
+      "手动嘴部开合",
+      "本地音频幅度驱动嘴部",
+      "停止音频闭嘴复位"
+    ],
+    "facial_correction": "第一版拼接五官被用户否定；v2保留统一立绘原眼原眉原嘴，仅以同图表情差分局部显示；待用户查看效果",
+    "facial_correction_manifest": "production/facial-prototype/correction-v2-manifest.json",
+    "tail_correction": {
+      "version": 5,
+      "feedback": "尾巴轮廓与配色需按用户最新参考修正",
+      "status": "static_shape_and_color_corrected_pending_user_review",
+      "source_image": "production/facial-prototype/assets/tail-v5/tail-blue-reference.png",
+      "shape_manifest": "production/facial-prototype/tail-v3-manifest.json",
+      "color_reference": "references/user/tail-color-reference-v5.png",
+      "color_reference_priority": "新用户尾巴配色参考优先于references/user/reference-1.jpg旧暖光参考；整体人物方向仍以四个冬冰视频为准",
+      "color_direction": "冷靛蓝主体与柔和蓝色亮面，避免明显紫灰或高饱和亮青蓝腹带",
+      "lighting_note": "最新参考为夜景，蓝色环境光影响取样；不把截图色值直接等同中性光设计色",
+      "history": [
+        {
+          "version": 3,
+          "use": "双瓣、中央缺口和收细尾柄的结构修正记录；亮青蓝配色已被替代"
+        },
+        {
+          "version": 4,
+          "use": "紫灰配色历史稿，已被v5取代，不作当前配色基准"
+        }
+      ],
+      "details": [
+        "尾柄收细",
+        "双瓣鲸尾",
+        "中央缺口",
+        "裙后尾根",
+        "尾巴冷靛蓝主体与柔和蓝色亮面"
+      ],
+      "preview_scope": "同脸原画的尾部局部静态小样；尚非完整拆层或Live2D模型，未代表用户终审",
+      "physics_rigged": false,
+      "face_unchanged": true
+    },
+    "rig3d_prototype": {
+      "preview": "production/rig3d-prototype/index.html",
+      "status": "editable_native_and_runtime_refinement_study_not_approved_final_art",
+      "bone_count": 40,
+      "skinned_mesh_count": 1,
+      "capabilities": [
+        "continuous idle breathing",
+        "arm greeting",
+        "Rapier-grounded small-circle walking with fixed-length two-bone leg IK",
+        "world-space stance anchors and swing foot arcs",
+        "full turn",
+        "Verlet secondary motion for six hair chains and one tail chain",
+        "bone-tip sphere and capsule collisions",
+        "continuous eye and mouth geometry plus neutral/happy/sad expressions",
+        "orbit / front / side / back inspection",
+        "lil-gui geometry/material tuning with local presets and JSON import/export",
+        "current-pose browser GLB export",
+        "separate native Blender project and offline GLB with four morphs and four baked clips"
+      ],
+      "model_scope": "程序化三维精修小样，已有可编辑原生工程与独立Web运行；脸型、发束、服装、拓扑和多角度相似度仍待按主参考精修，不代替已选二维身份标准或人物终审",
+      "renderer_installed_in_dsh": false,
+      "native_blender_project_created": true,
+      "toolchain": {
+        "blender": { "version": "4.5.15 LTS portable", "status": "installed_project_local_profile", "license": "GPL-3.0-or-later" },
+        "vrm_addon": { "version": "4.10.2", "status": "installed_enabled_import_export_registered_not_complete_vrm_asset", "license": "MIT OR GPL-3.0-or-later" },
+        "three_vrm": { "version": "3.5.5", "use": "MToon materials and outlines only", "license": "MIT" },
+        "lil_gui": { "version": "0.21.0", "use": "parameter editor and application-managed local/JSON presets", "license": "MIT" },
+        "rapier": { "version": "0.21.0", "package": "@dimforge/rapier3d-compat", "use": "WASM kinematic capsule, gravity and fixed flat-floor translation constraints", "license": "Apache-2.0" }
+      },
+      "native_assets": {
+        "blend": "production/character3d/dafeiyu-master-v1.blend",
+        "glb": "production/character3d/assets/dafeiyu-body-rig-v1.glb",
+        "morphs": ["blink", "aa", "happy", "sad"],
+        "baked_clips": ["idle", "wave", "walk", "turn"],
+        "baked_motion_scope": "尾发动态保存为可编辑关键帧，不是Blender原生物理；walk仍为原地步行，未包含Web的Rapier位移和脚IK",
+        "renders": "production/character3d/renders/",
+        "inferred_turnaround": "production/character3d/references/turnaround-inferred-v1.png",
+        "inferred_turnaround_policy": "AI推定侧背结构，仅作制作参考，不是原作者真值；尾色仍服从用户v5参考",
+        "verification": "production/character3d/native-build-verification.json",
+        "verification_policy": "核验报告对应其记录的源文件哈希；后续几何变更须重新导出、重建并核验，不沿用未经执行的最终测试结论"
+      },
+      "runtime_physics": {
+        "order": "body animation -> Rapier locomotion and leg IK -> secondary bone physics",
+        "ground": "固定平地与恒定均匀root缩放；运动学胶囊处理平移，两骨解析IK保持腿长并锁定支撑脚；不模拟动态平衡、复杂地形或旋转扫掠",
+        "secondary_chains": 7,
+        "secondary_bones": 23,
+        "secondary": "六条三骨发链和五骨尾链；固定步长Verlet、阻尼、重力、长度/关节角约束及球/胶囊骨尖碰撞",
+        "collision_limit": "只约束骨尖粒子，不覆盖所有网格三角形；不可行约束报告残余；尚无全布料或全身碰撞"
+      },
+      "vrm_compliance_claimed": false,
+      "dsh_or_credentials_changed": false,
+      "route_decision": "用户要求继续精修真实3D骨骼与二次元渲染路线，当前为可编辑工程和独立运行小样；不代表已完成全角度还原、完整物理或精细模型终审"
+    }
+  },
+  "production_review_remaining": [
+    "新生成正面和六表情仍需在拆层阶段统一精确轮廓与眼距",
+    "口型需要闭合、半开、张开连续形态；表情表不替代口腔分层",
+    "同版本侧背与被遮挡部分需统一绘制"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schema": "dafeiyu.structural-head-v3.worker-gpu-validation.v1",
+  "generatedAt": "2026-10-28T20:19:10.7349705+08:00",
+  "dllSha256": "d25ce205577bd9f568808fdb8dc29c406ee1d5cc5375959c718e11f8459728f6",
+  "dllBytes": 496128,
+  "actualGpu": true,
+  "renderer": "Godot 4.7.2 OpenGL Compatibility, NVIDIA RTX 4060 Laptop GPU",
+  "setup": {
+    "component": "continuous-head-v3",
+    "fixed_topology": true,
+    "instances": 20,
+    "last_kernel_ms": 4.4097,
+    "last_submit_ms": 0.442,
+    "mapped_vertices": 91820,
+    "maximum_import_position_error": 0.0,
+    "maximum_import_uv_error": 0.0,
+    "mesh_rebuilds_during_updates": 0,
+    "ok": true,
+    "structure": {
+      "cage_triangles": 55651,
+      "native_grid_resolution": 256,
+      "new_roles": 5,
+      "ok": true,
+      "requested_native_grid_resolution": 128,
+      "source_grid_resolution": 48,
+      "support_anchors": 288
+    },
+    "surfaces": 23,
+    "updates": 6
+  },
+  "states": [
+    {
+      "gpuReadbackUnequalBits": 0,
+      "state": {
+        "blink": 0.0,
+        "talk": 0.0
+      },
+      "update": {
+        "component": "continuous-head-v3",
+        "fixed_topology": true,
+        "instances": 20,
+        "last_kernel_ms": 0.0391,
+        "last_submit_ms": 0.031,
+        "mapped_vertices": 91820,
+        "maximum_import_position_error": 0.0,
+        "maximum_import_uv_error": 0.0,
+        "mesh_rebuilds_during_updates": 0,
+        "ok": true,
+        "structure": {
+          "cage_triangles": 55651,
+          "native_grid_resolution": 256,
+          "new_roles": 5,
+          "ok": true,
+          "requested_native_grid_resolution": 128,
+          "source_grid_resolution": 48,
+          "support_anchors": 288
+        },
+        "surfaces": 23,
+        "updates": 2
+      }
+    },
+    {
+      "gpuReadbackUnequalBits": 0,
+      "state": {
+        "blink": 0.5,
+        "gazeX": 0.4,
+        "talk": 0.4
+      },
+      "update": {
+        "component": "continuous-head-v3",
+        "fixed_topology": true,
+        "instances": 20,
+        "last_kernel_ms": 5.9892,
+        "last_submit_ms": 0.374,
+        "mapped_vertices": 91820,
+        "maximum_import_position_error": 0.0,
+        "maximum_import_uv_error": 0.0,
+        "mesh_rebuilds_during_updates": 0,
+        "ok": true,
+        "structure": {
+          "cage_triangles": 55651,
+          "native_grid_resolution": 256,
+          "new_roles": 5,
+          "ok": true,
+          "requested_native_grid_resolution": 128,
+          "source_grid_resolution": 48,
+          "support_anchors": 288
+        },
+        "surfaces": 23,
+        "updates": 3
+      }
+    },
+    {
+      "gpuReadbackUnequalBits": 0,
+      "state": {
+        "blink": 1.0,
+        "talk": 0.0
+      },
+      "update": {
+        "component": "continuous-head-v3",
+        "fixed_topology": true,
+        "instances": 20,
+        "last_kernel_ms": 4.6668,
+        "last_submit_ms": 0.371,
+        "mapped_vertices": 91820,
+        "maximum_import_position_error": 0.0,
+        "maximum_import_uv_error": 0.0,
+        "mesh_rebuilds_during_updates": 0,
+        "ok": true,
+        "structure": {
+          "cage_triangles": 55651,
+          "native_grid_resolution": 256,
+          "new_roles": 5,
+          "ok": true,
+          "requested_native_grid_resolution": 128,
+          "source_grid_resolution": 48,
+          "support_anchors": 288
+        },
+        "surfaces": 23,
+        "updates": 4
+      }
+    },
+    {
+      "gpuReadbackUnequalBits": 0,
+      "state": {
+        "blink": 0.2,
+        "gazeY": -0.5,
+        "happy": 1.0,
+        "talk": 1.0
+      },
+      "update": {
+        "component": "continuous-head-v3",
+        "fixed_topology": true,
+        "instances": 20,
+        "last_kernel_ms": 5.4651,
+        "last_submit_ms": 0.398,
+        "mapped_vertices": 91820,
+        "maximum_import_position_error": 0.0,
+        "maximum_import_uv_error": 0.0,
+        "mesh_rebuilds_during_updates": 0,
+        "ok": true,
+        "structure": {
+          "cage_triangles": 55651,
+          "native_grid_resolution": 256,
+          "new_roles": 5,
+          "ok": true,
+          "requested_native_grid_resolution": 128,
+          "source_grid_resolution": 48,
+          "support_anchors": 288
+        },
+        "surfaces": 23,
+        "updates": 5
+      }
+    }
+  ],
+  "cleanupValidated": true,
+  "log": "component-worker-gpu.log",
+  "completed": true,
+  "finalQualityPassed": false,
+  "scope": "Actual imported position/UV/FloatRGBA buffers read back for four joint expression states; worker lifetime through disposal. Kernel timing and whole-character 60fps are separate."
+}

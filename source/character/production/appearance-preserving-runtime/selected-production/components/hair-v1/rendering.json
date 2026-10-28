@@ -1,0 +1,474 @@
+{
+  "schema": "dafeiyu.selected-hair.rendering.v1",
+  "glbSha256": "8b1a87855163fdd3432910228c8048f925cafc8cd62a1690885f05b9115558a5",
+  "glbBytes": 3483308,
+  "sourceGlbSha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+  "materials": [
+    {
+      "name": "SOURCE_000",
+      "type": "MeshBasicMaterial",
+      "baseLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "image": 0,
+      "vertexColors": false,
+      "transparent": false,
+      "alphaTest": 0,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": false
+    },
+    {
+      "name": "SOURCE_001",
+      "type": "MeshToonMaterial",
+      "baseLinear": [
+        0.026241221889696346,
+        0.061246054224174035,
+        0.16202937562896222,
+        1
+      ],
+      "image": -1,
+      "vertexColors": false,
+      "transparent": false,
+      "alphaTest": 0,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": true
+    },
+    {
+      "name": "SOURCE_002",
+      "type": "MeshBasicMaterial",
+      "baseLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "image": 0,
+      "vertexColors": false,
+      "transparent": false,
+      "alphaTest": 0,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": false
+    },
+    {
+      "name": "SOURCE_003",
+      "type": "MeshToonMaterial",
+      "baseLinear": [
+        0.026241221889696346,
+        0.061246054224174035,
+        0.16202937562896222,
+        1
+      ],
+      "image": -1,
+      "vertexColors": false,
+      "transparent": false,
+      "alphaTest": 0,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": true
+    },
+    {
+      "name": "SOURCE_004",
+      "type": "MeshBasicMaterial",
+      "baseLinear": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "image": 0,
+      "vertexColors": false,
+      "transparent": false,
+      "alphaTest": 0,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": false
+    },
+    {
+      "name": "SOURCE_005",
+      "type": "MeshToonMaterial",
+      "baseLinear": [
+        0.026241221889696346,
+        0.061246054224174035,
+        0.16202937562896222,
+        1
+      ],
+      "image": -1,
+      "vertexColors": false,
+      "transparent": false,
+      "alphaTest": 0,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": true
+    },
+    {
+      "name": "SOURCE_006",
+      "type": "MeshBasicMaterial",
+      "baseLinear": [
+        0.3231432091022285,
+        0.24620132669705552,
+        0.43415363616478553,
+        1
+      ],
+      "image": 1,
+      "vertexColors": false,
+      "transparent": true,
+      "alphaTest": 0.4,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": false
+    },
+    {
+      "name": "SOURCE_007",
+      "type": "MeshToonMaterial",
+      "baseLinear": [
+        0.026241221889696346,
+        0.061246054224174035,
+        0.16202937562896222,
+        1
+      ],
+      "image": -1,
+      "vertexColors": false,
+      "transparent": false,
+      "alphaTest": 0,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": true
+    },
+    {
+      "name": "SOURCE_008",
+      "type": "MeshBasicMaterial",
+      "baseLinear": [
+        0.3231432091022285,
+        0.24620132669705552,
+        0.43415363616478553,
+        1
+      ],
+      "image": 1,
+      "vertexColors": false,
+      "transparent": true,
+      "alphaTest": 0.4,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": false
+    },
+    {
+      "name": "SOURCE_009",
+      "type": "MeshToonMaterial",
+      "baseLinear": [
+        0.026241221889696346,
+        0.061246054224174035,
+        0.16202937562896222,
+        1
+      ],
+      "image": -1,
+      "vertexColors": false,
+      "transparent": false,
+      "alphaTest": 0,
+      "depthWrite": true,
+      "depthTest": true,
+      "side": 0,
+      "toneMapped": true
+    }
+  ],
+  "images": [
+    {
+      "index": 0,
+      "name": "source-cover.jpg",
+      "mimeType": "image/jpeg",
+      "sha256": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4"
+    },
+    {
+      "index": 1,
+      "name": "source-garment.png",
+      "mimeType": "image/png",
+      "sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14"
+    },
+    {
+      "index": 2,
+      "name": "source-turnaround.png",
+      "mimeType": "image/png",
+      "sha256": "408f5df1b2a7a58689201ce2d34f3be3d9fe359e5f6ffc4cff9c95f18b84ea34"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "left-face-framing-hair:conforming-continuous-volume-v1",
+      "vertices": 5182,
+      "triangles": 10360,
+      "attributes": {
+        "POSITION": {
+          "accessor": 0,
+          "componentCount": 15546,
+          "sha256": "330bb7b391c6a2ed27a2b424d22663120400c0993f704ddaddaf6713a32f4d22"
+        },
+        "NORMAL": {
+          "accessor": 1,
+          "componentCount": 15546,
+          "sha256": "09fa7ec8d86e843934f056b5c7fd1eca90447a58432c1f31a5edce90619fdb31"
+        },
+        "TEXCOORD_0": {
+          "accessor": 2,
+          "componentCount": 10364,
+          "sha256": "9fd1235fcadf2fc6c01d381996ce4fd56d07a340f42ebc16e853c90cb7623dd6"
+        }
+      },
+      "surfaces": [
+        {
+          "material": 0,
+          "indicesAccessor": 3,
+          "indexComponentCount": 14919,
+          "indexSha256": "30ac2233c045f6b9be139d32192c8f31d5249415f5d15bdb0d7bb0a8d001b061",
+          "triangles": 4973
+        },
+        {
+          "material": 1,
+          "indicesAccessor": 4,
+          "indexComponentCount": 16161,
+          "indexSha256": "31e24b6e5e690225bf10161007a096e2a1987c2c3f079560db90a53e68a2fd87",
+          "triangles": 5387
+        }
+      ],
+      "replaces": [
+        "left-face-framing-hair:original-pixel-surface",
+        "left-face-framing-hair:closed-thickness",
+        "left-face-framing-hair:back"
+      ]
+    },
+    {
+      "name": "right-face-framing-hair:conforming-continuous-volume-v1",
+      "vertices": 4972,
+      "triangles": 9940,
+      "attributes": {
+        "POSITION": {
+          "accessor": 5,
+          "componentCount": 14916,
+          "sha256": "4cf1e96e02352694a37a0224994d9e625fc8faeeac8b764881a9365a43fd321e"
+        },
+        "NORMAL": {
+          "accessor": 6,
+          "componentCount": 14916,
+          "sha256": "b15fb25f26c90a9226afe4453cdc038a5c0599d3ecb8ea31ece793bb6aef9b95"
+        },
+        "TEXCOORD_0": {
+          "accessor": 7,
+          "componentCount": 9944,
+          "sha256": "c4a104a7b88813ddd1be1bd883535a2c1fbeb00b0830191264d2c5003bdc2abd"
+        }
+      },
+      "surfaces": [
+        {
+          "material": 2,
+          "indicesAccessor": 8,
+          "indexComponentCount": 14250,
+          "indexSha256": "b1cb3348bd127f81a4aa41ff90d7974784faeb590e4788b722ece880a5f7a03d",
+          "triangles": 4750
+        },
+        {
+          "material": 3,
+          "indicesAccessor": 9,
+          "indexComponentCount": 15570,
+          "indexSha256": "fdf6f5110663a9371a991a6e6acbec3fb19f8898443d7c1b97646e777e4b7c70",
+          "triangles": 5190
+        }
+      ],
+      "replaces": [
+        "right-face-framing-hair:original-pixel-surface",
+        "right-face-framing-hair:closed-thickness",
+        "right-face-framing-hair:back"
+      ]
+    },
+    {
+      "name": "central-forked-bangs:conforming-continuous-volume-v1",
+      "vertices": 2784,
+      "triangles": 5564,
+      "attributes": {
+        "POSITION": {
+          "accessor": 10,
+          "componentCount": 8352,
+          "sha256": "5aefd78dc95d59cd2509a1ff0f296b5af2c2fcb95101bd1e7160add4ac4a0c17"
+        },
+        "NORMAL": {
+          "accessor": 11,
+          "componentCount": 8352,
+          "sha256": "f8569bfc0c7dfd8e4c9e1d41fc58485a3857f1498d71354f0e120b2720f0c925"
+        },
+        "TEXCOORD_0": {
+          "accessor": 12,
+          "componentCount": 5568,
+          "sha256": "724873e36f0c7cf6b3468df18e7e9d3bfc765e8e2ef507146ad9a9bc7d19b1a3"
+        }
+      },
+      "surfaces": [
+        {
+          "material": 4,
+          "indicesAccessor": 13,
+          "indexComponentCount": 7644,
+          "indexSha256": "24e10f21ea72586c268a87201af88b3abc97a4a458fe68f31609824703203191",
+          "triangles": 2548
+        },
+        {
+          "material": 5,
+          "indicesAccessor": 14,
+          "indexComponentCount": 9048,
+          "indexSha256": "0a9eb2feb0b6629346ca50aa385e00332b175d1d6953e24ce0fceb1d961b84bf",
+          "triangles": 3016
+        }
+      ],
+      "replaces": [
+        "central-forked-bangs:original-pixel-surface",
+        "central-forked-bangs:closed-thickness",
+        "central-forked-bangs:back"
+      ]
+    },
+    {
+      "name": "left-auxiliary-source-traced-long-curls:conforming-curl-v1",
+      "vertices": 764,
+      "triangles": 1532,
+      "attributes": {
+        "POSITION": {
+          "accessor": 15,
+          "componentCount": 2292,
+          "sha256": "80d33ae023486f7741b26e9d49105859f3b7a8440d5fe6afa436f8ee3c16d89f"
+        },
+        "NORMAL": {
+          "accessor": 16,
+          "componentCount": 2292,
+          "sha256": "06559258eb8585f6e70f28d76065a9a94267fc9e220f49d80bf78dd4d2b63377"
+        },
+        "TEXCOORD_0": {
+          "accessor": 17,
+          "componentCount": 1528,
+          "sha256": "d2b6afcefa170d8bc2c8c01e206776d723ea1af03ffb0e9199de00ce2293836f"
+        }
+      },
+      "surfaces": [
+        {
+          "material": 6,
+          "indicesAccessor": 18,
+          "indexComponentCount": 1788,
+          "indexSha256": "2e6dbcd6783facc6dc6686da5b6195bee5762bccf1b0d7dd45c131ee68b2d3c0",
+          "triangles": 596
+        },
+        {
+          "material": 7,
+          "indicesAccessor": 19,
+          "indexComponentCount": 2808,
+          "indexSha256": "f19e976590068deb193335bf1d6a056bb4fd184e93aa64b5dd168f06afcc526a",
+          "triangles": 936
+        }
+      ],
+      "replaces": [
+        "left-auxiliary-source-traced-long-curls:original-pixel-surface",
+        "left-auxiliary-source-traced-long-curls:closed-thickness",
+        "left-auxiliary-source-traced-long-curls:back"
+      ]
+    },
+    {
+      "name": "right-auxiliary-source-traced-long-curls:conforming-curl-v1",
+      "vertices": 764,
+      "triangles": 1532,
+      "attributes": {
+        "POSITION": {
+          "accessor": 20,
+          "componentCount": 2292,
+          "sha256": "14c8958e82c91473a280bc5555a64760b1e674e149d71870ac9ff94c67d1f133"
+        },
+        "NORMAL": {
+          "accessor": 21,
+          "componentCount": 2292,
+          "sha256": "f661b7f2b343a298724d36f683cffd83c8ca97a6c9815fac8c0ba63954a1f178"
+        },
+        "TEXCOORD_0": {
+          "accessor": 22,
+          "componentCount": 1528,
+          "sha256": "d2b6afcefa170d8bc2c8c01e206776d723ea1af03ffb0e9199de00ce2293836f"
+        }
+      },
+      "surfaces": [
+        {
+          "material": 8,
+          "indicesAccessor": 23,
+          "indexComponentCount": 1788,
+          "indexSha256": "998e7d65254f404fcb34fdcdd164e4bf671179e7165f497f1c6045cceb6ac5b5",
+          "triangles": 596
+        },
+        {
+          "material": 9,
+          "indicesAccessor": 24,
+          "indexComponentCount": 2808,
+          "indexSha256": "9ed14203a561d16b20755d794a1bb404c178c1993cd9f9c94237bd013db25ebf",
+          "triangles": 936
+        }
+      ],
+      "replaces": [
+        "right-auxiliary-source-traced-long-curls:original-pixel-surface",
+        "right-auxiliary-source-traced-long-curls:closed-thickness",
+        "right-auxiliary-source-traced-long-curls:back"
+      ]
+    }
+  ],
+  "sourceModules": [
+    {
+      "file": "appearance-preserving-geometry/hair-continuity-v1/hair.mjs",
+      "sha256": "4ec1940f64d436a5eb1092bb70d288c1704f7de67c40840e6097a96ae9721511"
+    },
+    {
+      "file": "appearance-preserving-geometry/hair-continuity-v1/long-curls-conforming/hair.mjs",
+      "sha256": "332826763ef42f9b6e4cceeac33add371b668f2a0e50c64025784f2f756fcc01"
+    }
+  ],
+  "headLocal": true,
+  "attach": {
+    "replaces": [
+      "left-face-framing-hair:original-pixel-surface",
+      "left-face-framing-hair:closed-thickness",
+      "left-face-framing-hair:back",
+      "right-face-framing-hair:original-pixel-surface",
+      "right-face-framing-hair:closed-thickness",
+      "right-face-framing-hair:back",
+      "central-forked-bangs:original-pixel-surface",
+      "central-forked-bangs:closed-thickness",
+      "central-forked-bangs:back",
+      "left-auxiliary-source-traced-long-curls:original-pixel-surface",
+      "left-auxiliary-source-traced-long-curls:closed-thickness",
+      "left-auxiliary-source-traced-long-curls:back",
+      "right-auxiliary-source-traced-long-curls:original-pixel-surface",
+      "right-auxiliary-source-traced-long-curls:closed-thickness",
+      "right-auxiliary-source-traced-long-curls:back"
+    ]
+  },
+  "dynamicPhysics": false,
+  "finalAccepted": false,
+  "counts": {
+    "meshes": 5,
+    "vertices": 14466,
+    "triangles": 28928,
+    "materials": 10
+  },
+  "materialPolicy": "Use host source_material(actual Three flags), host already-linear RGBA16F textures in original order 0 cover/1 garment/2 turnaround. UV V-flipped once by host source shader. No standard BLEND substitute for cutoff + transparency + depthWrite.",
+  "limitations": [
+    "Three separate locks; not a Boolean union with the scalp or each other.",
+    "Long curls and their original T junctions remain unchanged.",
+    "Unknown back shape is inferred.",
+    "Front orthographic XY and source mapping retained, but altered rear occlusion requires actual GPU review.",
+    "Only conforming tessellation and connected finite side/back topology changed.",
+    "Original front interpolation changes between old vertices; cracks are filled using the original nonlinear source equations.",
+    "Original auxiliary back/side inference and other head/body defects remain.",
+    "Static Head attachment only; no inherited per-index deformer or hair physics."
+  ]
+}

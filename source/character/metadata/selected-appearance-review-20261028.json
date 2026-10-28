@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-28",
+  "selectedURL": "http://127.0.0.1:4348/character-preview.html",
+  "reasonForPreviousDrift": "结构升级被错误实施为重新设计造型，后续技术测试未以已选脸型、五官、发型和画法作实际视觉验收；另有本地联调默认入口残留指向被否定的造型。",
+  "sourceIntegrity": "selected-appearance-integrity.json：34项文件哈希检查通过，当前预览iframe文档与冻结原版一致。此事实不代表最终人物质量。",
+  "defaultLaunchCorrection": {
+    "entry": "production/native-character-bridge/launch-visible.mjs",
+    "host": "production/native-character-bridge/dsh-host.mjs",
+    "profile": "selected-character",
+    "actualGpuEvidence": "production/native-character-bridge/reports/selected-bridge-wave.png",
+    "checks": {"unit": 5, "officialSdkWithProbe": 7, "selectedHeadless": 2, "selectedGpu": 3},
+    "installedDshConnected": false,
+    "supportedBehavior": ["wave", "cancel"],
+    "graspRequestsRejected": true
+  },
+  "localCandidates": {
+    "headV3": {
+      "status": "limited_front_identity_retained_and_single_expression_frame_reviewed",
+      "frontDifferentPixelsOver1": 301,
+      "frontAlphaSilhouetteDifference": 0,
+      "evidence": "production/appearance-preserving-geometry/reports/visual-review-v3.json",
+      "nativeIntegrated": false
+    },
+    "handV2": {
+      "status": "limited_local_visual_improvement_observed",
+      "evidence": "production/appearance-preserving-body/retopology/reports/visual-review.json",
+      "forceClosureVerified": false
+    },
+    "handMotionCandidate": {
+      "status": "limited_pose_improvement_observed_original_identity_retained",
+      "evidence": "production/appearance-preserving-runtime/hands-candidate/reports/root-visual-review-20261028.json",
+      "actualGpuFrame": "production/appearance-preserving-runtime/hands-candidate/reports/native-full-greeting.png",
+      "headlessDynamicChecks": 9,
+      "headlessDurationSeconds": 14.004,
+      "defaultSceneChanged": false,
+      "forceClosureVerified": false
+    },
+    "headbandDepthV1": {
+      "status": "visual_failed_do_not_promote",
+      "reason": "90度仍有裂孔、双平行板与未连接布带，单改Z不足。"
+    },
+    "skirtDepthV1": {
+      "status": "depth_improvement_observed_side_structure_still_failed",
+      "frontDifferentPixelsOver1": 24,
+      "frontAlphaSilhouetteDifference": 0,
+      "reason": "正面身份保持，侧面仍有倒V裙摆和原画/纯色突变；未验证布料或身体接触。"
+    },
+    "hollowSkirtV2": {
+      "status": "limited_structural_improvement_front_identity_retained",
+      "frontDifferentPixelsOver1": 1355,
+      "frontAlphaSilhouetteDifference": 207,
+      "evidence": "production/appearance-preserving-body/volume-candidate/v2/reports/visual-review-root-20261028.json",
+      "remaining": "侧摆自然度、前画/背色衔接与层间接触；未实际检查全部其他角度和动态。",
+      "physicsPassed": false
+    },
+    "continuousHeadbandV1": {
+      "status": "visual_and_strict_crossing_failed_do_not_promote",
+      "observedStrictCrossingPairs": 4108,
+      "evidence": "production/appearance-preserving-geometry/headband-volume-candidate/reports/visual-review-20261028.json",
+      "diagnosis": "同几何纯色侧视诊断确认蓝色假洞主要来自原裁图邻近头发采样污染；初始化过曝与两面绘画已修。最后补色局部有效，但大竖板、深灰块和自交仍失败。",
+      "physicsPassed": false
+    }
+  },
+  "rule": "数值、结构、渲染性能与局部画面分别记录；任何局部通过均不能代表全身还原、全部角度、自然表演或物理完成。",
+  "finalCharacterAccepted": false,
+  "complete": false
+}

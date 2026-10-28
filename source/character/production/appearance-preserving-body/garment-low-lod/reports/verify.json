@@ -1,0 +1,275 @@
+{
+  "sourceBinarySha": "c9a08f0e12196337ffac10783036f2d5473eb53d379abf76a9b09044f88cf5a3",
+  "candidateBinarySha": "30f3725bb07ec69812eb80a5f4fd0414cc1506d752eefc7a46e49529114c5f45",
+  "highRenderAndSource22Arrays": 26,
+  "identicalArrays": 26,
+  "allRenderAndSource22ArraysIdentical": true,
+  "materialsIdentical": true,
+  "checks": [
+    {
+      "id": "outer",
+      "points": 320,
+      "pins": 48,
+      "hem": 48,
+      "allPinsPelvis": true,
+      "faceAndIndicesValid": true,
+      "barySumMaximumError": 5.9138983488082886e-8,
+      "offsetsFinite": true,
+      "weightsNormalized": true,
+      "quality": {
+        "vertices": 320,
+        "triangles": 544,
+        "finite": true,
+        "indicesInRange": true,
+        "components": 1,
+        "boundaryEdges": 96,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "euler": 0,
+        "minimumTriangleArea": 0.0012012261354509776,
+        "totalArea": 2.1572384055968077,
+        "edgeLength": {
+          "min": 0.030357476108037133,
+          "p10": 0.06320680581542051,
+          "median": 0.09792025355360147,
+          "p90": 0.13789108000264744,
+          "max": 0.20281953765046312
+        },
+        "edgeAspect": {
+          "median": 1.6130524286709664,
+          "p95": 2.8776684168724045,
+          "max": 3.5884282551859497
+        },
+        "minimumAngleDegrees": 14.037235092873846
+      },
+      "errors": {
+        "maximumTangentAdjustment": 0.014741299211841623,
+        "p95TangentAdjustment": 0.0000721522848296978,
+        "maximumDistanceToLowSurface": 0.0308508426483306,
+        "p95NormalOffset": 0.008829716250196771,
+        "maxNormalOffset": 0.0308508426483306,
+        "minimumBarycentric": -6.661338147750939e-16,
+        "largestOffsets": [
+          {
+            "vertex": 2278,
+            "face": 447,
+            "signedNormalOffset": 0.0308508426483306,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2182,
+            "face": 446,
+            "signedNormalOffset": 0.030472603055303714,
+            "tangentAdjustment": 1.3877787807814457e-17
+          },
+          {
+            "vertex": 5062,
+            "face": 447,
+            "signedNormalOffset": 0.027532033130306173,
+            "tangentAdjustment": 1.3877787807814457e-17
+          },
+          {
+            "vertex": 4966,
+            "face": 446,
+            "signedNormalOffset": 0.02707951398078469,
+            "tangentAdjustment": 3.1031676915590914e-17
+          },
+          {
+            "vertex": 2374,
+            "face": 522,
+            "signedNormalOffset": 0.026556614055702914,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 1894,
+            "face": 382,
+            "signedNormalOffset": 0.02636075712757698,
+            "tangentAdjustment": 1.962615573354719e-17
+          },
+          {
+            "vertex": 2086,
+            "face": 446,
+            "signedNormalOffset": 0.025572796948639637,
+            "tangentAdjustment": 1.962615573354719e-17
+          },
+          {
+            "vertex": 1990,
+            "face": 383,
+            "signedNormalOffset": 0.025309935477853877,
+            "tangentAdjustment": 1.1527756336890508e-16
+          },
+          {
+            "vertex": 2330,
+            "face": 417,
+            "signedNormalOffset": 0.02372569480221537,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 5158,
+            "face": 522,
+            "signedNormalOffset": 0.02345923212768295,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 4678,
+            "face": 383,
+            "signedNormalOffset": 0.02334922952499777,
+            "tangentAdjustment": 1.3877787807814457e-17
+          },
+          {
+            "vertex": 4870,
+            "face": 446,
+            "signedNormalOffset": 0.0224784886103708,
+            "tangentAdjustment": 1.3877787807814457e-17
+          }
+        ],
+        "maximumBindComponentReconstructionError": 5.960464477539063e-8,
+        "maximumNeutralComponentReconstructionError": 5.960464477539063e-8,
+        "bindComponentRMSE": 2.9782735283650842e-9,
+        "maximumDroppedSolverSkinWeight": 0,
+        "minimumUnclampedBarycentric": -0.18994062251460658,
+        "maximumUnclampedBarycentric": 1.0083819204172149,
+        "extrapolatedVertices": 398,
+        "maximumNegativeBarycentricMagnitude": 0.18994062251460658,
+        "reference": "Original high render positions retained byte-for-byte; plane barycentric extrapolation reproduces rest, but may amplify deformation; closest-face tangentAdjustment describes previous clamped mapping, not this reconstruction.",
+        "originalTotalLumpedArea": 2.1779470492328983,
+        "lowRawArea": 2.1572384054306895,
+        "areaMassScale": 1.0095996083465213
+      }
+    },
+    {
+      "id": "lining",
+      "points": 352,
+      "pins": 48,
+      "hem": 48,
+      "allPinsPelvis": true,
+      "faceAndIndicesValid": true,
+      "barySumMaximumError": 5.8331352192908525e-8,
+      "offsetsFinite": true,
+      "weightsNormalized": true,
+      "quality": {
+        "vertices": 352,
+        "triangles": 608,
+        "finite": true,
+        "indicesInRange": true,
+        "components": 1,
+        "boundaryEdges": 96,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "euler": 0,
+        "minimumTriangleArea": 0.000967083305378338,
+        "totalArea": 1.4734136324265792,
+        "edgeLength": {
+          "min": 0.023700043580248235,
+          "p10": 0.04883058941996086,
+          "median": 0.08165874624572905,
+          "p90": 0.10478681450207412,
+          "max": 0.1464888683776389
+        },
+        "edgeAspect": {
+          "median": 1.7176925752927772,
+          "p95": 2.9571720546271067,
+          "max": 3.7783819737420954
+        },
+        "minimumAngleDegrees": 15.081050760520974
+      },
+      "errors": {
+        "maximumTangentAdjustment": 0.0074546436192074045,
+        "p95TangentAdjustment": 0.00007071087971054313,
+        "maximumDistanceToLowSurface": 0.018778821255605056,
+        "p95NormalOffset": 0.005007952884937248,
+        "maxNormalOffset": 0.018778821255605056,
+        "minimumBarycentric": -7.771561172376096e-16,
+        "largestOffsets": [
+          {
+            "vertex": 2395,
+            "face": 524,
+            "signedNormalOffset": 0.018778821255605056,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2491,
+            "face": 525,
+            "signedNormalOffset": 0.018104854163606736,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 2299,
+            "face": 524,
+            "signedNormalOffset": 0.01754488012040226,
+            "tangentAdjustment": 6.206335383118183e-17
+          },
+          {
+            "vertex": 5179,
+            "face": 524,
+            "signedNormalOffset": 0.015456265341545466,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2203,
+            "face": 461,
+            "signedNormalOffset": 0.015370334785410947,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2587,
+            "face": 604,
+            "signedNormalOffset": 0.01526282075826622,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 5275,
+            "face": 525,
+            "signedNormalOffset": 0.014816586490870021,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2107,
+            "face": 460,
+            "signedNormalOffset": 0.01428514846464665,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 5083,
+            "face": 524,
+            "signedNormalOffset": 0.014237606712450248,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2357,
+            "face": 499,
+            "signedNormalOffset": 0.014078662966314177,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2396,
+            "face": 525,
+            "signedNormalOffset": 0.01332388634190685,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2453,
+            "face": 499,
+            "signedNormalOffset": 0.013318141142821194,
+            "tangentAdjustment": 0
+          }
+        ],
+        "maximumBindComponentReconstructionError": 2.9802322387695312e-8,
+        "maximumNeutralComponentReconstructionError": 5.960464477539063e-8,
+        "bindComponentRMSE": 2.142526836401287e-9,
+        "maximumDroppedSolverSkinWeight": 0,
+        "minimumUnclampedBarycentric": -0.1063417562376534,
+        "maximumUnclampedBarycentric": 1.0125289215026334,
+        "extrapolatedVertices": 415,
+        "maximumNegativeBarycentricMagnitude": 0.1063417562376534,
+        "reference": "Original high render positions retained byte-for-byte; plane barycentric extrapolation reproduces rest, but may amplify deformation; closest-face tangentAdjustment describes previous clamped mapping, not this reconstruction.",
+        "originalTotalLumpedArea": 1.478623153103399,
+        "lowRawArea": 1.4734136394690722,
+        "areaMassScale": 1.0035356762654946
+      }
+    }
+  ],
+  "finalAccepted": false,
+  "physicsPass": false,
+  "visualPass": false
+}

@@ -1,0 +1,20 @@
+{
+  "tool": "built-in imagegen",
+  "intent": "统一多角度建模补充参考",
+  "file": "references/turnaround-inferred-v1.png",
+  "generation": {
+    "prompt": "Use case: identity-preserve / stylized-concept reference sheet for a rigged 3D anime character.\nCreate a clean orthographic MODELING TURNAROUND of the SAME blue-haired whale maid in image 1. Image 1 is the accepted complete character design and compact body proportions. Image 2 is the animation-style face/hair reference, prioritizing its simple large blue anime eyes, readable lashes, broad round cheek shape, grouped blue hair and clean cel shading (do not copy its angry expression or its text). Image 3 is ONLY the whale-tail color reference; do NOT copy the winter coat, whale hood, fur, gloves, winter boots or snowy scene.\nOne wide sheet with THREE evenly spaced full-body figures: exact straight FRONT, exact LEFT SIDE PROFILE facing left, exact BACK. Identical neutral A-pose in all three views, arms relaxed 20 degrees from body to expose the side silhouette, hands relaxed, feet flat. Same camera scale and sole/head/eye/shoulder/waist/hem horizontal alignment across all columns. True orthographic, no perspective foreshortening, no camera tilt, no floor shadows, no scenery or props. Keep all ahoge, hair, shoes, ear fins and the whole tail comfortably inside the sheet.\nPreserve the specific character: deep cobalt/slate blue grouped long wavy hair with a few lighter blue ends, a short curled ahoge, white pleated maid headband with little blue side bows, whale-fin ears (blue upper surface, white lower scallops; not cat ears), wide rounded face with short lower face, large clear blue anime eyes and restrained blush, small neutral closed smile. Compact chibi proportions like image 1: head including main hair cap about 43-45 percent of total height excluding ahoge, short body and short visible legs, no infant 2-head blob and no long-legged doll.\nDefault outfit exactly the navy/white maid dress: navy chest between two narrow white ruffled straps, small navy collar bow with oval blue brooch, white waist band, round white apron with the same simple blue whale emblem, softly puffed navy sleeves, white cuff stripes, flared pleated navy skirt, continuous white fabric frill underneath, white socks and rounded navy Mary Jane shoes. The back design must coherently continue the same outfit and include a plausible tied white waist sash, inferred because back is not fully supplied. Long hair must be separated into coherent broad S-curved locks, with back coverage and volume rather than disconnected straight ropes.\nA real whale tail emerges from behind the pelvis below the sash, curves around one side, has a thick tapered stalk and two clear volumetric flukes with a central notch. Upper tail dark cool indigo/navy, underside softly muted blue; no gray-purple ribbon and no vivid cyan. In side and back views show the same physical tail connection and same hair/outfit, not different characters.\nRendering: precise clean anime linework and simple consistent cel-color blocks, even neutral studio lighting on a plain pale gray background. This is a coherent construction reference, not a cinematic picture, glossy figurine render or watercolor. No captions, text, dimension numbers, watermarks or framing. Maintain identity across all three views, especially facial profile, costume structure, short legs, head size and tail.",
+    "referenced_image_paths": [
+      "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png",
+      "E:/zzz/dafeiyu-character-materials-20261025/references/video-covers/BV1t6nu6bEsf.jpg",
+      "E:/zzz/dafeiyu-character-materials-20261025/references/user/tail-color-reference-v5.png"
+    ],
+    "transparent_background": false
+  },
+  "status": "generated_structural_reference_not_authoritative_side_back_truth",
+  "notes": [
+    "正面继承已选canonical与冬冰动画图；侧背为推定补齐，需与原视频继续校核",
+    "当前sheet尾巴腹面偏亮，配色仍以用户tail-color-reference-v5.png优先",
+    "不把此图当成已生成3D模型或已验收的人物定稿"
+  ]
+}

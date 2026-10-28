@@ -1,0 +1,527 @@
+{
+  "glbSha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+  "format": "CUSTOM0 RGBA32F, original source linear vertex colors before ArrayMesh RGBA8 packing",
+  "bytes": 2262400,
+  "rows": [
+    {
+      "node": "curved face with genuine eye and mouth openings",
+      "surface": 0,
+      "vertices": 77568,
+      "offset": 0,
+      "length": 1241088,
+      "sha256": "6af49d073ed1001b54c90d5eaa7a4686af526898494fb65b0e988a2949f96e83",
+      "positionsSha256": "e917c738a5e0c05de47e51f4decdace78f9c45c84bc092275ef8cb92be9e262a",
+      "uvSha256": null
+    },
+    {
+      "node": "left deforming skin eyelid",
+      "surface": 0,
+      "vertices": 1649,
+      "offset": 1241088,
+      "length": 26384,
+      "sha256": "04538be60e5603b4dccf0c02119ebeb83879ad0d2acbe137e11d5db9a9bbe965",
+      "positionsSha256": "b24d5a74da231bc475bc769fa6bbb9e237c72c5f9e4fa3175efc05ad16271cd0",
+      "uvSha256": null
+    },
+    {
+      "node": "right deforming skin eyelid",
+      "surface": 0,
+      "vertices": 1649,
+      "offset": 1267472,
+      "length": 26384,
+      "sha256": "5964afe1d248c1409be2df7c1062a14b0de693ee5f7e3c7c8ff83eac7467e66b",
+      "positionsSha256": "9ad34e31edba280fdbde0086cfe80e93bf6fe4fd744870ce1eb9bee609dc2b8e",
+      "uvSha256": null
+    },
+    {
+      "node": "continuously deforming skin around mouth",
+      "surface": 0,
+      "vertices": 1455,
+      "offset": 1293856,
+      "length": 23280,
+      "sha256": "ab1f971c5e195caba921b9d6925fa8a899ad143ee9e1c8038bd259eb96059608",
+      "positionsSha256": "84e967993cf48ad7367b0c8ac69ec01ab2e9634328d6918f577b829696d5c858",
+      "uvSha256": null
+    },
+    {
+      "node": "continuous-scalp-front-side-back-shell",
+      "surface": 0,
+      "vertices": 7250,
+      "offset": 1317136,
+      "length": 116000,
+      "sha256": "c8abd45b612a4223bdb0989650af5f8c0a0e30e1434377aab8cf7d5ea6c3391b",
+      "positionsSha256": "613e59bb9fe8ed19a737fff9ff1946600fd24e11d6edca0e75c9cb1b08bd1f9c",
+      "uvSha256": "f9f718066664616678e5d6fd074330539f9e4e1fea43e576091688f105a4ef29"
+    },
+    {
+      "node": "continuous-scalp-front-side-back-shell",
+      "surface": 1,
+      "vertices": 2401,
+      "offset": 1433136,
+      "length": 38416,
+      "sha256": "8a002d82917d5f0a6242428b89aa406af7c492a6bb7268d4abf3d2cdf0595b30",
+      "positionsSha256": "7d5aafc03631e2343c229bff35175431d9f994f941093fedf093afb53fe31a6b",
+      "uvSha256": "7d6aef7fab7aed826f6e9535b381f957695d49bf45a29234eb83b01d43c5737a"
+    },
+    {
+      "node": "rounded-posterior-waterfall-hair-volume",
+      "surface": 0,
+      "vertices": 3298,
+      "offset": 1471552,
+      "length": 52768,
+      "sha256": "9315c5dd7fe40e27772f49bed76fc35e9b904d4afbe63089504c429e6834b326",
+      "positionsSha256": "fb8ee5ef547ec0eb3a6deb1ecd8556b7372ee8adb1686ea7f044a1f5903286b8",
+      "uvSha256": "e33e8fb69463f8f1f1448634aca5df19d8a8882244634732a00532e4a8406959"
+    },
+    {
+      "node": "rounded-posterior-waterfall-hair-volume",
+      "surface": 1,
+      "vertices": 3185,
+      "offset": 1524320,
+      "length": 50960,
+      "sha256": "9c5bb3b217d0df3013c67415f2d2a791e8069b6b8bbdda4d2eb8ebb2ddee53ef",
+      "positionsSha256": "c29b7426f96b25f0a37b4f531b4733a0aa061ff15e2fdf76c16a8f2a728a3213",
+      "uvSha256": "768fd4d616cc02f2b42caf07c540d6ec3dd3277dfb2dd85128f9468beb40266f"
+    },
+    {
+      "node": "continuous-rounded-three-dimensional-headband",
+      "surface": 0,
+      "vertices": 1649,
+      "offset": 1575280,
+      "length": 26384,
+      "sha256": "42cf6409044e0d82bae96c8c1467d4f471a79a648921457683c854bd3e1d3d3d",
+      "positionsSha256": "1c7b83802f611d2eeeb69c8a0073cfba889d78640cf01c9ed8271ff811cd352e",
+      "uvSha256": null
+    },
+    {
+      "node": "left-painted-white-frill_original-pixel-surface",
+      "surface": 0,
+      "vertices": 1350,
+      "offset": 1601664,
+      "length": 21600,
+      "sha256": "7369944a0257477a188169da8919fc24a72b43fb22f71e0538c2e709f73b17f4",
+      "positionsSha256": "9e278527ec2b278f93f6a70bb7c07a6f6e5c26a41dc4d92b780ac6af7c4906a0",
+      "uvSha256": "82258234c7c923939570648cc0e413ce94e6bb8936d15db6a7a06160b89242bf"
+    },
+    {
+      "node": "left-painted-white-frill_closed-thickness",
+      "surface": 0,
+      "vertices": 1386,
+      "offset": 1623264,
+      "length": 22176,
+      "sha256": "493b5685a2da130f2bb05579d4d26ab3603e358886ee8ae60e48d340cc090cbe",
+      "positionsSha256": "cf93115c112caa17b0201020e29c6063c8decc133e178848f14055e51e70294f",
+      "uvSha256": null
+    },
+    {
+      "node": "left-painted-white-frill_back",
+      "surface": 0,
+      "vertices": 1350,
+      "offset": 1645440,
+      "length": 21600,
+      "sha256": "7369944a0257477a188169da8919fc24a72b43fb22f71e0538c2e709f73b17f4",
+      "positionsSha256": "c4cab856f5006d1aa9317b34b429d299aeb74fb6a161f3a511b4e1da89b897d6",
+      "uvSha256": "82258234c7c923939570648cc0e413ce94e6bb8936d15db6a7a06160b89242bf"
+    },
+    {
+      "node": "right-painted-white-frill_original-pixel-surface",
+      "surface": 0,
+      "vertices": 639,
+      "offset": 1667040,
+      "length": 10224,
+      "sha256": "42c42276d358b61e13d106629ea10e65d26c422ccca54a497bf49e79f11dc4a2",
+      "positionsSha256": "ad5832eb6bcd097d6ad26f4532560c883f9735ce43c36f469d60b55c7b04405a",
+      "uvSha256": "33fd930441f96449c3ad2b31ab009787625b89b0b761b8a576d5babb85754199"
+    },
+    {
+      "node": "right-painted-white-frill_closed-thickness",
+      "surface": 0,
+      "vertices": 1044,
+      "offset": 1677264,
+      "length": 16704,
+      "sha256": "51d95dfd81c4851a2a77f3f6f84f751f39b0cb54bb29f2079da3512da3a638b9",
+      "positionsSha256": "1f4f0664db76c62931192f11815c03466f8bf152f28304513e365e5e651a23ef",
+      "uvSha256": null
+    },
+    {
+      "node": "right-painted-white-frill_back",
+      "surface": 0,
+      "vertices": 639,
+      "offset": 1693968,
+      "length": 10224,
+      "sha256": "42c42276d358b61e13d106629ea10e65d26c422ccca54a497bf49e79f11dc4a2",
+      "positionsSha256": "d1a21025dff66d39589c46505f007100c2bfc75880e9e1d8b4a4b7c4d57c60b8",
+      "uvSha256": "33fd930441f96449c3ad2b31ab009787625b89b0b761b8a576d5babb85754199"
+    },
+    {
+      "node": "traced collar, bib, bow and continuous bodice",
+      "surface": 0,
+      "vertices": 775,
+      "offset": 1704192,
+      "length": 12400,
+      "sha256": "3dc47f449b09ae48265e8e8f390558641d48cef65ad6f591f80c21524abff48b",
+      "positionsSha256": "768a85d1d86d5e63070e78e4b0f37faa388624e3f46610c7582b5164dd5e27ba",
+      "uvSha256": "6eab22f951b7f376adf593789e3e92c5e71966d0ffb4c77d9c9054a121dfedc2"
+    },
+    {
+      "node": "traced collar, bib, bow and continuous bodice",
+      "surface": 1,
+      "vertices": 823,
+      "offset": 1716592,
+      "length": 13168,
+      "sha256": "bfe0e2f43630f4e21adb832b2ad94a4ef19bfe8d949f093440001c1879482c06",
+      "positionsSha256": "535e9a6e23be25f043215162ef02a3235111833e598f203bb32e00a99fe96da8",
+      "uvSha256": "1e88539128fadaf88a74771c4ac9fea96d6cf6dc02508d557a4b9e728e9c7776"
+    },
+    {
+      "node": "continuous flared skirt, painted front apron and encircling ivory hem",
+      "surface": 0,
+      "vertices": 1421,
+      "offset": 1729760,
+      "length": 22736,
+      "sha256": "975230a6ee4549edf5a767754f417d1eb725434e0a660a4a4dfdefa08db1b4d5",
+      "positionsSha256": "7f298fe16ac5a4a3e534b91ca8c81fed754c5e55bf74c1d00823271a8669262e",
+      "uvSha256": "2d9d5ac09694c15b450fa2d16e537675d6fbb18a513dd144dcfd6a0623c6536e"
+    },
+    {
+      "node": "continuous flared skirt, painted front apron and encircling ivory hem",
+      "surface": 1,
+      "vertices": 1370,
+      "offset": 1752496,
+      "length": 21920,
+      "sha256": "64785206accba453d9f9cb4891df6ff2d86c08485128378b49cf5bacafda92c4",
+      "positionsSha256": "d25a3d993f5e5930da14d3c4023c6ae1cfca508fbf110ab7fe9738e53168b973",
+      "uvSha256": "9e784b5a85465967b293df14194fce723830c3e564c09029ef649060bcab3e29"
+    },
+    {
+      "node": "continuous flared skirt, painted front apron and encircling ivory hem",
+      "surface": 2,
+      "vertices": 245,
+      "offset": 1774416,
+      "length": 3920,
+      "sha256": "913df1f93a68a4f1382918d02202f2593e7eb3ff8cf897c5851ad222edab50e6",
+      "positionsSha256": "761512126b2f1f35edf3360a3c5af50ec673be2f5e307322af92bce513542265",
+      "uvSha256": "e01d6cb77dcff6f8cdd22bb3614ef091f83c3bb6825ba8144857c1dcd46beb8c"
+    },
+    {
+      "node": "left traced puff sleeve and cuff",
+      "surface": 0,
+      "vertices": 630,
+      "offset": 1778336,
+      "length": 10080,
+      "sha256": "9df259fd3f5764bc6db7538bfb53e2638dafc87991f3183cea3ff51292590974",
+      "positionsSha256": "17b497b53a89880061daeca80a688b01d85feac79face850d65c30f06a3da7ad",
+      "uvSha256": "5976a0bfe032cf7cd340ec198337e33fccf2c74106eb14d54dc6807fd5922019"
+    },
+    {
+      "node": "left traced puff sleeve and cuff",
+      "surface": 1,
+      "vertices": 607,
+      "offset": 1788416,
+      "length": 9712,
+      "sha256": "89d3b0c39e6ef9210880fbd7101491c77fdf7a01dbe34e2bf014c8963ed91e78",
+      "positionsSha256": "a7870b542948f60b7d1a14ee1a7b9c624273edebc7ff7dc9543dafefea8b4f18",
+      "uvSha256": "6142c8a2e1a9196216fb34852af4a1af4d497eb9ab2aac0208f77b011d2f1388"
+    },
+    {
+      "node": "left traced puff sleeve and cuff",
+      "surface": 2,
+      "vertices": 105,
+      "offset": 1798128,
+      "length": 1680,
+      "sha256": "cf784cdb77b704f3043239e24b25a9f34b017aa67649259300fccc3548b380d5",
+      "positionsSha256": "27f9bba9a6bd28b07432cd0edefa726f54744e387738265d3b43250c4295b732",
+      "uvSha256": "65423db70b994d247aa18efc7f995ad327d9535c2d67e118f2ebbe0c027c6d66"
+    },
+    {
+      "node": "left traced open hand and fingers",
+      "surface": 0,
+      "vertices": 960,
+      "offset": 1799808,
+      "length": 15360,
+      "sha256": "9101475b720175c749bc9510447908a202908ec73c7f0928dc0cf003001d9eb6",
+      "positionsSha256": "1031b762b6c6a56fd57fef5a530ceff49f172feff76fdfad13a66c12e1302f3a",
+      "uvSha256": "12831289316740c00c18cdc30118903cb53b86ff36e5e7c99a8e45791837c704"
+    },
+    {
+      "node": "left traced open hand and fingers",
+      "surface": 1,
+      "vertices": 960,
+      "offset": 1815168,
+      "length": 15360,
+      "sha256": "9101475b720175c749bc9510447908a202908ec73c7f0928dc0cf003001d9eb6",
+      "positionsSha256": "ffab7b65ab3f24a47554eddb385b2ac88045092a65f301c7f6df4dbd680f9914",
+      "uvSha256": "12831289316740c00c18cdc30118903cb53b86ff36e5e7c99a8e45791837c704"
+    },
+    {
+      "node": "left traced open hand and fingers",
+      "surface": 2,
+      "vertices": 352,
+      "offset": 1830528,
+      "length": 5632,
+      "sha256": "a018b2cc9bcc1dddf07119df4f7331f4b4ecc7eb09c8ae5ac50cffd1e39bafdd",
+      "positionsSha256": "cab637a1b5094855db4e9f81c5978e6ee04667298d7ab9eaad3900da925b8199",
+      "uvSha256": "d87b161e4948694725dea5eda106ea42d4cec555601496068ce88becfcba9ebc"
+    },
+    {
+      "node": "left traced thigh, sock and ankle",
+      "surface": 0,
+      "vertices": 525,
+      "offset": 1836160,
+      "length": 8400,
+      "sha256": "4e6de509eebddbeac1976ac6ec21aa9863959a16a6f0a3d49135dc6957fbf551",
+      "positionsSha256": "22d4cca08ff8609be8e99fd2363475a472bb3f292a9ada51db1df29d80615ea8",
+      "uvSha256": "6d64dde079a81137b764f72bf31e8098a3b90870a1b7c2f7507a077f781930e3"
+    },
+    {
+      "node": "left traced thigh, sock and ankle",
+      "surface": 1,
+      "vertices": 323,
+      "offset": 1844560,
+      "length": 5168,
+      "sha256": "01fdd6cb5ac9ec0850084acfb6a6efd058799b3f74bf49e60b35819ff1eb54e8",
+      "positionsSha256": "436189f35a5f949367c705c91fc4d3ec7a848db947bd78ddc93be35451d747b7",
+      "uvSha256": "1a068eae98151c626da9a10811efb145f7a2b35de55dccf63d022680b6e42b16"
+    },
+    {
+      "node": "left traced thigh, sock and ankle",
+      "surface": 2,
+      "vertices": 300,
+      "offset": 1849728,
+      "length": 4800,
+      "sha256": "dd63c546747004462550942c90eb32c49ade8beac7bc8f9e509f8d4252174398",
+      "positionsSha256": "125a6fac8cedf05cc7f6b241ca2b6e0bfb4f270c04a3bd834e9f507ef6761e06",
+      "uvSha256": "81260852e982fa1bdc56f077f2171672c49e9488426e9d7465e9fd83885cad16"
+    },
+    {
+      "node": "left traced mary jane shoe",
+      "surface": 0,
+      "vertices": 814,
+      "offset": 1854528,
+      "length": 13024,
+      "sha256": "83062045bb807f96959aa8de7abfdf54cc8f8696f29266304a831fc0adcb81b3",
+      "positionsSha256": "f4b4562eae24381ea2759eacf3fb4f7ca9e9bee0973509c4e70422192cf8aa8d",
+      "uvSha256": "085f61e1873269351e3e8a222667c2b7b506fdf597932ee7b4247eb0bee24edc"
+    },
+    {
+      "node": "left traced mary jane shoe",
+      "surface": 1,
+      "vertices": 505,
+      "offset": 1867552,
+      "length": 8080,
+      "sha256": "8a80cb1917d7243fcfb4dca11dbc7bdeeffca3292ba8bf8063dfdd0807e37b26",
+      "positionsSha256": "4bd5f7e8f6730c9903b70c1f444b01bbe8590dc4ff90843fd4ddfa044955d344",
+      "uvSha256": "8126ffc7643b6aad8f4ed5bdcd9203980da11b1a195266d0d8c1abc9b8c5d662"
+    },
+    {
+      "node": "left traced mary jane shoe",
+      "surface": 2,
+      "vertices": 429,
+      "offset": 1875632,
+      "length": 6864,
+      "sha256": "e7f239fc8369d5a78b38fb4e38541a668496b0975202f335b1849b71f6f24442",
+      "positionsSha256": "731363466513699552c7fbe8e971588e21dce0233863129de1530b465c5638e3",
+      "uvSha256": "a35d27e1a62e8d54f452f09a925c571429c561b1ecd6222b78df41d47ba13009"
+    },
+    {
+      "node": "right traced puff sleeve and cuff",
+      "surface": 0,
+      "vertices": 630,
+      "offset": 1882496,
+      "length": 10080,
+      "sha256": "9df259fd3f5764bc6db7538bfb53e2638dafc87991f3183cea3ff51292590974",
+      "positionsSha256": "fb98fb5783d9e329f46967205d6dd65cc3666ab7fc451b67019fd419c09b4f4c",
+      "uvSha256": "6918741533b86283c2d604798bc216e90e07b12ee5760a72c6fa4d5376aa14a8"
+    },
+    {
+      "node": "right traced puff sleeve and cuff",
+      "surface": 1,
+      "vertices": 607,
+      "offset": 1892576,
+      "length": 9712,
+      "sha256": "89d3b0c39e6ef9210880fbd7101491c77fdf7a01dbe34e2bf014c8963ed91e78",
+      "positionsSha256": "26a9919ba51087ece77cfa844f2044b2e33ea585e25064ce6026953b4e900bd3",
+      "uvSha256": "0e1244c8092610228151ba5d19b50da11a1ec983505b3f5cecc3f6353c1c4486"
+    },
+    {
+      "node": "right traced puff sleeve and cuff",
+      "surface": 2,
+      "vertices": 105,
+      "offset": 1902288,
+      "length": 1680,
+      "sha256": "cf784cdb77b704f3043239e24b25a9f34b017aa67649259300fccc3548b380d5",
+      "positionsSha256": "ee9f93e1a6c908efba1ce7816615a90771c25e0b2648b0a077f08be40c8a2b6e",
+      "uvSha256": "f83043bc2710e5cbd0a141f81be4bfbbe1bf305885dd2fb670c688e399a3ef35"
+    },
+    {
+      "node": "right traced open hand and fingers",
+      "surface": 0,
+      "vertices": 960,
+      "offset": 1903968,
+      "length": 15360,
+      "sha256": "9101475b720175c749bc9510447908a202908ec73c7f0928dc0cf003001d9eb6",
+      "positionsSha256": "4e5731bf48b3d5a4ca73e69e8cb5ce3774de9747975cb5c10245c39ab29ab186",
+      "uvSha256": "ead95d575ccd9e61761a9f1902688cbecaaec8db54918ebdfcdc9704fc94cdb4"
+    },
+    {
+      "node": "right traced open hand and fingers",
+      "surface": 1,
+      "vertices": 960,
+      "offset": 1919328,
+      "length": 15360,
+      "sha256": "9101475b720175c749bc9510447908a202908ec73c7f0928dc0cf003001d9eb6",
+      "positionsSha256": "a83bafa02c3d5be4f5eec10ac93ec8c994c5d4c3c730010793f7399c70fb8d7c",
+      "uvSha256": "ead95d575ccd9e61761a9f1902688cbecaaec8db54918ebdfcdc9704fc94cdb4"
+    },
+    {
+      "node": "right traced open hand and fingers",
+      "surface": 2,
+      "vertices": 352,
+      "offset": 1934688,
+      "length": 5632,
+      "sha256": "a018b2cc9bcc1dddf07119df4f7331f4b4ecc7eb09c8ae5ac50cffd1e39bafdd",
+      "positionsSha256": "41b0a2c91b536caacb180be5133d9d29c531b3891f915239c816c93b8ddbdf79",
+      "uvSha256": "7147350b3482b5d89eb5137f9b6b5f3bd9121714ad15a3f08f983d8426154254"
+    },
+    {
+      "node": "right traced thigh, sock and ankle",
+      "surface": 0,
+      "vertices": 525,
+      "offset": 1940320,
+      "length": 8400,
+      "sha256": "4e6de509eebddbeac1976ac6ec21aa9863959a16a6f0a3d49135dc6957fbf551",
+      "positionsSha256": "f14ecf73b520bfe647cc487b15fc27887d06dbd0d325debd5c630c675379fe91",
+      "uvSha256": "7efae7395a8aaea7e0a10094bc3487a497428ba61fe0acfaf48b5322b94b60ce"
+    },
+    {
+      "node": "right traced thigh, sock and ankle",
+      "surface": 1,
+      "vertices": 323,
+      "offset": 1948720,
+      "length": 5168,
+      "sha256": "01fdd6cb5ac9ec0850084acfb6a6efd058799b3f74bf49e60b35819ff1eb54e8",
+      "positionsSha256": "f078bfcd5fc3e6826ce1d1c017f97001e3f92cd01e28b906c6a046c755f0b113",
+      "uvSha256": "dc1f2aab0b13dd5ba8da95487c8f44f7c3ae4e291a30426ed093e7ca7beec5a9"
+    },
+    {
+      "node": "right traced thigh, sock and ankle",
+      "surface": 2,
+      "vertices": 300,
+      "offset": 1953888,
+      "length": 4800,
+      "sha256": "dd63c546747004462550942c90eb32c49ade8beac7bc8f9e509f8d4252174398",
+      "positionsSha256": "30dd1bbadbbb29d91bfa5cd1f1433663620ad3867b509f092c4971c62ba04ab0",
+      "uvSha256": "95151a76f24ebe76d090bcf64f9d52bbb0fd581ed8e27e8b9bdb61af5942c7ad"
+    },
+    {
+      "node": "right traced mary jane shoe",
+      "surface": 0,
+      "vertices": 814,
+      "offset": 1958688,
+      "length": 13024,
+      "sha256": "83062045bb807f96959aa8de7abfdf54cc8f8696f29266304a831fc0adcb81b3",
+      "positionsSha256": "5b24f0fdbeee22c35ee2d5f7fc956c7883a155c2b4badd7e6e4ed9cfd78e9846",
+      "uvSha256": "51dcecce796427553f67e9abd969c6e3416d0cdcc5a0426f8fede62a3fcdf6c9"
+    },
+    {
+      "node": "right traced mary jane shoe",
+      "surface": 1,
+      "vertices": 505,
+      "offset": 1971712,
+      "length": 8080,
+      "sha256": "8a80cb1917d7243fcfb4dca11dbc7bdeeffca3292ba8bf8063dfdd0807e37b26",
+      "positionsSha256": "e3beb4a360fa4893e25f4b763eb6b0f75fed2edd226dd1d4d8768fbfc1111384",
+      "uvSha256": "bf702c96621c72f24ca988dd83046880df849fe785a5195bfd2a58d3e26831e4"
+    },
+    {
+      "node": "right traced mary jane shoe",
+      "surface": 2,
+      "vertices": 429,
+      "offset": 1979792,
+      "length": 6864,
+      "sha256": "e7f239fc8369d5a78b38fb4e38541a668496b0975202f335b1849b71f6f24442",
+      "positionsSha256": "3d4fcd301a7a13cfa07ff6fe14c35b061276f39b0fbba510d8732440975cd207",
+      "uvSha256": "85a735cea38b901e6fd8249e21a4dc2890ed8f5b49fd86129fc54cadd96a3f00"
+    },
+    {
+      "node": "continuous rounded whale tail stem",
+      "surface": 0,
+      "vertices": 457,
+      "offset": 1986656,
+      "length": 7312,
+      "sha256": "3ae941f5104fd3947066e257c783bed308fa8001ec541d3885aae0bbbe918a88",
+      "positionsSha256": "044c0f634d47f79e2dc52a51210789aa725531f2c78ee1dc0c948f45fa8d51c0",
+      "uvSha256": "dc14a03db30fbb36586475cc526eff4a4aa56c0b7391d2afbf48761d5a830edc"
+    },
+    {
+      "node": "continuous rounded whale tail stem",
+      "surface": 1,
+      "vertices": 425,
+      "offset": 1993968,
+      "length": 6800,
+      "sha256": "40d416040a1c3a6ee59d4140ed0f1d939003caa138585afaa9d6e2893c1ade06",
+      "positionsSha256": "d2faba00c764fd188bed7dd3db50e96d5282904b415f4de9f5e34d52dad9762c",
+      "uvSha256": "fc3a26d35bd7000e529b13e5d8bfcf4a3a737567cb63ceedf934c030e9d23bf1"
+    },
+    {
+      "node": "indigo whale left biconvex fluke",
+      "surface": 0,
+      "vertices": 2496,
+      "offset": 2000768,
+      "length": 39936,
+      "sha256": "93cf6aa62a2f5beac0f2e3730d9d39f5c70b74a5698bd0d103aa85fca82a8bc9",
+      "positionsSha256": "cce92431596051acbe40749c9d3ffa9b495d2ce4261912b38ebe284d8422c12a",
+      "uvSha256": "9d3c63b8ed3727bba6f67bef5c423d1ba7ee95620ce83e89ff2882b29b4f04eb"
+    },
+    {
+      "node": "indigo whale left biconvex fluke",
+      "surface": 1,
+      "vertices": 2496,
+      "offset": 2040704,
+      "length": 39936,
+      "sha256": "93cf6aa62a2f5beac0f2e3730d9d39f5c70b74a5698bd0d103aa85fca82a8bc9",
+      "positionsSha256": "a626487f811c5103224e018d9d95dc2c6e4b66fc9b200d2f42f9309c30a6d787",
+      "uvSha256": "9d3c63b8ed3727bba6f67bef5c423d1ba7ee95620ce83e89ff2882b29b4f04eb"
+    },
+    {
+      "node": "indigo whale left biconvex fluke",
+      "surface": 2,
+      "vertices": 480,
+      "offset": 2080640,
+      "length": 7680,
+      "sha256": "2e78e920b6666c36093b51cee269cae3bc8ad76042abd86f6bcaa5444bd7d9b3",
+      "positionsSha256": "60632a2bcdf3c3d26596638eaa8858ca3a28cf039c87c0a98e1749b2fde790b5",
+      "uvSha256": "c94adf06b7236e8bff1258ed73b800ba1d13bd100162ec1920e77e82f5e212b3"
+    },
+    {
+      "node": "indigo whale right biconvex fluke",
+      "surface": 0,
+      "vertices": 4992,
+      "offset": 2088320,
+      "length": 79872,
+      "sha256": "fe423683af83f97a17231929038ffc8b124459fa5ef18d7ba1cd563c7f5fc55e",
+      "positionsSha256": "b33a528b20653df34bf05ccce10788ec6ae79adcd838d830a794160ad34d7f0b",
+      "uvSha256": "951924de01a8ce25fb98cbe142ba86ffcbb6356ea20b848baa784642fe114e0e"
+    },
+    {
+      "node": "indigo whale right biconvex fluke",
+      "surface": 1,
+      "vertices": 4992,
+      "offset": 2168192,
+      "length": 79872,
+      "sha256": "fe423683af83f97a17231929038ffc8b124459fa5ef18d7ba1cd563c7f5fc55e",
+      "positionsSha256": "984c5f2d64a48f2d9372c5f397aa27508b20d29d481d56e07bf63401e9e2ac8d",
+      "uvSha256": "951924de01a8ce25fb98cbe142ba86ffcbb6356ea20b848baa784642fe114e0e"
+    },
+    {
+      "node": "indigo whale right biconvex fluke",
+      "surface": 2,
+      "vertices": 896,
+      "offset": 2248064,
+      "length": 14336,
+      "sha256": "694c9d7c8369a43ce3e618ca09af22f9b8635a1fe72113692bd4bcfa44386d9b",
+      "positionsSha256": "3261c257d5ec3ae361b57ead4751fd59f00060caebbb3de874abb7cb6a0851f2",
+      "uvSha256": "03d572d19e5792d6f9331feda73433a7c8c5a0dbbd014472740bf65545c4c5bc"
+    }
+  ]
+}

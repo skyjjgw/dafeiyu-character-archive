@@ -1,0 +1,1 @@
+Rejected implementation smoke output: Eevee ignored material_override and clay remained colored. Do not use these images. Replaced by review-entry-verified-p0 after implementing temporary object-linked material slots.

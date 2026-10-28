@@ -1,0 +1,75 @@
+{
+  "time": "2026-10-26T19:54:11.451Z",
+  "profile": "character-visible-capture",
+  "pid": 37840,
+  "engine": "4.7.2-stable (official)",
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "acknowledgements": [
+    {
+      "type": "state",
+      "ok": true
+    },
+    {
+      "type": "behavior",
+      "action": "wave",
+      "ok": true
+    },
+    {
+      "type": "behavior",
+      "action": "pickup",
+      "ok": true
+    },
+    {
+      "type": "behavior",
+      "action": "release",
+      "ok": true
+    },
+    {
+      "type": "behavior",
+      "action": "cancel",
+      "ok": true
+    }
+  ],
+  "actual_controller_events": [
+    {
+      "body_skeleton_bound": true,
+      "event": "asset_loaded"
+    },
+    {
+      "event": "action",
+      "name": "wave",
+      "side": "R"
+    },
+    {
+      "distance": 1.11248075962067,
+      "event": "reach_rejected",
+      "reason": "move closer"
+    },
+    {
+      "event": "interrupt",
+      "reason": "release"
+    },
+    {
+      "event": "interrupt",
+      "reason": "cancel"
+    }
+  ],
+  "performance": {
+    "draw_calls": 414,
+    "fps": 51,
+    "physics_ms": 7.442,
+    "process_ms": 3.394
+  },
+  "pickup_grasp_snapshot": {
+    "events": [],
+    "held": false,
+    "maximum_grasp_error": 0,
+    "maximum_post_solver_error": 0,
+    "solver": "Jolt Generic6DOF spring joint; kinematic hand anchor, dynamic cup"
+  },
+  "stderr": "",
+  "scope": "Actual visible official engine, real native scene/controller and GPU capture; DSH remains disconnected. Pickup request acknowledgement is not a claim of successful grasp."
+}

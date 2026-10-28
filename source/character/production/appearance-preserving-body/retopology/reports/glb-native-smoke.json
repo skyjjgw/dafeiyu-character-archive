@@ -1,0 +1,29 @@
+{
+	"import_error": 0,
+	"material_adapter": "Explicit source linear COLOR to display shader; imported COLOR is quantized. Production needs Float32 CUSTOM0 restoration.",
+	"meshes": [
+		{
+			"colors": 5249,
+			"name": "left traced open hand and fingers",
+			"sample": "(0.5922, 0.5176, 0.4039, 1.0)",
+			"skin_binds": 52,
+			"surfaces": 1,
+			"vertex_color_use_as_albedo": true
+		},
+		{
+			"colors": 5249,
+			"name": "right traced open hand and fingers",
+			"sample": "(0.5922, 0.5176, 0.4039, 1.0)",
+			"skin_binds": 52,
+			"surfaces": 1,
+			"vertex_color_use_as_albedo": true
+		}
+	],
+	"not_physics_or_grasp_validation": true,
+	"schema": "dafeiyu.selected-hand-glb-native-smoke.v1",
+	"screenshot_error": 0,
+	"skeleton_bone_counts": [
+		52
+	],
+	"visual_pass": false
+}

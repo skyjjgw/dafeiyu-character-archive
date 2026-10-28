@@ -1,0 +1,96 @@
+{
+  "schema": "dafeiyu.selected-headband-candidate-check.v1",
+  "passed": true,
+  "visualPass": false,
+  "scope": "Local geometry/data checks only; no GPU or side/front artistic approval",
+  "metadata": {
+    "schema": "dafeiyu.selected-headband-depth-candidate.v1",
+    "strength": 0.55,
+    "meshCount": 7,
+    "archCaps": {
+      "addedVertices": 2,
+      "addedTriangles": 32
+    },
+    "inferredDepth": true,
+    "frontProjectionAndUVUnchanged": true,
+    "scope": "Local Z-only frill experiment and arch end closure. Not an approved style, complete hair reconstruction, cloth physics or full-angle pass."
+  },
+  "finite": true,
+  "maxOriginalXYChange": 0,
+  "UVBytesUnchanged": true,
+  "unrelatedMeshesUnchanged": true,
+  "changed": [
+    {
+      "name": "continuous-rounded-three-dimensional-headband",
+      "sourceVertices": 1649,
+      "candidateVertices": 1651,
+      "maxZChange": 0,
+      "sourceUVSha256": null
+    },
+    {
+      "name": "left-painted-white-frill:original-pixel-surface",
+      "sourceVertices": 1350,
+      "candidateVertices": 1350,
+      "maxZChange": 0.15041830763220787,
+      "sourceUVSha256": "82258234c7c923939570648cc0e413ce94e6bb8936d15db6a7a06160b89242bf"
+    },
+    {
+      "name": "left-painted-white-frill:closed-thickness",
+      "sourceVertices": 1386,
+      "candidateVertices": 1386,
+      "maxZChange": 0.15037525072693825,
+      "sourceUVSha256": null
+    },
+    {
+      "name": "left-painted-white-frill:back",
+      "sourceVertices": 1350,
+      "candidateVertices": 1350,
+      "maxZChange": 0.15041830576956272,
+      "sourceUVSha256": "82258234c7c923939570648cc0e413ce94e6bb8936d15db6a7a06160b89242bf"
+    },
+    {
+      "name": "right-painted-white-frill:original-pixel-surface",
+      "sourceVertices": 639,
+      "candidateVertices": 639,
+      "maxZChange": 0.1914045475423336,
+      "sourceUVSha256": "33fd930441f96449c3ad2b31ab009787625b89b0b761b8a576d5babb85754199"
+    },
+    {
+      "name": "right-painted-white-frill:closed-thickness",
+      "sourceVertices": 1044,
+      "candidateVertices": 1044,
+      "maxZChange": 0.191391509026289,
+      "sourceUVSha256": null
+    },
+    {
+      "name": "right-painted-white-frill:back",
+      "sourceVertices": 639,
+      "candidateVertices": 639,
+      "maxZChange": 0.19140454567968845,
+      "sourceUVSha256": "33fd930441f96449c3ad2b31ab009787625b89b0b761b8a576d5babb85754199"
+    }
+  ],
+  "arch": {
+    "before": {
+      "canonicalVertices": 1552,
+      "triangles": 3072,
+      "boundaryEdges": 32,
+      "nonManifoldEdges": 0,
+      "orientationMismatches": 0,
+      "degenerateTriangles": 0
+    },
+    "after": {
+      "canonicalVertices": 1554,
+      "triangles": 3104,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "orientationMismatches": 0,
+      "degenerateTriangles": 0
+    }
+  },
+  "limits": [
+    "Frill adaptive triangle T-junctions and all other original hair layers are not repaired here.",
+    "Inferred frill depth must pass actual front pixel and side image review.",
+    "No hair/cloth physics or new dynamics were added."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "local_files_exist": true,
+  "saved_sha256_rechecked": true,
+  "upstream_known_hashes_match": true,
+  "model_header": "MOC3",
+  "model_json_parse": true,
+  "expressions": 44,
+  "motions": 8,
+  "model_files": 59,
+  "ui_checks": [
+    "三视图搜索1项",
+    "大图弹窗打开和关闭",
+    "余归视频搜索9项",
+    "返回图片列表100项"
+  ],
+  "video_playback_checked": false,
+  "app_integration_done": false,
+  "q_direction": {
+    "default_q_records": 40,
+    "all_related_records": 100,
+    "default_first_references": [
+      "user-1",
+      "daozizhentian-04",
+      "daozizhentian-07"
+    ],
+    "q_filter_and_restore_checked_in_browser": true,
+    "normal_proportion_sources_retained": true,
+    "direction_record": "metadata/character-direction.json"
+  },
+  "strict_consistency_direction": {
+    "user_baseline": [
+      "user-1"
+    ],
+    "close_comparisons": [
+      "daozizhentian-04",
+      "daozizhentian-07"
+    ],
+    "same_source_asset_confirmed": false,
+    "model_is_technical_trial_only": true,
+    "default_main_rows": 3,
+    "classification_checked_in_browser": true
+  }
+}

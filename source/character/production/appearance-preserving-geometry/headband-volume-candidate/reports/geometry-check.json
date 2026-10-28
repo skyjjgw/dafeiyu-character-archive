@@ -1,0 +1,95 @@
+{
+  "positionSha256": "0368437625aeb56922a72853ec61cbae3f8fe9f10de19fbef5953cc963835973",
+  "indexSha256": "6b2b03914c42f81503478eee26deca8f6c81ad7cd884fa2798825cbe908e6f5d",
+  "strictDiagnosticMatchesGeometry": true,
+  "strictNonAdjacentCrossingPairs": 4108,
+  "physicalQualityPassed": false,
+  "schema": "dafeiyu.continuous-headband.geometry-check.v1",
+  "finite": true,
+  "originalGeometryObjectsUnchanged": true,
+  "sourceImagesEdited": false,
+  "metadata": {
+    "schema": "dafeiyu.selected-continuous-headband.candidate.v1",
+    "revision": "palette-and-both-sides-fixed-safe-cloth-color-reconstruction",
+    "source": "frozen original frill outlines / white-grey pixels / arch palette and arch outer silhouette",
+    "scope": "Independent complete band/frill topological union; not final all-angle art or cloth dynamics",
+    "originalMeshesReplaced": [
+      "continuous-rounded-three-dimensional-headband",
+      "left-painted-white-frill:original-pixel-surface",
+      "left-painted-white-frill:closed-thickness",
+      "left-painted-white-frill:back",
+      "right-painted-white-frill:original-pixel-surface",
+      "right-painted-white-frill:closed-thickness",
+      "right-painted-white-frill:back"
+    ],
+    "sourceOutlineVertices": 405,
+    "outlineRecords": [
+      {
+        "side": "right",
+        "originalBoundaryPoints": 174,
+        "conformingBoundaryPoints": 144,
+        "removedZeroAreaCropPoints": 30,
+        "sharedAttachmentVertices": 141,
+        "sourceInnerStart": [
+          1264,
+          409
+        ],
+        "sourceInnerEnd": [
+          916.5524691358024,
+          0
+        ]
+      },
+      {
+        "side": "left",
+        "originalBoundaryPoints": 231,
+        "conformingBoundaryPoints": 199,
+        "removedZeroAreaCropPoints": 32,
+        "sharedAttachmentVertices": 145,
+        "sourceInnerStart": [
+          240,
+          469
+        ],
+        "sourceInnerEnd": [
+          617,
+          0
+        ]
+      }
+    ],
+    "uniformRefinementRounds": 2,
+    "topVertices": 5868,
+    "topTriangles": 10304,
+    "closedVertices": 11736,
+    "closedTriangles": 23468,
+    "sharedAttachmentVertices": 286,
+    "bandStations": 306,
+    "crossDepthColumns": 8,
+    "thickness": 0.006,
+    "coordinateUnits": "uncalibrated source units",
+    "frontXY": "Original frill polygon and UV retained. New arch/ribbon interpolated in depth; underside thickness changes projected XY locally.",
+    "paint": "Original white-grey source pixels retained on observed frill; cropped top smoothly uses original arch palette, opaque full cloth. No source image edits.",
+    "paintRepair": "Source UV contains neighbouring blue hair pixels. High-chroma non-cloth samples smoothly reconstruct from original arch white-grey palette. These inferred cloth regions are not claimed to be original-author paint. Same-geometry solid diagnostic confirmed texture contamination in the reviewed 90-degree frame.",
+    "physicalStatus": "Conforming indexed topology only; strict crossing diagnostic FAILED with 4108 pairs. No cloth solver, physical quality pass or native integration."
+  },
+  "topology": {
+    "indexedVertices": 11736,
+    "triangles": 23468,
+    "components": 1,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "orientationConflicts": 0,
+    "degenerate": 0,
+    "minTriangleArea": 2.308097577712191e-10,
+    "signedVolume": 0.00475662790460384
+  },
+  "topologyDataPassed": true,
+  "passed": false,
+  "visualPass": false,
+  "finalQuality": false,
+  "nativeIntegration": false,
+  "unverified": [
+    "Actual source/candidate front and all-angle GPU review",
+    "Strict all-triangle self-intersection and source hair contact",
+    "Material/cloth physics dynamics",
+    "Artistic white-band width and scalp/frill fit"
+  ]
+}

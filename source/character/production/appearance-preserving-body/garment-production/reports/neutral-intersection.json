@@ -1,0 +1,69 @@
+{
+  "schema": "dafeiyu.selected-garment-neutral-intersection.v1",
+  "binarySha256": "c9a08f0e12196337ffac10783036f2d5473eb53d379abf76a9b09044f88cf5a3",
+  "pose": "Written source22 neutralRoot arrays, no scene scale or root lift applied in test",
+  "method": "Strict non-adjacent segment/triangle interior crossings; common-index/coplanar/tangent cases excluded. Not a body-contact or continuous collision proof.",
+  "states": [
+    {
+      "phase": "solver",
+      "testedPairs": 1248,
+      "strictCrossings": {
+        "outerSelf": 0,
+        "liningSelf": 0,
+        "betweenLayers": 0
+      },
+      "firstCrossings": [],
+      "sampledMinimumVertexTriangleLayerGapSource": 0.0330170441438212,
+      "sampledMinimumVertexTriangleLayerGapMeters": 0.01155596545033742,
+      "closestEvidence": {
+        "vertexLayer": "lining",
+        "vertex": 24,
+        "faceLayer": "outer",
+        "face": 46,
+        "sourcePoint": [
+          0.2433064579963684,
+          0.24109813570976257,
+          -0.014999806880950928
+        ],
+        "closestPoint": [
+          0.27545766182796444,
+          0.24851516685523256,
+          -0.013811133182524636
+        ]
+      },
+      "gapMethod": "Both-direction vertex-to-other-layer triangle distance. Not a full edge-edge or swept gap bound."
+    },
+    {
+      "phase": "render",
+      "testedPairs": 78252,
+      "strictCrossings": {
+        "outerSelf": 0,
+        "liningSelf": 0,
+        "betweenLayers": 0
+      },
+      "firstCrossings": [],
+      "sampledMinimumVertexTriangleLayerGapSource": 0.029650727562040975,
+      "sampledMinimumVertexTriangleLayerGapMeters": 0.010377754646714341,
+      "closestEvidence": {
+        "vertexLayer": "outer",
+        "vertex": 2808,
+        "faceLayer": "lining",
+        "face": 47,
+        "sourcePoint": [
+          0.2740860879421234,
+          0.2474902868270874,
+          -0.015054338611662388
+        ],
+        "closestPoint": [
+          0.24538444311119315,
+          0.24004949139432194,
+          -0.01492867125215005
+        ]
+      },
+      "gapMethod": "Both-direction vertex-to-other-layer triangle distance. Not a full edge-edge or swept gap bound."
+    }
+  ],
+  "passed": true,
+  "physicsPass": false,
+  "visualPass": false
+}

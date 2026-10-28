@@ -1,0 +1,34 @@
+{
+  "schema": "dafeiyu.whole-character-reference-assets.v1",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "identity-preserve",
+  "transparentBackground": true,
+  "png": "turnaround-v1.png",
+  "pngBytes": 1751884,
+  "pngSha256": "95a5dfdc132445ab3ae95dc94da959a5591a039ee74f2faaa98026634f198b60",
+  "dimensions": [
+    2103,
+    748
+  ],
+  "sources": [
+    {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-geometry/hair-continuity-v1/reports/root-front.png",
+      "role": "Canonical selected identity, face and dark palette"
+    },
+    {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-baseline-20261027/assets/neutral-front.png",
+      "role": "Same costume construction and hair details"
+    }
+  ],
+  "views": [
+    "front",
+    "right45",
+    "right90",
+    "back"
+  ],
+  "role": "Inferred design reference for a new whole 3D model, not a completed model or observed back-view ground truth",
+  "wholeModelAccepted": false,
+  "defaultImagegenSaveFailedDuringDiskExhaustion": true,
+  "recoveredOriginalReturnedPngBytesWithoutEditing": true,
+  "storage": "D task storage; E project reference-assets is an NTFS junction. Existing user assets not moved or deleted."
+}

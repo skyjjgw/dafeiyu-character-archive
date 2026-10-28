@@ -1,0 +1,24 @@
+{
+  "native_reopen": true,
+  "mesh_objects_in_tail_collection": 1,
+  "components": [
+    62310
+  ],
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "bounds": [
+    [
+      -0.20798592269420624,
+      -0.09456080198287964,
+      -0.42226672172546387
+    ],
+    [
+      -0.009288338012993336,
+      0.4323313236236572,
+      -0.12855352461338043
+    ]
+  ],
+  "world_transform_identity": true,
+  "rigs": 0,
+  "finalAccepted": false
+}

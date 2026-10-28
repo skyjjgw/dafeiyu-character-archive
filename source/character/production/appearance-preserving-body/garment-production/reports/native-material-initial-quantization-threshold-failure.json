@@ -1,0 +1,85 @@
+{
+	"component_bin_sha256": "c9a08f0e12196337ffac10783036f2d5473eb53d379abf76a9b09044f88cf5a3",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"layers": [
+		{
+			"configure": {
+				"boundary_edges": 192,
+				"boundary_precision": "Godot official single Vector3",
+				"configured": true,
+				"damping": 0.000025,
+				"energy_semantics": "Uncapped quadratic elastic diagnostic, matching reference; total moment is capped",
+				"first_sample_damping": "Zero velocity until two samples, avoids treating model rest/world placement as motion",
+				"hinge_count": 5088,
+				"integration": "Forces only; caller/Jolt owns positions and integration",
+				"internal_precision": "double",
+				"max_force_semantics": "Largest individual hinge contribution, matching reference; max_nodal_force is accumulated point maximum",
+				"moment_limit": 0.0015,
+				"ok": true,
+				"rest_degenerate_hinges": 0,
+				"stiffness": 0.0006,
+				"topology": "Every actual shared interior triangle edge; no grid shortcuts or hole bridging",
+				"triangles": 3456,
+				"vertices": 1824
+			},
+			"hinge_count": 5088,
+			"layer": "outer",
+			"material_eval_120_mean_ms": 0.48155,
+			"passed": false,
+			"rest_max_nodal_force_N": 0.0,
+			"rigid_max_nodal_force_N": 0.0000230977443663828,
+			"triangles": 3456,
+			"vertices": 1824
+		},
+		{
+			"configure": {
+				"boundary_edges": 192,
+				"boundary_precision": "Godot official single Vector3",
+				"configured": true,
+				"damping": 0.000025,
+				"energy_semantics": "Uncapped quadratic elastic diagnostic, matching reference; total moment is capped",
+				"first_sample_damping": "Zero velocity until two samples, avoids treating model rest/world placement as motion",
+				"hinge_count": 3456,
+				"integration": "Forces only; caller/Jolt owns positions and integration",
+				"internal_precision": "double",
+				"max_force_semantics": "Largest individual hinge contribution, matching reference; max_nodal_force is accumulated point maximum",
+				"moment_limit": 0.0015,
+				"ok": true,
+				"rest_degenerate_hinges": 0,
+				"stiffness": 0.0006,
+				"topology": "Every actual shared interior triangle edge; no grid shortcuts or hole bridging",
+				"triangles": 2368,
+				"vertices": 1280
+			},
+			"hinge_count": 3456,
+			"layer": "lining",
+			"material_eval_120_mean_ms": 0.322916666666667,
+			"passed": false,
+			"rest_max_nodal_force_N": 0.0,
+			"rigid_max_nodal_force_N": 0.0000221817772690107,
+			"triangles": 2368,
+			"vertices": 1280
+		}
+	],
+	"material_test_parameters": {
+		"damping_J_s_per_rad2": 0.000025,
+		"moment_limit_Nm": 0.0015,
+		"not_measured_fabric_parameters": true,
+		"stiffness_J_per_rad2": 0.0006
+	},
+	"passed": false,
+	"physicsPass": false,
+	"schema": "dafeiyu.garment-actual-native-material-interface.v1",
+	"scope": "Real trusted C++ material helper on this selected character canonical cloth. No old native art geometry. Only configure/rest/rigid objectivity/API timing; no Jolt contact/integration or animated cloth validation.",
+	"visualPass": false
+}

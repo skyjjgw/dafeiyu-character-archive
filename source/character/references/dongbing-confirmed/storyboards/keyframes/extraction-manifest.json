@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "operation": "PIL crop only; no resize, enhancement, colour changes, annotations, or network requests",
+  "coordinate_base": 0,
+  "evidence_scope": "播放器低清缩略图，非高清帧；仅用于静态造型参考。",
+  "timestamp_mapping": {
+    "proven": false,
+    "reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+    "all_times_null": true
+  },
+  "count": 12,
+  "sheets": [
+    {
+      "bvid": "BV1t6nu6bEsf",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-index.json",
+      "sheet_size": [
+        4800,
+        2700
+      ],
+      "grid_size": [
+        10,
+        10
+      ],
+      "tile_size": [
+        480,
+        270
+      ],
+      "raw_index_seconds": [
+        0,
+        0,
+        5,
+        10,
+        15,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95,
+        100,
+        105,
+        110,
+        115,
+        120,
+        125,
+        130,
+        135,
+        140,
+        145,
+        150,
+        155,
+        160,
+        165,
+        170,
+        175,
+        180,
+        185,
+        190,
+        195,
+        200,
+        205,
+        210
+      ],
+      "sheet_sha256": "199e981c9c3a3cee3c2fc1245d043a6f5755e1e18be222eb4a581ac1105ee819"
+    },
+    {
+      "bvid": "BV1g2JX6HEHX",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-index.json",
+      "sheet_size": [
+        4800,
+        2700
+      ],
+      "grid_size": [
+        10,
+        10
+      ],
+      "tile_size": [
+        480,
+        270
+      ],
+      "raw_index_seconds": [
+        0,
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95,
+        100,
+        105,
+        110,
+        115,
+        120,
+        125,
+        130,
+        135,
+        140,
+        145,
+        150,
+        155,
+        160,
+        165,
+        170,
+        175,
+        180,
+        185,
+        190,
+        195,
+        200,
+        205
+      ],
+      "sheet_sha256": "a9c058c5754bc19e10d654e36b2266fe4a7bba5d14efa6b7d3e6892b795ef604"
+    },
+    {
+      "bvid": "BV1C2pg6cEZW",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-index.json",
+      "sheet_size": [
+        4800,
+        2700
+      ],
+      "grid_size": [
+        10,
+        10
+      ],
+      "tile_size": [
+        480,
+        270
+      ],
+      "raw_index_seconds": [
+        0,
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95,
+        100,
+        105,
+        110,
+        115,
+        120,
+        125,
+        130,
+        135,
+        140,
+        145,
+        150,
+        155,
+        160,
+        165,
+        170,
+        175,
+        180,
+        185,
+        190,
+        195,
+        200,
+        205,
+        210,
+        215,
+        220,
+        225
+      ],
+      "sheet_sha256": "dce6a957654f52b37bbed2f9035677af4d79c86dfd89a787a3ff4e78960183ee"
+    }
+  ],
+  "extractions": [
+    {
+      "id": "BV1t6nu6bEsf-r0c6",
+      "bvid": "BV1t6nu6bEsf",
+      "video_title": "压力一只大肥鱼？",
+      "source_video_url": "https://www.bilibili.com/video/BV1t6nu6bEsf/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-index.json",
+      "row": 0,
+      "col": 6,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        2880,
+        0,
+        3360,
+        270
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1t6nu6bEsf-r0c6.png",
+      "output_sha256": "c82422b6e1591704483be236cd0a2beedf43d2f62efecf44404d60d5ac9c70c4",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1t6nu6bEsf-r1c0",
+      "bvid": "BV1t6nu6bEsf",
+      "video_title": "压力一只大肥鱼？",
+      "source_video_url": "https://www.bilibili.com/video/BV1t6nu6bEsf/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-index.json",
+      "row": 1,
+      "col": 0,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        0,
+        270,
+        480,
+        540
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1t6nu6bEsf-r1c0.png",
+      "output_sha256": "40cf7d7db1753e0f8a5568645c2d089a0a6ba6e9da9344fafc795e6fea7090ac",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1t6nu6bEsf-r3c7",
+      "bvid": "BV1t6nu6bEsf",
+      "video_title": "压力一只大肥鱼？",
+      "source_video_url": "https://www.bilibili.com/video/BV1t6nu6bEsf/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-index.json",
+      "row": 3,
+      "col": 7,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        3360,
+        810,
+        3840,
+        1080
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1t6nu6bEsf-r3c7.png",
+      "output_sha256": "f525b5f5d8a091acda4831d582d0f7a77b3246d85a2c46066ba5980046628be1",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1t6nu6bEsf-r2c3",
+      "bvid": "BV1t6nu6bEsf",
+      "video_title": "压力一只大肥鱼？",
+      "source_video_url": "https://www.bilibili.com/video/BV1t6nu6bEsf/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1t6nu6bEsf-index.json",
+      "row": 2,
+      "col": 3,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        1440,
+        540,
+        1920,
+        810
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1t6nu6bEsf-r2c3.png",
+      "output_sha256": "6307df6695507b8c18b5a0abcce29488385b597264f6d9900417a112f4fcbd95",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1g2JX6HEHX-r0c1",
+      "bvid": "BV1g2JX6HEHX",
+      "video_title": "再给我一个好吗",
+      "source_video_url": "https://www.bilibili.com/video/BV1g2JX6HEHX/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-index.json",
+      "row": 0,
+      "col": 1,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        480,
+        0,
+        960,
+        270
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1g2JX6HEHX-r0c1.png",
+      "output_sha256": "fa4bfe92251e292d3d9cc1f8668f62b53921c4d3c819facf6214feb0729ec581",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1g2JX6HEHX-r0c8",
+      "bvid": "BV1g2JX6HEHX",
+      "video_title": "再给我一个好吗",
+      "source_video_url": "https://www.bilibili.com/video/BV1g2JX6HEHX/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-index.json",
+      "row": 0,
+      "col": 8,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        3840,
+        0,
+        4320,
+        270
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1g2JX6HEHX-r0c8.png",
+      "output_sha256": "b469258c8d62550fc2535eea44ef0c2e04989c182bc1f8ba183b43fe8e6404a6",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1g2JX6HEHX-r2c4",
+      "bvid": "BV1g2JX6HEHX",
+      "video_title": "再给我一个好吗",
+      "source_video_url": "https://www.bilibili.com/video/BV1g2JX6HEHX/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-index.json",
+      "row": 2,
+      "col": 4,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        1920,
+        540,
+        2400,
+        810
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1g2JX6HEHX-r2c4.png",
+      "output_sha256": "19ce6eb99cf336d04d56f1c7e07a6d42d6754441377e054a0834f85985b043ea",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1g2JX6HEHX-r2c6",
+      "bvid": "BV1g2JX6HEHX",
+      "video_title": "再给我一个好吗",
+      "source_video_url": "https://www.bilibili.com/video/BV1g2JX6HEHX/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1g2JX6HEHX-index.json",
+      "row": 2,
+      "col": 6,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        2880,
+        540,
+        3360,
+        810
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1g2JX6HEHX-r2c6.png",
+      "output_sha256": "d68cdb5f7688bd62eb804bb573052029ff686181cd9fdd01bdd9ef08a4d69f65",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1C2pg6cEZW-r1c2",
+      "bvid": "BV1C2pg6cEZW",
+      "video_title": "你尾巴里有没有藏吃的",
+      "source_video_url": "https://www.bilibili.com/video/BV1C2pg6cEZW/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-index.json",
+      "row": 1,
+      "col": 2,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        960,
+        270,
+        1440,
+        540
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1C2pg6cEZW-r1c2.png",
+      "output_sha256": "ae7879530d411b61313bc769374b6b7d93fce8a240552289e7499fd4e65cc693",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1C2pg6cEZW-r1c5",
+      "bvid": "BV1C2pg6cEZW",
+      "video_title": "你尾巴里有没有藏吃的",
+      "source_video_url": "https://www.bilibili.com/video/BV1C2pg6cEZW/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-index.json",
+      "row": 1,
+      "col": 5,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        2400,
+        270,
+        2880,
+        540
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1C2pg6cEZW-r1c5.png",
+      "output_sha256": "790198a0e69103616bf8fd65e3f92f812a3ad50cca7a397bd6ed98e0f1f71039",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1C2pg6cEZW-r2c6",
+      "bvid": "BV1C2pg6cEZW",
+      "video_title": "你尾巴里有没有藏吃的",
+      "source_video_url": "https://www.bilibili.com/video/BV1C2pg6cEZW/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-index.json",
+      "row": 2,
+      "col": 6,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        2880,
+        540,
+        3360,
+        810
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1C2pg6cEZW-r2c6.png",
+      "output_sha256": "ffd9133fa5322d8cf4ad35bc10b7995b29aa838def10942e8fbf2def410e5ea8",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    },
+    {
+      "id": "BV1C2pg6cEZW-r3c5",
+      "bvid": "BV1C2pg6cEZW",
+      "video_title": "你尾巴里有没有藏吃的",
+      "source_video_url": "https://www.bilibili.com/video/BV1C2pg6cEZW/",
+      "author": "冬冰",
+      "sheet_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-storyboard.jpg",
+      "index_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/BV1C2pg6cEZW-index.json",
+      "row": 3,
+      "col": 5,
+      "coordinate_base": 0,
+      "tile_size": [
+        480,
+        270
+      ],
+      "crop_box_xyxy": [
+        2400,
+        810,
+        2880,
+        1080
+      ],
+      "time_seconds": null,
+      "timestamp_mapping_status": "unproven",
+      "timestamp_reason": "现有公开API索引没有定义tile与index的对应算法；index开头含重复0，不能仅凭该元数据排除零偏移、一偏移或哨兵解释。未核对官方播放器实现，因此不填精确时间。",
+      "output_path": "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1C2pg6cEZW-r3c5.png",
+      "output_sha256": "919475b4be294ab59cc65d761cc6993cf4b8299503568640a649c5f5c268300a",
+      "pixel_verification": "PNG pixel values equal the unmodified PIL crop of the decoded source JPEG",
+      "evidence_scope": "播放器低清缩略图（480×270），不是高清视频帧，也不能证明连续动作效果"
+    }
+  ]
+}

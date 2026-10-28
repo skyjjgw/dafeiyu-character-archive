@@ -1,0 +1,12 @@
+{
+  "schema":"dafeiyu.skirt-depth.local-visual-review.v1",
+  "reviewedOn":"2026-10-28",
+  "status":"limited_depth_improved",
+  "final_quality":false,
+  "frontActualWebGL":{"rgbRMSE":0.08350774834762885,"pixelsRGBDifferenceOver1":24,"alphaSilhouetteDifference":0},
+  "observed":"Whole selected girl identity retained. Skirt depth is visibly more rounded, but old side hem saddle/inverted-V, abrupt center/material split and solid caps remain unacceptable.",
+  "evidence":["cua-skirt-candidate-front-20261028.png","cua-skirt-candidate-isolated-left90-20261028.png","cua-skirt-source-isolated-left90-20261028.png"],
+  "rootCause":"The original code evaluates hemY=bottomAtX(572+195*sin(theta),frontContour) for both front and back. It treats a likely baked front-view/oblique projection as world Y, duplicates it around the rear, and closes waist/hem with disk caps. Increasing Z cannot fix that mapping.",
+  "physicsPass":false,
+  "installedInto4348":false
+}

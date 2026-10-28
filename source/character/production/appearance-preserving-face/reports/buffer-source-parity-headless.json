@@ -1,0 +1,207 @@
+{
+	"adapter": {
+		"depth_policy": "source-default",
+		"fixed_topology": true,
+		"head_space": "Original head local, no additional head transform",
+		"last_kernel_ms": 4.1173,
+		"last_submit_ms": 0.064,
+		"layouts": [
+			{
+				"attribute_stride": 16,
+				"format": 34426908743,
+				"name": "left deforming skin eyelid",
+				"rgba_offset": 0,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 1649
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "left exposed sclera",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 970
+			},
+			{
+				"attribute_stride": 8,
+				"format": 34426851351,
+				"name": "left sampled original iris",
+				"rgba_offset": -1,
+				"uv_offset": 0,
+				"vertex_stride": 12,
+				"vertices": 1677
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "left moving upper eyelash",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 162
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426847239,
+				"name": "left pointed outer lashes",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 3
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "left moving lower eyelash",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 162
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "left moving eyelid crease",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 130
+			},
+			{
+				"attribute_stride": 16,
+				"format": 34426908743,
+				"name": "right deforming skin eyelid",
+				"rgba_offset": 0,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 1649
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "right exposed sclera",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 970
+			},
+			{
+				"attribute_stride": 8,
+				"format": 34426851351,
+				"name": "right sampled original iris",
+				"rgba_offset": -1,
+				"uv_offset": 0,
+				"vertex_stride": 12,
+				"vertices": 1677
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "right moving upper eyelash",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 162
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426847239,
+				"name": "right pointed outer lashes",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 3
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "right moving lower eyelash",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 162
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "right moving eyelid crease",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 130
+			},
+			{
+				"attribute_stride": 16,
+				"format": 34426908743,
+				"name": "continuously deforming skin around mouth",
+				"rgba_offset": 0,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 1455
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "continuously opening mouth cavity",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 873
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "tongue inside opening",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 325
+			},
+			{
+				"attribute_stride": 0,
+				"format": 34426851335,
+				"name": "continuous smile contour",
+				"rgba_offset": -1,
+				"uv_offset": -1,
+				"vertex_stride": 12,
+				"vertices": 194
+			}
+		],
+		"mesh_rebuilds_during_setup": 18,
+		"mesh_rebuilds_during_updates": 0,
+		"ok": true,
+		"source_meshes": 18,
+		"updates": 45
+	},
+	"captures": [],
+	"dispose_restores_source": true,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"gpu": false,
+	"kernel_mean_ms": 3.47365,
+	"newFaceArt": false,
+	"passed": true,
+	"position_components": 0,
+	"readback_supported": false,
+	"readback_unequal": 0,
+	"renderer": "gl_compatibility",
+	"rgba_components": 0,
+	"schema": "dafeiyu.selected-face-buffer-parity.v1",
+	"sourceSourceOnly": true,
+	"sourceUnchanged": true,
+	"states": 44,
+	"submit_mean_ms": 0.0731590909090909,
+	"uv_components": 0,
+	"visibility_mismatches": 0
+}

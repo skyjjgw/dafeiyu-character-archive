@@ -1,0 +1,2737 @@
+{
+  "schema_version": 3,
+  "source": {
+    "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\rig3d-prototype\\character.js",
+    "sha256": "8832aaf5c114fa0123b7e6c604bad020684af59d54eabba3d470141b545ba293",
+    "dependencies": [
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\rig3d-prototype\\face.js",
+        "sha256": "f27968949d07f8b793c6081c52dbf81b3417c0b8fcf4378df529cbd6d0751e8d",
+        "sha256_after": "f27968949d07f8b793c6081c52dbf81b3417c0b8fcf4378df529cbd6d0751e8d"
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\rig3d-prototype\\hair.js",
+        "sha256": "e468ebd894a587d2feb792b916437c51d50a88a9a9b8becef38b9251dce315fe",
+        "sha256_after": "e468ebd894a587d2feb792b916437c51d50a88a9a9b8becef38b9251dce315fe"
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\rig3d-prototype\\costume.js",
+        "sha256": "b693224ed7134f89ba8cc93ee487e5e9b715aa7d230323023331c3a7b50f7aa5",
+        "sha256_after": "b693224ed7134f89ba8cc93ee487e5e9b715aa7d230323023331c3a7b50f7aa5"
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\rig3d-prototype\\tuning.js",
+        "sha256": "bfc2e64ccb0f7a73c14e8cb122627577d8cd2933be57c7041f4f7c5ab6dad033",
+        "sha256_after": "bfc2e64ccb0f7a73c14e8cb122627577d8cd2933be57c7041f4f7c5ab6dad033"
+      }
+    ],
+    "sha256_after": "8832aaf5c114fa0123b7e6c604bad020684af59d54eabba3d470141b545ba293",
+    "source_set_sha256": "09037dfae0e1f4d721fc94b749307d1d6c3e9cd9a66533f092e345d6f9c6fc5e"
+  },
+  "runtime": {
+    "node": "v24.11.1",
+    "three": "180"
+  },
+  "scope": "CPU rest proportions, bone matrices, skinning and sampled face geometry attributes; no rendering or visual likeness judgement.",
+  "limitations": [
+    "A procedural rig and finite continuous transforms do not establish finished character art, anatomical quality, collision avoidance, foot contact, or production topology.",
+    "Tests use 60 Hz and scene-unit thresholds; bind-space body shortening and the post-bind default uniform head enlargement are checked separately.",
+    "Face attributes are scanned in full at rest and at selected action frames, not on every frame.",
+    "No browser, application, camera, or real audio output is exercised."
+  ],
+  "proportions": {
+    "rest_space_map": "y <= 1.90 ? y * 0.74 : y - 0.494",
+    "expected_pelvis_y": 0.7622,
+    "expected_head_center_y": 1.896,
+    "expected_neck_to_head_distance": 0.37,
+    "expected_default_head_scale": 1.08,
+    "expected_body_scale_range": [
+      0.68,
+      1
+    ]
+  },
+  "checks": [
+    {
+      "name": "40 actual bones and one actual SkinnedMesh",
+      "passed": true,
+      "bone_count": 40,
+      "skinned_mesh_count": 1
+    },
+    {
+      "name": "unique bones and skeleton hierarchy rooted under body",
+      "passed": true
+    },
+    {
+      "name": "all geometry and skin attributes finite and correctly sized",
+      "passed": true,
+      "vertex_count": 466092,
+      "finite_attributes": {
+        "position": true,
+        "normal": true,
+        "color": true,
+        "skinIndex": true,
+        "skinWeight": true
+      }
+    },
+    {
+      "name": "valid normalized skin weights with real multi-bone blending",
+      "passed": true,
+      "min_weight": 0,
+      "max_weight": 1,
+      "max_sum_error": 2.9802322387695312e-8,
+      "invalid_indices": 0,
+      "blended_vertices": 136268,
+      "vertex_influences_by_bone": {
+        "Pelvis": 75522,
+        "Spine": 14880,
+        "Chest": 23448,
+        "Neck": 3558,
+        "Head": 169248,
+        "R.Shoulder": 3975,
+        "R.Elbow": 4367,
+        "R.Wrist": 13604,
+        "R.Hip": 1125,
+        "R.Knee": 3450,
+        "R.Ankle": 11265,
+        "L.Shoulder": 3975,
+        "L.Elbow": 4367,
+        "L.Wrist": 13604,
+        "L.Hip": 1125,
+        "L.Knee": 3450,
+        "L.Ankle": 11265,
+        "Tail.0": 1104,
+        "Tail.1": 2208,
+        "Tail.2": 2208,
+        "Tail.3": 2256,
+        "Tail.4": 6852,
+        "Hair.-1.0.Root": 5736,
+        "Hair.-1.0.Mid": 16626,
+        "Hair.-1.0.Tip": 12984,
+        "Hair.-1.1.Root": 4650,
+        "Hair.-1.1.Mid": 14490,
+        "Hair.-1.1.Tip": 14070,
+        "Hair.-1.2.Root": 7524,
+        "Hair.-1.2.Mid": 16116,
+        "Hair.-1.2.Tip": 20556,
+        "Hair.1.0.Root": 5736,
+        "Hair.1.0.Mid": 16626,
+        "Hair.1.0.Tip": 12984,
+        "Hair.1.1.Root": 4650,
+        "Hair.1.1.Mid": 14490,
+        "Hair.1.1.Tip": 14070,
+        "Hair.1.2.Root": 7524,
+        "Hair.1.2.Mid": 16116,
+        "Hair.1.2.Tip": 20556
+      }
+    },
+    {
+      "name": "bind inverse matches every bone after explicit skeleton.pose",
+      "passed": true,
+      "max_matrix_error": 0
+    },
+    {
+      "name": "rest skinning preserves all original vertex positions",
+      "passed": true,
+      "max_vertex_error": 6.803119581101102e-8
+    },
+    {
+      "name": "new face meshes have finite vertex attributes at rest",
+      "passed": true,
+      "all_finite": true,
+      "mesh_count": 36,
+      "vertex_count": 26659,
+      "attributes_checked": 84,
+      "invalid_attributes": []
+    },
+    {
+      "name": "all 40 rest bones use the shortened-body coordinates with x/z preserved",
+      "passed": true,
+      "bones": [
+        {
+          "bone": "Pelvis",
+          "expected_world": [
+            0,
+            0.7622,
+            0
+          ],
+          "actual_world": [
+            0,
+            0.7622,
+            0
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Spine",
+          "expected_world": [
+            0,
+            1.0508,
+            0
+          ],
+          "actual_world": [
+            0,
+            1.0508,
+            0
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Chest",
+          "expected_world": [
+            0,
+            1.3098,
+            0
+          ],
+          "actual_world": [
+            0,
+            1.3098,
+            0
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Neck",
+          "expected_world": [
+            0,
+            1.526,
+            0
+          ],
+          "actual_world": [
+            0,
+            1.526,
+            0
+          ],
+          "error": 2.220446049250313e-16
+        },
+        {
+          "bone": "Head",
+          "expected_world": [
+            0,
+            1.896,
+            0
+          ],
+          "actual_world": [
+            0,
+            1.896,
+            0
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "R.Shoulder",
+          "expected_world": [
+            -0.33,
+            1.3616,
+            0
+          ],
+          "actual_world": [
+            -0.33,
+            1.3616,
+            0
+          ],
+          "error": 2.220446049250313e-16
+        },
+        {
+          "bone": "R.Elbow",
+          "expected_world": [
+            -0.49,
+            1.1322,
+            0
+          ],
+          "actual_world": [
+            -0.49,
+            1.1322,
+            0
+          ],
+          "error": 0
+        },
+        {
+          "bone": "R.Wrist",
+          "expected_world": [
+            -0.55,
+            0.9472,
+            0.025
+          ],
+          "actual_world": [
+            -0.55,
+            0.9472,
+            0.025
+          ],
+          "error": 0
+        },
+        {
+          "bone": "R.Hip",
+          "expected_world": [
+            -0.2,
+            0.7326,
+            0
+          ],
+          "actual_world": [
+            -0.2,
+            0.7326,
+            0
+          ],
+          "error": 0
+        },
+        {
+          "bone": "R.Knee",
+          "expected_world": [
+            -0.2,
+            0.4218,
+            0.025
+          ],
+          "actual_world": [
+            -0.2,
+            0.4218,
+            0.025
+          ],
+          "error": 5.551115123125783e-17
+        },
+        {
+          "bone": "R.Ankle",
+          "expected_world": [
+            -0.2,
+            0.1628,
+            0.055
+          ],
+          "actual_world": [
+            -0.2,
+            0.1628,
+            0.055
+          ],
+          "error": 0
+        },
+        {
+          "bone": "L.Shoulder",
+          "expected_world": [
+            0.33,
+            1.3616,
+            0
+          ],
+          "actual_world": [
+            0.33,
+            1.3616,
+            0
+          ],
+          "error": 2.220446049250313e-16
+        },
+        {
+          "bone": "L.Elbow",
+          "expected_world": [
+            0.49,
+            1.1322,
+            0
+          ],
+          "actual_world": [
+            0.49,
+            1.1322,
+            0
+          ],
+          "error": 0
+        },
+        {
+          "bone": "L.Wrist",
+          "expected_world": [
+            0.55,
+            0.9472,
+            0.025
+          ],
+          "actual_world": [
+            0.55,
+            0.9472,
+            0.025
+          ],
+          "error": 0
+        },
+        {
+          "bone": "L.Hip",
+          "expected_world": [
+            0.2,
+            0.7326,
+            0
+          ],
+          "actual_world": [
+            0.2,
+            0.7326,
+            0
+          ],
+          "error": 0
+        },
+        {
+          "bone": "L.Knee",
+          "expected_world": [
+            0.2,
+            0.4218,
+            0.025
+          ],
+          "actual_world": [
+            0.2,
+            0.4218,
+            0.025
+          ],
+          "error": 5.551115123125783e-17
+        },
+        {
+          "bone": "L.Ankle",
+          "expected_world": [
+            0.2,
+            0.1628,
+            0.055
+          ],
+          "actual_world": [
+            0.2,
+            0.1628,
+            0.055
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Tail.0",
+          "expected_world": [
+            0,
+            0.7548,
+            -0.25
+          ],
+          "actual_world": [
+            0,
+            0.7548,
+            -0.25
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Tail.1",
+          "expected_world": [
+            0.28,
+            0.5994,
+            -0.34
+          ],
+          "actual_world": [
+            0.28,
+            0.5994,
+            -0.34
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Tail.2",
+          "expected_world": [
+            0.58,
+            0.5328,
+            -0.34
+          ],
+          "actual_world": [
+            0.58,
+            0.5328,
+            -0.34
+          ],
+          "error": 1.1102230246251565e-16
+        },
+        {
+          "bone": "Tail.3",
+          "expected_world": [
+            0.86,
+            0.5846,
+            -0.28
+          ],
+          "actual_world": [
+            0.86,
+            0.5846,
+            -0.28
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Tail.4",
+          "expected_world": [
+            1.08,
+            0.6956,
+            -0.18
+          ],
+          "actual_world": [
+            1.08,
+            0.6956,
+            -0.18
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Hair.-1.0.Root",
+          "expected_world": [
+            -0.42,
+            2.196,
+            -0.13
+          ],
+          "actual_world": [
+            -0.42,
+            2.196,
+            -0.13
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Hair.-1.0.Mid",
+          "expected_world": [
+            -0.52,
+            1.556,
+            -0.19
+          ],
+          "actual_world": [
+            -0.52,
+            1.556,
+            -0.19
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.-1.0.Tip",
+          "expected_world": [
+            -0.5,
+            0.9842,
+            -0.17
+          ],
+          "actual_world": [
+            -0.5,
+            0.9842,
+            -0.17
+          ],
+          "error": 1.1102230246251565e-16
+        },
+        {
+          "bone": "Hair.-1.1.Root",
+          "expected_world": [
+            -0.485,
+            2.146,
+            -0.2
+          ],
+          "actual_world": [
+            -0.485,
+            2.146,
+            -0.2
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.-1.1.Mid",
+          "expected_world": [
+            -0.585,
+            1.556,
+            -0.26
+          ],
+          "actual_world": [
+            -0.585,
+            1.556,
+            -0.26
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.-1.1.Tip",
+          "expected_world": [
+            -0.59,
+            1.0175,
+            -0.24000000000000002
+          ],
+          "actual_world": [
+            -0.59,
+            1.0175,
+            -0.24
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Hair.-1.2.Root",
+          "expected_world": [
+            -0.55,
+            2.096,
+            -0.27
+          ],
+          "actual_world": [
+            -0.55,
+            2.096,
+            -0.27
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.-1.2.Mid",
+          "expected_world": [
+            -0.65,
+            1.556,
+            -0.33
+          ],
+          "actual_world": [
+            -0.65,
+            1.556,
+            -0.33
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.-1.2.Tip",
+          "expected_world": [
+            -0.6799999999999999,
+            1.0508,
+            -0.31000000000000005
+          ],
+          "actual_world": [
+            -0.68,
+            1.0508,
+            -0.31
+          ],
+          "error": 2.220446049250313e-16
+        },
+        {
+          "bone": "Hair.1.0.Root",
+          "expected_world": [
+            0.42,
+            2.196,
+            -0.13
+          ],
+          "actual_world": [
+            0.42,
+            2.196,
+            -0.13
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Hair.1.0.Mid",
+          "expected_world": [
+            0.52,
+            1.556,
+            -0.19
+          ],
+          "actual_world": [
+            0.52,
+            1.556,
+            -0.19
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.1.0.Tip",
+          "expected_world": [
+            0.5,
+            0.9842,
+            -0.17
+          ],
+          "actual_world": [
+            0.5,
+            0.9842,
+            -0.17
+          ],
+          "error": 1.1102230246251565e-16
+        },
+        {
+          "bone": "Hair.1.1.Root",
+          "expected_world": [
+            0.485,
+            2.146,
+            -0.2
+          ],
+          "actual_world": [
+            0.485,
+            2.146,
+            -0.2
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.1.1.Mid",
+          "expected_world": [
+            0.585,
+            1.556,
+            -0.26
+          ],
+          "actual_world": [
+            0.585,
+            1.556,
+            -0.26
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.1.1.Tip",
+          "expected_world": [
+            0.59,
+            1.0175,
+            -0.24000000000000002
+          ],
+          "actual_world": [
+            0.59,
+            1.0175,
+            -0.24
+          ],
+          "error": 0
+        },
+        {
+          "bone": "Hair.1.2.Root",
+          "expected_world": [
+            0.55,
+            2.096,
+            -0.27
+          ],
+          "actual_world": [
+            0.55,
+            2.096,
+            -0.27
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.1.2.Mid",
+          "expected_world": [
+            0.65,
+            1.556,
+            -0.33
+          ],
+          "actual_world": [
+            0.65,
+            1.556,
+            -0.33
+          ],
+          "error": 4.440892098500626e-16
+        },
+        {
+          "bone": "Hair.1.2.Tip",
+          "expected_world": [
+            0.6799999999999999,
+            1.0508,
+            -0.31000000000000005
+          ],
+          "actual_world": [
+            0.68,
+            1.0508,
+            -0.31
+          ],
+          "error": 2.220446049250313e-16
+        }
+      ]
+    },
+    {
+      "name": "bind head center is 1.896 with unit head/body/root scale",
+      "passed": true,
+      "head_center": [
+        0,
+        1.896,
+        0
+      ],
+      "neck_center": [
+        0,
+        1.526,
+        0
+      ],
+      "neck_to_head_distance": 0.3700000000000001,
+      "head_scale": [
+        1,
+        1,
+        1
+      ],
+      "body_scale": [
+        1,
+        1,
+        1
+      ],
+      "root_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "shortened pelvis root position is applied exactly once",
+      "passed": true,
+      "expected_world": [
+        0,
+        0.7622,
+        0
+      ],
+      "pelvis_local": [
+        0,
+        0.7622,
+        0
+      ],
+      "pelvis_world": [
+        0,
+        0.7622,
+        0
+      ],
+      "body_position": [
+        0,
+        0,
+        0
+      ],
+      "root_position": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "tail parent chain and initial local/world transforms",
+      "passed": true,
+      "tail": [
+        {
+          "bone": "Tail.0",
+          "parent": "Pelvis",
+          "expected_parent": "Pelvis",
+          "expected_local": [
+            0,
+            -0.0074,
+            -0.25
+          ],
+          "expected_world": [
+            0,
+            0.7548,
+            -0.25
+          ],
+          "local_position": [
+            0,
+            -0.0074,
+            -0.25
+          ],
+          "world_position": [
+            0,
+            0.7548,
+            -0.25
+          ],
+          "local_error": 0,
+          "world_error": 0
+        },
+        {
+          "bone": "Tail.1",
+          "parent": "Tail.0",
+          "expected_parent": "Tail.0",
+          "expected_local": [
+            0.28,
+            -0.1554,
+            -0.09
+          ],
+          "expected_world": [
+            0.28,
+            0.5994,
+            -0.34
+          ],
+          "local_position": [
+            0.28,
+            -0.1554,
+            -0.09
+          ],
+          "world_position": [
+            0.28,
+            0.5994,
+            -0.34
+          ],
+          "local_error": 0,
+          "world_error": 0
+        },
+        {
+          "bone": "Tail.2",
+          "parent": "Tail.1",
+          "expected_parent": "Tail.1",
+          "expected_local": [
+            0.3,
+            -0.0666,
+            0
+          ],
+          "expected_world": [
+            0.58,
+            0.5328,
+            -0.34
+          ],
+          "local_position": [
+            0.3,
+            -0.0666,
+            0
+          ],
+          "world_position": [
+            0.58,
+            0.5328,
+            -0.34
+          ],
+          "local_error": 1.1102230246251565e-16,
+          "world_error": 1.1102230246251565e-16
+        },
+        {
+          "bone": "Tail.3",
+          "parent": "Tail.2",
+          "expected_parent": "Tail.2",
+          "expected_local": [
+            0.28,
+            0.0518,
+            0.06
+          ],
+          "expected_world": [
+            0.86,
+            0.5846,
+            -0.28
+          ],
+          "local_position": [
+            0.28,
+            0.0518,
+            0.06
+          ],
+          "world_position": [
+            0.86,
+            0.5846,
+            -0.28
+          ],
+          "local_error": 1.1102230246251565e-16,
+          "world_error": 0
+        },
+        {
+          "bone": "Tail.4",
+          "parent": "Tail.3",
+          "expected_parent": "Tail.3",
+          "expected_local": [
+            0.22,
+            0.111,
+            0.1
+          ],
+          "expected_world": [
+            1.08,
+            0.6956,
+            -0.18
+          ],
+          "local_position": [
+            0.22,
+            0.111,
+            0.1
+          ],
+          "world_position": [
+            1.08,
+            0.6956,
+            -0.18
+          ],
+          "local_error": 0,
+          "world_error": 0
+        }
+      ]
+    },
+    {
+      "name": "moving root group preserves skin coordinates and applies world transform once",
+      "passed": true,
+      "max_local_error": 9.910908773661972e-8,
+      "max_world_error": 9.910908778193087e-8
+    },
+    {
+      "name": "public default tuning explicitly selects body 0.74 and uniform head 1.08",
+      "passed": true,
+      "body_scale": 0.74,
+      "head_scale": 1.08,
+      "head_width": 1
+    },
+    {
+      "name": "default posed head is uniform 1.08 at the unchanged bind pivot",
+      "passed": true,
+      "head_scale": [
+        1.08,
+        1.08,
+        1.08
+      ],
+      "head_pivot": [
+        0,
+        1.896,
+        0
+      ]
+    },
+    {
+      "name": "default head scale really deforms head vertices without scaling body vertices",
+      "passed": true,
+      "head_vertex_count": 300288,
+      "body_vertex_count": 165804,
+      "maximum_head_motion": 0.12856108337056948,
+      "max_head_expected_error": 6.803119541682012e-8,
+      "max_body_unchanged_error": 4.3268939196006156e-8
+    },
+    {
+      "name": "default enlarged head and all face attributes remain finite",
+      "passed": true,
+      "all_finite": true,
+      "mesh_count": 36,
+      "vertex_count": 26659,
+      "attributes_checked": 84,
+      "invalid_attributes": []
+    },
+    {
+      "name": "body shortening clamps below-range input to the explicit 0.68 minimum",
+      "passed": true,
+      "requested_body_scale": 0.6,
+      "expected_effective_body_scale": 0.68,
+      "pelvis": [
+        0,
+        0.7004,
+        0
+      ],
+      "head": [
+        0,
+        1.782,
+        0
+      ]
+    },
+    {
+      "name": "non-unit headWidth 1.07 keeps skinned geometry and face finite during movement",
+      "passed": true,
+      "head_width": 1.07,
+      "frames": 30
+    },
+    {
+      "name": "idle: finite bone matrices, sampled skinned vertices and face attributes",
+      "passed": true,
+      "face_mesh_count": 36,
+      "face_vertices_scanned_per_capture": 26659,
+      "face_sample_frames": [
+        0,
+        15,
+        30,
+        60,
+        120,
+        180,
+        240,
+        300,
+        360
+      ]
+    },
+    {
+      "name": "idle: real local skin deformation and changing bones",
+      "passed": true,
+      "max_local_deformation": 0.12055115313514246,
+      "changed_bone_count": 9
+    },
+    {
+      "name": "idle: adjacent-frame transform continuity at 60 Hz",
+      "passed": true,
+      "max_vertex_step": 0.006484430190313024,
+      "max_bone_angle_radians": 0.014772215187560358,
+      "allowed_vertex_step": 0.2,
+      "allowed_bone_angle_radians": 0.2
+    },
+    {
+      "name": "idle: paused update freezes animation including face geometry",
+      "passed": true,
+      "max_vertex_component_delta": 0,
+      "max_local_bone_quaternion_component_delta": 0,
+      "time_unchanged": true,
+      "face_attributes_and_visibility_unchanged": true
+    },
+    {
+      "name": "idle: resetPose restores finite neutral stance even when paused",
+      "passed": true,
+      "max_vertex_error_from_initial_neutral": 0,
+      "max_bone_quaternion_component_error": 0,
+      "face_matches_initial_neutral": true,
+      "animation_time": 0,
+      "max_subsequent_paused_vertex_error": 0
+    },
+    {
+      "name": "wave: finite bone matrices, sampled skinned vertices and face attributes",
+      "passed": true,
+      "face_mesh_count": 36,
+      "face_vertices_scanned_per_capture": 26659,
+      "face_sample_frames": [
+        0,
+        15,
+        30,
+        60,
+        120,
+        180,
+        240,
+        300,
+        360
+      ]
+    },
+    {
+      "name": "wave: real local skin deformation and changing bones",
+      "passed": true,
+      "max_local_deformation": 0.8905379304760821,
+      "changed_bone_count": 11
+    },
+    {
+      "name": "wave: adjacent-frame transform continuity at 60 Hz",
+      "passed": true,
+      "max_vertex_step": 0.058012997472930046,
+      "max_bone_angle_radians": 0.11676625675856364,
+      "allowed_vertex_step": 0.2,
+      "allowed_bone_angle_radians": 0.2
+    },
+    {
+      "name": "wave: right shoulder and wrist actually animate",
+      "passed": true,
+      "shoulder_rotation_radians": 1.6429859310032056,
+      "wrist_rotation_radians": 0.20221001939944216
+    },
+    {
+      "name": "wave: paused update freezes animation including face geometry",
+      "passed": true,
+      "max_vertex_component_delta": 0,
+      "max_local_bone_quaternion_component_delta": 0,
+      "time_unchanged": true,
+      "face_attributes_and_visibility_unchanged": true
+    },
+    {
+      "name": "wave: resetPose restores finite neutral stance even when paused",
+      "passed": true,
+      "max_vertex_error_from_initial_neutral": 0,
+      "max_bone_quaternion_component_error": 0,
+      "face_matches_initial_neutral": true,
+      "animation_time": 0,
+      "max_subsequent_paused_vertex_error": 0
+    },
+    {
+      "name": "walk: finite bone matrices, sampled skinned vertices and face attributes",
+      "passed": true,
+      "face_mesh_count": 36,
+      "face_vertices_scanned_per_capture": 26659,
+      "face_sample_frames": [
+        0,
+        15,
+        30,
+        60,
+        120,
+        180,
+        240,
+        300,
+        360
+      ]
+    },
+    {
+      "name": "walk: real local skin deformation and changing bones",
+      "passed": true,
+      "max_local_deformation": 0.2757965346486403,
+      "changed_bone_count": 15
+    },
+    {
+      "name": "walk: adjacent-frame transform continuity at 60 Hz",
+      "passed": true,
+      "max_vertex_step": 0.02324463067263541,
+      "max_bone_angle_radians": 0.04022452604439329,
+      "allowed_vertex_step": 0.2,
+      "allowed_bone_angle_radians": 0.2
+    },
+    {
+      "name": "walk: both hips and knees actually animate",
+      "passed": true,
+      "rotation_radians": {
+        "L.Hip": 0.38766057841513846,
+        "R.Hip": 0.3876605784151408,
+        "L.Knee": 0.5489285609976748,
+        "R.Knee": 0.5489139741969602
+      }
+    },
+    {
+      "name": "walk: paused update freezes animation including face geometry",
+      "passed": true,
+      "max_vertex_component_delta": 0,
+      "max_local_bone_quaternion_component_delta": 0,
+      "time_unchanged": true,
+      "face_attributes_and_visibility_unchanged": true
+    },
+    {
+      "name": "walk: resetPose restores finite neutral stance even when paused",
+      "passed": true,
+      "max_vertex_error_from_initial_neutral": 0,
+      "max_bone_quaternion_component_error": 0,
+      "face_matches_initial_neutral": true,
+      "animation_time": 0,
+      "max_subsequent_paused_vertex_error": 0
+    },
+    {
+      "name": "turn: finite bone matrices, sampled skinned vertices and face attributes",
+      "passed": true,
+      "face_mesh_count": 36,
+      "face_vertices_scanned_per_capture": 26659,
+      "face_sample_frames": [
+        0,
+        15,
+        30,
+        60,
+        120,
+        180,
+        240,
+        300,
+        360
+      ]
+    },
+    {
+      "name": "turn: real local skin deformation and changing bones",
+      "passed": true,
+      "max_local_deformation": 0.12055115313514259,
+      "changed_bone_count": 9
+    },
+    {
+      "name": "turn: adjacent-frame transform continuity at 60 Hz",
+      "passed": true,
+      "max_vertex_step": 0.057231389461238555,
+      "max_bone_angle_radians": 0.0396615059762717,
+      "allowed_vertex_step": 0.2,
+      "allowed_bone_angle_radians": 0.2
+    },
+    {
+      "name": "turn: full rotation returns to equivalent neutral orientation",
+      "passed": true,
+      "completed": true,
+      "final_rotation_y": 0,
+      "peak_orientation_angle": 3.1415926535897873
+    },
+    {
+      "name": "turn: paused update freezes animation including face geometry",
+      "passed": true,
+      "max_vertex_component_delta": 0,
+      "max_local_bone_quaternion_component_delta": 0,
+      "time_unchanged": true,
+      "face_attributes_and_visibility_unchanged": true
+    },
+    {
+      "name": "turn: resetPose restores finite neutral stance even when paused",
+      "passed": true,
+      "max_vertex_error_from_initial_neutral": 0,
+      "max_bone_quaternion_component_error": 0,
+      "face_matches_initial_neutral": true,
+      "animation_time": 0,
+      "max_subsequent_paused_vertex_error": 0
+    },
+    {
+      "name": "action switching including interrupted turn remains continuous",
+      "passed": true,
+      "sequence": [
+        {
+          "action": "idle",
+          "frames": 60
+        },
+        {
+          "action": "wave",
+          "frames": 90
+        },
+        {
+          "action": "walk",
+          "frames": 90
+        },
+        {
+          "action": "turn",
+          "frames": 90
+        },
+        {
+          "action": "idle",
+          "frames": 90
+        }
+      ],
+      "max_vertex_step": 0.057963611317945814,
+      "max_bone_angle_radians": 0.1509763152893156,
+      "all_finite": true
+    },
+    {
+      "name": "character and face/hair/costume/tuning sources unchanged during independent verification",
+      "passed": true,
+      "files_checked": [
+        "character.js",
+        "face.js",
+        "hair.js",
+        "costume.js",
+        "tuning.js"
+      ]
+    }
+  ],
+  "actions": {
+    "idle": {
+      "frames": 360,
+      "duration_seconds": 6,
+      "sample_vertex_count": 310,
+      "all_finite": true,
+      "changed_bones": [
+        "Spine",
+        "Neck",
+        "Head",
+        "R.Shoulder",
+        "R.Elbow",
+        "R.Hip",
+        "L.Shoulder",
+        "L.Elbow",
+        "L.Hip"
+      ],
+      "max_local_skinned_vertex_deformation": 0.12055115313514246,
+      "max_world_vertex_displacement": 0.12055115313514246,
+      "max_adjacent_frame_world_vertex_step": 0.006484430190313024,
+      "max_adjacent_frame_bone_angle_radians": 0.014772215187560358,
+      "max_root_rotation_angle_radians": 0,
+      "face_geometry": {
+        "all_finite": true,
+        "mesh_count": 36,
+        "vertex_count": 26659,
+        "attributes_checked": 84,
+        "invalid_attributes": [],
+        "sampled_frames": [
+          0,
+          15,
+          30,
+          60,
+          120,
+          180,
+          240,
+          300,
+          360
+        ],
+        "invalid_samples": []
+      },
+      "poses": [
+        {
+          "time_seconds": 0,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7622,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.55,
+            0.9472,
+            0.025
+          ],
+          "left_ankle": [
+            0.2,
+            0.1628,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2,
+            0.1628,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6956,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 0.25,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7649074436,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5660475334,
+            0.9598758734,
+            0.0398810409
+          ],
+          "left_ankle": [
+            0.2091749869,
+            0.1655813168,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2091749869,
+            0.1655813168,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6983074436,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 0.5,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7670154198,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5671803577,
+            0.9610785936,
+            0.04391056642
+          ],
+          "left_ankle": [
+            0.2101419261,
+            0.1677056855,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2101419261,
+            0.1677056855,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.7004154198,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 1,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7678020965,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5662859283,
+            0.9583382875,
+            0.04971401159
+          ],
+          "left_ankle": [
+            0.2102545806,
+            0.1684943788,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102545806,
+            0.1684943788,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.7012020965,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 2,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7585778013,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5651318351,
+            0.9479727658,
+            0.05961919306
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1592701063,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1592701063,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6919778013,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 3,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7589399416,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5660278962,
+            0.95291755,
+            0.05855853543
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1596322466,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1596322466,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6923399416,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 4,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7679300845,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5681976005,
+            0.9683690411,
+            0.04635941664
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1686223894,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1686223894,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.7013300845,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 5,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7617551054,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5699778077,
+            0.9682304976,
+            0.03392529841
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1624474103,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1624474103,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6951551054,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 6,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7567575751,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5703629475,
+            0.9625468575,
+            0.02446571928
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1574498801,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1574498801,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6901575751,
+            -0.18
+          ],
+          "action_completed": false
+        }
+      ],
+      "reset_pose": {
+        "max_vertex_error_from_initial_neutral": 0,
+        "max_bone_quaternion_component_error": 0,
+        "face_matches_initial_neutral": true,
+        "animation_time": 0,
+        "max_subsequent_paused_vertex_error": 0
+      }
+    },
+    "wave": {
+      "frames": 360,
+      "duration_seconds": 6,
+      "sample_vertex_count": 310,
+      "all_finite": true,
+      "changed_bones": [
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "R.Shoulder",
+        "R.Elbow",
+        "R.Wrist",
+        "R.Hip",
+        "L.Shoulder",
+        "L.Elbow",
+        "L.Hip"
+      ],
+      "max_local_skinned_vertex_deformation": 0.8905379304760821,
+      "max_world_vertex_displacement": 0.8905379304760821,
+      "max_adjacent_frame_world_vertex_step": 0.058012997472930046,
+      "max_adjacent_frame_bone_angle_radians": 0.11676625675856364,
+      "max_root_rotation_angle_radians": 0,
+      "face_geometry": {
+        "all_finite": true,
+        "mesh_count": 36,
+        "vertex_count": 26659,
+        "attributes_checked": 84,
+        "invalid_attributes": [],
+        "sampled_frames": [
+          0,
+          15,
+          30,
+          60,
+          120,
+          180,
+          240,
+          300,
+          360
+        ],
+        "invalid_samples": []
+      },
+      "poses": [
+        {
+          "time_seconds": 0,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7622,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.55,
+            0.9472,
+            0.025
+          ],
+          "left_ankle": [
+            0.2,
+            0.1628,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2,
+            0.1628,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6956,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 0.25,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7649074436,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.8029395127,
+            1.37130364,
+            0.02527109827
+          ],
+          "left_ankle": [
+            0.2091749869,
+            0.1655813168,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2091749869,
+            0.1655813168,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6983074436,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 0.5,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7670154198,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.7360402438,
+            1.538931047,
+            0.1674986261
+          ],
+          "left_ankle": [
+            0.2101419261,
+            0.1677056855,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2101419261,
+            0.1677056855,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.7004154198,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 1,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7678020965,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.7093806947,
+            1.555703649,
+            0.2107117842
+          ],
+          "left_ankle": [
+            0.2102545806,
+            0.1684943788,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102545806,
+            0.1684943788,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.7012020965,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 2,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7585778013,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.7248629416,
+            1.538306258,
+            0.1969162243
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1592701063,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1592701063,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6919778013,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 3,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7589399416,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.7280315867,
+            1.540308895,
+            0.1873961178
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1596322466,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1596322466,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6923399416,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 4,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7679300845,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.7188266547,
+            1.558370449,
+            0.1928807497
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1686223894,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1686223894,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.7013300845,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 5,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7617551054,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.7023378889,
+            1.571171895,
+            0.1817010292
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1624474103,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1624474103,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6951551054,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 6,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7567575751,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.6869863759,
+            1.577265288,
+            0.1713888458
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1574498801,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1574498801,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6901575751,
+            -0.18
+          ],
+          "action_completed": false
+        }
+      ],
+      "reset_pose": {
+        "max_vertex_error_from_initial_neutral": 0,
+        "max_bone_quaternion_component_error": 0,
+        "face_matches_initial_neutral": true,
+        "animation_time": 0,
+        "max_subsequent_paused_vertex_error": 0
+      }
+    },
+    "walk": {
+      "frames": 360,
+      "duration_seconds": 6,
+      "sample_vertex_count": 310,
+      "all_finite": true,
+      "changed_bones": [
+        "Pelvis",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "R.Shoulder",
+        "R.Elbow",
+        "R.Hip",
+        "R.Knee",
+        "L.Shoulder",
+        "L.Elbow",
+        "L.Hip",
+        "L.Ankle",
+        "R.Ankle",
+        "L.Knee"
+      ],
+      "max_local_skinned_vertex_deformation": 0.2757965346486403,
+      "max_world_vertex_displacement": 0.2757965346486403,
+      "max_adjacent_frame_world_vertex_step": 0.02324463067263541,
+      "max_adjacent_frame_bone_angle_radians": 0.04022452604439329,
+      "max_root_rotation_angle_radians": 0,
+      "face_geometry": {
+        "all_finite": true,
+        "mesh_count": 36,
+        "vertex_count": 26659,
+        "attributes_checked": 84,
+        "invalid_attributes": [],
+        "sampled_frames": [
+          0,
+          15,
+          30,
+          60,
+          120,
+          180,
+          240,
+          300,
+          360
+        ],
+        "invalid_samples": []
+      },
+      "poses": [
+        {
+          "time_seconds": 0,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7622,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.55,
+            0.9472,
+            0.025
+          ],
+          "left_ankle": [
+            0.2,
+            0.1628,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2,
+            0.1628,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6956,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 0.25,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.779468395,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5699540891,
+            0.9640796079,
+            -0.006816270775
+          ],
+          "left_ankle": [
+            0.2191961239,
+            0.1913717146,
+            -0.1079931287
+          ],
+          "right_ankle": [
+            -0.1946027069,
+            0.1929903148,
+            0.1156134841
+          ],
+          "tail_tip": [
+            1.077190687,
+            0.7352414396,
+            -0.2023357609
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 0.5,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7676848329,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5700054005,
+            0.9562398553,
+            0.02249323146
+          ],
+          "left_ankle": [
+            0.2182807914,
+            0.172392774,
+            -0.06552551315
+          ],
+          "right_ankle": [
+            -0.1995756244,
+            0.175274424,
+            0.1003587195
+          ],
+          "tail_tip": [
+            1.07801654,
+            0.7175925804,
+            -0.1964857924
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 1,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7691546251,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5607626858,
+            0.9894343587,
+            0.1316728833
+          ],
+          "left_ankle": [
+            0.1983351635,
+            0.1785508153,
+            0.1048270641
+          ],
+          "right_ankle": [
+            -0.2190913035,
+            0.1760983114,
+            -0.08094008905
+          ],
+          "tail_tip": [
+            1.081625587,
+            0.6840795769,
+            -0.1615050619
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 2,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7612738372,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5580104255,
+            0.9855272086,
+            0.1467442965
+          ],
+          "left_ankle": [
+            0.1969545696,
+            0.1727298271,
+            0.1099283991
+          ],
+          "right_ankle": [
+            -0.2197359023,
+            0.1707705101,
+            -0.09574617119
+          ],
+          "tail_tip": [
+            1.08176474,
+            0.6741804915,
+            -0.1594846588
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 3,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7629606728,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5582740232,
+            0.9950318452,
+            0.1508063933
+          ],
+          "left_ankle": [
+            0.1956617787,
+            0.1765225779,
+            0.114635653
+          ],
+          "right_ankle": [
+            -0.2202716052,
+            0.1751512677,
+            -0.1094153814
+          ],
+          "tail_tip": [
+            1.081887219,
+            0.6739931354,
+            -0.1576083171
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 4,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7732477043,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5610900551,
+            1.011542715,
+            0.1441193688
+          ],
+          "left_ankle": [
+            0.1944698542,
+            0.1889032683,
+            0.1188662001
+          ],
+          "right_ankle": [
+            -0.2207084925,
+            0.1881914019,
+            -0.1219384668
+          ],
+          "tail_tip": [
+            1.081993866,
+            0.6825610903,
+            -0.1558870506
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 5,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7683328382,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5644146564,
+            1.016543293,
+            0.1356772902
+          ],
+          "left_ankle": [
+            0.1933897285,
+            0.1860118297,
+            0.1226058858
+          ],
+          "right_ankle": [
+            -0.2210570697,
+            0.185996418,
+            -0.1332342517
+          ],
+          "tail_tip": [
+            1.082085475,
+            0.6760941078,
+            -0.1543327644
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 6,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7645499307,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5665349184,
+            1.016480968,
+            0.1294466068
+          ],
+          "left_ankle": [
+            0.1924310308,
+            0.1841264704,
+            0.1258399414
+          ],
+          "right_ankle": [
+            -0.2213283657,
+            0.1848114725,
+            -0.1432374494
+          ],
+          "tail_tip": [
+            1.082162894,
+            0.6709367296,
+            -0.1529561983
+          ],
+          "action_completed": false
+        }
+      ],
+      "reset_pose": {
+        "max_vertex_error_from_initial_neutral": 0,
+        "max_bone_quaternion_component_error": 0,
+        "face_matches_initial_neutral": true,
+        "animation_time": 0,
+        "max_subsequent_paused_vertex_error": 0
+      }
+    },
+    "turn": {
+      "frames": 360,
+      "duration_seconds": 6,
+      "sample_vertex_count": 310,
+      "all_finite": true,
+      "changed_bones": [
+        "Spine",
+        "Neck",
+        "Head",
+        "R.Shoulder",
+        "R.Elbow",
+        "R.Hip",
+        "L.Shoulder",
+        "L.Elbow",
+        "L.Hip"
+      ],
+      "max_local_skinned_vertex_deformation": 0.12055115313514259,
+      "max_world_vertex_displacement": 2.915017725777478,
+      "max_adjacent_frame_world_vertex_step": 0.057231389461238555,
+      "max_adjacent_frame_bone_angle_radians": 0.0396615059762717,
+      "max_root_rotation_angle_radians": 3.1415926535897873,
+      "face_geometry": {
+        "all_finite": true,
+        "mesh_count": 36,
+        "vertex_count": 26659,
+        "attributes_checked": 84,
+        "invalid_attributes": [],
+        "sampled_frames": [
+          0,
+          15,
+          30,
+          60,
+          120,
+          180,
+          240,
+          300,
+          360
+        ],
+        "invalid_samples": []
+      },
+      "poses": [
+        {
+          "time_seconds": 0,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7622,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.55,
+            0.9472,
+            0.025
+          ],
+          "left_ankle": [
+            0.2,
+            0.1628,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2,
+            0.1628,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6956,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 0.25,
+          "root_quaternion": [
+            0,
+            0.03527423889821394,
+            0,
+            0.9993776703880028
+          ],
+          "pelvis": [
+            0,
+            0.7649074436,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5618271035,
+            0.9598758734,
+            0.07969073504
+          ],
+          "left_ankle": [
+            0.2125321973,
+            0.1655813168,
+            0.04011533687
+          ],
+          "right_ankle": [
+            -0.2047766942,
+            0.1655813168,
+            0.0696109233
+          ],
+          "tail_tip": [
+            1.064621549,
+            0.6983074436,
+            -0.2556970014
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 0.5,
+          "root_quaternion": [
+            0,
+            0.13458070850712617,
+            0,
+            0.99090263542778
+          ],
+          "pelvis": [
+            0,
+            0.7670154198,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5349233455,
+            0.9610785936,
+            0.1935941901
+          ],
+          "left_ankle": [
+            0.2171989605,
+            0.1677056855,
+            -0.003039848954
+          ],
+          "right_ankle": [
+            -0.1878605571,
+            0.1677056855,
+            0.1090552162
+          ],
+          "tail_tip": [
+            0.9928698547,
+            0.7004154198,
+            -0.4615294699
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 1,
+          "root_quaternion": [
+            0,
+            0.4713967368259986,
+            0,
+            0.8819212643483545
+          ],
+          "pelvis": [
+            0,
+            0.7678020965,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.2732759152,
+            0.9583382875,
+            0.4984691663
+          ],
+          "left_ankle": [
+            0.162542015,
+            0.1684943788,
+            -0.1442639318
+          ],
+          "right_ankle": [
+            -0.07108035768,
+            0.1684943788,
+            0.2053766575
+          ],
+          "tail_tip": [
+            0.4503513214,
+            0.7012020965,
+            -0.9979898232
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 2,
+          "root_quaternion": [
+            0,
+            1,
+            0,
+            2.9478122039827746e-15
+          ],
+          "pelvis": [
+            0,
+            0.7585778013,
+            0
+          ],
+          "wave_hand_wrist": [
+            0.5651318351,
+            0.9479727658,
+            -0.05961919306
+          ],
+          "left_ankle": [
+            -0.2102558384,
+            0.1592701063,
+            -0.055
+          ],
+          "right_ankle": [
+            0.2102558384,
+            0.1592701063,
+            -0.055
+          ],
+          "tail_tip": [
+            -1.08,
+            0.6919778013,
+            0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 3,
+          "root_quaternion": [
+            0,
+            0.47139673682600214,
+            0,
+            -0.8819212643483526
+          ],
+          "pelvis": [
+            0,
+            0.7589399416,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.3631578929,
+            0.95291755,
+            -0.4381016162
+          ],
+          "left_ankle": [
+            0.07108105648,
+            0.1596322466,
+            0.2053777033
+          ],
+          "right_ankle": [
+            -0.1625427138,
+            0.1596322466,
+            -0.1442649777
+          ],
+          "tail_tip": [
+            0.7496803819,
+            0.6923399416,
+            0.7979845393
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 4,
+          "root_quaternion": [
+            0,
+            1.2246467991473532e-16,
+            0,
+            -1
+          ],
+          "pelvis": [
+            0,
+            0.7679300845,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5681976005,
+            0.9683690411,
+            0.04635941664
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1686223894,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1686223894,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.7013300845,
+            -0.18
+          ],
+          "action_completed": false
+        },
+        {
+          "time_seconds": 5,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7617551054,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5699778077,
+            0.9682304976,
+            0.03392529841
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1624474103,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1624474103,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6951551054,
+            -0.18
+          ],
+          "action_completed": true
+        },
+        {
+          "time_seconds": 6,
+          "root_quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "pelvis": [
+            0,
+            0.7567575751,
+            0
+          ],
+          "wave_hand_wrist": [
+            -0.5703629475,
+            0.9625468575,
+            0.02446571928
+          ],
+          "left_ankle": [
+            0.2102558384,
+            0.1574498801,
+            0.055
+          ],
+          "right_ankle": [
+            -0.2102558384,
+            0.1574498801,
+            0.055
+          ],
+          "tail_tip": [
+            1.08,
+            0.6901575751,
+            -0.18
+          ],
+          "action_completed": true
+        }
+      ],
+      "reset_pose": {
+        "max_vertex_error_from_initial_neutral": 0,
+        "max_bone_quaternion_component_error": 0,
+        "face_matches_initial_neutral": true,
+        "animation_time": 0,
+        "max_subsequent_paused_vertex_error": 0
+      }
+    }
+  },
+  "transitions": {
+    "sequence": [
+      {
+        "action": "idle",
+        "frames": 60
+      },
+      {
+        "action": "wave",
+        "frames": 90
+      },
+      {
+        "action": "walk",
+        "frames": 90
+      },
+      {
+        "action": "turn",
+        "frames": 90
+      },
+      {
+        "action": "idle",
+        "frames": 90
+      }
+    ],
+    "max_vertex_step": 0.057963611317945814,
+    "max_bone_angle_radians": 0.1509763152893156,
+    "all_finite": true
+  },
+  "summary": {
+    "passed": 43,
+    "failed": 0
+  },
+  "passed": true
+}

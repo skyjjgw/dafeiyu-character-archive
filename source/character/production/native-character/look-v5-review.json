@@ -1,0 +1,58 @@
+{
+  "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\dafeiyu-native-v5-study.blend",
+  "sourceSHA256": "118d7f589e3b1fa97815cc3a37b305c4c9f6372e531b19794dd0533ae26ec5b3",
+  "renders": [
+    {
+      "name": "attentive",
+      "headYaw": 0,
+      "controls": {
+        "smile": 0.25,
+        "cheek": 0.15,
+        "gazeX": 0.2,
+        "gazeY": -0.05
+      },
+      "render": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\look-v5\\attentive.png"
+    },
+    {
+      "name": "turn-halfblink",
+      "headYaw": 0.4,
+      "controls": {
+        "smile": 0.3,
+        "aa": 0.25,
+        "blink": 0.5,
+        "gazeX": -0.25
+      },
+      "render": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\look-v5\\turn-halfblink.png"
+    },
+    {
+      "name": "laugh",
+      "headYaw": -0.18,
+      "controls": {
+        "smile": 0.7,
+        "aa": 0.55,
+        "blink": 0.95,
+        "cheek": 0.4
+      },
+      "render": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\look-v5\\laugh.png"
+    },
+    {
+      "name": "sad",
+      "headYaw": 0.15,
+      "controls": {
+        "sad": 0.65,
+        "gazeY": -0.2
+      },
+      "render": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\look-v5\\sad.png"
+    },
+    {
+      "name": "head-turn-70",
+      "headYaw": 1.2217304763960306,
+      "controls": {
+        "gazeX": -0.25,
+        "smile": 0.15
+      },
+      "render": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\look-v5\\head-turn-70.png"
+    }
+  ],
+  "scope": "Actual native assembled geometry and continuous expression control samples. Hair here follows the head rigidly; these static reviews do not demonstrate physical secondary motion, acting continuity or final quality."
+}

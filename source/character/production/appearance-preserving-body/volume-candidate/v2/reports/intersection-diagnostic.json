@@ -1,0 +1,56 @@
+{
+  "schema": "dafeiyu.hollow-skirt.strict-crossing.v2",
+  "method": "Actual skinned sheets, strict non-adjacent segment/triangle interior intersections. Shared vertices, coplanar and tangential contacts excluded. Only these two garments; not body collision, swept collision or a continuous solver.",
+  "states": [
+    {
+      "name": "neutral",
+      "time": 0,
+      "appliedPose": {
+        "yaw": 0,
+        "pitch": 0,
+        "blink": 0,
+        "talking": 0,
+        "gazeX": 0,
+        "gazeY": 0,
+        "mode": "manual",
+        "wave": 0,
+        "walk": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "testedCandidatePairs": 82109,
+      "strictCrossings": {
+        "outerSelf": 0,
+        "liningSelf": 0,
+        "betweenLayers": 0
+      },
+      "firstCrossings": []
+    },
+    {
+      "name": "source-walk",
+      "time": 1.1,
+      "appliedPose": {
+        "yaw": 0,
+        "pitch": 0,
+        "blink": 0,
+        "talking": 0,
+        "gazeX": 0,
+        "gazeY": 0,
+        "mode": "manual",
+        "wave": 0,
+        "walk": 1,
+        "happy": 0,
+        "sad": 0
+      },
+      "testedCandidatePairs": 82486,
+      "strictCrossings": {
+        "outerSelf": 0,
+        "liningSelf": 0,
+        "betweenLayers": 0
+      },
+      "firstCrossings": []
+    }
+  ],
+  "sampledStrictCrossingPass": true,
+  "physicsPass": false
+}

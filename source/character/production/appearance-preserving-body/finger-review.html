@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>原人物手部 · 关节研究</title>
+<style>:root{color-scheme:dark;font:14px/1.6 "Microsoft YaHei UI",sans-serif;background:#17231e;color:#dce5dd}body{max-width:800px;margin:24px auto;padding:0 16px}h1{font-size:21px}label{display:inline-flex;align-items:center;gap:8px;margin:8px 14px 8px 0}select,input,button{font:inherit}canvas{display:block;width:640px;height:480px;max-width:100%;background:#243329}p{color:#b4c2b8}a{color:#aed3c8}fieldset{border:1px solid #527061;margin:16px 0}input[type=range]{width:170px}</style>
+<h1>原人物手部 · 真实指骨研究</h1><p>沿用原来的手形网格、UV 和原画，只增加关节与蒙皮。此处用于查变形；尚未加入手指碰撞和抓握物理，不替换原人物页面。</p>
+<label>手<select id="side"><option value="left">左手</option><option value="right">右手</option></select></label>
+<label>视角<select id="view"><option value="0">正面</option><option value="45">斜侧</option><option value="90">侧面</option><option value="180">背面</option></select></label>
+<label>整体弯曲<input id="grip" type="range" min="0" max="1" step=".01" value="0"></label>
+<label>拇指对掌<input id="opposition" type="range" min="0" max="1" step=".01" value="0"></label>
+<fieldset><legend>独立手指（加在整体弯曲上）</legend><div id="digits"></div></fieldset>
+<div id="stage"></div><p id="status" role="status">正在加载原画手部…</p><a id="export" download="source-finger-study.png" hidden>保存当前研究图</a>
+<script type="module" src="finger-review.bundle.js"></script></html>

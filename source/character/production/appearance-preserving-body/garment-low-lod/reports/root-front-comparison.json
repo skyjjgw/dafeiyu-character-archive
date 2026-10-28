@@ -1,0 +1,14 @@
+{
+  "schema": "dafeiyu.garment-low-lod.front-static-comparison.v1",
+  "binarySha256": "30f3725bb07ec69812eb80a5f4fd0414cc1506d752eefc7a46e49529114c5f45",
+  "resolution": [
+    640,
+    704
+  ],
+  "rgbRMSE": 0.03506538130277626,
+  "maxRGBDifference": 22,
+  "pixelsRGBDifferenceOver1": 7,
+  "alphaSilhouetteDifference": 0,
+  "physicsPass": false,
+  "visualAcceptance": "Pending actual review; numeric similarity is not final quality"
+}

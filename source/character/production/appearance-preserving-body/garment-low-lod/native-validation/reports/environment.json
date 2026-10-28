@@ -1,0 +1,10 @@
+{
+  "cpu": "13th Gen Intel(R) Core(TM) i9-13980HX",
+  "logical_processors": 32,
+  "os": "Microsoft Windows NT 10.0.22631.0",
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "command_mode": "--headless",
+  "physics": "official built-in Jolt",
+  "renderer": "gl_compatibility headless; no GPU cloth",
+  "timestamp_local": "2026-10-28T21:26:10.8318157+08:00"
+}

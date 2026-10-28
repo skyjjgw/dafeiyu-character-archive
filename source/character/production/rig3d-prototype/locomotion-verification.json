@@ -1,0 +1,145 @@
+{
+  "createdAt": "2026-10-25T18:36:52.335Z",
+  "source": "locomotion.js",
+  "sourceSHA256": "d0e96dbd9339ad2573e66b051e02f604f99113ee8ee48754f97661ea06eab35c",
+  "result": "pass",
+  "tuning": {
+    "bodyScale": 0.74,
+    "headScale": 1.08,
+    "headWidth": 1,
+    "eyeWidth": 1,
+    "eyeHeight": 1,
+    "eyeSpacing": 1,
+    "irisScale": 1,
+    "shadingToony": 0.82,
+    "shadingShift": 0.06,
+    "outlineWidth": 0.0045,
+    "hairSway": 1,
+    "tailSway": 1,
+    "dressColor": "#293b60",
+    "tailColor": "#304c7b",
+    "tailLightColor": "#5e78a5",
+    "exposure": 1.15
+  },
+  "checks": [
+    {
+      "name": "Real Rapier WASM world: gravity, two rigid bodies, one floor and one capsule",
+      "pass": true
+    },
+    {
+      "name": "Bind-derived legs and shoe offsets initialize at floor, with fixed lengths",
+      "pass": true
+    },
+    {
+      "name": "Idle remains grounded without horizontal drift",
+      "pass": true
+    },
+    {
+      "name": "Walking actually translates forward and follows a radius .50 path",
+      "pass": true
+    },
+    {
+      "name": "Long walk stays on a small circle and exercises both stance and swing",
+      "pass": true
+    },
+    {
+      "name": "Walk-to-idle finishes the airborne step and holds both soles on floor",
+      "pass": true
+    },
+    {
+      "name": "Authored four-second turn completes a full revolution without Euler branch reversal",
+      "pass": true
+    },
+    {
+      "name": "Wave retains grounded position and feet",
+      "pass": true
+    },
+    {
+      "name": "Interrupted turn settles feet without a heading snap or floating stance",
+      "pass": true
+    },
+    {
+      "name": "Analytic IK preserves both links, rather than stretching unreachable legs",
+      "pass": true
+    },
+    {
+      "name": "All sampled stance targets remain reachable",
+      "pass": true
+    },
+    {
+      "name": "Sole points and actual ankle-weighted shoe vertices do not penetrate floor",
+      "pass": true
+    },
+    {
+      "name": "Support feet do not slide relative to their locked world anchors",
+      "pass": true
+    },
+    {
+      "name": "Walking and turning have continuous foot trajectories at 60Hz",
+      "pass": true
+    },
+    {
+      "name": "Pause is a strict no-op",
+      "pass": true
+    },
+    {
+      "name": "Reset returns to the original stage center and forward, on floor",
+      "pass": true
+    },
+    {
+      "name": "Zero-substep updates do not accumulate pelvis crouching",
+      "pass": true
+    },
+    {
+      "name": "Long frames are bounded to eight 1/120-second physics steps",
+      "pass": true
+    },
+    {
+      "name": "30/60/120/240Hz walking produces the same path and heading",
+      "pass": true
+    },
+    {
+      "name": "Turn no-substep path still applies finite yaw and grounded IK",
+      "pass": true
+    },
+    {
+      "name": "Bind-derived IK supports bodyScale=0.68",
+      "pass": true
+    },
+    {
+      "name": "Bind-derived IK supports bodyScale=0.74",
+      "pass": true
+    },
+    {
+      "name": "Bind-derived IK supports bodyScale=1",
+      "pass": true
+    },
+    {
+      "name": "Upright translated/yaw-rotated uniformly-scaled parent has valid world-space IK",
+      "pass": true
+    },
+    {
+      "name": "Authored turns do not include the parent yaw as an extra first-frame rotation",
+      "pass": true
+    },
+    {
+      "name": "Dispose frees the Rapier world and subsequent calls are no-ops",
+      "pass": true
+    }
+  ],
+  "measured": {
+    "maxLengthError": 1.6653345369377348e-16,
+    "maxSolePenetration": 3.3306690738754696e-16,
+    "maxStanceAnchorError": 6.873358824899141e-16,
+    "maxUnreachable": 0,
+    "maxSoleFrameMovement60Hz": 0.027524944344536548,
+    "maxShoeVertexPenetration": 3.382710778154774e-16,
+    "maxRootGroundDeviation": 0.005917414665222217,
+    "maximumRootTravel": 0.9999998687628837,
+    "swingHeight": 0.06497514996604967,
+    "stanceSamples": 4820,
+    "swingSamples": 1840,
+    "sampledShoeVertices": 1599780
+  },
+  "scope": "Actual model + Rapier WASM, CPU numerical checks. Not visual approval or proof of whole-body dynamics."
+}

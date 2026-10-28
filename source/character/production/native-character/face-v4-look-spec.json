@@ -1,0 +1,2086 @@
+{
+  "schema": "dafeiyu.face.look.v1",
+  "asset": "face-v4",
+  "status": "extracted_native_contract_runtime_translation_pending_actual_GPU_review",
+  "source": {
+    "blend": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\face-v4.blend",
+    "blend_sha256": "c111bea5a011caf29786bc19c6092b6882197edeb0d004c9e6397bcb3aa0ad54",
+    "build_script": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_face_v4.py",
+    "build_script_sha256": "90cd29a4346fffe96a547722758b7a7199fe77c9f297da3b6412adc09cccac04",
+    "read_only": true,
+    "no_blend_save": true,
+    "blender": "4.5.15 LTS",
+    "source_function_locations": {
+      "iris_material": {
+        "line": 269,
+        "sha256": "a6a95ad4f7b0567d9bd639b21f99bd638db672e6119d1efca8a519117b00de24"
+      },
+      "native_toon": {
+        "line": 215,
+        "sha256": "042fa7dd95078346464e1643a2a5452cf2ffb882251e86caff23b0d4e76e85b1"
+      },
+      "albedo": {
+        "line": 465,
+        "sha256": "836474f494638519680879d918e5c07a8af965db9cbbfc264f2edf802c0be571"
+      },
+      "add_skin_paint": {
+        "line": 481,
+        "sha256": "9dc5b7c3964c5949ca196522fe0f72fd6f99dbd15fc36b87e934da1a1886b66b"
+      },
+      "add_shapes": {
+        "line": 515,
+        "sha256": "67259e531df39602533e4fe1dca59661cbc8c2755fe1026abc528c6b0e85ec0d"
+      },
+      "eye_inner": {
+        "line": 153,
+        "sha256": "1b978c792350847d7172a9029290a30e6864eea575bc33da05fa1fdb34825744"
+      },
+      "mouth_inner": {
+        "line": 395,
+        "sha256": "fe863f45ae95ac8e2d5a3e75d351c72f35cb52e59f8e2d9602121be1c6c7beff"
+      },
+      "body_weights": {
+        "line": 315,
+        "sha256": "74b75b567357f2e62e494a52012f61f5867e23954d29bc76a800aee2bedc9db3"
+      },
+      "tube_object": {
+        "line": 559,
+        "sha256": "a8367eb7e7e46f1e3556d7dfd55c5505e0edd6a643662fb72194dde8c3d9f83a"
+      }
+    }
+  },
+  "coordinates": {
+    "native": "X right, -Y forward, Z up; HeadRoot origin eye line",
+    "godot": "X right, +Y up, +Z forward",
+    "native_to_godot_matrix3": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0
+      ]
+    ],
+    "generated": "Per-eye undeformed primitive local AABB normalized 0..1. Do not use world coordinates or post-skin world normals.",
+    "uv_reconstruction": "q.xy=sin(pi*v_blender)*[cos(u_direction*2*pi*u+phase),sin(...)]; q.z=z_cos_sign*cos(pi*v_blender); Generated=(q+1)/2",
+    "uv_reconstruction_stage": "Prefer vertex-stage reconstruction and interpolate Generated to fragment, matching native ORCO interpolation over the actual sphere triangles.",
+    "gltf_uv": "Blender 4.5 exporter writes (u,1-v_blender); reconstruct v_blender=1-UV.y when importer preserves glTF TEXCOORD_0. Confirm once on actual exported eyes.",
+    "exporter_uv_evidence": "Blender 4.5 io_scene_gltf2/blender/exp/primitive_extract.py:1421-1422, uvs[:,1]*=-1 then +=1"
+  },
+  "eyes": {
+    "L": {
+      "radius": 0.2035,
+      "depth": 0.233,
+      "center": [
+        -0.258,
+        0.009
+      ],
+      "iris_radii": [
+        0.094,
+        0.11
+      ],
+      "offset_x": 0.014,
+      "offset_z": -0.008,
+      "object": "Eye.L / closed spherical globe",
+      "material": "Eye.L / spherical iris, pupil and painted glints",
+      "diameter": 0.407,
+      "generated_center": [
+        0.5343980343980343,
+        0.48034398034398035
+      ],
+      "uv_to_native_unit_sphere": {
+        "u_direction": 1,
+        "phase_radians": 3.1415926248803645,
+        "z_cos_sign": -1,
+        "maximum_unit_sphere_error": 1.1876141336662338e-06,
+        "mean_unit_sphere_error": 3.8961119965860365e-07,
+        "samples": 6400,
+        "source_uv_layer": "UVMap",
+        "local_aabb_min": [
+          -0.20349985361099243,
+          -0.2034999132156372,
+          -0.20350000262260437
+        ],
+        "local_aabb_max": [
+          0.2034999579191208,
+          0.20350000262260437,
+          0.20350000262260437
+        ],
+        "mesh_to_headroot_native_rest": [
+          [
+            1.0,
+            -8.742277657347586e-08,
+            0.0,
+            -0.257999986410141
+          ],
+          [
+            8.742277657347586e-08,
+            1.0,
+            -7.64274186065882e-15,
+            -0.2329999953508377
+          ],
+          [
+            0.0,
+            7.64274186065882e-15,
+            1.0,
+            0.008999999612569809
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "glints": [
+        {
+          "center_from_iris_xz_m": [
+            -0.022,
+            0.061
+          ],
+          "radii_m": [
+            0.031,
+            0.022
+          ],
+          "soft": 0.82,
+          "strength": 1,
+          "srgb_hex": "#fffdf8",
+          "linear_rgb": [
+            1.0,
+            0.9822505503331171,
+            0.938685728457888
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            -0.01,
+            0.072
+          ],
+          "radii_m": [
+            0.016,
+            0.011
+          ],
+          "soft": 0.82,
+          "strength": 0.88,
+          "srgb_hex": "#f5fbfb",
+          "linear_rgb": [
+            0.9130986517934192,
+            0.9646862478944651,
+            0.9646862478944651
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            -0.006,
+            0.018
+          ],
+          "radii_m": [
+            0.0048,
+            0.0048
+          ],
+          "soft": 0.82,
+          "strength": 0.92,
+          "srgb_hex": "#eef8fb",
+          "linear_rgb": [
+            0.8549926081242338,
+            0.938685728457888,
+            0.9646862478944651
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            0.035,
+            -0.049
+          ],
+          "radii_m": [
+            0.006,
+            0.0041
+          ],
+          "soft": 0.82,
+          "strength": 0.84,
+          "srgb_hex": "#def0f2",
+          "linear_rgb": [
+            0.7304607400903537,
+            0.8713671191987972,
+            0.8879231178819663
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            0.047,
+            0.033
+          ],
+          "radii_m": [
+            0.0032,
+            0.0041
+          ],
+          "soft": 0.82,
+          "strength": 0.65,
+          "srgb_hex": "#a7cbdd",
+          "linear_rgb": [
+            0.386429433787049,
+            0.5972017883637634,
+            0.7230551289219693
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            -0.051,
+            0.027
+          ],
+          "radii_m": [
+            0.0025,
+            0.003
+          ],
+          "soft": 0.82,
+          "strength": 0.72,
+          "srgb_hex": "#d6e7ed",
+          "linear_rgb": [
+            0.6724431569576875,
+            0.799102738014409,
+            0.846873231509858
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            -0.05,
+            -0.041
+          ],
+          "radii_m": [
+            0.002,
+            0.0023
+          ],
+          "soft": 0.82,
+          "strength": 0.65,
+          "srgb_hex": "#bfd8e1",
+          "linear_rgb": [
+            0.5209955732043543,
+            0.6866853124353135,
+            0.7529422167760779
+          ]
+        }
+      ],
+      "actual_node_audit": {
+        "material": "Eye.L / spherical iris, pupil and painted glints",
+        "nodes": 156,
+        "links": 214,
+        "image_texture_nodes": 0,
+        "ramps": [
+          {
+            "label": "Measured deep navy to muted blue layers",
+            "interpolation": "LINEAR",
+            "elements": [
+              {
+                "position": 0.0,
+                "linear_rgba": [
+                  0.27049779891967773,
+                  0.42869049310684204,
+                  0.5028864741325378,
+                  1.0
+                ]
+              },
+              {
+                "position": 0.15000000596046448,
+                "linear_rgba": [
+                  0.11697066575288773,
+                  0.28744083642959595,
+                  0.423267662525177,
+                  1.0
+                ]
+              },
+              {
+                "position": 0.33000001311302185,
+                "linear_rgba": [
+                  0.03071344457566738,
+                  0.11443537473678589,
+                  0.2622506618499756,
+                  1.0
+                ]
+              },
+              {
+                "position": 0.5299999713897705,
+                "linear_rgba": [
+                  0.009721217676997185,
+                  0.04373503103852272,
+                  0.14126329123973846,
+                  1.0
+                ]
+              },
+              {
+                "position": 0.7599999904632568,
+                "linear_rgba": [
+                  0.005605391692370176,
+                  0.017641954123973846,
+                  0.0666259378194809,
+                  1.0
+                ]
+              },
+              {
+                "position": 1.0,
+                "linear_rgba": [
+                  0.0033465358428657055,
+                  0.00802319310605526,
+                  0.03071344457566738,
+                  1.0
+                ]
+              }
+            ]
+          }
+        ],
+        "labelled_mix_layers": [
+          {
+            "label": "Soft dark limbal edge",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.0033465358428657055,
+              0.009721217676997185,
+              0.040915198624134064,
+              1.0
+            ],
+            "strength": 0.6499999761581421
+          },
+          {
+            "label": "Diffuse lower blue atmosphere",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.177888423204422,
+              0.3613067865371704,
+              0.4793201684951782,
+              1.0
+            ],
+            "strength": 0.47999998927116394
+          },
+          {
+            "label": "Soft lower left light petal",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.43415364623069763,
+              0.6104955673217773,
+              0.6444796919822693,
+              1.0
+            ],
+            "strength": 0.4399999976158142
+          },
+          {
+            "label": "Soft lower right light petal",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.5457244515419006,
+              0.68668532371521,
+              0.6938717365264893,
+              1.0
+            ],
+            "strength": 0.41999998688697815
+          },
+          {
+            "label": "Faint joined lower petal light",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.6172065734863281,
+              0.7454041838645935,
+              0.7379103899002075,
+              1.0
+            ],
+            "strength": 0.23999999463558197
+          },
+          {
+            "label": "Pupil halo",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.008568125776946545,
+              0.040915198624134064,
+              0.109461709856987,
+              1.0
+            ],
+            "strength": 0.25
+          },
+          {
+            "label": "Deep oval pupil",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.0036765073891729116,
+              0.012983032502233982,
+              0.03688944876194,
+              1.0
+            ],
+            "strength": 1.0
+          },
+          {
+            "label": "Source-measured glint 1",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              1.0,
+              0.9822505712509155,
+              0.9386857151985168,
+              1.0
+            ],
+            "strength": 1.0
+          },
+          {
+            "label": "Source-measured glint 2",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.9130986332893372,
+              0.9646862745285034,
+              0.9646862745285034,
+              1.0
+            ],
+            "strength": 0.8799999952316284
+          },
+          {
+            "label": "Source-measured glint 3",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.8549926280975342,
+              0.9386857151985168,
+              0.9646862745285034,
+              1.0
+            ],
+            "strength": 0.9200000166893005
+          },
+          {
+            "label": "Source-measured glint 4",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.7304607629776001,
+              0.8713670969009399,
+              0.8879231214523315,
+              1.0
+            ],
+            "strength": 0.8399999737739563
+          },
+          {
+            "label": "Source-measured glint 5",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.38642942905426025,
+              0.5972017645835876,
+              0.7230551242828369,
+              1.0
+            ],
+            "strength": 0.6499999761581421
+          },
+          {
+            "label": "Source-measured glint 6",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.672443151473999,
+              0.7991027235984802,
+              0.8468732237815857,
+              1.0
+            ],
+            "strength": 0.7200000286102295
+          },
+          {
+            "label": "Source-measured glint 7",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.520995557308197,
+              0.68668532371521,
+              0.7529422044754028,
+              1.0
+            ],
+            "strength": 0.6499999761581421
+          },
+          {
+            "label": "Soft upper scleral tone",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.366252601146698,
+              0.37123769521713257,
+              0.423267662525177,
+              1.0
+            ],
+            "strength": 0.46000000834465027
+          }
+        ]
+      }
+    },
+    "R": {
+      "radius": 0.2025,
+      "depth": 0.233,
+      "center": [
+        0.263,
+        0.006
+      ],
+      "iris_radii": [
+        0.092,
+        0.108
+      ],
+      "offset_x": -0.014,
+      "offset_z": -0.006,
+      "object": "Eye.R / closed spherical globe",
+      "material": "Eye.R / spherical iris, pupil and painted glints",
+      "diameter": 0.405,
+      "generated_center": [
+        0.4654320987654321,
+        0.48518518518518516
+      ],
+      "uv_to_native_unit_sphere": {
+        "u_direction": 1,
+        "phase_radians": 3.1415926289844585,
+        "z_cos_sign": -1,
+        "maximum_unit_sphere_error": 1.6177368035260636e-06,
+        "mean_unit_sphere_error": 2.3273270968038747e-07,
+        "samples": 6400,
+        "source_uv_layer": "UVMap",
+        "local_aabb_min": [
+          -0.20250000059604645,
+          -0.20249998569488525,
+          -0.20250000059604645
+        ],
+        "local_aabb_max": [
+          0.20249998569488525,
+          0.20250001549720764,
+          0.20250000059604645
+        ],
+        "mesh_to_headroot_native_rest": [
+          [
+            1.0,
+            -8.742277657347586e-08,
+            0.0,
+            0.2630000114440918
+          ],
+          [
+            8.742277657347586e-08,
+            1.0,
+            -7.64274186065882e-15,
+            -0.2329999953508377
+          ],
+          [
+            0.0,
+            7.64274186065882e-15,
+            1.0,
+            0.006000000052154064
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "glints": [
+        {
+          "center_from_iris_xz_m": [
+            0.022,
+            0.061
+          ],
+          "radii_m": [
+            0.031,
+            0.022
+          ],
+          "soft": 0.82,
+          "strength": 1,
+          "srgb_hex": "#fffdf8",
+          "linear_rgb": [
+            1.0,
+            0.9822505503331171,
+            0.938685728457888
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            0.01,
+            0.072
+          ],
+          "radii_m": [
+            0.016,
+            0.011
+          ],
+          "soft": 0.82,
+          "strength": 0.88,
+          "srgb_hex": "#f5fbfb",
+          "linear_rgb": [
+            0.9130986517934192,
+            0.9646862478944651,
+            0.9646862478944651
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            0.006,
+            0.018
+          ],
+          "radii_m": [
+            0.0048,
+            0.0048
+          ],
+          "soft": 0.82,
+          "strength": 0.92,
+          "srgb_hex": "#eef8fb",
+          "linear_rgb": [
+            0.8549926081242338,
+            0.938685728457888,
+            0.9646862478944651
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            -0.035,
+            -0.049
+          ],
+          "radii_m": [
+            0.006,
+            0.0041
+          ],
+          "soft": 0.82,
+          "strength": 0.84,
+          "srgb_hex": "#def0f2",
+          "linear_rgb": [
+            0.7304607400903537,
+            0.8713671191987972,
+            0.8879231178819663
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            -0.047,
+            0.033
+          ],
+          "radii_m": [
+            0.0032,
+            0.0041
+          ],
+          "soft": 0.82,
+          "strength": 0.65,
+          "srgb_hex": "#a7cbdd",
+          "linear_rgb": [
+            0.386429433787049,
+            0.5972017883637634,
+            0.7230551289219693
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            0.051,
+            0.027
+          ],
+          "radii_m": [
+            0.0025,
+            0.003
+          ],
+          "soft": 0.82,
+          "strength": 0.72,
+          "srgb_hex": "#d6e7ed",
+          "linear_rgb": [
+            0.6724431569576875,
+            0.799102738014409,
+            0.846873231509858
+          ]
+        },
+        {
+          "center_from_iris_xz_m": [
+            0.05,
+            -0.041
+          ],
+          "radii_m": [
+            0.002,
+            0.0023
+          ],
+          "soft": 0.82,
+          "strength": 0.65,
+          "srgb_hex": "#bfd8e1",
+          "linear_rgb": [
+            0.5209955732043543,
+            0.6866853124353135,
+            0.7529422167760779
+          ]
+        }
+      ],
+      "actual_node_audit": {
+        "material": "Eye.R / spherical iris, pupil and painted glints",
+        "nodes": 156,
+        "links": 214,
+        "image_texture_nodes": 0,
+        "ramps": [
+          {
+            "label": "Measured deep navy to muted blue layers",
+            "interpolation": "LINEAR",
+            "elements": [
+              {
+                "position": 0.0,
+                "linear_rgba": [
+                  0.27049779891967773,
+                  0.42869049310684204,
+                  0.5028864741325378,
+                  1.0
+                ]
+              },
+              {
+                "position": 0.15000000596046448,
+                "linear_rgba": [
+                  0.11697066575288773,
+                  0.28744083642959595,
+                  0.423267662525177,
+                  1.0
+                ]
+              },
+              {
+                "position": 0.33000001311302185,
+                "linear_rgba": [
+                  0.03071344457566738,
+                  0.11443537473678589,
+                  0.2622506618499756,
+                  1.0
+                ]
+              },
+              {
+                "position": 0.5299999713897705,
+                "linear_rgba": [
+                  0.009721217676997185,
+                  0.04373503103852272,
+                  0.14126329123973846,
+                  1.0
+                ]
+              },
+              {
+                "position": 0.7599999904632568,
+                "linear_rgba": [
+                  0.005605391692370176,
+                  0.017641954123973846,
+                  0.0666259378194809,
+                  1.0
+                ]
+              },
+              {
+                "position": 1.0,
+                "linear_rgba": [
+                  0.0033465358428657055,
+                  0.00802319310605526,
+                  0.03071344457566738,
+                  1.0
+                ]
+              }
+            ]
+          }
+        ],
+        "labelled_mix_layers": [
+          {
+            "label": "Soft dark limbal edge",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.0033465358428657055,
+              0.009721217676997185,
+              0.040915198624134064,
+              1.0
+            ],
+            "strength": 0.6499999761581421
+          },
+          {
+            "label": "Diffuse lower blue atmosphere",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.177888423204422,
+              0.3613067865371704,
+              0.4793201684951782,
+              1.0
+            ],
+            "strength": 0.47999998927116394
+          },
+          {
+            "label": "Soft lower left light petal",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.43415364623069763,
+              0.6104955673217773,
+              0.6444796919822693,
+              1.0
+            ],
+            "strength": 0.4399999976158142
+          },
+          {
+            "label": "Soft lower right light petal",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.5457244515419006,
+              0.68668532371521,
+              0.6938717365264893,
+              1.0
+            ],
+            "strength": 0.41999998688697815
+          },
+          {
+            "label": "Faint joined lower petal light",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.6172065734863281,
+              0.7454041838645935,
+              0.7379103899002075,
+              1.0
+            ],
+            "strength": 0.23999999463558197
+          },
+          {
+            "label": "Pupil halo",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.008568125776946545,
+              0.040915198624134064,
+              0.109461709856987,
+              1.0
+            ],
+            "strength": 0.25
+          },
+          {
+            "label": "Deep oval pupil",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.0036765073891729116,
+              0.012983032502233982,
+              0.03688944876194,
+              1.0
+            ],
+            "strength": 1.0
+          },
+          {
+            "label": "Source-measured glint 1",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              1.0,
+              0.9822505712509155,
+              0.9386857151985168,
+              1.0
+            ],
+            "strength": 1.0
+          },
+          {
+            "label": "Source-measured glint 2",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.9130986332893372,
+              0.9646862745285034,
+              0.9646862745285034,
+              1.0
+            ],
+            "strength": 0.8799999952316284
+          },
+          {
+            "label": "Source-measured glint 3",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.8549926280975342,
+              0.9386857151985168,
+              0.9646862745285034,
+              1.0
+            ],
+            "strength": 0.9200000166893005
+          },
+          {
+            "label": "Source-measured glint 4",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.7304607629776001,
+              0.8713670969009399,
+              0.8879231214523315,
+              1.0
+            ],
+            "strength": 0.8399999737739563
+          },
+          {
+            "label": "Source-measured glint 5",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.38642942905426025,
+              0.5972017645835876,
+              0.7230551242828369,
+              1.0
+            ],
+            "strength": 0.6499999761581421
+          },
+          {
+            "label": "Source-measured glint 6",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.672443151473999,
+              0.7991027235984802,
+              0.8468732237815857,
+              1.0
+            ],
+            "strength": 0.7200000286102295
+          },
+          {
+            "label": "Source-measured glint 7",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.520995557308197,
+              0.68668532371521,
+              0.7529422044754028,
+              1.0
+            ],
+            "strength": 0.6499999761581421
+          },
+          {
+            "label": "Soft upper scleral tone",
+            "blend_type": "MIX",
+            "target_linear_rgba": [
+              0.366252601146698,
+              0.37123769521713257,
+              0.423267662525177,
+              1.0
+            ],
+            "strength": 0.46000000834465027
+          }
+        ]
+      }
+    }
+  },
+  "iris_algorithm": {
+    "output": "Unshaded/emission linear RGB on true closed eye sphere, cull back, no next-pass outline",
+    "helpers": {
+      "ellipse_distance_squared": "((g.x-cx)/rx)^2+((g.z-cz)/rz)^2",
+      "spot": "1-smoothstep(soft*soft,1.04,ellipse_distance_squared)",
+      "paint": "mix(current,linear_color,spot*strength), in listed sequence",
+      "soft_range": "Clamped smoothstep map, not a hard disc"
+    },
+    "center_and_units": "cx/cz=eyes[side].generated_center; all per-layer offsets and radii in metres divide by eye diameter before using Generated",
+    "iris_r2": "ellipse_distance_squared around generated_center, radii=iris_radii/diameter",
+    "mask": "(1-smoothstep(.985,1.025,iris_r2))*float(Generated.y<.5)",
+    "vertical_ramp_input": "(Generated.z-(cz-iris_radius_z/diameter))/(2*iris_radius_z/diameter)",
+    "palette": [
+      {
+        "position": 0,
+        "srgb_hex": "#8eafbc",
+        "linear_rgb": [
+          0.2704977910130658,
+          0.4286904966139066,
+          0.5028864580325687
+        ]
+      },
+      {
+        "position": 0.15,
+        "srgb_hex": "#6092ae",
+        "linear_rgb": [
+          0.11697066775851084,
+          0.2874408377269175,
+          0.4232676699860717
+        ]
+      },
+      {
+        "position": 0.33,
+        "srgb_hex": "#315f8c",
+        "linear_rgb": [
+          0.030713443732993635,
+          0.11443537382697373,
+          0.26225065752969623
+        ]
+      },
+      {
+        "position": 0.53,
+        "srgb_hex": "#193b69",
+        "linear_rgb": [
+          0.00972121732023785,
+          0.043735029256973465,
+          0.14126329114027164
+        ]
+      },
+      {
+        "position": 0.76,
+        "srgb_hex": "#112449",
+        "linear_rgb": [
+          0.005605391624202723,
+          0.017641954488384078,
+          0.06662593864377289
+        ]
+      },
+      {
+        "position": 1,
+        "srgb_hex": "#0b1631",
+        "linear_rgb": [
+          0.003346535763899161,
+          0.008023192985384994,
+          0.030713443732993635
+        ]
+      }
+    ],
+    "palette_interpolation": "LINEAR",
+    "limbal_edge": {
+      "input": "sqrt(iris_r2)",
+      "mask": "smoothstep(.79,1,r)",
+      "strength": 0.65,
+      "srgb_hex": "#0b1939",
+      "linear_rgb": [
+        0.003346535763899161,
+        0.00972121732023785,
+        0.04091519690685319
+      ]
+    },
+    "lower_petals": [
+      {
+        "label": "Diffuse lower blue atmosphere",
+        "center_from_iris_xz_m": [
+          0,
+          -0.075
+        ],
+        "radii_m": [
+          0.077,
+          0.06
+        ],
+        "soft": 0.1,
+        "strength": 0.48,
+        "srgb_hex": "#75a2b8",
+        "linear_rgb": [
+          0.17788841598362912,
+          0.3613067797835095,
+          0.4793201831008268
+        ]
+      },
+      {
+        "label": "Soft lower left light petal",
+        "center_from_iris_xz_m": [
+          -0.021,
+          -0.086
+        ],
+        "radii_m": [
+          0.043,
+          0.038
+        ],
+        "soft": 0.03,
+        "strength": 0.44,
+        "srgb_hex": "#b0cdd2",
+        "linear_rgb": [
+          0.43415363617474895,
+          0.6104955708078648,
+          0.6444796819705821
+        ]
+      },
+      {
+        "label": "Soft lower right light petal",
+        "center_from_iris_xz_m": [
+          0.023,
+          -0.089
+        ],
+        "radii_m": [
+          0.04,
+          0.034
+        ],
+        "soft": 0.02,
+        "strength": 0.42,
+        "srgb_hex": "#c3d8d9",
+        "linear_rgb": [
+          0.5457244613701866,
+          0.6866853124353135,
+          0.6938717612919899
+        ]
+      },
+      {
+        "label": "Faint joined lower petal light",
+        "center_from_iris_xz_m": [
+          0.001,
+          -0.1
+        ],
+        "radii_m": [
+          0.031,
+          0.022
+        ],
+        "soft": 0,
+        "strength": 0.24,
+        "srgb_hex": "#cee0df",
+        "linear_rgb": [
+          0.6172065624196511,
+          0.7454042095403874,
+          0.7379104087727308
+        ]
+      }
+    ],
+    "pupil_halo": {
+      "center_from_iris_xz_m": [
+        0,
+        -0.003
+      ],
+      "radii_m": [
+        0.045,
+        0.064
+      ],
+      "soft": 0.4,
+      "strength": 0.25,
+      "srgb_hex": "#17395d",
+      "linear_rgb": [
+        0.008568125618069307,
+        0.04091519690685319,
+        0.10946171077829933
+      ]
+    },
+    "pupil": {
+      "center_from_iris_xz_m": [
+        0,
+        -0.006
+      ],
+      "radii_m": [
+        0.025,
+        0.044
+      ],
+      "soft": 0.91,
+      "strength": 1.0,
+      "srgb_hex": "#0c1e36",
+      "linear_rgb": [
+        0.003676507324047436,
+        0.012983032342173012,
+        0.03688945040110004
+      ]
+    },
+    "glint_order": "Use eyes[side].glints after halo/pupil. Upper two broad overlapping ovals, lower-inner tiny reflection, then restrained flecks.",
+    "sclera": {
+      "base": {
+        "srgb_hex": "#e4ded2",
+        "linear_rgb": [
+          0.7758222183174236,
+          0.7304607400903537,
+          0.6444796819705821
+        ]
+      },
+      "upper_tone": {
+        "srgb_hex": "#a3a4ae",
+        "linear_rgb": [
+          0.3662525955988395,
+          0.3712376804741491,
+          0.4232676699860717
+        ]
+      },
+      "mask": "smoothstep(.61,.80,Generated.z)",
+      "strength": 0.46
+    },
+    "final_mix": "mix(sclera,iris_painted,iris_mask)",
+    "sequence": [
+      "vertical palette",
+      "limbal_edge",
+      "lower_petals in order",
+      "pupil_halo",
+      "pupil",
+      "per-eye glints in order",
+      "mix over sclera with front iris mask"
+    ]
+  },
+  "skin": {
+    "material": "Face / editable albedo and gentle NPR",
+    "attributes": {
+      "FaceAlbedo": {
+        "domain": "POINT",
+        "storage_type": "FLOAT_COLOR",
+        "count": 9073,
+        "rgba_min": [
+          0.6104955673217773,
+          0.4023938477039337,
+          0.3144848644733429,
+          1.0
+        ],
+        "rgba_max": [
+          0.6305496096611023,
+          0.533276379108429,
+          0.43965718150138855,
+          1.0
+        ]
+      },
+      "LipAlbedo": {
+        "domain": "POINT",
+        "storage_type": "FLOAT_COLOR",
+        "count": 9073,
+        "rgba_min": [
+          0.21823221445083618,
+          0.12002941220998764,
+          0.08977142721414566,
+          1.0
+        ],
+        "rgba_max": [
+          0.6123202443122864,
+          0.533276379108429,
+          0.43965718150138855,
+          1.0
+        ]
+      }
+    },
+    "color_space": "Source FLOAT_COLOR .color values are linear. Carry glTF COLOR_0 as linear; convert sRGB hex constants once.",
+    "base_rule": "Only on the final normalized artifact whose manifest declares vertexAlbedoRule=replace: Face COLOR_0 is FaceAlbedo and Lips COLOR_0 is LipAlbedo. They REPLACE fallback albedo, never multiply by fixed skin RGB. Raw v7 COLOR_0 is white and must first be remapped by the assembler.",
+    "fallback": {
+      "srgb_hex": "#cdc1b1",
+      "linear_rgb": [
+        0.6104955708078648,
+        0.5332764040105052,
+        0.4396571738409188
+      ]
+    },
+    "vertex_albedo": {
+      "formula": "mix(base,blush,0.74*gauss(abs(x),.30,.16)*gauss(z,-.145,.115)*smoothstep(.12,.34,depth))",
+      "gauss": "exp(-((x-center)/width)^2)",
+      "base": {
+        "srgb_hex": "#cdc1b1",
+        "linear_rgb": [
+          0.6104955708078648,
+          0.5332764040105052,
+          0.4396571738409188
+        ]
+      },
+      "blush": {
+        "srgb_hex": "#d1a18e",
+        "linear_rgb": [
+          0.6375968739940326,
+          0.3564001441459435,
+          0.2704977910130658
+        ]
+      }
+    },
+    "rest_surface_paint": {
+      "coordinate": "Unchanging head rest x,z,depth, not world position after Jaw/gaze. Source Generated head AABB maps back to rest x/z.",
+      "front_mask": "Generated.y<.58",
+      "nose_tip": {
+        "center_xz": [
+          0.066,
+          -0.068
+        ],
+        "radii": [
+          0.0067,
+          0.005
+        ],
+        "distance_smoothstep": [
+          0.25,
+          1.2
+        ],
+        "strength": 0.82,
+        "srgb_hex": "#f2e7d8",
+        "linear_rgb": [
+          0.8879231178819663,
+          0.799102738014409,
+          0.6866853124353135
+        ]
+      },
+      "nostril": {
+        "center_xz": [
+          0.071,
+          -0.084
+        ],
+        "radii": [
+          0.002,
+          0.0033
+        ],
+        "distance_smoothstep": [
+          0.15,
+          1.15
+        ],
+        "strength": 0.48,
+        "srgb_hex": "#9e7a69",
+        "linear_rgb": [
+          0.3419144249086609,
+          0.1946178304415758,
+          0.14126329114027164
+        ]
+      },
+      "cheek_hatch": {
+        "patch_center_absx_z": [
+          0.302,
+          -0.19
+        ],
+        "radii": [
+          0.1,
+          0.033
+        ],
+        "distance_smoothstep": [
+          0.5,
+          1.15
+        ],
+        "stripe": "fract((x-.30+.40*(z+.190))/.020)<.10",
+        "strength": 0.18,
+        "srgb_hex": "#aa8073",
+        "linear_rgb": [
+          0.4019777798321958,
+          0.21586050011389926,
+          0.1714411007328226
+        ]
+      }
+    },
+    "shade_rule": "Source NPR is diffuse-white -> ShaderToRGB -> EASE ramp -> MULTIPLY albedo -> emission. Preserve vertex albedo through runtime cel shading; do not overwrite it with generic uniform calibration.",
+    "actual_node_audit": {
+      "material": "Face / editable albedo and gentle NPR",
+      "nodes": 57,
+      "links": 71,
+      "image_texture_nodes": 0,
+      "ramps": [
+        {
+          "label": "Editable gentle cel bands",
+          "interpolation": "EASE",
+          "elements": [
+            {
+              "position": 0.1599999964237213,
+              "linear_rgba": [
+                0.7200000286102295,
+                0.75,
+                0.800000011920929,
+                1.0
+              ]
+            },
+            {
+              "position": 0.7200000286102295,
+              "linear_rgba": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ],
+      "labelled_mix_layers": [
+        {
+          "label": "Tiny painted nose-tip light on the real nose",
+          "blend_type": "MIX",
+          "target_linear_rgba": [
+            0.8879231214523315,
+            0.7991027235984802,
+            0.68668532371521,
+            1.0
+          ],
+          "strength": 0.8199999928474426
+        },
+        {
+          "label": "Restrained lower nose accent",
+          "blend_type": "MIX",
+          "target_linear_rgba": [
+            0.34191441535949707,
+            0.1946178376674652,
+            0.14126329123973846,
+            1.0
+          ],
+          "strength": 0.47999998927116394
+        },
+        {
+          "label": "Low contrast reference cheek hatching",
+          "blend_type": "MIX",
+          "target_linear_rgba": [
+            0.4019777774810791,
+            0.2158605009317398,
+            0.17144110798835754,
+            1.0
+          ],
+          "strength": 0.18000000715255737
+        }
+      ]
+    },
+    "lip_rule": {
+      "material": "Lips / measured interrupted smile ink",
+      "attribute": "LipAlbedo",
+      "formula": "mix(FaceAlbedo,#745448 linear,0.90*smoothstep(.014,.022,abs(rest_x-.045)))",
+      "central_gap": "Mask creates two short interrupted mouth strokes.",
+      "export_requirement": "Final assembler remaps the native LipAlbedo accessor (raw v7 COLOR_2) to standard COLOR_0 on the Lips primitive, and FaceAlbedo (raw v7 COLOR_1) on the Face primitive. Verify the normalized artifact audit/manifest; do not read nonexistent COLOR_1 shader APIs. Oral interior retains its own material."
+    },
+    "raw_gltf_observation": {
+      "artifact": "Root actual audit of complete v7 GLB, not the frozen native .blend",
+      "head_primitives": 3,
+      "COLOR_0": {
+        "component_type": "UNSIGNED_BYTE",
+        "observed": "constant white; not FaceAlbedo"
+      },
+      "COLOR_1": {
+        "component_type": "UNSIGNED_SHORT normalized",
+        "semantic": "native FaceAlbedo"
+      },
+      "COLOR_2": {
+        "component_type": "UNSIGNED_SHORT normalized",
+        "semantic": "native LipAlbedo"
+      },
+      "warning": "Named native attributes do not automatically become semantic COLOR_0. Never pretend Godot has a standard COLOR_1 shader input."
+    },
+    "normalized_artifact_contract": {
+      "producer": "Final assembler primitive-by-material metadata normalization",
+      "Face / material": "COLOR_0 accessor replaced with the native FaceAlbedo accessor (raw v7 COLOR_1)",
+      "Lips / material": "COLOR_0 accessor replaced with the native LipAlbedo accessor (raw v7 COLOR_2)",
+      "Mouth / material": "Keep oral-interior material; do not apply the skin replacement or generic skin calibration",
+      "binary_buffer": "Unmodified; accessor references remapped in glTF metadata",
+      "manifest_contract": "vertexAlbedoRule=replace plus actual final artifact audit. Only this normalized final artifact guarantees COLOR_0 semantics."
+    }
+  },
+  "ink_geometry": {
+    "outline_policy": "Source face-v4 has no inverted hull outline. Lashes/lids/brows/lip ink are already real volume/material; disable additional outline on these meshes and eye globes.",
+    "upper_lash": {
+      "material": {
+        "srgb_hex": "#1d1922",
+        "linear_rgb": [
+          0.012286488356915872,
+          0.00972121732023785,
+          0.01599629336550963
+        ]
+      },
+      "width_m": "(.0015+sin(pi*u)^.44*(.045-.031*u)+.005*exp(-((u-.16)/.12)^2))*(1-.60*blink)",
+      "u": "t for L, 1-t for R",
+      "depth_thickness_m": 0.006,
+      "cross_segments": 8
+    },
+    "lower_lid": {
+      "material": {
+        "srgb_hex": "#756058",
+        "linear_rgb": [
+          0.17788841598362912,
+          0.11697066775851084,
+          0.09758734714186246
+        ]
+      },
+      "width_m": ".0007+.001*sin(pi*t)",
+      "depth_thickness_m": 0.002
+    },
+    "brow": {
+      "material": {
+        "srgb_hex": "#94796c",
+        "linear_rgb": [
+          0.2961382707983211,
+          0.19120168274079138,
+          0.14995978981060856
+        ]
+      },
+      "width_m": ".0015+.005*sin(pi*t)^.6",
+      "depth_thickness_m": 0.0045,
+      "path": "x=eye_center_x+mix(-.12,.12,t); z=(.178 L/.188 R)+.015*sin(pi*t)+sad*(.043*(t L/1-t R)-.005)+.010*smile; depth=front_depth(x,z)+.008"
+    },
+    "outer_wing": {
+      "width_m": ".020*(1-t)^1.45+.0003",
+      "depth_thickness_m": 0.006,
+      "path_offset": "sign*.030*t in x; (.031*t+.006*sin(pi*t))*(1-.35*blink) in z; +.004 front"
+    },
+    "upper_outer_flick": {
+      "width_m": ".008*(1-t)+.0004",
+      "depth_thickness_m": 0.0055,
+      "path_offset": "sign*.010*t x; .023*t*(1-.75*blink) z; +.006 front"
+    }
+  },
+  "rig": {
+    "root": "HeadRoot",
+    "control_object": "FaceRig",
+    "bones": {
+      "FaceHead": {
+        "parent": null,
+        "matrix_local_native": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "head_local": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tail_local": [
+          0.0,
+          0.0,
+          0.25
+        ],
+        "length": 0.25,
+        "deform": true
+      },
+      "Jaw": {
+        "parent": "FaceHead",
+        "matrix_local_native": [
+          [
+            -1.0,
+            0.0,
+            6.278328896769381e-07,
+            0.0
+          ],
+          [
+            -2.759657888873335e-07,
+            -0.8982164859771729,
+            -0.4395529627799988,
+            0.03500000014901161
+          ],
+          [
+            5.639300297843874e-07,
+            -0.43955281376838684,
+            0.8982166051864624,
+            -0.11500000953674316
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "head_local": [
+          0.0,
+          0.03500000014901161,
+          -0.11500000208616257
+        ],
+        "tail_local": [
+          0.0,
+          -0.20000000298023224,
+          -0.23000000417232513
+        ],
+        "length": 0.26162952184677124,
+        "deform": true
+      },
+      "Tongue": {
+        "parent": "Jaw",
+        "matrix_local_native": [
+          [
+            -1.0,
+            -2.842170943040401e-14,
+            -5.684341886080802e-14,
+            3.552713678800501e-15
+          ],
+          [
+            2.842170943040401e-14,
+            -0.9999998211860657,
+            -2.086162567138672e-07,
+            -0.2999999523162842
+          ],
+          [
+            0.0,
+            2.9802322387695312e-08,
+            0.9999998807907104,
+            -0.25
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "head_local": [
+          0.0,
+          -0.30000001192092896,
+          -0.25
+        ],
+        "tail_local": [
+          0.0,
+          -0.36000001430511475,
+          -0.25
+        ],
+        "length": 0.060000013560056686,
+        "deform": false
+      },
+      "Eye.L": {
+        "parent": "FaceHead",
+        "matrix_local_native": [
+          [
+            -1.0,
+            0.0,
+            8.742277657347586e-08,
+            -0.257999986410141
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.2329999953508377
+          ],
+          [
+            8.742277657347586e-08,
+            0.0,
+            1.0,
+            0.009000003337860107
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "head_local": [
+          -0.257999986410141,
+          -0.2329999953508377,
+          0.008999999612569809
+        ],
+        "tail_local": [
+          -0.257999986410141,
+          -0.3330000042915344,
+          0.008999999612569809
+        ],
+        "length": 0.10000000894069672,
+        "deform": false
+      },
+      "Eye.R": {
+        "parent": "FaceHead",
+        "matrix_local_native": [
+          [
+            -1.0,
+            0.0,
+            8.742277657347586e-08,
+            0.2630000114440918
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.2329999953508377
+          ],
+          [
+            8.742277657347586e-08,
+            0.0,
+            1.0,
+            0.00599999725818634
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "head_local": [
+          0.2630000114440918,
+          -0.2329999953508377,
+          0.006000000052154064
+        ],
+        "tail_local": [
+          0.2630000114440918,
+          -0.3330000042915344,
+          0.006000000052154064
+        ],
+        "length": 0.10000000894069672,
+        "deform": false
+      }
+    },
+    "actual_bone_drivers": [
+      {
+        "data_path": "pose.bones[\"Jaw\"].rotation_euler",
+        "array_index": 0,
+        "expression": "-0.18*min(1,max(jaw,aa*.75,ee*.25,oh*.65))",
+        "variables": [
+          {
+            "name": "jaw",
+            "id": "FaceRig",
+            "path": "[\"jaw\"]"
+          },
+          {
+            "name": "aa",
+            "id": "FaceRig",
+            "path": "[\"aa\"]"
+          },
+          {
+            "name": "ee",
+            "id": "FaceRig",
+            "path": "[\"ee\"]"
+          },
+          {
+            "name": "oh",
+            "id": "FaceRig",
+            "path": "[\"oh\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "pose.bones[\"Eye.L\"].rotation_euler",
+        "array_index": 0,
+        "expression": ".20*gy",
+        "variables": [
+          {
+            "name": "gy",
+            "id": "FaceRig",
+            "path": "[\"gazeY\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "pose.bones[\"Eye.L\"].rotation_euler",
+        "array_index": 2,
+        "expression": ".30*gx",
+        "variables": [
+          {
+            "name": "gx",
+            "id": "FaceRig",
+            "path": "[\"gazeX\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "pose.bones[\"Eye.R\"].rotation_euler",
+        "array_index": 0,
+        "expression": ".20*gy",
+        "variables": [
+          {
+            "name": "gy",
+            "id": "FaceRig",
+            "path": "[\"gazeY\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "pose.bones[\"Eye.R\"].rotation_euler",
+        "array_index": 2,
+        "expression": ".30*gx",
+        "variables": [
+          {
+            "name": "gx",
+            "id": "FaceRig",
+            "path": "[\"gazeX\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "pose.bones[\"Tongue\"].rotation_euler",
+        "array_index": 0,
+        "expression": ".035*aa",
+        "variables": [
+          {
+            "name": "aa",
+            "id": "FaceRig",
+            "path": "[\"aa\"]"
+          }
+        ]
+      }
+    ],
+    "head_vertex_groups": {
+      "FaceHead": {
+        "affected_vertices": 8547
+      },
+      "Jaw": {
+        "affected_vertices": 2217
+      }
+    },
+    "shape_keys": [
+      "Basis",
+      "blink",
+      "aa",
+      "ee",
+      "oh",
+      "smile",
+      "sad",
+      "cheek",
+      "lookUp",
+      "lookDown",
+      "squintL",
+      "squintR",
+      "blink_sphere_inbetween",
+      "corrective_blink_smile",
+      "corrective_blink_sad",
+      "corrective_blink_lookUp",
+      "corrective_blink_lookDown",
+      "corrective_blink_squintL",
+      "corrective_blink_squintR"
+    ],
+    "actual_shape_drivers": [
+      {
+        "data_path": "key_blocks[\"blink\"].value",
+        "array_index": 0,
+        "expression": "blink",
+        "variables": [
+          {
+            "name": "blink",
+            "id": "FaceRig",
+            "path": "[\"blink\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"aa\"].value",
+        "array_index": 0,
+        "expression": "aa/max(1,aa+ee+oh)",
+        "variables": [
+          {
+            "name": "aa",
+            "id": "FaceRig",
+            "path": "[\"aa\"]"
+          },
+          {
+            "name": "ee",
+            "id": "FaceRig",
+            "path": "[\"ee\"]"
+          },
+          {
+            "name": "oh",
+            "id": "FaceRig",
+            "path": "[\"oh\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"ee\"].value",
+        "array_index": 0,
+        "expression": "ee/max(1,aa+ee+oh)",
+        "variables": [
+          {
+            "name": "aa",
+            "id": "FaceRig",
+            "path": "[\"aa\"]"
+          },
+          {
+            "name": "ee",
+            "id": "FaceRig",
+            "path": "[\"ee\"]"
+          },
+          {
+            "name": "oh",
+            "id": "FaceRig",
+            "path": "[\"oh\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"oh\"].value",
+        "array_index": 0,
+        "expression": "oh/max(1,aa+ee+oh)",
+        "variables": [
+          {
+            "name": "aa",
+            "id": "FaceRig",
+            "path": "[\"aa\"]"
+          },
+          {
+            "name": "ee",
+            "id": "FaceRig",
+            "path": "[\"ee\"]"
+          },
+          {
+            "name": "oh",
+            "id": "FaceRig",
+            "path": "[\"oh\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"smile\"].value",
+        "array_index": 0,
+        "expression": "smile",
+        "variables": [
+          {
+            "name": "smile",
+            "id": "FaceRig",
+            "path": "[\"smile\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"sad\"].value",
+        "array_index": 0,
+        "expression": "sad",
+        "variables": [
+          {
+            "name": "sad",
+            "id": "FaceRig",
+            "path": "[\"sad\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"cheek\"].value",
+        "array_index": 0,
+        "expression": "cheek",
+        "variables": [
+          {
+            "name": "cheek",
+            "id": "FaceRig",
+            "path": "[\"cheek\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"lookUp\"].value",
+        "array_index": 0,
+        "expression": "max(0,gy)",
+        "variables": [
+          {
+            "name": "gy",
+            "id": "FaceRig",
+            "path": "[\"gazeY\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"lookDown\"].value",
+        "array_index": 0,
+        "expression": "max(0,-gy)",
+        "variables": [
+          {
+            "name": "gy",
+            "id": "FaceRig",
+            "path": "[\"gazeY\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"squintL\"].value",
+        "array_index": 0,
+        "expression": "squintL",
+        "variables": [
+          {
+            "name": "squintL",
+            "id": "FaceRig",
+            "path": "[\"squintL\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"squintR\"].value",
+        "array_index": 0,
+        "expression": "squintR",
+        "variables": [
+          {
+            "name": "squintR",
+            "id": "FaceRig",
+            "path": "[\"squintR\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"blink_sphere_inbetween\"].value",
+        "array_index": 0,
+        "expression": "4*b*(1-b)",
+        "variables": [
+          {
+            "name": "b",
+            "id": "FaceRig",
+            "path": "[\"blink\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"corrective_blink_smile\"].value",
+        "array_index": 0,
+        "expression": "b*m",
+        "variables": [
+          {
+            "name": "b",
+            "id": "FaceRig",
+            "path": "[\"blink\"]"
+          },
+          {
+            "name": "m",
+            "id": "FaceRig",
+            "path": "[\"smile\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"corrective_blink_sad\"].value",
+        "array_index": 0,
+        "expression": "b*m",
+        "variables": [
+          {
+            "name": "b",
+            "id": "FaceRig",
+            "path": "[\"blink\"]"
+          },
+          {
+            "name": "m",
+            "id": "FaceRig",
+            "path": "[\"sad\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"corrective_blink_lookUp\"].value",
+        "array_index": 0,
+        "expression": "b*max(0,gy)",
+        "variables": [
+          {
+            "name": "b",
+            "id": "FaceRig",
+            "path": "[\"blink\"]"
+          },
+          {
+            "name": "gy",
+            "id": "FaceRig",
+            "path": "[\"gazeY\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"corrective_blink_lookDown\"].value",
+        "array_index": 0,
+        "expression": "b*max(0,-gy)",
+        "variables": [
+          {
+            "name": "b",
+            "id": "FaceRig",
+            "path": "[\"blink\"]"
+          },
+          {
+            "name": "gy",
+            "id": "FaceRig",
+            "path": "[\"gazeY\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"corrective_blink_squintL\"].value",
+        "array_index": 0,
+        "expression": "b*m",
+        "variables": [
+          {
+            "name": "b",
+            "id": "FaceRig",
+            "path": "[\"blink\"]"
+          },
+          {
+            "name": "m",
+            "id": "FaceRig",
+            "path": "[\"squintL\"]"
+          }
+        ]
+      },
+      {
+        "data_path": "key_blocks[\"corrective_blink_squintR\"].value",
+        "array_index": 0,
+        "expression": "b*m",
+        "variables": [
+          {
+            "name": "b",
+            "id": "FaceRig",
+            "path": "[\"blink\"]"
+          },
+          {
+            "name": "m",
+            "id": "FaceRig",
+            "path": "[\"squintR\"]"
+          }
+        ]
+      }
+    ],
+    "evaluation_order": "Morph deltas in native mesh local space, then standard skeleton skinning. Do not double-apply Jaw to already-skinned morph output.",
+    "weights": {
+      "blink": "b=clamp(blink,0,1)",
+      "blink_sphere_inbetween": "4*b*(1-b); required to follow globe at half blink",
+      "phonemes": "aa/ee/oh each divided by max(1,aa+ee+oh)",
+      "lookUp": "max(0,gazeY)",
+      "lookDown": "max(0,-gazeY)",
+      "corrective_blink_smile": "b*smile",
+      "corrective_blink_sad": "b*sad",
+      "corrective_blink_lookUp": "b*max(0,gazeY)",
+      "corrective_blink_lookDown": "b*max(0,-gazeY)",
+      "squintL_R": "Independent 0..1 neutral-asymmetry skin controls; do not bake source perspective into rest apertures.",
+      "corrective_blink_squintL": "b*squintL",
+      "corrective_blink_squintR": "b*squintR"
+    },
+    "ocular_mapping": "Use actual Eye.L/R native rest basis matrices. Native local Euler driver X=.20*gazeY; Z=.30*gazeX, Y locked. Convert basis to Godot once; do not guess global rotation axes.",
+    "jaw_mapping": "Use actual driver expression and Jaw rest basis below; angle limits local X ±.26, local Y/Z locked for Jaw. Tongue driver is real bone X=.035*aa."
+  },
+  "runtime_acceptance": [
+    "Verify L/R-specific iris parameters on actual v8 eye surfaces, with downward blue-white petals and broad upper catchlights not vertically flipped.",
+    "Compare native face-v4 context front/threequarter/side under consistent light; generic v2 iris or uniform skin does not count as v4 look transfer.",
+    "Actual GPU readback at blink 0,.25,.5,.75,1 with smile/sad/squint and gaze; preserve all corrective targets.",
+    "Test real Jaw/phoneme and upper/lower teeth/tongue skinning; closed soft smile has no automatic white teeth slit.",
+    "Check cull/outline separately; no duplicate hull around already-solid lash ink.",
+    "Do not treat shader parse success or numeric closure as artistic acceptance."
+  ],
+  "frozen_blend_unchanged": true
+}

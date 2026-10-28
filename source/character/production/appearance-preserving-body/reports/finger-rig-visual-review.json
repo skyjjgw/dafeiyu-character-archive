@@ -1,0 +1,20 @@
+{
+  "schema": "dafeiyu.source-finger-rig.visual-review.v1",
+  "reviewedOn": "2026-10-28",
+  "subject": "../finger-rig.mjs with the original hand geometry",
+  "mathematicalChecksPassed": true,
+  "visualPassed": false,
+  "promoteToDefault": false,
+  "observations": [
+    "原手形的尖扇轮廓缺乏真实掌指结构。",
+    "中度弯指时原掌面明显塌陷和折片。",
+    "原图采样混入蓝色头发或袖口像素。"
+  ],
+  "evidence": [
+    "left-hand-rest-front.png",
+    "left-hand-curl055-front.png",
+    "left-hand-curl055-threequarter.png"
+  ],
+  "meaning": "finger-rig-check.json 中 passed=true 仅表示该文件记载的矩阵、骨长、权重和变形检查通过，不代表手部外观、解剖、自碰撞或抓握合格。",
+  "nextCandidate": "../retopology/"
+}

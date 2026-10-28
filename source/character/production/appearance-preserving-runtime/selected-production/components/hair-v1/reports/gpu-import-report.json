@@ -1,0 +1,318 @@
+{
+	"capturedAngles": [
+		0,
+		45,
+		90,
+		180
+	],
+	"checks": {
+		"actual_material_texture_cutoff_transparency_depth_and_uv_flags": true,
+		"commit_idempotent_no_double_parent": true,
+		"commit_ok": true,
+		"dispose_preserves_preexisting_hidden_state": true,
+		"dispose_releases_owned_model": true,
+		"dispose_restores_source_visibility": true,
+		"failed_setup_source_unchanged": true,
+		"fifteen_exact_original_resource_names": true,
+		"gpu_capture_0": true,
+		"gpu_capture_180": true,
+		"gpu_capture_45": true,
+		"gpu_capture_90": true,
+		"head_motion_applied_once": true,
+		"host_texture_survives_dispose": true,
+		"invalid_parent_rejected": true,
+		"only_fifteen_original_meshes_hidden": true,
+		"original_head_found": true,
+		"second_commit_ok": true,
+		"second_setup_ok": true,
+		"selected_source_imported": true,
+		"selected_source_materials": true,
+		"setup_does_not_hide_source": true,
+		"setup_ok": true,
+		"setup_prepares_hidden_unparented_identity": true,
+		"single_head_parent_identity": true
+	},
+	"completed": true,
+	"component": "selected-hair-continuous",
+	"dynamicPhysics": false,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"finalAccepted": false,
+	"gpu": true,
+	"import": {
+		"UVFlipCount": 1,
+		"canonicalImportChecked": true,
+		"component_sha256": "8b1a87855163fdd3432910228c8048f925cafc8cd62a1690885f05b9115558a5",
+		"dynamicPhysics": false,
+		"floatColorAttributePresent": false,
+		"linearTextureReused": true,
+		"meshes": [
+			{
+				"indicesMaterialMappingExact": true,
+				"maxNormalError": 0.000119994474516716,
+				"mesh": "left-face-framing-hair:conforming-continuous-volume-v1",
+				"ok": true,
+				"positionUVExact": true,
+				"surfaces": [
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 4973,
+						"image": 0.0,
+						"sourceMaterial": 0,
+						"surface": 0,
+						"triangles": 4973,
+						"vertices": 2591
+					},
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 5387,
+						"image": -1.0,
+						"sourceMaterial": 1,
+						"surface": 1,
+						"triangles": 5387,
+						"vertices": 2798
+					}
+				],
+				"triangles": 10360,
+				"verticesAcrossMaterialSurfaces": 5389
+			},
+			{
+				"indicesMaterialMappingExact": true,
+				"maxNormalError": 0.000128570769447833,
+				"mesh": "right-face-framing-hair:conforming-continuous-volume-v1",
+				"ok": true,
+				"positionUVExact": true,
+				"surfaces": [
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 4750,
+						"image": 0.0,
+						"sourceMaterial": 2,
+						"surface": 0,
+						"triangles": 4750,
+						"vertices": 2486
+					},
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 5190,
+						"image": -1.0,
+						"sourceMaterial": 3,
+						"surface": 1,
+						"triangles": 5190,
+						"vertices": 2706
+					}
+				],
+				"triangles": 9940,
+				"verticesAcrossMaterialSurfaces": 5192
+			},
+			{
+				"indicesMaterialMappingExact": true,
+				"maxNormalError": 0.000122959638247266,
+				"mesh": "central-forked-bangs:conforming-continuous-volume-v1",
+				"ok": true,
+				"positionUVExact": true,
+				"surfaces": [
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 2548,
+						"image": 0.0,
+						"sourceMaterial": 4,
+						"surface": 0,
+						"triangles": 2548,
+						"vertices": 1392
+					},
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 3016,
+						"image": -1.0,
+						"sourceMaterial": 5,
+						"surface": 1,
+						"triangles": 3016,
+						"vertices": 1626
+					}
+				],
+				"triangles": 5564,
+				"verticesAcrossMaterialSurfaces": 3018
+			},
+			{
+				"indicesMaterialMappingExact": true,
+				"maxNormalError": 0.000112285328214057,
+				"mesh": "left-auxiliary-source-traced-long-curls:conforming-curl-v1",
+				"ok": true,
+				"positionUVExact": true,
+				"surfaces": [
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 596,
+						"image": 1.0,
+						"sourceMaterial": 6,
+						"surface": 0,
+						"triangles": 596,
+						"vertices": 382
+					},
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 936,
+						"image": -1.0,
+						"sourceMaterial": 7,
+						"surface": 1,
+						"triangles": 936,
+						"vertices": 552
+					}
+				],
+				"triangles": 1532,
+				"verticesAcrossMaterialSurfaces": 934
+			},
+			{
+				"indicesMaterialMappingExact": true,
+				"maxNormalError": 0.000112880938104354,
+				"mesh": "right-auxiliary-source-traced-long-curls:conforming-curl-v1",
+				"ok": true,
+				"positionUVExact": true,
+				"surfaces": [
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 596,
+						"image": 1.0,
+						"sourceMaterial": 8,
+						"surface": 0,
+						"triangles": 596,
+						"vertices": 382
+					},
+					{
+						"canonicalTriangleMultisetExact": true,
+						"godotClockwiseTriangles": 936,
+						"image": -1.0,
+						"sourceMaterial": 9,
+						"surface": 1,
+						"triangles": 936,
+						"vertices": 552
+					}
+				],
+				"triangles": 1532,
+				"verticesAcrossMaterialSurfaces": 934
+			}
+		],
+		"ok": true,
+		"textureDecodedAgain": false,
+		"textureOrder": [
+			"cover0",
+			"neutralFront1",
+			"turnaround2"
+		]
+	},
+	"materialChecks": [
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.0,
+			"depthWrite": true,
+			"image": 0,
+			"sourceMaterial": 0,
+			"transparent": false
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.0,
+			"depthWrite": true,
+			"image": -1,
+			"sourceMaterial": 1,
+			"transparent": false
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.0,
+			"depthWrite": true,
+			"image": 0,
+			"sourceMaterial": 2,
+			"transparent": false
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.0,
+			"depthWrite": true,
+			"image": -1,
+			"sourceMaterial": 3,
+			"transparent": false
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.0,
+			"depthWrite": true,
+			"image": 0,
+			"sourceMaterial": 4,
+			"transparent": false
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.0,
+			"depthWrite": true,
+			"image": -1,
+			"sourceMaterial": 5,
+			"transparent": false
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.4,
+			"depthWrite": true,
+			"image": 1,
+			"sourceMaterial": 6,
+			"transparent": true
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.0,
+			"depthWrite": true,
+			"image": -1,
+			"sourceMaterial": 7,
+			"transparent": false
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.4,
+			"depthWrite": true,
+			"image": 1,
+			"sourceMaterial": 8,
+			"transparent": true
+		},
+		{
+			"actualHostUniformsAndFlags": true,
+			"alphaTest": 0.0,
+			"depthWrite": true,
+			"image": -1,
+			"sourceMaterial": 9,
+			"transparent": false
+		}
+	],
+	"original_meshes_hidden": [
+		"selected-appearance_left-auxiliary-source-traced-long-curls_original-pixel-surface",
+		"selected-appearance_left-auxiliary-source-traced-long-curls_closed-thickness",
+		"selected-appearance_left-auxiliary-source-traced-long-curls_back",
+		"selected-appearance_right-auxiliary-source-traced-long-curls_original-pixel-surface",
+		"selected-appearance_right-auxiliary-source-traced-long-curls_closed-thickness",
+		"selected-appearance_right-auxiliary-source-traced-long-curls_back",
+		"selected-appearance_left-face-framing-hair_original-pixel-surface",
+		"selected-appearance_left-face-framing-hair_closed-thickness",
+		"selected-appearance_left-face-framing-hair_back",
+		"selected-appearance_right-face-framing-hair_original-pixel-surface",
+		"selected-appearance_right-face-framing-hair_closed-thickness",
+		"selected-appearance_right-face-framing-hair_back",
+		"selected-appearance_central-forked-bangs_original-pixel-surface",
+		"selected-appearance_central-forked-bangs_closed-thickness",
+		"selected-appearance_central-forked-bangs_back"
+	],
+	"pass": true,
+	"renderingDevice": "NVIDIA GeForce RTX 4060 Laptop GPU",
+	"renderingMethod": "gl_compatibility",
+	"schema": "dafeiyu.hair-v1.component-import-lifecycle.v1",
+	"scope": "Current frozen GLB import, exact attributes and visibility/dispose checks; static GPU angles if requested. Partial improvement, not final visual or physics acceptance."
+}

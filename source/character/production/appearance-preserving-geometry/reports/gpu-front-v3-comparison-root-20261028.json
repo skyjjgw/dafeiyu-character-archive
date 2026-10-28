@@ -1,0 +1,51 @@
+{
+  "schema": "dafeiyu.continuous-head.gpu-front-comparison.v1",
+  "resolution": [
+    640,
+    704
+  ],
+  "pose": {
+    "mode": "manual",
+    "framing": "full",
+    "action": "idle",
+    "mood": "neutral",
+    "yaw": 0,
+    "pitch": 0,
+    "gazeX": 0,
+    "gazeY": 0,
+    "blink": 0,
+    "talk": 0
+  },
+  "camera": {
+    "position": [
+      0.195,
+      0.565,
+      6
+    ],
+    "target": [
+      0.195,
+      0.565,
+      0
+    ],
+    "halfY": 1.76985
+  },
+  "rgbRMSE": 1.7501202694738172,
+  "maxRGBDifference": 184,
+  "pixelsRGBDifferenceOver1": 301,
+  "alphaSilhouetteDifference": 0,
+  "faceRegion": {
+    "worldXY": [
+      [
+        -0.61,
+        0.71
+      ],
+      [
+        0.61,
+        1.75
+      ]
+    ],
+    "rgbRMSE": 5.237884308811879,
+    "pixelsRGBDifferenceOver1": 301
+  },
+  "visualAcceptance": "Pending human review; numerical similarity alone is not acceptance"
+}

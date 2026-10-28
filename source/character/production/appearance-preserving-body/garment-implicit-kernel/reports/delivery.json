@@ -1,0 +1,147 @@
+{
+  "schema": "dafeiyu.implicit-cloth-research-delivery.v1",
+  "version": "0.1.0",
+  "status": "frozen_research_only",
+  "class_name": "SelectedImplicitClothBending",
+  "entry_symbol": "selected_implicit_cloth_library_init",
+  "files": [
+    {
+      "path": "src/implicit_cloth.hpp",
+      "bytes": 2181,
+      "sha256": "8ddb3c11a5cb55cce682b581ec35bf57d1f17742eee0926f2a2da46da4d9eb2e"
+    },
+    {
+      "path": "src/implicit_cloth.cpp",
+      "bytes": 12223,
+      "sha256": "39ca6792756a281f13bb2b70fff059104dade1016e68bcab1c311c58361e3998"
+    },
+    {
+      "path": "src/register_types.cpp",
+      "bytes": 800,
+      "sha256": "d570281c5168ee71307e21a37d9c4864cdd932e579eb853acdc05008f396072b"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 1106,
+      "sha256": "19eea57b362630c47afb96ac8bd6ce34c07eef15c8b61f99d3de6015b6c15022"
+    },
+    {
+      "path": "build.cmd",
+      "bytes": 706,
+      "sha256": "3b6d71befbe794a3221a967594297d7d04d91de0eccadf3eb5ed40339d451740"
+    },
+    {
+      "path": "project/bin/selected_implicit_cloth.windows.release.x86_64.dll",
+      "bytes": 387584,
+      "sha256": "8e8c9948916acd9cbd5af2833d752351b6aa7c7c7015633e3cd66bd3b1ee33f3"
+    },
+    {
+      "path": "project/selected_implicit_cloth.gdextension",
+      "bytes": 203,
+      "sha256": "93424732786ea4ed31555b2453edb73467af3714cdb65a82909951df2075b90b"
+    },
+    {
+      "path": "component/selected_implicit_cloth.gdextension",
+      "bytes": 197,
+      "sha256": "53e1731675dde72df9b3208689faba4d0f423bd0d20288f80e9f75fd0c5acae7"
+    },
+    {
+      "path": "component/bin/selected_implicit_cloth.windows.release.x86_64.dll",
+      "bytes": 387584,
+      "sha256": "8e8c9948916acd9cbd5af2833d752351b6aa7c7c7015633e3cd66bd3b1ee33f3"
+    },
+    {
+      "path": "project/official-jolt-fixture.json",
+      "bytes": 5463,
+      "sha256": "d7051fec301b9d8574e394fe8959875ddb2cacee8a16911176774a79c325af77"
+    },
+    {
+      "path": "fixture_generator.cpp",
+      "bytes": 1467,
+      "sha256": "79eff642161f61be792b89b57a7f9cbbceaf05d1e65572a2fc6f9215663e5aab"
+    },
+    {
+      "path": "LICENSE-JOLT",
+      "bytes": 1052,
+      "sha256": "800abe35d64ad9defd636ff1ee8c961e06f0ebca3ef8d10083e8aa0e8ef86ac3"
+    },
+    {
+      "path": "LICENSE-GODOT-CPP.md",
+      "bytes": 1093,
+      "sha256": "26a5b210d90760156ce886267ce9df235787dcc6cebfd7ecd95ef5b6fdcc95bf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11860,
+      "sha256": "b53edb78da2fa7f5b7968690b79691c4be497ec11c422db7b8322d9223abcbcf"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 1598,
+      "sha256": "456e1de89249ba5ec0cb81af51a3f513bc1e643ccb8b093ca050f0ba7670a547"
+    },
+    {
+      "path": "reports/reference-comparison.json",
+      "bytes": 6102,
+      "sha256": "83942fb881aeec995f9c8c1137c2d576627204b605890893d4ce06dde2d900b5"
+    },
+    {
+      "path": "reports/stability-audit.json",
+      "bytes": 1957,
+      "sha256": "d667c6aaa7ebd1228dc5a18def042cd249f5fe8500915d83841b5ed7de34433e"
+    },
+    {
+      "path": "reports/impulse-calibration.json",
+      "bytes": 615,
+      "sha256": "31cdfcb202d2ef3d52fabd4ccf2039d44972388760a1d6fcbc973cd21cbeaf6a"
+    },
+    {
+      "path": "reports/boundary-regression.json",
+      "bytes": 1323,
+      "sha256": "1e7df236d949118cef78897c441197baf13fa0f2186a78af42a82592a014f7a6"
+    },
+    {
+      "path": "reports/component-load.json",
+      "bytes": 154,
+      "sha256": "07c9935da1c4be23e4f6066c8b07264876f07396f698e31fcf2c34da9b36835a"
+    },
+    {
+      "path": "reports/summary.json",
+      "bytes": 27193,
+      "sha256": "bb66a5d677200c2b09b082ef50fab0c496290d5a42c5b8596e7e7bc51acf36f9"
+    },
+    {
+      "path": "reports/jolt-240hz-4s.json",
+      "bytes": 627866,
+      "sha256": "ad266fc45170465d3865023aa269332c9c458b71d25937bdd4c879da55c5b8f9"
+    },
+    {
+      "path": "reports/jolt-240hz-1s-k10.json",
+      "bytes": 621819,
+      "sha256": "8fb6d24488e1219032a3193eae772bfe8615aafda17fc49c5dd9771096a0679a"
+    },
+    {
+      "path": "reports/jolt-120hz-1s.json",
+      "bytes": 620559,
+      "sha256": "e663675dab06bfa89175f8c9d58908680d7dbc3ebe2163dad48b31ab3d5bcbe6"
+    },
+    {
+      "path": "reports/jolt-480hz-1s.json",
+      "bytes": 624540,
+      "sha256": "3edf5dfbb50df72e1d62febfc8503b5a623560a25a04fce07969756f335cc5fe"
+    },
+    {
+      "path": "reports/official-jolt-grid-240hz-4s.json",
+      "bytes": 27433,
+      "sha256": "0d0da2eeb85122224057a082cb5e13356dfa8e2dedf2d894e7b235d536cd77b4"
+    }
+  ],
+  "source_garment_json_sha256": "c01bed3bd202422e8ef28bb8b2e665e2f8c852ea3aa38f05bce38f42cf39319f",
+  "source_garment_bin_sha256": "c9a08f0e12196337ffac10783036f2d5473eb53d379abf76a9b09044f88cf5a3",
+  "head_dll_expected_sha256": "d25ce205577bd9f568808fdb8dc29c406ee1d5cc5375959c718e11f8459728f6",
+  "native_default_or_current_modified": false,
+  "component_path": "component/selected_implicit_cloth.gdextension",
+  "physical_acceptance": false,
+  "visual_acceptance": false,
+  "realtime_acceptance": false
+}

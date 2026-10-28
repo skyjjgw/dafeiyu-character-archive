@@ -1,0 +1,814 @@
+{
+  "schema_version": 1,
+  "status": "exported_verified",
+  "source_hashes_before": {
+    "character.js": "8832aaf5c114fa0123b7e6c604bad020684af59d54eabba3d470141b545ba293",
+    "face.js": "f27968949d07f8b793c6081c52dbf81b3417c0b8fcf4378df529cbd6d0751e8d",
+    "hair.js": "e468ebd894a587d2feb792b916437c51d50a88a9a9b8becef38b9251dce315fe",
+    "costume.js": "b693224ed7134f89ba8cc93ee487e5e9b715aa7d230323023331c3a7b50f7aa5",
+    "tuning.js": "bfc2e64ccb0f7a73c14e8cb122627577d8cd2933be57c7041f4f7c5ab6dad033",
+    "physics.js": "6489b8255cb8d507e8ca9fe0209735c566b49315353c8437bb77caa21e846cda"
+  },
+  "tuning_source": "defaultTuning exported by the public local tuning.js module; no browser storage read",
+  "tuning": {
+    "bodyScale": 0.74,
+    "headScale": 1.08,
+    "headWidth": 1,
+    "eyeWidth": 1,
+    "eyeHeight": 1,
+    "eyeSpacing": 1,
+    "irisScale": 1,
+    "shadingToony": 0.82,
+    "shadingShift": 0.06,
+    "outlineWidth": 0.0045,
+    "hairSway": 1,
+    "tailSway": 1,
+    "dressColor": "#293b60",
+    "tailColor": "#304c7b",
+    "tailLightColor": "#5e78a5",
+    "exposure": 1.15
+  },
+  "bones": [
+    "Pelvis",
+    "Spine",
+    "Chest",
+    "Neck",
+    "Head",
+    "R.Shoulder",
+    "R.Elbow",
+    "R.Wrist",
+    "R.Hip",
+    "R.Knee",
+    "R.Ankle",
+    "L.Shoulder",
+    "L.Elbow",
+    "L.Wrist",
+    "L.Hip",
+    "L.Knee",
+    "L.Ankle",
+    "Tail.0",
+    "Tail.1",
+    "Tail.2",
+    "Tail.3",
+    "Tail.4",
+    "Hair.-1.0.Root",
+    "Hair.-1.0.Mid",
+    "Hair.-1.0.Tip",
+    "Hair.-1.1.Root",
+    "Hair.-1.1.Mid",
+    "Hair.-1.1.Tip",
+    "Hair.-1.2.Root",
+    "Hair.-1.2.Mid",
+    "Hair.-1.2.Tip",
+    "Hair.1.0.Root",
+    "Hair.1.0.Mid",
+    "Hair.1.0.Tip",
+    "Hair.1.1.Root",
+    "Hair.1.1.Mid",
+    "Hair.1.1.Tip",
+    "Hair.1.2.Root",
+    "Hair.1.2.Mid",
+    "Hair.1.2.Tip"
+  ],
+  "facial_mesh_count": 36,
+  "face_morphs": [
+    {
+      "name": "Face / broad cheeks and rounded chin, actual eye and mouth holes",
+      "vertices": 17856,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Head / curved rear cranium",
+      "vertices": 2009,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / inset curved sclera",
+      "vertices": 407,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.16199999349191785,
+        "aa": 0,
+        "happy": 0.026000000536441803,
+        "sad": 0.018625423312187195
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / deforming upper eyelid",
+      "vertices": 185,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.16199999349191785,
+        "aa": 0,
+        "happy": 0.016920000314712524,
+        "sad": 0.018625423312187195
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / deforming lower eyelid",
+      "vertices": 185,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.09199999971315265,
+        "aa": 0,
+        "happy": 0.026000000536441803,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / clipped blue iris",
+      "vertices": 377,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.1566594890318811,
+        "aa": 0,
+        "happy": 0.026000000536441803,
+        "sad": 0.008311107754707336
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / stable vertical pupil",
+      "vertices": 377,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.08915590634569526,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / main catchlight",
+      "vertices": 377,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.11204212764278054,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / small lower catchlight",
+      "vertices": 377,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.053073103714268655,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / shaped upper eyelash ribbon",
+      "vertices": 82,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.16200000047683716,
+        "aa": 0,
+        "happy": 0.016920000314712524,
+        "sad": 0.018625125288963318
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / fine lower lid edge",
+      "vertices": 74,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.09200000017881393,
+        "aa": 0,
+        "happy": 0.026000000536441803,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Eye / tapered outer lashes",
+      "vertices": 26,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "-1.Brow / expressive ribbon",
+      "vertices": 50,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0.012000024318695068,
+        "sad": 0.046999990940093994
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / inset curved sclera",
+      "vertices": 407,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.16199999349191785,
+        "aa": 0,
+        "happy": 0.026000000536441803,
+        "sad": 0.018625423312187195
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / deforming upper eyelid",
+      "vertices": 185,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.16199999349191785,
+        "aa": 0,
+        "happy": 0.016920000314712524,
+        "sad": 0.018625423312187195
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / deforming lower eyelid",
+      "vertices": 185,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.09199999971315265,
+        "aa": 0,
+        "happy": 0.026000000536441803,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / clipped blue iris",
+      "vertices": 377,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.1566594890318811,
+        "aa": 0,
+        "happy": 0.026000000536441803,
+        "sad": 0.008311107754707336
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / stable vertical pupil",
+      "vertices": 377,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.08915590634569526,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / main catchlight",
+      "vertices": 377,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.11804262537043542,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / small lower catchlight",
+      "vertices": 377,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.06350822933018208,
+        "aa": 0,
+        "happy": 0.001033201813697815,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / shaped upper eyelash ribbon",
+      "vertices": 82,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.16200000047683716,
+        "aa": 0,
+        "happy": 0.016920000314712524,
+        "sad": 0.018625125288963318
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / fine lower lid edge",
+      "vertices": 74,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0.09200000017881393,
+        "aa": 0,
+        "happy": 0.026000000536441803,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Eye / tapered outer lashes",
+      "vertices": 26,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "1.Brow / expressive ribbon",
+      "vertices": 50,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0.012000024318695068,
+        "sad": 0.046999990940093994
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Mouth / lip skin ring around actual opening",
+      "vertices": 390,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0.09614700078964233,
+        "happy": 0.012000009417533875,
+        "sad": 0.0169999897480011
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Mouth / recessed oral cavity",
+      "vertices": 585,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0.09614700078964233,
+        "happy": 0.012000009417533875,
+        "sad": 0.0169999897480011
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Mouth / recessed tongue",
+      "vertices": 261,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0.06296274065971375,
+        "happy": 0.005879998207092285,
+        "sad": 0.0169999897480011
+      },
+      "neutral_visible": false
+    },
+    {
+      "name": "Mouth / small upper tooth strip",
+      "vertices": 125,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0.0299999862909317,
+        "happy": 0.005227193236351013,
+        "sad": 0.0169999897480011
+      },
+      "neutral_visible": false
+    },
+    {
+      "name": "Mouth / soft upper lip and closed smile",
+      "vertices": 66,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0.050000011920928955,
+        "happy": 0.012000009417533875,
+        "sad": 0.017000004649162292
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Nose / small rounded relief",
+      "vertices": 273,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Cheek.-1.0 / fine blush mark",
+      "vertices": 10,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Cheek.-1.1 / fine blush mark",
+      "vertices": 10,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Cheek.-1.2 / fine blush mark",
+      "vertices": 10,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Cheek.1.0 / fine blush mark",
+      "vertices": 10,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Cheek.1.1 / fine blush mark",
+      "vertices": 10,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    },
+    {
+      "name": "Cheek.1.2 / fine blush mark",
+      "vertices": 10,
+      "targets": [
+        "blink",
+        "aa",
+        "happy",
+        "sad"
+      ],
+      "max_position_component_deltas": {
+        "blink": 0,
+        "aa": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "neutral_visible": true
+    }
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration_seconds": 4.7,
+      "fps": 30,
+      "frames": 142,
+      "tracks": 41,
+      "root_yaw_baked_into_pelvis": true,
+      "walk_is_in_place": false,
+      "secondary_physics": {
+        "baked": true,
+        "source": "physics.js world-space fixed-step Verlet bone dynamics; not editable native physics constraints",
+        "chains": 7,
+        "simulated_bones": 23,
+        "finite": true,
+        "max_length_error": 6.661338147750939e-16,
+        "max_tip_collider_penetration": 0
+      }
+    },
+    {
+      "name": "wave",
+      "duration_seconds": 4,
+      "fps": 30,
+      "frames": 121,
+      "tracks": 41,
+      "root_yaw_baked_into_pelvis": true,
+      "walk_is_in_place": false,
+      "secondary_physics": {
+        "baked": true,
+        "source": "physics.js world-space fixed-step Verlet bone dynamics; not editable native physics constraints",
+        "chains": 7,
+        "simulated_bones": 23,
+        "finite": true,
+        "max_length_error": 6.661338147750939e-16,
+        "max_tip_collider_penetration": 0
+      }
+    },
+    {
+      "name": "walk",
+      "duration_seconds": 4,
+      "fps": 30,
+      "frames": 121,
+      "tracks": 41,
+      "root_yaw_baked_into_pelvis": true,
+      "walk_is_in_place": true,
+      "secondary_physics": {
+        "baked": true,
+        "source": "physics.js world-space fixed-step Verlet bone dynamics; not editable native physics constraints",
+        "chains": 7,
+        "simulated_bones": 23,
+        "finite": true,
+        "max_length_error": 5.551115123125783e-16,
+        "max_tip_collider_penetration": 0
+      }
+    },
+    {
+      "name": "turn",
+      "duration_seconds": 4,
+      "fps": 30,
+      "frames": 121,
+      "tracks": 41,
+      "root_yaw_baked_into_pelvis": true,
+      "walk_is_in_place": false,
+      "secondary_physics": {
+        "baked": true,
+        "source": "physics.js world-space fixed-step Verlet bone dynamics; not editable native physics constraints",
+        "chains": 7,
+        "simulated_bones": 23,
+        "finite": true,
+        "max_length_error": 6.661338147750939e-16,
+        "max_tip_collider_penetration": 0
+      }
+    }
+  ],
+  "scope": "Editable procedural character source with baked geometry, skin, colours, morphs and actions; not finished VRM or production topology.",
+  "neutral_proportions": {
+    "body_scale": 0.74,
+    "head_local_scale": [
+      1.08,
+      1.08,
+      1.08
+    ],
+    "head_world_scale": [
+      1.08,
+      1.08,
+      1.08
+    ],
+    "head_scale_applies_before_any_action": true
+  },
+  "gltf": {
+    "meshes": 37,
+    "facial_target_meshes": 36,
+    "skins": [
+      {
+        "joints": 40
+      }
+    ],
+    "animation_names": [
+      "idle",
+      "wave",
+      "walk",
+      "turn"
+    ],
+    "color_primitives": 25,
+    "skin_primitives": 14,
+    "default_head_node_scale": [
+      1.08,
+      1.08,
+      1.08
+    ]
+  },
+  "source_hashes_after": {
+    "character.js": "8832aaf5c114fa0123b7e6c604bad020684af59d54eabba3d470141b545ba293",
+    "face.js": "f27968949d07f8b793c6081c52dbf81b3417c0b8fcf4378df529cbd6d0751e8d",
+    "hair.js": "e468ebd894a587d2feb792b916437c51d50a88a9a9b8becef38b9251dce315fe",
+    "costume.js": "b693224ed7134f89ba8cc93ee487e5e9b715aa7d230323023331c3a7b50f7aa5",
+    "tuning.js": "bfc2e64ccb0f7a73c14e8cb122627577d8cd2933be57c7041f4f7c5ab6dad033",
+    "physics.js": "6489b8255cb8d507e8ca9fe0209735c566b49315353c8437bb77caa21e846cda"
+  },
+  "changed_sources": [],
+  "output": {
+    "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\assets\\dafeiyu-body-rig-v1.glb",
+    "bytes": 34018144,
+    "sha256": "2a3d12fe7bb9c9446c6cf803a452de3b9d6f5ee1569efaaf051139ef30eb1278"
+  },
+  "exporter_script_sha256": "ca13e917f9b97e7cb44b9e608939e6f05a9183704fbaf2101ef6087ec94d2af2"
+}

@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "verification": "Fresh file parse, independent of writer buffer construction",
+  "glbSha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+  "meshes": 77,
+  "bodySkins": 13,
+  "joints": 22,
+  "headControl": 1,
+  "images": 3,
+  "materials": 53,
+  "exactAttributes": 250,
+  "exactComponents": 2350739,
+  "exactBytes": 9134396,
+  "sourceUnchanged": true,
+  "scope": "Static source mesh/UV/COLOR/skin attribute and image transfer, not an animation or physics pass"
+}

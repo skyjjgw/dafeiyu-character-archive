@@ -1,0 +1,89 @@
+{
+  "schema": "dafeiyu.refinement.verification.v1",
+  "created_utc": "2026-10-25T18:33:33.946184+00:00",
+  "stage": "editable multi-angle refinement; not final likeness approval",
+  "sources": {
+    "character.js": "6ad546b23d4266d43e65437254ec3832ffa43d9c6f0ab071b3fba16d7b770fd2",
+    "face.js": "f27968949d07f8b793c6081c52dbf81b3417c0b8fcf4378df529cbd6d0751e8d",
+    "hair.js": "e468ebd894a587d2feb792b916437c51d50a88a9a9b8becef38b9251dce315fe",
+    "costume.js": "b693224ed7134f89ba8cc93ee487e5e9b715aa7d230323023331c3a7b50f7aa5",
+    "physics.js": "6489b8255cb8d507e8ca9fe0209735c566b49315353c8437bb77caa21e846cda",
+    "locomotion.js": "d0e96dbd9339ad2573e66b051e02f604f99113ee8ee48754f97661ea06eab35c",
+    "app.js": "5e36c0a48d506411485ef37edf6114e64c3531741a21c7a8a3f66419ba7775bd",
+    "tuning.js": "bfc2e64ccb0f7a73c14e8cb122627577d8cd2933be57c7041f4f7c5ab6dad033"
+  },
+  "checks": {
+    "rig": {
+      "passed": true,
+      "checks": 43,
+      "report": "production/rig3d-prototype/verification.json"
+    },
+    "secondary_physics": {
+      "passed": true,
+      "checks": 10,
+      "evidence": "node verify-physics.mjs exit0 and10 checks passed"
+    },
+    "locomotion": {
+      "passed": true,
+      "checks": 26,
+      "report": "production/rig3d-prototype/locomotion-verification.json"
+    },
+    "native": {
+      "status": "verified_reopened_native",
+      "changed_source_files": [],
+      "report": "production/character3d/native-build-verification.json"
+    }
+  },
+  "browser": {
+    "url": "http://127.0.0.1:4334/production/rig3d-prototype/",
+    "verified_operations": [
+      "default .74 body and1.08 head",
+      "headWidth1.07 application and restore",
+      "rapid initial/refined switching",
+      "five camera views",
+      "happy and talking geometry",
+      "walking and camera tracking",
+      "turn/pause/recenter",
+      "current-pose GLB export success UI"
+    ],
+    "latest_runtime_errors": [],
+    "observed_render_calls": 65,
+    "observed_triangles_approx": 334000,
+    "fps_caveat": "Session dependent; no target-device guarantee"
+  },
+  "body_draw_batches": {
+    "before": 144,
+    "after": 14,
+    "method": "material-sorted indices, original vertices and skin weights preserved"
+  },
+  "proofs": [
+    {
+      "path": "metadata/rig3d-refinement-final-back.png",
+      "sha256": "36b407c2f021cbcc27b8883be7f0bd890280807f80220cd6cf26d596eef28976"
+    },
+    {
+      "path": "metadata/rig3d-refinement-final-front.png",
+      "sha256": "098312da2574787c9da65473374fa2ff422eeaf0430c1b0b71058efa07f95249"
+    },
+    {
+      "path": "metadata/rig3d-refinement-final-side.png",
+      "sha256": "cdd49bb3f3a58b71db408370c2e3dcfc147bb7219aa514b631208be45c273220"
+    },
+    {
+      "path": "metadata/rig3d-refinement-final-threequarter.png",
+      "sha256": "c0f868e327ef6b77cc8b47a4f66a419fbcade6d5d972db73a5917c178ba59595"
+    },
+    {
+      "path": "metadata/rig3d-refinement-final-walk.png",
+      "sha256": "15a2cb5bb58aa218142d082d21118774d97fa7ff16c43962878c97225cd96762"
+    }
+  ],
+  "limits": [
+    "Side/back references are inferred, not original-author geometry.",
+    "Secondary collisions are on bone tips, not full cloth surfaces.",
+    "Ground controller is fixed-flat-ground capsule+footIK, not full-body dynamics.",
+    "Native walk is in-place, separate from Web locomotion.",
+    "Facial sculpture, seams, production topology and likeness remain unfinished."
+  ],
+  "ai_shape_study": "independent experiment in progress"
+}

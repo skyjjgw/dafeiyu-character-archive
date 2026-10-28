@@ -1,0 +1,10 @@
+{
+  "schema": "dafeiyu.structural-face-native.provenance.v1",
+  "sourceHashes": {
+    "face_kernel.hpp": "95430f547d3c69f4adacb0ace1ea8e9484e9d3e56ddae5f581f0a9227ca883c9",
+    "face_kernel.cpp": "35eef06d8770609839cbcf2b63217873db25512bfbbd8a5710632dd8596e2a00",
+    "register_types.cpp": "234d670eddb492121c692640cf6a2dd8fa5e276fcb4d35751c3d628eb5920c93"
+  },
+  "className": "SelectedStructuralFaceKernel",
+  "scope": "Separate extension; frozen source-default source, DLL and runtime package are unchanged."
+}

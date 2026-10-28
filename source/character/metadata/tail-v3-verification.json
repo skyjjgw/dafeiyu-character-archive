@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-25",
+  "request": "尾巴没做好",
+  "status": "static_tail_shape_corrected",
+  "fixes": [
+    "tapered curved peduncle",
+    "two distinct flukes",
+    "visible central notch",
+    "root remains behind skirt"
+  ],
+  "canonical_face": "Original canonical SHA-256 unchanged; tail replacement polygon minY860 is below facial region",
+  "tail_source_shift": [
+    -2,
+    -1
+  ],
+  "ui_checks": [
+    "full-body tail fits viewport without clipping",
+    "tail close-up shows root and two lobes",
+    "old-tail toggle restores canonical mask and hides replacement",
+    "closed-eyes and open-mouth regression visually checked"
+  ],
+  "independent_visual_review": "No obvious seam, disconnection or old-tail ghost observed in close-up",
+  "limitations": "Static shape correction only; no tail motion or Live2D physics yet",
+  "screenshots": [
+    "metadata/tail-v3-closeup.png",
+    "metadata/tail-v3-fullbody.png"
+  ],
+  "bundle": "production/facial-prototype/character-tail-v3.zip"
+}

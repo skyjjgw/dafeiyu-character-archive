@@ -1,0 +1,331 @@
+{
+  "schema": "dafeiyu.body-grounding-verification.v1",
+  "createdAt": "2026-10-26T15:47:06.089Z",
+  "passed": true,
+  "scope": "Local constant-length two-bone IK, bind-geometry sole contact, level shoes, forward knees, and in-place stepping; not full physics",
+  "geometry": {
+    "meshes": 11,
+    "bones": 22,
+    "vertices": 46202,
+    "triangles": 22588
+  },
+  "samples": 924,
+  "footSamples": 1848,
+  "stanceSamples": 1278,
+  "clampedGaitTargets": 0,
+  "maximumLift": 0.115,
+  "minimumKneeForward": 0.910887780249083,
+  "maxErrors": {
+    "boneLengthError": 2.7755575615628914e-16,
+    "footScaleError": 0,
+    "footLevelError": 6.111054354846123e-16,
+    "supportSoleError": 2.220446049250313e-16,
+    "supportXZError": 4.440892098500626e-16,
+    "shoePenetration": 0,
+    "targetError": 1.047382306668854e-15
+  },
+  "clampCases": [
+    {
+      "target": [
+        0,
+        -3,
+        0
+      ],
+      "clamped": true,
+      "requestedDistance": 3,
+      "reachableDistance": 0.4801496527666616,
+      "upperError": 0,
+      "lowerError": 8.326672684688674e-17
+    },
+    {
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "clamped": true,
+      "requestedDistance": 0,
+      "reachableDistance": 0.007497760842802706,
+      "upperError": 0,
+      "lowerError": 0
+    },
+    {
+      "target": [
+        0,
+        0,
+        3
+      ],
+      "clamped": true,
+      "requestedDistance": 3,
+      "reachableDistance": 0.4801496527666616,
+      "upperError": 0,
+      "lowerError": 8.326672684688674e-17
+    },
+    {
+      "target": [
+        0.2,
+        -0.1,
+        0.1
+      ],
+      "clamped": false,
+      "requestedDistance": 0.24494897427831783,
+      "reachableDistance": 0.24494897427831783,
+      "upperError": 2.7755575615628914e-17,
+      "lowerError": 2.7755575615628914e-17
+    },
+    {
+      "target": [
+        0,
+        0.48,
+        0
+      ],
+      "clamped": false,
+      "requestedDistance": 0.48,
+      "reachableDistance": 0.48,
+      "upperError": 0,
+      "lowerError": 5.551115123125783e-17
+    }
+  ],
+  "snapshots": [
+    {
+      "time": 0,
+      "grounding": {
+        "enabled": true,
+        "groundY": -1.055,
+        "pelvisOffset": -0.012,
+        "feet": {
+          "left": {
+            "support": true,
+            "swingWeight": 0,
+            "lift": 0,
+            "requestedDistance": 0.4674383668570593,
+            "reachableDistance": 0.4674383668570593,
+            "clamped": false,
+            "lengths": [
+              0.23632604596192947,
+              0.24382370680473217
+            ],
+            "requestedSole": [
+              -0.2807692289352417,
+              -1.055,
+              0.08832599222660065
+            ],
+            "clampedAnkle": [
+              -0.245,
+              -0.9376923007965087,
+              0.10500000000000001
+            ],
+            "kneePoleForward": 0.9812893705765808,
+            "soleLocal": [
+              -0.035769228935241704,
+              -0.11730769920349131,
+              -0.016674007773399363
+            ],
+            "actualSole": [
+              -0.2807692289352417,
+              -1.055,
+              0.08832599222660065
+            ],
+            "soleClearance": 0,
+            "footLevelError": 0
+          },
+          "right": {
+            "support": true,
+            "swingWeight": 1.2246467991473532e-16,
+            "lift": 3.994985460894083e-27,
+            "requestedDistance": 0.4674383668570593,
+            "reachableDistance": 0.4674383668570593,
+            "clamped": false,
+            "lengths": [
+              0.23632604596192947,
+              0.24382370680473217
+            ],
+            "requestedSole": [
+              0.26538461446762085,
+              -1.055,
+              0.08832599222660065
+            ],
+            "clampedAnkle": [
+              0.245,
+              -0.9376923007965087,
+              0.10500000000000001
+            ],
+            "kneePoleForward": 0.9812893705765808,
+            "soleLocal": [
+              0.020384614467620854,
+              -0.11730769920349131,
+              -0.016674007773399363
+            ],
+            "actualSole": [
+              0.26538461446762085,
+              -1.055,
+              0.08832599222660065
+            ],
+            "soleClearance": 0,
+            "footLevelError": 0
+          }
+        }
+      }
+    },
+    {
+      "time": 0.036361026083215196,
+      "grounding": {
+        "enabled": true,
+        "groundY": -1.055,
+        "pelvisOffset": -0.012,
+        "feet": {
+          "left": {
+            "support": false,
+            "swingWeight": 0.19509032201612825,
+            "lift": 0.008415404604527723,
+            "requestedDistance": 0.45959815221241473,
+            "reachableDistance": 0.45959815221241473,
+            "clamped": false,
+            "lengths": [
+              0.23632604596192947,
+              0.24382370680473217
+            ],
+            "requestedSole": [
+              -0.2807692289352417,
+              -1.0465845953954722,
+              0.09041930508254026
+            ],
+            "clampedAnkle": [
+              -0.245,
+              -0.929276896191981,
+              0.10709331285593962
+            ],
+            "kneePoleForward": 0.979718682558746,
+            "soleLocal": [
+              -0.035769228935241704,
+              -0.11730769920349131,
+              -0.016674007773399363
+            ],
+            "actualSole": [
+              -0.2807692289352417,
+              -1.0465845953954722,
+              0.09041930508254022
+            ],
+            "soleClearance": 0.008415404604527721,
+            "footLevelError": 1.1102230246251565e-16
+          },
+          "right": {
+            "support": true,
+            "swingWeight": 0,
+            "lift": 0,
+            "requestedDistance": 0.4674383668570593,
+            "reachableDistance": 0.4674383668570593,
+            "clamped": false,
+            "lengths": [
+              0.23632604596192947,
+              0.24382370680473217
+            ],
+            "requestedSole": [
+              0.26538461446762085,
+              -1.055,
+              0.08832599222660065
+            ],
+            "clampedAnkle": [
+              0.245,
+              -0.9376923007965087,
+              0.10500000000000001
+            ],
+            "kneePoleForward": 0.9812893705765808,
+            "soleLocal": [
+              0.020384614467620854,
+              -0.11730769920349131,
+              -0.016674007773399363
+            ],
+            "actualSole": [
+              0.26538461446762085,
+              -1.055,
+              0.08832599222660065
+            ],
+            "soleClearance": 0,
+            "footLevelError": 0
+          }
+        }
+      }
+    },
+    {
+      "time": 0.07272205216643039,
+      "grounding": {
+        "enabled": true,
+        "groundY": -1.055,
+        "pelvisOffset": -0.012,
+        "feet": {
+          "left": {
+            "support": false,
+            "swingWeight": 0.3826834323650898,
+            "lift": 0.024730978351564407,
+            "requestedDistance": 0.44490125511707296,
+            "reachableDistance": 0.44490125511707296,
+            "clamped": false,
+            "lengths": [
+              0.23632604596192947,
+              0.24382370680473217
+            ],
+            "requestedSole": [
+              -0.2807692289352417,
+              -1.0302690216484356,
+              0.09638055574397059
+            ],
+            "clampedAnkle": [
+              -0.245,
+              -0.9129613224449443,
+              0.11305456351736995
+            ],
+            "kneePoleForward": 0.9754104252431252,
+            "soleLocal": [
+              -0.035769228935241704,
+              -0.11730769920349131,
+              -0.016674007773399363
+            ],
+            "actualSole": [
+              -0.2807692289352417,
+              -1.0302690216484358,
+              0.09638055574397057
+            ],
+            "soleClearance": 0.024730978351564126,
+            "footLevelError": 1.1102230246251565e-16
+          },
+          "right": {
+            "support": true,
+            "swingWeight": 0,
+            "lift": 0,
+            "requestedDistance": 0.4674383668570593,
+            "reachableDistance": 0.4674383668570593,
+            "clamped": false,
+            "lengths": [
+              0.23632604596192947,
+              0.24382370680473217
+            ],
+            "requestedSole": [
+              0.26538461446762085,
+              -1.055,
+              0.08832599222660065
+            ],
+            "clampedAnkle": [
+              0.245,
+              -0.9376923007965087,
+              0.10500000000000001
+            ],
+            "kneePoleForward": 0.9812893705765808,
+            "soleLocal": [
+              0.020384614467620854,
+              -0.11730769920349131,
+              -0.016674007773399363
+            ],
+            "actualSole": [
+              0.26538461446762085,
+              -1.055,
+              0.08832599222660065
+            ],
+            "soleClearance": 0,
+            "footLevelError": 0
+          }
+        }
+      }
+    }
+  ]
+}

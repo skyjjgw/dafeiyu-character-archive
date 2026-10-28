@@ -1,0 +1,72 @@
+{
+  "schema": "dafeiyu.selected-look-neutral.v1",
+  "width": 640,
+  "height": 704,
+  "halfY": 1.76985,
+  "cameraPosition": [
+    0.195,
+    0.565,
+    6
+  ],
+  "cameraTarget": [
+    0.195,
+    0.565,
+    0
+  ],
+  "time": 0,
+  "delta": 0,
+  "pose": {
+    "mode": "manual",
+    "framing": "full",
+    "action": "idle",
+    "mood": "neutral",
+    "yaw": 0,
+    "pitch": 0,
+    "talk": 0,
+    "talking": 0,
+    "blink": 0,
+    "gazeX": 0,
+    "gazeY": 0
+  },
+  "appliedPose": {
+    "yaw": 0,
+    "pitch": 0,
+    "blink": 0,
+    "talking": 0,
+    "gazeX": 0,
+    "gazeY": 0,
+    "mood": "neutral",
+    "mode": "manual",
+    "wave": 0,
+    "walk": 0,
+    "happy": 0,
+    "sad": 0
+  },
+  "colorSpace": "srgb",
+  "toneMapping": "NoToneMapping",
+  "lights": {
+    "key": {
+      "color": "#fff7ec",
+      "intensity": 2,
+      "position": [
+        -3,
+        6,
+        5
+      ]
+    },
+    "fill": {
+      "color": "#d7e9ff",
+      "intensity": 0.7,
+      "position": [
+        4,
+        3,
+        -2
+      ]
+    },
+    "ambient": {
+      "color": "#ffffff",
+      "intensity": 0.65
+    }
+  },
+  "scope": "Same original source geometry/UV/materials and entry lights. Frozen neutral state only, not an animation or physics validation."
+}

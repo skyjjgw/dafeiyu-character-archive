@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "status": "ready_verified_background_native_read_write",
+  "verified_at_utc": "2026-10-25T17:38:29Z",
+  "platform": "Windows x64",
+  "scope": "Project-local authoring toolchain only; no character/model creation or prototype edits.",
+  "blender": {
+    "version": "4.5.15 LTS",
+    "release_family": "4.5 LTS",
+    "selection": "Latest stable Windows x64 ZIP observed in official Blender4.5 release directory at verification time",
+    "official_directory_url": "https://download.blender.org/release/Blender4.5/",
+    "source_url": "https://download.blender.org/release/Blender4.5/blender-4.5.15-windows-x64.zip",
+    "archive": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/downloads/blender-4.5.15-windows-x64.zip",
+      "bytes": 398649826,
+      "sha256": "52dd02fd74877fa08e74b67d7854cf32468a232c02aaa19b6844c91285574f8d"
+    },
+    "official_archive_sha256": "52dd02fd74877fa08e74b67d7854cf32468a232c02aaa19b6844c91285574f8d",
+    "sha256_matches_official": true,
+    "official_checksum_url": "https://download.blender.org/release/Blender4.5/blender-4.5.15.sha256",
+    "checksum_file": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/downloads/blender-4.5.15.sha256",
+      "bytes": 880,
+      "sha256": "513b7a1a9c7f21b6cba3a5f544f5e1bd2c979dcdf9ea3a45e68e717d0187c0b9"
+    },
+    "executable": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/blender-4.5.15-windows-x64/blender.exe",
+      "bytes": 96106968,
+      "sha256": "935e4bed28e51d08b8e1fbcc31dcccc000cc1c3dd065d82dcb1da813e75db795"
+    },
+    "build_hash": "5afeabba6097",
+    "build_date": "2026-10-22",
+    "portable": true,
+    "license_paths": [
+      "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/blender-4.5.15-windows-x64/copyright.txt",
+      "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/blender-4.5.15-windows-x64/license"
+    ]
+  },
+  "vrm_addon": {
+    "version": "4.10.2",
+    "release_tag": "v4.10.2",
+    "release_url": "https://github.com/saturday06/VRM-Addon-for-Blender/releases/tag/v4.10.2",
+    "release_api_url": "https://api.github.com/repos/saturday06/VRM-Addon-for-Blender/releases/tags/v4.10.2",
+    "release_published_at": "2026-10-11T13:44:08Z",
+    "source_url": "https://github.com/saturday06/VRM-Addon-for-Blender/releases/download/v4.10.2/VRM_Addon_for_Blender-Extension-4_10_2.zip",
+    "archive": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/vrm-addon/downloads/VRM_Addon_for_Blender-Extension-4_10_2.zip",
+      "bytes": 1649263,
+      "sha256": "228e622d158fbbf070b1b49547708f360a223873f00fa81a42170794492e6db9"
+    },
+    "official_release_asset_digest": "sha256:228e622d158fbbf070b1b49547708f360a223873f00fa81a42170794492e6db9",
+    "sha256_matches_official": true,
+    "package_kind": "Blender 4.2+ extension",
+    "installed_module": "bl_ext.user_default.vrm",
+    "installed_path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/profile/extensions/user_default/vrm",
+    "installed_manifest": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/profile/extensions/user_default/vrm/blender_manifest.toml",
+      "bytes": 522,
+      "sha256": "833d81df3c9360ab1f782051a883dff16677549ab05b2db0381e84da4ec0dfb7"
+    },
+    "compatibility": {
+      "blender_version_min": "4.2.0",
+      "blender_version_max_exclusive": "5.3.0",
+      "runtime_verified": "Blender 4.5.15 LTS",
+      "source_url": "https://raw.githubusercontent.com/saturday06/VRM-Addon-for-Blender/v4.10.2/src/io_scene_vrm/blender_manifest.toml"
+    },
+    "license_expression": "MIT OR GPL-3.0-or-later",
+    "selected_license_option": "MIT",
+    "licenses": [
+      {
+        "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/vrm-addon/licenses/LICENSE_(OPTION1)_MIT.txt",
+        "bytes": 1091,
+        "sha256": "322a4e4b9b76091af6318701bdde6db97859397eec981f72b38802c534a4f6a9",
+        "source_url": "https://raw.githubusercontent.com/saturday06/VRM-Addon-for-Blender/v4.10.2/LICENSE_(OPTION1)_MIT.txt"
+      },
+      {
+        "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/vrm-addon/licenses/LICENSE_(OPTION2)_GPL-3_0.txt",
+        "bytes": 35149,
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "source_url": "https://raw.githubusercontent.com/saturday06/VRM-Addon-for-Blender/v4.10.2/LICENSE_(OPTION2)_GPL-3_0.txt"
+      },
+      {
+        "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/vrm-addon/licenses/LICENSE_MAIN.txt",
+        "bytes": 24,
+        "sha256": "3dbe3cd3576670bc2f698a44ec9905e5b7d80edab3c57fc6a5d587d3df9c2dd0",
+        "source_url": "https://raw.githubusercontent.com/saturday06/VRM-Addon-for-Blender/v4.10.2/LICENSE_MAIN.txt"
+      }
+    ],
+    "official_installation_url": "https://vrm-addon-for-blender.info/en-us/installation/"
+  },
+  "isolation": {
+    "launcher": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/Invoke-Blender.ps1",
+      "bytes": 1448,
+      "sha256": "b708accffc491b72a5ef7c22a7a18e904c452fa15e961ae1f6a9ac46a40329b5"
+    },
+    "profile_root": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/profile",
+    "environment_overrides": {
+      "BLENDER_USER_RESOURCES": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/profile",
+      "BLENDER_USER_CONFIG": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/profile/config",
+      "BLENDER_USER_SCRIPTS": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/profile/scripts",
+      "BLENDER_USER_EXTENSIONS": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/profile/extensions",
+      "BLENDER_USER_DATAFILES": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/profile/datafiles"
+    },
+    "process_environment_restored_after_launch": true,
+    "default_flags": [
+      "--offline-mode",
+      "--disable-autoexec"
+    ],
+    "uses_system_installer": false,
+    "registry_modified": false,
+    "global_blender_defaults_modified": false,
+    "official_environment_documentation": "https://docs.blender.org/manual/en/4.5/advanced/command_line/arguments.html"
+  },
+  "validation": {
+    "blender_background_version_exit_code": 0,
+    "official_extension_install_exit_code": 0,
+    "native_create_and_reopen_exit_code": 0,
+    "independent_process_reopen_exit_code": 0,
+    "script": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validate_native.py",
+      "bytes": 2989,
+      "sha256": "bf94887871c595a05ef600b2b432afc7626dd1cf0d261d48ef0d13bcd9232200"
+    },
+    "native_report": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validation/native-validation.json",
+      "bytes": 1270,
+      "sha256": "6e31072553e1a6318950b723f9c325a0d3f0b6cc1cdf58bd740d9cc3dc02d610"
+    },
+    "reopen_report": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validation/reopen-validation.json",
+      "bytes": 1279,
+      "sha256": "32ca1224688ae10f08cdd4e81f8f72e601011d9289806b6501bf5cf3e0e03c62"
+    },
+    "empty_native_project": {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validation/empty-toolchain-check.blend",
+      "bytes": 458862,
+      "sha256": "3d98e0dfe3b83506b9655ac4219cc02aaeb9ab03ead14c89dc4df8f3796110bc"
+    },
+    "object_count": 0,
+    "vrm_import_operator_registered": true,
+    "vrm_export_operator_registered": true,
+    "online_access": false,
+    "logs": [
+      {
+        "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validation/version.log",
+        "bytes": 1014,
+        "sha256": "1aa156ed0a1aa5ae4305de5c7c8fdaad4dc2d181bb099635346dc1fb5138c0a6"
+      },
+      {
+        "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validation/extension-help.log",
+        "bytes": 1112,
+        "sha256": "c03bf0e6b74b5157a7bd4d7df1fd164a47758db2d33eac115d0a357cc50405d7"
+      },
+      {
+        "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validation/addon-install.log",
+        "bytes": 66,
+        "sha256": "86609f61c48c9a7760e104461f38af45c76aa7006b837d9cc34a47c778fd71d7"
+      },
+      {
+        "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validation/native-validation.log",
+        "bytes": 1510,
+        "sha256": "cb8247b428d5268f922a146d8246148d495e295e9952484178275f2081e0ce08"
+      },
+      {
+        "path": "E:/zzz/dafeiyu-character-materials-20261025/tools/blender/validation/reopen-validation.log",
+        "bytes": 1473,
+        "sha256": "bd3aad993e320fed0bb2f232479c90f86b5014ab3bcbd7fbdd4ea188aa4489ab"
+      }
+    ],
+    "limitations": [
+      "This checks tool startup, extension registration, and empty native .blend read/write only.",
+      "No character, rig, VRM export, physics, rendering, or visual-quality acceptance is claimed."
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {"id":"user-1","reference_use":"baseline","reference_use_label":"用户指定外观基准","relevance":"user_baseline","consistency_notes":"当前唯一由用户指定的Q版外观基准。闭眼、动态跳跑、锅遮挡胸前；不能从此帧确证睁眼眼型、完整围裙、胸前饰品或背面。"},
+  {"id":"daozizhentian-04","form":"Q版近似稿","reference_use":"comparison","reference_use_label":"接近对照 · 非确证同稿","relevance":"close_reference","visual_review":"严格复核：同一鲸鱼女仆设计体系高度接近，未证实为用户截图所用资产；不再标为完全匹配。","consistency_notes":"后发更蓬密、垂得更低，轮廓线较粗，蕾丝和金纹更密。领结宝石、完整围裙图案在用户图中被锅遮挡，不能据此认定是原图事实。"},
+  {"id":"daozizhentian-07","form":"Q版近似稿","reference_use":"comparison","reference_use_label":"接近对照 · 非确证同稿","relevance":"close_reference","visual_review":"严格复核：Q版女仆正侧背设计接近，但不是已确证的用户原稿；保留作对照，不视为用户定稿。","consistency_notes":"可辅助理解发饰、鲸鳍耳与裙装结构。静态正面比例、后发长度、蕾丝和金纹需重新按用户帧核对；不能自动将背面补充当作原图设定。"},
+  {"id":"chibi-aigengtu-05-chibi-blue-maid","reference_use":"detail","reference_use_label":"局部参考 · 社区补充","relevance":"detail_reference","visual_review":"已目视核对：社区Q版正侧背，蓝发鲸鱼女仆；比例、发量、上色和细部与用户截图未能逐项统一。","consistency_notes":"仅参考转面结构、尾部连接和服装部位；不能替代同一版本的正侧背资料。"},
+  {"id":"deepseek202610230019","reference_use":"detail","reference_use_label":"局部参考 · 表情动作","relevance":"detail_reference","consistency_notes":"表情和转面可作为动作意图参考，但发量、袜子、裙装和上色与用户帧存在差异。未经统一重绘，不能作为同人物差分直接交替使用。"},
+  {"id":"live2d-icon","reference_use":"technical","reference_use_label":"技术试跑 · 外观未定","relevance":"technical_candidate","consistency_notes":"同角色Q版的简化画法；仅用于模型加载、参数与动画测试，不作为用户主造型。"},
+  {"id":"live2d-01-待机","reference_use":"technical","reference_use_label":"技术试跑 · 外观未定","relevance":"technical_candidate","visual_review":"严格复核：扁平粗线条、简化刘海与脸部、细长上扬尾巴，身体被桌板和道具遮挡。不能当作与用户截图一致的模型。","consistency_notes":"只验证加载、眨眼、嘴部、表情与显示。画风、尾巴轮廓及完整身体仍需要按用户基准统一，不能直接定稿。"}
+]

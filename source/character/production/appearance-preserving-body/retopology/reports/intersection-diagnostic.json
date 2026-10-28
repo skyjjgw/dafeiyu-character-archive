@@ -1,0 +1,231 @@
+{
+  "schema": "dafeiyu.hand-strict-crossing-diagnostic.v2",
+  "method": "Uniform spatial bins + strict segment/triangle interior intersections; shared-vertex pairs, coplanar and tangential contacts excluded. Diagnostic, not a complete contact or collision proof.",
+  "states": [
+    {
+      "side": "left",
+      "grip": 0,
+      "opposition": 0,
+      "testedCandidatePairs": 41202,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.05,
+      "opposition": 0.020000000000000004,
+      "testedCandidatePairs": 40664,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.1,
+      "opposition": 0.04000000000000001,
+      "testedCandidatePairs": 40730,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.15,
+      "opposition": 0.06,
+      "testedCandidatePairs": 41053,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.2,
+      "opposition": 0.08000000000000002,
+      "testedCandidatePairs": 41195,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.25,
+      "opposition": 0.1,
+      "testedCandidatePairs": 41321,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.3,
+      "opposition": 0.12,
+      "testedCandidatePairs": 41257,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.35,
+      "opposition": 0.13999999999999999,
+      "testedCandidatePairs": 41003,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.4,
+      "opposition": 0.16000000000000003,
+      "testedCandidatePairs": 41083,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.45,
+      "opposition": 0.18000000000000002,
+      "testedCandidatePairs": 41348,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.5,
+      "opposition": 0.2,
+      "testedCandidatePairs": 41333,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.55,
+      "opposition": 0.22000000000000003,
+      "testedCandidatePairs": 41736,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 0.8,
+      "opposition": 0.32000000000000006,
+      "testedCandidatePairs": 42195,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "left",
+      "grip": 1,
+      "opposition": 0.4,
+      "testedCandidatePairs": 44384,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0,
+      "opposition": 0,
+      "testedCandidatePairs": 41215,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.05,
+      "opposition": 0.020000000000000004,
+      "testedCandidatePairs": 40664,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.1,
+      "opposition": 0.04000000000000001,
+      "testedCandidatePairs": 40730,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.15,
+      "opposition": 0.06,
+      "testedCandidatePairs": 41053,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.2,
+      "opposition": 0.08000000000000002,
+      "testedCandidatePairs": 41195,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.25,
+      "opposition": 0.1,
+      "testedCandidatePairs": 41321,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.3,
+      "opposition": 0.12,
+      "testedCandidatePairs": 41258,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.35,
+      "opposition": 0.13999999999999999,
+      "testedCandidatePairs": 41003,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.4,
+      "opposition": 0.16000000000000003,
+      "testedCandidatePairs": 41083,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.45,
+      "opposition": 0.18000000000000002,
+      "testedCandidatePairs": 41348,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.5,
+      "opposition": 0.2,
+      "testedCandidatePairs": 41333,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.55,
+      "opposition": 0.22000000000000003,
+      "testedCandidatePairs": 41736,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 0.8,
+      "opposition": 0.32000000000000006,
+      "testedCandidatePairs": 42194,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    },
+    {
+      "side": "right",
+      "grip": 1,
+      "opposition": 0.4,
+      "testedCandidatePairs": 44385,
+      "strictTriangleCrossings": 0,
+      "firstCrossings": []
+    }
+  ],
+  "sampledStrictCrossingPass": true
+}

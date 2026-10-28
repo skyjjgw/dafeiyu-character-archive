@@ -1,0 +1,23 @@
+{
+	"base": "2 black, 2 white pixels",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"imageFormat": "RGBA8",
+	"linearAverageExpectedDisplay": "(0.7354, 0.7354, 0.7354, 1.0)",
+	"mip1Bytes": [
+		128,
+		128,
+		128,
+		255
+	],
+	"scope": "Actual CPU Image.generate_mipmaps probe only; source WebGL comparison still required"
+}

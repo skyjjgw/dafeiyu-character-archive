@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "preview_url": "http://127.0.0.1:4334/concepts/index.html",
+  "verification": [
+    "Rebuilt both concept manifests with image dimensions, byte counts and SHA-256.",
+    "Observed main library showing the four user-selected Dongbing videos with source links.",
+    "Opened the concept gallery from the main library and visually checked D/E illustrations and reference links.",
+    "Browser error log was empty at inspection."
+  ],
+  "screenshot": "metadata/concepts-v2-preview.png",
+  "remaining_art_review": [
+    "D has tight margin above its ahoge; E clips the ahoge and remains a close-up preview.",
+    "Face can be slightly wider and flatter; hair gradient, blush and eye highlights remain stronger than the video references.",
+    "Current expressions are both open-mouth conversational; they do not cover all emotions."
+  ],
+  "status": "Static concept previews, not approved final design, not layered or rigged. No runtime app integration performed."
+}

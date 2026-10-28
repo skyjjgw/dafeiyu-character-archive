@@ -1,0 +1,1349 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-26",
+  "purpose": "当前人物制作基准的二维可见标志点、证据边界及多角度建模验收约定",
+  "status": "reference_landmark_study_not_complete_reconstruction_or_physics_certification",
+  "reference_priority": {
+    "overall_identity": [
+      "BV1Tonb6JExo",
+      "BV1t6nu6bEsf",
+      "BV1g2JX6HEHX",
+      "BV1C2pg6cEZW"
+    ],
+    "production_front": "canonical-front",
+    "tail_color_override": "tail-color-v5",
+    "tail_color_override_scope": "最新冬装截图仅覆盖尾巴配色；不替换默认女仆服、不用冬帽推定头骨形状或身体比例",
+    "canonical_scope": "canonical是当前选定制作身份的正面二维基准，是生成并校准的资产，不是冬冰作者原稿、原模型或三维真值。其旧单叶形尾巴已被后续v3/v5修正，不再作为尾部结构基准。",
+    "generated_turnarounds": "未来AI生成的正侧背统一视图必须标为inferred/design_proposal；一致的生成图不等于已找到原作者设定或被遮挡结构的证据。"
+  },
+  "evidence_definitions": {
+    "observed": "在明确列出的图像或当前源码中直接可见；二维比例只描述该图的投影，不能自动当作三维实体比例。",
+    "inferred": "为可建模、绑定或验收而提出的推定结构/设计目标，尚未由原参考直接证实。",
+    "unknown": "被遮挡、分辨率不足或没有同版本视图，保留null，禁止用近似图填成事实。",
+    "manual_uncertainty": "手动估读坐标给出像素误差；四位小数只便于机器使用，不代表同等测量精度。"
+  },
+  "sources": [
+    {
+      "id": "canonical-front",
+      "path": "production/v1/neutral-front.png",
+      "sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+      "origin": "selected_generated_and_calibrated_production_art",
+      "dimensions_px": [
+        1144,
+        1375
+      ],
+      "use": "正面可见外观和投影比例；尾巴旧轮廓除外"
+    },
+    {
+      "id": "BV1Tonb6JExo",
+      "url": "https://www.bilibili.com/video/BV1Tonb6JExo/",
+      "cover": "references/video-covers/BV1Tonb6JExo.jpg",
+      "author": "冬冰",
+      "use": "动画Q版面部表达与画法；视频冬装为变体"
+    },
+    {
+      "id": "BV1t6nu6bEsf",
+      "url": "https://www.bilibili.com/video/BV1t6nu6bEsf/",
+      "keyframe": "references/dongbing-confirmed/storyboards/keyframes/BV1t6nu6bEsf-r0c6.png",
+      "author": "冬冰",
+      "use": "正面近全身、短身体短肢体、女仆装及表情；俯视透视，不直接数值平均"
+    },
+    {
+      "id": "BV1g2JX6HEHX",
+      "url": "https://www.bilibili.com/video/BV1g2JX6HEHX/",
+      "cover": "references/video-covers/BV1g2JX6HEHX.jpg",
+      "author": "冬冰",
+      "use": "脸部、蓝眼、高光、请求神态和刘海；近景裁切，不能证实身体长度"
+    },
+    {
+      "id": "BV1C2pg6cEZW",
+      "url": "https://www.bilibili.com/video/BV1C2pg6cEZW/",
+      "keyframes": [
+        "references/dongbing-confirmed/storyboards/keyframes/BV1C2pg6cEZW-r3c5.png",
+        "references/dongbing-confirmed/storyboards/keyframes/BV1C2pg6cEZW-r1c2.png"
+      ],
+      "author": "冬冰",
+      "use": "正面站姿及斜背面线索；尾根仍被头发/裙装遮住"
+    },
+    {
+      "id": "tail-color-v5",
+      "path": "references/user/tail-color-reference-v5.png",
+      "sha256": "5b2b76cea0df8712a3b299b0c5e95c16aa4e1fc1e6c1e1391ab988033b0d01bc",
+      "dimensions_px": [
+        195,
+        183
+      ],
+      "use": "右下角可见尾巴的冷靛蓝主体和柔和蓝亮面；夜景环境光明显，不能作为中性光色卡"
+    },
+    {
+      "id": "tail-shape-working",
+      "path": "production/facial-prototype/assets/tail-v5/tail-blue-reference.png",
+      "origin": "generated_local_correction",
+      "use": "当前双瓣与中央缺口的制作方案；非原作者三维/解剖证明"
+    }
+  ],
+  "review_scope": {
+    "covers": "四张已选封面已目视核对",
+    "video_material": "已有部分实际播放器画面和三份公开storyboard；本轮复核四张代表关键帧",
+    "limitations": [
+      "未完整逐帧检查四部视频",
+      "storyboard关键帧是480×270公开缩略图，时间点映射未确认",
+      "未得到同版本完整正侧背、原模型或原作者建模文件",
+      "没有从图像反推出真实骨骼、质量或物理材料参数"
+    ]
+  },
+  "normalization": {
+    "source_image": "canonical-front",
+    "axes": "x向右，y向下；viewer_left/right指画面左右，勿直接等同角色解剖左右",
+    "origin_pixel": [
+      580,
+      243
+    ],
+    "unit": "H = 严格alpha>128的主体可见包围盒高度；包含呆毛，固定为894px",
+    "H_px": 894,
+    "core_bbox_xyxy_exclusive": [
+      236,
+      243,
+      969,
+      1137
+    ],
+    "bbox_method": "Pillow alpha threshold >128；排除透明区低alpha杂点，边界为右/下不含",
+    "formula": "x_n=(x-580)/894; y_n=(y-243)/894; 尺寸_n=尺寸_px/894",
+    "camera_caveat": "正面近似基准，不是经标定的正交三视图。不同视频镜头有透视、表情、姿态和服装差异，不把它们强行平均。",
+    "fixed_baseline": "多视图QA使用固定H归一化，不因动画中呆毛/尾巴移动而逐帧重算H"
+  },
+  "front_landmarks": [
+    {
+      "id": "ahoge_top",
+      "label": "呆毛最高可见处",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        524,
+        243
+      ],
+      "normalized_xy": [
+        -0.0626,
+        0
+      ],
+      "uncertainty_px": 3,
+      "notes": "最高点x只是当前弯曲姿态；用于取景，不能作为头骨顶点"
+    },
+    {
+      "id": "hair_crown",
+      "label": "头发主块最高处",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        579,
+        345
+      ],
+      "normalized_xy": [
+        -0.0011,
+        0.1141
+      ],
+      "uncertainty_px": 5,
+      "notes": "不含呆毛与白色女仆头饰"
+    },
+    {
+      "id": "head_hair_width",
+      "label": "头发与头侧外轮廓最大宽度，不含鲸鳍耳和后发长束",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          332,
+          535
+        ],
+        [
+          818,
+          535
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.2774,
+          0.3266
+        ],
+        [
+          0.2662,
+          0.3266
+        ]
+      ],
+      "length_px": 486,
+      "length_over_H": 0.5436,
+      "uncertainty_px": 12,
+      "notes": "包含侧发/蝴蝶结附近外轮廓，不是完整头骨宽"
+    },
+    {
+      "id": "head_mass_height",
+      "label": "发顶至下巴投影高度",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          580,
+          345
+        ],
+        [
+          580,
+          688
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          0,
+          0.1141
+        ],
+        [
+          0,
+          0.4978
+        ]
+      ],
+      "length_px": 343,
+      "length_over_H": 0.3837,
+      "uncertainty_px": 6,
+      "notes": ""
+    },
+    {
+      "id": "face_visible_width_eye_line",
+      "label": "眼线附近、被两侧发束框住的可见皮肤宽",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          455,
+          589
+        ],
+        [
+          708,
+          589
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.1398,
+          0.387
+        ],
+        [
+          0.1432,
+          0.387
+        ]
+      ],
+      "length_px": 253,
+      "length_over_H": 0.283,
+      "uncertainty_px": 7,
+      "notes": "这约为头发外轮廓宽的0.52倍；不可据此把整个三维头骨缩至同宽"
+    },
+    {
+      "id": "face_visible_width_cheeks",
+      "label": "下颊处可见皮肤宽",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          466,
+          641
+        ],
+        [
+          698,
+          641
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.1275,
+          0.4452
+        ],
+        [
+          0.132,
+          0.4452
+        ]
+      ],
+      "length_px": 232,
+      "length_over_H": 0.2595,
+      "uncertainty_px": 8,
+      "notes": "被侧发遮住的颊部不在测量中"
+    },
+    {
+      "id": "eye_center_viewer_left",
+      "label": "画面左眼虹膜/瞳孔近中心",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        518,
+        590
+      ],
+      "normalized_xy": [
+        -0.0694,
+        0.3881
+      ],
+      "uncertainty_px": 3,
+      "notes": ""
+    },
+    {
+      "id": "eye_center_viewer_right",
+      "label": "画面右眼虹膜/瞳孔近中心",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        646,
+        589
+      ],
+      "normalized_xy": [
+        0.0738,
+        0.387
+      ],
+      "uncertainty_px": 3,
+      "notes": ""
+    },
+    {
+      "id": "eye_center_spacing",
+      "label": "两眼中心水平投影间距",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          518,
+          589.5
+        ],
+        [
+          646,
+          589.5
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.0694,
+          0.3876
+        ],
+        [
+          0.0738,
+          0.3876
+        ]
+      ],
+      "length_px": 128,
+      "length_over_H": 0.1432,
+      "uncertainty_px": 5,
+      "notes": ""
+    },
+    {
+      "id": "inner_eye_gap",
+      "label": "内眼角及内侧眼线之间可见间隔",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          553,
+          582
+        ],
+        [
+          608,
+          582
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.0302,
+          0.3792
+        ],
+        [
+          0.0313,
+          0.3792
+        ]
+      ],
+      "length_px": 55,
+      "length_over_H": 0.0615,
+      "uncertainty_px": 8,
+      "notes": "刘海遮挡局部边缘，作为宽范围估读"
+    },
+    {
+      "id": "eye_outer_width_left",
+      "label": "画面左眼外轮廓宽，含上眼线",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          456,
+          582
+        ],
+        [
+          553,
+          582
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.1387,
+          0.3792
+        ],
+        [
+          -0.0302,
+          0.3792
+        ]
+      ],
+      "length_px": 97,
+      "length_over_H": 0.1085,
+      "uncertainty_px": 5,
+      "notes": ""
+    },
+    {
+      "id": "eye_outer_height_left",
+      "label": "画面左眼外轮廓高，含上睫毛",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          518,
+          544
+        ],
+        [
+          518,
+          623
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.0694,
+          0.3367
+        ],
+        [
+          -0.0694,
+          0.4251
+        ]
+      ],
+      "length_px": 79,
+      "length_over_H": 0.0884,
+      "uncertainty_px": 5,
+      "notes": ""
+    },
+    {
+      "id": "eye_outer_width_right",
+      "label": "画面右眼外轮廓宽，含上眼线",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          608,
+          582
+        ],
+        [
+          707,
+          582
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          0.0313,
+          0.3792
+        ],
+        [
+          0.1421,
+          0.3792
+        ]
+      ],
+      "length_px": 99,
+      "length_over_H": 0.1107,
+      "uncertainty_px": 5,
+      "notes": ""
+    },
+    {
+      "id": "eye_outer_height_right",
+      "label": "画面右眼外轮廓高，含上睫毛",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          646,
+          544
+        ],
+        [
+          646,
+          623
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          0.0738,
+          0.3367
+        ],
+        [
+          0.0738,
+          0.4251
+        ]
+      ],
+      "length_px": 79,
+      "length_over_H": 0.0884,
+      "uncertainty_px": 5,
+      "notes": ""
+    },
+    {
+      "id": "eye_aperture_height",
+      "label": "去除上睫毛厚度后的睁眼可见开度",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_range",
+      "height_px_range": [
+        61,
+        67
+      ],
+      "height_over_H_range": [
+        0.0682,
+        0.0749
+      ],
+      "notes": "不是79px的含睫毛外轮廓高；建模眼孔与睫毛应分别对齐"
+    },
+    {
+      "id": "visible_blue_iris_components",
+      "label": "可见蓝色虹膜连通区",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "ROI内B>1.25R、B>1.06G、R<150的最大连通区；未把被眼线遮住部分补出",
+      "pixel_bboxes_xyxy_exclusive": {
+        "viewer_left": [
+          490,
+          559,
+          544,
+          620
+        ],
+        "viewer_right": [
+          620,
+          558,
+          673,
+          620
+        ]
+      },
+      "dimensions_over_H": {
+        "viewer_left": [
+          0.0604,
+          0.0682
+        ],
+        "viewer_right": [
+          0.0593,
+          0.0694
+        ]
+      },
+      "uncertainty_px": 3,
+      "notes": "高光造成内洞，未用于推定完整眼球直径"
+    },
+    {
+      "id": "central_bang_tips",
+      "label": "中央刘海最低轮廓/尖端带",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "pixel_xy_ranges": {
+        "x": [
+          564,
+          614
+        ],
+        "y": [
+          587,
+          593
+        ]
+      },
+      "normalized_y_range": [
+        0.3848,
+        0.3915
+      ],
+      "uncertainty_px": 5,
+      "notes": "是重叠发片形成的双尖/折面，不是单个几何圆锥尖；最低端与虹膜中心大致同高"
+    },
+    {
+      "id": "nose_mark",
+      "label": "鼻部小亮点中心",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        580,
+        617
+      ],
+      "normalized_xy": [
+        0,
+        0.4183
+      ],
+      "uncertainty_px": 3,
+      "notes": ""
+    },
+    {
+      "id": "closed_mouth",
+      "label": "闭嘴小笑线中心",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        581,
+        647
+      ],
+      "normalized_xy": [
+        0.0011,
+        0.4519
+      ],
+      "uncertainty_px": 3,
+      "notes": ""
+    },
+    {
+      "id": "chin",
+      "label": "下巴最低皮肤轮廓",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        580,
+        688
+      ],
+      "normalized_xy": [
+        0,
+        0.4978
+      ],
+      "uncertainty_px": 3,
+      "notes": ""
+    },
+    {
+      "id": "mouth_to_chin",
+      "label": "嘴线到下巴距离",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          580,
+          647
+        ],
+        [
+          580,
+          688
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          0,
+          0.4519
+        ],
+        [
+          0,
+          0.4978
+        ]
+      ],
+      "length_px": 41,
+      "length_over_H": 0.0459,
+      "uncertainty_px": 4,
+      "notes": ""
+    },
+    {
+      "id": "eye_line_to_chin",
+      "label": "眼中心线到下巴距离",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          580,
+          589.5
+        ],
+        [
+          580,
+          688
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          0,
+          0.3876
+        ],
+        [
+          0,
+          0.4978
+        ]
+      ],
+      "length_px": 98.5,
+      "length_over_H": 0.1102,
+      "uncertainty_px": 5,
+      "notes": ""
+    },
+    {
+      "id": "collar_center",
+      "label": "领口近中线位置",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        580,
+        699
+      ],
+      "normalized_xy": [
+        0,
+        0.5101
+      ],
+      "uncertainty_px": 5,
+      "notes": ""
+    },
+    {
+      "id": "clothed_shoulder_width",
+      "label": "衣袖/肩部外轮廓投影宽",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          444,
+          765
+        ],
+        [
+          717,
+          765
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.1521,
+          0.5839
+        ],
+        [
+          0.1532,
+          0.5839
+        ]
+      ],
+      "length_px": 273,
+      "length_over_H": 0.3054,
+      "uncertainty_px": 15,
+      "notes": "头发、泡袖和手臂姿态影响显著；不是肩关节中心距"
+    },
+    {
+      "id": "visible_waist_belt_width",
+      "label": "围裙腰带前侧可见宽",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          491,
+          812
+        ],
+        [
+          667,
+          812
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.0996,
+          0.6365
+        ],
+        [
+          0.0973,
+          0.6365
+        ]
+      ],
+      "length_px": 176,
+      "length_over_H": 0.1969,
+      "uncertainty_px": 8,
+      "notes": "衣服外表面，不是裸腰围或骨盆宽"
+    },
+    {
+      "id": "waist_belt_center",
+      "label": "腰带中线",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        579,
+        812
+      ],
+      "normalized_xy": [
+        -0.0011,
+        0.6365
+      ],
+      "uncertainty_px": 5,
+      "notes": ""
+    },
+    {
+      "id": "skirt_outer_width",
+      "label": "裙摆最宽一带外轮廓",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          378,
+          943
+        ],
+        [
+          780,
+          943
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.226,
+          0.783
+        ],
+        [
+          0.2237,
+          0.783
+        ]
+      ],
+      "length_px": 402,
+      "length_over_H": 0.4497,
+      "uncertainty_px": 12,
+      "notes": "含裙装层次，不能由此推出胯骨宽度"
+    },
+    {
+      "id": "skirt_hem_bottom",
+      "label": "中间白色裙边最低一带",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        580,
+        1015
+      ],
+      "normalized_xy": [
+        0,
+        0.8635
+      ],
+      "uncertainty_px": 6,
+      "notes": ""
+    },
+    {
+      "id": "bare_leg_exposure",
+      "label": "裙边下可见皮肤垂直长度",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          513,
+          1015
+        ],
+        [
+          513,
+          1048
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          -0.0749,
+          0.8635
+        ],
+        [
+          -0.0749,
+          0.9004
+        ]
+      ],
+      "length_px": 33,
+      "length_over_H": 0.0369,
+      "uncertainty_px": 6,
+      "notes": "这是露出区域，不是完整大腿长度；膝部被裙摆/袜口遮挡，未定位膝关节"
+    },
+    {
+      "id": "lower_body_visible_height",
+      "label": "裙边到鞋底的投影高度",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_endpoints": [
+        [
+          580,
+          1015
+        ],
+        [
+          580,
+          1137
+        ]
+      ],
+      "normalized_endpoints": [
+        [
+          0,
+          0.8635
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "length_px": 122,
+      "length_over_H": 0.1365,
+      "uncertainty_px": 6,
+      "notes": ""
+    },
+    {
+      "id": "shoe_center_viewer_left",
+      "label": "画面左鞋近中心",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        514,
+        1106
+      ],
+      "normalized_xy": [
+        -0.0738,
+        0.9653
+      ],
+      "uncertainty_px": 4,
+      "notes": ""
+    },
+    {
+      "id": "shoe_center_viewer_right",
+      "label": "画面右鞋近中心",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "measurement": "manual_visual_estimate_in_image_plane",
+      "pixel_xy": [
+        646,
+        1106
+      ],
+      "normalized_xy": [
+        0.0738,
+        0.9653
+      ],
+      "uncertainty_px": 4,
+      "notes": ""
+    },
+    {
+      "id": "sole_line",
+      "label": "鞋底共同基线",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front"
+      ],
+      "pixel_y_range": [
+        1134,
+        1137
+      ],
+      "normalized_y_range": [
+        0.9966,
+        1
+      ],
+      "uncertainty_px": 2
+    },
+    {
+      "id": "whale_fin_ears",
+      "label": "鲸鳍耳可见轮廓",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front",
+        "BV1t6nu6bEsf",
+        "BV1C2pg6cEZW"
+      ],
+      "pixel_bboxes_xyxy_approx": {
+        "viewer_left": [
+          257,
+          548,
+          384,
+          637
+        ],
+        "viewer_right": [
+          778,
+          548,
+          885,
+          637
+        ]
+      },
+      "outer_tip_points_px": {
+        "viewer_left": [
+          258,
+          589
+        ],
+        "viewer_right": [
+          883,
+          589
+        ]
+      },
+      "outer_tip_points_normalized": {
+        "viewer_left": [
+          -0.3602,
+          0.387
+        ],
+        "viewer_right": [
+          0.3389,
+          0.387
+        ]
+      },
+      "uncertainty_px": 8,
+      "notes": "整体横向伸出，蓝色上面与浅色下面；与头骨连接处被发束/蝴蝶结遮挡，根部深度未知"
+    },
+    {
+      "id": "tail_root",
+      "label": "尾根真实结构",
+      "evidence_class": "unknown",
+      "source_ids": [
+        "BV1C2pg6cEZW",
+        "canonical-front"
+      ],
+      "normalized_xy": null,
+      "confidence": "not_observable",
+      "notes": "被头发与裙装遮挡；v1 canonical旧单叶尾已弃用，不能用其连接假象断言尾骨从裙侧长出"
+    }
+  ],
+  "derived_front_ratios": {
+    "evidence_class": "observed",
+    "source_ids": [
+      "canonical-front"
+    ],
+    "kind": "derived_from_approximate_2d_landmarks_not_3d_anatomy",
+    "crown_to_sole_height_px": 792,
+    "hair_crown_to_chin_over_crown_to_sole": 0.4331,
+    "head_units_crown_to_sole_over_hair_crown_to_chin": 2.309,
+    "visible_face_width_over_head_hair_width": 0.5206,
+    "eye_center_spacing_over_visible_face_width": 0.5059,
+    "clothed_shoulder_over_head_hair_width": 0.5617,
+    "waist_belt_over_head_hair_width": 0.3621,
+    "skirt_width_over_head_hair_width": 0.8272,
+    "mouth_to_chin_over_eye_outer_height": 0.519,
+    "notes": "头身比约2.3个“发顶到下巴”单位；定义排除头饰和呆毛。不同定义会给出不同头身比，禁止把此数当真人解剖比例。"
+  },
+  "color_directions": [
+    {
+      "id": "hair",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front",
+        "BV1t6nu6bEsf",
+        "BV1g2JX6HEHX"
+      ],
+      "direction": "主体冷深蓝/钴蓝，成组发束，末端柔和浅蓝；避免整头灰紫和丝状写实高光",
+      "illustrative_pixel_samples": [
+        {
+          "xy": [
+            430,
+            480
+          ],
+          "hex": "#305ead"
+        },
+        {
+          "xy": [
+            350,
+            853
+          ],
+          "hex": "#439bdd"
+        }
+      ],
+      "sample_policy": "当前canonical图像采样，不是作者标准色卡或跨光照精确目标"
+    },
+    {
+      "id": "maid_costume",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front",
+        "BV1t6nu6bEsf"
+      ],
+      "direction": "低明度深蓝女仆服，浅象牙白头饰/围裙/褶边，蓝色蝴蝶结；默认服装不替换成冬装",
+      "illustrative_pixel_samples": [
+        {
+          "xy": [
+            470,
+            774
+          ],
+          "hex": "#283867"
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front",
+        "BV1g2JX6HEHX"
+      ],
+      "direction": "上深下浅的蓝色虹膜、深蓝瞳孔、简洁一致光向的白色高光；上睫毛清楚，白边有限，不形成圆眼镜框"
+    },
+    {
+      "id": "skin",
+      "evidence_class": "observed",
+      "source_ids": [
+        "canonical-front",
+        "BV1g2JX6HEHX"
+      ],
+      "direction": "暖象牙/柔和肤色，局部低饱和腮红与细线；不以大块强硬投影塑造脸部体积"
+    },
+    {
+      "id": "tail",
+      "evidence_class": "observed",
+      "source_ids": [
+        "tail-color-v5"
+      ],
+      "direction": "冷靛蓝主体与柔和蓝色亮面/腹面，避免v4明显灰紫和v3亮青蓝",
+      "uncertainty": "低分辨率夜景；中性光下的具体色值需统一色彩后确认，不能把夜景色温刷到整个人物"
+    }
+  ],
+  "inferred_reconstruction": [
+    {
+      "id": "hidden_cranium",
+      "evidence_class": "inferred",
+      "proposal": "以能包容眼窝与圆颊的完整头壳建模，再由侧发遮挡还原可见皮肤比例；不可把可见253px皮肤宽直接当完整头骨宽",
+      "requires": "无帽正面、侧面、后脑与3/4同版本视图"
+    },
+    {
+      "id": "body_anatomy",
+      "evidence_class": "inferred",
+      "proposal": "Q版短躯干短四肢；肩、肘、髋、膝须在衣物下形成连续可活动结构，不能依衣服最宽处放置关节",
+      "requires": "同版本无透视正侧背或经确认的结构草图；肩关节、髋与膝位置当前不可直接量得"
+    },
+    {
+      "id": "tail_attachment",
+      "evidence_class": "inferred",
+      "proposal": "尾根接骨盆后侧并藏于裙后，尾柄向后/侧方弯曲后展开双瓣；起点、厚度、活动轴、裙摆开口需明确设计",
+      "normalized_y_down_search_range": [
+        0.66,
+        0.76
+      ],
+      "range_status": "仅供结构方案探索，非原参考实测",
+      "requires": "无遮挡后腰/裙后结构与尾根剖面"
+    },
+    {
+      "id": "fluke_plane",
+      "evidence_class": "inferred",
+      "proposal": "两瓣属同一个横向尾鳍结构，可有视角透视差；保持中央缺口，不做上下鱼尾或单叶片",
+      "source_ids": [
+        "tail-shape-working"
+      ],
+      "requires": "正式侧背和俯视确认"
+    },
+    {
+      "id": "physical_properties",
+      "evidence_class": "unknown",
+      "mass_kg": null,
+      "center_of_mass": null,
+      "friction": null,
+      "stiffness": null,
+      "damping": null,
+      "notes": "外观图不能提供真实物性；这些是仿真设计与标定参数，不得伪称已测量或符合完整物理"
+    }
+  ],
+  "view_coverage": [
+    {
+      "view": "front",
+      "evidence_class": "observed",
+      "coverage": "当前canonical完整正面，可用于投影标志点；视频站姿有透视"
+    },
+    {
+      "view": "three_quarter",
+      "evidence_class": "observed",
+      "coverage": "主参考存在斜面脸部/身体片段，支持发型、耳鳍和宽圆脸趋势，未形成标定三视图"
+    },
+    {
+      "view": "side_90",
+      "evidence_class": "unknown",
+      "coverage": "尚无清晰同姿态完整90度侧视，脸深、胸腹背厚度、足长和尾根深度不可确证"
+    },
+    {
+      "view": "back_180",
+      "evidence_class": "observed",
+      "coverage": "BV1C2pg6cEZW-r1c2可见斜背后发轮廓；下躯干与尾根遮挡，不能当标准背视"
+    },
+    {
+      "view": "top_bottom_internal",
+      "evidence_class": "unknown",
+      "coverage": "头顶发束连接、裙内结构、足底、尾根截面及遮挡面缺乏直接资料"
+    }
+  ],
+  "current_model_snapshot": {
+    "evidence_class": "observed",
+    "method": "read_only_source_inspection_not_visual_authority",
+    "source_hashes": {
+      "production/rig3d-prototype/character.js": "346c8fa4f659b201d28d0c548a21a2cfcd766786d87d36c2a4c3672ef041cd70",
+      "production/rig3d-prototype/face.js": "d83136baa5b5ac36768736ef1e2ca3f4b011c9831dad8ce7ac7d3a2671c13997",
+      "production/rig3d-prototype/tuning.js": "671463f43d39d9c9c4144971f26efb6fad434649c5edbf123b4f97de8cec104e"
+    },
+    "defaults": {
+      "bodyScale": 0.82,
+      "headScale": 1,
+      "headWidth": 1,
+      "eyeWidth": 1,
+      "eyeHeight": 1,
+      "eyeSpacing": 1,
+      "irisScale": 1
+    },
+    "implementation": "程序化网格，40骨骨架；独立圆颊脸壳与眼口开孔，运行时连续眼皮；MToon/lil-gui调参。源码数值是实现状态，不是原人物标准。",
+    "measurable_source_parameters": {
+      "head_local_width_approx": 1.32,
+      "head_local_y_range": [
+        -0.445,
+        0.555
+      ],
+      "eye_center_x": [
+        -0.247,
+        0.247
+      ],
+      "eye_full_aperture_width": 0.38,
+      "eye_center_aperture_height_approx": 0.254
+    },
+    "gaps": [
+      "缺经确认的同版本正侧背和隐藏结构，不能宣称已完整还原所有角度",
+      "当前头发遮脸面积、脸部轮廓和身体各部位投影仍需按本标志点重新量化对齐",
+      "程序化拼合网格尚非正式连续拓扑、UV/贴图与可编辑原生形态键资产",
+      "手指为简化几何，未证实完整指关节/手部表情绑定；腕、肘、膝变形与服装纠正形需制作",
+      "运行时几何眼皮不等同标准面部形态键；导出静态姿态不代表完整表情和动作已烘焙",
+      "发尾次级运动/碰撞和脚底接触需要独立验收；摆动看起来顺滑不等于完整物理已成立",
+      "原生Blender工程与后续导入结果由另一任务建立，本文件不替其声明完成状态"
+    ]
+  },
+  "qa_proposal": {
+    "evidence_class": "inferred",
+    "status": "proposed_acceptance_criteria_not_measured_source_facts",
+    "views": {
+      "yaw_degrees": [
+        0,
+        45,
+        90,
+        135,
+        180,
+        225,
+        270,
+        315
+      ],
+      "additional": [
+        "正交正面",
+        "正交侧面",
+        "正交背面",
+        "轻俯视",
+        "尾根与裙摆遮挡近景"
+      ],
+      "rules": "同一模型、同一中性姿势、同一灯光和相机标定；原图透视镜头须另做匹配视图，不用不同版本图拼成证据"
+    },
+    "front_identity": [
+      {
+        "check": "强可见标志点",
+        "target": "两眼中心、眼孔、刘海最低带、嘴、下巴、腰带和裙边",
+        "suggested_tolerance_over_H": {
+          "mean": 0.01,
+          "max": 0.02
+        },
+        "notes": "均为提议阈值；先人工确认定义与误差，不把推定关节纳入硬性作者匹配分"
+      },
+      {
+        "check": "比例",
+        "target": "头发外宽、头部高、眼距、含睫毛眼高、嘴下巴距离和衣装宽度",
+        "suggested_relative_tolerance": 0.05
+      },
+      {
+        "check": "遮挡",
+        "target": "侧发框住脸颊，眼线不形成白色圆球/镜框；刘海尖接近眼中心线，下半脸短圆而非柱形"
+      }
+    ],
+    "multi_angle_identity": "侧背生成稿先以inferred身份评审，核对发束连续、耳鳍成对、裙装围裙结构、尾根不从身体侧面凭空出现；资料不足处明确由用户确认设计，而非宣称作者原结构。",
+    "color": "在中性光下统一颜色再与夜景/暖光参考对照；最新冬装只指导尾色，不把全局冷光转移为皮肤或服装固有色。",
+    "deformation": [
+      "眼皮闭合无穿插、上下眼线连续，虹膜不缩成薄贴片",
+      "抬手、弯肘、屈膝、转身时体积与衣物遮挡合理",
+      "裙边、发束、尾柄和尾鳍没有断裂、突变缩放或自相交"
+    ],
+    "physics": [
+      {
+        "check": "固定链长",
+        "suggested_max_relative_error": 0.005,
+        "notes": "动态骨链长度保持；碰撞投影后重新检查长度，不靠拉伸逃避碰撞"
+      },
+      {
+        "check": "站立/支撑脚",
+        "suggested_max_slip_over_H": 0.01,
+        "suggested_max_penetration_over_H": 0.005,
+        "notes": "按声明的支撑相位测量，非腾空相位"
+      },
+      {
+        "check": "稳定性",
+        "cases": [
+          "30/60/120Hz",
+          "暂停恢复",
+          "动作打断",
+          "根节点转向/瞬移/缩放",
+          "长时间静止恢复"
+        ],
+        "target": "无NaN/爆炸、无能量无故增长、无累积漂移；明示简化碰撞体覆盖不到的接触"
+      },
+      {
+        "check": "物性",
+        "target": "记录弹性、阻尼、重力和碰撞体的单位及适用范围；图像无法给出这些真实数值，风格化尾发不冒充完整流体/布料仿真"
+      }
+    ],
+    "handoff_required": [
+      "锁定并标注推定部分的统一视图",
+      "可编辑blend与拓扑/UV",
+      "身体/手/脸绑定及形态键",
+      "材质与色彩管理",
+      "骨链/碰撞/脚底接触验收记录",
+      "同一模型八方向截图和动作视频",
+      "来源与版本、所用预设JSON"
+    ]
+  }
+}

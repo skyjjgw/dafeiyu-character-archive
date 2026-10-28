@@ -1,0 +1,6 @@
+from pathlib import Path
+p=Path('E:/zzz/dafeiyu-character-materials-20261025/production/whole-character-rebuild/head/build_head_v15.py');s=p.read_text('utf-8')
+s=s.replace('for layer,outline in enumerate(outlines):\n  curve=[]','for layer,outline in enumerate(outlines):\n  outline=[p for j,p in enumerate(outline) if j==0 or p!=outline[j-1]]\n  curve=[]')
+s=s.replace("bmesh.ops.remove_doubles(bm,verts=bm.verts,dist=.000002);bmesh.ops.recalc_face_normals(bm,faces=bm.faces);bm.to_mesh(ob.data)","bmesh.ops.remove_doubles(bm,verts=bm.verts,dist=.000002)\n  bm.verts.index_update();duplicate=[];seen={}\n  for f in bm.faces:\n   key=tuple(sorted(v.index for v in f.verts))\n   if key in seen:duplicate.extend([seen[key],f])\n   else:seen[key]=f\n  if duplicate:bmesh.ops.delete(bm,geom=list(set(duplicate)),context='FACES')\n  bmesh.ops.dissolve_degenerate(bm,edges=list(bm.edges),dist=.000001)\n  boundary=[e for e in bm.edges if e.is_boundary]\n  if boundary:bmesh.ops.holes_fill(bm,edges=boundary,sides=12)\n  bmesh.ops.recalc_face_normals(bm,faces=bm.faces);bm.to_mesh(ob.data)")
+s=s.replace("'native-v15.blend'","'native-v16.blend'").replace("f'head-v15-{ang:03}.png'","f'head-v16-{ang:03}.png'")
+p.with_name('build_head_v16.py').write_text(s,'utf-8')

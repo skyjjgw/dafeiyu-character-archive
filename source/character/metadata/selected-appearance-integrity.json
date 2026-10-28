@@ -1,0 +1,249 @@
+{
+  "schema": "dafeiyu.selected-appearance.integrity.v1",
+  "checkedAtUTC": "2026-10-28T12:41:05.170427+00:00",
+  "chosenURL": "http://127.0.0.1:4348/character-preview.html",
+  "scope": "Source integrity only. No final appearance, all-angle, motion or physics acceptance is implied.",
+  "checks": [
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\manifest.json",
+      "kind": "locked_manifest",
+      "expected": "88206f1ec23d25bf8439933747cb2c31c4dc8f38fa973e1c3c369022e8786c0d",
+      "actual": "88206f1ec23d25bf8439933747cb2c31c4dc8f38fa973e1c3c369022e8786c0d",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\character-preview.html",
+      "kind": "frozen_preview",
+      "expected": "6abe1e431b3b14f30ea65ac03c16c07ea7a9e138a46f9012dd4ea6f9765ccc9d",
+      "actual": "6abe1e431b3b14f30ea65ac03c16c07ea7a9e138a46f9012dd4ea6f9765ccc9d",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-dsh-panel\\hud\\character-entry.js",
+      "kind": "current_sources",
+      "expected": "7f425ae454f3928df54e60d42909b70be5124ad554bd3af89486ad1cb94a6a6b",
+      "actual": "7f425ae454f3928df54e60d42909b70be5124ad554bd3af89486ad1cb94a6a6b",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\character-entry.js",
+      "kind": "frozen_sources",
+      "expected": "7f425ae454f3928df54e60d42909b70be5124ad554bd3af89486ad1cb94a6a6b",
+      "actual": "7f425ae454f3928df54e60d42909b70be5124ad554bd3af89486ad1cb94a6a6b",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-dsh-panel\\scripts\\build-character.mjs",
+      "kind": "current_sources",
+      "expected": "b303cc2dc3d9860da0456d48d5336a61184e42a17ae5be492c281fa3cd8a6160",
+      "actual": "b303cc2dc3d9860da0456d48d5336a61184e42a17ae5be492c281fa3cd8a6160",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\build-character.mjs",
+      "kind": "frozen_sources",
+      "expected": "b303cc2dc3d9860da0456d48d5336a61184e42a17ae5be492c281fa3cd8a6160",
+      "actual": "b303cc2dc3d9860da0456d48d5336a61184e42a17ae5be492c281fa3cd8a6160",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\app.js",
+      "kind": "current_sources",
+      "expected": "06faa2f0f89d2af085c04d660f4528e07acc547dece60cc4682a26b1fb318c12",
+      "actual": "06faa2f0f89d2af085c04d660f4528e07acc547dece60cc4682a26b1fb318c12",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\app.js",
+      "kind": "frozen_sources",
+      "expected": "06faa2f0f89d2af085c04d660f4528e07acc547dece60cc4682a26b1fb318c12",
+      "actual": "06faa2f0f89d2af085c04d660f4528e07acc547dece60cc4682a26b1fb318c12",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\body-full.js",
+      "kind": "current_sources",
+      "expected": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723",
+      "actual": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\body-full.js",
+      "kind": "frozen_sources",
+      "expected": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723",
+      "actual": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\body.js",
+      "kind": "current_sources",
+      "expected": "f048c225d9c99083d4488419d587991ef13bab2e59f92e3fab75f5dbffe0fcee",
+      "actual": "f048c225d9c99083d4488419d587991ef13bab2e59f92e3fab75f5dbffe0fcee",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\body.js",
+      "kind": "frozen_sources",
+      "expected": "f048c225d9c99083d4488419d587991ef13bab2e59f92e3fab75f5dbffe0fcee",
+      "actual": "f048c225d9c99083d4488419d587991ef13bab2e59f92e3fab75f5dbffe0fcee",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\character.js",
+      "kind": "current_sources",
+      "expected": "f5c9383466f268f228af48ed9b33243a8aac4063417993a6c8ce18ef42812d95",
+      "actual": "f5c9383466f268f228af48ed9b33243a8aac4063417993a6c8ce18ef42812d95",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\character.js",
+      "kind": "frozen_sources",
+      "expected": "f5c9383466f268f228af48ed9b33243a8aac4063417993a6c8ce18ef42812d95",
+      "actual": "f5c9383466f268f228af48ed9b33243a8aac4063417993a6c8ce18ef42812d95",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\face.js",
+      "kind": "current_sources",
+      "expected": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8",
+      "actual": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\face.js",
+      "kind": "frozen_sources",
+      "expected": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8",
+      "actual": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\hair.js",
+      "kind": "current_sources",
+      "expected": "095319ae6f67c68d9f7935fea3d46d7a5b6f3bb88d0ee4c754aa7d2d9d87b40b",
+      "actual": "095319ae6f67c68d9f7935fea3d46d7a5b6f3bb88d0ee4c754aa7d2d9d87b40b",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\hair.js",
+      "kind": "frozen_sources",
+      "expected": "095319ae6f67c68d9f7935fea3d46d7a5b6f3bb88d0ee4c754aa7d2d9d87b40b",
+      "actual": "095319ae6f67c68d9f7935fea3d46d7a5b6f3bb88d0ee4c754aa7d2d9d87b40b",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\performance.js",
+      "kind": "current_sources",
+      "expected": "30412dbf3abb38860c73c9333bfdafbcf4f71f7a21a978fa1b49ac8715702d44",
+      "actual": "30412dbf3abb38860c73c9333bfdafbcf4f71f7a21a978fa1b49ac8715702d44",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\performance.js",
+      "kind": "frozen_sources",
+      "expected": "30412dbf3abb38860c73c9333bfdafbcf4f71f7a21a978fa1b49ac8715702d44",
+      "actual": "30412dbf3abb38860c73c9333bfdafbcf4f71f7a21a978fa1b49ac8715702d44",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\profile-volume.js",
+      "kind": "current_sources",
+      "expected": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8",
+      "actual": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\profile-volume.js",
+      "kind": "frozen_sources",
+      "expected": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8",
+      "actual": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\rear-hair.js",
+      "kind": "current_sources",
+      "expected": "ce8b1430690eb356a8eab911c5cc40fd5ad98beb492f2f9cbaa4d84cab72d7d0",
+      "actual": "ce8b1430690eb356a8eab911c5cc40fd5ad98beb492f2f9cbaa4d84cab72d7d0",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\rear-hair.js",
+      "kind": "frozen_sources",
+      "expected": "ce8b1430690eb356a8eab911c5cc40fd5ad98beb492f2f9cbaa4d84cab72d7d0",
+      "actual": "ce8b1430690eb356a8eab911c5cc40fd5ad98beb492f2f9cbaa4d84cab72d7d0",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\secondary-motion.js",
+      "kind": "current_sources",
+      "expected": "afb65b07d2ff06a93be5271b12cb55536ca99c596d36187f08f3c9e752171c98",
+      "actual": "afb65b07d2ff06a93be5271b12cb55536ca99c596d36187f08f3c9e752171c98",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\secondary-motion.js",
+      "kind": "frozen_sources",
+      "expected": "afb65b07d2ff06a93be5271b12cb55536ca99c596d36187f08f3c9e752171c98",
+      "actual": "afb65b07d2ff06a93be5271b12cb55536ca99c596d36187f08f3c9e752171c98",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\stage.js",
+      "kind": "current_sources",
+      "expected": "9a132abc8558a428eda3c010fb08a44eed7fadc7fd12c0587c4a47ce3a8b8301",
+      "actual": "9a132abc8558a428eda3c010fb08a44eed7fadc7fd12c0587c4a47ce3a8b8301",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\source\\stage.js",
+      "kind": "frozen_sources",
+      "expected": "9a132abc8558a428eda3c010fb08a44eed7fadc7fd12c0587c4a47ce3a8b8301",
+      "actual": "9a132abc8558a428eda3c010fb08a44eed7fadc7fd12c0587c4a47ce3a8b8301",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\references\\video-covers\\BV1g2JX6HEHX.jpg",
+      "kind": "current_assets",
+      "expected": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+      "actual": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\assets\\BV1g2JX6HEHX.jpg",
+      "kind": "frozen_assets",
+      "expected": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+      "actual": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\v1\\neutral-front.png",
+      "kind": "current_assets",
+      "expected": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+      "actual": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\assets\\neutral-front.png",
+      "kind": "frozen_assets",
+      "expected": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+      "actual": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\turnaround-auxiliary-v2.png",
+      "kind": "current_assets",
+      "expected": "408f5df1b2a7a58689201ce2d34f3be3d9fe359e5f6ffc4cff9c95f18b84ea34",
+      "actual": "408f5df1b2a7a58689201ce2d34f3be3d9fe359e5f6ffc4cff9c95f18b84ea34",
+      "passed": true
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-baseline-20261027\\assets\\turnaround-auxiliary-v2.png",
+      "kind": "frozen_assets",
+      "expected": "408f5df1b2a7a58689201ce2d34f3be3d9fe359e5f6ffc4cff9c95f18b84ea34",
+      "actual": "408f5df1b2a7a58689201ce2d34f3be3d9fe359e5f6ffc4cff9c95f18b84ea34",
+      "passed": true
+    }
+  ],
+  "previewPanelDocumentIdentical": true,
+  "sourceIntegrityPassed": true,
+  "finalQualityPassed": false
+}

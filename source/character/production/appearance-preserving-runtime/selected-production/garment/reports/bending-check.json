@@ -1,0 +1,534 @@
+{
+	"checks": {
+		"all_points_finite": true,
+		"no_free_point_pose_targets": true,
+		"two_real_softbodies": true,
+		"waist_pins_under_1mm": true,
+		"world_bounds_reasonable": true
+	},
+	"completed": true,
+	"contact_or_selfcollision_pass": false,
+	"headless": true,
+	"pass": true,
+	"samples": [
+		{
+			"age": 0.0,
+			"layers": [
+				{
+					"bounds_max": [
+						0.251294702291489,
+						0.456535756587982,
+						0.230504587292671
+					],
+					"bounds_min": [
+						-0.272298693656921,
+						0.181057378649712,
+						-0.202138841152191
+					],
+					"edge_ratio": [
+						1.0,
+						1.0
+					],
+					"id": "outer",
+					"max_displacement_m": 0.0
+				},
+				{
+					"bounds_max": [
+						0.151091575622559,
+						0.453637689352036,
+						0.178638577461243
+					],
+					"bounds_min": [
+						-0.151081398129463,
+						0.189649447798729,
+						-0.158823296427727
+					],
+					"edge_ratio": [
+						1.0,
+						1.0
+					],
+					"id": "lining",
+					"max_displacement_m": 0.0
+				}
+			]
+		},
+		{
+			"age": 0.0125,
+			"layers": [
+				{
+					"bounds_max": [
+						0.251148253679276,
+						0.456535756587982,
+						0.230436116456985
+					],
+					"bounds_min": [
+						-0.272141307592392,
+						0.180461838841438,
+						-0.202089220285416
+					],
+					"edge_ratio": [
+						0.984755649058424,
+						1.0150450335993
+					],
+					"id": "outer",
+					"max_displacement_m": 0.00170009036082774
+				},
+				{
+					"bounds_max": [
+						0.151043742895126,
+						0.453637689352036,
+						0.17855416238308
+					],
+					"bounds_min": [
+						-0.151034027338028,
+						0.189082831144333,
+						-0.158772394061089
+					],
+					"edge_ratio": [
+						0.993433977140583,
+						1.01439426250152
+					],
+					"id": "lining",
+					"max_displacement_m": 0.0016530710272491
+				}
+			]
+		},
+		{
+			"age": 0.0541666666666667,
+			"layers": [
+				{
+					"bounds_max": [
+						0.238246321678162,
+						0.456535756587982,
+						0.223107933998108
+					],
+					"bounds_min": [
+						-0.256462007761002,
+						0.182832539081573,
+						-0.194122433662415
+					],
+					"edge_ratio": [
+						0.679404875743312,
+						1.34304390330342
+					],
+					"id": "outer",
+					"max_displacement_m": 0.0298544932156801
+				},
+				{
+					"bounds_max": [
+						0.140368565917015,
+						0.453637689352036,
+						0.159507051110268
+					],
+					"bounds_min": [
+						-0.146429762244225,
+						0.204595297574997,
+						-0.143339142203331
+					],
+					"edge_ratio": [
+						0.435807772185158,
+						1.80821389964174
+					],
+					"id": "lining",
+					"max_displacement_m": 0.0373137630522251
+				}
+			]
+		},
+		{
+			"age": 0.25,
+			"layers": [
+				{
+					"bounds_max": [
+						0.177061691880226,
+						0.456535756587982,
+						0.157113894820213
+					],
+					"bounds_min": [
+						-0.220063433051109,
+						0.155441999435425,
+						-0.14618869125843
+					],
+					"edge_ratio": [
+						0.500433502076413,
+						1.55049540954166
+					],
+					"id": "outer",
+					"max_displacement_m": 0.201318442821503
+				},
+				{
+					"bounds_max": [
+						0.106914356350899,
+						0.46386656165123,
+						0.0584334917366505
+					],
+					"bounds_min": [
+						-0.174909457564354,
+						0.187228351831436,
+						-0.131507784128189
+					],
+					"edge_ratio": [
+						0.138933358830838,
+						1.81510691946523
+					],
+					"id": "lining",
+					"max_displacement_m": 0.160690248012543
+				}
+			]
+		},
+		{
+			"age": 1.00416666666666,
+			"layers": [
+				{
+					"bounds_max": [
+						0.216598778963089,
+						0.456535756587982,
+						0.131608039140701
+					],
+					"bounds_min": [
+						-0.121463842689991,
+						0.162991285324097,
+						-0.135277658700943
+					],
+					"edge_ratio": [
+						0.565879629351414,
+						1.65774759637517
+					],
+					"id": "outer",
+					"max_displacement_m": 0.266022861003876
+				},
+				{
+					"bounds_max": [
+						0.124840706586838,
+						0.471128880977631,
+						0.0892401933670044
+					],
+					"bounds_min": [
+						-0.0851566195487976,
+						0.221840262413025,
+						-0.147909700870514
+					],
+					"edge_ratio": [
+						0.222680575555424,
+						1.61062678410173
+					],
+					"id": "lining",
+					"max_displacement_m": 0.350873321294785
+				}
+			]
+		}
+	],
+	"schema": "dafeiyu.selected-garment-native-integration.v1",
+	"scope": "Boundary wiring only, not cloth shape/contact/material acceptance",
+	"setup": {
+		"backend_radius_measured": false,
+		"configured_jolt_point_radius_m": 0.0035,
+		"current_work_not_physics_acceptance": true,
+		"hard_waist_pins": 192,
+		"layers": 2,
+		"ok": true,
+		"per_vertex_areal_mass": false,
+		"solver_points": 3104
+	},
+	"simulated_seconds": 1.0125,
+	"snapshot": {
+		"backend_radius_measured": false,
+		"collision_pass": false,
+		"collisions_enabled": false,
+		"configured_point_radius_m": 0.0035,
+		"final_visual_pass": false,
+		"free_points_pose_targets": false,
+		"initial_proxy_overlaps": [
+			{
+				"capsules_with_initial_overlap": [],
+				"layer": "outer"
+			},
+			{
+				"capsules_with_initial_overlap": [],
+				"layer": "lining"
+			}
+		],
+		"layers": [
+			{
+				"bending_energy_j": 0.0580700375475991,
+				"hinges": 5088,
+				"id": "outer",
+				"mass_kg": 0.0799999982118607,
+				"points": 1824,
+				"triangles": 3456,
+				"waist_pins": 96
+			},
+			{
+				"bending_energy_j": 0.0969641812740746,
+				"hinges": 3456,
+				"id": "lining",
+				"mass_kg": 0.0350000001490116,
+				"points": 1280,
+				"triangles": 2368,
+				"waist_pins": 96
+			}
+		],
+		"material_enabled": true,
+		"material_ms_samples": [
+			0.611,
+			0.328,
+			0.469,
+			0.322,
+			0.512,
+			0.363,
+			0.505,
+			0.325,
+			0.47,
+			0.313,
+			0.458,
+			0.31,
+			0.471,
+			0.325,
+			0.454,
+			0.308,
+			0.529,
+			0.334,
+			0.533,
+			0.322,
+			0.476,
+			0.347,
+			0.462,
+			0.319,
+			0.475,
+			0.322,
+			0.486,
+			0.337,
+			0.477,
+			0.321,
+			0.481,
+			0.323,
+			0.476,
+			0.335,
+			0.486,
+			0.325,
+			0.485,
+			0.32,
+			0.472,
+			0.32,
+			0.474,
+			0.324,
+			0.488,
+			0.331,
+			0.472,
+			0.313,
+			0.439,
+			0.334,
+			0.425,
+			0.286,
+			0.478,
+			0.327,
+			0.454,
+			0.302,
+			0.45,
+			0.303,
+			0.46,
+			0.314,
+			0.464,
+			0.295,
+			0.474,
+			0.348,
+			0.513,
+			0.35,
+			0.542,
+			0.393,
+			0.526,
+			0.351,
+			0.546,
+			0.395,
+			0.88,
+			0.552,
+			0.494,
+			0.341,
+			0.476,
+			0.356,
+			0.52,
+			0.346,
+			0.459,
+			0.332,
+			0.473,
+			0.324,
+			0.766,
+			0.324,
+			0.455,
+			0.319,
+			0.461,
+			0.319,
+			0.476,
+			0.314,
+			0.462,
+			0.339,
+			0.557,
+			0.321,
+			0.543,
+			0.35,
+			0.483,
+			0.33,
+			0.5,
+			0.349,
+			0.474,
+			0.321,
+			0.462,
+			0.313,
+			0.472,
+			0.335,
+			0.455,
+			0.303,
+			0.445,
+			0.314,
+			0.456,
+			0.297,
+			0.446,
+			0.307,
+			0.493,
+			0.313,
+			0.46,
+			0.321,
+			0.454,
+			0.333,
+			0.473,
+			0.331,
+			0.505,
+			0.316,
+			0.451,
+			0.313,
+			0.455,
+			0.324,
+			0.468,
+			0.311,
+			0.516,
+			0.314,
+			0.478,
+			0.327,
+			0.476,
+			0.322,
+			0.475,
+			0.333,
+			0.493,
+			0.341,
+			0.452,
+			0.306,
+			0.502,
+			0.34,
+			0.559,
+			0.308,
+			0.487,
+			0.367,
+			0.462,
+			0.32,
+			0.619,
+			0.335,
+			0.47,
+			0.32,
+			0.471,
+			0.332,
+			0.46,
+			0.307,
+			0.469,
+			0.318,
+			0.471,
+			0.343,
+			0.465,
+			0.311,
+			0.466,
+			0.309,
+			0.46,
+			0.309,
+			0.494,
+			0.316,
+			0.45,
+			0.305,
+			0.463,
+			0.637,
+			0.466,
+			0.3,
+			0.441,
+			0.39,
+			0.437,
+			0.293,
+			0.457,
+			0.301,
+			0.461,
+			0.305,
+			0.455,
+			0.309,
+			0.459,
+			0.32,
+			0.463,
+			0.31,
+			0.59,
+			0.38,
+			0.901,
+			0.442,
+			0.497,
+			0.453,
+			0.482,
+			0.544,
+			0.59,
+			0.331,
+			0.478,
+			0.316,
+			0.45,
+			0.303,
+			0.473,
+			0.33,
+			0.437,
+			0.295,
+			0.462,
+			0.321,
+			0.494,
+			0.341,
+			0.437,
+			0.302,
+			0.436,
+			0.331,
+			0.54,
+			0.335,
+			0.485,
+			0.324,
+			0.457,
+			0.415,
+			0.461,
+			0.33,
+			0.466,
+			0.447,
+			0.469,
+			0.317,
+			0.577,
+			0.344,
+			0.436,
+			0.291,
+			0.506,
+			0.305,
+			0.428,
+			0.286,
+			0.531,
+			0.308,
+			0.439,
+			0.294
+		],
+		"maximum_displacement_from_initial_world_m": 0.356144964694977,
+		"maximum_material_force_n": 39.1036224365234,
+		"maximum_pin_error_m": 0.0000000335276126861572,
+		"per_vertex_areal_mass_used": false,
+		"ready": true,
+		"solver": "Jolt SoftBody3D + native signed-dihedral material forces",
+		"unsupported": [
+			"Actual Jolt simulation and signed bending integration not verified by this exporter",
+			"Garment/body/tail/hair contact and continuous collision validation pending",
+			"Per-vertex areal mass use depends on native SoftBody API; uniform total_mass alone does not apply these masses",
+			"Whole-character camera calibration and side/back art remain unresolved; prior v2 front is not pixel identical",
+			"No arbitrary action, all-angle final look or physical material certification"
+		],
+		"updates": 241
+	},
+	"visual_pass": false,
+	"wall_seconds": 2.068647,
+	"world_y_bounds": [
+		0.155364274978638,
+		0.496510744094849
+	]
+}

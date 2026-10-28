@@ -1,0 +1,2533 @@
+{
+	"anisotropy_setting": 2,
+	"camera": {
+		"halfY": 1.76985,
+		"position": [
+			0.195,
+			0.565,
+			6.0
+		],
+		"projection": "orthographic",
+		"resolution": [
+			640.0,
+			704.0
+		],
+		"target": [
+			0.195,
+			0.565,
+			0.0
+		]
+	},
+	"capture_error": 0,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"linear_textures": true,
+	"material_count": 53,
+	"material_debug_ids": [
+		{
+			"index": 0,
+			"rgb": [
+				13,
+				47,
+				83
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.577580440421457,
+					0.485149940046651,
+					0.396755230715336,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_000",
+				"side": 2.0,
+				"sourceName": "unpainted skin volume",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 1,
+			"rgb": [
+				86,
+				184,
+				31
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_001",
+				"side": 2.0,
+				"sourceName": "source-fitted skin lighting and blush",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 2,
+			"rgb": [
+				159,
+				70,
+				230
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_002",
+				"side": 2.0,
+				"sourceName": "original unmodified facial paint",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 3,
+			"rgb": [
+				232,
+				207,
+				178
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.215860500103244,
+					0.135633329645481,
+					0.111932427827697,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_003",
+				"side": 2.0,
+				"sourceName": "soft drawn jaw contour",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 4,
+			"rgb": [
+				54,
+				93,
+				126
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": false,
+				"image": -1.0,
+				"name": "SOURCE_004",
+				"side": 2.0,
+				"sourceName": "source-fitted skin with blended exterior",
+				"toneMapped": false,
+				"transparent": true,
+				"type": "MeshBasicMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 5,
+			"rgb": [
+				127,
+				230,
+				74
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.715693500500572,
+					0.69387176128569,
+					0.651405637412793,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_005",
+				"side": 2.0,
+				"sourceName": "warm eye white",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 6,
+			"rgb": [
+				200,
+				116,
+				22
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_006",
+				"side": 2.0,
+				"sourceName": "original iris paint including pupil and highlights",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 7,
+			"rgb": [
+				22,
+				2,
+				221
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0116122451762815,
+					0.00913405869915779,
+					0.0144438435922295,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_007",
+				"side": 2.0,
+				"sourceName": "navy brown upper eyelashes",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 8,
+			"rgb": [
+				95,
+				139,
+				169
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.270497791002252,
+					0.177888415973287,
+					0.14702726648767,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_008",
+				"side": 2.0,
+				"sourceName": "subtle lower eyelashes",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 9,
+			"rgb": [
+				168,
+				25,
+				117
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.337163615037666,
+					0.234550582150262,
+					0.191201682730317,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_009",
+				"side": 2.0,
+				"sourceName": "soft independent eyebrows",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 10,
+			"rgb": [
+				241,
+				162,
+				65
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.152926151986132,
+					0.0437350292504938,
+					0.0512694583671154,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_010",
+				"side": 2.0,
+				"sourceName": "recessed mouth interior",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 11,
+			"rgb": [
+				63,
+				48,
+				13
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.508881320845802,
+					0.174647403645279,
+					0.181164244239483,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_011",
+				"side": 2.0,
+				"sourceName": "tongue",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 12,
+			"rgb": [
+				136,
+				185,
+				212
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0295568344323638,
+					0.070360095688743,
+					0.174647403645279,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_012",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 13,
+			"rgb": [
+				209,
+				71,
+				160
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					0.871367119195957,
+					0.623960391667596,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 2.0,
+				"name": "SOURCE_013",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 14,
+			"rgb": [
+				31,
+				208,
+				108
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0295568344323638,
+					0.070360095688743,
+					0.174647403645279,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_014",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 15,
+			"rgb": [
+				104,
+				94,
+				56
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					0.871367119195957,
+					0.623960391667596,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 2.0,
+				"name": "SOURCE_015",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 16,
+			"rgb": [
+				177,
+				231,
+				4
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_016",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 17,
+			"rgb": [
+				250,
+				117,
+				203
+			],
+			"source": {
+				"alphaTest": 0.4,
+				"baseLinear": [
+					0.323143209102228,
+					0.246201326697056,
+					0.434153636164786,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 1.0,
+				"name": "SOURCE_017",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": true,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 18,
+			"rgb": [
+				72,
+				3,
+				151
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_018",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 19,
+			"rgb": [
+				145,
+				140,
+				99
+			],
+			"source": {
+				"alphaTest": 0.4,
+				"baseLinear": [
+					0.323143209102228,
+					0.246201326697056,
+					0.434153636164786,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 1.0,
+				"name": "SOURCE_019",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": true,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 20,
+			"rgb": [
+				218,
+				26,
+				47
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_020",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 21,
+			"rgb": [
+				40,
+				163,
+				246
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_021",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 22,
+			"rgb": [
+				113,
+				49,
+				194
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_022",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 23,
+			"rgb": [
+				186,
+				186,
+				142
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_023",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 24,
+			"rgb": [
+				8,
+				72,
+				90
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_024",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 25,
+			"rgb": [
+				81,
+				209,
+				38
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_025",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 26,
+			"rgb": [
+				154,
+				95,
+				237
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_026",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 27,
+			"rgb": [
+				227,
+				232,
+				185
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_027",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 28,
+			"rgb": [
+				49,
+				118,
+				133
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_028",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 29,
+			"rgb": [
+				122,
+				4,
+				81
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_029",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 30,
+			"rgb": [
+				195,
+				141,
+				29
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_030",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 31,
+			"rgb": [
+				17,
+				27,
+				228
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_031",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 32,
+			"rgb": [
+				90,
+				164,
+				176
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_032",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 33,
+			"rgb": [
+				163,
+				50,
+				124
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_033",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 34,
+			"rgb": [
+				236,
+				187,
+				72
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_034",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 35,
+			"rgb": [
+				58,
+				73,
+				20
+			],
+			"source": {
+				"alphaTest": 0.025,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_035",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": true,
+				"type": "MeshBasicMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 36,
+			"rgb": [
+				131,
+				210,
+				219
+			],
+			"source": {
+				"alphaTest": 0.025,
+				"baseLinear": [
+					0.47932018309134,
+					0.473531496138457,
+					0.527115125696916,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_036",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": true,
+				"type": "MeshToonMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 37,
+			"rgb": [
+				204,
+				96,
+				167
+			],
+			"source": {
+				"alphaTest": 0.025,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_037",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": true,
+				"type": "MeshBasicMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 38,
+			"rgb": [
+				26,
+				233,
+				115
+			],
+			"source": {
+				"alphaTest": 0.025,
+				"baseLinear": [
+					0.47932018309134,
+					0.473531496138457,
+					0.527115125696916,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_038",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": true,
+				"type": "MeshToonMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 39,
+			"rgb": [
+				99,
+				119,
+				63
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 0.0,
+				"name": "SOURCE_039",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 40,
+			"rgb": [
+				172,
+				5,
+				11
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_040",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 41,
+			"rgb": [
+				245,
+				142,
+				210
+			],
+			"source": {
+				"alphaTest": 0.4,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 1.0,
+				"name": "SOURCE_041",
+				"side": 0.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": true,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 42,
+			"rgb": [
+				67,
+				28,
+				158
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0262412218896963,
+					0.061246054224174,
+					0.162029375628962,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_042",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": true,
+				"transparent": false,
+				"type": "MeshToonMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 43,
+			"rgb": [
+				140,
+				165,
+				106
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 1.0,
+				"name": "SOURCE_043",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": true
+			}
+		},
+		{
+			"index": 44,
+			"rgb": [
+				213,
+				51,
+				54
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0202885630520903,
+					0.0331047665651521,
+					0.0742135683721387,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_044",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 45,
+			"rgb": [
+				35,
+				188,
+				2
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.752942216770861,
+					0.715693500500572,
+					0.672443156951013,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_045",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 46,
+			"rgb": [
+				108,
+				74,
+				201
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.863157213451089,
+					0.577580440421457,
+					0.428690496603892,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_046",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 47,
+			"rgb": [
+				181,
+				211,
+				149
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0116122451762815,
+					0.0212190103713422,
+					0.061246054224174,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_047",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 48,
+			"rgb": [
+				3,
+				97,
+				97
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0129830323385103,
+					0.0231533661732514,
+					0.0544802764353398,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_048",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 49,
+			"rgb": [
+				76,
+				234,
+				45
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0212190103713422,
+					0.0343398068028541,
+					0.0802198203062266,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_049",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 50,
+			"rgb": [
+				149,
+				120,
+				244
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0684781698366276,
+					0.124771817551444,
+					0.219526199718594,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_050",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 51,
+			"rgb": [
+				222,
+				6,
+				192
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.219526199718594,
+					0.242281122454786,
+					0.381326011422124,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": 1.0,
+				"name": "SOURCE_051",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		},
+		{
+			"index": 52,
+			"rgb": [
+				44,
+				143,
+				140
+			],
+			"source": {
+				"alphaTest": 0.0,
+				"baseLinear": [
+					0.0193823609524731,
+					0.0307134437274522,
+					0.0742135683721387,
+					1.0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"image": -1.0,
+				"name": "SOURCE_052",
+				"side": 2.0,
+				"sourceName": "",
+				"toneMapped": false,
+				"transparent": false,
+				"type": "MeshBasicMaterial",
+				"vertexColors": false
+			}
+		}
+	],
+	"mesh_instances": [
+		{
+			"name": "closed rounded back of skull",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 110592,
+					"source_material": 0,
+					"vertices": 19041
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "curved face with genuine eye and mouth openings",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 77568,
+					"source_material": 1,
+					"vertices": 77568
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "reference skin, nose and cheek paint only",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 33504,
+					"source_material": 2,
+					"vertices": 33504
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "continuous short rounded chin contour",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 672,
+					"source_material": 3,
+					"vertices": 226
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left deforming skin eyelid",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 9216,
+					"source_material": 4,
+					"vertices": 1649
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left exposed sclera",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 5184,
+					"source_material": 5,
+					"vertices": 970
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left sampled original iris",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 9576,
+					"source_material": 6,
+					"vertices": 1677
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left moving upper eyelash",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 480,
+					"source_material": 7,
+					"vertices": 162
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left pointed outer lashes",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 3,
+					"source_material": 7,
+					"vertices": 3
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left moving lower eyelash",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 480,
+					"source_material": 8,
+					"vertices": 162
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left moving eyelid crease",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 384,
+					"source_material": 9,
+					"vertices": 130
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right deforming skin eyelid",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 9216,
+					"source_material": 4,
+					"vertices": 1649
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right exposed sclera",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 5184,
+					"source_material": 5,
+					"vertices": 970
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right sampled original iris",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 9576,
+					"source_material": 6,
+					"vertices": 1677
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right moving upper eyelash",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 480,
+					"source_material": 7,
+					"vertices": 162
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right pointed outer lashes",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 3,
+					"source_material": 7,
+					"vertices": 3
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right moving lower eyelash",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 480,
+					"source_material": 8,
+					"vertices": 162
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right moving eyelid crease",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 384,
+					"source_material": 9,
+					"vertices": 130
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "continuously deforming skin around mouth",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 8064,
+					"source_material": 4,
+					"vertices": 1455
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "continuously opening mouth cavity",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 4608,
+					"source_material": 10,
+					"vertices": 873
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "tongue inside opening",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1536,
+					"source_material": 11,
+					"vertices": 325
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "continuous smile contour",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 576,
+					"source_material": 10,
+					"vertices": 194
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "continuous-scalp-front-side-back-shell",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 42048,
+					"source_material": 12,
+					"vertices": 7250
+				},
+				{
+					"indices": 13824,
+					"source_material": 13,
+					"vertices": 2401
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "rounded-posterior-waterfall-hair-volume",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 18720,
+					"source_material": 14,
+					"vertices": 3298
+				},
+				{
+					"indices": 18432,
+					"source_material": 15,
+					"vertices": 3185
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "continuous-rounded-three-dimensional-headband",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 9216,
+					"source_material": 16,
+					"vertices": 1649
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-auxiliary-source-traced-long-curls_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 2121,
+					"source_material": 17,
+					"vertices": 515
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-auxiliary-source-traced-long-curls_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1170,
+					"source_material": 18,
+					"vertices": 1170
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-auxiliary-source-traced-long-curls_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 2121,
+					"source_material": 18,
+					"vertices": 515
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-auxiliary-source-traced-long-curls_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 2121,
+					"source_material": 19,
+					"vertices": 515
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-auxiliary-source-traced-long-curls_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1170,
+					"source_material": 20,
+					"vertices": 1170
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-auxiliary-source-traced-long-curls_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 2121,
+					"source_material": 20,
+					"vertices": 515
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-face-framing-hair_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 17712,
+					"source_material": 21,
+					"vertices": 3370
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-face-framing-hair_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1578,
+					"source_material": 22,
+					"vertices": 1578
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-face-framing-hair_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 17712,
+					"source_material": 22,
+					"vertices": 3370
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-face-framing-hair_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 24573,
+					"source_material": 23,
+					"vertices": 4564
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-face-framing-hair_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1548,
+					"source_material": 24,
+					"vertices": 1548
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-face-framing-hair_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 24573,
+					"source_material": 24,
+					"vertices": 4564
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "central-forked-bangs_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 11976,
+					"source_material": 25,
+					"vertices": 2327
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "central-forked-bangs_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1518,
+					"source_material": 26,
+					"vertices": 1518
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "central-forked-bangs_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 11976,
+					"source_material": 26,
+					"vertices": 2327
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-whale-fin-ear_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 2040,
+					"source_material": 27,
+					"vertices": 458
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-whale-fin-ear_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 762,
+					"source_material": 28,
+					"vertices": 762
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-whale-fin-ear_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 2040,
+					"source_material": 28,
+					"vertices": 458
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-whale-fin-ear_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1335,
+					"source_material": 29,
+					"vertices": 325
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-whale-fin-ear_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 756,
+					"source_material": 30,
+					"vertices": 756
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-whale-fin-ear_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1335,
+					"source_material": 30,
+					"vertices": 325
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-blue-ribbon_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 714,
+					"source_material": 31,
+					"vertices": 209
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-blue-ribbon_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 864,
+					"source_material": 32,
+					"vertices": 864
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-blue-ribbon_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 714,
+					"source_material": 32,
+					"vertices": 209
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-blue-ribbon_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 435,
+					"source_material": 33,
+					"vertices": 135
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-blue-ribbon_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 648,
+					"source_material": 34,
+					"vertices": 648
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-blue-ribbon_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 435,
+					"source_material": 34,
+					"vertices": 135
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-painted-white-frill_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 6573,
+					"source_material": 35,
+					"vertices": 1350
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-painted-white-frill_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1386,
+					"source_material": 36,
+					"vertices": 1386
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "left-painted-white-frill_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 6573,
+					"source_material": 36,
+					"vertices": 1350
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-painted-white-frill_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 2883,
+					"source_material": 37,
+					"vertices": 639
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-painted-white-frill_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 1044,
+					"source_material": 38,
+					"vertices": 1044
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "right-painted-white-frill_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 2883,
+					"source_material": 38,
+					"vertices": 639
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "inferred-rounded-crown-using-original-blue-pixels_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 774,
+					"source_material": 39,
+					"vertices": 177
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "inferred-rounded-crown-using-original-blue-pixels_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 228,
+					"source_material": 40,
+					"vertices": 228
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "inferred-rounded-crown-using-original-blue-pixels_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 774,
+					"source_material": 40,
+					"vertices": 177
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "auxiliary-painted-hook-ahoge_original-pixel-surface",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 642,
+					"source_material": 41,
+					"vertices": 188
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "auxiliary-painted-hook-ahoge_closed-thickness",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 756,
+					"source_material": 42,
+					"vertices": 756
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "auxiliary-painted-hook-ahoge_back",
+			"skeleton": "",
+			"surfaces": [
+				{
+					"indices": 642,
+					"source_material": 42,
+					"vertices": 188
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.1, 0.0)]"
+		},
+		{
+			"name": "traced collar, bib, bow and continuous bodice",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 4320,
+					"source_material": 43,
+					"vertices": 775
+				},
+				{
+					"indices": 4608,
+					"source_material": 44,
+					"vertices": 823
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "continuous flared skirt, painted front apron and encircling ivory hem",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 8064,
+					"source_material": 43,
+					"vertices": 1421
+				},
+				{
+					"indices": 7488,
+					"source_material": 44,
+					"vertices": 1370
+				},
+				{
+					"indices": 1152,
+					"source_material": 45,
+					"vertices": 245
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "left traced puff sleeve and cuff",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 3480,
+					"source_material": 43,
+					"vertices": 630
+				},
+				{
+					"indices": 3240,
+					"source_material": 44,
+					"vertices": 607
+				},
+				{
+					"indices": 480,
+					"source_material": 45,
+					"vertices": 105
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "left traced open hand and fingers",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 960,
+					"source_material": 43,
+					"vertices": 960
+				},
+				{
+					"indices": 960,
+					"source_material": 46,
+					"vertices": 960
+				},
+				{
+					"indices": 528,
+					"source_material": 46,
+					"vertices": 352
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "left traced thigh, sock and ankle",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 2880,
+					"source_material": 43,
+					"vertices": 525
+				},
+				{
+					"indices": 1584,
+					"source_material": 46,
+					"vertices": 323
+				},
+				{
+					"indices": 1584,
+					"source_material": 45,
+					"vertices": 300
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "left traced mary jane shoe",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 4536,
+					"source_material": 43,
+					"vertices": 814
+				},
+				{
+					"indices": 2664,
+					"source_material": 47,
+					"vertices": 505
+				},
+				{
+					"indices": 2304,
+					"source_material": 48,
+					"vertices": 429
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "right traced puff sleeve and cuff",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 3480,
+					"source_material": 43,
+					"vertices": 630
+				},
+				{
+					"indices": 3240,
+					"source_material": 44,
+					"vertices": 607
+				},
+				{
+					"indices": 480,
+					"source_material": 45,
+					"vertices": 105
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "right traced open hand and fingers",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 960,
+					"source_material": 43,
+					"vertices": 960
+				},
+				{
+					"indices": 960,
+					"source_material": 46,
+					"vertices": 960
+				},
+				{
+					"indices": 528,
+					"source_material": 46,
+					"vertices": 352
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "right traced thigh, sock and ankle",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 2880,
+					"source_material": 43,
+					"vertices": 525
+				},
+				{
+					"indices": 1584,
+					"source_material": 46,
+					"vertices": 323
+				},
+				{
+					"indices": 1584,
+					"source_material": 45,
+					"vertices": 300
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "right traced mary jane shoe",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 4536,
+					"source_material": 43,
+					"vertices": 814
+				},
+				{
+					"indices": 2664,
+					"source_material": 47,
+					"vertices": 505
+				},
+				{
+					"indices": 2304,
+					"source_material": 48,
+					"vertices": 429
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "continuous rounded whale tail stem",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 2496,
+					"source_material": 49,
+					"vertices": 457
+				},
+				{
+					"indices": 2304,
+					"source_material": 50,
+					"vertices": 425
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "indigo whale left biconvex fluke",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 2496,
+					"source_material": 51,
+					"vertices": 2496
+				},
+				{
+					"indices": 2496,
+					"source_material": 49,
+					"vertices": 2496
+				},
+				{
+					"indices": 720,
+					"source_material": 52,
+					"vertices": 480
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		},
+		{
+			"name": "indigo whale right biconvex fluke",
+			"skeleton": "..",
+			"surfaces": [
+				{
+					"indices": 4992,
+					"source_material": 51,
+					"vertices": 4992
+				},
+				{
+					"indices": 4992,
+					"source_material": 49,
+					"vertices": 4992
+				},
+				{
+					"indices": 1344,
+					"source_material": 52,
+					"vertices": 896
+				}
+			],
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]"
+		}
+	],
+	"no_animation_or_physics_claim": true,
+	"no_mips": false,
+	"rendering_method": "gl_compatibility",
+	"resolution": [
+		640,
+		704
+	],
+	"source_glb_sha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+	"static_only": true
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-27",
+  "user_requirement": "自然流畅全身动作、完整身体结构与真实物理；不能靠贴片、换图或只关注正面；达到用户确认视频的画风与表演标准",
+  "goal": "高还原全身虚拟人物、所需角度、实时控制、自然动作和合理接触，并接入DSH内核产品；局部试作不是终点",
+  "current_probe_status": "历史画风与测量对照，不作为最终角色结构",
+  "native_rebuild": {
+    "root": "production/native-character",
+    "coordinates": {
+      "up": "Blender +Z",
+      "front": "Blender -Y",
+      "groundZ": 0,
+      "headEyeLineZ": 2.155,
+      "headChinZ": 1.773,
+      "collarZ": 1.755
+    },
+    "body": "连续变形拓扑、独立手指关节、完整侧背衣服、原生IK/FK与关节限制",
+    "face": "完整头颅、连续脸部变形、闭合眼球与真实眼睑、口腔/下颌/颊协同",
+    "physics": "实际物体质量/重力/碰撞、支撑脚接触、关节长度与角度、布料和发尾次级模拟",
+    "validation_sequence": "同一场景连续转身→迈步→伸手取物→停步，多视角与手部近景检查",
+    "runtime": "独立实时表现/物理运行层评估，DSH继续负责模型调用与执行；不暴露其密钥和管理能力"
+  },
+  "shape_hypothesis": {
+    "run": "production/character3d/ai-shape-study/runs/20261027-001654-618950",
+    "status": "actual_native_front_side_back_reviewed_not_usable_as_final_deformation_base",
+    "scope": "独立三维体积对照，未绑定、未整理拓扑、非最终角色"
+  },
+  "native_status": {
+    "components": "body-v2.blend / face-v2.blend / hair-v2.blend 已实际生成；连续皮肤/手指、闭合眼球口腔与变形表情、真体积发束可编辑",
+    "assembled": "production/native-character/dafeiyu-native-v2-study.blend；assets/dafeiyu-native-v2-study.glb 用于运行层接入试作",
+    "runtime": "完整v2资产已在Godot4.7.2/Jolt运行；53条真实发尾PhysicalBone、1216点自由布料、64片中空裙撑；有符号二面角材料力与碰撞修正后44.729s GPU检查稳定。CUA运行仅21–23fps，因此未通过流畅度验收；next分支正在优化",
+    "action_study": "192帧/24fps真实逐帧渲染MP4已完成；8秒原生Cloth/Bullet缓存；物体特定辅助抓握，非任意物体力闭合或最终动作验收",
+    "known_quality_gaps": [
+      "发型与全身造型仍偏简化人偶，尚不符合商业参考质感",
+      "大角度遮挡及正常姿态穿插仍需实际复核",
+      "运行层材质与表情驱动还在转译和校正",
+      "本地产品尚未正式接入新原生表现层"
+    ],
+    "proof_policy": "结构/闭合/骨长/物理固定点等数字只验证相应技术项，不作为最终画面或表演还原证据",
+    "independent_art_revision": "body-v3缩手指/掌、泡袖/钟裙/圆鞋/双叉尾；face-v3眼睑/连续表情修订；hair-v4闭合薄发束+短刘海。已实际渲染assembled-v4全部视角，仍需消除大小眼、尖长侧唇、尾出口及掌腕拓扑问题；未推广到runtime",
+    "progress_page": "http://127.0.0.1:4334/production/native-character/"
+  },
+  "completion_rule": "不能以生成网格、闭合测试、物理测试或一段预录视频宣称最终目标已达成；需实际角色画面、连续交互与产品接入证据",
+  "latest_user_direction": {
+    "date": "2026-10-27",
+    "statement": "严重有问题，上一版本那个才是最贴近的",
+    "chosenURL": "http://127.0.0.1:4348/character-preview.html",
+    "appearanceSnapshot": "production/appearance-baseline-20261027",
+    "meaning": "恢复该页面旧人物作为外观基准，新的native造型方向被否定",
+    "preserve": [
+      "五官/脸型",
+      "发型/头饰",
+      "头身比例",
+      "原画细节/色彩/画法"
+    ],
+    "technicalRequirement": "自然连续全身动作、各角度完整结构与真实物理目标继续，不能用旧平面切片的失败角度当达标，也不能再另造通用脸",
+    "nativeArtStatus": "frozen_research_not_approved_do_not_promote_v8",
+    "productStatus": "旧页面人物未改动，新native造型未安装DSH"
+  }
+}

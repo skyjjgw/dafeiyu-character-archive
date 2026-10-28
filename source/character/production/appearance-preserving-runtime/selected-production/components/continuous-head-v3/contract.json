@@ -1,0 +1,68 @@
+{
+  "schema": "dafeiyu.continuous-head-v3.component.v1",
+  "id": "continuous-head-v3",
+  "version": "0.1.0-development",
+  "coordinateSystem": "Original Head local +Y up +Z front; attach once to original Head node. Source face root transform retained.",
+  "replacesSourceGroupName": "painted-face",
+  "sourceReviewedGLBSha256": "08669c36b9e217a8f242c08a0fb573ec4c399900d8a1b68ae375ac53a44f3fae",
+  "glbSha256": "13fdf1d136a81a13b5ba80943bd4e9a2303979a215c70d747271bb919cbfd1e1",
+  "canonicalMapping": "UV1.x is an exact source vertex ID per original mesh accessor. Validate on real imported ArrayMesh; consume once to construct canonical per-surface descriptors. Remove diagnostic UV1 from dynamic buffers; UV0/raw image bytes remain unchanged.",
+  "kernelClass": "SelectedStructuralFaceKernel",
+  "sourceDefaultLibraryUntouched": true,
+  "files": [
+    {
+      "path": "head-local.glb",
+      "bytes": 7449816,
+      "sha256": "13fdf1d136a81a13b5ba80943bd4e9a2303979a215c70d747271bb919cbfd1e1"
+    },
+    {
+      "path": "canonical.bin",
+      "bytes": 5376896,
+      "sha256": "a69786fa02f64ac6c1b2d5c1f67dff0d4edb6fb8d015a7c064612855c616cca3"
+    },
+    {
+      "path": "descriptors.json",
+      "bytes": 5807,
+      "sha256": "8ffdd18b3c59a706cd8fc51dcc5825d64e53dff397980f85003447a0fa259135"
+    },
+    {
+      "path": "source-equations.json",
+      "bytes": 170798,
+      "sha256": "97a24124b9b59ee09ffbf1ade29578bd40af1b7e2878295186d5bf5e93268578"
+    },
+    {
+      "path": "structure.json",
+      "bytes": 10059455,
+      "sha256": "68712688a60541349e0e78210147b407df74f95d91d2fdfcd3a406768530ae5a"
+    },
+    {
+      "path": "rendering.json",
+      "bytes": 70513,
+      "sha256": "f128a7a7e42667a27d089cfb2b1f2fdcf9a74ecdebc7990aefdabd542bf67538"
+    },
+    {
+      "path": "face_adapter.gd",
+      "bytes": 8845,
+      "sha256": "80dfad98d0295f27f60cae7672729d69764021c215e81ef4265af44bdc606fa1"
+    },
+    {
+      "path": "factory.gd",
+      "bytes": 3039,
+      "sha256": "3069d0e188d57e9926771596c18088d8b6f2d9dd7278f298a75dcea49ba199a1"
+    },
+    {
+      "path": "selected_structural_face_kernel.gdextension",
+      "bytes": 208,
+      "sha256": "998792863e07635182ffe3e1f8586d1dbf9a90fc072088c2c73e783e9e9957e9"
+    },
+    {
+      "path": "bin/selected_structural_face_kernel.windows.release.x86_64.dll",
+      "bytes": 496128,
+      "sha256": "d25ce205577bd9f568808fdb8dc29c406ee1d5cc5375959c718e11f8459728f6"
+    }
+  ],
+  "finalQualityPassed": false,
+  "nativeVisualPassed": false,
+  "scope": "Continuous head skin, fixed closed eye volumes, sockets and oral lining; selected cosmetic drawing and original expression equations retained. Does not solve original hair/body side views or physiological eye rotation.",
+  "headLocal": true
+}

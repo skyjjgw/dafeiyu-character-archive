@@ -1,0 +1,145 @@
+{
+	"captures": [
+		{
+			"angle": 0.0,
+			"error": 0,
+			"grip": 0.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl0.0-view0.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 45.0,
+			"error": 0,
+			"grip": 0.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl0.0-view45.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 90.0,
+			"error": 0,
+			"grip": 0.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl0.0-view90.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 180.0,
+			"error": 0,
+			"grip": 0.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl0.0-view180.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 0.0,
+			"error": 0,
+			"grip": 0.55,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl0.55-view0.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 45.0,
+			"error": 0,
+			"grip": 0.55,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl0.55-view45.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 90.0,
+			"error": 0,
+			"grip": 0.55,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl0.55-view90.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 180.0,
+			"error": 0,
+			"grip": 0.55,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl0.55-view180.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 0.0,
+			"error": 0,
+			"grip": 1.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl1.0-view0.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 45.0,
+			"error": 0,
+			"grip": 1.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl1.0-view45.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 90.0,
+			"error": 0,
+			"grip": 1.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl1.0-view90.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 180.0,
+			"error": 0,
+			"grip": 1.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-left-curl1.0-view180.0.png",
+			"side": "left"
+		},
+		{
+			"angle": 0.0,
+			"error": 0,
+			"grip": 0.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-right-curl0.0-view0.0.png",
+			"side": "right"
+		},
+		{
+			"angle": 45.0,
+			"error": 0,
+			"grip": 0.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-right-curl0.0-view45.0.png",
+			"side": "right"
+		},
+		{
+			"angle": 0.0,
+			"error": 0,
+			"grip": 0.55,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-right-curl0.55-view0.0.png",
+			"side": "right"
+		},
+		{
+			"angle": 45.0,
+			"error": 0,
+			"grip": 0.55,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-right-curl0.55-view45.0.png",
+			"side": "right"
+		},
+		{
+			"angle": 0.0,
+			"error": 0,
+			"grip": 1.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-right-curl1.0-view0.0.png",
+			"side": "right"
+		},
+		{
+			"angle": 45.0,
+			"error": 0,
+			"grip": 1.0,
+			"path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-body/retopology/godot/../reports/hand-right-curl1.0-view45.0.png",
+			"side": "right"
+		}
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"notVisualApproval": true,
+	"renderer": "gl_compatibility",
+	"schema": "dafeiyu.hand-actual-gpu-probe.v1",
+	"sourceOnlyPalette": true
+}

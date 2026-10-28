@@ -1,0 +1,2426 @@
+{
+	"bytes": 8658228,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"meshes": [
+		{
+			"mesh": "selected-appearance_closed rounded back of skull",
+			"node": "closed rounded back of skull",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 442368,
+						"offset": 228492
+					},
+					"material": "SOURCE_000",
+					"positions": {
+						"length": 228492,
+						"offset": 0
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_curved face with genuine eye and mouth openings",
+			"node": "curved face with genuine eye and mouth openings",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 1241088,
+						"offset": 1911948
+					},
+					"format": 34359742479,
+					"indices": {
+						"length": 310272,
+						"offset": 1601676
+					},
+					"material": "SOURCE_001",
+					"positions": {
+						"length": 930816,
+						"offset": 670860
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_reference skin, nose and cheek paint only",
+			"node": "reference skin, nose and cheek paint only",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 134016,
+						"offset": 3555084
+					},
+					"material": "SOURCE_002",
+					"positions": {
+						"length": 402048,
+						"offset": 3153036
+					},
+					"uv": {
+						"length": 268032,
+						"offset": 3689100
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_continuous short rounded chin contour",
+			"node": "continuous short rounded chin contour",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 2688,
+						"offset": 3959844
+					},
+					"material": "SOURCE_003",
+					"positions": {
+						"length": 2712,
+						"offset": 3957132
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left deforming skin eyelid",
+			"node": "left deforming skin eyelid",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 26384,
+						"offset": 4019184
+					},
+					"format": 34359742479,
+					"indices": {
+						"length": 36864,
+						"offset": 3982320
+					},
+					"material": "SOURCE_004",
+					"positions": {
+						"length": 19788,
+						"offset": 3962532
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left exposed sclera",
+			"node": "left exposed sclera",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 20736,
+						"offset": 4057208
+					},
+					"material": "SOURCE_005",
+					"positions": {
+						"length": 11640,
+						"offset": 4045568
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left sampled original iris",
+			"node": "left sampled original iris",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 38304,
+						"offset": 4098068
+					},
+					"material": "SOURCE_006",
+					"positions": {
+						"length": 20124,
+						"offset": 4077944
+					},
+					"uv": {
+						"length": 13416,
+						"offset": 4136372
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left moving upper eyelash",
+			"node": "left moving upper eyelash",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 1920,
+						"offset": 4151732
+					},
+					"material": "SOURCE_007",
+					"positions": {
+						"length": 1944,
+						"offset": 4149788
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left pointed outer lashes",
+			"node": "left pointed outer lashes",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 12,
+						"offset": 4153688
+					},
+					"material": "SOURCE_007",
+					"positions": {
+						"length": 36,
+						"offset": 4153652
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left moving lower eyelash",
+			"node": "left moving lower eyelash",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 1920,
+						"offset": 4155644
+					},
+					"material": "SOURCE_008",
+					"positions": {
+						"length": 1944,
+						"offset": 4153700
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left moving eyelid crease",
+			"node": "left moving eyelid crease",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 1536,
+						"offset": 4159124
+					},
+					"material": "SOURCE_009",
+					"positions": {
+						"length": 1560,
+						"offset": 4157564
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right deforming skin eyelid",
+			"node": "right deforming skin eyelid",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 26384,
+						"offset": 4217312
+					},
+					"format": 34359742479,
+					"indices": {
+						"length": 36864,
+						"offset": 4180448
+					},
+					"material": "SOURCE_004",
+					"positions": {
+						"length": 19788,
+						"offset": 4160660
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right exposed sclera",
+			"node": "right exposed sclera",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 20736,
+						"offset": 4255336
+					},
+					"material": "SOURCE_005",
+					"positions": {
+						"length": 11640,
+						"offset": 4243696
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right sampled original iris",
+			"node": "right sampled original iris",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 38304,
+						"offset": 4296196
+					},
+					"material": "SOURCE_006",
+					"positions": {
+						"length": 20124,
+						"offset": 4276072
+					},
+					"uv": {
+						"length": 13416,
+						"offset": 4334500
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right moving upper eyelash",
+			"node": "right moving upper eyelash",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 1920,
+						"offset": 4349860
+					},
+					"material": "SOURCE_007",
+					"positions": {
+						"length": 1944,
+						"offset": 4347916
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right pointed outer lashes",
+			"node": "right pointed outer lashes",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 12,
+						"offset": 4351816
+					},
+					"material": "SOURCE_007",
+					"positions": {
+						"length": 36,
+						"offset": 4351780
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right moving lower eyelash",
+			"node": "right moving lower eyelash",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 1920,
+						"offset": 4353772
+					},
+					"material": "SOURCE_008",
+					"positions": {
+						"length": 1944,
+						"offset": 4351828
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right moving eyelid crease",
+			"node": "right moving eyelid crease",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 1536,
+						"offset": 4357252
+					},
+					"material": "SOURCE_009",
+					"positions": {
+						"length": 1560,
+						"offset": 4355692
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_continuously deforming skin around mouth",
+			"node": "continuously deforming skin around mouth",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 23280,
+						"offset": 4408504
+					},
+					"format": 34359742479,
+					"indices": {
+						"length": 32256,
+						"offset": 4376248
+					},
+					"material": "SOURCE_004",
+					"positions": {
+						"length": 17460,
+						"offset": 4358788
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_continuously opening mouth cavity",
+			"node": "continuously opening mouth cavity",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 18432,
+						"offset": 4442260
+					},
+					"material": "SOURCE_010",
+					"positions": {
+						"length": 10476,
+						"offset": 4431784
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_tongue inside opening",
+			"node": "tongue inside opening",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 6144,
+						"offset": 4464592
+					},
+					"material": "SOURCE_011",
+					"positions": {
+						"length": 3900,
+						"offset": 4460692
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_continuous smile contour",
+			"node": "continuous smile contour",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 2304,
+						"offset": 4473064
+					},
+					"material": "SOURCE_010",
+					"positions": {
+						"length": 2328,
+						"offset": 4470736
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_continuous-scalp-front-side-back-shell",
+			"node": "continuous-scalp-front-side-back-shell",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 116000,
+						"offset": 4788560
+					},
+					"format": 34359742495,
+					"indices": {
+						"length": 168192,
+						"offset": 4562368
+					},
+					"material": "SOURCE_012",
+					"positions": {
+						"length": 87000,
+						"offset": 4475368
+					},
+					"uv": {
+						"length": 58000,
+						"offset": 4730560
+					}
+				},
+				{
+					"colors": {
+						"length": 38416,
+						"offset": 5007876
+					},
+					"format": 34359742495,
+					"indices": {
+						"length": 55296,
+						"offset": 4933372
+					},
+					"material": "SOURCE_013",
+					"positions": {
+						"length": 28812,
+						"offset": 4904560
+					},
+					"uv": {
+						"length": 19208,
+						"offset": 4988668
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_rounded-posterior-waterfall-hair-volume",
+			"node": "rounded-posterior-waterfall-hair-volume",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 52768,
+						"offset": 5187132
+					},
+					"format": 34359742495,
+					"indices": {
+						"length": 74880,
+						"offset": 5085868
+					},
+					"material": "SOURCE_014",
+					"positions": {
+						"length": 39576,
+						"offset": 5046292
+					},
+					"uv": {
+						"length": 26384,
+						"offset": 5160748
+					}
+				},
+				{
+					"colors": {
+						"length": 50960,
+						"offset": 5377328
+					},
+					"format": 34359742495,
+					"indices": {
+						"length": 73728,
+						"offset": 5278120
+					},
+					"material": "SOURCE_015",
+					"positions": {
+						"length": 38220,
+						"offset": 5239900
+					},
+					"uv": {
+						"length": 25480,
+						"offset": 5351848
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_continuous-rounded-three-dimensional-headband",
+			"node": "continuous-rounded-three-dimensional-headband",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 26384,
+						"offset": 5484940
+					},
+					"format": 34359742479,
+					"indices": {
+						"length": 36864,
+						"offset": 5448076
+					},
+					"material": "SOURCE_016",
+					"positions": {
+						"length": 19788,
+						"offset": 5428288
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-auxiliary-source-traced-long-curls_original-pixel-surface",
+			"node": "left-auxiliary-source-traced-long-curls_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 8484,
+						"offset": 5517504
+					},
+					"material": "SOURCE_017",
+					"positions": {
+						"length": 6180,
+						"offset": 5511324
+					},
+					"uv": {
+						"length": 4120,
+						"offset": 5525988
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-auxiliary-source-traced-long-curls_closed-thickness",
+			"node": "left-auxiliary-source-traced-long-curls_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 4680,
+						"offset": 5544148
+					},
+					"material": "SOURCE_018",
+					"positions": {
+						"length": 14040,
+						"offset": 5530108
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-auxiliary-source-traced-long-curls_back",
+			"node": "left-auxiliary-source-traced-long-curls_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 8484,
+						"offset": 5555008
+					},
+					"material": "SOURCE_018",
+					"positions": {
+						"length": 6180,
+						"offset": 5548828
+					},
+					"uv": {
+						"length": 4120,
+						"offset": 5563492
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-auxiliary-source-traced-long-curls_original-pixel-surface",
+			"node": "right-auxiliary-source-traced-long-curls_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 8484,
+						"offset": 5573792
+					},
+					"material": "SOURCE_019",
+					"positions": {
+						"length": 6180,
+						"offset": 5567612
+					},
+					"uv": {
+						"length": 4120,
+						"offset": 5582276
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-auxiliary-source-traced-long-curls_closed-thickness",
+			"node": "right-auxiliary-source-traced-long-curls_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 4680,
+						"offset": 5600436
+					},
+					"material": "SOURCE_020",
+					"positions": {
+						"length": 14040,
+						"offset": 5586396
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-auxiliary-source-traced-long-curls_back",
+			"node": "right-auxiliary-source-traced-long-curls_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 8484,
+						"offset": 5611296
+					},
+					"material": "SOURCE_020",
+					"positions": {
+						"length": 6180,
+						"offset": 5605116
+					},
+					"uv": {
+						"length": 4120,
+						"offset": 5619780
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-face-framing-hair_original-pixel-surface",
+			"node": "left-face-framing-hair_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 70848,
+						"offset": 5664340
+					},
+					"material": "SOURCE_021",
+					"positions": {
+						"length": 40440,
+						"offset": 5623900
+					},
+					"uv": {
+						"length": 26960,
+						"offset": 5735188
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-face-framing-hair_closed-thickness",
+			"node": "left-face-framing-hair_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 6312,
+						"offset": 5781084
+					},
+					"material": "SOURCE_022",
+					"positions": {
+						"length": 18936,
+						"offset": 5762148
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-face-framing-hair_back",
+			"node": "left-face-framing-hair_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 70848,
+						"offset": 5827836
+					},
+					"material": "SOURCE_022",
+					"positions": {
+						"length": 40440,
+						"offset": 5787396
+					},
+					"uv": {
+						"length": 26960,
+						"offset": 5898684
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-face-framing-hair_original-pixel-surface",
+			"node": "right-face-framing-hair_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 98292,
+						"offset": 5980412
+					},
+					"material": "SOURCE_023",
+					"positions": {
+						"length": 54768,
+						"offset": 5925644
+					},
+					"uv": {
+						"length": 36512,
+						"offset": 6078704
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-face-framing-hair_closed-thickness",
+			"node": "right-face-framing-hair_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 6192,
+						"offset": 6133792
+					},
+					"material": "SOURCE_024",
+					"positions": {
+						"length": 18576,
+						"offset": 6115216
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-face-framing-hair_back",
+			"node": "right-face-framing-hair_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 98292,
+						"offset": 6194752
+					},
+					"material": "SOURCE_024",
+					"positions": {
+						"length": 54768,
+						"offset": 6139984
+					},
+					"uv": {
+						"length": 36512,
+						"offset": 6293044
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_central-forked-bangs_original-pixel-surface",
+			"node": "central-forked-bangs_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 47904,
+						"offset": 6357480
+					},
+					"material": "SOURCE_025",
+					"positions": {
+						"length": 27924,
+						"offset": 6329556
+					},
+					"uv": {
+						"length": 18616,
+						"offset": 6405384
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_central-forked-bangs_closed-thickness",
+			"node": "central-forked-bangs_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 6072,
+						"offset": 6442216
+					},
+					"material": "SOURCE_026",
+					"positions": {
+						"length": 18216,
+						"offset": 6424000
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_central-forked-bangs_back",
+			"node": "central-forked-bangs_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 47904,
+						"offset": 6476212
+					},
+					"material": "SOURCE_026",
+					"positions": {
+						"length": 27924,
+						"offset": 6448288
+					},
+					"uv": {
+						"length": 18616,
+						"offset": 6524116
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-whale-fin-ear_original-pixel-surface",
+			"node": "left-whale-fin-ear_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 8160,
+						"offset": 6548228
+					},
+					"material": "SOURCE_027",
+					"positions": {
+						"length": 5496,
+						"offset": 6542732
+					},
+					"uv": {
+						"length": 3664,
+						"offset": 6556388
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-whale-fin-ear_closed-thickness",
+			"node": "left-whale-fin-ear_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 3048,
+						"offset": 6569196
+					},
+					"material": "SOURCE_028",
+					"positions": {
+						"length": 9144,
+						"offset": 6560052
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-whale-fin-ear_back",
+			"node": "left-whale-fin-ear_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 8160,
+						"offset": 6577740
+					},
+					"material": "SOURCE_028",
+					"positions": {
+						"length": 5496,
+						"offset": 6572244
+					},
+					"uv": {
+						"length": 3664,
+						"offset": 6585900
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-whale-fin-ear_original-pixel-surface",
+			"node": "right-whale-fin-ear_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 5340,
+						"offset": 6593464
+					},
+					"material": "SOURCE_029",
+					"positions": {
+						"length": 3900,
+						"offset": 6589564
+					},
+					"uv": {
+						"length": 2600,
+						"offset": 6598804
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-whale-fin-ear_closed-thickness",
+			"node": "right-whale-fin-ear_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 3024,
+						"offset": 6610476
+					},
+					"material": "SOURCE_030",
+					"positions": {
+						"length": 9072,
+						"offset": 6601404
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-whale-fin-ear_back",
+			"node": "right-whale-fin-ear_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 5340,
+						"offset": 6617400
+					},
+					"material": "SOURCE_030",
+					"positions": {
+						"length": 3900,
+						"offset": 6613500
+					},
+					"uv": {
+						"length": 2600,
+						"offset": 6622740
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-blue-ribbon_original-pixel-surface",
+			"node": "left-blue-ribbon_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 2856,
+						"offset": 6627848
+					},
+					"material": "SOURCE_031",
+					"positions": {
+						"length": 2508,
+						"offset": 6625340
+					},
+					"uv": {
+						"length": 1672,
+						"offset": 6630704
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-blue-ribbon_closed-thickness",
+			"node": "left-blue-ribbon_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 3456,
+						"offset": 6642744
+					},
+					"material": "SOURCE_032",
+					"positions": {
+						"length": 10368,
+						"offset": 6632376
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-blue-ribbon_back",
+			"node": "left-blue-ribbon_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 2856,
+						"offset": 6648708
+					},
+					"material": "SOURCE_032",
+					"positions": {
+						"length": 2508,
+						"offset": 6646200
+					},
+					"uv": {
+						"length": 1672,
+						"offset": 6651564
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-blue-ribbon_original-pixel-surface",
+			"node": "right-blue-ribbon_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 1740,
+						"offset": 6654856
+					},
+					"material": "SOURCE_033",
+					"positions": {
+						"length": 1620,
+						"offset": 6653236
+					},
+					"uv": {
+						"length": 1080,
+						"offset": 6656596
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-blue-ribbon_closed-thickness",
+			"node": "right-blue-ribbon_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 2592,
+						"offset": 6665452
+					},
+					"material": "SOURCE_034",
+					"positions": {
+						"length": 7776,
+						"offset": 6657676
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-blue-ribbon_back",
+			"node": "right-blue-ribbon_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 1740,
+						"offset": 6669664
+					},
+					"material": "SOURCE_034",
+					"positions": {
+						"length": 1620,
+						"offset": 6668044
+					},
+					"uv": {
+						"length": 1080,
+						"offset": 6671404
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-painted-white-frill_original-pixel-surface",
+			"node": "left-painted-white-frill_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 21600,
+						"offset": 6725776
+					},
+					"format": 34359742495,
+					"indices": {
+						"length": 26292,
+						"offset": 6688684
+					},
+					"material": "SOURCE_035",
+					"positions": {
+						"length": 16200,
+						"offset": 6672484
+					},
+					"uv": {
+						"length": 10800,
+						"offset": 6714976
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-painted-white-frill_closed-thickness",
+			"node": "left-painted-white-frill_closed-thickness",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 22176,
+						"offset": 6769552
+					},
+					"format": 34359742479,
+					"indices": {
+						"length": 5544,
+						"offset": 6764008
+					},
+					"material": "SOURCE_036",
+					"positions": {
+						"length": 16632,
+						"offset": 6747376
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left-painted-white-frill_back",
+			"node": "left-painted-white-frill_back",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 21600,
+						"offset": 6845020
+					},
+					"format": 34359742495,
+					"indices": {
+						"length": 26292,
+						"offset": 6807928
+					},
+					"material": "SOURCE_036",
+					"positions": {
+						"length": 16200,
+						"offset": 6791728
+					},
+					"uv": {
+						"length": 10800,
+						"offset": 6834220
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-painted-white-frill_original-pixel-surface",
+			"node": "right-painted-white-frill_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 10224,
+						"offset": 6890932
+					},
+					"format": 34359742495,
+					"indices": {
+						"length": 11532,
+						"offset": 6874288
+					},
+					"material": "SOURCE_037",
+					"positions": {
+						"length": 7668,
+						"offset": 6866620
+					},
+					"uv": {
+						"length": 5112,
+						"offset": 6885820
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-painted-white-frill_closed-thickness",
+			"node": "right-painted-white-frill_closed-thickness",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 16704,
+						"offset": 6917860
+					},
+					"format": 34359742479,
+					"indices": {
+						"length": 4176,
+						"offset": 6913684
+					},
+					"material": "SOURCE_038",
+					"positions": {
+						"length": 12528,
+						"offset": 6901156
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right-painted-white-frill_back",
+			"node": "right-painted-white-frill_back",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 10224,
+						"offset": 6958876
+					},
+					"format": 34359742495,
+					"indices": {
+						"length": 11532,
+						"offset": 6942232
+					},
+					"material": "SOURCE_038",
+					"positions": {
+						"length": 7668,
+						"offset": 6934564
+					},
+					"uv": {
+						"length": 5112,
+						"offset": 6953764
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_inferred-rounded-crown-using-original-blue-pixels_original-pixel-surface",
+			"node": "inferred-rounded-crown-using-original-blue-pixels_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 3096,
+						"offset": 6971224
+					},
+					"material": "SOURCE_039",
+					"positions": {
+						"length": 2124,
+						"offset": 6969100
+					},
+					"uv": {
+						"length": 1416,
+						"offset": 6974320
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_inferred-rounded-crown-using-original-blue-pixels_closed-thickness",
+			"node": "inferred-rounded-crown-using-original-blue-pixels_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 912,
+						"offset": 6978472
+					},
+					"material": "SOURCE_040",
+					"positions": {
+						"length": 2736,
+						"offset": 6975736
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_inferred-rounded-crown-using-original-blue-pixels_back",
+			"node": "inferred-rounded-crown-using-original-blue-pixels_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 3096,
+						"offset": 6981508
+					},
+					"material": "SOURCE_040",
+					"positions": {
+						"length": 2124,
+						"offset": 6979384
+					},
+					"uv": {
+						"length": 1416,
+						"offset": 6984604
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_auxiliary-painted-hook-ahoge_original-pixel-surface",
+			"node": "auxiliary-painted-hook-ahoge_original-pixel-surface",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 2568,
+						"offset": 6988276
+					},
+					"material": "SOURCE_041",
+					"positions": {
+						"length": 2256,
+						"offset": 6986020
+					},
+					"uv": {
+						"length": 1504,
+						"offset": 6990844
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_auxiliary-painted-hook-ahoge_closed-thickness",
+			"node": "auxiliary-painted-hook-ahoge_closed-thickness",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742471,
+					"indices": {
+						"length": 3024,
+						"offset": 7001420
+					},
+					"material": "SOURCE_042",
+					"positions": {
+						"length": 9072,
+						"offset": 6992348
+					},
+					"uv": null
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_auxiliary-painted-hook-ahoge_back",
+			"node": "auxiliary-painted-hook-ahoge_back",
+			"surfaces": [
+				{
+					"colors": null,
+					"format": 34359742487,
+					"indices": {
+						"length": 2568,
+						"offset": 7006700
+					},
+					"material": "SOURCE_042",
+					"positions": {
+						"length": 2256,
+						"offset": 7004444
+					},
+					"uv": {
+						"length": 1504,
+						"offset": 7009268
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_traced collar, bib, bow and continuous bodice",
+			"node": "traced collar, bib, bow and continuous bodice",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 12400,
+						"offset": 7043552
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 17280,
+						"offset": 7020072
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 9300,
+						"offset": 7010772
+					},
+					"uv": {
+						"length": 6200,
+						"offset": 7037352
+					}
+				},
+				{
+					"colors": {
+						"length": 13168,
+						"offset": 7090844
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 18432,
+						"offset": 7065828
+					},
+					"material": "SOURCE_044",
+					"positions": {
+						"length": 9876,
+						"offset": 7055952
+					},
+					"uv": {
+						"length": 6584,
+						"offset": 7084260
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_continuous flared skirt, painted front apron and encircling ivory hem",
+			"node": "continuous flared skirt, painted front apron and encircling ivory hem",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 22736,
+						"offset": 7164688
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 32256,
+						"offset": 7121064
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 17052,
+						"offset": 7104012
+					},
+					"uv": {
+						"length": 11368,
+						"offset": 7153320
+					}
+				},
+				{
+					"colors": {
+						"length": 21920,
+						"offset": 7244776
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 29952,
+						"offset": 7203864
+					},
+					"material": "SOURCE_044",
+					"positions": {
+						"length": 16440,
+						"offset": 7187424
+					},
+					"uv": {
+						"length": 10960,
+						"offset": 7233816
+					}
+				},
+				{
+					"colors": {
+						"length": 3920,
+						"offset": 7276204
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 4608,
+						"offset": 7269636
+					},
+					"material": "SOURCE_045",
+					"positions": {
+						"length": 2940,
+						"offset": 7266696
+					},
+					"uv": {
+						"length": 1960,
+						"offset": 7274244
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left traced puff sleeve and cuff",
+			"node": "left traced puff sleeve and cuff",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 10080,
+						"offset": 7306644
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 13920,
+						"offset": 7287684
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 7560,
+						"offset": 7280124
+					},
+					"uv": {
+						"length": 5040,
+						"offset": 7301604
+					}
+				},
+				{
+					"colors": {
+						"length": 9712,
+						"offset": 7341824
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 12960,
+						"offset": 7324008
+					},
+					"material": "SOURCE_044",
+					"positions": {
+						"length": 7284,
+						"offset": 7316724
+					},
+					"uv": {
+						"length": 4856,
+						"offset": 7336968
+					}
+				},
+				{
+					"colors": {
+						"length": 1680,
+						"offset": 7355556
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 1920,
+						"offset": 7352796
+					},
+					"material": "SOURCE_045",
+					"positions": {
+						"length": 1260,
+						"offset": 7351536
+					},
+					"uv": {
+						"length": 840,
+						"offset": 7354716
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left traced open hand and fingers",
+			"node": "left traced open hand and fingers",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 15360,
+						"offset": 7380276
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 3840,
+						"offset": 7368756
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 11520,
+						"offset": 7357236
+					},
+					"uv": {
+						"length": 7680,
+						"offset": 7372596
+					}
+				},
+				{
+					"colors": {
+						"length": 15360,
+						"offset": 7418676
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 3840,
+						"offset": 7407156
+					},
+					"material": "SOURCE_046",
+					"positions": {
+						"length": 11520,
+						"offset": 7395636
+					},
+					"uv": {
+						"length": 7680,
+						"offset": 7410996
+					}
+				},
+				{
+					"colors": {
+						"length": 5632,
+						"offset": 7443188
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 2112,
+						"offset": 7438260
+					},
+					"material": "SOURCE_046",
+					"positions": {
+						"length": 4224,
+						"offset": 7434036
+					},
+					"uv": {
+						"length": 2816,
+						"offset": 7440372
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left traced thigh, sock and ankle",
+			"node": "left traced thigh, sock and ankle",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 8400,
+						"offset": 7470840
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 11520,
+						"offset": 7455120
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 6300,
+						"offset": 7448820
+					},
+					"uv": {
+						"length": 4200,
+						"offset": 7466640
+					}
+				},
+				{
+					"colors": {
+						"length": 5168,
+						"offset": 7492036
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 6336,
+						"offset": 7483116
+					},
+					"material": "SOURCE_046",
+					"positions": {
+						"length": 3876,
+						"offset": 7479240
+					},
+					"uv": {
+						"length": 2584,
+						"offset": 7489452
+					}
+				},
+				{
+					"colors": {
+						"length": 4800,
+						"offset": 7509540
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 6336,
+						"offset": 7500804
+					},
+					"material": "SOURCE_045",
+					"positions": {
+						"length": 3600,
+						"offset": 7497204
+					},
+					"uv": {
+						"length": 2400,
+						"offset": 7507140
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_left traced mary jane shoe",
+			"node": "left traced mary jane shoe",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 13024,
+						"offset": 7548764
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 18144,
+						"offset": 7524108
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 9768,
+						"offset": 7514340
+					},
+					"uv": {
+						"length": 6512,
+						"offset": 7542252
+					}
+				},
+				{
+					"colors": {
+						"length": 8080,
+						"offset": 7582544
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 10656,
+						"offset": 7567848
+					},
+					"material": "SOURCE_047",
+					"positions": {
+						"length": 6060,
+						"offset": 7561788
+					},
+					"uv": {
+						"length": 4040,
+						"offset": 7578504
+					}
+				},
+				{
+					"colors": {
+						"length": 6864,
+						"offset": 7608420
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 9216,
+						"offset": 7595772
+					},
+					"material": "SOURCE_048",
+					"positions": {
+						"length": 5148,
+						"offset": 7590624
+					},
+					"uv": {
+						"length": 3432,
+						"offset": 7604988
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right traced puff sleeve and cuff",
+			"node": "right traced puff sleeve and cuff",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 10080,
+						"offset": 7641804
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 13920,
+						"offset": 7622844
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 7560,
+						"offset": 7615284
+					},
+					"uv": {
+						"length": 5040,
+						"offset": 7636764
+					}
+				},
+				{
+					"colors": {
+						"length": 9712,
+						"offset": 7676984
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 12960,
+						"offset": 7659168
+					},
+					"material": "SOURCE_044",
+					"positions": {
+						"length": 7284,
+						"offset": 7651884
+					},
+					"uv": {
+						"length": 4856,
+						"offset": 7672128
+					}
+				},
+				{
+					"colors": {
+						"length": 1680,
+						"offset": 7690716
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 1920,
+						"offset": 7687956
+					},
+					"material": "SOURCE_045",
+					"positions": {
+						"length": 1260,
+						"offset": 7686696
+					},
+					"uv": {
+						"length": 840,
+						"offset": 7689876
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right traced open hand and fingers",
+			"node": "right traced open hand and fingers",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 15360,
+						"offset": 7715436
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 3840,
+						"offset": 7703916
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 11520,
+						"offset": 7692396
+					},
+					"uv": {
+						"length": 7680,
+						"offset": 7707756
+					}
+				},
+				{
+					"colors": {
+						"length": 15360,
+						"offset": 7753836
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 3840,
+						"offset": 7742316
+					},
+					"material": "SOURCE_046",
+					"positions": {
+						"length": 11520,
+						"offset": 7730796
+					},
+					"uv": {
+						"length": 7680,
+						"offset": 7746156
+					}
+				},
+				{
+					"colors": {
+						"length": 5632,
+						"offset": 7778348
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 2112,
+						"offset": 7773420
+					},
+					"material": "SOURCE_046",
+					"positions": {
+						"length": 4224,
+						"offset": 7769196
+					},
+					"uv": {
+						"length": 2816,
+						"offset": 7775532
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right traced thigh, sock and ankle",
+			"node": "right traced thigh, sock and ankle",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 8400,
+						"offset": 7806000
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 11520,
+						"offset": 7790280
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 6300,
+						"offset": 7783980
+					},
+					"uv": {
+						"length": 4200,
+						"offset": 7801800
+					}
+				},
+				{
+					"colors": {
+						"length": 5168,
+						"offset": 7827196
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 6336,
+						"offset": 7818276
+					},
+					"material": "SOURCE_046",
+					"positions": {
+						"length": 3876,
+						"offset": 7814400
+					},
+					"uv": {
+						"length": 2584,
+						"offset": 7824612
+					}
+				},
+				{
+					"colors": {
+						"length": 4800,
+						"offset": 7844700
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 6336,
+						"offset": 7835964
+					},
+					"material": "SOURCE_045",
+					"positions": {
+						"length": 3600,
+						"offset": 7832364
+					},
+					"uv": {
+						"length": 2400,
+						"offset": 7842300
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_right traced mary jane shoe",
+			"node": "right traced mary jane shoe",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 13024,
+						"offset": 7883924
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 18144,
+						"offset": 7859268
+					},
+					"material": "SOURCE_043",
+					"positions": {
+						"length": 9768,
+						"offset": 7849500
+					},
+					"uv": {
+						"length": 6512,
+						"offset": 7877412
+					}
+				},
+				{
+					"colors": {
+						"length": 8080,
+						"offset": 7917704
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 10656,
+						"offset": 7903008
+					},
+					"material": "SOURCE_047",
+					"positions": {
+						"length": 6060,
+						"offset": 7896948
+					},
+					"uv": {
+						"length": 4040,
+						"offset": 7913664
+					}
+				},
+				{
+					"colors": {
+						"length": 6864,
+						"offset": 7943580
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 9216,
+						"offset": 7930932
+					},
+					"material": "SOURCE_048",
+					"positions": {
+						"length": 5148,
+						"offset": 7925784
+					},
+					"uv": {
+						"length": 3432,
+						"offset": 7940148
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_continuous rounded whale tail stem",
+			"node": "continuous rounded whale tail stem",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 7312,
+						"offset": 7969568
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 9984,
+						"offset": 7955928
+					},
+					"material": "SOURCE_049",
+					"positions": {
+						"length": 5484,
+						"offset": 7950444
+					},
+					"uv": {
+						"length": 3656,
+						"offset": 7965912
+					}
+				},
+				{
+					"colors": {
+						"length": 6800,
+						"offset": 7994596
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 9216,
+						"offset": 7981980
+					},
+					"material": "SOURCE_050",
+					"positions": {
+						"length": 5100,
+						"offset": 7976880
+					},
+					"uv": {
+						"length": 3400,
+						"offset": 7991196
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_indigo whale left biconvex fluke",
+			"node": "indigo whale left biconvex fluke",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 39936,
+						"offset": 8061300
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 9984,
+						"offset": 8031348
+					},
+					"material": "SOURCE_051",
+					"positions": {
+						"length": 29952,
+						"offset": 8001396
+					},
+					"uv": {
+						"length": 19968,
+						"offset": 8041332
+					}
+				},
+				{
+					"colors": {
+						"length": 39936,
+						"offset": 8161140
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 9984,
+						"offset": 8131188
+					},
+					"material": "SOURCE_049",
+					"positions": {
+						"length": 29952,
+						"offset": 8101236
+					},
+					"uv": {
+						"length": 19968,
+						"offset": 8141172
+					}
+				},
+				{
+					"colors": {
+						"length": 7680,
+						"offset": 8213556
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 2880,
+						"offset": 8206836
+					},
+					"material": "SOURCE_052",
+					"positions": {
+						"length": 5760,
+						"offset": 8201076
+					},
+					"uv": {
+						"length": 3840,
+						"offset": 8209716
+					}
+				}
+			]
+		},
+		{
+			"mesh": "selected-appearance_indigo whale right biconvex fluke",
+			"node": "indigo whale right biconvex fluke",
+			"surfaces": [
+				{
+					"colors": {
+						"length": 79872,
+						"offset": 8341044
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 19968,
+						"offset": 8281140
+					},
+					"material": "SOURCE_051",
+					"positions": {
+						"length": 59904,
+						"offset": 8221236
+					},
+					"uv": {
+						"length": 39936,
+						"offset": 8301108
+					}
+				},
+				{
+					"colors": {
+						"length": 79872,
+						"offset": 8540724
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 19968,
+						"offset": 8480820
+					},
+					"material": "SOURCE_049",
+					"positions": {
+						"length": 59904,
+						"offset": 8420916
+					},
+					"uv": {
+						"length": 39936,
+						"offset": 8500788
+					}
+				},
+				{
+					"colors": {
+						"length": 14336,
+						"offset": 8643892
+					},
+					"format": 34359745567,
+					"indices": {
+						"length": 5376,
+						"offset": 8631348
+					},
+					"material": "SOURCE_052",
+					"positions": {
+						"length": 10752,
+						"offset": 8620596
+					},
+					"uv": {
+						"length": 7168,
+						"offset": 8636724
+					}
+				}
+			]
+		}
+	],
+	"scope": "CPU imported ArrayMesh attributes only. No GPU or visual pass.",
+	"skeletons": [
+		{
+			"bones": [
+				{
+					"name": "pelvis _ garment anchor",
+					"parent": -1,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.188, 0.0)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.188, 0.0)]"
+				},
+				{
+					"name": "bodice spine",
+					"parent": 0,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.28, 0.0)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.28, 0.0)]"
+				},
+				{
+					"name": "collar _ chest",
+					"parent": 1,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.18, 0.0)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.18, 0.0)]"
+				},
+				{
+					"name": "left upper sleeve",
+					"parent": 1,
+					"pose": "[X: (0.999928, -0.012, 0.0), Y: (0.012, 0.999928, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.355, 0.025, 0.035)]",
+					"rest": "[X: (0.999928, -0.012, 0.0), Y: (0.012, 0.999928, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.355, 0.025, 0.035)]"
+				},
+				{
+					"name": "left elbow _ sleeve",
+					"parent": 3,
+					"pose": "[X: (0.999888, -0.014999, 0.0), Y: (0.014999, 0.999888, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.17, -0.265, 0.015)]",
+					"rest": "[X: (0.999888, -0.014999, 0.0), Y: (0.014999, 0.999888, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.17, -0.265, 0.015)]"
+				},
+				{
+					"name": "left wrist _ fingers",
+					"parent": 4,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.13, -0.185, 0.07)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.13, -0.185, 0.07)]"
+				},
+				{
+					"name": "right upper sleeve",
+					"parent": 1,
+					"pose": "[X: (0.999928, 0.012, 0.0), Y: (-0.012, 0.999928, 0.0), Z: (0.0, 0.0, 1.0), O: (0.355, 0.025, 0.035)]",
+					"rest": "[X: (0.999928, 0.012, 0.0), Y: (-0.012, 0.999928, 0.0), Z: (0.0, 0.0, 1.0), O: (0.355, 0.025, 0.035)]"
+				},
+				{
+					"name": "right elbow _ sleeve",
+					"parent": 6,
+					"pose": "[X: (0.999888, 0.014999, 0.0), Y: (-0.014999, 0.999888, 0.0), Z: (0.0, 0.0, 1.0), O: (0.17, -0.265, 0.015)]",
+					"rest": "[X: (0.999888, 0.014999, 0.0), Y: (-0.014999, 0.999888, 0.0), Z: (0.0, 0.0, 1.0), O: (0.17, -0.265, 0.015)]"
+				},
+				{
+					"name": "right wrist _ fingers",
+					"parent": 7,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.13, -0.185, 0.07)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.13, -0.185, 0.07)]"
+				},
+				{
+					"name": "left skirt cloth",
+					"parent": 0,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.23, -0.06, 0.0)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.23, -0.06, 0.0)]"
+				},
+				{
+					"name": "right skirt cloth",
+					"parent": 0,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.23, -0.06, 0.0)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.23, -0.06, 0.0)]"
+				},
+				{
+					"name": "front apron cloth",
+					"parent": 0,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, -0.08, 0.17)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, -0.08, 0.17)]"
+				},
+				{
+					"name": "back skirt cloth",
+					"parent": 0,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, -0.08, -0.15)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, -0.08, -0.15)]"
+				},
+				{
+					"name": "left hip _ thigh",
+					"parent": 0,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.977612, -0.210415), Z: (0.0, 0.210415, 0.977612), O: (-0.245, -0.667, 0.015)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.977612, -0.210415), Z: (0.0, 0.210415, 0.977612), O: (-0.245, -0.667, 0.015)]"
+				},
+				{
+					"name": "left knee _ sock",
+					"parent": 13,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.914826, 0.403848), Z: (0.0, -0.403848, 0.914826), O: (0.0, -0.235, 0.025)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.914826, 0.403848), Z: (0.0, -0.403848, 0.914826), O: (0.0, -0.235, 0.025)]"
+				},
+				{
+					"name": "left ankle _ shoe",
+					"parent": 14,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.979321, -0.202313), Z: (0.0, 0.202313, 0.979321), O: (0.0, -0.235, 0.065)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.979321, -0.202313), Z: (0.0, 0.202313, 0.979321), O: (0.0, -0.235, 0.065)]"
+				},
+				{
+					"name": "right hip _ thigh",
+					"parent": 0,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.977612, -0.210415), Z: (0.0, 0.210415, 0.977612), O: (0.245, -0.667, 0.015)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.977612, -0.210415), Z: (0.0, 0.210415, 0.977612), O: (0.245, -0.667, 0.015)]"
+				},
+				{
+					"name": "right knee _ sock",
+					"parent": 16,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.914826, 0.403848), Z: (0.0, -0.403848, 0.914826), O: (0.0, -0.235, 0.025)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.914826, 0.403848), Z: (0.0, -0.403848, 0.914826), O: (0.0, -0.235, 0.025)]"
+				},
+				{
+					"name": "right ankle _ shoe",
+					"parent": 17,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.979321, -0.202313), Z: (0.0, 0.202313, 0.979321), O: (0.0, -0.235, 0.065)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.979321, -0.202313), Z: (0.0, 0.202313, 0.979321), O: (0.0, -0.235, 0.065)]"
+				},
+				{
+					"name": "whale tail base",
+					"parent": 0,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.37, -0.56, -0.26)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.37, -0.56, -0.26)]"
+				},
+				{
+					"name": "whale tail middle",
+					"parent": 19,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.42, -0.02, -0.025)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.42, -0.02, -0.025)]"
+				},
+				{
+					"name": "whale tail flukes",
+					"parent": 20,
+					"pose": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.43, 0.075, 0.0)]",
+					"rest": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.43, 0.075, 0.0)]"
+				}
+			],
+			"name": "Skeleton3D"
+		}
+	]
+}

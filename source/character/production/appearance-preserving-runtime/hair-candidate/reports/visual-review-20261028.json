@@ -1,0 +1,30 @@
+{
+  "schema": "dafeiyu.selected-headband-visual-review.v1",
+  "status": "Rejected for promotion; independent research only",
+  "visualPass": false,
+  "defaultAssetChanged": false,
+  "evidence": {
+    "front": "cua-hair-candidate-front-20261028.png",
+    "left90": "cua-hair-candidate-left90-20261028.png",
+    "observer": "Root actual CUA WebGL inspection; runtime agent viewed both saved screenshots",
+    "frontMeasurementReportedByRoot": {
+      "resolution": [640, 704],
+      "rgbRMSEApprox": 4.6517,
+      "maxRGBDifference": 185,
+      "pixelsRGBDifferenceOver1": 2637,
+      "alphaSilhouetteDifference": 0
+    }
+  },
+  "findings": [
+    "Selected girl's face, bangs and frontal silhouette remain recognisable.",
+    "More original right grey-white frill pixels become visible after the depth change; local occlusion changes may be legitimate and do not automatically violate identity.",
+    "Actual 90-degree view has two straight parallel white bands, grey holes and triangular gaps; the independent arch and frill were not sewn into a continuous cloth structure.",
+    "The source's nonconforming adaptive front triangulation develops visible gaps under the new depth field. Closing the arch endpoints does not repair frill topology or all hair."
+  ],
+  "nextRequired": [
+    "Conforming frill front triangulation with shared edge vertices and no hanging T junctions.",
+    "A properly connected thin shell plus attachment/cloth strip following the original arch and scalp, retaining source paint and recognisable frontal shape.",
+    "Actual front, quarter, side and back render review before any default integration.",
+    "Separate repair of other original hair layers; no generic replacement hairstyle."
+  ]
+}

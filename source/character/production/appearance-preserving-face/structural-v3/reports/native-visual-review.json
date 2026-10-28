@@ -1,0 +1,21 @@
+{
+  "schema": "dafeiyu.continuous-head-v3.native-visual-review.v1",
+  "date": "2026-10-28",
+  "actualGpu": true,
+  "sourceIdentityRetained": true,
+  "reviewed": [
+    "neutral front",
+    "closed blink front",
+    "happy talk front",
+    "actual side90"
+  ],
+  "gpuSubmittedBufferReadbackBitsUnequal": 0,
+  "importPositionError": 0.0,
+  "importUVError": 0.0,
+  "newFaceArt": false,
+  "scope": "Selected girl continuous head, orbital and oral supporting structure, original expression/paint; current performance still under optimization. Old hair/body side defects remain.",
+  "finalQualityPassed": false,
+  "physicsPassed": false,
+  "developmentIntegrationReady": true,
+  "componentPath": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-runtime\\selected-production\\components\\continuous-head-v3"
+}

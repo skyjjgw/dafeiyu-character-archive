@@ -1,0 +1,62 @@
+{
+  "status": "starting",
+  "started_utc": "2026-10-25T18:39:28.641232+00:00",
+  "purpose": "Unrigged geometry comparison study; not approved character, original-author truth, textured or animated asset",
+  "input": {
+    "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\ai-shape-study\\input-threequarter-proposal.png",
+    "sha256": "0bb87b06d897603863bf0c3a74c2b52294dee2621c42c58a3f2dc25fb500a9f3",
+    "size": [
+      1144,
+      1375
+    ],
+    "alpha_bbox": [
+      23,
+      0,
+      1125,
+      1349
+    ]
+  },
+  "source_commit": "f8db63096c8282cb27354314d896feba5ba6ff8a",
+  "source_modified": false,
+  "license": "Tencent Hunyuan 3D 2.0 Community License Agreement",
+  "python": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\venv\\Scripts\\python.exe",
+  "torch": "2.5.1+cu121",
+  "cuda_compiled": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_free_before_bytes": 7441743872,
+  "gpu_total_bytes": 8585216000,
+  "ram_available_before_bytes": 5991346176,
+  "parameters": {
+    "steps": 5,
+    "grid": 256,
+    "chunks": 5000,
+    "seed": 12345,
+    "offload": "model",
+    "flashvdm": true,
+    "mc_algo": "mc",
+    "dtype": "float16"
+  },
+  "local_models": [
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\models\\Hunyuan3D-2mini\\hunyuan3d-dit-v2-mini-turbo\\config.yaml",
+      "bytes": 1664
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\models\\Hunyuan3D-2mini\\hunyuan3d-dit-v2-mini-turbo\\model.fp16.safetensors",
+      "bytes": 3822584202
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\models\\Hunyuan3D-2mini\\hunyuan3d-vae-v2-mini-turbo\\config.yaml",
+      "bytes": 335
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\models\\Hunyuan3D-2mini\\hunyuan3d-vae-v2-mini-turbo\\model.fp16.safetensors",
+      "bytes": 407410402
+    }
+  ],
+  "verified_model_manifest": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\model-manifest.json",
+  "network_model_downloads": false,
+  "texture_generation": false,
+  "background_removal": false,
+  "offload_adapter": "Local components map + CUDA execution device, upstream source untouched"
+}

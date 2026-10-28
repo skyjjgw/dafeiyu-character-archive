@@ -1,0 +1,37 @@
+{
+  "time": "2026-10-28T10:33:46.189Z",
+  "sdk": "Isolated read-only copies from official installed app.asar, dsh-v0.2.1-rc.3 / Cordis4.0.5",
+  "network": "No HTTP/WebSocket listener created; real Gateway unary in-process dispatch with explicit test PeerScope.",
+  "rows": [
+    {
+      "test": "official_Remote_markers_and_Cordis_service_registration",
+      "ok": true
+    },
+    {
+      "test": "actual_official_Gateway_dispatch_starts_real_pinned_engine",
+      "ok": true
+    },
+    {
+      "test": "real_Gateway_to_host_to_engine_ack_with_error_redaction",
+      "ok": true
+    },
+    {
+      "test": "four_behaviors_through_actual_official_Host_Gateway",
+      "ok": true
+    },
+    {
+      "test": "host_validator_rejects_unknown_fields_and_behavior",
+      "ok": true
+    },
+    {
+      "test": "non_owner_rejected_by_real_Gateway_or_host_owner_fence",
+      "ok": true,
+      "observedCode": "remote-access/denied"
+    },
+    {
+      "test": "official_RPC_stop_cleans_real_child",
+      "ok": true
+    }
+  ],
+  "scope": "Actual SDK registration and Gateway→host→real-engine test, not installed DSH plugin or live authenticated user session."
+}

@@ -1,0 +1,127 @@
+{
+  "schema": "dafeiyu.selected-skirt-strict-crossing-diagnostic.v1",
+  "method": "Actual skinned geometry; grid pairs and strict segment/triangle interior crossing, shared vertices/coplanar/tangent contact excluded. Only this skirt; no other garments/body, swept collision or physics guarantee.",
+  "states": [
+    {
+      "name": "neutral",
+      "time": 0,
+      "appliedSourcePose": {
+        "yaw": 0,
+        "pitch": 0,
+        "blink": 0,
+        "talking": 0,
+        "gazeX": 0,
+        "gazeY": 0,
+        "mode": "manual",
+        "wave": 0,
+        "walk": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "appliedCandidatePose": {
+        "yaw": 0,
+        "pitch": 0,
+        "blink": 0,
+        "talking": 0,
+        "gazeX": 0,
+        "gazeY": 0,
+        "mode": "manual",
+        "wave": 0,
+        "walk": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "source": {
+        "testedNonAdjacentPairs": 2542,
+        "strictTriangleCrossings": 0,
+        "firstCrossings": []
+      },
+      "candidate": {
+        "testedNonAdjacentPairs": 2882,
+        "strictTriangleCrossings": 0,
+        "firstCrossings": []
+      }
+    },
+    {
+      "name": "source-walk",
+      "time": 1.1,
+      "appliedSourcePose": {
+        "yaw": 0,
+        "pitch": 0,
+        "blink": 0,
+        "talking": 0,
+        "gazeX": 0,
+        "gazeY": 0,
+        "mode": "manual",
+        "wave": 0,
+        "walk": 1,
+        "happy": 0,
+        "sad": 0
+      },
+      "appliedCandidatePose": {
+        "yaw": 0,
+        "pitch": 0,
+        "blink": 0,
+        "talking": 0,
+        "gazeX": 0,
+        "gazeY": 0,
+        "mode": "manual",
+        "wave": 0,
+        "walk": 1,
+        "happy": 0,
+        "sad": 0
+      },
+      "source": {
+        "testedNonAdjacentPairs": 2611,
+        "strictTriangleCrossings": 0,
+        "firstCrossings": []
+      },
+      "candidate": {
+        "testedNonAdjacentPairs": 2922,
+        "strictTriangleCrossings": 0,
+        "firstCrossings": []
+      }
+    },
+    {
+      "name": "source-wave",
+      "time": 0.8,
+      "appliedSourcePose": {
+        "yaw": 0,
+        "pitch": 0,
+        "blink": 0,
+        "talking": 0,
+        "gazeX": 0.035,
+        "gazeY": 0.03,
+        "mode": "manual",
+        "wave": 1,
+        "walk": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "appliedCandidatePose": {
+        "yaw": 0,
+        "pitch": 0,
+        "blink": 0,
+        "talking": 0,
+        "gazeX": 0.035,
+        "gazeY": 0.03,
+        "mode": "manual",
+        "wave": 1,
+        "walk": 0,
+        "happy": 0,
+        "sad": 0
+      },
+      "source": {
+        "testedNonAdjacentPairs": 2542,
+        "strictTriangleCrossings": 0,
+        "firstCrossings": []
+      },
+      "candidate": {
+        "testedNonAdjacentPairs": 2882,
+        "strictTriangleCrossings": 0,
+        "firstCrossings": []
+      }
+    }
+  ],
+  "numericalPass": true
+}

@@ -1,0 +1,98 @@
+{
+  "schema": "dafeiyu.selected-hands-candidate-provenance.v1",
+  "date": "2026-10-28",
+  "defaults": [
+    {
+      "path": "motion_scene.gd",
+      "matched": true
+    },
+    {
+      "path": "motion_controller.gd",
+      "matched": true
+    },
+    {
+      "path": "motion_rig.gd",
+      "matched": true
+    },
+    {
+      "path": "motion_asset.gd",
+      "matched": true
+    },
+    {
+      "path": "motion_checks.gd",
+      "matched": true
+    },
+    {
+      "path": "Run-Motion.ps1",
+      "matched": true
+    },
+    {
+      "path": "assets/motion-rig.json",
+      "matched": true
+    },
+    {
+      "path": "assets/selected-appearance.glb",
+      "matched": true
+    }
+  ],
+  "defaultRuntimeFilesUnchanged": true,
+  "candidateFiles": [
+    {
+      "path": "prepare-package.mjs",
+      "sha256": "f360427596ea25e4775c9655e68234a2344d9bc3bc323af47519c071402eea2c"
+    },
+    {
+      "path": "hand_adapter.gd",
+      "sha256": "aa8128da252e91bd9132067bd3eb63952ab0ade4a224a0af6b472f7d6a9070a9"
+    },
+    {
+      "path": "greeting_rig.gd",
+      "sha256": "a398c2781ab29d5040f93f37b1f88ea4638f7fcef2f185a0077cc4a901e5cdd0"
+    },
+    {
+      "path": "scene.gd",
+      "sha256": "132abcb2a5632116914cfb1709d96531a2e204a3a1734f11b3cff33d7e478c63"
+    },
+    {
+      "path": "scene.tscn",
+      "sha256": "9ded4e3c6414de1182977392c3228241a68f68b2832798cac15ac92cbd4bd407"
+    },
+    {
+      "path": "check.gd",
+      "sha256": "787de3dcbf79e2ff4e771b88b8d299b0f75e190c95d2daa5d532533f4afda33e"
+    },
+    {
+      "path": "capture.gd",
+      "sha256": "9f0ee1bc865c6a36f25e54440009092ddc0a5dff768571474d63101227461555"
+    },
+    {
+      "path": "Run-Hands.ps1",
+      "sha256": "0d86492ea5d91ea3ff83cab9e0cf1b1af9420a6b0b4eb7c145fafeb5117f7aa8"
+    },
+    {
+      "path": "assets/hand-package.json",
+      "sha256": "b91716b444fca4db7553c857b8001766c1318377a34d541cd0411360505f7208"
+    },
+    {
+      "path": "assets/hand-package.bin",
+      "sha256": "eb661169fcfcfc37d2fc737ade14e4e49c563eea7df71c25d37f0bca24621e77"
+    },
+    {
+      "path": "reports/native-integration-check.json",
+      "sha256": "5a5e9f3ee512b7925a1380ca7e4a6133a0000a3bf7e7dd67a9fbc627b31a62c3"
+    },
+    {
+      "path": "reports/gpu-capture.json",
+      "sha256": "ff93bf2da95fb307cf3eb5098fcbb31f5b3c467751465c7dbe1494aac9d3fd1f"
+    }
+  ],
+  "headlessCompleted": true,
+  "headlessPass": true,
+  "visualPass": false,
+  "graspOrPhysicsPass": false,
+  "postCheckChange": {
+    "scope": "Candidate-only initial status and limitation label wording; no controller/rig/mesh/physics change",
+    "repeated14SecondCheck": false,
+    "rootVisualReview": "reports/root-visual-review-20261028.json"
+  }
+}

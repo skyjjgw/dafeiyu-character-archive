@@ -1,0 +1,49 @@
+{
+  "time": "2026-10-26T20:00:41.658Z",
+  "engine": {
+    "executable": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\godot\\4.7.2-stable\\Godot_v4.7.2-stable_win64.exe",
+    "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424",
+    "project": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character-bridge\\godot\\"
+  },
+  "transport": "parent-child prefixed JSONL stdio, no listening port",
+  "rows": [
+    {
+      "test": "official_engine_ready",
+      "ok": true,
+      "version": "4.7.2-stable (official)"
+    },
+    {
+      "test": "state_round_trip_and_integer_normalization",
+      "ok": true
+    },
+    {
+      "test": "four_whitelisted_behavior_round_trips",
+      "ok": true
+    },
+    {
+      "test": "parent_rejects_unknown_fields",
+      "ok": true
+    },
+    {
+      "test": "graceful_and_idempotent_dispose",
+      "ok": true
+    },
+    {
+      "test": "native_rejects_credential_field_wrong_boolean_fractional_count_and_shell_action",
+      "ok": true
+    },
+    {
+      "test": "overlong_line_dropped_and_next_frame_recovers",
+      "ok": true
+    },
+    {
+      "test": "native_message_rate_is_bounded",
+      "ok": true
+    },
+    {
+      "test": "EOF_mid_frame_rejected_thread_joined_and_process_exits",
+      "ok": true
+    }
+  ],
+  "scope": "Real official engine and real GDScript transport; probe receiver, not installed DSH or final rendered behavior."
+}

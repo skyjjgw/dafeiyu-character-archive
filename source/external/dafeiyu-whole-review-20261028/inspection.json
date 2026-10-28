@@ -1,0 +1,477 @@
+{
+  "objects": [
+    {
+      "object": "apron curved front cloth",
+      "vertices": 1353,
+      "faces": 1280,
+      "uv": [
+        "front_apron_art"
+      ],
+      "colors": [
+        "whale_mask"
+      ],
+      "materials": [
+        "apron original whale and cloth print"
+      ]
+    },
+    {
+      "object": "continuous gathered apron frill",
+      "vertices": 294,
+      "faces": 146,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "warm ivory fabric"
+      ]
+    },
+    {
+      "object": "front apron shoulder strap -1",
+      "vertices": 36,
+      "faces": 26,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "warm ivory fabric"
+      ]
+    },
+    {
+      "object": "back crossed apron strap -1",
+      "vertices": 36,
+      "faces": 26,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "warm ivory fabric"
+      ]
+    },
+    {
+      "object": "front apron shoulder strap 1",
+      "vertices": 36,
+      "faces": 26,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "warm ivory fabric"
+      ]
+    },
+    {
+      "object": "back crossed apron strap 1",
+      "vertices": 36,
+      "faces": 26,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "warm ivory fabric"
+      ]
+    },
+    {
+      "object": "FACE__continuous head skin sockets oral lining and neck",
+      "vertices": 10709,
+      "faces": 14696,
+      "uv": [
+        "SourceFaceUV"
+      ],
+      "colors": [
+        "SourcePaintMask",
+        "SourceSkinBase"
+      ],
+      "materials": [
+        "Original facial paint unified smooth skin"
+      ]
+    },
+    {
+      "object": "FACE__continuous smile contour",
+      "vertices": 194,
+      "faces": 192,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_008"
+      ]
+    },
+    {
+      "object": "FACE__left closed source-fitted ocular globe",
+      "vertices": 2690,
+      "faces": 5376,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_011"
+      ]
+    },
+    {
+      "object": "FACE__left moving eyelid crease",
+      "vertices": 130,
+      "faces": 128,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_006"
+      ]
+    },
+    {
+      "object": "FACE__left moving lower eyelash",
+      "vertices": 162,
+      "faces": 160,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_005"
+      ]
+    },
+    {
+      "object": "FACE__left moving upper eyelash",
+      "vertices": 162,
+      "faces": 160,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_004"
+      ]
+    },
+    {
+      "object": "FACE__left pointed outer lashes",
+      "vertices": 3,
+      "faces": 1,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_004"
+      ]
+    },
+    {
+      "object": "FACE__left sampled original iris",
+      "vertices": 1677,
+      "faces": 3192,
+      "uv": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "colors": [],
+      "materials": [
+        "SOURCE_003"
+      ]
+    },
+    {
+      "object": "FACE__right closed source-fitted ocular globe",
+      "vertices": 2690,
+      "faces": 5376,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_011"
+      ]
+    },
+    {
+      "object": "FACE__right moving eyelid crease",
+      "vertices": 130,
+      "faces": 128,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_006"
+      ]
+    },
+    {
+      "object": "FACE__right moving lower eyelash",
+      "vertices": 162,
+      "faces": 160,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_005"
+      ]
+    },
+    {
+      "object": "FACE__right moving upper eyelash",
+      "vertices": 162,
+      "faces": 160,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_004"
+      ]
+    },
+    {
+      "object": "FACE__right pointed outer lashes",
+      "vertices": 3,
+      "faces": 1,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_004"
+      ]
+    },
+    {
+      "object": "FACE__right sampled original iris",
+      "vertices": 1677,
+      "faces": 3192,
+      "uv": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "colors": [],
+      "materials": [
+        "SOURCE_003"
+      ]
+    },
+    {
+      "object": "FACE__tongue inside opening",
+      "vertices": 325,
+      "faces": 512,
+      "uv": [],
+      "colors": [],
+      "materials": [
+        "SOURCE_007"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "apron original whale and cloth print",
+      "links": [
+        [
+          "UV Map",
+          "UV",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Color Attribute",
+          "Color",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Emission",
+          "Color"
+        ],
+        [
+          "Emission",
+          "Emission",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "images": [
+        [
+          "Image Texture",
+          "root-front.png",
+          [
+            640,
+            704
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Original facial paint unified smooth skin",
+      "links": [
+        [
+          "Color Attribute.001",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "UV Map",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Color Attribute",
+          "Color",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Emission",
+          "Color"
+        ],
+        [
+          "Emission",
+          "Emission",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "images": [
+        [
+          "Image Texture",
+          "source-cover.jpg",
+          [
+            1920,
+            1080
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Selected original blue hair paint on new volume",
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "UV Map",
+          "UV",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Separate Color",
+          "Red",
+          "Math",
+          "Value"
+        ],
+        [
+          "Separate Color",
+          "Blue",
+          "Math.001",
+          "Value"
+        ],
+        [
+          "Math",
+          "Value",
+          "Math.001",
+          "Value"
+        ],
+        [
+          "Math.001",
+          "Value",
+          "Math.002",
+          "Value"
+        ],
+        [
+          "Color Attribute",
+          "Color",
+          "Math.002",
+          "Value"
+        ],
+        [
+          "Math.002",
+          "Value",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Principled BSDF",
+          "Emission Color"
+        ]
+      ],
+      "images": [
+        [
+          "Image Texture",
+          "root-front.png.001",
+          [
+            640,
+            704
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "SOURCE_003",
+      "links": [
+        [
+          "Light Path",
+          "Is Camera Ray",
+          "Mix Shader",
+          "Fac"
+        ],
+        [
+          "Transparent BSDF",
+          "BSDF",
+          "Mix Shader",
+          "Shader"
+        ],
+        [
+          "Emission",
+          "Emission",
+          "Mix Shader",
+          "Shader"
+        ],
+        [
+          "Mix Shader",
+          "Shader",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Emission",
+          "Color"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "UV Map",
+          "UV",
+          "Mapping",
+          "Vector"
+        ]
+      ],
+      "images": [
+        [
+          "Image Texture",
+          "source-cover.jpg",
+          [
+            1920,
+            1080
+          ]
+        ]
+      ]
+    }
+  ]
+}

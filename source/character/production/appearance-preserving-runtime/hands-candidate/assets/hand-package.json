@@ -1,0 +1,4240 @@
+{
+  "schema": "dafeiyu.selected-motion-hands-candidate.v1",
+  "packageSha256": "6ce8324dd001060e6eaf0aa60deda512a1a33d8d39fe534e797a614dfedc7c0f",
+  "sourceGLBSha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+  "sourceBodyNeutralTRSMaxError": 0,
+  "bodyBones": 22,
+  "fingerBones": 30,
+  "boneTable": [
+    {
+      "index": 0,
+      "name": "pelvis / garment anchor",
+      "parentBoneName": null,
+      "node": 2,
+      "exportedLocalTranslation": [
+        0,
+        0.188,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.188,
+        0,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.2,
+        0,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 1,
+      "name": "bodice spine",
+      "parentBoneName": "pelvis / garment anchor",
+      "node": 3,
+      "exportedLocalTranslation": [
+        0,
+        0.28,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.468,
+        0,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.48000000000000004,
+        0,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 2,
+      "name": "collar / chest",
+      "parentBoneName": "bodice spine",
+      "node": 4,
+      "exportedLocalTranslation": [
+        0,
+        0.18,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.648,
+        0,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.66,
+        0,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 3,
+      "name": "left skirt cloth",
+      "parentBoneName": "pelvis / garment anchor",
+      "node": 58,
+      "exportedLocalTranslation": [
+        -0.23,
+        -0.06,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.23,
+        0.128,
+        0,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.23,
+        -0.14,
+        0,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 4,
+      "name": "right skirt cloth",
+      "parentBoneName": "pelvis / garment anchor",
+      "node": 59,
+      "exportedLocalTranslation": [
+        0.23,
+        -0.06,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.23,
+        0.128,
+        0,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.23,
+        -0.14,
+        0,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 5,
+      "name": "front apron cloth",
+      "parentBoneName": "pelvis / garment anchor",
+      "node": 60,
+      "exportedLocalTranslation": [
+        0,
+        -0.08,
+        0.17
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.108,
+        0.17,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.12000000000000001,
+        -0.17,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 6,
+      "name": "back skirt cloth",
+      "parentBoneName": "pelvis / garment anchor",
+      "node": 61,
+      "exportedLocalTranslation": [
+        0,
+        -0.08,
+        -0.15
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.108,
+        -0.15,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.12000000000000001,
+        0.15,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 7,
+      "name": "left upper sleeve",
+      "parentBoneName": "bodice spine",
+      "node": 22,
+      "exportedLocalTranslation": [
+        -0.355,
+        0.025,
+        0.035
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        -0.0059999640000648,
+        0.999982000054
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        0.9999280008639958,
+        -0.011999712002073592,
+        0,
+        0,
+        0.011999712002073592,
+        0.9999280008639958,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.355,
+        0.49300000000000005,
+        0.035,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.355,
+        -0.505,
+        -0.035,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 8,
+      "name": "left elbow / sleeve",
+      "parentBoneName": "left upper sleeve",
+      "node": 23,
+      "exportedLocalTranslation": [
+        -0.17,
+        -0.265,
+        0.015
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        -0.007499929687697754,
+        0.9999718751318357
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        0.9996355221428369,
+        -0.026996719619572146,
+        0,
+        0,
+        0.026996719619572146,
+        0.9996355221428369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.5281676838274287,
+        0.23005903081139362,
+        0.05,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.525,
+        -0.24,
+        -0.05,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 9,
+      "name": "left wrist / fingers",
+      "parentBoneName": "left elbow / sleeve",
+      "node": 24,
+      "exportedLocalTranslation": [
+        -0.13,
+        -0.185,
+        0.07
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        0.9996355221428369,
+        -0.026996719619572146,
+        0,
+        0,
+        0.026996719619572146,
+        0.9996355221428369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.6631146948356184,
+        0.048636032765513176,
+        0.12000000000000001,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.655,
+        -0.05499999999999999,
+        -0.12000000000000001,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 10,
+      "name": "left hip / thigh",
+      "parentBoneName": "pelvis / garment anchor",
+      "node": 62,
+      "exportedLocalTranslation": [
+        -0.245,
+        -0.667,
+        0.015
+      ],
+      "exportedLocalRotation": [
+        -0.10580130093147684,
+        0,
+        0,
+        0.9943872911100621
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.9776121694424141,
+        -0.2104149380583435,
+        0,
+        0,
+        0.2104149380583435,
+        0.9776121694424141,
+        0,
+        -0.245,
+        -0.47900000000000004,
+        0.015,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.245,
+        0.467,
+        -0.015,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 11,
+      "name": "left knee / sock",
+      "parentBoneName": "left hip / thigh",
+      "node": 63,
+      "exportedLocalTranslation": [
+        0,
+        -0.235,
+        0.025
+      ],
+      "exportedLocalRotation": [
+        0.20636597693048497,
+        0,
+        0,
+        0.9784748763077806
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.9793208137288864,
+        0.20231347903041977,
+        0,
+        0,
+        -0.20231347903041977,
+        0.9793208137288864,
+        0,
+        -0.245,
+        -0.7034784863675088,
+        0.08888781467977107,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.245,
+        0.702,
+        -0.04,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 12,
+      "name": "left ankle / shoe",
+      "parentBoneName": "left knee / sock",
+      "node": 64,
+      "exportedLocalTranslation": [
+        0,
+        -0.235,
+        0.065
+      ],
+      "exportedLocalRotation": [
+        -0.10168378993505742,
+        0,
+        0,
+        0.9948167704981873
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -5.551115123125783e-17,
+        0,
+        0,
+        5.551115123125783e-17,
+        1,
+        0,
+        -0.245,
+        -0.9467692537307744,
+        0.10500000000000004,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.245,
+        0.9369999999999999,
+        -0.10500000000000001,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 13,
+      "name": "right upper sleeve",
+      "parentBoneName": "bodice spine",
+      "node": 40,
+      "exportedLocalTranslation": [
+        0.355,
+        0.025,
+        0.035
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.0059999640000648,
+        0.999982000054
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        0.9999280008639958,
+        0.011999712002073592,
+        0,
+        0,
+        -0.011999712002073592,
+        0.9999280008639958,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.355,
+        0.49300000000000005,
+        0.035,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.355,
+        -0.505,
+        -0.035,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 14,
+      "name": "right elbow / sleeve",
+      "parentBoneName": "right upper sleeve",
+      "node": 41,
+      "exportedLocalTranslation": [
+        0.17,
+        -0.265,
+        0.015
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.007499929687697754,
+        0.9999718751318357
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        0.9996355221428369,
+        0.026996719619572146,
+        0,
+        0,
+        -0.026996719619572146,
+        0.9996355221428369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.5281676838274287,
+        0.23005903081139362,
+        0.05,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.525,
+        -0.24,
+        -0.05,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 15,
+      "name": "right wrist / fingers",
+      "parentBoneName": "right elbow / sleeve",
+      "node": 42,
+      "exportedLocalTranslation": [
+        0.13,
+        -0.185,
+        0.07
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        0.9996355221428369,
+        0.026996719619572146,
+        0,
+        0,
+        -0.026996719619572146,
+        0.9996355221428369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.6631146948356184,
+        0.048636032765513176,
+        0.12000000000000001,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.655,
+        -0.05499999999999999,
+        -0.12000000000000001,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 16,
+      "name": "right hip / thigh",
+      "parentBoneName": "pelvis / garment anchor",
+      "node": 65,
+      "exportedLocalTranslation": [
+        0.245,
+        -0.667,
+        0.015
+      ],
+      "exportedLocalRotation": [
+        -0.10580130093147684,
+        0,
+        0,
+        0.9943872911100621
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.9776121694424141,
+        -0.2104149380583435,
+        0,
+        0,
+        0.2104149380583435,
+        0.9776121694424141,
+        0,
+        0.245,
+        -0.47900000000000004,
+        0.015,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.245,
+        0.467,
+        -0.015,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 17,
+      "name": "right knee / sock",
+      "parentBoneName": "right hip / thigh",
+      "node": 66,
+      "exportedLocalTranslation": [
+        0,
+        -0.235,
+        0.025
+      ],
+      "exportedLocalRotation": [
+        0.20636597693048497,
+        0,
+        0,
+        0.9784748763077806
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.9793208137288864,
+        0.20231347903041977,
+        0,
+        0,
+        -0.20231347903041977,
+        0.9793208137288864,
+        0,
+        0.245,
+        -0.7034784863675088,
+        0.08888781467977107,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.245,
+        0.702,
+        -0.04,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 18,
+      "name": "right ankle / shoe",
+      "parentBoneName": "right knee / sock",
+      "node": 67,
+      "exportedLocalTranslation": [
+        0,
+        -0.235,
+        0.065
+      ],
+      "exportedLocalRotation": [
+        -0.10168378993505742,
+        0,
+        0,
+        0.9948167704981873
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -5.551115123125783e-17,
+        0,
+        0,
+        5.551115123125783e-17,
+        1,
+        0,
+        0.245,
+        -0.9467692537307744,
+        0.10500000000000004,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.245,
+        0.9369999999999999,
+        -0.10500000000000001,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 19,
+      "name": "whale tail base",
+      "parentBoneName": "pelvis / garment anchor",
+      "node": 68,
+      "exportedLocalTranslation": [
+        0.37,
+        -0.56,
+        -0.26
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.37,
+        -0.37200000000000005,
+        -0.26,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.37,
+        0.36000000000000004,
+        0.26,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 20,
+      "name": "whale tail middle",
+      "parentBoneName": "whale tail base",
+      "node": 69,
+      "exportedLocalTranslation": [
+        0.42,
+        -0.02,
+        -0.025
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.79,
+        -0.39200000000000007,
+        -0.28500000000000003,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.79,
+        0.38000000000000006,
+        0.28500000000000003,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 21,
+      "name": "whale tail flukes",
+      "parentBoneName": "whale tail middle",
+      "node": 70,
+      "exportedLocalTranslation": [
+        0.43,
+        0.075,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1.22,
+        -0.31700000000000006,
+        -0.28500000000000003,
+        1
+      ],
+      "sourceBindInverse": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1.22,
+        0.30500000000000005,
+        0.28500000000000003,
+        1
+      ],
+      "role": "unchanged source body bone"
+    },
+    {
+      "index": 22,
+      "name": "left thumb joint 1",
+      "parentBoneName": "left wrist / fingers",
+      "node": 25,
+      "exportedLocalTranslation": [
+        -0.04499999999999993,
+        -0.03576923076923075,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.8983152602274218,
+        -0.43935144615960875
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.635026766249278,
+        -0.7724901333654595,
+        0,
+        0,
+        0.7724901333654595,
+        -0.635026766249278,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7090639452261307,
+        0.014094691471746315,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.6139406135149208,
+        0.7893522173763259,
+        0,
+        0,
+        -0.7893522173763259,
+        -0.6139406135149208,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.4145785791262844,
+        0.5643531024233304,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 23,
+      "name": "left thumb joint 2",
+      "parentBoneName": "left thumb joint 1",
+      "node": 26,
+      "exportedLocalTranslation": [
+        5.551115123125783e-17,
+        0.01841821840544755,
+        -2.7755575615628914e-17
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        2.7755575615628914e-17,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.635026766249278,
+        -0.7724901333654595,
+        0,
+        0,
+        0.7724901333654595,
+        -0.635026766249278,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.6948360532337524,
+        0.002398629797661981,
+        0.17749999999999996,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.6139406135149208,
+        0.7893522173763259,
+        0,
+        0,
+        -0.7893522173763259,
+        -0.6139406135149208,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.4145785791262844,
+        0.5459348840178828,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 24,
+      "name": "left thumb joint 3",
+      "parentBoneName": "left thumb joint 2",
+      "node": 27,
+      "exportedLocalTranslation": [
+        0,
+        0.01315587028960541,
+        -2.7755575615628914e-17
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        2.7755575615628914e-17,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.635026766249278,
+        -0.7724901333654595,
+        0,
+        0,
+        0.7724901333654595,
+        -0.635026766249278,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.6846732732391965,
+        -0.005955699969541095,
+        0.17749999999999994,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.6139406135149208,
+        0.7893522173763259,
+        0,
+        0,
+        -0.7893522173763259,
+        -0.6139406135149208,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.4145785791262844,
+        0.5327790137282774,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 25,
+      "name": "left index joint 1",
+      "parentBoneName": "left wrist / fingers",
+      "node": 28,
+      "exportedLocalTranslation": [
+        -0.05653846153846154,
+        -0.05307692307692305,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.9954345409393531,
+        -0.09544671133600899
+      ],
+      "exportedLocalScale": [
+        1,
+        0.9999999999999999,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9865519817072677,
+        -0.16344781243401169,
+        0,
+        0,
+        0.16344781243401166,
+        -0.9865519817072675,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7210654521673483,
+        -0.002895191954346177,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9817798505902811,
+        0.19002190656586213,
+        0,
+        0,
+        -0.19002190656586207,
+        -0.9817798505902813,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.6982086977150733,
+        0.13709593323069091,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 26,
+      "name": "left index joint 2",
+      "parentBoneName": "left index joint 1",
+      "node": 29,
+      "exportedLocalTranslation": [
+        1.1102230246251565e-16,
+        0.025503132421598906,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9865519817072677,
+        -0.16344781243401169,
+        0,
+        0,
+        0.16344781243401166,
+        -0.9865519817072675,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7168970209628232,
+        -0.02805535778461746,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9817798505902811,
+        0.19002190656586213,
+        0,
+        0,
+        -0.19002190656586207,
+        -0.9817798505902813,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.6982086977150734,
+        0.11159280080909201,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 27,
+      "name": "left index joint 3",
+      "parentBoneName": "left index joint 2",
+      "node": 30,
+      "exportedLocalTranslation": [
+        -1.1102230246251565e-16,
+        0.01821652315828494,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9865519817072677,
+        -0.16344781243401169,
+        0,
+        0,
+        0.16344781243401166,
+        -0.9865519817072675,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7139195701024479,
+        -0.046026904806239784,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9817798505902811,
+        0.19002190656586213,
+        0,
+        0,
+        -0.19002190656586207,
+        -0.9817798505902813,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.6982086977150733,
+        0.09337627765080707,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 28,
+      "name": "left middle joint 1",
+      "parentBoneName": "left wrist / fingers",
+      "node": 31,
+      "exportedLocalTranslation": [
+        -0.07961538461538464,
+        -0.058846153846153826,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.9999632727263202,
+        -0.008570484144258263
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9999514022093823,
+        0.009858662155218481,
+        0,
+        0,
+        -0.009858662155218481,
+        -0.9999514022093823,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.744289714522296,
+        -0.008039318744718575,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.999853093603066,
+        0.017140338747483053,
+        0,
+        0,
+        -0.017140338747483053,
+        -0.999853093603066,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7345733892958966,
+        0.008745967719870002,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 29,
+      "name": "left middle joint 2",
+      "parentBoneName": "left middle joint 1",
+      "node": 32,
+      "exportedLocalTranslation": [
+        0,
+        0.0282733843102489,
+        -2.7755575615628914e-17
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9999514022093823,
+        0.009858662155218481,
+        0,
+        0,
+        -0.009858662155218481,
+        -0.9999514022093823,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7445684522661954,
+        -0.03631132903095671,
+        0.17749999999999996,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.999853093603066,
+        0.017140338747483053,
+        0,
+        0,
+        -0.017140338747483053,
+        -0.999853093603066,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7345733892958966,
+        -0.0195274165903789,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 30,
+      "name": "left middle joint 3",
+      "parentBoneName": "left middle joint 2",
+      "node": 33,
+      "exportedLocalTranslation": [
+        -1.1102230246251565e-16,
+        0.020195274507320646,
+        -2.7755575615628914e-17
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9999514022093823,
+        0.009858662155218481,
+        0,
+        0,
+        -0.009858662155218481,
+        -0.9999514022093823,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7447675506546948,
+        -0.056505622092555385,
+        0.17749999999999994,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.999853093603066,
+        0.017140338747483053,
+        0,
+        0,
+        -0.017140338747483053,
+        -0.999853093603066,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7345733892958966,
+        -0.03972269109769955,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 31,
+      "name": "left ring joint 1",
+      "parentBoneName": "left wrist / fingers",
+      "node": 34,
+      "exportedLocalTranslation": [
+        -0.10269230769230764,
+        -0.05499999999999999,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.9969482079304756,
+        0.0780658100849097
+      ],
+      "exportedLocalScale": [
+        1.0000000000000002,
+        0.9999999999999999,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9832492450448375,
+        0.182266075062687,
+        0,
+        0,
+        -0.18226607506268694,
+        -0.9832492450448371,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7672543930347476,
+        -0.0035715655144867853,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9878114585915734,
+        -0.15565513892958316,
+        0,
+        0,
+        0.15565513892958313,
+        -0.9878114585915736,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7484571436251537,
+        -0.11793870141972261,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 32,
+      "name": "left ring joint 2",
+      "parentBoneName": "left ring joint 1",
+      "node": 35,
+      "exportedLocalTranslation": [
+        0,
+        0.026982726229810447,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        6.93889390390723e-18,
+        1
+      ],
+      "exportedLocalScale": [
+        0.9999999999999999,
+        0.9999999999999999,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9832492450448373,
+        0.18226607506268697,
+        0,
+        0,
+        -0.1822660750626869,
+        -0.983249245044837,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7721724286391461,
+        -0.030102310709199432,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9878114585915734,
+        -0.15565513892958316,
+        0,
+        0,
+        0.15565513892958313,
+        -0.9878114585915736,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7484571436251538,
+        -0.14492142764953306,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 33,
+      "name": "left ring joint 3",
+      "parentBoneName": "left ring joint 2",
+      "node": 36,
+      "exportedLocalTranslation": [
+        -1.1102230246251565e-16,
+        0.019273375878436,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        6.93889390390723e-18,
+        1
+      ],
+      "exportedLocalScale": [
+        0.9999999999999999,
+        0.9999999999999999,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9832492450448372,
+        0.18226607506268694,
+        0,
+        0,
+        -0.18226607506268688,
+        -0.9832492450448369,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7756853112137164,
+        -0.04905284299113702,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9878114585915734,
+        -0.15565513892958316,
+        0,
+        0,
+        0.15565513892958313,
+        -0.9878114585915736,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7484571436251537,
+        -0.16419480352796909,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 34,
+      "name": "left little joint 1",
+      "parentBoneName": "left wrist / fingers",
+      "node": 37,
+      "exportedLocalTranslation": [
+        -0.12192307692307691,
+        -0.04538461538461536,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.9881379056088258,
+        0.1535691358932625
+      ],
+      "exportedLocalScale": [
+        1.0000000000000002,
+        0.9999999999999999,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9442923858833127,
+        0.3291077178718255,
+        0,
+        0,
+        -0.3291077178718254,
+        -0.9442923858833123,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7862185692334602,
+        0.00655948219110921,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9528330410019933,
+        -0.3034949686154511,
+        0,
+        0,
+        0.30349496861545106,
+        -0.9528330410019935,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7431961988613126,
+        -0.22663038868390822,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 35,
+      "name": "left little joint 2",
+      "parentBoneName": "left little joint 1",
+      "node": 38,
+      "exportedLocalTranslation": [
+        -1.1102230246251565e-16,
+        0.022887212522310796,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9442923858833127,
+        0.3291077178718255,
+        0,
+        0,
+        -0.3291077178718254,
+        -0.9442923858833123,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7937509275151253,
+        -0.015052738327802111,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9528330410019933,
+        -0.3034949686154511,
+        0,
+        0,
+        0.30349496861545106,
+        -0.9528330410019935,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7431961988613125,
+        -0.24951760120621902,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 36,
+      "name": "left little joint 3",
+      "parentBoneName": "left little joint 2",
+      "node": 39,
+      "exportedLocalTranslation": [
+        1.1102230246251565e-16,
+        0.01634800894450772,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9442923858833127,
+        0.3291077178718255,
+        0,
+        0,
+        -0.3291077178718254,
+        -0.9442923858833123,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7991311834306005,
+        -0.030490038698453,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9528330410019933,
+        -0.3034949686154511,
+        0,
+        0,
+        0.30349496861545106,
+        -0.9528330410019935,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.7431961988613126,
+        -0.26586561015072674,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 37,
+      "name": "right thumb joint 1",
+      "parentBoneName": "right wrist / fingers",
+      "node": 43,
+      "exportedLocalTranslation": [
+        0.0296153846153846,
+        -0.03576923076923075,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.8983152602274218,
+        0.43935144615960875
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.635026766249278,
+        0.7724901333654595,
+        0,
+        0,
+        -0.7724901333654595,
+        -0.635026766249278,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.6936849371931639,
+        0.013679357323752903,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.6139406135149208,
+        -0.7893522173763259,
+        0,
+        0,
+        0.7893522173763259,
+        -0.6139406135149208,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.4051333389183625,
+        0.5522092221560023,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 38,
+      "name": "right thumb joint 2",
+      "parentBoneName": "right thumb joint 1",
+      "node": 44,
+      "exportedLocalTranslation": [
+        -5.551115123125783e-17,
+        0.01841821840544755,
+        -2.7755575615628914e-17
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        -2.7755575615628914e-17,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.635026766249278,
+        0.7724901333654595,
+        0,
+        0,
+        -0.7724901333654595,
+        -0.635026766249278,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.6794570452007856,
+        0.0019832956496685684,
+        0.17749999999999996,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.6139406135149208,
+        -0.7893522173763259,
+        0,
+        0,
+        0.7893522173763259,
+        -0.6139406135149208,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.40513333891836256,
+        0.5337910037505548,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 39,
+      "name": "right thumb joint 3",
+      "parentBoneName": "right thumb joint 2",
+      "node": 45,
+      "exportedLocalTranslation": [
+        0,
+        0.01315587028960541,
+        -2.7755575615628914e-17
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        -2.7755575615628914e-17,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.635026766249278,
+        0.7724901333654595,
+        0,
+        0,
+        -0.7724901333654595,
+        -0.635026766249278,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.6692942652062297,
+        -0.0063710341175345075,
+        0.17749999999999994,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.6139406135149208,
+        -0.7893522173763259,
+        0,
+        0,
+        0.7893522173763259,
+        -0.6139406135149208,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.40513333891836256,
+        0.5206351334609494,
+        -0.17750000000000002,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 40,
+      "name": "right index joint 1",
+      "parentBoneName": "right wrist / fingers",
+      "node": 46,
+      "exportedLocalTranslation": [
+        0.041153846153846096,
+        -0.05307692307692305,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.9954345409393531,
+        0.09544671133600809
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9865519817072675,
+        0.16344781243400988,
+        0,
+        0,
+        -0.16344781243400988,
+        -0.9865519817072675,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7056864441343815,
+        -0.0033105261023395963,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9817798505902815,
+        -0.19002190656586032,
+        0,
+        0,
+        0.19002190656586032,
+        -0.9817798505902815,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.683104392321377,
+        0.13417251928352256,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 41,
+      "name": "right index joint 2",
+      "parentBoneName": "right index joint 1",
+      "node": 47,
+      "exportedLocalTranslation": [
+        0,
+        0.025503132421598906,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9865519817072675,
+        0.16344781243400988,
+        0,
+        0,
+        -0.16344781243400988,
+        -0.9865519817072675,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7015180129298563,
+        -0.028470691932610863,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9817798505902815,
+        -0.19002190656586032,
+        0,
+        0,
+        0.19002190656586032,
+        -0.9817798505902815,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.683104392321377,
+        0.10866938686192365,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 42,
+      "name": "right index joint 3",
+      "parentBoneName": "right index joint 2",
+      "node": 48,
+      "exportedLocalTranslation": [
+        -1.1102230246251565e-16,
+        0.018216523158284925,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9865519817072675,
+        0.16344781243400988,
+        0,
+        0,
+        -0.16344781243400988,
+        -0.9865519817072675,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.6985405620694812,
+        -0.0464422389542332,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9817798505902815,
+        -0.19002190656586032,
+        0,
+        0,
+        0.19002190656586032,
+        -0.9817798505902815,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.6831043923213771,
+        0.09045286370363873,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 43,
+      "name": "right middle joint 1",
+      "parentBoneName": "right wrist / fingers",
+      "node": 49,
+      "exportedLocalTranslation": [
+        0.0642307692307692,
+        -0.058846153846153826,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.9999632727263202,
+        0.008570484144255788
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9999514022093822,
+        -0.009858662155223429,
+        0,
+        0,
+        0.009858662155223429,
+        -0.9999514022093822,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7289107064893292,
+        -0.008454652892711995,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.999853093603066,
+        -0.017140338747478105,
+        0,
+        0,
+        0.017140338747478105,
+        -0.999853093603066,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7191910340096955,
+        0.008482270200674396,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 44,
+      "name": "right middle joint 2",
+      "parentBoneName": "right middle joint 1",
+      "node": 50,
+      "exportedLocalTranslation": [
+        1.1102230246251565e-16,
+        0.0282733843102489,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        0.9999999999999999,
+        0.9999999999999999,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9999514022093821,
+        -0.009858662155223427,
+        0,
+        0,
+        0.009858662155223427,
+        -0.9999514022093821,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7291894442332286,
+        -0.036726663178950125,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.999853093603066,
+        -0.017140338747478105,
+        0,
+        0,
+        0.017140338747478105,
+        -0.999853093603066,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7191910340096955,
+        -0.019791114109574504,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 45,
+      "name": "right middle joint 3",
+      "parentBoneName": "right middle joint 2",
+      "node": 51,
+      "exportedLocalTranslation": [
+        1.1102230246251565e-16,
+        0.020195274507320646,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        0.9999999999999999,
+        0.9999999999999999,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.999951402209382,
+        -0.009858662155223425,
+        0,
+        0,
+        0.009858662155223425,
+        -0.999951402209382,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7293885426217281,
+        -0.0569209562405488,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.999853093603066,
+        -0.017140338747478105,
+        0,
+        0,
+        0.017140338747478105,
+        -0.999853093603066,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7191910340096954,
+        -0.039986388616895144,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 46,
+      "name": "right ring joint 1",
+      "parentBoneName": "right wrist / fingers",
+      "node": 52,
+      "exportedLocalTranslation": [
+        0.08730769230769231,
+        -0.05499999999999999,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.9969482079304758,
+        -0.07806581008490886
+      ],
+      "exportedLocalScale": [
+        1,
+        0.9999999999999999,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9832492450448381,
+        -0.18226607506268533,
+        0,
+        0,
+        0.1822660750626853,
+        -0.983249245044838,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.751875385001781,
+        -0.003986899662480198,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9878114585915738,
+        0.1556551389295815,
+        0,
+        0,
+        -0.15565513892958147,
+        -0.987811458591574,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7332600442622067,
+        -0.11554400697465088,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 47,
+      "name": "right ring joint 2",
+      "parentBoneName": "right ring joint 1",
+      "node": 53,
+      "exportedLocalTranslation": [
+        0,
+        0.02698272622981042,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9832492450448381,
+        -0.18226607506268533,
+        0,
+        0,
+        0.1822660750626853,
+        -0.983249245044838,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7567934206061795,
+        -0.03051764485719284,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9878114585915738,
+        0.1556551389295815,
+        0,
+        0,
+        -0.15565513892958147,
+        -0.987811458591574,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7332600442622067,
+        -0.1425267332044613,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 48,
+      "name": "right ring joint 3",
+      "parentBoneName": "right ring joint 2",
+      "node": 54,
+      "exportedLocalTranslation": [
+        0,
+        0.019273375878436028,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9832492450448381,
+        -0.18226607506268533,
+        0,
+        0,
+        0.1822660750626853,
+        -0.983249245044838,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7603063031807499,
+        -0.04946817713913046,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9878114585915738,
+        0.1556551389295815,
+        0,
+        0,
+        -0.15565513892958147,
+        -0.987811458591574,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7332600442622067,
+        -0.16180010908289733,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 49,
+      "name": "right little joint 1",
+      "parentBoneName": "right wrist / fingers",
+      "node": 55,
+      "exportedLocalTranslation": [
+        0.10653846153846147,
+        -0.04538461538461536,
+        0.05749999999999998
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        0.9881379056088261,
+        -0.15356913589326057
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9442923858833139,
+        -0.3291077178718218,
+        0,
+        0,
+        0.3291077178718218,
+        -0.9442923858833139,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7708395612004935,
+        0.006144148043115791,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9528330410019944,
+        0.30349496861544734,
+        0,
+        0,
+        -0.30349496861544734,
+        -0.9528330410019944,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7285372289997443,
+        -0.22196123532059067,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 50,
+      "name": "right little joint 2",
+      "parentBoneName": "right little joint 1",
+      "node": 56,
+      "exportedLocalTranslation": [
+        0,
+        0.022887212522310824,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        -2.7755575615628914e-17,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9442923858833139,
+        -0.32910771787182175,
+        0,
+        0,
+        0.32910771787182175,
+        -0.9442923858833139,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7783719194821586,
+        -0.015468072475795555,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9528330410019944,
+        0.30349496861544734,
+        0,
+        0,
+        -0.30349496861544734,
+        -0.9528330410019944,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7285372289997444,
+        -0.24484844784290147,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    },
+    {
+      "index": 51,
+      "name": "right little joint 3",
+      "parentBoneName": "right little joint 2",
+      "node": 57,
+      "exportedLocalTranslation": [
+        2.220446049250313e-16,
+        0.01634800894450769,
+        0
+      ],
+      "exportedLocalRotation": [
+        0,
+        0,
+        -2.7755575615628914e-17,
+        1
+      ],
+      "exportedLocalScale": [
+        1,
+        1,
+        1
+      ],
+      "exportedNeutralWorldMatrix": [
+        -0.9442923858833139,
+        -0.3291077178718217,
+        0,
+        0,
+        0.3291077178718217,
+        -0.9442923858833139,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7837521753976334,
+        -0.030905372846446552,
+        0.1775,
+        1
+      ],
+      "sourceBindInverse": [
+        -0.9528330410019944,
+        0.30349496861544734,
+        0,
+        0,
+        -0.30349496861544734,
+        -0.9528330410019944,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.7285372289997443,
+        -0.26119645678740916,
+        -0.1775,
+        1
+      ],
+      "role": "revised local hand bone"
+    }
+  ],
+  "driveContract": {
+    "neutral": {
+      "grip": 0,
+      "opposition": 0,
+      "individualDigits": 0
+    },
+    "curl": "Each digit uses clamp(individual[name] ?? grip ?? 0,0,1). No smoothing or hidden clipping beyond range; UI adds its individual slider to global grip before this function.",
+    "deltaOrder": "local restQuaternion * (thumb MCP Rz(sign*.55*opposition)*Ry(sign*.55*opposition) if thumb MCP) * Rx(maxFlexDegrees[k]*curl)",
+    "oppositionSign": {
+      "left": -1,
+      "right": 1
+    },
+    "bodyPoseRule": "Existing body22 motion untouched. Treat delta above as pose relative to each new finger bone actual bind/rest; do not multiply rest twice in a Godot pose delta API.",
+    "limits": "Per-digit maxFlexDegrees in rig.hands. No force or collision response and no arbitrary-pose guarantee."
+  },
+  "rig": {
+    "schema": "dafeiyu.source-finger-rig.v1",
+    "sourceBodyBones": 22,
+    "bodyBones": 52,
+    "addedBones": 30,
+    "scope": "Original closed five-digit geometry and source UV/materials are retained. Additional joints/weights only. This does not certify anatomical final quality, contact, self-collision or force-closure grasping.",
+    "coordinates": "Original study bind units, Y up, +Z front. Not a calibrated physical metre scale.",
+    "hands": {
+      "left": {
+        "wrist": "left wrist / fingers",
+        "digits": {
+          "thumb": {
+            "bones": [
+              "left thumb joint 1",
+              "left thumb joint 2",
+              "left thumb joint 3"
+            ],
+            "indices": [
+              22,
+              23,
+              24
+            ],
+            "bindMatrices": [
+              [
+                -0.6139406135149209,
+                -0.7893522173763261,
+                0,
+                0,
+                0.7893522173763261,
+                -0.6139406135149209,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7,
+                0.019230769230769246,
+                0.1775,
+                1
+              ],
+              [
+                -0.6139406135149209,
+                -0.7893522173763261,
+                0,
+                0,
+                0.7893522173763261,
+                -0.6139406135149209,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.6854615384615385,
+                0.007923076923076932,
+                0.1775,
+                1
+              ],
+              [
+                -0.6139406135149209,
+                -0.7893522173763261,
+                0,
+                0,
+                0.7893522173763261,
+                -0.6139406135149209,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.675076923076923,
+                -0.00015384615384615025,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.018418218405447613,
+              0.013155870289605437,
+              0.01227881227029841
+            ],
+            "maxFlexDegrees": [
+              28,
+              50,
+              45
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.8983152602274218,
+                -0.43935144615960875
+              ],
+              [
+                0,
+                0,
+                2.7755575615628914e-17,
+                1
+              ],
+              [
+                0,
+                0,
+                2.7755575615628914e-17,
+                1
+              ]
+            ]
+          },
+          "index": {
+            "bones": [
+              "left index joint 1",
+              "left index joint 2",
+              "left index joint 3"
+            ],
+            "indices": [
+              25,
+              26,
+              27
+            ],
+            "bindMatrices": [
+              [
+                -0.9817798505902813,
+                -0.19002190656586213,
+                0,
+                0,
+                0.19002190656586207,
+                -0.9817798505902811,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7115384615384616,
+                0.001923076923076944,
+                0.1775,
+                1
+              ],
+              [
+                -0.9817798505902813,
+                -0.19002190656586213,
+                0,
+                0,
+                0.19002190656586207,
+                -0.9817798505902811,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7066923076923077,
+                -0.023115384615384586,
+                0.1775,
+                1
+              ],
+              [
+                -0.9817798505902813,
+                -0.19002190656586213,
+                0,
+                0,
+                0.19002190656586207,
+                -0.9817798505902811,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7032307692307692,
+                -0.04099999999999997,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.02550313242159891,
+              0.018216523158284936,
+              0.01700208828106594
+            ],
+            "maxFlexDegrees": [
+              60,
+              80,
+              55
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.9954345409393531,
+                -0.09544671133600899
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ]
+          },
+          "middle": {
+            "bones": [
+              "left middle joint 1",
+              "left middle joint 2",
+              "left middle joint 3"
+            ],
+            "indices": [
+              28,
+              29,
+              30
+            ],
+            "bindMatrices": [
+              [
+                -0.9998530936030662,
+                -0.017140338747483056,
+                0,
+                0,
+                0.017140338747483056,
+                -0.9998530936030662,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7346153846153847,
+                -0.0038461538461538325,
+                0.1775,
+                1
+              ],
+              [
+                -0.9998530936030662,
+                -0.017140338747483056,
+                0,
+                0,
+                0.017140338747483056,
+                -0.9998530936030662,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7341307692307693,
+                -0.032115384615384594,
+                0.1775,
+                1
+              ],
+              [
+                -0.9998530936030662,
+                -0.017140338747483056,
+                0,
+                0,
+                0.017140338747483056,
+                -0.9998530936030662,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7337846153846154,
+                -0.05230769230769228,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.02827338431024891,
+              0.020195274507320646,
+              0.018848922873499274
+            ],
+            "maxFlexDegrees": [
+              65,
+              85,
+              60
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.9999632727263202,
+                -0.008570484144258263
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ]
+          },
+          "ring": {
+            "bones": [
+              "left ring joint 1",
+              "left ring joint 2",
+              "left ring joint 3"
+            ],
+            "indices": [
+              31,
+              32,
+              33
+            ],
+            "bindMatrices": [
+              [
+                -0.9878114585915738,
+                0.1556551389295832,
+                0,
+                0,
+                -0.15565513892958316,
+                -0.9878114585915736,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7576923076923077,
+                0,
+                0.1775,
+                1
+              ],
+              [
+                -0.9878114585915738,
+                0.1556551389295832,
+                0,
+                0,
+                -0.15565513892958316,
+                -0.9878114585915736,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7618923076923078,
+                -0.026653846153846153,
+                0.1775,
+                1
+              ],
+              [
+                -0.9878114585915738,
+                0.1556551389295832,
+                0,
+                0,
+                -0.15565513892958316,
+                -0.9878114585915736,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7648923076923078,
+                -0.045692307692307685,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.02698272622981043,
+              0.01927337587843602,
+              0.017988484153206957
+            ],
+            "maxFlexDegrees": [
+              65,
+              85,
+              60
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.9969482079304756,
+                0.0780658100849097
+              ],
+              [
+                0,
+                0,
+                6.93889390390723e-18,
+                1
+              ],
+              [
+                0,
+                0,
+                6.93889390390723e-18,
+                1
+              ]
+            ]
+          },
+          "little": {
+            "bones": [
+              "left little joint 1",
+              "left little joint 2",
+              "left little joint 3"
+            ],
+            "indices": [
+              34,
+              35,
+              36
+            ],
+            "bindMatrices": [
+              [
+                -0.9528330410019935,
+                0.3034949686154511,
+                0,
+                0,
+                -0.30349496861545106,
+                -0.9528330410019933,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7769230769230769,
+                0.009615384615384637,
+                0.1775,
+                1
+              ],
+              [
+                -0.9528330410019935,
+                0.3034949686154511,
+                0,
+                0,
+                -0.30349496861545106,
+                -0.9528330410019933,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7838692307692308,
+                -0.012192307692307676,
+                0.1775,
+                1
+              ],
+              [
+                -0.9528330410019935,
+                0.3034949686154511,
+                0,
+                0,
+                -0.30349496861545106,
+                -0.9528330410019933,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.7888307692307693,
+                -0.027769230769230754,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.02288721252231081,
+              0.01634800894450772,
+              0.015258141681540542
+            ],
+            "maxFlexDegrees": [
+              60,
+              80,
+              55
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.9881379056088258,
+                0.1535691358932625
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        }
+      },
+      "right": {
+        "wrist": "right wrist / fingers",
+        "digits": {
+          "thumb": {
+            "bones": [
+              "right thumb joint 1",
+              "right thumb joint 2",
+              "right thumb joint 3"
+            ],
+            "indices": [
+              37,
+              38,
+              39
+            ],
+            "bindMatrices": [
+              [
+                -0.6139406135149209,
+                0.7893522173763261,
+                0,
+                0,
+                -0.7893522173763261,
+                -0.6139406135149209,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.6846153846153846,
+                0.019230769230769246,
+                0.1775,
+                1
+              ],
+              [
+                -0.6139406135149209,
+                0.7893522173763261,
+                0,
+                0,
+                -0.7893522173763261,
+                -0.6139406135149209,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.6700769230769231,
+                0.007923076923076932,
+                0.1775,
+                1
+              ],
+              [
+                -0.6139406135149209,
+                0.7893522173763261,
+                0,
+                0,
+                -0.7893522173763261,
+                -0.6139406135149209,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.6596923076923077,
+                -0.00015384615384615025,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.018418218405447613,
+              0.013155870289605437,
+              0.01227881227029841
+            ],
+            "maxFlexDegrees": [
+              28,
+              50,
+              45
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.8983152602274218,
+                0.43935144615960875
+              ],
+              [
+                0,
+                0,
+                -2.7755575615628914e-17,
+                1
+              ],
+              [
+                0,
+                0,
+                -2.7755575615628914e-17,
+                1
+              ]
+            ]
+          },
+          "index": {
+            "bones": [
+              "right index joint 1",
+              "right index joint 2",
+              "right index joint 3"
+            ],
+            "indices": [
+              40,
+              41,
+              42
+            ],
+            "bindMatrices": [
+              [
+                -0.9817798505902815,
+                0.19002190656586032,
+                0,
+                0,
+                -0.19002190656586032,
+                -0.9817798505902815,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.6961538461538461,
+                0.001923076923076944,
+                0.1775,
+                1
+              ],
+              [
+                -0.9817798505902815,
+                0.19002190656586032,
+                0,
+                0,
+                -0.19002190656586032,
+                -0.9817798505902815,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.6913076923076923,
+                -0.023115384615384586,
+                0.1775,
+                1
+              ],
+              [
+                -0.9817798505902815,
+                0.19002190656586032,
+                0,
+                0,
+                -0.19002190656586032,
+                -0.9817798505902815,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.6878461538461539,
+                -0.04099999999999997,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.0255031324215989,
+              0.01821652315828493,
+              0.017002088281065936
+            ],
+            "maxFlexDegrees": [
+              60,
+              80,
+              55
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.9954345409393531,
+                0.09544671133600809
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ]
+          },
+          "middle": {
+            "bones": [
+              "right middle joint 1",
+              "right middle joint 2",
+              "right middle joint 3"
+            ],
+            "indices": [
+              43,
+              44,
+              45
+            ],
+            "bindMatrices": [
+              [
+                -0.9998530936030662,
+                0.01714033874747811,
+                0,
+                0,
+                -0.01714033874747811,
+                -0.9998530936030662,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7192307692307692,
+                -0.0038461538461538325,
+                0.1775,
+                1
+              ],
+              [
+                -0.9998530936030662,
+                0.01714033874747811,
+                0,
+                0,
+                -0.01714033874747811,
+                -0.9998530936030662,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7187461538461539,
+                -0.032115384615384594,
+                0.1775,
+                1
+              ],
+              [
+                -0.9998530936030662,
+                0.01714033874747811,
+                0,
+                0,
+                -0.01714033874747811,
+                -0.9998530936030662,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7184000000000001,
+                -0.05230769230769228,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.02827338431024891,
+              0.020195274507320646,
+              0.018848922873499274
+            ],
+            "maxFlexDegrees": [
+              65,
+              85,
+              60
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.9999632727263202,
+                0.008570484144255788
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ]
+          },
+          "ring": {
+            "bones": [
+              "right ring joint 1",
+              "right ring joint 2",
+              "right ring joint 3"
+            ],
+            "indices": [
+              46,
+              47,
+              48
+            ],
+            "bindMatrices": [
+              [
+                -0.987811458591574,
+                -0.1556551389295815,
+                0,
+                0,
+                0.15565513892958147,
+                -0.9878114585915738,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7423076923076923,
+                0,
+                0.1775,
+                1
+              ],
+              [
+                -0.987811458591574,
+                -0.1556551389295815,
+                0,
+                0,
+                0.15565513892958147,
+                -0.9878114585915738,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7465076923076923,
+                -0.026653846153846153,
+                0.1775,
+                1
+              ],
+              [
+                -0.987811458591574,
+                -0.1556551389295815,
+                0,
+                0,
+                0.15565513892958147,
+                -0.9878114585915738,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7495076923076923,
+                -0.045692307692307685,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.026982726229810423,
+              0.019273375878436017,
+              0.017988484153206953
+            ],
+            "maxFlexDegrees": [
+              65,
+              85,
+              60
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.9969482079304758,
+                -0.07806581008490886
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ]
+          },
+          "little": {
+            "bones": [
+              "right little joint 1",
+              "right little joint 2",
+              "right little joint 3"
+            ],
+            "indices": [
+              49,
+              50,
+              51
+            ],
+            "bindMatrices": [
+              [
+                -0.9528330410019946,
+                -0.3034949686154474,
+                0,
+                0,
+                0.3034949686154474,
+                -0.9528330410019946,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7615384615384615,
+                0.009615384615384637,
+                0.1775,
+                1
+              ],
+              [
+                -0.9528330410019946,
+                -0.3034949686154474,
+                0,
+                0,
+                0.3034949686154474,
+                -0.9528330410019946,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7684846153846153,
+                -0.012192307692307676,
+                0.1775,
+                1
+              ],
+              [
+                -0.9528330410019946,
+                -0.3034949686154474,
+                0,
+                0,
+                0.3034949686154474,
+                -0.9528330410019946,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7734461538461537,
+                -0.027769230769230754,
+                0.1775,
+                1
+              ]
+            ],
+            "lengths": [
+              0.02288721252231078,
+              0.0163480089445077,
+              0.015258141681540521
+            ],
+            "maxFlexDegrees": [
+              60,
+              80,
+              55
+            ],
+            "restLocalQuaternions": [
+              [
+                0,
+                0,
+                0.9881379056088261,
+                -0.15356913589326057
+              ],
+              [
+                0,
+                0,
+                -2.7755575615628914e-17,
+                1
+              ],
+              [
+                0,
+                0,
+                -2.7755575615628914e-17,
+                1
+              ]
+            ]
+          }
+        }
+      }
+    }
+  },
+  "meshes": [
+    {
+      "name": "left traced open hand and fingers",
+      "side": "left",
+      "vertices": 5249,
+      "position": {
+        "offset": 0,
+        "bytes": 62988,
+        "sha256": "c4865b0f33bccbe76c4712f1937cc29d3f7d734381163d065f10ddb37bf76e90"
+      },
+      "normal": {
+        "offset": 62988,
+        "bytes": 62988,
+        "sha256": "0ff6224ca99ac8f17382831fa51dd7523061f2a87948c77ae6636186060ba95d"
+      },
+      "colorRGBA32F": {
+        "offset": 125976,
+        "bytes": 83984,
+        "sha256": "7435098428fe94114620e122d2b2e5db124b3530c65c849bd94423b488afecc6"
+      },
+      "joints": {
+        "offset": 209960,
+        "bytes": 41992,
+        "sha256": "1ec5f4f771f34c5be7f44c7e99b937d654faced65f202ebb5a6e004c31c4b1bf"
+      },
+      "weights": {
+        "offset": 251952,
+        "bytes": 83984,
+        "sha256": "dcca276365de1d3326800f02f956cf7559b83b4ed46eda5a7d12fe1e99be22f0"
+      },
+      "indices": {
+        "offset": 335936,
+        "bytes": 125928,
+        "sha256": "7d1e7e44648c92b0a1cbe23b036902af368268ba9f69f835d9f890dde50ceaad"
+      },
+      "inverseBind": {
+        "offset": 461864,
+        "bytes": 3328,
+        "sha256": "892739addc3120e7a8e49958a6d14228f849940dd5d98d966d8211e647c41d8e"
+      }
+    },
+    {
+      "name": "right traced open hand and fingers",
+      "side": "right",
+      "vertices": 5249,
+      "position": {
+        "offset": 465192,
+        "bytes": 62988,
+        "sha256": "a5bed20bddb60855b02c335ee441d63df883073b73c6a69a7ca67be9383b9ee9"
+      },
+      "normal": {
+        "offset": 528180,
+        "bytes": 62988,
+        "sha256": "5c198a127adca103ab8e4dd8b43490a542f8fffb9a7c14cad8fde1d0d27f49f7"
+      },
+      "colorRGBA32F": {
+        "offset": 591168,
+        "bytes": 83984,
+        "sha256": "9a29ade7eee8367af49559f7fdd511ae4477f1355fc24a9bcfd02db1cef45d61"
+      },
+      "joints": {
+        "offset": 675152,
+        "bytes": 41992,
+        "sha256": "78d58de3bb9162427416f9fef025f647a1a575934724ac84f021168c5c924274"
+      },
+      "weights": {
+        "offset": 717144,
+        "bytes": 83984,
+        "sha256": "dcca276365de1d3326800f02f956cf7559b83b4ed46eda5a7d12fe1e99be22f0"
+      },
+      "indices": {
+        "offset": 801128,
+        "bytes": 125928,
+        "sha256": "30ce5a81f9e54a828af563ed7831ffa8a7203a5a599acda739274bef42abf8ce"
+      },
+      "inverseBind": {
+        "offset": 927056,
+        "bytes": 3328,
+        "sha256": "892739addc3120e7a8e49958a6d14228f849940dd5d98d966d8211e647c41d8e"
+      }
+    }
+  ],
+  "references": [
+    {
+      "side": "left",
+      "grip": 0,
+      "opposition": 0,
+      "positions": {
+        "offset": 930384,
+        "bytes": 62988,
+        "sha256": "fa9c1428c55f6a9edebc27aabd831bf3999e9aae1f5c29d5416880cfa4b76b46"
+      }
+    },
+    {
+      "side": "left",
+      "grip": 0.55,
+      "opposition": 0.22000000000000003,
+      "positions": {
+        "offset": 993372,
+        "bytes": 62988,
+        "sha256": "a35809eb72bb6c914e35a05c6f6e0116b293b40bbc6ea6905404c5b3fceccbde"
+      }
+    },
+    {
+      "side": "left",
+      "grip": 1,
+      "opposition": 0.4,
+      "positions": {
+        "offset": 1056360,
+        "bytes": 62988,
+        "sha256": "a82da1225845103bb99bbf32f0580d72e44d02fa8244349c477027aeedbd274d"
+      }
+    },
+    {
+      "side": "right",
+      "grip": 0,
+      "opposition": 0,
+      "positions": {
+        "offset": 1119348,
+        "bytes": 62988,
+        "sha256": "f1177033d73154ddbb408e7c06f6bb7ff31e6165cc41ab46ed2ec31b780a5765"
+      }
+    },
+    {
+      "side": "right",
+      "grip": 0.55,
+      "opposition": 0.22000000000000003,
+      "positions": {
+        "offset": 1182336,
+        "bytes": 62988,
+        "sha256": "2c4b7c50368ddc7563cae305569908b174ebd16de4d65041ae5eb43323cbc95b"
+      }
+    },
+    {
+      "side": "right",
+      "grip": 1,
+      "opposition": 0.4,
+      "positions": {
+        "offset": 1245324,
+        "bytes": 62988,
+        "sha256": "e2e51cb70155082f59926985739d548f2b041a32771dac1e50b30c785fdd534b"
+      }
+    }
+  ],
+  "source": "Original selected girl plus independently repaired hand v2 only",
+  "scale": "Same source units, inherited actor holder .35 metres/sourceunit; no new mesh offset",
+  "scope": "Independent integration candidate, not default character, physical grasp or final appearance acceptance"
+}

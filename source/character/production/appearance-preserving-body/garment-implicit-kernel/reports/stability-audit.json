@@ -1,0 +1,43 @@
+{
+  "completed": true,
+  "units": "World metres, kg, seconds; signed angle rad dimensionless",
+  "gradient_formula": "Verified finite difference in reference-comparison.json; old and new formula same first derivative",
+  "old_moment_cap": "0.0003 N*m per hinge; nodal force=moment*gradient (N), then hinges accumulate. This is not a nodal force cap.",
+  "old_energy_mismatch": "Old reported quadratic energy was uncapped while elastic+damping moment was capped; not an exact energy certificate.",
+  "records": [
+    {
+      "layer": "outer",
+      "vertices": 1824,
+      "hinges": 5088,
+      "free_point_mass_kg": 4.3859649122807014e-05,
+      "uniform_mass_includes_pins_before_zeroing": true,
+      "power_iteration_seed": 1234,
+      "power_iteration_steps": 250,
+      "rayleigh_eigenvalue_lower_bound_per_kg_m2": 15375740397.936272,
+      "relative_eigen_residual": 0.002510980303135929,
+      "semiimplicit_spring_plus_explicit_damping_necessary_condition": "h^2 k lambda + 2 h c lambda < 4",
+      "actual_indicator_lower_bound": 38.97323086976906,
+      "necessary_limit": 4,
+      "fails_even_from_lower_bound": true,
+      "h_omega": 3.6533541948747037,
+      "h_c_lambda": 12.813116998280236
+    },
+    {
+      "layer": "lining",
+      "vertices": 1280,
+      "hinges": 3456,
+      "free_point_mass_kg": 2.7343749999999977e-05,
+      "uniform_mass_includes_pins_before_zeroing": true,
+      "power_iteration_seed": 1234,
+      "power_iteration_steps": 250,
+      "rayleigh_eigenvalue_lower_bound_per_kg_m2": 17788697563.842957,
+      "relative_eigen_residual": 4.467790860582205e-05,
+      "semiimplicit_spring_plus_explicit_damping_necessary_condition": "h^2 k lambda + 2 h c lambda < 4",
+      "actual_indicator_lower_bound": 51.26603811801969,
+      "necessary_limit": 4,
+      "fails_even_from_lower_bound": true,
+      "h_omega": 4.64953856258318,
+      "h_c_lambda": 14.82391463653581
+    }
+  ]
+}

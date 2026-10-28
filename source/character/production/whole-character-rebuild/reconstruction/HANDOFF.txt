@@ -1,0 +1,52 @@
+2026-10-28 TripoSR whole-character reconstruction trial
+
+Result: A real, full-volume static triangle mesh was generated locally from the selected girl's canonical front. This is a useful whole-form sculpt/retopology reference, not a finished character, rig, VRM or physics asset.
+
+Review contact sheet:
+E:/zzz/dafeiyu-character-materials-20261025/production/whole-character-rebuild/reconstruction/triposr-8view-contact-sheet.jpg
+
+Actual editable/model artifacts (D disk is explicitly authorized task storage to prevent E disk exhaustion):
+D:/CodexTaskData/dafeiyu-whole-model-reconstruction-20261028/output/canonical-front-v1/whole-character-static.blend
+D:/CodexTaskData/dafeiyu-whole-model-reconstruction-20261028/output/canonical-front-v1/character.glb
+D:/CodexTaskData/dafeiyu-whole-model-reconstruction-20261028/output/canonical-front-v1/character.ply
+Eight actual Blender views: same directory, turntable-000.png through turntable-315.png in 45-degree steps. 000 front; 045 front quarter; 090 side; 180 back.
+
+Input:
+E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-geometry/hair-continuity-v1/reports/root-front.png
+SHA256 a608633188057aa52d99f39256953c964d2267ddeba57875c59553fe5ded44b5
+Genuine RGBA transparent input. Only official resize_foreground(ratio=0.85) and gray alpha compositing were applied. No hand painting, image edit, stock-avatar replacement, or procedural geometry construction was used.
+
+Official sources/license:
+https://github.com/VAST-AI-Research/TripoSR
+Code commit 107cefdc244c39106fa830359024f6a2f1c78871; git status clean.
+https://github.com/VAST-AI-Research/TripoSR/blob/main/LICENSE
+https://huggingface.co/stabilityai/TripoSR
+Weight revision 5b521936b01fbe1890f6f9baed0254ab6351c04a
+Official README says MIT covers source, pretrained model and demo. Model card also lists MIT. Keep repository LICENSE and embedded third-party Apache notices if redistributing source. Public HF API reported gated=false; no token/account/API key was used.
+Downloaded one model.ckpt only: 1,677,246,742 bytes, official LFS SHA256 matched:
+429e2c6b22a0923967459de24d67f05962b235f79cde6b032aa7ed2ffcd970ee
+Also downloaded its tiny official config/model card plus facebook/dino-vitb16 config.json. No DINO model weight download was necessary; parameters are in the official checkpoint.
+
+Environment:
+Task-only venv at D:/CodexTaskData/dafeiyu-whole-model-reconstruction-20261028/venv
+Read-only inheritance of existing t1 CUDA Torch and project Hunyuan-mini dependencies. No global/package/PATH changes and no new pip packages. Exact paths/versions in tools/whole-model-reconstruction/environment.json. These read-only inherited environments must remain available; future upgrades to them may affect this venv.
+Process-only cache/temp/HF/Torch paths are task-local D directories; offline inference enabled. CUDA torch 2.5.1+cu121, Python 3.10.19, RTX 4060 Laptop 8GB.
+Windows compatibility adapters are in our launcher, not changes to official source: scikit-image CPU marching cubes with coordinate convention matching the official helper; rembg import guard never runs for already-transparent input; local DINO config resolution. Neural inference, density/color query and official weights are unchanged.
+
+Measured result:
+419,275,628 network parameters. Load 11.03s, neural inference 1.39s, mesh extraction/export 5.63s, total 18.43s. GPU peak allocated 2,628,296,192 bytes. Model GPU process exited and released its allocations before CPU Blender renders.
+63,503 vertices / 127,006 triangles. XYZ extents 0.479096 / 0.847087 / 1.007726. Watertight and consistently wound. Ten components: main 126,910 triangles plus nine microscopic islands totaling 96 triangles; two faces area below 1e-12. Raw output preserved without silently deleting islands or changing surface.
+Independent Blender 4.5.15 background reopen verified one mesh, original counts, Col vertex attribute, zero armatures, no external image dependencies. Verification JSON in this directory.
+
+Visual assessment:
+Blue hair/eyes, overall chibi identity, maid dress/apron, two legs/shoes and blue whale tail remain recognizable. Side has a real skull/back hair volume, protruding face, body and skirt depth. Back has a complete inferred hair/dress shape; no source back evidence was supplied, so it is not the original author's confirmed design.
+Material/feature limitations are substantial: canonical eye shape shrank, face blurred, apron whale graphic collapsed into a blue patch; detailed hair locks/cloth/trim blurred. The fused dense triangle surface has no semantic parts, mouth/eye topology, skeleton or UV texture atlas. Treating this as a finished character would be incorrect.
+
+Recommended next work after whole-form review:
+Use the real mesh as volume reference for manual sculpt/retopology. Restore canonical face/eyes and apron design using preserved reference. Audit unseen back and tail attachment against the new consistent four-view design. Only after static shape acceptance should semantic topology, rigging, expressions and physics resume.
+
+Reproduce inference in a new output name:
+& 'D:/CodexTaskData/dafeiyu-whole-model-reconstruction-20261028/venv/Scripts/python.exe' 'E:/zzz/dafeiyu-character-materials-20261025/tools/whole-model-reconstruction/run_triposr.py' --image 'E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-geometry/hair-continuity-v1/reports/root-front.png' --name NEW-UNUSED-NAME --resolution 256 --chunk 4096
+The launcher refuses to overwrite an existing output directory. Render/audit scripts currently target canonical-front-v1 intentionally; change their destination explicitly for a new run.
+
+No existing girl/source/form files or user windows/processes were changed. Only this task's own curl transfer was stopped to move our newly-created partial weight to D; successful transfer chunks were removed after whole-file SHA verification. Existing Hunyuan weights and source remain intact.

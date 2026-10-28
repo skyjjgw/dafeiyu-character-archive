@@ -1,0 +1,201 @@
+{
+  "schema": "dafeiyu.selected-garment-written-package-verification.v1",
+  "binarySha256": "c9a08f0e12196337ffac10783036f2d5473eb53d379abf76a9b09044f88cf5a3",
+  "arrayHashesChecked": 52,
+  "checks": [
+    {
+      "name": "outer barycentric/triangle contract",
+      "ok": true,
+      "evidence": {
+        "minBary": -8.254907288836961e-16,
+        "maximumBarycentricSumError": 4.353933036327362e-8,
+        "tripleErrors": 0
+      }
+    },
+    {
+      "name": "outer source bind/neutral reconstruction",
+      "ok": true,
+      "evidence": {
+        "restMaximumComponentError": 0,
+        "neutralMaximumComponentError": 5.960464477539063e-8
+      }
+    },
+    {
+      "name": "outer rigid transform objectivity",
+      "ok": true,
+      "evidence": {
+        "maximumComponentError": 2.384185791015625e-7,
+        "method": "Single rigid rotation/translation only; not a simulated action or synthetic animation"
+      }
+    },
+    {
+      "name": "outer full waist-only hard pins",
+      "ok": true,
+      "evidence": {
+        "count": 96,
+        "unique": 96,
+        "waistOnly": true,
+        "pinWeightError": 0,
+        "maximumSolverWeightSumError": 4.470348358154297e-8,
+        "freePointsHaveNoPoseTargets": true
+      }
+    },
+    {
+      "name": "outer canonical annulus topology",
+      "ok": true,
+      "evidence": {
+        "vertices": 1824,
+        "triangles": 3456,
+        "finite": true,
+        "indicesInRange": true,
+        "components": 1,
+        "boundaryEdges": 192,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "euler": 0,
+        "minimumTriangleArea": 0.00026559962254008685,
+        "totalArea": 2.1779470472315077,
+        "edgeLength": {
+          "min": 0.015068682857094437,
+          "p10": 0.0227583399228599,
+          "median": 0.0413890188585708,
+          "p90": 0.05676068048165208,
+          "max": 0.10028121090832358
+        },
+        "edgeAspect": {
+          "median": 1.8664037549283476,
+          "p95": 2.595691251421439,
+          "max": 3.136609872920961
+        },
+        "minimumAngleDegrees": 18.516120125597176,
+        "construction": "Each adjacent ring connected by conforming periodic zipper; no duplicated seam vertex or center caps"
+      }
+    },
+    {
+      "name": "outer low/render proxy distance explicit",
+      "ok": true,
+      "evidence": {
+        "maximumNormalOffsetMeters": 0.000570891037640179,
+        "halfClothThicknessMeters": 0.0006125,
+        "p95NormalOffsetMeters": 0.00020668269619419962,
+        "maximumTangentFitAdjustmentMeters": 0.00024825200088265383,
+        "note": "Collision radius must cover this proxy/render difference; not a blanket no-penetration claim"
+      }
+    },
+    {
+      "name": "lining barycentric/triangle contract",
+      "ok": true,
+      "evidence": {
+        "minBary": -3.3505568780814086e-16,
+        "maximumBarycentricSumError": 4.470348358154297e-8,
+        "tripleErrors": 0
+      }
+    },
+    {
+      "name": "lining source bind/neutral reconstruction",
+      "ok": true,
+      "evidence": {
+        "restMaximumComponentError": 0,
+        "neutralMaximumComponentError": 5.960464477539063e-8
+      }
+    },
+    {
+      "name": "lining rigid transform objectivity",
+      "ok": true,
+      "evidence": {
+        "maximumComponentError": 2.384185791015625e-7,
+        "method": "Single rigid rotation/translation only; not a simulated action or synthetic animation"
+      }
+    },
+    {
+      "name": "lining full waist-only hard pins",
+      "ok": true,
+      "evidence": {
+        "count": 96,
+        "unique": 96,
+        "waistOnly": true,
+        "pinWeightError": 0,
+        "maximumSolverWeightSumError": 4.470348358154297e-8,
+        "freePointsHaveNoPoseTargets": true
+      }
+    },
+    {
+      "name": "lining canonical annulus topology",
+      "ok": true,
+      "evidence": {
+        "vertices": 1280,
+        "triangles": 2368,
+        "finite": true,
+        "indicesInRange": true,
+        "components": 1,
+        "boundaryEdges": 192,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "euler": 0,
+        "minimumTriangleArea": 0.0002420039397512044,
+        "totalArea": 1.478623155983707,
+        "edgeLength": {
+          "min": 0.01176305906438591,
+          "p10": 0.025535304478052197,
+          "median": 0.04130080636175261,
+          "p90": 0.05369816122611177,
+          "max": 0.07808748844093447
+        },
+        "edgeAspect": {
+          "median": 1.7312971436367925,
+          "p95": 2.4201563692912607,
+          "max": 3.816427286903372
+        },
+        "minimumAngleDegrees": 14.941057982852195,
+        "construction": "Each adjacent ring connected by conforming periodic zipper; no duplicated seam vertex or center caps"
+      }
+    },
+    {
+      "name": "lining low/render proxy distance explicit",
+      "ok": true,
+      "evidence": {
+        "maximumNormalOffsetMeters": 0.002612317670879721,
+        "halfClothThicknessMeters": 0.0006125,
+        "p95NormalOffsetMeters": 0.0005687841946346716,
+        "maximumTangentFitAdjustmentMeters": 0.000054019210527909666,
+        "note": "Collision radius must cover this proxy/render difference; not a blanket no-penetration claim"
+      }
+    },
+    {
+      "name": "explicit frame and original source22 contract",
+      "ok": true,
+      "evidence": {
+        "boneNames": [
+          "pelvis / garment anchor",
+          "bodice spine",
+          "collar / chest",
+          "left skirt cloth",
+          "right skirt cloth",
+          "front apron cloth",
+          "back skirt cloth",
+          "left upper sleeve",
+          "left elbow / sleeve",
+          "left wrist / fingers",
+          "left hip / thigh",
+          "left knee / sock",
+          "left ankle / shoe",
+          "right upper sleeve",
+          "right elbow / sleeve",
+          "right wrist / fingers",
+          "right hip / thigh",
+          "right knee / sock",
+          "right ankle / shoe",
+          "whale tail base",
+          "whale tail middle",
+          "whale tail flukes"
+        ],
+        "scale": 0.35,
+        "lift": 1.055,
+        "rule": "actor rigid transform * (0.35 * (neutralRootPosition + Vector3(0,1.055,0)))"
+      }
+    }
+  ],
+  "passed": true,
+  "physicsPass": false,
+  "visualPass": false
+}

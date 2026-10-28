@@ -1,0 +1,865 @@
+{
+  "version": 3,
+  "revision": 1,
+  "status": "independent_native_face_v3_pending_actual_visual_review",
+  "blend": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\face-v3.blend",
+  "blend_bytes": 6538499,
+  "blend_sha256": "e898f643686c96fa5c6f8030d51e9f5fe6d9be801324a7c26554563a4d7eac63",
+  "build_script_sha256": "e0abd741c2e57f5fedd14d4a012be04cb6f7ee0c26707a54fd0269c59a55f50d",
+  "blender": "4.5.15 LTS",
+  "head_root_origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "coordinate_frame": "X horizontal, -Y forward, Z up; eye line Z=0",
+  "head_attachment_world_z": 2.155,
+  "assembly": {
+    "collection": "Face_v3_EDITABLE",
+    "attachment_root": "HeadRoot",
+    "controls": "FaceRig",
+    "skin_object": "HeadSkin / complete cranium, cheeks, chin, eyelids and oral cav",
+    "append_review_studio": false
+  },
+  "skin_topology": {
+    "vertices": 9073,
+    "faces": 9288,
+    "quads": 8854,
+    "triangles": 434,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "loose_vertices": 0
+  },
+  "mesh_count": 16,
+  "meshes": {
+    "HeadSkin / complete cranium, cheeks, chin, eyelids and oral cav": {
+      "vertices": 9073,
+      "faces": 9288,
+      "quads": 8854,
+      "triangles": 434,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Eye.L / closed spherical globe": {
+      "vertices": 1986,
+      "faces": 2048,
+      "quads": 1920,
+      "triangles": 128,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Eye.R / closed spherical globe": {
+      "vertices": 1986,
+      "faces": 2048,
+      "quads": 1920,
+      "triangles": 128,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Lash.L / source-weighted tapered solid upper rim": {
+      "vertices": 584,
+      "faces": 578,
+      "quads": 576,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Lid.L / restrained lower rim": {
+      "vertices": 392,
+      "faces": 386,
+      "quads": 384,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Brow.L / tapered solid editable brow": {
+      "vertices": 328,
+      "faces": 322,
+      "quads": 320,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "LashWing.L / solid pointed outer corner": {
+      "vertices": 136,
+      "faces": 130,
+      "quads": 128,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "LashFlick.L / upper outer solid lash": {
+      "vertices": 88,
+      "faces": 82,
+      "quads": 80,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Lash.R / source-weighted tapered solid upper rim": {
+      "vertices": 584,
+      "faces": 578,
+      "quads": 576,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Lid.R / restrained lower rim": {
+      "vertices": 392,
+      "faces": 386,
+      "quads": 384,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Brow.R / tapered solid editable brow": {
+      "vertices": 328,
+      "faces": 322,
+      "quads": 320,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "LashWing.R / solid pointed outer corner": {
+      "vertices": 136,
+      "faces": 130,
+      "quads": 128,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "LashFlick.R / upper outer solid lash": {
+      "vertices": 88,
+      "faces": 82,
+      "quads": 80,
+      "triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Tongue / closed volume": {
+      "vertices": 482,
+      "faces": 512,
+      "quads": 448,
+      "triangles": 64,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Upper teeth / closed ivory volume": {
+      "vertices": 482,
+      "faces": 512,
+      "quads": 448,
+      "triangles": 64,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    },
+    "Lower teeth / closed ivory volume": {
+      "vertices": 482,
+      "faces": 512,
+      "quads": 448,
+      "triangles": 64,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "loose_vertices": 0
+    }
+  },
+  "rig_bones": [
+    "FaceHead",
+    "Jaw",
+    "Tongue",
+    "Eye.L",
+    "Eye.R"
+  ],
+  "constraints": {
+    "FaceHead": [],
+    "Jaw": [
+      "LIMIT_ROTATION"
+    ],
+    "Tongue": [],
+    "Eye.L": [
+      "LIMIT_ROTATION"
+    ],
+    "Eye.R": [
+      "LIMIT_ROTATION"
+    ]
+  },
+  "shape_keys": {
+    "blink": {
+      "changed_skin_vertices": 4573,
+      "max_delta": 0.12576579836081553
+    },
+    "aa": {
+      "changed_skin_vertices": 2239,
+      "max_delta": 0.0840352016889582
+    },
+    "ee": {
+      "changed_skin_vertices": 598,
+      "max_delta": 0.03170363814823856
+    },
+    "oh": {
+      "changed_skin_vertices": 598,
+      "max_delta": 0.06585023477369918
+    },
+    "smile": {
+      "changed_skin_vertices": 6235,
+      "max_delta": 0.042409499809683227
+    },
+    "sad": {
+      "changed_skin_vertices": 4024,
+      "max_delta": 0.020399711834928235
+    },
+    "cheek": {
+      "changed_skin_vertices": 4819,
+      "max_delta": 0.02192476055943785
+    },
+    "lookUp": {
+      "changed_skin_vertices": 1848,
+      "max_delta": 0.017353588673910677
+    },
+    "lookDown": {
+      "changed_skin_vertices": 1848,
+      "max_delta": 0.012534852005218011
+    },
+    "blink_sphere_inbetween": {
+      "changed_skin_vertices": 1800,
+      "max_delta": 0.01575849068362155
+    },
+    "corrective_blink_smile": {
+      "changed_skin_vertices": 3869,
+      "max_delta": 0.042680463804061694
+    },
+    "corrective_blink_sad": {
+      "changed_skin_vertices": 1256,
+      "max_delta": 0.020399723605022537
+    },
+    "corrective_blink_lookUp": {
+      "changed_skin_vertices": 1848,
+      "max_delta": 0.017353565194392424
+    },
+    "corrective_blink_lookDown": {
+      "changed_skin_vertices": 1848,
+      "max_delta": 0.012534870144523591
+    }
+  },
+  "drivers": 160,
+  "reference_policy": "Video cover supplies proportion measurements only; generated side guide supplies inferred depth. No source photo is projected or used as a character output.",
+  "target_depth_landmarks": {
+    "nose": [
+      -0.076,
+      0.501
+    ],
+    "lip": [
+      -0.204,
+      0.478
+    ],
+    "chin": [
+      -0.382,
+      0.324
+    ]
+  },
+  "actual_geometry_qa": {
+    "finite_evaluated_skin": true,
+    "neutral_chin": [
+      0.023000000044703484,
+      -0.3240000009536743,
+      -0.38199999928474426
+    ],
+    "aa_chin": [
+      0.0229999627918005,
+      -0.2837212383747101,
+      -0.43581581115722656
+    ],
+    "aa_chin_drop": 0.0538158118724823,
+    "aa_jaw_euler": [
+      -0.13500000536441803,
+      -0.0,
+      0.0
+    ],
+    "closed_eye_ray_tests": {
+      "front": {
+        "surface_samples": 112,
+        "uncovered_eye_samples": 0
+      },
+      "threequarter": {
+        "surface_samples": 118,
+        "uncovered_eye_samples": 0
+      },
+      "right": {
+        "surface_samples": 126,
+        "uncovered_eye_samples": 0
+      },
+      "left": {
+        "surface_samples": 126,
+        "uncovered_eye_samples": 0
+      }
+    },
+    "combined_closed_eye_ray_tests": {
+      "blink-smile-gaze-talk": {
+        "front": {
+          "surface_samples": 112,
+          "uncovered_eye_samples": 0
+        },
+        "threequarter": {
+          "surface_samples": 118,
+          "uncovered_eye_samples": 0
+        },
+        "right": {
+          "surface_samples": 126,
+          "uncovered_eye_samples": 0
+        },
+        "left": {
+          "surface_samples": 126,
+          "uncovered_eye_samples": 0
+        }
+      },
+      "blink-sad-gaze": {
+        "front": {
+          "surface_samples": 112,
+          "uncovered_eye_samples": 0
+        },
+        "threequarter": {
+          "surface_samples": 118,
+          "uncovered_eye_samples": 0
+        },
+        "right": {
+          "surface_samples": 126,
+          "uncovered_eye_samples": 0
+        },
+        "left": {
+          "surface_samples": 126,
+          "uncovered_eye_samples": 0
+        }
+      }
+    },
+    "acting_skin_changes": {
+      "softsmile": {
+        "finite": true,
+        "changed_vertices": 6171,
+        "max_delta": 0.01484332455594759,
+        "chin_drop": -1.5109777450561523e-05
+      },
+      "softsad": {
+        "finite": true,
+        "changed_vertices": 4723,
+        "max_delta": 0.014613425239748958,
+        "chin_drop": 0.0
+      },
+      "talking": {
+        "finite": true,
+        "changed_vertices": 5909,
+        "max_delta": 0.0729492668007457,
+        "chin_drop": 0.024890363216400146
+      },
+      "gaze-halfblink": {
+        "finite": true,
+        "changed_vertices": 5958,
+        "max_delta": 0.08103701602804181,
+        "chin_drop": -8.732080459594727e-06
+      }
+    }
+  },
+  "renders": [
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\neutral\\front.png",
+      "view": "front",
+      "controls": {},
+      "bytes": 247326
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\neutral\\side.png",
+      "view": "side",
+      "controls": {},
+      "bytes": 237444
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\neutral\\threequarter.png",
+      "view": "threequarter",
+      "controls": {},
+      "bytes": 246523
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\neutral\\back.png",
+      "view": "back",
+      "controls": {},
+      "bytes": 222337
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\blink\\front.png",
+      "view": "front",
+      "controls": {
+        "blink": 1
+      },
+      "bytes": 234865
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\blink\\side.png",
+      "view": "side",
+      "controls": {
+        "blink": 1
+      },
+      "bytes": 236747
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\aa\\front.png",
+      "view": "front",
+      "controls": {
+        "aa": 1
+      },
+      "bytes": 250141
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\aa\\side.png",
+      "view": "side",
+      "controls": {
+        "aa": 1
+      },
+      "bytes": 237685
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\halfblink\\threequarter.png",
+      "view": "threequarter",
+      "controls": {
+        "blink": 0.5
+      },
+      "bytes": 241677
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\smile\\threequarter.png",
+      "view": "threequarter",
+      "controls": {
+        "smile": 1,
+        "aa": 0.3
+      },
+      "bytes": 245535
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\sad\\front.png",
+      "view": "front",
+      "controls": {
+        "sad": 1
+      },
+      "bytes": 247699
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\oh\\side.png",
+      "view": "side",
+      "controls": {
+        "oh": 1
+      },
+      "bytes": 237809
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\expressions\\gaze\\threequarter.png",
+      "view": "threequarter",
+      "controls": {
+        "gazeX": 0.7,
+        "gazeY": 0.3
+      },
+      "bytes": 246047
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\softsmile\\front.png",
+      "view": "front",
+      "controls": {
+        "smile": 0.35,
+        "cheek": 0.25
+      },
+      "bytes": 246158
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\softsmile\\threequarter.png",
+      "view": "threequarter",
+      "controls": {
+        "smile": 0.35,
+        "cheek": 0.25
+      },
+      "bytes": 245873
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\softsad\\front.png",
+      "view": "front",
+      "controls": {
+        "sad": 0.65,
+        "gazeY": -0.15
+      },
+      "bytes": 247544
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\softsad\\side.png",
+      "view": "side",
+      "controls": {
+        "sad": 0.65,
+        "gazeY": -0.15
+      },
+      "bytes": 237397
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\talking\\front.png",
+      "view": "front",
+      "controls": {
+        "aa": 0.45,
+        "ee": 0.1,
+        "smile": 0.15,
+        "cheek": 0.15
+      },
+      "bytes": 249021
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\talking\\threequarter.png",
+      "view": "threequarter",
+      "controls": {
+        "aa": 0.45,
+        "ee": 0.1,
+        "smile": 0.15,
+        "cheek": 0.15
+      },
+      "bytes": 247728
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\gaze-halfblink\\front.png",
+      "view": "front",
+      "controls": {
+        "blink": 0.6,
+        "gazeX": 0.65,
+        "gazeY": -0.3,
+        "smile": 0.2
+      },
+      "bytes": 240142
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\gaze-halfblink\\side.png",
+      "view": "side",
+      "controls": {
+        "blink": 0.6,
+        "gazeX": 0.65,
+        "gazeY": -0.3,
+        "smile": 0.2
+      },
+      "bytes": 236860
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\acting\\gaze-blink-smile\\threequarter.png",
+      "view": "threequarter",
+      "controls": {
+        "blink": 1,
+        "gazeX": -0.7,
+        "gazeY": 0.65,
+        "smile": 0.55
+      },
+      "bytes": 235337
+    }
+  ],
+  "reference_images_used_as_character_texture": false,
+  "eye_landmarks": {
+    "L": {
+      "center": [
+        -0.258,
+        0.009
+      ],
+      "globe_radius": 0.205,
+      "globe_depth": 0.233,
+      "upper_trace": [
+        [
+          -0.4141454509834287,
+          -0.006462176659277943
+        ],
+        [
+          -0.3874790305505627,
+          0.05026245802411516
+        ],
+        [
+          -0.3499360171169106,
+          0.09011052056533408
+        ],
+        [
+          -0.2999430870709217,
+          0.11648693333961334
+        ],
+        [
+          -0.24589912955650428,
+          0.124029756138246
+        ],
+        [
+          -0.1956424669731231,
+          0.1154903686216715
+        ],
+        [
+          -0.15341258437447797,
+          0.08760827783774024
+        ],
+        [
+          -0.1297139656021833,
+          0.043279292869976366
+        ],
+        [
+          -0.1134815600701814,
+          -0.0122790754959982
+        ]
+      ],
+      "lower_trace": [
+        [
+          -0.4141454509834287,
+          -0.006462176659277943
+        ],
+        [
+          -0.38964602257621506,
+          -0.04188941644401825
+        ],
+        [
+          -0.35032254431019516,
+          -0.07564204931325588
+        ],
+        [
+          -0.2971076920889844,
+          -0.10136518217333541
+        ],
+        [
+          -0.2335202222948556,
+          -0.11129599326103455
+        ],
+        [
+          -0.17225029443062112,
+          -0.09462755338927119
+        ],
+        [
+          -0.1316690103956475,
+          -0.06669568416097339
+        ],
+        [
+          -0.1134815600701814,
+          -0.0122790754959982
+        ]
+      ],
+      "aperture_width": 0.3006638909132473,
+      "aperture_height": 0.23532574939928055,
+      "iris_center_y": -0.008
+    },
+    "R": {
+      "center": [
+        0.265,
+        0.002
+      ],
+      "globe_radius": 0.2,
+      "globe_depth": 0.231,
+      "upper_trace": [
+        [
+          0.12952041747642912,
+          0.005065342896681469
+        ],
+        [
+          0.14596767670390276,
+          0.052475586018191606
+        ],
+        [
+          0.1772440379682439,
+          0.0877344345068512
+        ],
+        [
+          0.21791153853271578,
+          0.10792934877533766
+        ],
+        [
+          0.2598523076125645,
+          0.10924123032147812
+        ],
+        [
+          0.29801911567456457,
+          0.09425464834606007
+        ],
+        [
+          0.33111108201505857,
+          0.06306603427046928
+        ],
+        [
+          0.3557725910079895,
+          0.023660634662217572
+        ],
+        [
+          0.37260120359069493,
+          -0.03395277771867913
+        ]
+      ],
+      "lower_trace": [
+        [
+          0.12952041747642912,
+          0.005065342896681469
+        ],
+        [
+          0.13805194372883517,
+          -0.025259194645066457
+        ],
+        [
+          0.156912368969799,
+          -0.05748075455945871
+        ],
+        [
+          0.19520785812492292,
+          -0.09217774986721274
+        ],
+        [
+          0.24310600423814333,
+          -0.09894301259504958
+        ],
+        [
+          0.30692730535806273,
+          -0.10175592481967596
+        ],
+        [
+          0.3423131364672024,
+          -0.07918473763156747
+        ],
+        [
+          0.37260120359069493,
+          -0.03395277771867913
+        ]
+      ],
+      "aperture_width": 0.2430807861142658,
+      "aperture_height": 0.21099715514115408,
+      "iris_center_y": -0.004
+    }
+  },
+  "art_refinement": [
+    "Real asymmetric eyelid/socket aperture sculpt: upper crests reduced by 10/14.5 percent around their source corner chords; left width +3.5 percent/right +1 percent.",
+    "Globes recessed 12/14 mm to reduce front-bulging toy-eye impression; lids remain continuously sphere-fitting.",
+    "Upper solid lash varies from thick outer third to a thin inner corner; finer lower lid and tapered actual-volume outer wedge.",
+    "Slightly fuller upper cheeks, clear short lower jaw transition, rounded closing cap with unchanged chin height.",
+    "Nose projection reduced 14 mm, lip depth reduced 6 mm; neutral mouth has distinct asymmetric short strokes.",
+    "Deep navy layered iris on true spherical surfaces with subdued bottom bloom and smaller glints."
+  ],
+  "frozen_sources": {
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\face-v2.blend": "000702aa60346e3abb1b357a486c6600fe95a5dfdf044dce3d1325f823d138e3",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\face-v2-manifest.json": "3a522e29c34293b549a267d0965b249d7662e2d123951b03e1d886493eaacf8b",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_face.py": "72bdee87ef83a1822b530bcbdaf658c5439f730b1d90146f482337ea6af25643",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v3-with-frozen-head-review.blend": "a1ceff1d31d8bbf60bbb17feeea6a110fc83cd5db3862c5d173335bce6f701a5"
+  },
+  "frozen_sources_unchanged": true,
+  "limitations": [
+    "First native topology/rig shape review, not final likeness approval.",
+    "Side/back depth and skin ear roots are inferred.",
+    "Head/body/neck integration and final shared normals require assembled-character QA.",
+    "Extreme combined controls still require render-based corrective tuning.",
+    "Procedural iris and NPR shaders require baking or runtime shader translation for GLB/VRM export."
+  ],
+  "elapsed_seconds": 24.622657700034324,
+  "context_review": {
+    "source_assembly": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v3-with-frozen-head-review.blend",
+    "assembly_sha256": "a1ceff1d31d8bbf60bbb17feeea6a110fc83cd5db3862c5d173335bce6f701a5",
+    "assembly_file_modified": false,
+    "face_replaced_in_memory_only": true,
+    "renders": [
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\context\\front-neutral.png",
+        "controls": {},
+        "direction": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\context\\threequarter-neutral.png",
+        "controls": {},
+        "direction": [
+          0.65,
+          -1,
+          0.025
+        ]
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\context\\side-neutral.png",
+        "controls": {},
+        "direction": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\context\\threequarter-softsmile.png",
+        "controls": {
+          "smile": 0.35,
+          "cheek": 0.25
+        },
+        "direction": [
+          0.65,
+          -1,
+          0.025
+        ]
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\context\\side-talking.png",
+        "controls": {
+          "aa": 0.45,
+          "ee": 0.1,
+          "smile": 0.15
+        },
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\context\\front-gaze-blink.png",
+        "controls": {
+          "blink": 1,
+          "smile": 0.35,
+          "gazeX": 0.65,
+          "gazeY": -0.45
+        },
+        "direction": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\face-v3\\context\\threequarter-halfblink-talk.png",
+        "controls": {
+          "blink": 0.5,
+          "aa": 0.45,
+          "smile": 0.3,
+          "gazeX": 0.35,
+          "gazeY": -0.1
+        },
+        "direction": [
+          0.65,
+          -1,
+          0.025
+        ]
+      }
+    ],
+    "scope": "Face identity/acting inspection with the saved body/hair. Hair remains owned and revised by the assembly task."
+  }
+}

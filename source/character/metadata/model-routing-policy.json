@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-28",
+  "userPreference": "根据实际情况分配子对话的模型，不要所有都用最高模型。",
+  "rules": [
+    "只读清单、资产哈希、文档同步、明确的小修复优先轻量模型。",
+    "常规代码实现、界面与联调优先通用工作模型。",
+    "复杂几何、真实物理/碰撞、数值一致性与性能根因等困难任务才保留较强推理模型。",
+    "任务完成后收口，后续较简单工作重新交给合适模型，不因前一阶段困难就一直占用最高档。",
+    "模型切换使用简短明确的文件/契约/失败证据交接，避免无必要复制整段历史。",
+    "轻量模型的结论也须核对；实际视觉与整体完成仍由主任务验收。"
+  ],
+  "availableRouting": {
+    "routine": {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "medium"
+    },
+    "standardImplementation": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high"
+    },
+    "specializedCoding": {
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "high"
+    },
+    "hardNumericalOrPhysicalRootCause": {
+      "model": "inherit_current_strong_when_needed",
+      "reason": "按实际难点保留，不用于所有子任务。"
+    }
+  },
+  "applied": [
+    {
+      "task": "headband_asset_checks",
+      "model": "gpt-6-luna",
+      "reason": "已稳定几何上的资产、材质通道与文档核对。"
+    },
+    {
+      "task": "headband_runtime_integration",
+      "model": "gpt-6.1-sol",
+      "reason": "固定资产与明确shader契约的常规Godot组件接入、生命周期及导入检查。"
+    },
+    {
+      "task": "selected_head_revision",
+      "state": "completed_and_frozen",
+      "reason": "将剩余简单核对交接给轻量模型，未继续增加高档子任务。"
+    },
+    {
+      "task": "selected_hand_revision",
+      "reason": "精确头计算已收口；困难隐式衣料数值研究已冻结且明确未过实时/撑形，不继续占用强模型做普通集成。",
+      "state": "head_kernel_complete_implicit_cloth_research_frozen_not_product"
+    },
+    {
+      "task": "selected_motion_hair",
+      "reason": "当前为Jolt接触/网格索引/布料积分及完整场景生命周期，保留强推理直到复杂联调收口。",
+      "state": "current_0.1.5_and_jolt_capability_boundaries_complete"
+    },
+    {
+      "task": "selected_hair_structure",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "state": "development_candidate_native_checks_complete_visual_review_limited",
+      "reason": "hair-v1五锁共形组件已完成native25项及真实0/45/90/180度检查；允许开发版接入，不含hair physics，不能视为最终通过。"
+    },
+    {
+      "task": "selected_body_volume",
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "high",
+      "state": "shoe_candidate_not_accepted_low_lod_mapping_complete",
+      "reason": "鞋候选侧面未通过保留研究；随后普通几何LoD与signed bary映射用Terra完成，未接主版本。"
+    },
+    {
+      "task": "current_status_audit",
+      "model": "gpt-6-luna",
+      "reasoningEffort": "medium",
+      "state": "completed",
+      "reason": "只读核对冻结外观哈希、交接与状态元数据，并同步有限JSON；未运行GPU或外部服务。"
+    },
+    {
+      "task": "official_physics_fixtures",
+      "model": "gpt-6-luna",
+      "reason": "官方小样源码、许可与哈希清单下载核对；Root复核并纠正实际三角计数。"
+    },
+    {
+      "task": "official_motion_retarget",
+      "model": "gpt-6.1-sol",
+      "reason": "现成CC0动作库导入、骨架映射、独立重定向与界面对照。",
+      "state": "deferred_user_prioritizes_whole_static_model"
+    },
+    {
+      "task": "cloth_lod_validation",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "state": "completed",
+      "reason": "复用冻结DLL和probe，核对LoD质量单位、既定数值门与计算成本；未另造算法或替换current。"
+    },
+    {
+      "task": "cloth_contact_solver",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "state": "deferred_user_prioritizes_whole_static_model",
+      "reason": "只有此耦合膜/弯曲/VF与EE非线性接触和稳定性核心启用强模型；优先复用固定MIT算法，后续常规接入回通用模型。"
+    },
+    {
+      "task": "whole_model_reconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "state": "completed_blockout_not_accepted",
+      "reason": "官方MIT整体重建工具的隔离安装、依赖复用、一次GPU实跑和原生资产验证。"
+    },
+    {
+      "task": "whole_model_form",
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "high",
+      "state": "body_costume_hands_feet_in_progress",
+      "reason": "普通完整体积/衣服/手脚建模；困难头颅拓扑已专项交接，不继续盲试。"
+    },
+    {
+      "task": "whole_model_head_surface",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "state": "in_progress",
+      "reason": "普通试验已证实单块neural mesh分区/头颅连接/卷发frame困难，强模型仅处理这一核心形体拓扑。"
+    },
+    {
+      "task": "whole_model_lookdev",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "state": "reusable_native_render_review_in_progress",
+      "reason": "常规Blender二次元材质与固定机位实渲，独立副本不改造型；困难头颅拓扑继续仅由专项强模型处理。"
+    }
+  ]
+}

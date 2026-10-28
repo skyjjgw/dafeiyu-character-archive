@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>大肥鱼 · 动画观感校准</title>
+  <link rel="stylesheet" href="style.css?v=look-1">
+  <script type="importmap">{"imports":{"three":"../rig3d-prototype/vendor/three.module.js"}}</script>
+</head>
+<body>
+  <header class="page-header">
+    <a class="back-link" href="../rig3d-prototype/">← 之前的三维试作</a>
+    <div class="heading-row">
+      <div>
+        <p class="eyebrow">DAFEIYU / VISUAL STUDY</p>
+        <h1>先看她像不像，再看她怎么动。</h1>
+        <p class="intro">校准人物外观、连续表情和全身动作。当前侧后方与接触仍待制作，尚未达到参考作品的完成度。</p>
+      </div>
+      <span class="scope-label">视觉研究 · 转头 ±25°</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="stage-card" aria-label="人物实时预览">
+      <div class="stage" id="viewport" role="img" aria-label="可实时调节转头和表情的大肥鱼网格角色">
+        <div class="stage-topline"><span class="live-indicator"></span><span>实时角色画面</span><span id="renderMode">原画材质</span></div>
+        <div id="stageMessage" class="stage-message" role="status">
+          <strong id="stageMessageTitle">正在准备人物…</strong>
+          <span id="stageMessageDetail">载入原片参考纹理和可控网格。</span>
+          <button id="retry" class="secondary-button" type="button" hidden>重新载入</button>
+        </div>
+        <p class="stage-hint">拖动转头 · 滚轮缩放 · 用右侧滑块精确观察</p>
+      </div>
+      <div class="stage-footer">
+        <span id="playStatus" role="status">准备载入</span>
+        <div class="footer-actions">
+          <button id="reset" class="text-button" type="button" disabled>恢复正面</button>
+          <button id="pause" class="text-button" type="button" disabled>暂停动作</button>
+        </div>
+      </div>
+    </section>
+
+    <aside class="controls">
+      <section class="control-section">
+        <div class="segmented" role="group" aria-label="取景范围">
+          <button type="button" data-framing="portrait" aria-pressed="true">脸部近景</button>
+          <button type="button" data-framing="full" aria-pressed="false">全身</button>
+        </div>
+        <label class="select-label" for="action">身体动作<select id="action"><option value="idle">自然待机</option><option value="wave">抬手招呼</option><option value="walk">原地步态试作</option></select></label>
+        <div class="section-heading"><span class="section-number">01</span><h2>姿态与视线</h2></div>
+        <div class="segmented" role="group" aria-label="控制方式">
+          <button type="button" data-mode="idle" aria-pressed="true">自然待机</button>
+          <button type="button" data-mode="manual" aria-pressed="false">手动校准</button>
+        </div>
+        <div class="angle-presets" role="group" aria-label="转头预设">
+          <button type="button" data-yaw="-25">向左 25°</button>
+          <button type="button" data-yaw="0">正面</button>
+          <button type="button" data-yaw="25">向右 25°</button>
+        </div>
+        <label class="range-label" for="yaw">左右转头 <output id="yawValue" for="yaw">0°</output></label>
+        <input id="yaw" type="range" min="-25" max="25" step="0.5" value="0">
+        <label class="range-label" for="pitch">抬头／低头 <output id="pitchValue" for="pitch">0°</output></label>
+        <input id="pitch" type="range" min="-8" max="8" step="0.5" value="0">
+        <div class="two-controls">
+          <div><label class="range-label" for="gazeX">视线左右 <output id="gazeXValue" for="gazeX">0.00</output></label><input id="gazeX" type="range" min="-1" max="1" step="0.05" value="0"></div>
+          <div><label class="range-label" for="gazeY">视线上下 <output id="gazeYValue" for="gazeY">0.00</output></label><input id="gazeY" type="range" min="-1" max="1" step="0.05" value="0"></div>
+        </div>
+      </section>
+
+      <section class="control-section">
+        <div class="section-heading"><span class="section-number">02</span><h2>眉眼与口型</h2></div>
+        <label class="select-label" for="mood">人物表情<select id="mood"><option value="neutral">平静</option><option value="happy">开心</option><option value="sad">委屈</option></select></label>
+        <label class="range-label" for="blink">闭眼程度 <output id="blinkValue" for="blink">0%</output></label>
+        <input id="blink" type="range" min="0" max="1" step="0.01" value="0">
+        <label class="range-label" for="talking">嘴部开度 <output id="talkingValue" for="talking">0%</output></label>
+        <input id="talking" type="range" min="0" max="1" step="0.01" value="0">
+        <label class="check-label"><input id="talkPreview" type="checkbox">口型开合演示（无声音）</label>
+        <p class="control-note">滑动可观察连续变化。口型演示为动作幅度预览，尚未接入语音音素。</p>
+      </section>
+
+      <section class="reference-section">
+        <div class="section-heading"><span class="section-number">03</span><h2>原片参考</h2></div>
+        <a class="reference-link" href="../../references/video-covers/BV1g2JX6HEHX.jpg" target="_blank" rel="noopener">
+          <img src="../../references/video-covers/BV1g2JX6HEHX.jpg" alt="冬冰《再给我一个好吗》的原视频封面参考，蓝发人物位于画面左侧" width="1920" height="1080">
+          <span>查看完整参考图 ↗</span>
+        </a>
+        <p class="control-note">人物身份与画风按原片核对。衣服与呆毛暂用 neutral 辅助稿。身体有连续骨骼动作，侧背细节和地面接触仍未完成。</p>
+      </section>
+
+      <details class="control-section technical-details">
+        <summary>检查网格与保存当前状态</summary>
+        <p class="control-note">侧后方尚未定稿。以下视角直接检查同一模型的真实结构，不以正面画面代替背面。</p>
+        <div class="angle-presets" role="group" aria-label="结构检查视角"><button type="button" data-view="front" aria-pressed="true">正面检查</button><button type="button" data-view="side" aria-pressed="false">侧面检查</button><button type="button" data-view="back" aria-pressed="false">背面检查</button></div>
+        <label class="check-label"><input id="wireframe" type="checkbox">显示真实网格</label>
+        <p id="geometryInfo" class="technical-line">等待人物网格载入。</p>
+        <p id="performanceInfo" class="technical-line">等待实时画面。</p>
+        <p id="poseInfo" class="technical-line">输入：转头 0° · 抬头 0°</p>
+        <div class="export-actions"><button id="saveImage" class="secondary-button" type="button" disabled>保存当前画面 PNG</button><button id="saveState" class="secondary-button" type="button" disabled>保存控制状态 JSON</button></div>
+        <div class="export-actions"><button id="recordVideo" class="secondary-button" type="button" disabled>录制 8 秒画面（无声音）</button></div>
+        <p id="exportStatus" class="control-note" role="status"></p>
+        <video id="recordingPreview" controls playsinline hidden style="width:100%;max-height:300px;background:#e6ecea"></video>
+      </details>
+    </aside>
+  </main>
+
+  <footer class="page-footer"><span>动画观感试作 · 原画细节与实时几何</span><span>自然表演、多角度、接触与产品接入仍待制作和验证。</span></footer>
+  <script type="module" src="app.js?v=look-1"></script>
+</body>
+</html>

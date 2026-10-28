@@ -1,0 +1,26 @@
+{
+  "scope": "same-renderer front full figure RGB comparison; bbox shoes isolated",
+  "rgbRMSE": 0.5313412076339687,
+  "pixelsRGBDifferenceOver1": 520,
+  "alphaSilhouetteDifference": 59,
+  "sourceShoeBbox": {
+    "left": 202,
+    "top": 621,
+    "right": 356,
+    "bottom": 674,
+    "width": 155,
+    "height": 54,
+    "pixels": 5002
+  },
+  "candidateShoeBbox": {
+    "left": 202,
+    "top": 621,
+    "right": 356,
+    "bottom": 674,
+    "width": 155,
+    "height": 54,
+    "pixels": 5096
+  },
+  "visualPass": false,
+  "finalAccepted": false
+}

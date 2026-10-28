@@ -1,0 +1,59 @@
+{
+  "tool": "built-in imagegen",
+  "created_on": "2026-10-25",
+  "intent": "小巧轻Q比例、精细二次元绘制、柔和体积光影、细腻脸部情绪；不是极端圆头贴纸Q版",
+  "selection_status": "未定稿的早期探索；后续用户明确选择冬冰视频版，当前画法偏柔光厚涂且身体偏长",
+  "variants": [
+    {
+      "id": "A",
+      "title": "轻Q精细立绘",
+      "prompt": "Use case: stylized-concept.\nCreate ONE polished 2D anime character visual-development image of the SAME blue-haired whale maid girl shown in the two provided references, for a future interactive virtual character called 大肥鱼.\nReference image 1 is the primary identity, face, emotion and soft-shaded visual-quality reference. Reference image 2 is the small compact silhouette, joyful movement and thick whale-tail reference. These are two views of the same character, not two characters.\nUser direction: keep her petite and charming, but reduce the excessively round-headed, flat sticker-like super-deformed look. The desired effect is refined anime animation: convincing volume, nuanced eyes and mouth, flowing layered hair, soft painted shadows and a sense of presence. Do NOT redesign her as a generic maid.\nIdentity locks: muted indigo/navy hair gently grading to cooler blue at the ends, long loose wavy locks with relatively light tapered ends, the curved ahoge, lateral whale-fin ears with pale inner edges, small blue bows by the ears, white pleated maid headband, blue eyes, modest high-collared dark navy and white maid dress with restrained lace and subtle small gold trim, dark bow and round small collar ornament, thick curved dark whale tail ending in two whale flukes. Preserve recognisable hairline, bangs and ear placement of reference 1. No added cat/fox ears, horns, wings, different costumes, elaborate new gold embroidery or new hair accessories.\nFine restrained contours, sophisticated soft cel shading with painted gradients and subtle ambient occlusion, coherent facial anatomy, delicate blush rather than large pink circles, detailed expressive irises rather than giant toy eyes. Fully clothed, natural modest pose. No text, labels, comparison grids, logos, HUD, watermarks or UI. One character only.\n\nAsset type: full-body proportion and style study, portrait composition.\nPose: relaxed standing three-quarter-front facing the viewer; both hands naturally visible and relaxed, feet and complete headband, hair and tail inside the frame with generous margin.\nProportion: a stylized petite anime character around three heads tall, a slightly smaller head and a more naturally connected neck, shoulders and limbs than a two-head-tall meme mascot. Still compact and cute, never realistic adult fashion-illustration proportions.\nExpression: open blue eyes, attentive gentle expression with a tiny natural smile, soft focused gaze, no tears.\nScene: simple muted warm-gray studio backdrop with a faint floor shadow, nothing else. Soft neutral light with restrained warm rim light. Avoid bright white overexposure and plastic toy surfaces.\nThe key is a clean, well-observed full-body design of the reference girl with the subtle face and hair rendering of reference 1, suitable for judging her consistent appearance before Live2D separation.\n",
+      "referenced_image_paths": [
+        "C:/Users/skyjj/AppData/Local/Temp/codex-clipboard-a93d7ce0-ca0f-4ee5-9ee1-9478d632be14.png",
+        "C:/Users/skyjj/AppData/Local/Temp/codex-clipboard-df0bb4bb-f4a3-422e-ba6d-efe29c8b3419.png"
+      ],
+      "transparent_background": false,
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-04a46683-62c9-4912-8ced-445fd98cfcfb.png",
+      "file": "A-refined-petite.png",
+      "status": "style_preview_not_layered_or_rigged",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1941822,
+      "sha256": "8c30f004c84a8744cda2f1150f4088ed2e2eabaa8f402fe3c6213e455382955b"
+    },
+    {
+      "id": "B",
+      "title": "小巧电影光影",
+      "prompt": "Use case: stylized-concept.\nCreate ONE polished 2D anime character visual-development image of the SAME blue-haired whale maid girl shown in the two provided references, for a future interactive virtual character called 大肥鱼.\nReference image 1 is the primary identity, face, emotion and soft-shaded visual-quality reference. Reference image 2 is the small compact silhouette, joyful movement and thick whale-tail reference. These are two views of the same character, not two characters.\nUser direction: keep her petite and charming, but reduce the excessively round-headed, flat sticker-like super-deformed look. The desired effect is refined anime animation: convincing volume, nuanced eyes and mouth, flowing layered hair, soft painted shadows and a sense of presence. Do NOT redesign her as a generic maid.\nIdentity locks: muted indigo/navy hair gently grading to cooler blue at the ends, long loose wavy locks with relatively light tapered ends, the curved ahoge, lateral whale-fin ears with pale inner edges, small blue bows by the ears, white pleated maid headband, blue eyes, modest high-collared dark navy and white maid dress with restrained lace and subtle small gold trim, dark bow and round small collar ornament, thick curved dark whale tail ending in two whale flukes. Preserve recognisable hairline, bangs and ear placement of reference 1. No added cat/fox ears, horns, wings, different costumes, elaborate new gold embroidery or new hair accessories.\nFine restrained contours, sophisticated soft cel shading with painted gradients and subtle ambient occlusion, coherent facial anatomy, delicate blush rather than large pink circles, detailed expressive irises rather than giant toy eyes. Fully clothed, natural modest pose. No text, labels, comparison grids, logos, HUD, watermarks or UI. One character only.\n\nAsset type: full-body cinematic anime still, landscape composition.\nPreserve the compact small figure and cheerful liveliness of reference image 2, but the actual character must remain a finely rendered 2D anime girl, not a rubbery 3D toy or flat reaction sticker.\nProportion: around 2.7 to 3 heads tall, balanced small body with readable arms and legs, head not balloon-sized.\nAction: a gentle skipping step, holding a small stainless-steel pot of rice with both hands as in reference image 2. The curved substantial whale tail streams naturally behind her; the pot must not obscure the face, and hands must be anatomically coherent. Eyes open with a joyful bright gaze and a soft smile, with believable cheek and eyelid shapes.\nScene: softly blurred sunlit stone hallway inspired by reference 2, warm late-afternoon shafts of light, dust motes and a soft grounded shadow. Character in center taking roughly 70 percent of picture height, full figure visible. Light softly wraps hair and fabric, shadows show volume. Delicate movement of individual hair locks.\nDo not add extra people or furnishings. Convey the warm, emotionally alive animated-film feeling of the references.\n",
+      "referenced_image_paths": [
+        "C:/Users/skyjj/AppData/Local/Temp/codex-clipboard-a93d7ce0-ca0f-4ee5-9ee1-9478d632be14.png",
+        "C:/Users/skyjj/AppData/Local/Temp/codex-clipboard-df0bb4bb-f4a3-422e-ba6d-efe29c8b3419.png"
+      ],
+      "transparent_background": false,
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-073069db-2566-4667-a774-f717e0458042.png",
+      "file": "B-cinematic-run.png",
+      "status": "style_preview_not_layered_or_rigged",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1983081,
+      "sha256": "e96a61f5173430d4e1846122a5a242fe03b35206783445bcc75f80fbd8d24abc"
+    },
+    {
+      "id": "C",
+      "title": "近景细腻情绪",
+      "prompt": "Use case: stylized-concept.\nCreate ONE polished 2D anime character visual-development image of the SAME blue-haired whale maid girl shown in the two provided references, for a future interactive virtual character called 大肥鱼.\nReference image 1 is the primary identity, face, emotion and soft-shaded visual-quality reference. Reference image 2 is the small compact silhouette, joyful movement and thick whale-tail reference. These are two views of the same character, not two characters.\nUser direction: keep her petite and charming, but reduce the excessively round-headed, flat sticker-like super-deformed look. The desired effect is refined anime animation: convincing volume, nuanced eyes and mouth, flowing layered hair, soft painted shadows and a sense of presence. Do NOT redesign her as a generic maid.\nIdentity locks: muted indigo/navy hair gently grading to cooler blue at the ends, long loose wavy locks with relatively light tapered ends, the curved ahoge, lateral whale-fin ears with pale inner edges, small blue bows by the ears, white pleated maid headband, blue eyes, modest high-collared dark navy and white maid dress with restrained lace and subtle small gold trim, dark bow and round small collar ornament, thick curved dark whale tail ending in two whale flukes. Preserve recognisable hairline, bangs and ear placement of reference 1. No added cat/fox ears, horns, wings, different costumes, elaborate new gold embroidery or new hair accessories.\nFine restrained contours, sophisticated soft cel shading with painted gradients and subtle ambient occlusion, coherent facial anatomy, delicate blush rather than large pink circles, detailed expressive irises rather than giant toy eyes. Fully clothed, natural modest pose. No text, labels, comparison grids, logos, HUD, watermarks or UI. One character only.\n\nAsset type: intimate chest-up anime film still, landscape composition, direct facial-quality study.\nComposition and rendering should be closest to reference image 1. A compact petite character with soft facial planes; reduce baby-like balloon cheeks while preserving her characteristic wide face and recognizable bangs. The framing is close enough to read fine eyelids, brows and mouth. Both hands can rest near the lower frame edge; no rice pot in this shot.\nExpression: quietly hurt and trying to hold back tears, subtly lowered brows, lower eyelids wet with a few small crystalline tears, a slight tense downturned mouth, restrained blush. Delicate and believable emotion, not a comically crying chibi face, no huge tear fountains or contorted cartoon mouth.\nScene: dim softly out-of-focus room with bookshelves similar to reference image 1. Gentle warm side light and cool soft fill, reflected light in eyes, readable face rather than deep black shading. Layered hair with soft volume, translucent small highlights and fine tapered ends. Match the wistful, cinematic emotional presence of the reference without reproducing its HUD.\n",
+      "referenced_image_paths": [
+        "C:/Users/skyjj/AppData/Local/Temp/codex-clipboard-a93d7ce0-ca0f-4ee5-9ee1-9478d632be14.png",
+        "C:/Users/skyjj/AppData/Local/Temp/codex-clipboard-df0bb4bb-f4a3-422e-ba6d-efe29c8b3419.png"
+      ],
+      "transparent_background": false,
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-9233029a-8ab8-4278-8dbb-dfaa7483f877.png",
+      "file": "C-emotional-closeup.png",
+      "status": "style_preview_not_layered_or_rigged",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1998339,
+      "sha256": "7957dc1054e4adeaba77dc91a446171999a1517f133a2da7033485dc64cfe30a"
+    }
+  ]
+}

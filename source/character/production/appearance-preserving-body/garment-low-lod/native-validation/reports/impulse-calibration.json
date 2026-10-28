@@ -1,0 +1,28 @@
+{
+	"J_ns": [
+		0.0000999999974737875,
+		0.0,
+		0.0
+	],
+	"backend": "Godot 4.7.2 Jolt",
+	"canonical_first_encounter_mapping": true,
+	"completed": true,
+	"dt_s": 0.00416666666666667,
+	"error_m": 0.0000000147119862958789,
+	"expected_relative_displacement_m": [
+		0.000208333323826082,
+		0.0,
+		0.0
+	],
+	"free_positions_written": false,
+	"gravity": "Equal control removes common gravity; damping/membrane/contact disabled",
+	"inverse_mass_per_kg": 500.0,
+	"mass_per_point_kg": 0.002,
+	"measured_relative_displacement_m": [
+		0.000208348035812378,
+		0.0,
+		0.0
+	],
+	"pass": true,
+	"unaffected_vertex_difference_m": 0.0
+}

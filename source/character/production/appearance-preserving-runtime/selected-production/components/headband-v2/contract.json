@@ -1,0 +1,55 @@
+{
+  "schema": "dafeiyu.selected-production.external-component.v1",
+  "id": "headband-continuous-shell",
+  "version": "headband-v2-frozen-20261028",
+  "headLocal": true,
+  "parent": "Original head-control; identity attached once by handle.commit()",
+  "sourceGlbSha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+  "files": [
+    {
+      "path": "factory.gd",
+      "bytes": 12606,
+      "sha256": "a35934a4e2a44576900b68338fae771b2499cda10a5ecc503fe27fa64ddfd59f"
+    },
+    {
+      "path": "headband-material.gdshader",
+      "bytes": 1366,
+      "sha256": "370132edea7bbd8f850fdd0106afc91de6d738418922494fa1884eedba76ce9e"
+    },
+    {
+      "path": "headband-v2.glb",
+      "bytes": 1223644,
+      "sha256": "c46ab19cb79e8b6768b2b0a86ddc0f09b3681957932a47c4b9ed0b0083014ebb"
+    },
+    {
+      "path": "geometry-contract.json",
+      "bytes": 6122,
+      "sha256": "84d8ebbf8d9c31ccdecbda62cf7351b519110f2a4a159b3a2593762cfe4fcff3"
+    }
+  ],
+  "originalMeshesReplaced": [
+    "continuous-rounded-three-dimensional-headband",
+    "left-painted-white-frill:original-pixel-surface",
+    "left-painted-white-frill:closed-thickness",
+    "left-painted-white-frill:back",
+    "right-painted-white-frill:original-pixel-surface",
+    "right-painted-white-frill:closed-thickness",
+    "right-painted-white-frill:back"
+  ],
+  "geometryAssetSha256": "c46ab19cb79e8b6768b2b0a86ddc0f09b3681957932a47c4b9ed0b0083014ebb",
+  "sourceGeneratorSha256": "72769501a9c7258d864c4581b7a0b90128c37dba7b9e0988af53e807f8a3cfb7",
+  "texture": "Host source_textures[0], already linear RGBA16F; no second sRGB decode",
+  "palette": "GLB COLOR_0 float RGB transferred to CUSTOM0 RGBA_FLOAT after exact POSITION/UV/UV2 lookup and ArrayMesh roundtrip checks",
+  "paintWeight": "UV2.x preserved, including both shell sides",
+  "setup": "Validate and prepare hidden unparented identity model; source unchanged",
+  "commit": "Once-only Head attachment, exact 7 mesh.resource_name visibility replacement",
+  "dispose": "Idempotent; restores 7 saved visibility flags and releases only owned resources",
+  "clothPhysics": false,
+  "status": "partial-improvement",
+  "finalAccepted": false,
+  "limitations": [
+    "Frozen rest geometry and rigid Head attachment only",
+    "Material/side artistic acceptance remains pending",
+    "Other original hair, face, body and all skins remain source-owned and untouched"
+  ]
+}

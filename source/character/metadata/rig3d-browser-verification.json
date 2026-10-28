@@ -1,0 +1,27 @@
+{
+  "preview": "http://127.0.0.1:4334/production/rig3d-prototype/",
+  "screenshot": "metadata/rig3d-motion-preview.png",
+  "checks": {
+    "webgl_scene_loaded": true,
+    "rendered_skeleton": "40 bones / 1 SkinnedMesh",
+    "controls_checked": [
+      "idle",
+      "wave",
+      "walk",
+      "turn",
+      "front / side / three-quarter views",
+      "skeleton visibility",
+      "GLB current-pose export"
+    ],
+    "browser_errors": [],
+    "cpu_verification": "production/rig3d-prototype/verification.json",
+    "cpu_checks_passed": 30,
+    "visual_fixes": [
+      "reduce protruding eyes",
+      "disable face self-shadow artifacts",
+      "keep greeting hand outside head silhouette",
+      "limit turn interruption recovery angular speed"
+    ]
+  },
+  "scope": "Procedural 3D motion prototype, not the final detailed character art; no IK/collision, no DSH renderer installation."
+}

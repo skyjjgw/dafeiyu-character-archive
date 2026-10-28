@@ -1,0 +1,3513 @@
+{
+  "materials": [
+    {
+      "name": "apron original whale and cloth print",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-geometry\\hair-continuity-v1\\reports\\root-front.png",
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "UV Map",
+          "type": "UVMAP",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Color Attribute",
+          "type": "VERTEX_COLOR",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "MIX_RGB",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.800000011920929,
+              0.7599999904632568,
+              0.7300000190734863,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bow ocean blue",
+      "diffuse": [
+        0.03500000014901161,
+        0.25,
+        0.46000000834465027,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.03500000014901161,
+              0.25,
+              0.46000000834465027,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.6499999761581421,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.2199999988079071,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.03500000014901161,
+              0.25,
+              0.46000000834465027,
+              1.0
+            ],
+            "Emission Strength": 0.3499999940395355,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "dress deep ocean navy",
+      "diffuse": [
+        0.017999999225139618,
+        0.03500000014901161,
+        0.10499999672174454,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.017999999225139618,
+              0.03500000014901161,
+              0.10499999672174454,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.7300000190734863,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hair cobalt blue",
+      "diffuse": [
+        0.03500000014901161,
+        0.10499999672174454,
+        0.2750000059604645,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.03500000014901161,
+              0.10499999672174454,
+              0.2750000059604645,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.6499999761581421,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.2199999988079071,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.03500000014901161,
+              0.10499999672174454,
+              0.2750000059604645,
+              1.0
+            ],
+            "Emission Strength": 0.44999998807907104,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Geometry",
+          "type": "NEW_GEOMETRY",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ",
+          "type": "SEPXYZ",
+          "image": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Color Ramp",
+          "type": "VALTORGB",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hair recessed navy",
+      "diffuse": [
+        0.017999999225139618,
+        0.05000000074505806,
+        0.12999999523162842,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.017999999225139618,
+              0.05000000074505806,
+              0.12999999523162842,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.6499999761581421,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.2199999988079071,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.017999999225139618,
+              0.05000000074505806,
+              0.12999999523162842,
+              1.0
+            ],
+            "Emission Strength": 0.44999998807907104,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Geometry",
+          "type": "NEW_GEOMETRY",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ",
+          "type": "SEPXYZ",
+          "image": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Color Ramp",
+          "type": "VALTORGB",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Maid ivory cloth",
+      "diffuse": [
+        0.8600000143051147,
+        0.8500000238418579,
+        0.7900000214576721,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.8600000143051147,
+              0.8500000238418579,
+              0.7900000214576721,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.6499999761581421,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.2199999988079071,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.8600000143051147,
+              0.8500000238418579,
+              0.7900000214576721,
+              1.0
+            ],
+            "Emission Strength": 0.3499999940395355,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "neck brooch metal",
+      "diffuse": [
+        0.4300000071525574,
+        0.25,
+        0.07000000029802322,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.4300000071525574,
+              0.25,
+              0.07000000029802322,
+              1.0
+            ],
+            "Metallic": 0.4000000059604645,
+            "Roughness": 0.7300000190734863,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Original facial paint unified smooth skin",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "MIX_RGB",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.6349999904632568,
+              0.5479999780654907,
+              0.42500001192092896,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Color Attribute",
+          "type": "VERTEX_COLOR",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "",
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "UV Map",
+          "type": "UVMAP",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Mapping",
+          "type": "MAPPING",
+          "image": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Location": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "Rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": [
+              1.0,
+              -1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "seam navy",
+      "diffuse": [
+        0.03500000014901161,
+        0.07500000298023224,
+        0.1899999976158142,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.03500000014901161,
+              0.07500000298023224,
+              0.1899999976158142,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.7300000190734863,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Selected original blue hair paint on new volume",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.7200000286102295,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.1599999964237213,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.6499999761581421,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-geometry\\hair-continuity-v1\\reports\\root-front.png",
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "UV Map",
+          "type": "UVMAP",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate Color",
+          "type": "SEPARATE_COLOR",
+          "image": null,
+          "inputs": {
+            "Color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Math",
+          "type": "MATH",
+          "image": null,
+          "inputs": {
+            "Value": 0.5
+          }
+        },
+        {
+          "name": "Math.001",
+          "type": "MATH",
+          "image": null,
+          "inputs": {
+            "Value": 0.5
+          }
+        },
+        {
+          "name": "Color Attribute",
+          "type": "VERTEX_COLOR",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Math.002",
+          "type": "MATH",
+          "image": null,
+          "inputs": {
+            "Value": 0.5
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "MIX_RGB",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.027000000700354576,
+              0.07500000298023224,
+              0.20000000298023224,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Source-fitted safe skin vertex COLOR",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Light Path",
+          "type": "LIGHT_PATH",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "BSDF_TRANSPARENT",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Color Attribute",
+          "type": "VERTEX_COLOR",
+          "image": null,
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "name": "SOURCE_003",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Light Path",
+          "type": "LIGHT_PATH",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "BSDF_TRANSPARENT",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "",
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Mapping",
+          "type": "MAPPING",
+          "image": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Location": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "Rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": [
+              1.0,
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "UV Map",
+          "type": "UVMAP",
+          "image": null,
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "name": "SOURCE_004",
+      "diffuse": [
+        0.011612244881689548,
+        0.009134058840572834,
+        0.014443843625485897,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              0.011612244881689548,
+              0.009134058840572834,
+              0.014443843625485897,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Light Path",
+          "type": "LIGHT_PATH",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "BSDF_TRANSPARENT",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SOURCE_005",
+      "diffuse": [
+        0.27049779891967773,
+        0.177888423204422,
+        0.14702726900577545,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              0.27049779891967773,
+              0.177888423204422,
+              0.14702726900577545,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Light Path",
+          "type": "LIGHT_PATH",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "BSDF_TRANSPARENT",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SOURCE_006",
+      "diffuse": [
+        0.33716362714767456,
+        0.2345505803823471,
+        0.19120168685913086,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              0.33716362714767456,
+              0.2345505803823471,
+              0.19120168685913086,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Light Path",
+          "type": "LIGHT_PATH",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "BSDF_TRANSPARENT",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SOURCE_007",
+      "diffuse": [
+        0.5088813304901123,
+        0.17464740574359894,
+        0.18116424977779388,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              0.5088813304901123,
+              0.17464740574359894,
+              0.18116424977779388,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Light Path",
+          "type": "LIGHT_PATH",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "BSDF_TRANSPARENT",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SOURCE_008",
+      "diffuse": [
+        0.15292614698410034,
+        0.04373503103852272,
+        0.05126945674419403,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              0.15292614698410034,
+              0.04373503103852272,
+              0.05126945674419403,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Light Path",
+          "type": "LIGHT_PATH",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "BSDF_TRANSPARENT",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SOURCE_011",
+      "diffuse": [
+        0.715693473815918,
+        0.6938717365264893,
+        0.6514056324958801,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Emission",
+          "type": "EMISSION",
+          "image": null,
+          "inputs": {
+            "Color": [
+              0.715693473815918,
+              0.6938717365264893,
+              0.6514056324958801,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Light Path",
+          "type": "LIGHT_PATH",
+          "image": null,
+          "inputs": {}
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "BSDF_TRANSPARENT",
+          "image": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Mix Shader",
+          "type": "MIX_SHADER",
+          "image": null,
+          "inputs": {
+            "Fac": 0.5
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tail \u2022 deep navy / medium blue",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.6399999856948853,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.17000000178813934,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Color Attribute",
+          "type": "VERTEX_COLOR",
+          "image": null,
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "name": "warm ivory fabric",
+      "diffuse": [
+        0.800000011920929,
+        0.7599999904632568,
+        0.7300000190734863,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.800000011920929,
+              0.7599999904632568,
+              0.7300000190734863,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.7300000190734863,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "warm skin",
+      "diffuse": [
+        0.7400000095367432,
+        0.4699999988079071,
+        0.3499999940395355,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.7400000095367432,
+              0.4699999988079071,
+              0.3499999940395355,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.7300000190734863,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "whale blue",
+      "diffuse": [
+        0.029999999329447746,
+        0.2800000011920929,
+        0.550000011920929,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.029999999329447746,
+              0.2800000011920929,
+              0.550000011920929,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.7300000190734863,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "scene": {
+    "engine": "CYCLES",
+    "res": [
+      640,
+      704,
+      100
+    ],
+    "camera": [
+      -3.9369189739227295,
+      -0.0058650001883506775,
+      0.07708799839019775
+    ],
+    "ortho": 1.20927095413208
+  },
+  "objects": [
+    {
+      "name": "key",
+      "type": "LIGHT",
+      "materials": [],
+      "location": [
+        4.0,
+        -3.0,
+        5.0
+      ]
+    },
+    {
+      "name": "fill",
+      "type": "LIGHT",
+      "materials": [],
+      "location": [
+        -2.0,
+        4.0,
+        3.0
+      ]
+    },
+    {
+      "name": "neck under collar",
+      "type": "MESH",
+      "materials": [
+        "warm skin"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "tailored closed bodice",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ivory blouse bib",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "bow lobe -1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.1080000028014183,
+        -0.08699999749660492,
+        -0.01899999938905239
+      ]
+    },
+    {
+      "name": "bow lobe 1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.1080000028014183,
+        -0.032999999821186066,
+        -0.01899999938905239
+      ]
+    },
+    {
+      "name": "bow brooch gold",
+      "type": "MESH",
+      "materials": [
+        "neck brooch metal"
+      ],
+      "location": [
+        0.12200000137090683,
+        -0.05999999865889549,
+        -0.017000000923871994
+      ]
+    },
+    {
+      "name": "bow blue stone",
+      "type": "MESH",
+      "materials": [
+        "whale blue"
+      ],
+      "location": [
+        0.12999999523162842,
+        -0.05999999865889549,
+        -0.017000000923871994
+      ]
+    },
+    {
+      "name": "ivory blouse button",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.09700000286102295,
+        -0.05999999865889549,
+        -0.04600000008940697
+      ]
+    },
+    {
+      "name": "ivory blouse button.001",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.09700000286102295,
+        -0.05999999865889549,
+        -0.0729999989271164
+      ]
+    },
+    {
+      "name": "tailored puff sleeve -1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ivory striped cuff -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "cuff navy fine stripe -1",
+      "type": "MESH",
+      "materials": [
+        "seam navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "tailored puff sleeve 1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ivory striped cuff 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "cuff navy fine stripe 1",
+      "type": "MESH",
+      "materials": [
+        "seam navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "closed flared navy overskirt",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "encircling ivory hem piping -0.262",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "encircling ivory hem piping -0.271",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "skirt ivory dot",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.11981434375047684,
+        -0.24139165878295898,
+        -0.2669999897480011
+      ]
+    },
+    {
+      "name": "skirt ivory dot.001",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.16310258209705353,
+        -0.17845451831817627,
+        -0.2669999897480011
+      ]
+    },
+    {
+      "name": "skirt ivory dot.002",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.16310258209705353,
+        0.058454521000385284,
+        -0.2669999897480011
+      ]
+    },
+    {
+      "name": "skirt ivory dot.003",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.11981434375047684,
+        0.1213916540145874,
+        -0.2669999897480011
+      ]
+    },
+    {
+      "name": "continuous gathered ivory petticoat",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "waist wrap sash",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "apron curved front cloth",
+      "type": "MESH",
+      "materials": [
+        "apron original whale and cloth print"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "continuous gathered apron frill",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "front apron shoulder strap -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "shoulder gathered trim -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "back crossed apron strap -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "back bow loop -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "back bow hanging tail -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "front apron shoulder strap 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "shoulder gathered trim 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "back crossed apron strap 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "back bow loop 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "back bow hanging tail 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "back bow knot",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        -0.052000001072883606,
+        -0.05999999865889549,
+        -0.11999999731779099
+      ]
+    },
+    {
+      "name": "thigh -1",
+      "type": "MESH",
+      "materials": [
+        "warm skin"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "white sock -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "sock cuff -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "sock over instep -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "mary jane heel quarter -1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rounded mary jane toe cap -1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "thin shoe outsole -1",
+      "type": "MESH",
+      "materials": [
+        "seam navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "mary jane strap -1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "shoe bright button -1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.09799999743700027,
+        -0.1420000046491623,
+        -0.46399998664855957
+      ]
+    },
+    {
+      "name": "thigh 1",
+      "type": "MESH",
+      "materials": [
+        "warm skin"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "white sock 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "sock cuff 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "sock over instep 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "mary jane heel quarter 1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rounded mary jane toe cap 1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "thin shoe outsole 1",
+      "type": "MESH",
+      "materials": [
+        "seam navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "mary jane strap 1",
+      "type": "MESH",
+      "materials": [
+        "dress deep ocean navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "shoe bright button 1",
+      "type": "MESH",
+      "materials": [
+        "warm ivory fabric"
+      ],
+      "location": [
+        0.09799999743700027,
+        0.02199999988079071,
+        -0.46399998664855957
+      ]
+    },
+    {
+      "name": "left traced open hand and fingers",
+      "type": "MESH",
+      "materials": [
+        "Source-fitted safe skin vertex COLOR"
+      ],
+      "location": [
+        0.03999999910593033,
+        -0.05999999865889549,
+        -0.1899999976158142
+      ]
+    },
+    {
+      "name": "right traced open hand and fingers",
+      "type": "MESH",
+      "materials": [
+        "Source-fitted safe skin vertex COLOR"
+      ],
+      "location": [
+        0.03999999910593033,
+        -0.05999999865889549,
+        -0.1899999976158142
+      ]
+    },
+    {
+      "name": "RAW_GUIDE_HIDDEN",
+      "type": "MESH",
+      "materials": [],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ACCESSORY__fin_ivory_inset_-1",
+      "type": "MESH",
+      "materials": [
+        "Maid ivory cloth"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ACCESSORY__fin_ivory_inset_1",
+      "type": "MESH",
+      "materials": [
+        "Maid ivory cloth"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ACCESSORY__whale_side_fin_-1",
+      "type": "MESH",
+      "materials": [
+        "Hair recessed navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ACCESSORY__whale_side_fin_1",
+      "type": "MESH",
+      "materials": [
+        "Hair recessed navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__continuous head skin sockets oral lining and neck",
+      "type": "MESH",
+      "materials": [
+        "Original facial paint unified smooth skin"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__continuous smile contour",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_008"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__left closed source-fitted ocular globe",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_011"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__left moving eyelid crease",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_006"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__left moving lower eyelash",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_005"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__left moving upper eyelash",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_004"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__left pointed outer lashes",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_004"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__left sampled original iris",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_003"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__right closed source-fitted ocular globe",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_011"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__right moving eyelid crease",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_006"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__right moving lower eyelash",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_005"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__right moving upper eyelash",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_004"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__right pointed outer lashes",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_004"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__right sampled original iris",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_003"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FACE__tongue inside opening",
+      "type": "MESH",
+      "materials": [
+        "SOURCE_007"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__bang_center",
+      "type": "MESH",
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__bang_swept_-1",
+      "type": "MESH",
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__bang_swept_1",
+      "type": "MESH",
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__cheek_frame_-1",
+      "type": "MESH",
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__cheek_frame_1",
+      "type": "MESH",
+      "materials": [
+        "Selected original blue hair paint on new volume"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__closed_scalp_foundation",
+      "type": "MESH",
+      "materials": [
+        "Hair recessed navy"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__continuous_long_mass_-1",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__continuous_long_mass_1",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__crown_rear_panel_0",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__crown_rear_panel_1",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__crown_rear_panel_2",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__crown_rear_panel_3",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__crown_rear_panel_4",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__crown_rear_panel_5",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__crown_rear_panel_6",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__inner_curl_-1",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__inner_curl_1",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__long_wave_-1_0",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__long_wave_-1_1",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__long_wave_-1_2",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__long_wave_1_0",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__long_wave_1_1",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__long_wave_1_2",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HAIR__whale_ahoge",
+      "type": "MESH",
+      "materials": [
+        "Hair cobalt blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HEADWEAR__bow_knot_-1",
+      "type": "MESH",
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "location": [
+        0.2849999964237213,
+        -0.28600001335144043,
+        0.25200000405311584
+      ]
+    },
+    {
+      "name": "HEADWEAR__bow_knot_1",
+      "type": "MESH",
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "location": [
+        0.2849999964237213,
+        0.16599999368190765,
+        0.25200000405311584
+      ]
+    },
+    {
+      "name": "HEADWEAR__bow_wing_-1_-1",
+      "type": "MESH",
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HEADWEAR__bow_wing_-1_1",
+      "type": "MESH",
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HEADWEAR__bow_wing_1_-1",
+      "type": "MESH",
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HEADWEAR__bow_wing_1_1",
+      "type": "MESH",
+      "materials": [
+        "Bow ocean blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HEADWEAR__continuous_satin_band",
+      "type": "MESH",
+      "materials": [
+        "Maid ivory cloth"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HEADWEAR__gathered_ruffle",
+      "type": "MESH",
+      "materials": [
+        "Maid ivory cloth"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Whale_Tail_Continuous_Editable",
+      "type": "MESH",
+      "materials": [
+        "Tail \u2022 deep navy / medium blue"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

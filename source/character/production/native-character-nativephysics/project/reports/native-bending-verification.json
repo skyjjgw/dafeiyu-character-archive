@@ -1,0 +1,77 @@
+{
+	"ABI_load": true,
+	"benchmark": {
+		"batch_mean_ms": [
+			0.39469,
+			0.38679,
+			0.39831,
+			0.36813,
+			0.42041,
+			0.38872,
+			0.39281,
+			0.37631,
+			0.36206,
+			0.44205
+		],
+		"evaluations": 1000,
+		"material_hz": 60,
+		"note": "Force evaluation and Godot array/dictionary boundary only; no Jolt integration or GPU measured",
+		"overall_mean_ms": 0.393028
+	},
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"extension_class": "NativeClothBending",
+	"headless": true,
+	"invalid_inputs_rejected": true,
+	"maximum_force_component_difference_N": 0.000000000402579171387973,
+	"maximum_net_force_double": 0.00000000000000000347621659808675,
+	"maximum_net_torque_double": 0.00000000000000000016501279990743,
+	"reference_gradient": {
+		"cases": 300.0,
+		"finite_difference_energy_force_max_error": 0.000000000000607724807977217,
+		"max_net_force_double": 0.00000000000000000178811203067275,
+		"max_net_torque_double": 0.00000000000000000008677851511149
+	},
+	"rest_input_unmodified": true,
+	"rigid_rest_invariance": true,
+	"schema2": {
+		"boundary_edges": 162,
+		"boundary_precision": "Godot official single Vector3",
+		"configured": true,
+		"damping": 0.000025,
+		"energy_semantics": "Uncapped quadratic elastic diagnostic, matching reference; total moment is capped",
+		"first_sample_damping": "Zero velocity until two samples, avoids treating model rest/world placement as motion",
+		"hinge_count": 3567,
+		"integration": "Forces only; caller/Jolt owns positions and integration",
+		"internal_precision": "double",
+		"max_force_semantics": "Largest individual hinge contribution, matching reference; max_nodal_force is accumulated point maximum",
+		"moment_limit": 0.0015,
+		"ok": true,
+		"rest_degenerate_hinges": 0,
+		"stiffness": 0.0006,
+		"topology": "Every actual shared interior triangle edge; no grid shortcuts or hole bridging",
+		"triangles": 2432,
+		"vertices": 1296
+	},
+	"schema2_first": {
+		"max_force_component_error": 0.0000000000277594499036721,
+		"net_force_double": 0.00000000000000000102402881542776,
+		"net_torque_double": 0.00000000000000000112678305227547
+	},
+	"schema2_second": {
+		"max_force_component_error": 0.0000000000274584107621406,
+		"net_force_double": 0.00000000000000000123689547426215,
+		"net_torque_double": 0.00000000000000000099204732460947
+	},
+	"scope": "Standalone technical component; no renderer/character art accepted or installed",
+	"single_hinge_states": 600
+}

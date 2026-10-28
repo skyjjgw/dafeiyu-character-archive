@@ -1,0 +1,47 @@
+{
+  "schema": "dafeiyu.status-audit.v1",
+  "date": "2026-10-28",
+  "scope": "只读核对与限定metadata同步；未读凭据/无关项目，未运行GPU/CUA/外部服务，未改源代码、current/manifest/资产。",
+  "integrity": {
+    "check": "tools/verify_selected_appearance.py",
+    "checkedFiles": 34,
+    "sourceIntegrityPassed": true,
+    "mismatches": [],
+    "previewPanelDocumentIdentical": true,
+    "finalQualityPassed": false
+  },
+  "progress": {
+    "headV3": "DLL d25ce205577bd9f568808fdb8dc29c406ee1d5cc5375959c718e11f8459728f6; real GPU 4-state readback bit0 and dispose verified",
+    "headband": "current",
+    "handsCW": "repaired",
+    "tailPause": "repaired",
+    "hairV1": "native 25 checks; real 0/45/90/180 review; development integration allowed, no hair physics",
+    "wholeCharacterC": "GPU work ongoing; version >=0.1.5; pending capture not passed",
+    "skirt": "3104 Jolt indices fixed and pin stable; free displacement 0.491m failed; not default integrated",
+    "shoe": "body-continuity-v1 reviewed front/45/90/back; front preserved, side wedge and large solid blue region fail; not current"
+  },
+  "productAndAcceptance": {
+    "dshConnected": false,
+    "userLoggedIn": false,
+    "apiKeyTouched": false,
+    "passed": false,
+    "notPassed": [
+      "complete all-angle coverage",
+      "performance/showcase",
+      "grasping",
+      "voice",
+      "continuous whole-frame 60 FPS",
+      "final character acceptance"
+    ]
+  },
+  "goal": {
+    "projectStatus": "in_progress",
+    "complete": false,
+    "systemTaskCardStatus": "blocked; existing unfinished goal retained"
+  },
+  "metadataUpdated": [
+    "model-routing-policy.json",
+    "character-current-state.json",
+    "active-character-goal.json"
+  ]
+}

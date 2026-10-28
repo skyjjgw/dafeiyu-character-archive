@@ -1,0 +1,1 @@
+{"models":[{"id":"mini-neutral-grid256-20261027","label":"完整形体毛胚 · neutral · grid256","src":"runs/20261027-001654-618950/shape-grid256-seed12345.glb","reference":"canonical","notes":"本机已实际生成的未绑定形体，用于侧背体积对照。160319顶点/422426三角，非watertight；需要结构整理、面部与手部重建、绑定和物理，尚不适合直接当最终角色。"}]}

@@ -1,0 +1,163 @@
+{
+  "status": "frozen_after_user_rejected_native_art_direction",
+  "appearanceBaseline": "http://127.0.0.1:4348/character-preview.html",
+  "nativeAppearanceApproved": false,
+  "noPromotionToV8": true,
+  "runningOwnedBlenderProcesses": 0,
+  "lastAlreadyRunningExportCompleted": true,
+  "previousCandidateStatus": "complete_native_asset_pending_art_and_runtime_next_review",
+  "assets": {
+    "body-v4.blend": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v4.blend",
+      "bytes": 21605267,
+      "sha256": "b2e65d8ddc520fb20d36b13a62adaf2ecf3b8ff1dd9a39d00740ffd15602a46d"
+    },
+    "body-v4-manifest.json": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v4-manifest.json",
+      "bytes": 30499,
+      "sha256": "3d06742408a341c2f5164b78df70e7099a8d9cd856d401a2f7ca704e5d1cb2f2"
+    },
+    "assets/body-v4-bind.glb": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\body-v4-bind.glb",
+      "bytes": 13435816,
+      "sha256": "7aff189b8e7033a7b0e2d2d62d19d371e335d03e244d02abee98a71bbab72727"
+    },
+    "assets/skirt-physics-cage-v4.json": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\skirt-physics-cage-v4.json",
+      "bytes": 319179,
+      "sha256": "eafa66d15d5f6af3b5f75b244e54aa426375d90123f7f49470e0157c19f42dca"
+    },
+    "assets/petticoat-support-v2.json": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\petticoat-support-v2.json",
+      "bytes": 728094,
+      "sha256": "153d0a7344a4f19fcbacd4e14b240ed06fb88bdbf3a7ddf5d9c281b1e48fe9d0"
+    },
+    "assets/cloth-render-bind-v4.json": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\cloth-render-bind-v4.json",
+      "bytes": 12306228,
+      "sha256": "58a545725bd5bfe0959996b5bbc1704f6537d0a7f6bc211c68907f5ed7b92e8c"
+    },
+    "scripts/build_body_v4.py": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body_v4.py",
+      "bytes": 72425,
+      "sha256": "c574760faf1ff82fa85e626f47ea08f57cd22ad552cbd93e7ab184b99b573ed5"
+    },
+    "scripts/build_tail_outlet_v4_study.py": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_tail_outlet_v4_study.py",
+      "bytes": 25517,
+      "sha256": "f948d6707ccd9d603c0d5bd9acdcc1a0aa86a58ecd44655683bd968abfdd854f"
+    },
+    "scripts/finish_body_v4.py": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\finish_body_v4.py",
+      "bytes": 23618,
+      "sha256": "70762a8c830f9b875a37d4a4c290381e37caf1752316e2810406fa34a5eb68fc"
+    },
+    "scripts/verify_body_v4.py": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\verify_body_v4.py",
+      "bytes": 3332,
+      "sha256": "0905fe2fb48a56e32d6bcc8659c601ecf50de49437cd6248125e3cb4ce280708"
+    },
+    "body-v4-render-review.json": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v4-render-review.json",
+      "bytes": 1891,
+      "sha256": "22f9d9cfe4d06b8b497ba1fc825989de855a9a894ed2d6c64b25e14fb5b9494c"
+    }
+  },
+  "frozenOlderSources": {
+    "body-v2.blend": {
+      "sha256": "c31befc1fd595e5a1575c5eb4b64c704f2839e592d994aac88f835cb442bbcf4",
+      "unchanged": true
+    },
+    "body-v3.blend": {
+      "sha256": "a03fba495ee5e9f143a46bcc56abbde67bf16c72ea9de4b3e3a7999e81c36311",
+      "unchanged": true
+    },
+    "scripts/build_body.py": {
+      "sha256": "69c39d7861deaf05a64bbbc7d496861e9e803994343f687907e1fb4ac256f759",
+      "unchanged": true
+    },
+    "scripts/build_body_v3.py": {
+      "sha256": "7f809fb7a9c98369d14a03cb9886adde6651b9039fe82727a1797827a2aadac3",
+      "unchanged": true
+    },
+    "body-action-study.blend": {
+      "sha256": "db9d5d839c995c4aa95513a189120c507115aeacc2a17985367bd2e7d3f3aa1a",
+      "unchanged": true
+    }
+  },
+  "technicalResearchOnly": {
+    "nativePreparedRenderSkinAudit": {
+      "rest": {
+        "vertices": 13862,
+        "badNormalTriangles": 0,
+        "bad": []
+      },
+      "wave": {
+        "vertices": 13862,
+        "badNormalTriangles": 0,
+        "bad": []
+      },
+      "scope": "Actual subdivided render vertices and interpolated skin weights that are sent to glTF; native joint limits are enforced."
+    },
+    "restDifferencesFromV3": [
+      "DEF-thumb.01.R",
+      "DEF-thumb.02.R",
+      "DEF-thumb.03.R",
+      "DEF-thumb.01.L",
+      "DEF-thumb.02.L",
+      "DEF-thumb.03.L",
+      "DEF-tail.0",
+      "DEF-tail.1",
+      "DEF-tail.2",
+      "DEF-tail.3",
+      "DEF-tail.4"
+    ],
+    "wristLimitsRadians": {
+      "x": [
+        -1.15,
+        1.15
+      ],
+      "y": [
+        -0.35,
+        0.35
+      ],
+      "z": [
+        -0.75,
+        0.75
+      ]
+    },
+    "outletRestOverlap": {
+      "V4 flexible tail portal inner facing": 0,
+      "V4 petticoat same routed tail outlet": 0,
+      "V4 outer aperture folded two sided binding": 0,
+      "V4 inner aperture folded binding": 0
+    },
+    "petticoatPanelCount": 335
+  },
+  "knownIncompleteOrRejected": {
+    "clothBindingMatchesCurrentGLB": false,
+    "candidateBindingSourceHash": "fd892778efea803662df6fa2e9ad62f5f7f002432d7c98645cc8eac012e36ae1",
+    "actualLatestGLBHash": "7aff189b8e7033a7b0e2d2d62d19d371e335d03e244d02abee98a71bbab72727",
+    "bindingAction": "Preserved as stale candidate; do not load or promote. Final rebind intentionally not run after freeze.",
+    "renderReviewMatchesLatestNativeHash": false,
+    "renderAction": "Earlier candidate images preserved. No new art render was started after freeze.",
+    "dynamicV4TailClothStressAccepted": false,
+    "fullV4EightSecondActionRebaked": false,
+    "oldV2V3GripAndSoleValidationAppliesToV4": false,
+    "physicalBalanceOrIndependentThreadSimulationCompleted": false,
+    "lowBodyControlCageBadNormalTriangles": 4,
+    "visibleRenderMeshRestAndTestWaveBadTriangles": 0
+  },
+  "reproducibleButDoNotRunWithoutNewDirection": [
+    "Blender scripts/build_body_v4.py creates body-v4-base.blend",
+    "Blender scripts/verify_body_v4.py audits the base",
+    "Blender scripts/build_tail_outlet_v4_study.py --base production/native-character/body-v4-base.blend --final-v4",
+    "Blender scripts/finish_body_v4.py creates body-v4.blend and candidate sources",
+    "scripts/export_cloth_bind_v4.py would need a new binding for the exact final GLB hash, but remains stopped"
+  ],
+  "notes": [
+    "No frozen v2/v3 source was deleted, overwritten or rolled back.",
+    "No parent assembly or current runtime was modified by this agent.",
+    "Character appearance must preserve the older painted curved-surface reference proportions, face and hair; native research is not a user-approved replacement."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "dafeiyu.continuous-head.eyelid-depth-samples.v2",
+  "scope": "Samples on fixed original neutral sclera cap versus the actual candidate triangle depth along +Z front. Margin .002 from aperture and depth tolerance .0001. Not whole-surface/self-intersection or dynamic collision certification.",
+  "states": [
+    {
+      "blink": 0,
+      "eye": 0,
+      "checkedOpen": 384,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 0,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": null,
+      "bad": []
+    },
+    {
+      "blink": 0,
+      "eye": 1,
+      "checkedOpen": 384,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 0,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": null,
+      "bad": []
+    },
+    {
+      "blink": 0.25,
+      "eye": 0,
+      "checkedOpen": 341,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 32,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": 0.002565813386216309,
+      "bad": []
+    },
+    {
+      "blink": 0.25,
+      "eye": 1,
+      "checkedOpen": 340,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 31,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": 0.00255646589564662,
+      "bad": []
+    },
+    {
+      "blink": 0.5,
+      "eye": 0,
+      "checkedOpen": 276,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 98,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": 0.0025637017507879056,
+      "bad": []
+    },
+    {
+      "blink": 0.5,
+      "eye": 1,
+      "checkedOpen": 276,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 100,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": 0.0025458432027934963,
+      "bad": []
+    },
+    {
+      "blink": 0.75,
+      "eye": 0,
+      "checkedOpen": 181,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 184,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": 0.002524584450999845,
+      "bad": []
+    },
+    {
+      "blink": 0.75,
+      "eye": 1,
+      "checkedOpen": 180,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 183,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": 0.002477672149242771,
+      "bad": []
+    },
+    {
+      "blink": 1,
+      "eye": 0,
+      "checkedOpen": 0,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 353,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": 0.002418000071594817,
+      "bad": []
+    },
+    {
+      "blink": 1,
+      "eye": 1,
+      "checkedOpen": 0,
+      "unexpectedOcclusion": 0,
+      "checkedCovered": 355,
+      "uncovered": 0,
+      "minimumSkinDepthAheadOfCoveredGlobe": 0.002335540845789852,
+      "bad": []
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,73 @@
+{
+  "status": "actual_native_multiview_review_pending_art_acceptance",
+  "blend": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v3-with-frozen-head-review.blend",
+  "sha256": "a1ceff1d31d8bbf60bbb17feeea6a110fc83cd5db3862c5d173335bce6f701a5",
+  "sources": {
+    "body": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v3.blend",
+      "sha256": "a03fba495ee5e9f143a46bcc56abbde67bf16c72ea9de4b3e3a7999e81c36311"
+    },
+    "face": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\face-v2.blend",
+      "sha256": "000702aa60346e3abb1b357a486c6600fe95a5dfdf044dce3d1325f823d138e3"
+    },
+    "hair": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\hair-v3.blend",
+      "sha256": "2198da3e81a08b9e9185bcf3eaa884185218406147bb5b6325e08c3576d3efd5"
+    }
+  },
+  "sources_unchanged": true,
+  "renders": {
+    "front": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\front.png",
+    "side": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\side.png",
+    "back": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\back.png",
+    "threequarter": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\threequarter.png",
+    "shoe-side": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\shoe-side.png",
+    "shoe-threequarter": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\shoe-threequarter.png",
+    "hand-rest": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\hand-rest.png",
+    "hand-native-grip": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\hand-native-grip.png",
+    "tail-front": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\tail-front.png",
+    "tail-oblique": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\body-v3-review\\tail-oblique.png"
+  },
+  "hand_grip_render_controls": {
+    "grip": 0.7,
+    "thumb_opposition": 0.55
+  },
+  "scope": "Independent body-v3 review only. Existing face/hair attached unchanged for proportion review. No runtime export or parent assembly replacement.",
+  "limitations": [
+    "Reference likeness is not approved.",
+    "V3 finger rest differs from v2; previous object-specific grip needs retuning.",
+    "Native cloth exists but full 8-second action was not rebaked on v3.",
+    "Tail contact proxy still follows existing five-bone stem, not full-fin collision.",
+    "This review does not add hair physics."
+  ],
+  "actual_visual_review": {
+    "reviewed_files": [
+      "front.png",
+      "side.png",
+      "back.png",
+      "threequarter.png",
+      "hand-rest.png",
+      "hand-native-grip.png",
+      "shoe-side.png",
+      "shoe-threequarter.png",
+      "tail-front.png",
+      "tail-oblique.png"
+    ],
+    "artistic_acceptance": false,
+    "improvements": [
+      "shorter real finger chains, compact rounded palm, native resting curl and fist visibly differ",
+      "round closed shoe toe and smoothed real opening edge with sole retained",
+      "fuller bell skirt, shared apron contour, upper sleeve volume measured 1.25x",
+      "one common-fork tail volume with V notch and two pointed lobes"
+    ],
+    "remaining": [
+      "hand palm and knuckle webbing still reads schematic in close view",
+      "cloth seams, cuffs and toe material details remain simple authored geometry",
+      "tail volume/contact design is an inference; full-fin collider and realistic hydrodynamic or secondary dynamics not authored",
+      "unchanged face/hair still need their own reference review; this body branch does not certify them",
+      "v3 has no rebaked 8-second interaction acceptance"
+    ],
+    "version_warning": "30 finger rest records differ, including compact palm-to-finger roots and 0.75-length segments. Other 66 rest records identical. Shoe sole geometry/reference offset differs; v2 grasp/foot contacts must be retuned before using v3 in the old action. Frozen runtime unchanged."
+  }
+}

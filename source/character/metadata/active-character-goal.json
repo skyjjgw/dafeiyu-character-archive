@@ -1,0 +1,143 @@
+{
+  "schema": "dafeiyu.production-goal.v1",
+  "definedOn": "2026-10-28",
+  "userInstruction": "继续完成全部的完善，把目标重新定好",
+  "projectStatus": "in_progress",
+  "systemTaskCard": {
+    "observedStatus": "blocked",
+    "replacementAttempt": "rejected_existing_unfinished_goal",
+    "meaning": "系统旧目标仍未结束；本地实际目标继续进行，不能用状态审计替代或误标完成。"
+  },
+  "objective": "保留已选大肥鱼身份与二次元画风，完成可实时互动、自然全身表演、合理物理、持续扩展能力的完整女性虚拟人物本地软件，DSH作为能力内核。",
+  "identity": {
+    "selectedURL": "http://127.0.0.1:4348/character-preview.html",
+    "frozenManifest": "production/appearance-baseline-20261027/manifest.json",
+    "meaning": "用户确认最贴近的形象基准，旧结构与动作仍需完善，不是旧版本全部质量已获认可。",
+    "preserve": [
+      "脸型与五官关系",
+      "原眼型、眼神与绘画细节",
+      "蓝发发型与maid头饰身份",
+      "头身比例与整体轮廓",
+      "服装设计、原画色彩及蓝色鲸尾",
+      "二次元动画质感"
+    ],
+    "allowedForReconstruction": [
+      "合理修正推定深度、隐藏及侧背结构",
+      "重拓扑、真实骨骼与变形结构",
+      "为连续布面和解剖合理性调整局部坐标",
+      "固定相机标定与投影一致性研究",
+      "对未知区域作明确标注的推定绘制"
+    ],
+    "rule": "锁定的是可见身份、比例与画风。原顶点XYZ、错误遮挡或每一像素并非永久冻结；有意变化必须用实际画面对照解释，不能借结构升级重新设计通用人物。"
+  },
+  "reference": {
+    "author": "冬冰",
+    "videos": [
+      "BV1Tonb6JExo",
+      "BV1t6nu6bEsf",
+      "BV1g2JX6HEHX",
+      "BV1C2pg6cEZW"
+    ],
+    "acceptedAnimationExample": "https://www.youtube.com/watch?v=yhGjCzxJV3E",
+    "use": "人物身份、二次元外观与自然表演标准；参考作品存在不代表本项目已达到。"
+  },
+  "product": {
+    "position": "全能虚拟人物，可聊天、编程与扩展更多能力，不限定成编程工具或日常助手。",
+    "kernel": "DSH保留模型、会话、工具执行、审批与既有权限边界；人物表现层负责形象、表情、动作、声音与物理。",
+    "required": [
+      "本地软件与可复现启动",
+      "模型/语音及人物设置",
+      "真实会话与运行/审批状态联动",
+      "角色动画实时响应与取消",
+      "一键回原版DSH并保留会话",
+      "缺少密钥时明确离线试作，已具备部分仍可验证"
+    ],
+    "secrets": "本地设置与官方现有鉴权流程处理密钥；不放进人物资源、聊天上下文、IPC状态、日志或公开包。",
+    "notYetConnectedMeans": "本地SDK、mock状态和消息往返不等于已连接用户安装的DSH或真实模型。"
+  },
+  "characterRequirements": {
+    "structure": "完整头颅、眼体/眼睑/口腔、颈肩、躯干、手臂五指、骨盆腿脚、真实发束/尾巴与分层服装；不以整人物卡片或按视角换图替代。",
+    "views": [
+      "正面",
+      "左右25度",
+      "左右45度",
+      "左右90度",
+      "背面",
+      "合理俯仰",
+      "连续环绕与连续转身"
+    ],
+    "expression": "注视、眼头身引导、自然眨眼、连续情绪及有音频依据的说话口型，不只开嘴或切表情图。",
+    "motion": "自然站立、转头、招呼、起步/停步/行走/转身、伸手持物/放物；可以随时中断、改变目标并从当前状态连续过渡。",
+    "physics": "合理质量尺度、重力/惯性/关节与骨长、脚底支撑、手物接触、身体/发/尾/衣裙碰撞与次级运动；真实引擎和渲染几何一致，不用正弦摆动冒充物理。",
+    "performance": "目标为当前电脑实际实时稳定60FPS；记录真实帧时间、物理步长和负载。headless、暂停、固定离线帧率或只看事件ack不能证明流畅。"
+  },
+  "acceptance": {
+    "identity": "同一角色在所有所需角度和动作中保持已选脸型、眼型、发型、服装及画风；实际截图/运行审查优先。",
+    "geometry": "正确拓扑与体积、无明显裂片/穿插/反面/拉伸；自交、厚度、间隙与动态变形分别检查。闭合索引不等于合格实体。",
+    "continuousSequence": "同一场景连续注视/招呼→迈步→转身→伸手持物→放物→停步，并在不同阶段取消/重定向；多角度核对接触、次级运动和身份。该序列是验收用例，不是写死的唯一行动。",
+    "product": "实际本地软件操作、真实DSH连接、状态与审批联动、设置与原版切换；明确区分离线试作和真实调用。",
+    "evidence": "每项保存实际运行状态、画面和必要数据，标明机器、版本、范围、失败与限制，不将测试数量冒称最终质量。",
+    "completionRule": "所有要求达到并完成实际视觉、动作、物理和产品验收后才可整体完成；任何单组件/单帧/测试通过都只是进展。",
+    "staticModelFirst": true
+  },
+  "deliveryStrategy": {
+    "currentIntegratedDirectory": "production/appearance-preserving-runtime/selected-production/",
+    "baselineRemainsAvailable": true,
+    "components": "稳定组件通过明确清单、坐标/绑定/材质/物理契约加入同一当前人物；失败组件不得默认晋升，也不无限堆放互不相连的小样。",
+    "rejectedAppearance": "旧native v2–v7通用新造型不再作为当前人物；可复用经过验证的技术实现。",
+    "reusePolicy": "先查找并使用许可清楚的官方/开源网格、骨架、动作和物理样例作可复现对照；记录来源、版本和SHA，再适配已选人物。现成素材能导入不等于重定向、接触或最终质量通过。"
+  },
+  "workstreams": [
+    {
+      "id": "identity-integration",
+      "owner": "root",
+      "state": "in_progress",
+      "scope": "外观基准、统一目标、整人GPU版本C、产品入口与DSH边界"
+    },
+    {
+      "id": "head-and-headband",
+      "owner": "root",
+      "state": "in_progress",
+      "scope": "head v3 GPU readback及headband current；hair-v1仅开发候选、无hair physics"
+    },
+    {
+      "id": "body-and-garment",
+      "owner": "root",
+      "state": "in_progress",
+      "scope": "衣裙Jolt候选索引修复但自由位移失败；鞋候选侧视不合格，均不默认接入"
+    },
+    {
+      "id": "motion-and-secondary",
+      "owner": "root",
+      "state": "in_progress",
+      "scope": "C整人GPU待验、handsCW与tail pause修复；完整动作/物理/性能尚待验收"
+    }
+  ],
+  "complete": false,
+  "date": "2026-10-28",
+  "latestStatusAudit": "metadata/status-audit-20261028.json",
+  "externalReferenceAssets": {
+    "physics": "references/test-assets/physics/manifest.json",
+    "motion": "references/test-assets/motion/manifest.json",
+    "motionSourceClips": 43,
+    "characterAppearanceUnchanged": true,
+    "networkAssetsReplaceSelectedCharacter": false
+  },
+  "currentPriority": {
+    "userCorrection": "主要是现在我发现连人物整体模型都没做好",
+    "focus": "完整静态角色造型与语义拓扑优先",
+    "deferred": [
+      "外部动作重定向",
+      "布料统一求解器",
+      "进一步动作和物理接入"
+    ],
+    "reason": "现有角色正面接近但侧脸/颈肩/身体厚度/发层/衣鞋仍严重不合格，底模问题不能由动作、物理或测试数量代替。",
+    "activeWork": [
+      "整体3D体积与可编辑master",
+      "保原脸的大眼型与头颅/颈部连续皮壳",
+      "圆润有根的分件发束与贴合褶边头饰",
+      "同一角色的衣身/袖口/裙/围裙/背带/手脚分件"
+    ],
+    "gate": "真实同一模型正面/45/90/背面/轻俯仰及clay检查通过后，再恢复动作/物理。"
+  }
+}

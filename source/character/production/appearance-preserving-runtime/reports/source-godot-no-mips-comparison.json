@@ -1,0 +1,380 @@
+{
+  "schema": "dafeiyu.static-pixel-comparison.v1",
+  "sourceSha256": "fb0f78831ede90edf5872b9f62e410e19d594acdd0276ef4a55984ce8885b7e5",
+  "captureSha256": "516ef4befdf569aba0e89ca8fafd04775d48c0ee3801d2823a7ea91f4bbc1bb8",
+  "resolution": [
+    640,
+    704
+  ],
+  "alphaIoU128": 0.9970247238056229,
+  "meanAbsAlphaUnion": 0.5360547048535936,
+  "statistics": {
+    "opaqueInterior": {
+      "pixels": 163548,
+      "meanAbsRGB": [
+        2.415627216474674,
+        1.366974833076528,
+        0.7462151784185682
+      ],
+      "p95AbsRGB": [
+        6.0,
+        4.0,
+        2.0
+      ],
+      "medianSignedRGB": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "fractionAnyChannelGreaterThan16": 0.016215422995084012
+    },
+    "faceApproximateRectangle": {
+      "pixels": 31350,
+      "meanAbsRGB": [
+        1.8229984051036683,
+        1.3606060606060606,
+        0.9619138755980862
+      ],
+      "p95AbsRGB": [
+        5.0,
+        3.0,
+        2.0
+      ],
+      "medianSignedRGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fractionAnyChannelGreaterThan16": 0.02299840510366826
+    },
+    "bodyApproximateRectangle": {
+      "pixels": 91758,
+      "meanAbsRGB": [
+        2.8623553259661283,
+        1.5878288541598553,
+        0.8294862573290612
+      ],
+      "p95AbsRGB": [
+        7.0,
+        6.0,
+        4.0
+      ],
+      "medianSignedRGB": [
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "fractionAnyChannelGreaterThan16": 0.019017415375226138
+    }
+  },
+  "scope": "Static orthographic/manual/t0 source and Godot comparison. Region rectangles are approximate, not semantic material masks. Exact visual equality, natural motion, physics, and all-angle identity are not asserted.",
+  "materialRegions": [
+    {
+      "sourceMaterial": 33,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 0.0,
+      "pixels": 283,
+      "meanAbsRGB": [
+        3.148409893992933,
+        0.9151943462897526,
+        0.33568904593639576
+      ],
+      "p95AbsRGB": [
+        6.0,
+        5.0,
+        2.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 12,
+      "sourceName": "",
+      "type": "MeshToonMaterial",
+      "image": -1.0,
+      "pixels": 3973,
+      "meanAbsRGB": [
+        3.054618676063428,
+        1.0908633274603574,
+        0.08608104706770703
+      ],
+      "p95AbsRGB": [
+        4.0,
+        2.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 47,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": -1.0,
+      "pixels": 21,
+      "meanAbsRGB": [
+        3.0,
+        1.0,
+        0.0
+      ],
+      "p95AbsRGB": [
+        3.0,
+        1.0,
+        0.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 19,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 1.0,
+      "pixels": 9486,
+      "meanAbsRGB": [
+        2.9776512755639892,
+        1.041640312038794,
+        0.27819945182374023
+      ],
+      "p95AbsRGB": [
+        6.0,
+        3.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.0006325110689437065
+    },
+    {
+      "sourceMaterial": 43,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 1.0,
+      "pixels": 57490,
+      "meanAbsRGB": [
+        2.5572273438858932,
+        1.8016698556270656,
+        1.111949904331188
+      ],
+      "p95AbsRGB": [
+        9.0,
+        8.0,
+        6.0
+      ],
+      "fractionAnyGreaterThan16": 0.028022264741694208
+    },
+    {
+      "sourceMaterial": 17,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 1.0,
+      "pixels": 5649,
+      "meanAbsRGB": [
+        2.502389803505045,
+        0.5445211541865816,
+        0.21278102318994513
+      ],
+      "p95AbsRGB": [
+        6.0,
+        2.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.0003540449637103912
+    },
+    {
+      "sourceMaterial": 23,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 0.0,
+      "pixels": 8334,
+      "meanAbsRGB": [
+        2.4790016798656107,
+        0.720662347012239,
+        0.177705783537317
+      ],
+      "p95AbsRGB": [
+        5.0,
+        2.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.00011999040076793856
+    },
+    {
+      "sourceMaterial": 39,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 0.0,
+      "pixels": 1037,
+      "meanAbsRGB": [
+        2.202507232401157,
+        0.7540983606557377,
+        0.2256509161041466
+      ],
+      "p95AbsRGB": [
+        6.0,
+        3.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 44,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": -1.0,
+      "pixels": 324,
+      "meanAbsRGB": [
+        2.0,
+        1.0,
+        0.0
+      ],
+      "p95AbsRGB": [
+        2.0,
+        1.0,
+        0.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 41,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 1.0,
+      "pixels": 999,
+      "meanAbsRGB": [
+        1.1831831831831832,
+        0.3763763763763764,
+        0.24224224224224225
+      ],
+      "p95AbsRGB": [
+        3.0,
+        1.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.003003003003003003
+    },
+    {
+      "sourceMaterial": 27,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 0.0,
+      "pixels": 2074,
+      "meanAbsRGB": [
+        1.0361620057859209,
+        0.4691417550626808,
+        0.23481195756991322
+      ],
+      "p95AbsRGB": [
+        4.0,
+        2.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 49,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": -1.0,
+      "pixels": 788,
+      "meanAbsRGB": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "p95AbsRGB": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 21,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": 0.0,
+      "pixels": 12487,
+      "meanAbsRGB": [
+        0.6174421398254184,
+        0.21590454072235124,
+        0.1178025146151998
+      ],
+      "p95AbsRGB": [
+        3.0,
+        1.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 4,
+      "sourceName": "source-fitted skin with blended exterior",
+      "type": "MeshBasicMaterial",
+      "image": -1.0,
+      "pixels": 3133,
+      "meanAbsRGB": [
+        0.4972869454197255,
+        0.46473029045643155,
+        0.3932333226939036
+      ],
+      "p95AbsRGB": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 2,
+      "sourceName": "original unmodified facial paint",
+      "type": "MeshBasicMaterial",
+      "image": 0.0,
+      "pixels": 3453,
+      "meanAbsRGB": [
+        0.08919779901534897,
+        0.06747755574862438,
+        0.08050970170865913
+      ],
+      "p95AbsRGB": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 5,
+      "sourceName": "warm eye white",
+      "type": "MeshBasicMaterial",
+      "image": -1.0,
+      "pixels": 374,
+      "meanAbsRGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p95AbsRGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    },
+    {
+      "sourceMaterial": 50,
+      "sourceName": "",
+      "type": "MeshBasicMaterial",
+      "image": -1.0,
+      "pixels": 1044,
+      "meanAbsRGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p95AbsRGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fractionAnyGreaterThan16": 0.0
+    }
+  ],
+  "materialMaskLimit": "GPU flat-ID diagnostic pass retains source alpha/cutoff. Only exact stable ID interiors are counted; partially blended mixed-ID pixels are excluded."
+}

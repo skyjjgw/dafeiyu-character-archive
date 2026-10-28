@@ -1,0 +1,3099 @@
+{
+	"asset_error": "",
+	"asset_provenance": {
+		"character.glb": "3d09ccde3ea8b70763c00add5cee9517e7d9aa78ab812f8fd28aacadf7d2fd9e",
+		"petticoat-support-v1.json": "ca5456100cd3f76db5b330c8cba07273bb6c881274bd3119426dd5d2d87e79f0",
+		"runtime-rig-bind.json": "4e294fd56c41d11a7a1856db2624c00925b8a6aa96772e225b59a6faeb911686",
+		"skirt-physics-cage-v2.json": "2fdbd1d0a4cf6d4e9800059910d3e063127ea365f281a2a6d128077dc62c7d0f"
+	},
+	"asset_state": "ready",
+	"cloth": {
+		"limitations": [
+			"Low-resolution physical cloth transferred to authored surfaces; no whole-garment self-contact acceptance yet"
+		],
+		"maximum_displacement": 0.0,
+		"maximum_pin_error": 0.0,
+		"petticoat": {
+			"anchor": "DEF-pelvis",
+			"cloth_free_points_hard_targeted": false,
+			"friction": 0.02,
+			"panels": 64,
+			"ready": true,
+			"source": "res://assets/petticoat-support-v1.json",
+			"support": "Authored sewn stiff underskirt contact approximation; not full multilayer soft tulle"
+		},
+		"ready": false,
+		"rendered_high_meshes": [],
+		"solver": "Jolt SoftBody3D",
+		"update_count": 0
+	},
+	"color_calibration": {
+		"method": "64px independent native shader swatch, same lights, measured GPU center pixel",
+		"reference_rgb": [
+			201,
+			185,
+			170
+		],
+		"verified": false
+	},
+	"controller": {
+		"action": "idle",
+		"asset_ready": true,
+		"blocked_turn_steps": 0,
+		"events": [
+			{
+				"body_skeleton_bound": true,
+				"event": "asset_loaded"
+			}
+		],
+		"grasp": {
+			"events": [],
+			"held": false,
+			"maximum_grasp_error": 0.0,
+			"maximum_post_solver_error": 0.0,
+			"solver": "Jolt Generic6DOF spring joint; kinematic hand anchor, dynamic cup"
+		},
+		"limitations": [
+			"Kinematic root sweep and IK locomotion; not whole-body active balance",
+			"Finger pose drives actual skin; grasp is a spring constraint, not solved force closure"
+		],
+		"on_floor": false,
+		"rig": {
+			"bound": [
+				{
+					"bones": [
+						"DEF-thigh.L",
+						"DEF-shin.L",
+						"DEF-foot.L"
+					],
+					"kind": "TwoBoneIK3D"
+				},
+				{
+					"bones": [
+						"DEF-upper_arm.L",
+						"DEF-forearm.L",
+						"DEF-hand.L"
+					],
+					"kind": "TwoBoneIK3D"
+				},
+				{
+					"bones": [
+						"DEF-thigh.R",
+						"DEF-shin.R",
+						"DEF-foot.R"
+					],
+					"kind": "TwoBoneIK3D"
+				},
+				{
+					"bones": [
+						"DEF-upper_arm.R",
+						"DEF-forearm.R",
+						"DEF-hand.R"
+					],
+					"kind": "TwoBoneIK3D"
+				}
+			],
+			"foot_contacts": {},
+			"hand_fingers": {
+				"L": [
+					"DEF-thumb.01.L",
+					"DEF-thumb.02.L",
+					"DEF-thumb.03.L",
+					"DEF-index.01.L",
+					"DEF-index.02.L",
+					"DEF-index.03.L",
+					"DEF-middle.01.L",
+					"DEF-middle.02.L",
+					"DEF-middle.03.L",
+					"DEF-ring.01.L",
+					"DEF-ring.02.L",
+					"DEF-ring.03.L",
+					"DEF-little.01.L",
+					"DEF-little.02.L",
+					"DEF-little.03.L"
+				],
+				"R": [
+					"DEF-thumb.01.R",
+					"DEF-thumb.02.R",
+					"DEF-thumb.03.R",
+					"DEF-index.01.R",
+					"DEF-index.02.R",
+					"DEF-index.03.R",
+					"DEF-middle.01.R",
+					"DEF-middle.02.R",
+					"DEF-middle.03.R",
+					"DEF-ring.01.R",
+					"DEF-ring.02.R",
+					"DEF-ring.03.R",
+					"DEF-little.01.R",
+					"DEF-little.02.R",
+					"DEF-little.03.R"
+				]
+			},
+			"limitations": [],
+			"missing": [],
+			"skeletons": [
+				{
+					"bones": [
+						"Root",
+						"COG",
+						"DEF-pelvis",
+						"DEF-spine",
+						"DEF-chest",
+						"DEF-neck",
+						"Head",
+						"Face HeadRoot",
+						"FaceRig",
+						"FaceHead",
+						"Jaw",
+						"Tongue",
+						"Eye.L",
+						"Eye.R",
+						"Hair HeadRoot",
+						"HairRig",
+						"Hair.HeadAnchor",
+						"Hair.00.0",
+						"Hair.00.1",
+						"Hair.00.2",
+						"Hair.01.0",
+						"Hair.01.1",
+						"Hair.01.2",
+						"Hair.02.0",
+						"Hair.02.1",
+						"Hair.02.2",
+						"Hair.03.0",
+						"Hair.03.1",
+						"Hair.03.2",
+						"Hair.04.0",
+						"Hair.04.1",
+						"Hair.04.2",
+						"Hair.05.0",
+						"Hair.05.1",
+						"Hair.05.2",
+						"Hair.06.0",
+						"Hair.06.1",
+						"Hair.06.2",
+						"Hair.07.0",
+						"Hair.07.1",
+						"Hair.07.2",
+						"Hair.08.0",
+						"Hair.08.1",
+						"Hair.08.2",
+						"Hair.09.0",
+						"Hair.09.1",
+						"Hair.09.2",
+						"Hair.10.0",
+						"Hair.10.1",
+						"Hair.10.2",
+						"Hair.11.0",
+						"Hair.11.1",
+						"Hair.11.2",
+						"Hair.12.0",
+						"Hair.12.1",
+						"Hair.12.2",
+						"Hair.13.0",
+						"Hair.13.1",
+						"Hair.13.2",
+						"Hair.14.0",
+						"Hair.14.1",
+						"Hair.14.2",
+						"Hair.15.0",
+						"Hair.15.1",
+						"Hair.15.2",
+						"DEF-upper_arm.R",
+						"DEF-forearm.R",
+						"DEF-hand.R",
+						"DEF-thumb.01.R",
+						"DEF-thumb.02.R",
+						"DEF-thumb.03.R",
+						"DEF-index.01.R",
+						"DEF-index.02.R",
+						"DEF-index.03.R",
+						"DEF-middle.01.R",
+						"DEF-middle.02.R",
+						"DEF-middle.03.R",
+						"DEF-ring.01.R",
+						"DEF-ring.02.R",
+						"DEF-ring.03.R",
+						"DEF-little.01.R",
+						"DEF-little.02.R",
+						"DEF-little.03.R",
+						"CTRL-fingers.R",
+						"FK-upper_arm.R",
+						"FK-forearm.R",
+						"FK-hand.R",
+						"MCH-upper_arm.R",
+						"MCH-forearm.R",
+						"MCH-hand.R",
+						"DEF-upper_arm.L",
+						"DEF-forearm.L",
+						"DEF-hand.L",
+						"DEF-thumb.01.L",
+						"DEF-thumb.02.L",
+						"DEF-thumb.03.L",
+						"DEF-index.01.L",
+						"DEF-index.02.L",
+						"DEF-index.03.L",
+						"DEF-middle.01.L",
+						"DEF-middle.02.L",
+						"DEF-middle.03.L",
+						"DEF-ring.01.L",
+						"DEF-ring.02.L",
+						"DEF-ring.03.L",
+						"DEF-little.01.L",
+						"DEF-little.02.L",
+						"DEF-little.03.L",
+						"CTRL-fingers.L",
+						"FK-upper_arm.L",
+						"FK-forearm.L",
+						"FK-hand.L",
+						"MCH-upper_arm.L",
+						"MCH-forearm.L",
+						"MCH-hand.L",
+						"DEF-thigh.R",
+						"DEF-shin.R",
+						"DEF-foot.R",
+						"FK-thigh.R",
+						"FK-shin.R",
+						"FK-foot.R",
+						"MCH-thigh.R",
+						"MCH-shin.R",
+						"MCH-foot.R",
+						"DEF-thigh.L",
+						"DEF-shin.L",
+						"DEF-foot.L",
+						"FK-thigh.L",
+						"FK-shin.L",
+						"FK-foot.L",
+						"MCH-thigh.L",
+						"MCH-shin.L",
+						"MCH-foot.L",
+						"DEF-tail.0",
+						"DEF-tail.1",
+						"DEF-tail.2",
+						"DEF-tail.3",
+						"DEF-tail.4",
+						"CTRL-hand_ik.R",
+						"CTRL-elbow_pole.R",
+						"CTRL-foot_ik.R",
+						"MCH-heel.R",
+						"MCH-toe.R",
+						"MCH-ball.R",
+						"MCH-foot_target.R",
+						"CTRL-knee_pole.R",
+						"CTRL-hand_ik.L",
+						"CTRL-elbow_pole.L",
+						"CTRL-foot_ik.L",
+						"MCH-heel.L",
+						"MCH-toe.L",
+						"MCH-ball.L",
+						"MCH-foot_target.L",
+						"CTRL-knee_pole.L"
+					],
+					"path": "Dafeiyu BodyRig v2/Skeleton3D"
+				}
+			]
+		},
+		"rigid_wearable_sweep_shapes": 64,
+		"root_position": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"travelled": 0.0
+	},
+	"cup": {
+		"hollow_compound_collision": true,
+		"mass": 0.219999998807907,
+		"position": [
+			0.5,
+			1.31500005722046,
+			0.990000009536743
+		],
+		"static_contacts": 0,
+		"velocity": [
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"dsh_state": {
+		"approvals": 0,
+		"connected": false,
+		"error": "",
+		"running": false
+	},
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"headless": false,
+	"materials": {
+		"image_cards": false,
+		"scope": "Native mesh shaders; visual acceptance pending",
+		"surfaces": [
+			{
+				"mesh": "Oval blue sapphire on bow",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu whale",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Whale embroidery - waterdrop",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu whale",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Whale embroidery - eye",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Whale embroidery - white belly",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Whale embroidery - double tail fin",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu whale",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Whale embroidery - smooth body",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu whale",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Apron continuous wavy flounced border",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "White shaped apron - physical curved cloth",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Maid skirt - 360 pleats and encircling white hem",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Maid skirt - 360 pleats and encircling white hem",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "White sock_R",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "White sock_L",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "White sewn shoulder strap_R",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "White sewn shoulder strap_L",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Whale upper rounded thin-edge fluke",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Whale tail stem",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Whale lower rounded thin-edge fluke",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu belly",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Socked foot visible in shoe opening_R",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Socked foot visible in shoe opening_L",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Shaped shallow ivory front bib",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Rounded mary-jane shoe_R",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Rounded mary-jane shoe_L",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Rear apron tie bow 1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Rear apron tie bow -1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Raised Mary-Jane leather strap_R",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Raised Mary-Jane leather strap_L",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Oval sapphire gold bezel",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu gold",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Narrow navy button placket on ivory bib",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Mary-Jane buckle_R",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu gold",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Mary-Jane buckle_L",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu gold",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Maid fitted shirt - full side and back",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Maid fitted shirt - full side and back",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Large folded bow lobe_R",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Large folded bow lobe_L",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Ivory encircling waist band",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Ivory button 2",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Ivory button 1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Ivory button 0",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Hanging bow ribbon 1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Hanging bow ribbon -1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu navy",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Folded pointed collar leaf 1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Folded pointed collar leaf -1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Flounced chest bib edge 1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Flounced chest bib edge -1",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Close standing ivory collar",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu cream",
+				"vertex_color": false
+			},
+			{
+				"mesh": "BODY continuous neck torso limbs palms five fingers",
+				"shader": "native_toon",
+				"source_material": "Dafeiyu skin",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R temple lock",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R side outward curl",
+				"shader": "native_toon",
+				"source_material": "Hair ends / restrained blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R posterior outer curl",
+				"shader": "native_toon",
+				"source_material": "Hair ends / restrained blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R posterior inner curl",
+				"shader": "native_toon",
+				"source_material": "Hair ends / restrained blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R outer cheek lock",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R inner fringe",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L temple lock",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L side outward curl",
+				"shader": "native_toon",
+				"source_material": "Hair ends / restrained blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L posterior outer curl",
+				"shader": "native_toon",
+				"source_material": "Hair ends / restrained blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L posterior inner curl",
+				"shader": "native_toon",
+				"source_material": "Hair ends / restrained blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L outer cheek lock",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L inner fringe",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Hook ahoge",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Central bangs _ fork tip",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Central bangs _ broad flow",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Center posterior overlapping flow",
+				"shader": "native_toon",
+				"source_material": "Hair ends / restrained blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "HeadSkin _ complete cranium, cheeks, chin, eyelids and oral cav",
+				"shader": "native_toon",
+				"source_material": "Face / editable albedo and gentle NPR",
+				"vertex_color": true
+			},
+			{
+				"mesh": "HeadSkin _ complete cranium, cheeks, chin, eyelids and oral cav",
+				"shader": "native_toon",
+				"source_material": "Lips / measured interrupted smile ink",
+				"vertex_color": true
+			},
+			{
+				"mesh": "HeadSkin _ complete cranium, cheeks, chin, eyelids and oral cav",
+				"shader": "native_toon",
+				"source_material": "Mouth / real recessed interior",
+				"vertex_color": true
+			},
+			{
+				"mesh": "Scalloped three-dimensional maid headband",
+				"shader": "native_toon",
+				"source_material": "Maid trim / ivory",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R folded butterfly bow lobe 1",
+				"shader": "native_toon",
+				"source_material": "Hair bows / ocean blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R folded butterfly bow lobe -1",
+				"shader": "native_toon",
+				"source_material": "Hair bows / ocean blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R fin ear _ closed volume",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R fin ear _ closed volume",
+				"shader": "native_toon",
+				"source_material": "Maid trim / ivory",
+				"vertex_color": false
+			},
+			{
+				"mesh": "R bow knot",
+				"shader": "native_toon",
+				"source_material": "Hair bows / ocean blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L folded butterfly bow lobe 1",
+				"shader": "native_toon",
+				"source_material": "Hair bows / ocean blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L folded butterfly bow lobe -1",
+				"shader": "native_toon",
+				"source_material": "Hair bows / ocean blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L fin ear _ closed volume",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L fin ear _ closed volume",
+				"shader": "native_toon",
+				"source_material": "Maid trim / ivory",
+				"vertex_color": false
+			},
+			{
+				"mesh": "L bow knot",
+				"shader": "native_toon",
+				"source_material": "Hair bows / ocean blue",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Continuous scalp _ full side and back volume",
+				"shader": "native_toon",
+				"source_material": "Hair / cool indigo / three cel values",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Upper teeth _ closed ivory volume",
+				"shader": "native_toon",
+				"source_material": "Teeth / warm ivory",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Lid_R _ closed fine lower rim",
+				"shader": "native_toon",
+				"source_material": "Lids / fine muted lower edge",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Lid_L _ closed fine lower rim",
+				"shader": "native_toon",
+				"source_material": "Lids / fine muted lower edge",
+				"vertex_color": false
+			},
+			{
+				"mesh": "LashWing_R _ solid pointed outer corner",
+				"shader": "native_toon",
+				"source_material": "Lashes / solid warm navy charcoal",
+				"vertex_color": false
+			},
+			{
+				"mesh": "LashWing_L _ solid pointed outer corner",
+				"shader": "native_toon",
+				"source_material": "Lashes / solid warm navy charcoal",
+				"vertex_color": false
+			},
+			{
+				"mesh": "LashFlick_R _ upper outer solid lash",
+				"shader": "native_toon",
+				"source_material": "Lashes / solid warm navy charcoal",
+				"vertex_color": false
+			},
+			{
+				"mesh": "LashFlick_L _ upper outer solid lash",
+				"shader": "native_toon",
+				"source_material": "Lashes / solid warm navy charcoal",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Lash_R _ closed solid upper rim",
+				"shader": "native_toon",
+				"source_material": "Lashes / solid warm navy charcoal",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Lash_L _ closed solid upper rim",
+				"shader": "native_toon",
+				"source_material": "Lashes / solid warm navy charcoal",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Brow_R _ tapered solid editable brow",
+				"shader": "native_toon",
+				"source_material": "Brows / fine muted warm ink",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Brow_L _ tapered solid editable brow",
+				"shader": "native_toon",
+				"source_material": "Brows / fine muted warm ink",
+				"vertex_color": false
+			},
+			{
+				"center_uv": [
+					0.249988555908203,
+					0.499992370605469
+				],
+				"mesh": "Eye_R _ closed spherical globe",
+				"shader": "native_iris",
+				"source_material": "Eye.R / spherical iris, pupil and painted glints"
+			},
+			{
+				"center_uv": [
+					0.249988555908203,
+					0.499992370605469
+				],
+				"mesh": "Eye_L _ closed spherical globe",
+				"shader": "native_iris",
+				"source_material": "Eye.L / spherical iris, pupil and painted glints"
+			},
+			{
+				"mesh": "Lower teeth _ closed ivory volume",
+				"shader": "native_toon",
+				"source_material": "Teeth / warm ivory",
+				"vertex_color": false
+			},
+			{
+				"mesh": "Tongue _ closed volume",
+				"shader": "native_toon",
+				"source_material": "Tongue / soft rose",
+				"vertex_color": false
+			}
+		]
+	},
+	"paused": false,
+	"performance": {
+		"draw_calls": 0.0,
+		"fps": 1.0,
+		"physics_ms": 0.0,
+		"process_ms": 0.0
+	},
+	"scope": "Actual native GLB scene and interaction study, not artistic acceptance",
+	"secondary": {
+		"anchors": [
+			{
+				"name": "Hair.HeadAnchor",
+				"position": [
+					0.0,
+					2.15499997138977,
+					0.0
+				],
+				"target_position": [
+					0.0,
+					2.15499997138977,
+					0.0
+				]
+			},
+			{
+				"name": "DEF-pelvis",
+				"position": [
+					0.0,
+					1.09999990463257,
+					0.0
+				],
+				"target_position": [
+					0.0,
+					1.09999990463257,
+					0.0
+				]
+			},
+			{
+				"name": "Hair.00.0",
+				"position": [
+					-0.0119273588061333,
+					2.82656478881836,
+					0.265157163143158
+				],
+				"target_position": [
+					-0.0599999986588955,
+					2.99499988555908,
+					0.129999995231628
+				]
+			},
+			{
+				"name": "Hair.00.1",
+				"position": [
+					0.0414887741208076,
+					2.44530463218689,
+					0.411960005760193
+				],
+				"target_position": [
+					0.0361454077064991,
+					2.65813016891479,
+					0.400313943624496
+				]
+			},
+			{
+				"name": "Hair.00.2",
+				"position": [
+					0.0184161942452192,
+					2.16373896598816,
+					0.426803112030029
+				],
+				"target_position": [
+					0.0468321777880192,
+					2.23247814178467,
+					0.423606246709824
+				]
+			},
+			{
+				"name": "Hair.01.0",
+				"position": [
+					0.0717939212918282,
+					2.31531643867493,
+					0.42359584569931
+				],
+				"target_position": [
+					0.0599999986588955,
+					2.36500000953674,
+					0.419999986886978
+				]
+			},
+			{
+				"name": "Hair.01.1",
+				"position": [
+					0.104739367961884,
+					2.21594166755676,
+					0.428964644670486
+				],
+				"target_position": [
+					0.0835876911878586,
+					2.26563310623169,
+					0.427191853523254
+				]
+			},
+			{
+				"name": "Hair.01.2",
+				"position": [
+					0.147945165634155,
+					2.13312530517578,
+					0.430368810892105
+				],
+				"target_position": [
+					0.125890761613846,
+					2.16625046730042,
+					0.430737495422363
+				]
+			},
+			{
+				"name": "Hair.02.0",
+				"position": [
+					-0.301122218370438,
+					2.78421449661255,
+					0.263080656528473
+				],
+				"target_position": [
+					-0.180000007152557,
+					2.9449999332428,
+					0.150000005960464
+				]
+			},
+			{
+				"name": "Hair.02.1",
+				"position": [
+					-0.469890356063843,
+					2.36881756782532,
+					0.367448389530182
+				],
+				"target_position": [
+					-0.42224457859993,
+					2.6234290599823,
+					0.376161336898804
+				]
+			},
+			{
+				"name": "Hair.02.2",
+				"position": [
+					-0.433767944574356,
+					1.98960411548615,
+					0.329367637634277
+				],
+				"target_position": [
+					-0.517535924911499,
+					2.11420702934265,
+					0.358735322952271
+				]
+			},
+			{
+				"name": "Hair.03.0",
+				"position": [
+					-0.477286100387573,
+					2.68789577484131,
+					0.147340461611748
+				],
+				"target_position": [
+					-0.340000003576279,
+					2.88499999046326,
+					0.0199999995529652
+				]
+			},
+			{
+				"name": "Hair.03.1",
+				"position": [
+					-0.621833324432373,
+					2.2478666305542,
+					0.266114503145218
+				],
+				"target_position": [
+					-0.61457222700119,
+					2.49079179763794,
+					0.274680882692337
+				]
+			},
+			{
+				"name": "Hair.03.2",
+				"position": [
+					-0.54954731464386,
+					1.87997043132782,
+					0.218773931264877
+				],
+				"target_position": [
+					-0.629094481468201,
+					2.0049409866333,
+					0.257548034191132
+				]
+			},
+			{
+				"name": "Hair.04.0",
+				"position": [
+					-0.586120188236237,
+					2.62172722816467,
+					0.0108360685408115
+				],
+				"target_position": [
+					-0.479999989271164,
+					2.7649998664856,
+					-0.0599999986588955
+				]
+			},
+			{
+				"name": "Hair.04.1",
+				"position": [
+					-0.700634360313416,
+					2.28974366188049,
+					0.095553994178772
+				],
+				"target_position": [
+					-0.692240357398987,
+					2.47845458984375,
+					0.0816719830036163
+				]
+			},
+			{
+				"name": "Hair.04.2",
+				"position": [
+					-0.679514050483704,
+					1.94801652431488,
+					0.0847178772091866
+				],
+				"target_position": [
+					-0.709028363227844,
+					2.10103273391724,
+					0.109435960650444
+				]
+			},
+			{
+				"name": "Hair.05.0",
+				"position": [
+					-0.537402510643005,
+					2.1725959777832,
+					-0.269105911254883
+				],
+				"target_position": [
+					-0.439999997615814,
+					2.68499994277954,
+					-0.200000002980232
+				]
+			},
+			{
+				"name": "Hair.05.1",
+				"position": [
+					-0.633410513401031,
+					1.42243540287018,
+					-0.236244529485703
+				],
+				"target_position": [
+					-0.63480544090271,
+					1.66019153594971,
+					-0.338211566209793
+				]
+			},
+			{
+				"name": "Hair.05.2",
+				"position": [
+					-0.641007602214813,
+					1.08983910083771,
+					-0.0921384543180466
+				],
+				"target_position": [
+					-0.632015228271484,
+					1.18467903137207,
+					-0.134277328848839
+				]
+			},
+			{
+				"name": "Hair.06.0",
+				"position": [
+					-0.361867517232895,
+					2.22241187095642,
+					-0.423598408699036
+				],
+				"target_position": [
+					-0.28999999165535,
+					2.75500011444092,
+					-0.389999985694885
+				]
+			},
+			{
+				"name": "Hair.06.1",
+				"position": [
+					-0.407201111316681,
+					1.45095002651215,
+					-0.355815023183823
+				],
+				"target_position": [
+					-0.433735817670822,
+					1.68982267379761,
+					-0.457196176052094
+				]
+			},
+			{
+				"name": "Hair.06.2",
+				"position": [
+					-0.385332673788071,
+					1.11853766441345,
+					-0.212216109037399
+				],
+				"target_position": [
+					-0.380665481090546,
+					1.21207690238953,
+					-0.254433393478394
+				]
+			},
+			{
+				"name": "Hair.07.0",
+				"position": [
+					-0.663183391094208,
+					2.03552651405334,
+					-0.0543177574872971
+				],
+				"target_position": [
+					-0.579999983310699,
+					2.27499985694885,
+					-0.0399999991059303
+				]
+			},
+			{
+				"name": "Hair.07.1",
+				"position": [
+					-0.811529755592346,
+					1.65617513656616,
+					-0.0305918492376804
+				],
+				"target_position": [
+					-0.746366858482361,
+					1.79605388641357,
+					-0.068635381758213
+				]
+			},
+			{
+				"name": "Hair.07.2",
+				"position": [
+					-0.788346409797668,
+					1.47564852237701,
+					0.0287260711193085
+				],
+				"target_position": [
+					-0.876692771911621,
+					1.51629650592804,
+					0.00745183974504471
+				]
+			},
+			{
+				"name": "Hair.08.0",
+				"position": [
+					0.301122218370438,
+					2.78421449661255,
+					0.263080656528473
+				],
+				"target_position": [
+					0.180000007152557,
+					2.9449999332428,
+					0.150000005960464
+				]
+			},
+			{
+				"name": "Hair.08.1",
+				"position": [
+					0.469890356063843,
+					2.36881756782532,
+					0.367448389530182
+				],
+				"target_position": [
+					0.42224457859993,
+					2.6234290599823,
+					0.376161336898804
+				]
+			},
+			{
+				"name": "Hair.08.2",
+				"position": [
+					0.433767944574356,
+					1.98960411548615,
+					0.329367637634277
+				],
+				"target_position": [
+					0.517535924911499,
+					2.11420702934265,
+					0.358735322952271
+				]
+			},
+			{
+				"name": "Hair.09.0",
+				"position": [
+					0.477286100387573,
+					2.68789577484131,
+					0.147340461611748
+				],
+				"target_position": [
+					0.340000003576279,
+					2.88499999046326,
+					0.0199999995529652
+				]
+			},
+			{
+				"name": "Hair.09.1",
+				"position": [
+					0.621833324432373,
+					2.2478666305542,
+					0.266114503145218
+				],
+				"target_position": [
+					0.61457222700119,
+					2.49079179763794,
+					0.274680882692337
+				]
+			},
+			{
+				"name": "Hair.09.2",
+				"position": [
+					0.54954731464386,
+					1.87997043132782,
+					0.218773931264877
+				],
+				"target_position": [
+					0.629094481468201,
+					2.0049409866333,
+					0.257548034191132
+				]
+			},
+			{
+				"name": "Hair.10.0",
+				"position": [
+					0.586120188236237,
+					2.62172722816467,
+					0.0108360685408115
+				],
+				"target_position": [
+					0.479999989271164,
+					2.7649998664856,
+					-0.0599999986588955
+				]
+			},
+			{
+				"name": "Hair.10.1",
+				"position": [
+					0.700634360313416,
+					2.28974366188049,
+					0.095553994178772
+				],
+				"target_position": [
+					0.692240357398987,
+					2.47845458984375,
+					0.0816719830036163
+				]
+			},
+			{
+				"name": "Hair.10.2",
+				"position": [
+					0.679514050483704,
+					1.94801652431488,
+					0.0847178772091866
+				],
+				"target_position": [
+					0.709028363227844,
+					2.10103273391724,
+					0.109435960650444
+				]
+			},
+			{
+				"name": "Hair.11.0",
+				"position": [
+					0.537402510643005,
+					2.1725959777832,
+					-0.269105911254883
+				],
+				"target_position": [
+					0.439999997615814,
+					2.68499994277954,
+					-0.200000002980232
+				]
+			},
+			{
+				"name": "Hair.11.1",
+				"position": [
+					0.633410513401031,
+					1.42243540287018,
+					-0.236244529485703
+				],
+				"target_position": [
+					0.63480544090271,
+					1.66019153594971,
+					-0.338211566209793
+				]
+			},
+			{
+				"name": "Hair.11.2",
+				"position": [
+					0.641007602214813,
+					1.08983910083771,
+					-0.0921384543180466
+				],
+				"target_position": [
+					0.632015228271484,
+					1.18467903137207,
+					-0.134277328848839
+				]
+			},
+			{
+				"name": "Hair.12.0",
+				"position": [
+					0.361867517232895,
+					2.22241187095642,
+					-0.423598408699036
+				],
+				"target_position": [
+					0.28999999165535,
+					2.75500011444092,
+					-0.389999985694885
+				]
+			},
+			{
+				"name": "Hair.12.1",
+				"position": [
+					0.407201111316681,
+					1.45095002651215,
+					-0.355815023183823
+				],
+				"target_position": [
+					0.433735817670822,
+					1.68982267379761,
+					-0.457196176052094
+				]
+			},
+			{
+				"name": "Hair.12.2",
+				"position": [
+					0.385332673788071,
+					1.11853766441345,
+					-0.212216109037399
+				],
+				"target_position": [
+					0.380665481090546,
+					1.21207690238953,
+					-0.254433393478394
+				]
+			},
+			{
+				"name": "Hair.13.0",
+				"position": [
+					0.663183391094208,
+					2.03552651405334,
+					-0.0543177574872971
+				],
+				"target_position": [
+					0.579999983310699,
+					2.27499985694885,
+					-0.0399999991059303
+				]
+			},
+			{
+				"name": "Hair.13.1",
+				"position": [
+					0.811529755592346,
+					1.65617513656616,
+					-0.0305918492376804
+				],
+				"target_position": [
+					0.746366858482361,
+					1.79605388641357,
+					-0.068635381758213
+				]
+			},
+			{
+				"name": "Hair.13.2",
+				"position": [
+					0.788346409797668,
+					1.47564852237701,
+					0.0287260711193085
+				],
+				"target_position": [
+					0.876692771911621,
+					1.51629650592804,
+					0.00745183974504471
+				]
+			},
+			{
+				"name": "Hair.14.0",
+				"position": [
+					-0.00220500002615154,
+					2.34700989723206,
+					-0.475647509098053
+				],
+				"target_position": [
+					0.0,
+					2.73499989509583,
+					-0.430000007152557
+				]
+			},
+			{
+				"name": "Hair.14.1",
+				"position": [
+					0.00923500396311283,
+					1.66525018215179,
+					-0.454927146434784
+				],
+				"target_position": [
+					-0.00440999679267406,
+					1.95902013778687,
+					-0.52129465341568
+				]
+			},
+			{
+				"name": "Hair.14.2",
+				"position": [
+					0.0314400717616081,
+					1.22823989391327,
+					-0.339279443025589
+				],
+				"target_position": [
+					0.0228800680488348,
+					1.37147998809814,
+					-0.388559460639954
+				]
+			},
+			{
+				"name": "Hair.15.0",
+				"position": [
+					-0.0235812496393919,
+					3.12745237350464,
+					0.0299600008875132
+				],
+				"target_position": [
+					0.0,
+					2.96499991416931,
+					0.0299999993294477
+				]
+			},
+			{
+				"name": "Hair.15.1",
+				"position": [
+					-0.211461275815964,
+					3.24657273292542,
+					0.0244399849325418
+				],
+				"target_position": [
+					-0.0471625067293644,
+					3.28990507125854,
+					0.0299199856817722
+				]
+			},
+			{
+				"name": "Hair.15.2",
+				"position": [
+					-0.357880234718323,
+					3.14912056922913,
+					0.0344799868762493
+				],
+				"target_position": [
+					-0.375760197639465,
+					3.20324063301086,
+					0.0189599972218275
+				]
+			},
+			{
+				"name": "DEF-tail.0",
+				"position": [
+					0.349999994039536,
+					0.789999902248383,
+					-0.25
+				],
+				"target_position": [
+					0.25,
+					0.899999856948853,
+					-0.239999994635582
+				]
+			},
+			{
+				"name": "DEF-tail.1",
+				"position": [
+					0.549999952316284,
+					0.590000033378601,
+					-0.269999980926514
+				],
+				"target_position": [
+					0.449999958276749,
+					0.680000007152557,
+					-0.259999960660934
+				]
+			},
+			{
+				"name": "DEF-tail.2",
+				"position": [
+					0.749999940395355,
+					0.509999990463257,
+					-0.270000010728836
+				],
+				"target_position": [
+					0.649999916553497,
+					0.5,
+					-0.280000001192093
+				]
+			},
+			{
+				"name": "DEF-tail.3",
+				"position": [
+					0.949999928474426,
+					0.560000002384186,
+					-0.239999935030937
+				],
+				"target_position": [
+					0.849999964237213,
+					0.519999980926514,
+					-0.259999930858612
+				]
+			},
+			{
+				"name": "DEF-tail.4",
+				"position": [
+					1.1049998998642,
+					0.635000109672546,
+					-0.209999948740005
+				],
+				"target_position": [
+					1.04999983310699,
+					0.600000083446503,
+					-0.219999939203262
+				]
+			}
+		],
+		"body_contact_count": 47,
+		"bound": [
+			{
+				"contacts": "authored convex proxies",
+				"mode": "kinematic anchor",
+				"name": "Hair.HeadAnchor",
+				"simulated": false
+			},
+			{
+				"contacts": "authored convex proxies",
+				"mode": "kinematic anchor",
+				"name": "DEF-pelvis",
+				"simulated": false
+			},
+			{
+				"bone_id": 17,
+				"joint": "6DOF angular spring",
+				"length": 0.442487575850263,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.00.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 18,
+				"joint": "6DOF angular spring",
+				"length": 0.426422059497585,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.199354383430029,
+				"mode": "dynamic",
+				"name": "Hair.00.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 19,
+				"joint": "6DOF angular spring",
+				"length": 0.14889947187869,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.117155654871882,
+				"mode": "dynamic",
+				"name": "Hair.00.2",
+				"radius": 0.0445191487669945
+			},
+			{
+				"bone_id": 20,
+				"joint": "6DOF angular spring",
+				"length": 0.102381327658904,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.0996646699220672,
+				"mode": "dynamic",
+				"name": "Hair.01.0",
+				"radius": 0.0378725752234459
+			},
+			{
+				"bone_id": 21,
+				"joint": "6DOF angular spring",
+				"length": 0.108069667357721,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.0955269466728049,
+				"mode": "dynamic",
+				"name": "Hair.01.1",
+				"radius": 0.0363002382218838
+			},
+			{
+				"bone_id": 22,
+				"joint": "6DOF angular spring",
+				"length": 0.0795942039718011,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.0680040426985593,
+				"mode": "dynamic",
+				"name": "Hair.01.2",
+				"radius": 0.025841536000371
+			},
+			{
+				"bone_id": 23,
+				"joint": "6DOF angular spring",
+				"length": 0.461778382905732,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.174148898490777,
+				"mode": "dynamic",
+				"name": "Hair.02.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 24,
+				"joint": "6DOF angular spring",
+				"length": 0.518355249834607,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.166267898965605,
+				"mode": "dynamic",
+				"name": "Hair.02.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 25,
+				"joint": "6DOF angular spring",
+				"length": 0.305976609621223,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.166267898965605,
+				"mode": "dynamic",
+				"name": "Hair.02.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 26,
+				"joint": "6DOF angular spring",
+				"length": 0.543739567579842,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.179555224766281,
+				"mode": "dynamic",
+				"name": "Hair.03.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 27,
+				"joint": "6DOF angular spring",
+				"length": 0.486369172271476,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.172688859365953,
+				"mode": "dynamic",
+				"name": "Hair.03.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 28,
+				"joint": "6DOF angular spring",
+				"length": 0.306260124958786,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.162446886072518,
+				"mode": "dynamic",
+				"name": "Hair.03.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 29,
+				"joint": "6DOF angular spring",
+				"length": 0.383699333825551,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.126550370278256,
+				"mode": "dynamic",
+				"name": "Hair.04.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 30,
+				"joint": "6DOF angular spring",
+				"length": 0.378814097847845,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.131822889066389,
+				"mode": "dynamic",
+				"name": "Hair.04.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 31,
+				"joint": "6DOF angular spring",
+				"length": 0.315569686749234,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.111480334801063,
+				"mode": "dynamic",
+				"name": "Hair.04.2",
+				"radius": 0.0423625260591507
+			},
+			{
+				"bone_id": 32,
+				"joint": "6DOF angular spring",
+				"length": 1.05227486998116,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.05.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 33,
+				"joint": "6DOF angular spring",
+				"length": 0.517405856350961,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.05.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 34,
+				"joint": "6DOF angular spring",
+				"length": 0.208337812023215,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.179341024113143,
+				"mode": "dynamic",
+				"name": "Hair.05.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 35,
+				"joint": "6DOF angular spring",
+				"length": 1.07692904801725,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.06.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 36,
+				"joint": "6DOF angular spring",
+				"length": 0.521698627097773,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.06.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 37,
+				"joint": "6DOF angular spring",
+				"length": 0.205462111997004,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.167027561985592,
+				"mode": "dynamic",
+				"name": "Hair.06.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 38,
+				"joint": "6DOF angular spring",
+				"length": 0.507826335940865,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.159166455084535,
+				"mode": "dynamic",
+				"name": "Hair.07.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 39,
+				"joint": "6DOF angular spring",
+				"length": 0.317865213436461,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.174341922516671,
+				"mode": "dynamic",
+				"name": "Hair.07.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 40,
+				"joint": "6DOF angular spring",
+				"length": 0.199097226105296,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.130992644799201,
+				"mode": "dynamic",
+				"name": "Hair.07.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 41,
+				"joint": "6DOF angular spring",
+				"length": 0.461778382905732,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.174148898490777,
+				"mode": "dynamic",
+				"name": "Hair.08.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 42,
+				"joint": "6DOF angular spring",
+				"length": 0.518355249834607,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.166267898965605,
+				"mode": "dynamic",
+				"name": "Hair.08.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 43,
+				"joint": "6DOF angular spring",
+				"length": 0.305976609621223,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.166267898965605,
+				"mode": "dynamic",
+				"name": "Hair.08.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 44,
+				"joint": "6DOF angular spring",
+				"length": 0.543739567579842,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.179555224766281,
+				"mode": "dynamic",
+				"name": "Hair.09.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 45,
+				"joint": "6DOF angular spring",
+				"length": 0.486369172271476,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.172688859365953,
+				"mode": "dynamic",
+				"name": "Hair.09.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 46,
+				"joint": "6DOF angular spring",
+				"length": 0.306260124958786,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.162446886072518,
+				"mode": "dynamic",
+				"name": "Hair.09.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 47,
+				"joint": "6DOF angular spring",
+				"length": 0.383699333825551,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.126550370278256,
+				"mode": "dynamic",
+				"name": "Hair.10.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 48,
+				"joint": "6DOF angular spring",
+				"length": 0.378814097847845,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.131822889066389,
+				"mode": "dynamic",
+				"name": "Hair.10.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 49,
+				"joint": "6DOF angular spring",
+				"length": 0.315569686749234,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.111480334801063,
+				"mode": "dynamic",
+				"name": "Hair.10.2",
+				"radius": 0.0423625260591507
+			},
+			{
+				"bone_id": 50,
+				"joint": "6DOF angular spring",
+				"length": 1.05227486998116,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.11.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 51,
+				"joint": "6DOF angular spring",
+				"length": 0.517405856350961,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.11.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 52,
+				"joint": "6DOF angular spring",
+				"length": 0.208337812023215,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.179341024113143,
+				"mode": "dynamic",
+				"name": "Hair.11.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 53,
+				"joint": "6DOF angular spring",
+				"length": 1.07692904801725,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.12.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 54,
+				"joint": "6DOF angular spring",
+				"length": 0.521698627097773,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.12.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 55,
+				"joint": "6DOF angular spring",
+				"length": 0.205462111997004,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.167027561985592,
+				"mode": "dynamic",
+				"name": "Hair.12.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 56,
+				"joint": "6DOF angular spring",
+				"length": 0.507826335940865,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.159166455084535,
+				"mode": "dynamic",
+				"name": "Hair.13.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 57,
+				"joint": "6DOF angular spring",
+				"length": 0.317865213436461,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.174341922516671,
+				"mode": "dynamic",
+				"name": "Hair.13.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 58,
+				"joint": "6DOF angular spring",
+				"length": 0.199097226105296,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.130992644799201,
+				"mode": "dynamic",
+				"name": "Hair.13.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 59,
+				"joint": "6DOF angular spring",
+				"length": 0.781344356342985,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.14.0",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 60,
+				"joint": "6DOF angular spring",
+				"length": 0.602964848009695,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.14.1",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 61,
+				"joint": "6DOF angular spring",
+				"length": 0.303443697589614,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "Hair.14.2",
+				"radius": 0.0480000004172325
+			},
+			{
+				"bone_id": 62,
+				"joint": "6DOF angular spring",
+				"length": 0.32831008993044,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.0992979973028384,
+				"mode": "dynamic",
+				"name": "Hair.15.0",
+				"radius": 0.0377332381904125
+			},
+			{
+				"bone_id": 63,
+				"joint": "6DOF angular spring",
+				"length": 0.340010700139907,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.0980209514363926,
+				"mode": "dynamic",
+				"name": "Hair.15.1",
+				"radius": 0.0372479632496834
+			},
+			{
+				"bone_id": 64,
+				"joint": "6DOF angular spring",
+				"length": 0.118144749016734,
+				"limit": 0.34,
+				"mass": 0.0179999992251396,
+				"measured_mesh_radius": 0.0680777213809261,
+				"mode": "dynamic",
+				"name": "Hair.15.2",
+				"radius": 0.0258695334196091
+			},
+			{
+				"bone_id": 133,
+				"joint": "6DOF angular spring",
+				"length": 0.297993255060571,
+				"limit": 0.45,
+				"mass": 0.0450000017881393,
+				"measured_mesh_radius": 0.0762830873392369,
+				"mode": "dynamic",
+				"name": "DEF-tail.0",
+				"radius": 0.0289875734597445
+			},
+			{
+				"bone_id": 134,
+				"joint": "6DOF angular spring",
+				"length": 0.269814745052079,
+				"limit": 0.45,
+				"mass": 0.0450000017881393,
+				"measured_mesh_radius": 0.182838881719108,
+				"mode": "dynamic",
+				"name": "DEF-tail.1",
+				"radius": 0.0649999976158142
+			},
+			{
+				"bone_id": 135,
+				"joint": "6DOF angular spring",
+				"length": 0.201990141818926,
+				"limit": 0.45,
+				"mass": 0.0450000017881393,
+				"measured_mesh_radius": 0.150281086537811,
+				"mode": "dynamic",
+				"name": "DEF-tail.2",
+				"radius": 0.0571068115532398
+			},
+			{
+				"bone_id": 136,
+				"joint": "6DOF angular spring",
+				"length": 0.219088975600426,
+				"limit": 0.45,
+				"mass": 0.0450000017881393,
+				"measured_mesh_radius": 0.125653832069528,
+				"mode": "dynamic",
+				"name": "DEF-tail.3",
+				"radius": 0.0477484576404095
+			},
+			{
+				"bone_id": 137,
+				"joint": "6DOF angular spring",
+				"length": 0.131909066024935,
+				"limit": 0.45,
+				"mass": 0.0450000017881393,
+				"measured_mesh_radius": 0.2,
+				"mode": "dynamic",
+				"name": "DEF-tail.4",
+				"radius": 0.0649999976158142
+			}
+		],
+		"collision_layers": {
+			"body_proxies": 16,
+			"cloth": 8,
+			"cup": 2,
+			"hair": 32,
+			"root": 4,
+			"tail": 64,
+			"world": 1
+		},
+		"dynamic_count": 53,
+		"excluded_dynamic_duplicates": [
+			"DEF-tail.0",
+			"DEF-tail.1",
+			"DEF-tail.2",
+			"DEF-tail.3",
+			"DEF-tail.4"
+		],
+		"maximum_bone_position": 0.0,
+		"measured_joints": [
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.00000000372529029846191,
+				"name": "Hair.00.0",
+				"relative_origin": [
+					-0.0600000023841858,
+					0.839999914169312,
+					0.129999995231628
+				],
+				"rest_relative_origin": [
+					-0.0599999986588955,
+					0.839999914169312,
+					0.129999995231628
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000266560078898692,
+				"name": "Hair.00.1",
+				"relative_origin": [
+					0.000000238418579101563,
+					0.442486882209778,
+					0.0
+				],
+				"rest_relative_origin": [
+					0.000000357627868652344,
+					0.442487120628357,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000481989786749182,
+				"name": "Hair.00.2",
+				"relative_origin": [
+					-0.0000000372529029846191,
+					0.426423311233521,
+					0.0
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.426422834396362,
+					-0.0000000596046447753906
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.00000000372529029846191,
+				"name": "Hair.01.0",
+				"relative_origin": [
+					0.0599999949336052,
+					0.210000038146973,
+					0.419999986886978
+				],
+				"rest_relative_origin": [
+					0.0599999986588955,
+					0.210000038146973,
+					0.419999986886978
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000509262292780477,
+				"name": "Hair.01.1",
+				"relative_origin": [
+					-0.000000119209289550781,
+					0.102381229400635,
+					-0.000000149011611938477
+				],
+				"rest_relative_origin": [
+					0.0000000596046447753906,
+					0.102380752563477,
+					-0.000000149011611938477
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000357627868652344,
+				"name": "Hair.01.2",
+				"relative_origin": [
+					-0.000000119209289550781,
+					0.108069181442261,
+					-0.000000119209289550781
+				],
+				"rest_relative_origin": [
+					-0.000000119209289550781,
+					0.108069539070129,
+					-0.000000119209289550781
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0000000421468477895814,
+				"name": "Hair.02.0",
+				"relative_origin": [
+					-0.18000003695488,
+					0.789999961853027,
+					0.150000035762787
+				],
+				"rest_relative_origin": [
+					-0.180000007152557,
+					0.789999961853027,
+					0.150000005960464
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000268220901489258,
+				"name": "Hair.02.1",
+				"relative_origin": [
+					-0.000000238418579101563,
+					0.461778402328491,
+					0.0
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.461778283119202,
+					-0.0000000298023223876953
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000245756240246919,
+				"name": "Hair.02.2",
+				"relative_origin": [
+					0.0000000596046447753906,
+					0.518354177474976,
+					0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					0.0000000596046447753906,
+					0.518353939056396,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0000000318288932987798,
+				"name": "Hair.03.0",
+				"relative_origin": [
+					-0.340000033378601,
+					0.730000019073486,
+					0.0200000107288361
+				],
+				"rest_relative_origin": [
+					-0.340000003576279,
+					0.730000019073486,
+					0.0199999995529652
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.000000133280039449346,
+				"name": "Hair.03.1",
+				"relative_origin": [
+					-0.000000238418579101563,
+					0.543739318847656,
+					-0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					-0.000000238418579101563,
+					0.543739199638367,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000238418579101563,
+				"name": "Hair.03.2",
+				"relative_origin": [
+					0.0000000596046447753906,
+					0.486369490623474,
+					0.000000044703483581543
+				],
+				"rest_relative_origin": [
+					0.0000000596046447753906,
+					0.486369729042053,
+					0.000000044703483581543
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0000000307195300308649,
+				"name": "Hair.04.0",
+				"relative_origin": [
+					-0.480000019073486,
+					0.609999895095825,
+					-0.0599999912083149
+				],
+				"rest_relative_origin": [
+					-0.479999989271164,
+					0.609999895095825,
+					-0.0599999986588955
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0009765625,
+				"linear_joint_error": 0.0000000596046447753906,
+				"name": "Hair.04.1",
+				"relative_origin": [
+					0.0,
+					0.383699178695679,
+					0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.383699178695679,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000120137002568299,
+				"name": "Hair.04.2",
+				"relative_origin": [
+					0.0000000596046447753906,
+					0.378813982009888,
+					0.0
+				],
+				"rest_relative_origin": [
+					-0.0000000596046447753906,
+					0.378813982009888,
+					0.0000000149011611938477
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000240274005136598,
+				"name": "Hair.05.0",
+				"relative_origin": [
+					-0.439999967813492,
+					0.529999732971191,
+					-0.200000002980232
+				],
+				"rest_relative_origin": [
+					-0.439999997615814,
+					0.529999971389771,
+					-0.200000002980232
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000367427702485656,
+				"name": "Hair.05.1",
+				"relative_origin": [
+					-0.0000000596046447753906,
+					1.05227541923523,
+					-0.000000119209289550781
+				],
+				"rest_relative_origin": [
+					-0.000000119209289550781,
+					1.05227506160736,
+					-0.0000000596046447753906
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000378149081825541,
+				"name": "Hair.05.2",
+				"relative_origin": [
+					0.000000238418579101563,
+					0.517406105995178,
+					0.0000000298023223876953
+				],
+				"rest_relative_origin": [
+					0.000000119209289550781,
+					0.51740574836731,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.0000000298023223876953,
+				"name": "Hair.06.0",
+				"relative_origin": [
+					-0.28999999165535,
+					0.600000143051147,
+					-0.390000015497208
+				],
+				"rest_relative_origin": [
+					-0.28999999165535,
+					0.600000143051147,
+					-0.389999985694885
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.00000113248825073242,
+				"name": "Hair.06.1",
+				"relative_origin": [
+					0.000000834465026855469,
+					1.07693004608154,
+					-0.000000298023223876953
+				],
+				"rest_relative_origin": [
+					-0.0000000596046447753906,
+					1.0769294500351,
+					0.0000000596046447753906
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.00000092158592224223,
+				"name": "Hair.06.2",
+				"relative_origin": [
+					0.000000894069671630859,
+					0.521699070930481,
+					0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					0.000000044703483581543,
+					0.521698713302612,
+					0.0000000596046447753906
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.00000000372529029846191,
+				"name": "Hair.07.0",
+				"relative_origin": [
+					-0.579999983310699,
+					0.119999885559082,
+					-0.0400000028312206
+				],
+				"rest_relative_origin": [
+					-0.579999983310699,
+					0.119999885559082,
+					-0.0399999991059303
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.000000119209289550781,
+				"name": "Hair.07.1",
+				"relative_origin": [
+					-0.000000119209289550781,
+					0.50782585144043,
+					0.0
+				],
+				"rest_relative_origin": [
+					-0.000000119209289550781,
+					0.507825970649719,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000238418579101563,
+				"name": "Hair.07.2",
+				"relative_origin": [
+					-0.000000119209289550781,
+					0.317865133285522,
+					-0.0000000298023223876953
+				],
+				"rest_relative_origin": [
+					-0.000000119209289550781,
+					0.317865371704102,
+					-0.0000000298023223876953
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0000000421468477895814,
+				"name": "Hair.08.0",
+				"relative_origin": [
+					0.18000003695488,
+					0.789999961853027,
+					0.150000035762787
+				],
+				"rest_relative_origin": [
+					0.180000007152557,
+					0.789999961853027,
+					0.150000005960464
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000268220901489258,
+				"name": "Hair.08.1",
+				"relative_origin": [
+					0.000000238418579101563,
+					0.461778402328491,
+					0.0
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.461778283119202,
+					-0.0000000298023223876953
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000245756240246919,
+				"name": "Hair.08.2",
+				"relative_origin": [
+					-0.0000000596046447753906,
+					0.518354177474976,
+					0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					-0.0000000596046447753906,
+					0.518353939056396,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0000000318288932987798,
+				"name": "Hair.09.0",
+				"relative_origin": [
+					0.340000033378601,
+					0.730000019073486,
+					0.0200000107288361
+				],
+				"rest_relative_origin": [
+					0.340000003576279,
+					0.730000019073486,
+					0.0199999995529652
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.000000133280039449346,
+				"name": "Hair.09.1",
+				"relative_origin": [
+					0.000000238418579101563,
+					0.543739318847656,
+					-0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					0.000000238418579101563,
+					0.543739199638367,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000238418579101563,
+				"name": "Hair.09.2",
+				"relative_origin": [
+					-0.0000000596046447753906,
+					0.486369490623474,
+					0.000000044703483581543
+				],
+				"rest_relative_origin": [
+					-0.0000000596046447753906,
+					0.486369729042053,
+					0.000000044703483581543
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0000000307195300308649,
+				"name": "Hair.10.0",
+				"relative_origin": [
+					0.480000019073486,
+					0.609999895095825,
+					-0.0599999912083149
+				],
+				"rest_relative_origin": [
+					0.479999989271164,
+					0.609999895095825,
+					-0.0599999986588955
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0009765625,
+				"linear_joint_error": 0.0000000596046447753906,
+				"name": "Hair.10.1",
+				"relative_origin": [
+					0.0,
+					0.383699178695679,
+					0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.383699178695679,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000120137002568299,
+				"name": "Hair.10.2",
+				"relative_origin": [
+					-0.0000000596046447753906,
+					0.378813982009888,
+					0.0
+				],
+				"rest_relative_origin": [
+					0.0000000596046447753906,
+					0.378813982009888,
+					0.0000000149011611938477
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000240274005136598,
+				"name": "Hair.11.0",
+				"relative_origin": [
+					0.439999967813492,
+					0.529999732971191,
+					-0.200000002980232
+				],
+				"rest_relative_origin": [
+					0.439999997615814,
+					0.529999971389771,
+					-0.200000002980232
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000367427702485656,
+				"name": "Hair.11.1",
+				"relative_origin": [
+					0.0000000596046447753906,
+					1.05227541923523,
+					-0.000000119209289550781
+				],
+				"rest_relative_origin": [
+					0.000000119209289550781,
+					1.05227506160736,
+					-0.0000000596046447753906
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000378149081825541,
+				"name": "Hair.11.2",
+				"relative_origin": [
+					-0.000000238418579101563,
+					0.517406105995178,
+					0.0000000298023223876953
+				],
+				"rest_relative_origin": [
+					-0.000000119209289550781,
+					0.51740574836731,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.0000000298023223876953,
+				"name": "Hair.12.0",
+				"relative_origin": [
+					0.28999999165535,
+					0.600000143051147,
+					-0.390000015497208
+				],
+				"rest_relative_origin": [
+					0.28999999165535,
+					0.600000143051147,
+					-0.389999985694885
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.00000113248825073242,
+				"name": "Hair.12.1",
+				"relative_origin": [
+					-0.000000834465026855469,
+					1.07693004608154,
+					-0.000000298023223876953
+				],
+				"rest_relative_origin": [
+					0.0000000596046447753906,
+					1.0769294500351,
+					0.0000000596046447753906
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.00000092158592224223,
+				"name": "Hair.12.2",
+				"relative_origin": [
+					-0.000000894069671630859,
+					0.521699070930481,
+					0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					-0.000000044703483581543,
+					0.521698713302612,
+					0.0000000596046447753906
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.00000000372529029846191,
+				"name": "Hair.13.0",
+				"relative_origin": [
+					0.579999983310699,
+					0.119999885559082,
+					-0.0400000028312206
+				],
+				"rest_relative_origin": [
+					0.579999983310699,
+					0.119999885559082,
+					-0.0399999991059303
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.000000119209289550781,
+				"name": "Hair.13.1",
+				"relative_origin": [
+					0.000000119209289550781,
+					0.50782585144043,
+					0.0
+				],
+				"rest_relative_origin": [
+					0.000000119209289550781,
+					0.507825970649719,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000238418579101563,
+				"name": "Hair.13.2",
+				"relative_origin": [
+					0.000000119209289550781,
+					0.317865133285522,
+					-0.0000000298023223876953
+				],
+				"rest_relative_origin": [
+					0.000000119209289550781,
+					0.317865371704102,
+					-0.0000000298023223876953
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0,
+				"name": "Hair.14.0",
+				"relative_origin": [
+					0.0,
+					0.579999923706055,
+					-0.430000007152557
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.579999923706055,
+					-0.430000007152557
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.000000141490545502165,
+				"name": "Hair.14.1",
+				"relative_origin": [
+					0.0000000465661287307739,
+					0.781344056129456,
+					-0.000000119209289550781
+				],
+				"rest_relative_origin": [
+					-0.000000000931322574615479,
+					0.781344175338745,
+					-0.0000000596046447753906
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000599760141994921,
+				"name": "Hair.14.2",
+				"relative_origin": [
+					0.0000000670552253723145,
+					0.602965235710144,
+					0.0000000298023223876953
+				],
+				"rest_relative_origin": [
+					0.00000000745058059692383,
+					0.602964639663696,
+					0.0
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.00000000186264514923096,
+				"name": "Hair.15.0",
+				"relative_origin": [
+					0.00000000186264514923096,
+					0.809999942779541,
+					0.0299999993294477
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.809999942779541,
+					0.0299999993294477
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0000000333200098623365,
+				"name": "Hair.15.1",
+				"relative_origin": [
+					0.0000000894069671630859,
+					0.328310251235962,
+					0.00000000745058059692383
+				],
+				"rest_relative_origin": [
+					0.0000000596046447753906,
+					0.328310251235962,
+					-0.00000000745058059692383
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000492415153985348,
+				"name": "Hair.15.2",
+				"relative_origin": [
+					-0.000000119209289550781,
+					0.340010792016983,
+					0.000000238418579101563
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.340010821819305,
+					0.000000715255737304688
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0,
+				"name": "DEF-tail.0",
+				"relative_origin": [
+					-0.250000029802322,
+					-0.200000047683716,
+					0.239999979734421
+				],
+				"rest_relative_origin": [
+					-0.250000029802322,
+					-0.200000047683716,
+					0.239999979734421
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000190827975643515,
+				"name": "DEF-tail.1",
+				"relative_origin": [
+					0.000000119209289550781,
+					0.297993093729019,
+					-0.0000000298023223876953
+				],
+				"rest_relative_origin": [
+					0.0,
+					0.297993242740631,
+					-0.0000000298023223876953
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.000000136571401299079,
+				"name": "DEF-tail.2",
+				"relative_origin": [
+					0.0,
+					0.269814789295197,
+					0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					0.000000119209289550781,
+					0.269814729690552,
+					0.0000000298023223876953
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.000690533954184502,
+				"linear_joint_error": 0.0000000421468477895814,
+				"name": "DEF-tail.3",
+				"relative_origin": [
+					0.0,
+					0.201990187168121,
+					-0.0000000596046447753906
+				],
+				"rest_relative_origin": [
+					-0.0000000298023223876953,
+					0.201990187168121,
+					-0.0000000298023223876953
+				],
+				"speed": 0.0
+			},
+			{
+				"angle_from_rest": 0.0,
+				"linear_joint_error": 0.0000000298023223876953,
+				"name": "DEF-tail.4",
+				"relative_origin": [
+					0.0000000596046447753906,
+					0.219088912010193,
+					0.0
+				],
+				"rest_relative_origin": [
+					0.0000000298023223876953,
+					0.219088912010193,
+					0.0
+				],
+				"speed": 0.0
+			}
+		],
+		"missing_terminal_lengths": [],
+		"simulating": false,
+		"solver": "Jolt PhysicalBoneSimulator3D / six-DOF angular springs",
+		"started": false
+	}
+}

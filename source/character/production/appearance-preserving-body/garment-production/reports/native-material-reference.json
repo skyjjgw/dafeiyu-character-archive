@@ -1,0 +1,28 @@
+{
+  "schema": "dafeiyu.garment-independent-actual-material-reference.v1",
+  "binarySha256": "c9a08f0e12196337ffac10783036f2d5473eb53d379abf76a9b09044f88cf5a3",
+  "layers": [
+    {
+      "layer": "outer",
+      "hinges": 5088,
+      "maximumForceComponentDifferenceN": 4.510235501048454e-13,
+      "expectedQuantizedRigidMaximumNodalForceN": 2.3097744366334107e-05,
+      "actualMaximumNodalForceN": 2.30977443663828e-05,
+      "passed": true,
+      "meaning": "Exact float32 transformed input changes angles slightly; nonzero residual is explained by that actual geometry, not an assumed exact rigid pose."
+    },
+    {
+      "layer": "lining",
+      "hinges": 3456,
+      "maximumForceComponentDifferenceN": 8.306061730339181e-13,
+      "expectedQuantizedRigidMaximumNodalForceN": 2.218177726902959e-05,
+      "actualMaximumNodalForceN": 2.21817772690107e-05,
+      "passed": true,
+      "meaning": "Exact float32 transformed input changes angles slightly; nonzero residual is explained by that actual geometry, not an assumed exact rigid pose."
+    }
+  ],
+  "passed": true,
+  "physicsPass": false,
+  "visualPass": false,
+  "scope": "Double NumPy analytical dihedral force evaluated independently on actual Godot float32 rest/current arrays. No simulation or animation frames."
+}

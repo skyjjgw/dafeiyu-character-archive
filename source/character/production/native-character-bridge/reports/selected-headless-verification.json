@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-28T10:32:59.737Z",
+  "profile": "selected-character-headless",
+  "rows": [
+    {
+      "test": "selected_scene_ready",
+      "ok": true
+    },
+    {
+      "test": "real_wave_cancel_and_unsupported_grasp_rejection",
+      "ok": true
+    }
+  ],
+  "stderr": "",
+  "scope": "Actual selected scene and bounded IPC, headless only. No GPU, appearance or final physics acceptance."
+}

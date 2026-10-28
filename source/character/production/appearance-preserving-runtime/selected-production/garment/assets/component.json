@@ -1,0 +1,966 @@
+{
+  "schema": "dafeiyu.selected-garment-component.v1",
+  "version": "1.0.0",
+  "status": "structural-and-binding-component-requires-native-physics-validation",
+  "sourceAppearance": "4348 selected girl; original maid costume, not rejected native art",
+  "provenance": {
+    "sourceCode": "appearance-baseline-20261027",
+    "construction": "volume-candidate/v2/hollow-skirt.mjs",
+    "constructionSha256": "7560b2fe6d340100c1c0a59d8707c20cff38972fec49739b12e58965f03b266c",
+    "priorVisual": "v2 limited_structural_improvement, final_quality=false"
+  },
+  "frames": {
+    "bindPositions": "Original source clothing mesh-local bind frame, Y up, +Z front. No root lift and no metre scaling.",
+    "neutralRootPositions": "Actual source22-skinned neutral t0 positions in original character root-local frame. No lift/scale.",
+    "worldConversion": "actor rigid transform * (0.35 * (neutralRootPosition + Vector3(0,1.055,0)))",
+    "metersPerSourceUnit": 0.35,
+    "rootLiftSourceUnits": 1.055,
+    "scaleMeaning": "Explicit demo scene calibration supplied by runtime, not a claim of author character dimensions",
+    "freePointRule": "Neutral root positions are initial rest only. Do not skin/pose/reset free solver points on animation frames.",
+    "pinRule": "Only complete top waist ring is hard fixed; update these positions from current source22 skinning, then apply lift and scale exactly once."
+  },
+  "layers": [
+    {
+      "id": "outer",
+      "solver": {
+        "positionsBind": "outer.solver.positionsBind",
+        "positionsNeutralRoot": "outer.solver.positionsNeutralRoot",
+        "triangles": "outer.solver.triangles",
+        "parametricUV": "outer.solver.parametricUV",
+        "joints": "outer.solver.joints",
+        "weights": "outer.solver.weights",
+        "lumpedAreaSourceSquared": "outer.solver.lumpedArea",
+        "waistPins": "outer.solver.waistPins",
+        "hemBoundary": "outer.solver.hemBoundary",
+        "pins": {
+          "mode": "hard",
+          "weight": 1,
+          "scope": "complete waist ring only",
+          "sourceSkinAttributes": true,
+          "singleBoneAttachmentCandidate": {
+            "index": 0,
+            "name": "pelvis / garment anchor",
+            "verified": true
+          }
+        },
+        "rows": 19,
+        "interiorSegments": 96,
+        "boundarySegments": 96,
+        "quality": {
+          "vertices": 1824,
+          "triangles": 3456,
+          "finite": true,
+          "indicesInRange": true,
+          "components": 1,
+          "boundaryEdges": 192,
+          "nonmanifoldEdges": 0,
+          "orientationConflicts": 0,
+          "euler": 0,
+          "minimumTriangleArea": 0.00026559962254008685,
+          "totalArea": 2.1779470472315077,
+          "edgeLength": {
+            "min": 0.015068682857094437,
+            "p10": 0.0227583399228599,
+            "median": 0.0413890188585708,
+            "p90": 0.05676068048165208,
+            "max": 0.10028121090832358
+          },
+          "edgeAspect": {
+            "median": 1.8664037549283476,
+            "p95": 2.595691251421439,
+            "max": 3.136609872920961
+          },
+          "minimumAngleDegrees": 18.516120125597176
+        }
+      },
+      "render": {
+        "positionsBind": "outer.render.positionsBind",
+        "positionsNeutralRoot": "outer.render.positionsNeutralRoot",
+        "normalsBind": "outer.render.normalsBind",
+        "triangles": "outer.render.triangles",
+        "attributes": {
+          "uv": "outer.render.uv",
+          "color": "outer.render.color",
+          "skinIndex": "outer.render.skinIndex",
+          "skinWeight": "outer.render.skinWeight",
+          "sideBlend": "outer.render.sideBlend",
+          "hemT": "outer.render.hemT"
+        },
+        "material": 0,
+        "sourceCanonicalVertex": "outer.render.canonicalVertex",
+        "mapping": {
+          "faceID": "outer.mapping.faceID",
+          "solverTriples": "outer.mapping.solverTriples",
+          "barycentric": "outer.mapping.barycentric",
+          "signedNormalOffset": "outer.mapping.signedNormalOffset",
+          "normalRule": "Normalized cross(currentB-currentA,currentC-currentA); no source pose target for free cloth vertices",
+          "restRule": "Bound render neutral is authoritative for component. Small tangent residual from former v2 is explicitly fitted, not pulled during simulation."
+        },
+        "quality": {
+          "vertices": 5568,
+          "triangles": 11136,
+          "finite": true,
+          "indicesInRange": true,
+          "components": 1,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0,
+          "orientationConflicts": 0,
+          "euler": 0,
+          "minimumTriangleArea": 0.00002621522921595092,
+          "totalArea": 4.37804943793847,
+          "edgeLength": {
+            "min": 0.003499938015912565,
+            "p10": 0.02138053182274512,
+            "median": 0.030157933147215123,
+            "p90": 0.0475418836885631,
+            "max": 0.09861132386549401
+          },
+          "edgeAspect": {
+            "median": 1.6234974880016977,
+            "p95": 2.761467636373566,
+            "max": 28.06400905481501
+          },
+          "minimumAngleDegrees": 2.0309188369998163
+        }
+      },
+      "clothThicknessSourceUnits": 0.0035,
+      "clothThicknessMeters": 0.001225,
+      "neededNormalProxyCoverageMeters": 0.001183391037640179,
+      "bindingStatistics": {
+        "maximumTangentAdjustment": 0.0007092914310932967,
+        "p95TangentAdjustment": 7.850462293418876e-17,
+        "maximumDistanceToLowSurface": 0.0017014575615527951,
+        "p95NormalOffset": 0.0005905219891262847,
+        "maxNormalOffset": 0.0016311172504005114,
+        "minimumBarycentric": -8.254907422540281e-16,
+        "largestOffsets": [
+          {
+            "vertex": 2664,
+            "face": 3407,
+            "signedNormalOffset": 0.0016311172504005114,
+            "tangentAdjustment": 0.000484163556260757
+          },
+          {
+            "vertex": 2377,
+            "face": 3025,
+            "signedNormalOffset": 0.0016209877065059908,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 2091,
+            "face": 2645,
+            "signedNormalOffset": 0.0015054754710408062,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2282,
+            "face": 2835,
+            "signedNormalOffset": 0.0014947156924205835,
+            "tangentAdjustment": 3.1031676915590914e-17
+          },
+          {
+            "vertex": 171,
+            "face": 149,
+            "signedNormalOffset": 0.0014663218787267724,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 1269,
+            "face": 1578,
+            "signedNormalOffset": -0.0014316662973951396,
+            "tangentAdjustment": 6.938893903907228e-18
+          },
+          {
+            "vertex": 2591,
+            "face": 3261,
+            "signedNormalOffset": 0.0013829246696503367,
+            "tangentAdjustment": 1.3877787807814457e-17
+          },
+          {
+            "vertex": 1270,
+            "face": 1580,
+            "signedNormalOffset": -0.001375697988053231,
+            "tangentAdjustment": 1.8683543625880677e-17
+          },
+          {
+            "vertex": 1271,
+            "face": 1582,
+            "signedNormalOffset": -0.001344813921430573,
+            "tangentAdjustment": 3.469446951953614e-18
+          },
+          {
+            "vertex": 2595,
+            "face": 3269,
+            "signedNormalOffset": 0.001327796580958584,
+            "tangentAdjustment": 0.00010885610890809949
+          },
+          {
+            "vertex": 1272,
+            "face": 1583,
+            "signedNormalOffset": -0.0013173157660141888,
+            "tangentAdjustment": 0.000029402374618966772
+          },
+          {
+            "vertex": 2588,
+            "face": 3255,
+            "signedNormalOffset": 0.001247971386512028,
+            "tangentAdjustment": 5.551115123125783e-17
+          }
+        ],
+        "maximumHiddenSideXYRepairFromV2": 0.03438073067823999,
+        "maximumLiningDepthRepairFromV2": 0,
+        "hiddenSideRepairRule": "For cos(theta)<0, near-side backXY=mix(mirroredFrontXY,oldBackXY,smoothstep(-cos(theta)/.30)); keep front and backZ",
+        "maximumComponentAdjustmentFromV2": 0.03439372777938843,
+        "neutralSourceSkinVsPhysicsBindingMaximum": 5.960464477539063e-8,
+        "maximumDroppedSolverSkinWeight": 0
+      }
+    },
+    {
+      "id": "lining",
+      "solver": {
+        "positionsBind": "lining.solver.positionsBind",
+        "positionsNeutralRoot": "lining.solver.positionsNeutralRoot",
+        "triangles": "lining.solver.triangles",
+        "parametricUV": "lining.solver.parametricUV",
+        "joints": "lining.solver.joints",
+        "weights": "lining.solver.weights",
+        "lumpedAreaSourceSquared": "lining.solver.lumpedArea",
+        "waistPins": "lining.solver.waistPins",
+        "hemBoundary": "lining.solver.hemBoundary",
+        "pins": {
+          "mode": "hard",
+          "weight": 1,
+          "scope": "complete waist ring only",
+          "sourceSkinAttributes": true,
+          "singleBoneAttachmentCandidate": {
+            "index": 0,
+            "name": "pelvis / garment anchor",
+            "verified": true
+          }
+        },
+        "rows": 19,
+        "interiorSegments": 64,
+        "boundarySegments": 96,
+        "quality": {
+          "vertices": 1280,
+          "triangles": 2368,
+          "finite": true,
+          "indicesInRange": true,
+          "components": 1,
+          "boundaryEdges": 192,
+          "nonmanifoldEdges": 0,
+          "orientationConflicts": 0,
+          "euler": 0,
+          "minimumTriangleArea": 0.0002420039397512044,
+          "totalArea": 1.478623155983707,
+          "edgeLength": {
+            "min": 0.01176305906438591,
+            "p10": 0.025535304478052197,
+            "median": 0.04130080636175261,
+            "p90": 0.05369816122611177,
+            "max": 0.07808748844093447
+          },
+          "edgeAspect": {
+            "median": 1.7312971436367925,
+            "p95": 2.4201563692912607,
+            "max": 3.816427286903372
+          },
+          "minimumAngleDegrees": 14.941057982852195
+        }
+      },
+      "render": {
+        "positionsBind": "lining.render.positionsBind",
+        "positionsNeutralRoot": "lining.render.positionsNeutralRoot",
+        "normalsBind": "lining.render.normalsBind",
+        "triangles": "lining.render.triangles",
+        "attributes": {
+          "uv": "lining.render.uv",
+          "color": "lining.render.color",
+          "skinIndex": "lining.render.skinIndex",
+          "skinWeight": "lining.render.skinWeight",
+          "sideBlend": "lining.render.sideBlend",
+          "hemT": "lining.render.hemT"
+        },
+        "material": 1,
+        "sourceCanonicalVertex": "lining.render.canonicalVertex",
+        "mapping": {
+          "faceID": "lining.mapping.faceID",
+          "solverTriples": "lining.mapping.solverTriples",
+          "barycentric": "lining.mapping.barycentric",
+          "signedNormalOffset": "lining.mapping.signedNormalOffset",
+          "normalRule": "Normalized cross(currentB-currentA,currentC-currentA); no source pose target for free cloth vertices",
+          "restRule": "Bound render neutral is authoritative for component. Small tangent residual from former v2 is explicitly fitted, not pulled during simulation."
+        },
+        "quality": {
+          "vertices": 5568,
+          "triangles": 11136,
+          "finite": true,
+          "indicesInRange": true,
+          "components": 1,
+          "boundaryEdges": 0,
+          "nonmanifoldEdges": 0,
+          "orientationConflicts": 0,
+          "euler": 0,
+          "minimumTriangleArea": 0.00002032974924990321,
+          "totalArea": 2.9784796607475883,
+          "edgeLength": {
+            "min": 0.0034999711377845188,
+            "p10": 0.016650658196325503,
+            "median": 0.026984088883325843,
+            "p90": 0.03582215206466934,
+            "max": 0.05495214404314953
+          },
+          "edgeAspect": {
+            "median": 1.7306402289819518,
+            "p95": 2.3653706788500344,
+            "max": 11.885666503975987
+          },
+          "minimumAngleDegrees": 4.769626208590264
+        }
+      },
+      "clothThicknessSourceUnits": 0.0035,
+      "clothThicknessMeters": 0.001225,
+      "neededNormalProxyCoverageMeters": 0.003224817670879721,
+      "bindingStatistics": {
+        "maximumTangentAdjustment": 0.00015434060150831334,
+        "p95TangentAdjustment": 5.551115123125783e-17,
+        "maximumDistanceToLowSurface": 0.007463764773942062,
+        "p95NormalOffset": 0.0016250976989562046,
+        "maxNormalOffset": 0.007463764773942061,
+        "minimumBarycentric": -3.350556750065801e-16,
+        "largestOffsets": [
+          {
+            "vertex": 2395,
+            "face": 2072,
+            "signedNormalOffset": 0.007463764773942061,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2299,
+            "face": 1945,
+            "signedNormalOffset": 0.007305074988237078,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2587,
+            "face": 2201,
+            "signedNormalOffset": 0.006946353869904186,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 2491,
+            "face": 2073,
+            "signedNormalOffset": 0.006774638733255475,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 2203,
+            "face": 1944,
+            "signedNormalOffset": 0.006176441087900804,
+            "tangentAdjustment": 1.3877787807814457e-17
+          },
+          {
+            "vertex": 2107,
+            "face": 1817,
+            "signedNormalOffset": 0.006003514205021003,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2357,
+            "face": 2022,
+            "signedNormalOffset": 0.005902170319379058,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 2261,
+            "face": 1894,
+            "signedNormalOffset": 0.005581553092036691,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 2549,
+            "face": 2150,
+            "signedNormalOffset": 0.0055244731491446205,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 2453,
+            "face": 2023,
+            "signedNormalOffset": 0.005478847380525878,
+            "tangentAdjustment": 2.7755575615628914e-17
+          },
+          {
+            "vertex": 2165,
+            "face": 1894,
+            "signedNormalOffset": 0.005059391556985222,
+            "tangentAdjustment": 0
+          },
+          {
+            "vertex": 2683,
+            "face": 2359,
+            "signedNormalOffset": 0.0050199745135321725,
+            "tangentAdjustment": 2.7755575615628914e-17
+          }
+        ],
+        "maximumHiddenSideXYRepairFromV2": 0,
+        "maximumLiningDepthRepairFromV2": 0.06258709592819212,
+        "hiddenSideRepairRule": "none",
+        "maximumComponentAdjustmentFromV2": 0.06261992454528809,
+        "neutralSourceSkinVsPhysicsBindingMaximum": 5.960464477539063e-8,
+        "maximumDroppedSolverSkinWeight": 0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "outer source-unlit cloth",
+      "unlit": true,
+      "painted": true,
+      "sourceImageName": "source-garment.png",
+      "sourceImageSha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+      "sourceImageColorSpace": "sRGB; decode once to linear before vertex tint",
+      "uvRule": "Source UV(px/W,1-py/H); Godot shader flips V exactly once",
+      "floatVertexColor": true,
+      "colorAlphaDefault": 1,
+      "sourceSide": "FrontSide with actual inside shell faces; no whole-image card",
+      "transparent": false,
+      "alphaTest": 0,
+      "sideBlendAttribute": "sideBlend",
+      "hemCoordinateAttribute": "hemT",
+      "sideNavyLinear": [
+        0.02028856305209031,
+        0.033104766565152086,
+        0.07421356837213867
+      ],
+      "sideCreamLinear": [
+        0.7529422167708612,
+        0.7156935005005721,
+        0.6724431569510133
+      ],
+      "blendRule": "After source texture and Float32 color multiplication: color.rgb=mix(color.rgb,mix(sideNavy,sideCream,smoothstep(.85,.88,hemT)),sideBlend). This inferred side palette is not final painting."
+    },
+    {
+      "name": "lining source-unlit cloth",
+      "unlit": true,
+      "painted": false,
+      "sourceImageName": null,
+      "sourceImageSha256": null,
+      "sourceImageColorSpace": "sRGB; decode once to linear before vertex tint",
+      "uvRule": "Source UV(px/W,1-py/H); Godot shader flips V exactly once",
+      "floatVertexColor": true,
+      "colorAlphaDefault": 1,
+      "sourceSide": "FrontSide with actual inside shell faces; no whole-image card",
+      "transparent": false,
+      "alphaTest": 0,
+      "sideBlendAttribute": "sideBlend",
+      "hemCoordinateAttribute": "hemT",
+      "sideNavyLinear": [
+        0.02028856305209031,
+        0.033104766565152086,
+        0.07421356837213867
+      ],
+      "sideCreamLinear": [
+        0.7529422167708612,
+        0.7156935005005721,
+        0.6724431569510133
+      ],
+      "blendRule": "After source texture and Float32 color multiplication: color.rgb=mix(color.rgb,mix(sideNavy,sideCream,smoothstep(.85,.88,hemT)),sideBlend). This inferred side palette is not final painting."
+    }
+  ],
+  "arrays": {
+    "source22.meshBindMatrix": {
+      "offset": 0,
+      "bytes": 64,
+      "type": "float32",
+      "itemSize": 16,
+      "count": 1,
+      "sha256": "5998e9d1dd9bf48af6af87a1ef8c7783b818ac8329637ada08cc5fb329042376"
+    },
+    "source22.meshToRoot": {
+      "offset": 64,
+      "bytes": 64,
+      "type": "float32",
+      "itemSize": 16,
+      "count": 1,
+      "sha256": "5998e9d1dd9bf48af6af87a1ef8c7783b818ac8329637ada08cc5fb329042376"
+    },
+    "source22.boneInverses": {
+      "offset": 128,
+      "bytes": 1408,
+      "type": "float32",
+      "itemSize": 16,
+      "count": 22,
+      "sha256": "a308fc5f18e38a7ae1555b119a25809e434c59ce76e9f30d7625ea612fcbea2c"
+    },
+    "source22.neutralWorldMatrices": {
+      "offset": 1536,
+      "bytes": 1408,
+      "type": "float32",
+      "itemSize": 16,
+      "count": 22,
+      "sha256": "16d83b6f6ad0e2b55d3739e07fe5aead9f3e6cf36f403597758b39837449bc1b"
+    },
+    "outer.render.uv": {
+      "offset": 2944,
+      "bytes": 44544,
+      "type": "float32",
+      "itemSize": 2,
+      "count": 5568,
+      "sha256": "328d277b24b211d7bac52562087c0d6d094d59ec8fa6d1ee0b94665acf4ed973"
+    },
+    "outer.render.color": {
+      "offset": 47488,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "7cf1b8c54be1c76d96a6212f09160ed55ba380492a4421768a3ba05614e5f8ba"
+    },
+    "outer.render.skinIndex": {
+      "offset": 114304,
+      "bytes": 44544,
+      "type": "uint16",
+      "itemSize": 4,
+      "count": 5568,
+      "sha256": "3abf7f2b94b61b75868a43ce7c8a77c7498e873f863f3d17e8f50a02f7269e80"
+    },
+    "outer.render.skinWeight": {
+      "offset": 158848,
+      "bytes": 89088,
+      "type": "float32",
+      "itemSize": 4,
+      "count": 5568,
+      "sha256": "135a921027e50f37813dd81daa1f6a38f1f0edebdac55a553df2108e8781aca5"
+    },
+    "outer.render.sideBlend": {
+      "offset": 247936,
+      "bytes": 22272,
+      "type": "float32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "0d62b0e4be638536d29b63db4647d548e41b5054259137e9001496f88b651282"
+    },
+    "outer.render.hemT": {
+      "offset": 270208,
+      "bytes": 22272,
+      "type": "float32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "2d79a8ad8036daa73fd6b3d99578f89908fdea12681fe0ec360d9d21d86d05ea"
+    },
+    "outer.solver.positionsBind": {
+      "offset": 292480,
+      "bytes": 21888,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 1824,
+      "sha256": "c0d27c2d57a59400f76666497022e247e8fe0ee7c4ac98706631ee8fdf86fa38"
+    },
+    "outer.solver.positionsNeutralRoot": {
+      "offset": 314368,
+      "bytes": 21888,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 1824,
+      "sha256": "0ffa7ae79c2cc5a6ab63b27691f308430d3aa554bf4adf9b6aa120b5a47e191e"
+    },
+    "outer.solver.triangles": {
+      "offset": 336256,
+      "bytes": 41472,
+      "type": "uint32",
+      "itemSize": 3,
+      "count": 3456,
+      "sha256": "e0baa0c8e28460030267f3e2ddf9e78ad8ed8df2b35dc508094fc5bfa9fe67bd"
+    },
+    "outer.solver.parametricUV": {
+      "offset": 377728,
+      "bytes": 14592,
+      "type": "float32",
+      "itemSize": 2,
+      "count": 1824,
+      "sha256": "c5159b3a5d3b7fd70402f8ac0266c0ebe68e00aa62a98eaba27c62d57563042d"
+    },
+    "outer.solver.joints": {
+      "offset": 392320,
+      "bytes": 14592,
+      "type": "uint16",
+      "itemSize": 4,
+      "count": 1824,
+      "sha256": "1799cd37cf0355ddf7c6970dd5a9c2845dfdbc980cba061cb2a85c6774be73f5"
+    },
+    "outer.solver.weights": {
+      "offset": 406912,
+      "bytes": 29184,
+      "type": "float32",
+      "itemSize": 4,
+      "count": 1824,
+      "sha256": "63015f0720fc246310ad2ca07dcd4622c2b8e134f294f93fd17f04157b39c518"
+    },
+    "outer.solver.lumpedArea": {
+      "offset": 436096,
+      "bytes": 7296,
+      "type": "float32",
+      "itemSize": 1,
+      "count": 1824,
+      "sha256": "f4d4ba5d72b4961d4da915616912c2a8332f47349fd0a5602e5033222f091fdd"
+    },
+    "outer.solver.waistPins": {
+      "offset": 443392,
+      "bytes": 384,
+      "type": "uint32",
+      "itemSize": 1,
+      "count": 96,
+      "sha256": "95350b3ff196048341bce0c130b5b9c216c79db8c6e2c0b6325b65064c17b0a5"
+    },
+    "outer.solver.hemBoundary": {
+      "offset": 443776,
+      "bytes": 384,
+      "type": "uint32",
+      "itemSize": 1,
+      "count": 96,
+      "sha256": "52ac7c093739ce58647cfecaa6634e05c3dd48bb42e9efadac0a3a2c59214d98"
+    },
+    "outer.render.positionsBind": {
+      "offset": 444160,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "8d4bc22b3161978c81f1b5b069a6a1f28353104c047305ce2a3e8814cafb9e6c"
+    },
+    "outer.render.positionsNeutralRoot": {
+      "offset": 510976,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "48b01c42b041b653de9df3c1a3c5e5498b2770407c7fce058290fe1e79a6e07a"
+    },
+    "outer.render.normalsBind": {
+      "offset": 577792,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "cd9b99d13e10279f8af6c46b9adcdbc497d9b21ccf5b7b4a258dcf325abb0c3e"
+    },
+    "outer.render.triangles": {
+      "offset": 644608,
+      "bytes": 133632,
+      "type": "uint32",
+      "itemSize": 3,
+      "count": 11136,
+      "sha256": "3492e575828a545b5537fc825fccb4e273d9e6fc759a9d2555cac536c1ae65f3"
+    },
+    "outer.render.canonicalVertex": {
+      "offset": 778240,
+      "bytes": 22272,
+      "type": "uint32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "f3f63f87ac340ce92ced8578fbfff26e8474baff1b22fba7a016503e44ed9a6b"
+    },
+    "outer.mapping.faceID": {
+      "offset": 800512,
+      "bytes": 22272,
+      "type": "uint32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "3d0e09629f217dea30eefd644223b18ef12c9352ee1adb2eccacd787d54a756d"
+    },
+    "outer.mapping.solverTriples": {
+      "offset": 822784,
+      "bytes": 66816,
+      "type": "uint32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "f65c08c8c251743ec4a061c764394dc23386e41e93fb1c466feaee39ef11c249"
+    },
+    "outer.mapping.barycentric": {
+      "offset": 889600,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "5b59ba0d9c1c1116c0c29f7750f5d4a526d17080e6145eb80716493de61ce957"
+    },
+    "outer.mapping.signedNormalOffset": {
+      "offset": 956416,
+      "bytes": 22272,
+      "type": "float32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "0e595ae076eef6754aa9bebc9d8dc72a20bbf638c5f1713940ccbee9fd0fe7f0"
+    },
+    "lining.render.uv": {
+      "offset": 978688,
+      "bytes": 44544,
+      "type": "float32",
+      "itemSize": 2,
+      "count": 5568,
+      "sha256": "328d277b24b211d7bac52562087c0d6d094d59ec8fa6d1ee0b94665acf4ed973"
+    },
+    "lining.render.color": {
+      "offset": 1023232,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "7cf1b8c54be1c76d96a6212f09160ed55ba380492a4421768a3ba05614e5f8ba"
+    },
+    "lining.render.skinIndex": {
+      "offset": 1090048,
+      "bytes": 44544,
+      "type": "uint16",
+      "itemSize": 4,
+      "count": 5568,
+      "sha256": "3abf7f2b94b61b75868a43ce7c8a77c7498e873f863f3d17e8f50a02f7269e80"
+    },
+    "lining.render.skinWeight": {
+      "offset": 1134592,
+      "bytes": 89088,
+      "type": "float32",
+      "itemSize": 4,
+      "count": 5568,
+      "sha256": "135a921027e50f37813dd81daa1f6a38f1f0edebdac55a553df2108e8781aca5"
+    },
+    "lining.render.sideBlend": {
+      "offset": 1223680,
+      "bytes": 22272,
+      "type": "float32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "e35737de2006163bb250bc3eaf7b40354d95eaf16866d81fd759235f6b5e3f48"
+    },
+    "lining.render.hemT": {
+      "offset": 1245952,
+      "bytes": 22272,
+      "type": "float32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "2d79a8ad8036daa73fd6b3d99578f89908fdea12681fe0ec360d9d21d86d05ea"
+    },
+    "lining.solver.positionsBind": {
+      "offset": 1268224,
+      "bytes": 15360,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 1280,
+      "sha256": "6876703116a4ceb444f790698c50f49bfecb0a4d2f47607a3cfaf21476096ce2"
+    },
+    "lining.solver.positionsNeutralRoot": {
+      "offset": 1283584,
+      "bytes": 15360,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 1280,
+      "sha256": "0a7eefa1742fa7c3e57ef9cc3049cf46553fbeb9e442c52e9085e8e0ab19f53b"
+    },
+    "lining.solver.triangles": {
+      "offset": 1298944,
+      "bytes": 28416,
+      "type": "uint32",
+      "itemSize": 3,
+      "count": 2368,
+      "sha256": "14d19ecdbc01244cfac84aa3208266856f2165215bf0c796e0661cdb5e3b2ff0"
+    },
+    "lining.solver.parametricUV": {
+      "offset": 1327360,
+      "bytes": 10240,
+      "type": "float32",
+      "itemSize": 2,
+      "count": 1280,
+      "sha256": "c812a9454f71863cc541b42d01011e6d5d8f2fe2d8b95250a892983a80d9e20a"
+    },
+    "lining.solver.joints": {
+      "offset": 1337600,
+      "bytes": 10240,
+      "type": "uint16",
+      "itemSize": 4,
+      "count": 1280,
+      "sha256": "70339c8bc4daf1d4844e6db007b45a3e0c626314dc6bb90ce2d065a1d61d1c70"
+    },
+    "lining.solver.weights": {
+      "offset": 1347840,
+      "bytes": 20480,
+      "type": "float32",
+      "itemSize": 4,
+      "count": 1280,
+      "sha256": "dc24964dc2c6c442a05e005337267117d8e8be616624c24367e5834b2508dccc"
+    },
+    "lining.solver.lumpedArea": {
+      "offset": 1368320,
+      "bytes": 5120,
+      "type": "float32",
+      "itemSize": 1,
+      "count": 1280,
+      "sha256": "5fa96f4e896109e113970588077a300ff13781c37f22dfa901e92855d8a36cb4"
+    },
+    "lining.solver.waistPins": {
+      "offset": 1373440,
+      "bytes": 384,
+      "type": "uint32",
+      "itemSize": 1,
+      "count": 96,
+      "sha256": "95350b3ff196048341bce0c130b5b9c216c79db8c6e2c0b6325b65064c17b0a5"
+    },
+    "lining.solver.hemBoundary": {
+      "offset": 1373824,
+      "bytes": 384,
+      "type": "uint32",
+      "itemSize": 1,
+      "count": 96,
+      "sha256": "da3b5ff9c84b4370366018fb87371f4071a2700805ca9b3b18b859a2b805eb0a"
+    },
+    "lining.render.positionsBind": {
+      "offset": 1374208,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "bc78a6ea39e4ba2ec545970a4d3c80d6df1e3e012d3911bceaa9d77b9f286a12"
+    },
+    "lining.render.positionsNeutralRoot": {
+      "offset": 1441024,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "bad2b2921c17848077d025558d34332e23f57e706217f0b881a10ab25f499f77"
+    },
+    "lining.render.normalsBind": {
+      "offset": 1507840,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "2946225226d221ea05ff3ab64a6deba2d08a28d9f185fbc801c4b3479b7d63af"
+    },
+    "lining.render.triangles": {
+      "offset": 1574656,
+      "bytes": 133632,
+      "type": "uint32",
+      "itemSize": 3,
+      "count": 11136,
+      "sha256": "3492e575828a545b5537fc825fccb4e273d9e6fc759a9d2555cac536c1ae65f3"
+    },
+    "lining.render.canonicalVertex": {
+      "offset": 1708288,
+      "bytes": 22272,
+      "type": "uint32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "f3f63f87ac340ce92ced8578fbfff26e8474baff1b22fba7a016503e44ed9a6b"
+    },
+    "lining.mapping.faceID": {
+      "offset": 1730560,
+      "bytes": 22272,
+      "type": "uint32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "301e48678b700cab5ca91ae73ac85507621296c9ff0c5e205225abc94afd3b23"
+    },
+    "lining.mapping.solverTriples": {
+      "offset": 1752832,
+      "bytes": 66816,
+      "type": "uint32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "b61d310bf5adc1875d246c391e2ac67ea72561e400eef4b4a30c11ed7f99f593"
+    },
+    "lining.mapping.barycentric": {
+      "offset": 1819648,
+      "bytes": 66816,
+      "type": "float32",
+      "itemSize": 3,
+      "count": 5568,
+      "sha256": "7e46774657679d3f94ccabd111067d5fea06074b490447d362dd4144a467d773"
+    },
+    "lining.mapping.signedNormalOffset": {
+      "offset": 1886464,
+      "bytes": 22272,
+      "type": "float32",
+      "itemSize": 1,
+      "count": 5568,
+      "sha256": "242d7b7160b3c6b6a28e6fefa8da857dee334c40da669ddf5d519719c45586a5"
+    }
+  },
+  "checks": {
+    "neutralBindingMaximumComponentError": 5.960464477539063e-8,
+    "noCenterCaps": true,
+    "source22Bones": 22,
+    "allSolverMeshesAnnulus": true,
+    "allWeightsWithinContract": true,
+    "allMidMeshesFinite": true,
+    "physicsPass": false,
+    "visualPass": false
+  },
+  "unsupported": [
+    "Actual Jolt simulation and signed bending integration not verified by this exporter",
+    "Garment/body/tail/hair contact and continuous collision validation pending",
+    "Per-vertex areal mass use depends on native SoftBody API; uniform total_mass alone does not apply these masses",
+    "Whole-character camera calibration and side/back art remain unresolved; prior v2 front is not pixel identical",
+    "No arbitrary action, all-angle final look or physical material certification"
+  ],
+  "source22": {
+    "names": [
+      "pelvis / garment anchor",
+      "bodice spine",
+      "collar / chest",
+      "left skirt cloth",
+      "right skirt cloth",
+      "front apron cloth",
+      "back skirt cloth",
+      "left upper sleeve",
+      "left elbow / sleeve",
+      "left wrist / fingers",
+      "left hip / thigh",
+      "left knee / sock",
+      "left ankle / shoe",
+      "right upper sleeve",
+      "right elbow / sleeve",
+      "right wrist / fingers",
+      "right hip / thigh",
+      "right knee / sock",
+      "right ankle / shoe",
+      "whale tail base",
+      "whale tail middle",
+      "whale tail flukes"
+    ],
+    "parentIndices": [
+      -1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      7,
+      8,
+      0,
+      10,
+      11,
+      1,
+      13,
+      14,
+      0,
+      16,
+      17,
+      0,
+      19,
+      20
+    ],
+    "meshBindMatrix": "source22.meshBindMatrix",
+    "meshToRoot": "source22.meshToRoot",
+    "boneInverses": "source22.boneInverses",
+    "neutralWorldMatrices": "source22.neutralWorldMatrices",
+    "ibmRule": "boneInverse * meshBindMatrix is the effective IBM for a source mesh-local point. Current pose uses source22 bone global matrices, mesh bind inverse, then meshToRoot."
+  },
+  "binary": {
+    "file": "component.bin",
+    "bytes": 1908736,
+    "sha256": "c9a08f0e12196337ffac10783036f2d5473eb53d379abf76a9b09044f88cf5a3",
+    "endianness": "little"
+  }
+}

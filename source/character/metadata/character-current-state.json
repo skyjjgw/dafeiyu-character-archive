@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-28",
+  "userSelectedAppearance": "http://127.0.0.1:4348/character-preview.html",
+  "appearanceBaseline": "production/appearance-baseline-20261027/manifest.json",
+  "reasonForCorrection": "此前将结构和物理升级误做成重新设计人物，通用新模型覆盖了用户选择的脸型、五官、发型和画法。",
+  "preserve": [
+    "脸型与五官关系",
+    "眼型与眼神",
+    "发型与头饰",
+    "头身比例",
+    "原画色彩与服装细节"
+  ],
+  "development": {
+    "selectedAppearanceMotion": "production/appearance-preserving-runtime/MOTION.md",
+    "headCandidates": "production/appearance-preserving-geometry/",
+    "handCandidates": "production/appearance-preserving-body/retopology/",
+    "skirtCandidates": "production/appearance-preserving-body/volume-candidate/",
+    "defaultLocalBridge": "production/native-character-bridge/launch-visible.mjs",
+    "defaultLocalBridgeProfile": "selected-current",
+    "currentIntegratedScene": "production/appearance-preserving-runtime/selected-production/current.tscn",
+    "activeGoal": "metadata/active-character-goal.json",
+    "modelRoutingPolicy": "metadata/model-routing-policy.json"
+  },
+  "rejectedAppearance": "production/native-character 的 v2–v7 新造型保留为历史研究，不作为已认可人物。",
+  "reviewRule": "实际运行画面先对照已选人物；结构、性能和物理检查分别记录，任何一项通过都不能代替人物还原与表演质量验收。",
+  "knownFailures": [
+    "大角度头发、头饰与衣服仍有分层和薄片问题",
+    "真实手部结构尚在局部修复",
+    "发、裙与尾巴的完整物理尚未接入已选人物",
+    "完整全身表演与DSH产品接入尚未完成"
+  ],
+  "complete": false,
+  "verifiedIntegrity": {
+    "checkedFiles": 34,
+    "sourceIntegrityPassed": true,
+    "previewPanelDocumentIdentical": true,
+    "finalQualityPassed": false,
+    "evidence": "metadata/selected-appearance-integrity.json"
+  },
+  "currentProgress": {
+    "headV3": {
+      "state": "GPU_readback_verified_limited",
+      "evidence": "d25ce205577bd9f568808fdb8dc29c406ee1d5cc5375959c718e11f8459728f6",
+      "checks": "4-state readback bit0 plus dispose",
+      "limitations": "not full visual/behavior acceptance"
+    },
+    "headband": "current",
+    "handsCW": "repaired",
+    "tailPause": "repaired",
+    "hairV1": {
+      "state": "development_candidate",
+      "nativeChecks": 25,
+      "reviewedAngles": [
+        0,
+        45,
+        90,
+        180
+      ],
+      "hairPhysics": false,
+      "allowedIntegration": "development only"
+    },
+    "wholeCharacterGpu": "in_progress",
+    "versionFloor": "0.1.5",
+    "pendingCapturePassed": false,
+    "skirtJolt": {
+      "state": "not_promoted",
+      "indexFix": true,
+      "pinStable": true,
+      "freeDisplacementMeters": 0.491,
+      "freeDisplacementPassed": false
+    },
+    "shoeBodyContinuityV1": {
+      "state": "not_current",
+      "reviewedViews": [
+        "front",
+        "45",
+        "90",
+        "back"
+      ],
+      "frontPreserved": true,
+      "limitations": [
+        "side wedge",
+        "large solid blue region"
+      ]
+    },
+    "dshConnected": false,
+    "userLoggedIn": false,
+    "apiKeyTouched": false,
+    "notPassed": [
+      "full turn coverage",
+      "performance/showcase",
+      "grasping",
+      "voice",
+      "continuous whole-frame 60 FPS",
+      "final acceptance"
+    ]
+  },
+  "latestIntegratedVerification": {
+    "version": "0.1.5-current",
+    "requiredGuardFiles": 50,
+    "components": 8,
+    "lifecycleChecks": 20,
+    "wholeCharacterGpuCapture": "production/appearance-preserving-runtime/selected-production/reports/gpu-capture.json",
+    "frameAudit": "production/appearance-preserving-runtime/reviews/reports/current-frame-audit.json",
+    "frameAuditObservedAverageFPS": 60.010675408083,
+    "frameAuditP99Milliseconds": 23.743,
+    "frameAuditMaxMilliseconds": 40.241,
+    "frameAuditConcurrentCpuWorkloads": true,
+    "stable60FPSAccepted": false,
+    "hairStructure": true,
+    "hairPhysics": false,
+    "garmentPhysicsDefault": false,
+    "actualDshConnected": false,
+    "finalAccepted": false
+  },
+  "externalReferenceAssets": {
+    "physics": "references/test-assets/physics/manifest.json",
+    "motion": "references/test-assets/motion/manifest.json",
+    "motionSourceClips": 43,
+    "characterAppearanceUnchanged": true,
+    "networkAssetsReplaceSelectedCharacter": false
+  },
+  "latestReferenceTests": {
+    "motionImport": "references/test-assets/motion/reports/godot-import.json",
+    "motionSourceBones": 65,
+    "motionSourceClips": 43,
+    "motionSampleRateHz": 30,
+    "rawRetargetAccepted": false,
+    "rawRetargetAxisErrorFound": true,
+    "correctedSourceFootRetargetInProgress": true,
+    "clothLowLod": "production/appearance-preserving-body/garment-low-lod/assets/component.json",
+    "clothLowLodPoints": 672,
+    "clothLowLodNeutralVisual": "production/appearance-preserving-body/garment-low-lod/reports/root-visual-review.json",
+    "clothLowLodNativeValidation": "production/appearance-preserving-body/garment-low-lod/native-validation/reports/summary.json",
+    "unifiedClothContactInProgress": true,
+    "allPhysicsComplete": false
+  },
+  "currentPriority": {
+    "userCorrection": "主要是现在我发现连人物整体模型都没做好",
+    "focus": "完整静态角色造型与语义拓扑优先",
+    "deferred": [
+      "外部动作重定向",
+      "布料统一求解器",
+      "进一步动作和物理接入"
+    ],
+    "reason": "现有角色正面接近但侧脸/颈肩/身体厚度/发层/衣鞋仍严重不合格，底模问题不能由动作、物理或测试数量代替。",
+    "activeWork": [
+      "整体3D体积与可编辑master",
+      "保原脸的大眼型与头颅/颈部连续皮壳",
+      "圆润有根的分件发束与贴合褶边头饰",
+      "同一角色的衣身/袖口/裙/围裙/背带/手脚分件"
+    ],
+    "gate": "真实同一模型正面/45/90/背面/轻俯仰及clay检查通过后，再恢复动作/物理。"
+  },
+  "wholeModelRebuild": {
+    "referenceSheet": "production/whole-character-rebuild/reference-assets/turnaround-v1.png",
+    "referenceSheetSha256": "95a5dfdc132445ab3ae95dc94da959a5591a039ee74f2faaa98026634f198b60",
+    "generatedReferenceViewsInferred": true,
+    "rawVolumeBlend": "D:/CodexTaskData/dafeiyu-whole-model-reconstruction-20261028/output/canonical-front-v1/whole-character-static.blend",
+    "rawVolumeRole": "Only volume guide; face/features melted, not accepted",
+    "staticSemanticHeadOwner": "whole_model_head_surface",
+    "staticSemanticBodyOwner": "whole_model_form",
+    "default4348AppearanceUnchanged": true,
+    "wholeModelAccepted": false,
+    "rootReview": "production/whole-character-rebuild/root-review-v1.json",
+    "currentNativeCandidate": "D:/CodexTaskData/dafeiyu-whole-form-20261028/body/whole-character-master-v1.blend",
+    "staticModelAccepted": false,
+    "motionAndPhysicsExpansion": "deferred_until_static_character_quality_passes"
+  }
+}

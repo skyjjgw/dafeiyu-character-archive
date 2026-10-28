@@ -1,0 +1,129 @@
+{
+  "schema_version": 2,
+  "canvas": {
+    "width": 1144,
+    "height": 1375
+  },
+  "canonical": "assets/corrected-v2/canonical.png",
+  "canonical_sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+  "patches": [
+    {
+      "id": "blink",
+      "file": "assets/corrected-v2/blink.png",
+      "width": 1144,
+      "height": 1375,
+      "translate": [
+        -4,
+        0
+      ],
+      "regions": [
+        [
+          449,
+          534,
+          113,
+          98
+        ],
+        [
+          603,
+          534,
+          112,
+          98
+        ]
+      ]
+    },
+    {
+      "id": "mouth-half",
+      "file": "assets/corrected-v2/mouth-half.png",
+      "width": 1144,
+      "height": 1375,
+      "translate": [
+        -1,
+        0
+      ],
+      "regions": [
+        [
+          551,
+          630,
+          61,
+          43
+        ]
+      ]
+    },
+    {
+      "id": "mouth-open",
+      "file": "assets/corrected-v2/mouth-open.png",
+      "width": 1144,
+      "height": 1375,
+      "translate": [
+        -1,
+        0
+      ],
+      "regions": [
+        [
+          551,
+          630,
+          61,
+          43
+        ]
+      ]
+    }
+  ],
+  "tail": {
+    "file": "assets/tail-v5/tail-blue-reference.png",
+    "width": 1144,
+    "height": 1375,
+    "matrix": [
+      0.7956183,
+      -0.000327,
+      0.000327,
+      0.7956183,
+      114.3206,
+      132.1949
+    ],
+    "replacement_polygon": [
+      [
+        700,
+        930
+      ],
+      [
+        815,
+        930
+      ],
+      [
+        815,
+        860
+      ],
+      [
+        1120,
+        860
+      ],
+      [
+        1120,
+        1120
+      ],
+      [
+        700,
+        1120
+      ],
+      [
+        700,
+        1080
+      ],
+      [
+        675,
+        1080
+      ],
+      [
+        675,
+        992
+      ],
+      [
+        700,
+        992
+      ]
+    ],
+    "sha256": "ef2fe06235fbe1915bd59d233cbee49a2e1ec558f3d40ebdb1d5e2be8d9a12a1",
+    "status": "static_blue_palette_and_shape_correction_not_physics_rig",
+    "revision": 5
+  }
+}

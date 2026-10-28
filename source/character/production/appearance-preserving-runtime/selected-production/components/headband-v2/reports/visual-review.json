@@ -1,0 +1,47 @@
+{
+  "schema": "dafeiyu.headband-v2.native-visual-review.v1",
+  "componentSha256": "c46ab19cb79e8b6768b2b0a86ddc0f09b3681957932a47c4b9ed0b0083014ebb",
+  "reviewedBy": "headband_runtime_integration",
+  "reviewMethod": "Actual view_image of all four newly captured native Godot PNGs, then view_image of JS doublepaint front/45/90 reference screenshots",
+  "photos": [
+    {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-runtime/selected-production/components/headband-v2/reports/headband-v2-current-sha-0.png",
+      "angle": 0,
+      "bytes": 283860,
+      "sha256": "4ebfcc71cb418941f4020714aa69b1525130d2b0a737ebd764163b9e40eee9ba"
+    },
+    {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-runtime/selected-production/components/headband-v2/reports/headband-v2-current-sha-45.png",
+      "angle": 45,
+      "bytes": 237589,
+      "sha256": "03f517ef219daff0deca0f1aa6679c853554a426c7782054962b25c69bf54d42"
+    },
+    {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-runtime/selected-production/components/headband-v2/reports/headband-v2-current-sha-90.png",
+      "angle": 90,
+      "bytes": 112037,
+      "sha256": "635db4dac5ba715040dded5c4a18e95d7a3a1fc7d05fff693b932aa6447af92d"
+    },
+    {
+      "path": "E:/zzz/dafeiyu-character-materials-20261025/production/appearance-preserving-runtime/selected-production/components/headband-v2/reports/headband-v2-current-sha-180.png",
+      "angle": 180,
+      "bytes": 137661,
+      "sha256": "c5dd26334ac93d803caf92bc3586ebb3d9fa8c58eb0c8da89523fc02fb3af716"
+    }
+  ],
+  "observations": [
+    "Front retains the selected original girl identity and maid white-grey frill",
+    "No visible green halo or obvious second sRGB decode",
+    "Paint is visible on both shell sides, with similar grey-white folds to the JS doublepaint references",
+    "Headband main ribbon follows the scalp as a curved surface rather than the former broad board"
+  ],
+  "unresolved": [
+    "Headband side/rear white cloth and fold contrast remain pending artistic review",
+    "Source side-view hair and body retain existing flat-sheet/fragmentation failures",
+    "No frill cloth dynamics, collision or complete avatar physics validated"
+  ],
+  "scope": "Native import/static component improvement only; not final whole-avatar multi-angle acceptance",
+  "visualPass": false,
+  "finalAccepted": false,
+  "clothPhysics": false
+}

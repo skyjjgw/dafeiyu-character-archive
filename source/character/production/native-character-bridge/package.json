@@ -1,0 +1,10 @@
+{
+  "name":"dsh-plugin-dafeiyu-native-bridge",
+  "version":"0.1.0",
+  "private":true,
+  "type":"module",
+  "main":"./host-entry.mjs",
+  "exports":{".":"./host-entry.mjs","./client":"./dsh-client.mjs","./runner":"./runner.mjs","./protocol":"./protocol.mjs"},
+  "peerDependencies":{"@deepseek-ai/dsh-typert-protocol":"0.2.1-rc.3","@deepseek-ai/cordis":"4.0.5"},
+  "scripts":{"test":"node --test tests/*.test.mjs","verify:engine":"node tests/verify-engine.mjs","verify:sdk":"node tests/verify-sdk.mjs","verify:selected":"node tests/verify-selected.mjs --current","verify:visible":"node tests/verify-selected.mjs --current --capture","verify:baseline":"node tests/verify-selected.mjs --capture","verify:legacy-visible":"node tests/verify-visible.mjs","start":"node launch-visible.mjs","start:baseline":"node launch-visible.mjs --baseline"}
+}

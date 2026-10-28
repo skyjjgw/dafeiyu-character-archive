@@ -1,0 +1,110 @@
+{
+  "canvas": {
+    "width": 1144,
+    "height": 1375
+  },
+  "assets": [
+    {
+      "id": "base",
+      "file": "base.png",
+      "width": 1144,
+      "height": 1375,
+      "visible_bbox": [
+        103,
+        54,
+        1126,
+        1317
+      ]
+    },
+    {
+      "id": "eyes-open",
+      "file": "eyes-open.png",
+      "width": 1774,
+      "height": 887,
+      "visible_bbox": [
+        275,
+        283,
+        1500,
+        614
+      ],
+      "target": [
+        438,
+        493,
+        308,
+        83
+      ]
+    },
+    {
+      "id": "eyes-closed",
+      "file": "eyes-closed.png",
+      "width": 1774,
+      "height": 887,
+      "visible_bbox": [
+        381,
+        393,
+        1393,
+        498
+      ],
+      "target": [
+        438,
+        545,
+        308,
+        32
+      ]
+    },
+    {
+      "id": "brows",
+      "file": "brows.png",
+      "width": 1672,
+      "height": 941,
+      "visible_bbox": [
+        396,
+        431,
+        1277,
+        507
+      ],
+      "target": [
+        451,
+        477,
+        282,
+        24
+      ]
+    },
+    {
+      "id": "mouth-closed",
+      "file": "mouth-closed.png",
+      "width": 1536,
+      "height": 1024,
+      "visible_bbox": [
+        705,
+        502,
+        831,
+        527
+      ],
+      "target": [
+        573,
+        628,
+        38,
+        8
+      ]
+    },
+    {
+      "id": "mouth-open",
+      "file": "mouth-open.png",
+      "width": 1536,
+      "height": 1024,
+      "visible_bbox": [
+        638,
+        463,
+        896,
+        605
+      ],
+      "target": [
+        571,
+        619,
+        42,
+        25
+      ]
+    }
+  ]
+}

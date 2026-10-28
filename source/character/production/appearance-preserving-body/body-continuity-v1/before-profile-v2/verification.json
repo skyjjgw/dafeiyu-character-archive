@@ -1,0 +1,86 @@
+{
+  "finalAccepted": false,
+  "sourceGlbSHA256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+  "candidateGlbSHA256": "e3397f94d14ab805f645d255c19014331b7852ac9e0cd6e89707260c34b9fbb2",
+  "candidateBodySourceSHA256": "8364eb7111ce2cffa3f68e53cde9bb076fc1e3a6c81b93b34fd8e2535d42e5e0",
+  "baselineBodySourceSHA256": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723",
+  "meshAttributesChanged": [
+    "left traced mary jane shoe",
+    "right traced mary jane shoe"
+  ],
+  "otherMeshAttributesIdentical": true,
+  "sourceBoneNames": [
+    "pelvis / garment anchor",
+    "bodice spine",
+    "collar / chest",
+    "left skirt cloth",
+    "right skirt cloth",
+    "front apron cloth",
+    "back skirt cloth",
+    "left upper sleeve",
+    "left elbow / sleeve",
+    "left wrist / fingers",
+    "left hip / thigh",
+    "left knee / sock",
+    "left ankle / shoe",
+    "right upper sleeve",
+    "right elbow / sleeve",
+    "right wrist / fingers",
+    "right hip / thigh",
+    "right knee / sock",
+    "right ankle / shoe",
+    "whale tail base",
+    "whale tail middle",
+    "whale tail flukes"
+  ],
+  "candidateBoneNamesIdentical": true,
+  "leftShoe": {
+    "source": {
+      "minXYZ": [
+        -0.3958735466003418,
+        -1.045230746269226,
+        -0.125
+      ],
+      "maxXYZ": [
+        -0.10769230872392654,
+        -0.7771801352500916,
+        0.33500000834465027
+      ],
+      "triangles": 3168,
+      "trianglesAreaBelow1e-9": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "frontProjection": {
+        "positive": 1025,
+        "negative": 257,
+        "edgeOn": 230
+      }
+    },
+    "candidate": {
+      "minXYZ": [
+        -0.39576923847198486,
+        -1.045230746269226,
+        -0.16500000655651093
+      ],
+      "maxXYZ": [
+        -0.10769230872392654,
+        -0.7771801352500916,
+        0.20499999821186066
+      ],
+      "triangles": 1824,
+      "trianglesAreaBelow1e-9": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "frontProjection": {
+        "positive": 864,
+        "negative": 0,
+        "edgeOn": 0
+      }
+    }
+  },
+  "limitations": [
+    "Static; no GPU capture or frontal pixel comparison yet",
+    "Geometric extrema and sampled contours do not prove visual similarity",
+    "Side and back inferred; no movement or contact validation"
+  ]
+}

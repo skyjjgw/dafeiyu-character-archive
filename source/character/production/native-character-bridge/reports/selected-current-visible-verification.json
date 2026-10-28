@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-28T12:19:39.779Z",
+  "profile": "selected-current-capture",
+  "rows": [
+    {
+      "test": "selected_scene_ready",
+      "ok": true
+    },
+    {
+      "test": "real_wave_cancel_and_unsupported_grasp_rejection",
+      "ok": true
+    },
+    {
+      "test": "actual_selected_renderer_and_controller_evidence",
+      "ok": true
+    }
+  ],
+  "stderr": "",
+  "scope": "Selected original appearance, actual GPU and controller. Not installed DSH, grasping or final character acceptance."
+}

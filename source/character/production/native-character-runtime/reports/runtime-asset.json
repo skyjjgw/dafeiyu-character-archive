@@ -1,0 +1,11 @@
+{
+    "Source":  "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\dafeiyu-native-v2-study.glb",
+    "RuntimeAsset":  "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character-runtime\\assets\\character.glb",
+    "Bytes":  5961816,
+    "SHA256":  "3d09ccde3ea8b70763c00add5cee9517e7d9aa78ab812f8fd28aacadf7d2fd9e",
+    "PhysicalBindSHA256":  "4e294fd56c41d11a7a1856db2624c00925b8a6aa96772e225b59a6faeb911686",
+    "ClothCageSHA256":  "2fdbd1d0a4cf6d4e9800059910d3e063127ea365f281a2a6d128077dc62c7d0f",
+    "SourceBlendSHA256":  "f01209296b6091bb63efc83dfa751955917f7ff67ecda86dc3cfbc98f55dec1f",
+    "PetticoatSHA256":  "ca5456100cd3f76db5b330c8cba07273bb6c881274bd3119426dd5d2d87e79f0",
+    "SourceVersionsVerified":  true
+}

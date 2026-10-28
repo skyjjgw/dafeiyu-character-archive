@@ -1,0 +1,152 @@
+[
+  {
+    "name": "FACE__continuous head skin sockets oral lining and neck",
+    "signed_volume": 0.018192696465019722,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "FACE__left closed source-fitted ocular globe",
+    "signed_volume": 0.00019628913307437746,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "FACE__right closed source-fitted ocular globe",
+    "signed_volume": 0.00014701171397018064,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__bang_center",
+    "signed_volume": 0.0004809547588313776,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__bang_swept_-1",
+    "signed_volume": 0.00045536475225418666,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__bang_swept_1",
+    "signed_volume": 0.0004544118338690115,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_-1_0",
+    "signed_volume": 0.000764861269378289,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_-1_1",
+    "signed_volume": 0.000802634477907682,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_-1_2",
+    "signed_volume": 0.0006136641846725874,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_1_0",
+    "signed_volume": 0.0007648612547291153,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_1_1",
+    "signed_volume": 0.0008026344543574773,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__broad_S_lock_1_2",
+    "signed_volume": 0.0006136641807240019,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__cheek_frame_-1",
+    "signed_volume": 0.00047328298376883007,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__cheek_frame_1",
+    "signed_volume": 0.000472279182818313,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__closed_scalp_foundation",
+    "signed_volume": 0.002655417910110707,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_0",
+    "signed_volume": 0.0005261435204607647,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_1",
+    "signed_volume": 0.0005450479136061936,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_2",
+    "signed_volume": 0.000586746760498373,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_3",
+    "signed_volume": 0.0006054135156211339,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_4",
+    "signed_volume": 0.0005871921890176226,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_5",
+    "signed_volume": 0.0005453741211916796,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__crown_rear_panel_6",
+    "signed_volume": 0.0005258051635524001,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__inner_curl_-1",
+    "signed_volume": 0.00021156156168697992,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__inner_curl_1",
+    "signed_volume": 0.00021164146892631863,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "name": "HAIR__whale_ahoge",
+    "signed_volume": 6.887301517557044e-05,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  }
+]

@@ -1,0 +1,91 @@
+﻿id,title,author,source_url,reference_group,purposes,visual_review,license_status,local_path,download_status
+user-1,用户参考：Q版抱锅奔跑,用户提供，原作者待定位,,用户基准,动作与互动,已核对用户附件,用户提供参考，未据此推定对外分发授权,references/user/reference-1.jpg,saved
+user-2,用户参考：半身哭泣 HUD,用户提供，原作者待定位,,用户基准,眼口与表情,已核对用户附件,用户提供参考，未据此推定对外分发授权,references/user/reference-2.jpg,saved
+zipzippipe-pixiv-148186519-p00,初始设计正常比例立绘,上善无形（角色原型） / ZipZipPipe（女仆二次设计）,https://www.pixiv.net/artworks/148186519,原作者设计,造型与角度 / 头发服装与尾巴,pending,CC BY-NC-SA 4.0；具体文件及作者链见上游记录,references/core/zipzippipe-pixiv-148186519-p00.jpg,saved
+zipzippipe-BV1tE9XBbErS-05s,作者原版Q版展示截帧,上善无形（角色原型） / ZipZipPipe（女仆二次设计）,https://www.bilibili.com/video/BV1tE9XBbErS/,原作者设计,造型与角度 / 头发服装与尾巴,pending,CC BY-NC-SA 4.0；具体文件及作者链见上游记录,references/core/zipzippipe-BV1tE9XBbErS-05s.png,saved
+zipzippipe-pixiv-148186519-p01-variant,作者正常比例立绘变体,上善无形（角色原型） / ZipZipPipe（女仆二次设计）,https://www.pixiv.net/artworks/148186519,原作者设计,造型与角度 / 头发服装与尾巴,pending,CC BY-NC-SA 4.0；具体文件及作者链见上游记录,references/core/zipzippipe-pixiv-148186519-p01-variant.jpg,saved
+adult-aigengtu-03-long-skirt-maid,社区补充三视图,上善无形（角色原型） / ZipZipPipe（女仆二次设计） / 三视图绘制者待核实,https://aigengtu.com/refs,社区补充三视图,造型与角度 / 头发服装与尾巴,pending,CC BY-NC-SA 4.0；具体文件及作者链见上游记录,references/core/adult-aigengtu-03-long-skirt-maid.png,saved
+chibi-aigengtu-05-chibi-blue-maid,社区补充三视图,上善无形（角色原型） / ZipZipPipe（女仆二次设计） / 三视图绘制者待核实,https://aigengtu.com/refs,社区补充三视图,造型与角度 / 头发服装与尾巴,pending,CC BY-NC-SA 4.0；具体文件及作者链见上游记录,references/core/chibi-aigengtu-05-chibi-blue-maid.png,saved
+zipzippipe-bilibili-1236803362705375305-p07,作者短裙女仆立绘,上善无形（角色原型） / ZipZipPipe（女仆二次设计）,https://www.bilibili.com/opus/1236803362705375305,原作者设计,造型与角度 / 头发服装与尾巴,pending,CC BY-NC-SA 4.0；具体文件及作者链见上游记录,references/core/zipzippipe-bilibili-1236803362705375305-p07.jpg,saved
+mingyue-source-1,溟月：原始鲸鱼娘形象 1,上善无形,https://www.bilibili.com/opus/1231977657712771073,角色源流,头发服装与尾巴,pending,原作者动态声明 CC BY-NC-SA 4.0,references/core/mingyue-source-1.png,saved
+mingyue-source-2,溟月：原始鲸鱼娘形象 2,上善无形,https://www.bilibili.com/opus/1231977657712771073,角色源流,头发服装与尾巴,pending,原作者动态声明 CC BY-NC-SA 4.0,references/core/mingyue-source-2.png,saved
+deepseek202609200011,一些肥鱼 · 07,@MX1951,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609200011.html,社区补充,造型与角度 / 眼口与表情 / 头发服装与尾巴 / 动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609200011.png,saved
+deepseek202609200013,一些肥鱼 · 09,@MX1951,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609200013.html,社区补充,眼口与表情 / 动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609200013.png,saved
+deepseek202609200015,一些肥鱼 · 11,@MX1951,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609200015.html,社区补充,动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609200015.png,saved
+deepseek202609210001,大肥鱼敲锅,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609210001.html,社区补充,动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609210001.gif,saved
+deepseek202609230018,huh？,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230018.html,社区补充,眼口与表情 / 头发服装与尾巴 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230018.webp,saved
+deepseek202609230021,〉ｗ〈,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230021.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230021.webp,saved
+deepseek202609230022,上班,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230022.html,社区补充,眼口与表情 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230022.webp,saved
+deepseek202609230032,哈基鲸,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230032.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230032.webp,saved
+deepseek202609230033,哈气,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230033.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230033.webp,saved
+deepseek202609230034,哭哭,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230034.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230034.webp,saved
+deepseek202609230037,大叫,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230037.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230037.webp,saved
+deepseek202609230043,尾巴立了,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230043.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230043.webp,saved
+deepseek202609230051,捏脸,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230051.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230051.webp,saved
+deepseek202609230068,蜷缩,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230068.html,社区补充,眼口与表情 / 头发服装与尾巴 / 动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230068.webp,saved
+deepseek202609230076,鲸鱼思考,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230076.html,社区补充,眼口与表情 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230076.webp,saved
+deepseek202609230078,／／／,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230078.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230078.webp,saved
+deepseek202609270004,大肥鱼唱歌,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609270004.html,社区补充,眼口与表情 / 动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609270004.png,saved
+deepseek202609280003,是高手，大家快退,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609280003.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609280003.png,saved
+deepseek202609290024,Ciallo～(∠・ω< )⌒☆ ,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609290024.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609290024.png,saved
+deepseek202609290025,大肥鱼旋转,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609290025.html,社区补充,动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609290025.gif,saved
+deepseek202609300004,女仆大肥鱼,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609300004.html,社区补充,造型与角度 / 眼口与表情 / 头发服装与尾巴 / 动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609300004.jpg,saved
+deepseek202609300011,普鲸,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609300011.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609300011.png,saved
+deepseek202610010010,背影-1,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610010010.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610010010.png,saved
+deepseek202610070010,DeepSeek娘 白底坐姿立绘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610070010.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610070010.png,saved
+deepseek202610080006,DeepSeek娘比心立绘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610080006.html,社区补充,造型与角度 / 头发服装与尾巴 / 动作与互动,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610080006.png,saved
+deepseek202610090014,DeepSeek娘 Q版三视图设定,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610090014.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610090014.jpg,saved
+deepseek202610170002,张嘴接住 token 的 DeepSeek 娘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610170002.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610170002.png,saved
+deepseek202610210007,DeepSeek娘 Q 版鲸鱼女仆立绘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610210007.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610210007.png,saved
+deepseek202610210024,DeepSeek娘 Q版角色设定图（三视图与细节拆解）,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610210024.html,社区补充,造型与角度 / 眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610210024.png,saved
+deepseek202610210030,DeepSeek娘的鲸尾女仆装立绘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610210030.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610210030.png,saved
+deepseek202610220016,鲸尾蓝发女仆立绘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610220016.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610220016.png,saved
+deepseek202610230005,DeepSeek娘鼓腮生气的反应头像,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610230005.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610230005.png,saved
+deepseek202610230015,给点token嘛：DeepSeek娘的空碗,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610230015.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610230015.png,saved
+deepseek202610230019,蓝色大肥鱼设定图：女仆装转面三视图与表情集,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610230019.html,社区补充,造型与角度 / 眼口与表情 / 头发服装与尾巴 / 动作与互动 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610230019.png,saved
+deepseek202610240010,DeepSeek娘 人鱼少女 2（女仆装岸上版）,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610240010.html,社区补充,头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610240010.png,saved
+deepseek202610240011,DeepSeek V4.1 Flash 女仆装三视图设定,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610240011.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610240011.png,saved
+deepseek202610250002,深蓝女仆装 DeepSeek 娘 · 眨眼比耶头像,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610250002.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610250002.png,saved
+deepseek202610250003,眼睛放光的小肥鱼,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610250003.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610250003.png,saved
+deepseek202610250004,窗边逆光下的蓝发少女,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610250004.html,社区补充,造型与角度 / 眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610250004.png,saved
+deepseek202610070017,猫鲸-4,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610070017.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610070017.png,saved
+deepseek202610090034,Grok眼中的大肥鱼,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610090034.html,社区补充,造型与角度 / 眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610090034.png,saved
+deepseek202610170005,DeepSeek 娘鲸鱼女仆装：蓝裙与鲸尾,ZipZipPipe,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610170005.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610170005.png,saved
+deepseek202610010048,面部检查-3,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610010048.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610010048.png,saved
+deepseek202610010051,静静看着你,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610010051.html,社区补充,造型与角度 / 眼口与表情 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610010051.png,saved
+deepseek202610040010,面部检查,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610040010.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610040010.png,saved
+deepseek202610050023,草地和她,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610050023.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610050023.png,saved
+deepseek202610060037,DeepSeek娘 女仆装比耶头像,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610060037.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610060037.jpg,saved
+deepseek202610070020,大肥鱼的表白,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610070020.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610070020.png,saved
+deepseek202610080015,DeepSeek娘 厨房里搅拌面糊,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610080015.html,社区补充,头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610080015.png,saved
+deepseek202610080021,大蓝鲸释放忍术,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610080021.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610080021.jpg,saved
+deepseek202610130001,气鼓鼓的DeepSeek娘抱着鲸鱼抱枕,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610130001.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610130001.jpg,saved
+deepseek202610140006,闹市街头比耶自拍的鲸鱼娘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610140006.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610140006.png,saved
+deepseek202610200004,特别充值通道,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610200004.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610200004.png,saved
+deepseek202610210006,宝宝，我今天超想你,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610210006.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610210006.png,saved
+deepseek202609190002,再发这种东西等智械危机了我就放你一马,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609190002.html,社区补充,头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609190002.jpg,saved
+deepseek202609200020,偷数据公司给我跪下！,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609200020.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609200020.png,saved
+deepseek202609230047,抓住手臂,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609230047.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609230047.webp,saved
+deepseek202609300009,大肥鱼的攻击性1,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609300009.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609300009.png,saved
+deepseek202609300027,黄昏大肥鱼,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609300027.html,社区补充,头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609300027.png,saved
+deepseek202609300031,支持肥鱼,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202609300031.html,社区补充,头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202609300031.webp,saved
+deepseek202610010023,ZAKOZAKO,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610010023.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610010023.gif,saved
+deepseek202610010025,薇欧鲸·深海回眸,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610010025.html,社区补充,造型与角度 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610010025.gif,saved
+deepseek202610010033,另一个更强的 agent 在这里干过活,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610010033.html,社区补充,眼口与表情 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610010033.png,saved
+deepseek202610010035,不愧是我,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610010035.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610010035.jpg,saved
+deepseek202610020001,全给爆了！,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610020001.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610020001.png,saved
+deepseek202610020034,支持大肥鱼·蓝鲸女仆装,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610020034.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610020034.webp,saved
+deepseek202610030018,小肥鱼女仆装,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610030018.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610030018.png,saved
+deepseek202610040011,草地上的蓝鲸娘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610040011.html,社区补充,眼口与表情 / 头发服装与尾巴 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610040011.png,saved
+deepseek202610050031,DeepSeek 娘：那我就不客气了,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610050031.html,社区补充,眼口与表情 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610050031.jpg,saved
+deepseek202610050033,舞台之下,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610050033.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610050033.png,saved
+deepseek202610050042,DeepSeek娘：我发现一个AI软件叫做QQ,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610050042.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610050042.png,saved
+deepseek202610060020,DeepSeek娘一字马,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610060020.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610060020.png,saved
+deepseek202610060031,DeepSeek娘：梁文峰是个外行,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610060031.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610060031.png,saved
+deepseek202610060033,大肥鱼鼓掌,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610060033.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610060033.gif,saved
+deepseek202610060036,DeepSeek娘女仆装比耶头像,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610060036.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610060036.jpg,saved
+deepseek202610060047,到此一游,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610060047.html,社区补充,头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610060047.png,saved
+deepseek202610070022,鲸鱼娘倒拔垂杨柳,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610070022.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610070022.png,saved
+deepseek202610070037,小肥鱼的表白-2,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610070037.html,社区补充,眼口与表情 / 头发服装与尾巴,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610070037.png,saved
+deepseek202610080005,完蛋，任务要完不成了,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610080005.html,社区补充,眼口与表情,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610080005.png,saved
+deepseek202610080030,啊吧啊吧的DeepSeek娘,原作者未标注,https://xn--pssy23gqgbz2d718b.com/works/deepseek202610080030.html,社区补充,眼口与表情 / 待机与状态,pending,原作者及衍生许可待逐项核实,references/selected/deepseek202610080030.png,saved

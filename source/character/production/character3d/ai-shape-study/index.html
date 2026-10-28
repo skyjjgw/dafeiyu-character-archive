@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>大肥鱼 · 三维形状对照</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"../../rig3d-prototype/vendor/three.module.js"}}</script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="identity"><span class="signal" aria-hidden="true"></span><div><p class="eyebrow">DAFEIYU / GEOMETRY STUDY</p><h1>三维形状对照</h1></div></div>
+    <div class="header-right"><span class="scope-pill">未绑定形状假设 · 非原作真值</span><a href="../../rig3d-prototype/">返回动作小样 <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main class="workspace">
+    <aside class="left-panel panel" aria-label="模型选择与信息">
+      <section><div class="section-heading"><h2>实验结果</h2><span>01 / MESH</span></div>
+        <label class="field-label" for="modelSelect">选择 GLB</label>
+        <select id="modelSelect" disabled><option>正在读取模型列表…</option></select>
+        <button id="refreshList" type="button" class="secondary-button">刷新结果列表</button>
+        <p id="listStatus" class="muted" role="status">读取 models.json</p>
+      </section>
+      <section class="model-section"><div class="section-heading"><h2>当前形状</h2><span>DATA</span></div>
+        <h3 id="modelTitle">尚未载入</h3><p id="modelNotes" class="model-notes">生成结果加入列表后，可以从各角度检查真实网格。</p>
+        <dl class="facts"><div><dt>网格</dt><dd id="meshCount">—</dd></div><div><dt>顶点条目</dt><dd id="vertexCount">—</dd></div><div><dt>三角形</dt><dd id="triangleCount">—</dd></div><div><dt>骨骼</dt><dd id="boneCount">—</dd></div><div><dt>动作片段</dt><dd id="clipCount">—</dd></div><div><dt>原始尺寸</dt><dd id="originalSize">—</dd></div></dl>
+        <a id="modelFile" class="file-link" hidden download>保存原始 GLB <span aria-hidden="true">↓</span></a>
+      </section>
+      <section class="reading-note"><span class="note-marker">READING NOTE</span><p>先看轮廓、体积与遮挡。正面相似不等于侧背已还原；生成灰模仍需拓扑、拆分、绑定与表情制作。</p><p id="assetScope">这里显示的是 GLB 网格，右侧 PNG 只作参考。</p></section>
+      <footer class="panel-footer">LOCAL ASSET · THREE.JS r180</footer>
+    </aside>
+    <section class="stage-panel" aria-label="真实三维模型预览">
+      <div class="stage-toolbar"><div class="view-buttons" role="group" aria-label="观察角度"><button type="button" data-view="front">正面</button><button type="button" data-view="side">左侧</button><button type="button" data-view="back">背面</button><button type="button" data-view="threequarter" aria-pressed="true">三分之四</button></div><button id="frameModel" type="button" class="text-button">适配视野</button></div>
+      <div id="viewport"><div class="stage-corner top-left">LIVE GEOMETRY<span>拖动旋转 · 滚轮缩放</span></div><div class="stage-corner bottom-right">Y ↑ / FRONT +Z</div><div id="stageMessage" class="stage-message" role="status"><span class="empty-symbol" aria-hidden="true">＋</span><h2 id="stageMessageTitle">等待形状结果</h2><p id="stageMessageDetail">正在读取本地实验清单</p></div><div id="loadProgress" class="load-progress" hidden><span id="loadText">正在读取 GLB…</span><progress id="loadBar" aria-label="GLB 读取进度"></progress></div></div>
+      <div class="stage-bottom"><div class="switches"><label><input type="checkbox" id="grayMode" checked>灰模</label><label><input type="checkbox" id="wireframe">线框</label><label><input type="checkbox" id="autoRotate">自动旋转</label><label><input type="checkbox" id="showGrid" checked>地面网格</label></div><p id="displayStatus">仅检查形状，不播放骨骼动作</p></div>
+    </section>
+    <aside class="reference-panel panel" aria-label="二维参考图">
+      <div class="reference-heading"><div class="section-heading"><h2>原图对照</h2><span>02 / REFERENCE</span></div><select id="referenceSelect" aria-label="选择参考图"><option value="proposal">生成输入 · 三分之四提案</option><option value="canonical">已选二维正面</option></select></div>
+      <div class="reference-image"><img id="referenceImage" src="input-threequarter-proposal.png" alt="大肥鱼三分之四形状生成输入参考"><p id="referenceError" class="reference-error" role="alert" hidden>参考图读取失败</p><span class="image-label">2D REFERENCE</span></div>
+      <div class="reference-caption"><h3 id="referenceTitle">三分之四输入提案</h3><p id="referenceCaption">用于此次单图形状试验，侧背仍是生成假设，不是原作者设定。</p><a id="referenceFile" href="input-threequarter-proposal.png" target="_blank" rel="noopener">打开参考原图 ↗</a></div>
+    </aside>
+  </main>
+  <script type="module" src="viewer.js"></script>
+</body>
+</html>

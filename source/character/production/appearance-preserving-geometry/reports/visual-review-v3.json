@@ -1,0 +1,72 @@
+{
+  "schema": "dafeiyu.head-v3.visual-review.v1",
+  "date": "2026-10-28",
+  "reviewer": "Root CUA actual WebGL; this geometry agent inspected root exported screenshot with view_image",
+  "sourceMetrics": "reports/gpu-front-v3-comparison-root-20261028.json",
+  "screenshot": "reports/cua-head-v3-front-20261028.png",
+  "measurements": {
+    "rgbRMSE": 1.7501202694738172,
+    "maxRGBDifference": 184,
+    "pixelsRGBDifferenceOver1": 301,
+    "alphaSilhouetteDifference": 0,
+    "faceRegion": {
+      "worldXY": [
+        [
+          -0.61,
+          0.71
+        ],
+        [
+          0.61,
+          1.75
+        ]
+      ],
+      "rgbRMSE": 5.237884308811879,
+      "pixelsRGBDifferenceOver1": 301
+    }
+  },
+  "finding": "Limited neutral frontal identity retained; original selected girl and painting preserved, v2 forehead/hair ordering differences substantially reduced. Not pixel-identical and not final quality.",
+  "acceptedScope": [
+    "Neutral frontal source identity retained for this independent structural candidate",
+    "One actual -45 degree camera orbit combined blink .55 / talk .4 / gazeX .4 frame retains selected face appearance"
+  ],
+  "pending": [
+    "Actual v3 90 degree head volume review (v2 side improvement observed separately)",
+    "All-angle intersections/contact/dynamic validation",
+    "Source hair/headband/body side layer defects remain",
+    "Native canonical roles20..24 plus v3 depth policy and cage implementation",
+    "True rotating ocular anatomy, soft tissue dynamics and oral anatomy remain incomplete"
+  ],
+  "nativeIntegrated": false,
+  "finalVisualAcceptance": false,
+  "glb": {
+    "file": "assets/structure-candidate-v3.glb",
+    "bytes": 11953076,
+    "sha256": "08669c36b9e217a8f242c08a0fb573ec4c399900d8a1b68ae375ac53a44f3fae"
+  },
+  "sourceProjection": {
+    "frontSourceVertices": 77568,
+    "maxFrontXYDifference": 0,
+    "maxRearWeldXYDifference": 5.960464477539063e-08,
+    "maxFrontSourceZDifference": 0.09529580175876617,
+    "maxRearSourceZDifference": 0.11378733813762665,
+    "reference": "reports/structure-verification-v3.json"
+  },
+  "expressionFrame": {
+    "screenshot": "reports/cua-head-v3-left45-expression-20261028.png",
+    "cameraOrbitDegrees": -45,
+    "blink": 0.55,
+    "talk": 0.4,
+    "gazeX": 0.4,
+    "reviewer": "Root actual CUA and geometry agent view_image",
+    "finding": "This actual combined frame retains the selected girl eye/lid/mouth drawing; no obvious old exposed sclera hole seen. This is one frame, not all pose/angle acceptance."
+  },
+  "finalQuality": false,
+  "nativeIntegration": false,
+  "nativeInterface": {
+    "descriptors": "assets/structure-canonical-descriptors-v3.json",
+    "headMap": "assets/head-structure-map-v3.json",
+    "cage": "assets/head-depth-cage-v3.json",
+    "roles": "20 support /21 socket /22 socket-pole /23 oral-wall /24 oral-cap",
+    "policy": "Original source-default face adapter is incompatible. All new head roles and retained face drawing vertices must evaluate v3 frontZ with identical frozen geometry cage; same canonical vertex must evaluate identically across material boundaries."
+  }
+}

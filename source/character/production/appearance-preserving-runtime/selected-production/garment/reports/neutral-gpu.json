@@ -1,0 +1,89 @@
+{
+	"captured_angles": [
+		0,
+		45,
+		90,
+		180
+	],
+	"checks": {
+		"four_actual_gpu_images": true,
+		"original_skirt_hidden_only_for_candidate": true,
+		"paused_before_install": true,
+		"physics_updates_zero": true,
+		"two_high_shells": true
+	},
+	"cloth_physics_accepted": false,
+	"completed": true,
+	"device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+	"method": "gl_compatibility",
+	"pass_render_wiring_only": true,
+	"performance_accepted": false,
+	"scope": "Actual paused-world GPU high-shell material/UV/FloatColor/barycentric mapping capture only. No simulated cloth motion, no contact or material acceptance.",
+	"setup": {
+		"backend_radius_initialization": "one pre-step re-entry before pins; minimal sphere calibration 0.003499967m",
+		"backend_radius_measured_on_full_garment": false,
+		"configured_jolt_point_radius_m": 0.0035,
+		"current_work_not_physics_acceptance": true,
+		"hard_waist_pins": 192,
+		"layers": 2,
+		"ok": true,
+		"per_vertex_areal_mass": false,
+		"solver_points": 3104
+	},
+	"snapshot": {
+		"backend_radius_measured": false,
+		"collision_pass": false,
+		"collisions_enabled": false,
+		"configured_point_radius_m": 0.0035,
+		"final_visual_pass": false,
+		"free_points_pose_targets": false,
+		"initial_proxy_overlaps": [
+			{
+				"capsules_with_initial_overlap": [],
+				"layer": "outer"
+			},
+			{
+				"capsules_with_initial_overlap": [],
+				"layer": "lining"
+			}
+		],
+		"layers": [
+			{
+				"bending_energy_j": 0.0,
+				"hinges": 5088,
+				"id": "outer",
+				"mass_kg": 0.0799999982118607,
+				"points": 1824,
+				"triangles": 3456,
+				"waist_pins": 96
+			},
+			{
+				"bending_energy_j": 0.0,
+				"hinges": 3456,
+				"id": "lining",
+				"mass_kg": 0.0350000001490116,
+				"points": 1280,
+				"triangles": 2368,
+				"waist_pins": 96
+			}
+		],
+		"material_enabled": false,
+		"material_ms_samples": [],
+		"maximum_displacement_from_initial_world_m": 0.0,
+		"maximum_material_force_n": 0.0,
+		"maximum_pin_error_m": 0.0,
+		"per_vertex_areal_mass_used": false,
+		"ready": true,
+		"solver": "Jolt SoftBody3D + native signed-dihedral material forces",
+		"unsupported": [
+			"Actual Jolt simulation and signed bending integration not verified by this exporter",
+			"Garment/body/tail/hair contact and continuous collision validation pending",
+			"Per-vertex areal mass use depends on native SoftBody API; uniform total_mass alone does not apply these masses",
+			"Whole-character camera calibration and side/back art remain unresolved; prior v2 front is not pixel identical",
+			"No arbitrary action, all-angle final look or physical material certification"
+		],
+		"updates": 0
+	},
+	"source_image_sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+	"visual_accepted": false
+}

@@ -1,0 +1,15 @@
+{
+  "minActualTriangleScalpImplicit": 1.002645722373869,
+  "closestScalpTriangle": 15394,
+  "triangleCheck": "Exact minimum quadratic ellipsoid implicit on each clipped front/back triangle, using closest point in normalized unit-sphere space; includes rims and inner layer.",
+  "schema": "dafeiyu.scalp-ribbon.static-clearance-check.v2",
+  "minActualScalpEllipsoidImplicit": 1.0027416005073506,
+  "ellipsoidOutsideThreshold": 1,
+  "actualScalpReference": "Frozen SCALP_SHAPE axes .73/.67/frontDepth.43/backDepth.52, cy.17,cz-.03",
+  "minRadialThickness": 0.0029999354126692816,
+  "maxRadialThickness": 0.0030000709648838894,
+  "minNormalProjectedThickness": 0.0004364376928547298,
+  "minNormalVsRadialCosine": 0.14547943436640823,
+  "passed": true,
+  "scope": "All actual triangles versus original scalp analytic solid plus paired layer/normal spacing. Does not certify contact against other original painted source locks or dynamic collision."
+}

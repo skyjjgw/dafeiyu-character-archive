@@ -1,0 +1,20 @@
+{
+  "revision": 5,
+  "reference": "references/user/tail-color-reference-v5.png",
+  "preview": "http://127.0.0.1:4334/production/facial-prototype/",
+  "screenshots": [
+    "metadata/tail-v5-closeup.png",
+    "metadata/tail-v5-fullbody.png"
+  ],
+  "checks": {
+    "rendered_revision": "05",
+    "tail_palette": "cool indigo / soft blue planes; latest user reference takes priority",
+    "local_composite": "tail-root, both flukes, notch and skirt boundary visually inspected",
+    "toggle_off": "tail group hidden; canonical image retained",
+    "toggle_on": "v5 tail visible",
+    "canonical_sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+    "console_errors": [],
+    "face": "unchanged canonical plus existing v2 expression patches"
+  },
+  "limitations": "Static tail color/shape prototype; not a physics or Live2D rig."
+}

@@ -1,0 +1,16 @@
+{
+  "schema":"dafeiyu.hollow-skirt.local-visual-review.v2",
+  "reviewedOn":"2026-10-28",
+  "status":"limited_structural_improvement",
+  "frontIdentityRetained":true,
+  "final_quality":false,
+  "physicsPass":false,
+  "installedInto4348":false,
+  "actuallyReviewedViews":["full neutral front","isolated skirt left90"],
+  "unreviewedViews":["right side","back","other turns or action sequence"],
+  "frontActualWebGL":{"rgbRMSE":2.839180451824229,"maxRGBDifference":225,"pixelsRGBDifferenceOver1":1355,"alphaSilhouetteDifference":207},
+  "observed":"Selected girl identity and maid costume retained. True hollow layers and side petticoat are structural improvements over the solid wedge. Side skirt shape and transition between source front painting/inferred back color still require refinement.",
+  "frontDifferenceMeaning":"Forward outer XY/UV preservation is not whole-render identity: lining/cloth edges/side blending changed actual pixels and silhouette. Do not describe this as exact unchanged artwork or final approval.",
+  "evidence":["cua-skirt-v2-front-20261028.png","cua-skirt-v2-isolated-left90-20261028.png","gpu-front-comparison-root-20261028.json"],
+  "remaining":["Side hem naturalness and painting/color continuity","Consistent whole-character camera calibration for likely baked oblique projection","Other-view visual inspection","Garment/body/tail/hair contacts and physical cloth materials/solver"]
+}

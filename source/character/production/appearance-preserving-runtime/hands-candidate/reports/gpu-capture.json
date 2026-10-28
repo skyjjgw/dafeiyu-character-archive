@@ -1,0 +1,115 @@
+{
+	"actual_baked_vertex_count": 5249,
+	"completed": true,
+	"display": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"greeting": {
+		"forearm_roll_rad": -0.730324814521679,
+		"orientation_target": "world attention target, gravity up; not camera-facing billboard",
+		"palm_dot_attention": 0.990172743797302,
+		"wave_blend": 0.99925947124509,
+		"wrist_limit_rad": 1.1,
+		"wrist_local_angle_rad_before_limit": 1.55698752403259
+	},
+	"hand": {
+		"body_bones_synchronised": 22,
+		"finger_bones": 30,
+		"grip": 0.55,
+		"limits": [
+			"Independent candidate; source22 copied, never modified",
+			"Reference pose sampling is not arbitrary-motion self-collision or force-closure proof",
+			"Source-fitted unlit colors, no skin muscle/cloth/hand-object dynamics"
+		],
+		"max_body_basis_axis_error": 0.000000520475168741541,
+		"max_body_origin_error_source_units": 0.000000273142802598159,
+		"meshes": 2,
+		"opposition": 0.22,
+		"package_sha256": "6ce8324dd001060e6eaf0aa60deda512a1a33d8d39fe534e797a614dfedc7c0f",
+		"precision": [
+			{
+				"bone_indices_exact": true,
+				"float_color_bytes_exact": true,
+				"gltf_ccw_to_godot_cw_verified": true,
+				"max_imported_weight_error": 0.0000151991844177246,
+				"position_bytes_exact": true,
+				"side": "left",
+				"vertices": 5249
+			},
+			{
+				"bone_indices_exact": true,
+				"float_color_bytes_exact": true,
+				"gltf_ccw_to_godot_cw_verified": true,
+				"max_imported_weight_error": 0.0000151991844177246,
+				"position_bytes_exact": true,
+				"side": "right",
+				"vertices": 5249
+			}
+		],
+		"ready": true,
+		"show_original": false
+	},
+	"reference": {
+		"max_source_unit_error": 0.0000251133060373832,
+		"pass": true,
+		"scope": "Actual Godot Skeleton3D solved matrices and actual constructed ArrayMesh readback position/bone/weight arrays with package inverse binds, compared to independent live Three skinning reference; not rendered/GPU evidence",
+		"states": [
+			{
+				"grip": 0.0,
+				"max_source_unit_error": 0.0000251133060373832,
+				"opposition": 0.0,
+				"side": "left",
+				"vertices": 5249
+			},
+			{
+				"grip": 0.55,
+				"max_source_unit_error": 0.0000251128985837568,
+				"opposition": 0.22,
+				"side": "left",
+				"vertices": 5249
+			},
+			{
+				"grip": 1.0,
+				"max_source_unit_error": 0.0000251113615377108,
+				"opposition": 0.4,
+				"side": "left",
+				"vertices": 5249
+			},
+			{
+				"grip": 0.0,
+				"max_source_unit_error": 0.0000246488179982407,
+				"opposition": 0.0,
+				"side": "right",
+				"vertices": 5249
+			},
+			{
+				"grip": 0.55,
+				"max_source_unit_error": 0.0000247011321334867,
+				"opposition": 0.22,
+				"side": "right",
+				"vertices": 5249
+			},
+			{
+				"grip": 1.0,
+				"max_source_unit_error": 0.0000246459421759937,
+				"opposition": 0.4,
+				"side": "right",
+				"vertices": 5249
+			}
+		],
+		"tolerance_reason": "Standard ArrayMesh skin weights are packed to 16-bit. The earlier 2e-6 raw-float limit failed at 2.5113e-5 actual readback error; retained in failure logs. This explicit limit is 0.0175 mm only under the chosen 0.35m/sourceunit scene scale, not a claim of byte-identical skinning. Body matrix mapping is checked separately at 2e-6.",
+		"tolerance_source_units": 0.00005
+	},
+	"schema": "dafeiyu.selected-hand-candidate-gpu-capture.v1",
+	"scope": "Actual whole selected character plus true skinned local hand candidate rendered on GPU; close images explicitly isolate hand. Not final anatomy, collision or grasp acceptance",
+	"visual_pass": false
+}

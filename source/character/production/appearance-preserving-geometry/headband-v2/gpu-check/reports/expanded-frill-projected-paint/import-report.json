@@ -1,0 +1,37 @@
+{
+	"capturedAngles": [
+		0,
+		45,
+		90,
+		180
+	],
+	"component_sha256": "1ccad6c1afadf67d632d8806cd0768f4e92d179de7a6c3ead6dd7b9d14743156",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"floatPaletteCustom0": true,
+	"imported_vertices": 15906,
+	"maxUV2PaintWeightError": 0.0,
+	"maxUVError": 0.0,
+	"original_meshes_hidden": [
+		"continuous-rounded-three-dimensional-headband",
+		"left-painted-white-frill_original-pixel-surface",
+		"left-painted-white-frill_closed-thickness",
+		"left-painted-white-frill_back",
+		"right-painted-white-frill_original-pixel-surface",
+		"right-painted-white-frill_closed-thickness",
+		"right-painted-white-frill_back"
+	],
+	"schema": "dafeiyu.headband-v2.actual-gpu-import.v1",
+	"scope": "Actual Godot GPU static source girl + new independent component. Not dynamics/performance or final artistic acceptance.",
+	"unmatched_positions": 0
+}

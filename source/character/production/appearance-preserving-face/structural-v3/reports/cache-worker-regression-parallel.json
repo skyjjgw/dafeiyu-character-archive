@@ -1,0 +1,200 @@
+{
+	"cycles": 8,
+	"passed": true,
+	"rows": [
+		{
+			"blink_keeps_mouth_buffers_exact": true,
+			"cycle": 0,
+			"first_all_changed": true,
+			"gaze_changed": [
+				"left sampled original iris",
+				"right sampled original iris"
+			],
+			"gaze_only_iris": true,
+			"gaze_others_exact": true,
+			"passed": true,
+			"reconfigure_exact": true,
+			"same_buffers_exact": true,
+			"same_none_changed": true,
+			"talk_keeps_eye_buffers_exact": true,
+			"times_ms": {
+				"blink": 11.5604,
+				"first": 16.2449,
+				"gaze": 1.2839,
+				"same": 0.0295,
+				"talk": 6.0182
+			},
+			"worker_count": 1
+		},
+		{
+			"blink_keeps_mouth_buffers_exact": true,
+			"cycle": 1,
+			"first_all_changed": true,
+			"gaze_changed": [
+				"left sampled original iris",
+				"right sampled original iris"
+			],
+			"gaze_only_iris": true,
+			"gaze_others_exact": true,
+			"passed": true,
+			"reconfigure_exact": true,
+			"same_buffers_exact": true,
+			"same_none_changed": true,
+			"talk_keeps_eye_buffers_exact": true,
+			"times_ms": {
+				"blink": 4.7398,
+				"first": 20.6864,
+				"gaze": 1.3764,
+				"same": 0.0832,
+				"talk": 1.8199
+			},
+			"worker_count": 1
+		},
+		{
+			"blink_keeps_mouth_buffers_exact": true,
+			"cycle": 2,
+			"first_all_changed": true,
+			"gaze_changed": [
+				"left sampled original iris",
+				"right sampled original iris"
+			],
+			"gaze_only_iris": true,
+			"gaze_others_exact": true,
+			"passed": true,
+			"reconfigure_exact": true,
+			"same_buffers_exact": true,
+			"same_none_changed": true,
+			"talk_keeps_eye_buffers_exact": true,
+			"times_ms": {
+				"blink": 5.176,
+				"first": 8.5091,
+				"gaze": 0.9338,
+				"same": 0.0296,
+				"talk": 1.7396
+			},
+			"worker_count": 1
+		},
+		{
+			"blink_keeps_mouth_buffers_exact": true,
+			"cycle": 3,
+			"first_all_changed": true,
+			"gaze_changed": [
+				"left sampled original iris",
+				"right sampled original iris"
+			],
+			"gaze_only_iris": true,
+			"gaze_others_exact": true,
+			"passed": true,
+			"reconfigure_exact": true,
+			"same_buffers_exact": true,
+			"same_none_changed": true,
+			"talk_keeps_eye_buffers_exact": true,
+			"times_ms": {
+				"blink": 6.3434,
+				"first": 7.4582,
+				"gaze": 0.9523,
+				"same": 0.0292,
+				"talk": 1.6954
+			},
+			"worker_count": 1
+		},
+		{
+			"blink_keeps_mouth_buffers_exact": true,
+			"cycle": 4,
+			"first_all_changed": true,
+			"gaze_changed": [
+				"left sampled original iris",
+				"right sampled original iris"
+			],
+			"gaze_only_iris": true,
+			"gaze_others_exact": true,
+			"passed": true,
+			"reconfigure_exact": true,
+			"same_buffers_exact": true,
+			"same_none_changed": true,
+			"talk_keeps_eye_buffers_exact": true,
+			"times_ms": {
+				"blink": 4.0269,
+				"first": 8.2327,
+				"gaze": 0.8426,
+				"same": 0.0257,
+				"talk": 1.2874
+			},
+			"worker_count": 1
+		},
+		{
+			"blink_keeps_mouth_buffers_exact": true,
+			"cycle": 5,
+			"first_all_changed": true,
+			"gaze_changed": [
+				"left sampled original iris",
+				"right sampled original iris"
+			],
+			"gaze_only_iris": true,
+			"gaze_others_exact": true,
+			"passed": true,
+			"reconfigure_exact": true,
+			"same_buffers_exact": true,
+			"same_none_changed": true,
+			"talk_keeps_eye_buffers_exact": true,
+			"times_ms": {
+				"blink": 5.1032,
+				"first": 8.3869,
+				"gaze": 1.0487,
+				"same": 0.0356,
+				"talk": 1.567
+			},
+			"worker_count": 1
+		},
+		{
+			"blink_keeps_mouth_buffers_exact": true,
+			"cycle": 6,
+			"first_all_changed": true,
+			"gaze_changed": [
+				"left sampled original iris",
+				"right sampled original iris"
+			],
+			"gaze_only_iris": true,
+			"gaze_others_exact": true,
+			"passed": true,
+			"reconfigure_exact": true,
+			"same_buffers_exact": true,
+			"same_none_changed": true,
+			"talk_keeps_eye_buffers_exact": true,
+			"times_ms": {
+				"blink": 4.5174,
+				"first": 5.9797,
+				"gaze": 0.7702,
+				"same": 0.0278,
+				"talk": 1.3113
+			},
+			"worker_count": 1
+		},
+		{
+			"blink_keeps_mouth_buffers_exact": true,
+			"cycle": 7,
+			"first_all_changed": true,
+			"gaze_changed": [
+				"left sampled original iris",
+				"right sampled original iris"
+			],
+			"gaze_only_iris": true,
+			"gaze_others_exact": true,
+			"passed": true,
+			"reconfigure_exact": true,
+			"same_buffers_exact": true,
+			"same_none_changed": true,
+			"talk_keeps_eye_buffers_exact": true,
+			"times_ms": {
+				"blink": 4.1694,
+				"first": 5.5929,
+				"gaze": 0.8567,
+				"same": 0.0299,
+				"talk": 1.5223
+			},
+			"worker_count": 1
+		}
+	],
+	"schema": "dafeiyu.structural-face.exact-cache-worker-regression.v1",
+	"scope": "Exact state dependency cache, COW buffer invariance, repeated configure and destructor/worker join. Does not replace actual Three 24-case authority comparison or GPU/visual validation."
+}

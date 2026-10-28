@@ -1,0 +1,24 @@
+{
+  "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\ai-shape-study\\runs\\20261027-001654-618950\\shape-grid256-seed12345.glb",
+  "purpose": "Actual unrigged shape hypothesis, not an animation-ready character",
+  "sourceBoundsBlender": [
+    [
+      -0.7460725903511047,
+      -0.3561975657939911,
+      -0.8907467722892761
+    ],
+    [
+      0.7101117372512817,
+      0.19047358632087708,
+      0.9068695902824402
+    ]
+  ],
+  "renderedViews": [
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\ai-shape-study\\runs\\20261027-001654-618950\\renders\\front.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\ai-shape-study\\runs\\20261027-001654-618950\\renders\\side.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\ai-shape-study\\runs\\20261027-001654-618950\\renders\\back.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\ai-shape-study\\runs\\20261027-001654-618950\\renders\\threequarter.png"
+  ],
+  "meshes": 1,
+  "bones": 0
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "dafeiyu.headband-v2.actual-source-scalp-nearest-distance.v1",
+  "sourceMesh": "continuous-scalp-front-side-back-shell",
+  "sourceOuterTriangles": 9120,
+  "method": "Closest point on actual frozen scalp outer triangles, BVH-pruned exact triangle distance in original Head local frame",
+  "bandOuter": {
+    "samples": 5302,
+    "min": 0.003947423344167568,
+    "median": 0.004222171997240234,
+    "p95": 0.004546758789155857,
+    "max": 0.004732602750913437
+  },
+  "bandInner": {
+    "samples": 5302,
+    "min": 0.000997132140343143,
+    "median": 0.001250399128925121,
+    "p95": 0.0015596650545599746,
+    "max": 0.0017473955379591866
+  },
+  "freeFrill": {
+    "samples": 2651,
+    "min": 0.003922419752686954,
+    "median": 0.045708839142821985,
+    "p95": 0.16080393513881835,
+    "max": 0.18229627829206982
+  },
+  "passed": true,
+  "scope": "Rigid main-band fit to actual source scalp triangles. Free frill intentionally stands away; no dynamic contact/hair-front-volume certification."
+}

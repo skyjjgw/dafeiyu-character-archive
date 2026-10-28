@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-25",
+  "stage": "art_reference_prepared_material_separation_pending",
+  "preview_url": "http://127.0.0.1:4334/production/v1/",
+  "saved_assets": [
+    "production/v1/neutral-front.png",
+    "production/v1/expression-reference.png"
+  ],
+  "checks": {
+    "neutral_alpha": "RGBA; full 0..255 alpha, all corners transparent",
+    "neutral_visible_margins_px": [
+      235,
+      242,
+      174,
+      238
+    ],
+    "planned_parts": 65,
+    "browser": "Production page opened via concept gallery; background toggle and zoom slider checked; no console errors observed"
+  },
+  "screenshot": "metadata/production-v1-preview.png",
+  "scope": "Created static production references and specification only; no PSD, Cubism model or DSH runtime installation."
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "dafeiyu.garment-low-lod.root-visual-review.v1",
+  "date": "2026-10-28",
+  "binarySha256": "30f3725bb07ec69812eb80a5f4fd0414cc1506d752eefc7a46e49529114c5f45",
+  "reviewedViews": [
+    0,
+    45,
+    90,
+    180
+  ],
+  "screenshots": [
+    {
+      "file": "root-front-static.png",
+      "sha256": "7ffa3933787de0d9851724e26762f2abd0174f181ec1a372b7624eb2a94c739a"
+    },
+    {
+      "file": "root-right45-static.png",
+      "sha256": "8bf8c7ad493684555409bd34aa05515f0be27db642fa6660bcf0bb8b9c2ccd09"
+    },
+    {
+      "file": "root-right90-static.png",
+      "sha256": "abeef5a580cc742106cf7aa2bd399489b442e377df4abaed41188023374bdd6a"
+    },
+    {
+      "file": "root-back-static.png",
+      "sha256": "efd9828b46c01cf8167645a23f003407aaba2f5134d0e2423a9d2c2abb87a423"
+    }
+  ],
+  "actualWebGLReview": true,
+  "frontComparison": {
+    "schema": "dafeiyu.garment-low-lod.front-static-comparison.v1",
+    "binarySha256": "30f3725bb07ec69812eb80a5f4fd0414cc1506d752eefc7a46e49529114c5f45",
+    "resolution": [
+      640,
+      704
+    ],
+    "rgbRMSE": 0.03506538130277626,
+    "maxRGBDifference": 22,
+    "pixelsRGBDifferenceOver1": 7,
+    "alphaSilhouetteDifference": 0,
+    "physicsPass": false,
+    "visualAcceptance": "Pending actual review; numeric similarity is not final quality"
+  },
+  "selectedGirlIdentityRetained": true,
+  "neutralMappingDevelopmentReviewPassed": true,
+  "observations": [
+    "High-shell selected painting and silhouette retained at rest; no new broad front or hem discontinuity introduced by signed barycentric LoD mapping.",
+    "Original side body/leg/shoe and inferred unpainted back appearance remain visibly incomplete.",
+    "This is neutral mapping only: extrapolation, up to 10.8mm normal offsets, dynamic folding and visible-surface contacts remain unresolved."
+  ],
+  "dynamicPhysicsPassed": false,
+  "renderedCollisionCoveragePassed": false,
+  "allAnglesQualityPassed": false,
+  "finalAccepted": false
+}

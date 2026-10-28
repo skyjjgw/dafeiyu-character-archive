@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-25",
+  "request": "五官完全不对啊，你帮我调节好",
+  "url": "http://127.0.0.1:4334/production/facial-prototype/",
+  "status": "corrected_v2_ready_for_visual_review",
+  "changes": [
+    "Retired generic eyes/brows/mouth assembly rejected by user",
+    "Canonical neutral source copied byte-for-byte; original eyes, brows and closed mouth preserved",
+    "Blink patches cover left/right eye regions separately; display translation -4px X",
+    "Half/open mouth patches cover mouth region only; display translation -1px X",
+    "Added face close-up/full-body and original-reference comparison"
+  ],
+  "checks": {
+    "canonical_sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+    "canonical_matches_source": true,
+    "javascript_syntax": "passed",
+    "ui_states": [
+      "open eyes/closed mouth",
+      "closed eyes/open mouth",
+      "open eyes/half mouth",
+      "reference comparison"
+    ],
+    "reference_comparison": "All three patch group opacities observed 0; canonical image remained the base",
+    "audio": {
+      "ended": true,
+      "peak": "1.00",
+      "reset_mouth": "0.00"
+    },
+    "console_errors": 0,
+    "independent_visual_review": "No obvious identity drift, seams or ghosting observed in closed/open-mouth and open-eyes/half-mouth screenshots"
+  },
+  "screenshots": [
+    "metadata/facial-corrected-v2-preview.png",
+    "metadata/facial-corrected-v2-closed.png",
+    "metadata/facial-corrected-v2-half.png"
+  ],
+  "limitations": "Image differences prototype only, not continuous eyelid mesh deformation or a complete Live2D rig"
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "dafeiyu.hair-continuity.gpu-front.v1",
+  "width": 640,
+  "height": 704,
+  "rgbRMSE": 0.07195318540656498,
+  "maxRGBDifference": 35,
+  "pixelsRGBDifferenceOver1": 25,
+  "alphaSilhouetteDifference": 0,
+  "visualPass": false,
+  "finalAccepted": false,
+  "scope": "Actual same-renderer GPU difference; does not establish side/back quality or physics"
+}

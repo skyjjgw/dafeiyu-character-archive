@@ -1,0 +1,433 @@
+{
+  "schema": "dafeiyu.native-body.v2",
+  "status": "native_shape_and_rig_study_built",
+  "blender_version": "4.5.15 LTS",
+  "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v2.blend",
+  "sha256": "c31befc1fd595e5a1575c5eb4b64c704f2839e592d994aac88f835cb442bbcf4",
+  "script": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py",
+  "script_sha256": "69c39d7861deaf05a64bbbc7d496861e9e803994343f687907e1fb4ac256f759",
+  "seconds": 8.106458300026134,
+  "execution": {
+    "background": true,
+    "completed_python": true,
+    "argv": [
+      "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\blender\\blender-4.5.15-windows-x64\\blender.exe",
+      "--offline-mode",
+      "--disable-autoexec",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "production/native-character/scripts/build_body.py",
+      "--",
+      "--render-qa"
+    ],
+    "invocation": "tools/blender/Invoke-Blender.ps1 -BlenderArguments @('--background','--factory-startup','--python-exit-code','1','--python','production/native-character/scripts/build_body.py','--','--render-qa')"
+  },
+  "coordinates": {
+    "up": "Z",
+    "forward": "-Y",
+    "ground": 0,
+    "head_bone_origin": [
+      0,
+      0,
+      2.155
+    ],
+    "collar": 1.755,
+    "waist": 1.255,
+    "skirt_hem": 0.57
+  },
+  "validation": {
+    "body_topology": {
+      "vertices": 3116,
+      "edges": 6352,
+      "faces": 3238,
+      "quads": 2990,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "control_bones": 96,
+    "deform_bones": 52,
+    "finger_bones": 30,
+    "constraints": 74,
+    "drivers": 52,
+    "cloth_modifiers": 1,
+    "rigid_contacts": 52,
+    "surface_bindings": [
+      [
+        "Apron continuous wavy flounced border",
+        true
+      ],
+      [
+        "APRON single midsurface simulation follower",
+        true
+      ],
+      [
+        "Maid skirt - 360 pleats and encircling white hem",
+        true
+      ],
+      [
+        "Whale embroidery - double tail fin",
+        true
+      ],
+      [
+        "Whale embroidery - eye",
+        true
+      ],
+      [
+        "Whale embroidery - smooth body",
+        true
+      ],
+      [
+        "Whale embroidery - waterdrop",
+        true
+      ],
+      [
+        "Whale embroidery - white belly",
+        true
+      ],
+      [
+        "White shaped apron - physical curved cloth",
+        true
+      ]
+    ],
+    "failure_records": [
+      {
+        "type": "AssertionError",
+        "message": "{'vertices': 3128, 'edges': 6352, 'faces': 3238, 'quads': 2990, 'connected_components': 13, 'boundary_edges': 0, 'nonmanifold_edges': 0}",
+        "traceback": "Traceback (most recent call last):\n  File \"E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py\", line 424, in <module>\n    try:main()\n        ^^^^^^\n  File \"E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py\", line 414, in main\n    scene.frame_set(1);bpy.context.view_layer.update();validation=verify(body,low,high)\n                                                                  ^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py\", line 371, in verify\n    assert report['body_topology']['connected_components']==1,report['body_topology']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'vertices': 3128, 'edges': 6352, 'faces': 3238, 'quads': 2990, 'connected_components': 13, 'boundary_edges': 0, 'nonmanifold_edges': 0}\n",
+        "resolved": true,
+        "resolution": "Removed 12 unused vertices inside the intentionally removed axilla patches before mesh creation; continuous skin is now one manifold component."
+      },
+      {
+        "type": "LauncherArgumentError",
+        "message": "An earlier unquoted PowerShell -- separator let Blender parse --render-qa as a file after successful script completion; that process exited 1.",
+        "resolved": true,
+        "resolution": "Pass all Blender arguments as the explicit -BlenderArguments string array recorded in execution.invocation; final build/render and independent reopen both exited 0."
+      }
+    ],
+    "deformation": {
+      "finger_grip_max_actual_skin_change": 0.171050599341836,
+      "ik_hand_max_actual_skin_change": 0.1444335119517703,
+      "ik_constant_lengths": [
+        {
+          "bone": "DEF-upper_arm.R",
+          "rest_length": 0.3191394507884979,
+          "posed_length": 0.31913949745614045,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bone": "DEF-forearm.R",
+          "rest_length": 0.22825419902801514,
+          "posed_length": 0.2282543211619771,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "evaluated_skin_finite": true,
+      "individual_fingers": [
+        {
+          "side": "R",
+          "digit": "thumb",
+          "affected_skin_vertices": 105,
+          "max_actual_skin_displacement": 0.15536161084490777,
+          "max_segment_length_error": 4.5449154585652796e-08
+        },
+        {
+          "side": "R",
+          "digit": "index",
+          "affected_skin_vertices": 145,
+          "max_actual_skin_displacement": 0.13809374054769055,
+          "max_segment_length_error": 2.3834408724443534e-08
+        },
+        {
+          "side": "R",
+          "digit": "middle",
+          "affected_skin_vertices": 145,
+          "max_actual_skin_displacement": 0.15334620530475748,
+          "max_segment_length_error": 2.805576727188397e-08
+        },
+        {
+          "side": "R",
+          "digit": "ring",
+          "affected_skin_vertices": 145,
+          "max_actual_skin_displacement": 0.14278514738373443,
+          "max_segment_length_error": 2.2454728340615127e-08
+        },
+        {
+          "side": "R",
+          "digit": "little",
+          "affected_skin_vertices": 145,
+          "max_actual_skin_displacement": 0.11728645358929968,
+          "max_segment_length_error": 1.256430329221736e-08
+        },
+        {
+          "side": "L",
+          "digit": "thumb",
+          "affected_skin_vertices": 105,
+          "max_actual_skin_displacement": 0.15536133209819333,
+          "max_segment_length_error": 4.1945464220038975e-08
+        },
+        {
+          "side": "L",
+          "digit": "index",
+          "affected_skin_vertices": 145,
+          "max_actual_skin_displacement": 0.13809353147940437,
+          "max_segment_length_error": 2.030791956125766e-08
+        },
+        {
+          "side": "L",
+          "digit": "middle",
+          "affected_skin_vertices": 145,
+          "max_actual_skin_displacement": 0.1533455827868693,
+          "max_segment_length_error": 2.5759949145998107e-08
+        },
+        {
+          "side": "L",
+          "digit": "ring",
+          "affected_skin_vertices": 145,
+          "max_actual_skin_displacement": 0.1427847234176684,
+          "max_segment_length_error": 2.1736639141400893e-08
+        },
+        {
+          "side": "L",
+          "digit": "little",
+          "affected_skin_vertices": 145,
+          "max_actual_skin_displacement": 0.11728615780233317,
+          "max_segment_length_error": 1.1302400335089224e-08
+        }
+      ],
+      "thumb_opposition_actual_skin_displacement": 0.10042428463058511,
+      "fk_switch_actual_skin_displacement": 0.16795337677194017,
+      "footroll_actual_skin_displacement": 0.03597795745708324
+    },
+    "neutral_shoe_soles_world_z": {
+      "Rounded mary-jane shoe.L": -9.01517466900259e-07,
+      "Rounded mary-jane shoe.R": -9.76425212684262e-07
+    },
+    "neutral_joint_roll_angles": {
+      "DEF-forearm.R": 0.00345267029479146,
+      "DEF-shin.R": 0.013549280352890491,
+      "DEF-forearm.L": 0.0035210466012358665,
+      "DEF-shin.L": 0.013549280352890491
+    },
+    "cloth_three_frame_observation": {
+      "frames": [
+        1,
+        2,
+        3
+      ],
+      "evaluated_vertices": 1216,
+      "max_vertex_change": 0.05152048725765728,
+      "finite": true,
+      "baked": false,
+      "collision_acceptance": false
+    },
+    "cloth_settings": {
+      "pin_group": "Waist_PIN",
+      "vertices": 1216,
+      "self_collision": true,
+      "high_solidify": true,
+      "simulation_baked": false
+    }
+  },
+  "renders": {
+    "front": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v2-shape-study-front.png",
+    "side": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v2-shape-study-side.png",
+    "back": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v2-shape-study-back.png"
+  },
+  "limitations": [
+    "No face component included; Head bone is the attachment contract",
+    "Native authored side/back shape is a hypothesis, not reference-author ground truth",
+    "Shape and deformation tests are not artistic approval",
+    "No continuous acting sequence, large cloth cache, balance controller or grasp has been authored",
+    "Contact proxies approximate visible volumes; physical interaction still needs scene acceptance testing"
+  ],
+  "failure_records": [
+    {
+      "type": "AssertionError",
+      "message": "{'vertices': 3128, 'edges': 6352, 'faces': 3238, 'quads': 2990, 'connected_components': 13, 'boundary_edges': 0, 'nonmanifold_edges': 0}",
+      "traceback": "Traceback (most recent call last):\n  File \"E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py\", line 424, in <module>\n    try:main()\n        ^^^^^^\n  File \"E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py\", line 414, in main\n    scene.frame_set(1);bpy.context.view_layer.update();validation=verify(body,low,high)\n                                                                  ^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py\", line 371, in verify\n    assert report['body_topology']['connected_components']==1,report['body_topology']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'vertices': 3128, 'edges': 6352, 'faces': 3238, 'quads': 2990, 'connected_components': 13, 'boundary_edges': 0, 'nonmanifold_edges': 0}\n",
+      "resolved": true,
+      "resolution": "Removed 12 unused vertices inside the intentionally removed axilla patches before mesh creation; continuous skin is now one manifold component."
+    },
+    {
+      "type": "LauncherArgumentError",
+      "message": "An earlier unquoted PowerShell -- separator let Blender parse --render-qa as a file after successful script completion; that process exited 1.",
+      "resolved": true,
+      "resolution": "Pass all Blender arguments as the explicit -BlenderArguments string array recorded in execution.invocation; final build/render and independent reopen both exited 0."
+    }
+  ],
+  "action_interface": {
+    "rig_object": "Dafeiyu BodyRig v2",
+    "units": "1 Blender unit = probe 1 unit; Z up, forward -Y, ground Z=0",
+    "root_control": "Root",
+    "cog_control": "COG",
+    "head_attachment_bone": "Head",
+    "root_motion_recipe": "Set pose_bones[Root].matrix = Matrix.Translation(world_position) @ Matrix.Rotation(yaw,4,Z) @ data.bones[Root].matrix_local. This avoids treating local Euler Z as world Z.",
+    "foot_lock_recipe": "After Root/COG update, assign CTRL-foot_ik matrix = rig.matrix_world.inverted() @ desired world control matrix. Keep the sole point fixed using the listed control-local sole offset. Keep ik_fk=1. Footroll deliberately changes the heel/ball/toe contact pivot.",
+    "grasp_recipe": "Target the actual object transform with CTRL-hand_ik; use control-local palm reference below. Close grip/individual curls and thumb_opposition continuously. Native prop interaction/constraint capture is not authored in this asset.",
+    "controls": {
+      "R": {
+        "hand_ik": "CTRL-hand_ik.R",
+        "elbow_pole": "CTRL-elbow_pole.R",
+        "foot_ik": "CTRL-foot_ik.R",
+        "knee_pole": "CTRL-knee_pole.R",
+        "ik_fk_property": "ik_fk; 1=IK, 0=FK, stored on each hand/foot IK control",
+        "arm_fk": [
+          "FK-upper_arm.R",
+          "FK-forearm.R",
+          "FK-hand.R"
+        ],
+        "leg_fk": [
+          "FK-thigh.R",
+          "FK-shin.R",
+          "FK-foot.R"
+        ],
+        "foot_roll_properties": [
+          "heel_roll",
+          "toe_roll",
+          "ball_roll",
+          "bank"
+        ],
+        "finger_control": "CTRL-fingers.R",
+        "finger_properties": [
+          "grip",
+          "thumb_opposition",
+          "thumb_curl",
+          "index_curl",
+          "middle_curl",
+          "ring_curl",
+          "little_curl"
+        ],
+        "finger_property_range": [
+          0,
+          1
+        ],
+        "palm_reference_local_to_hand_control": [
+          0.0,
+          0.060000061988830566,
+          0.0
+        ],
+        "sole_reference_local_to_foot_control": [
+          7.00229421113363e-08,
+          0.17605790495872498,
+          0.07389131933450699
+        ],
+        "neutral_sole_world": [
+          0.2470000833272934,
+          -0.10419353097677231,
+          0.0
+        ]
+      },
+      "L": {
+        "hand_ik": "CTRL-hand_ik.L",
+        "elbow_pole": "CTRL-elbow_pole.L",
+        "foot_ik": "CTRL-foot_ik.L",
+        "knee_pole": "CTRL-knee_pole.L",
+        "ik_fk_property": "ik_fk; 1=IK, 0=FK, stored on each hand/foot IK control",
+        "arm_fk": [
+          "FK-upper_arm.L",
+          "FK-forearm.L",
+          "FK-hand.L"
+        ],
+        "leg_fk": [
+          "FK-thigh.L",
+          "FK-shin.L",
+          "FK-foot.L"
+        ],
+        "foot_roll_properties": [
+          "heel_roll",
+          "toe_roll",
+          "ball_roll",
+          "bank"
+        ],
+        "finger_control": "CTRL-fingers.L",
+        "finger_properties": [
+          "grip",
+          "thumb_opposition",
+          "thumb_curl",
+          "index_curl",
+          "middle_curl",
+          "ring_curl",
+          "little_curl"
+        ],
+        "finger_property_range": [
+          0,
+          1
+        ],
+        "palm_reference_local_to_hand_control": [
+          0.0,
+          0.060000061988830566,
+          0.0
+        ],
+        "sole_reference_local_to_foot_control": [
+          -1.0879099221483557e-07,
+          0.17605789005756378,
+          0.07389132678508759
+        ],
+        "neutral_sole_world": [
+          -0.2470000833272934,
+          -0.10419353097677231,
+          0.0
+        ]
+      }
+    },
+    "finger_joints_per_digit": 3,
+    "face_hair_included": false,
+    "actions_baked": false,
+    "cloth_cache_baked": false,
+    "tail_rest_curve": [
+      [
+        0.25,
+        0.23999999463558197,
+        0.8999999761581421
+      ],
+      [
+        0.44999998807907104,
+        0.25999999046325684,
+        0.6800000071525574
+      ],
+      [
+        0.6499999761581421,
+        0.2800000011920929,
+        0.5
+      ],
+      [
+        0.8500000238418579,
+        0.25999999046325684,
+        0.5199999809265137
+      ],
+      [
+        1.0499999523162842,
+        0.2199999988079071,
+        0.6000000238418579
+      ],
+      [
+        1.159999966621399,
+        0.20000000298023224,
+        0.6700000166893005
+      ]
+    ]
+  },
+  "costume_geometry": {
+    "standing_collar": true,
+    "shaped_bib_with_flounced_edges": true,
+    "sapphire_oval_bezel": true,
+    "apron_border": "continuous curved flounce following cloth",
+    "whale_emblem": "five smooth thin embroidery meshes with subdivided curved cap interiors; single apron midsurface target, then render-only subdivision/solidify",
+    "decoration_deformation_chain": "Cloth cage -> single apron midsurface -> apron render/frill/embroidery; Solidify stays after surface deformation on render objects",
+    "mary_jane": "actual upper opening, socked foot, curved leather strap and buckle",
+    "tail": "S-curve rest chain, continuous skin weights, large upper/lower biconvex flukes"
+  },
+  "rig_rest_sha256": "273629cf411033216593231d1fc579e079f59c81b77b52c313b417a22de3c321"
+}

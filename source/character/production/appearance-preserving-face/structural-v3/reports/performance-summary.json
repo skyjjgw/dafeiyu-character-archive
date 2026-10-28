@@ -1,0 +1,150 @@
+{
+  "schema": "dafeiyu.structural-face-v3.exact-performance-summary.v1",
+  "dll": {
+    "file": "godot/bin/selected_structural_face_kernel.windows.release.x86_64.dll",
+    "bytes": 496128,
+    "sha256": "d25ce205577bd9f568808fdb8dc29c406ee1d5cc5375959c718e11f8459728f6"
+  },
+  "sourceDefaultProvenance": {
+    "face_kernel.hpp": "95430f547d3c69f4adacb0ace1ea8e9484e9d3e56ddae5f581f0a9227ca883c9",
+    "face_kernel.cpp": "35eef06d8770609839cbcf2b63217873db25512bfbbd8a5710632dd8596e2a00",
+    "register_types.cpp": "234d670eddb492121c692640cf6a2dd8fa5e276fcb4d35751c3d628eb5920c93"
+  },
+  "ownedImplementationHashes": {
+    "../src/structure.cpp": "e3e78cf5fb3ca625f64f4ee191349f602c79f8059dad74949f5dbc0c7af103e8",
+    "../structural-declarations.hpp": "f1358bd176f0e5705956b929c165c9db7083652e3df65ef1d77a8233d77f2a22",
+    "../prepare-native.mjs": "6df17f8d0aeb69e340b2d7d10b0609b2192e75f7e33015dc3c6b755712e58579"
+  },
+  "authorityParity": {
+    "actualThreeCases": 24,
+    "components": 12738912,
+    "passed": true,
+    "maximumPositionError": 2.98023223876953e-8,
+    "positionUnequalBits": 3939,
+    "rgbaUnequalBits": 0,
+    "uvUnequalBits": 0,
+    "sameErrorAndUnequalBitsAsBeforeOptimization": true,
+    "unchangedComparisonTolerance": true
+  },
+  "timing": {
+    "units": "milliseconds, actual CPU kernel only; no GPU, Jolt, renderer uploads or FPS claim",
+    "final24": {
+      "samples": 24,
+      "min": 1.3746,
+      "median": 5.207,
+      "mean": 4.8621125,
+      "p95": 6.3898,
+      "max": 7.4471
+    },
+    "combinedRandomFixtureFrames14to23": {
+      "samples": 10,
+      "min": 5.206,
+      "median": 5.7842,
+      "mean": 5.92641,
+      "p95": 6.3898,
+      "max": 7.4471
+    },
+    "threeRepeated24CaseRuns": [
+      {
+        "samples": 24,
+        "min": 0.8526,
+        "median": 5.1948,
+        "mean": 4.684199999999999,
+        "p95": 6.4374,
+        "max": 7.818
+      },
+      {
+        "samples": 24,
+        "min": 1.1376,
+        "median": 4.9933,
+        "mean": 4.550308333333334,
+        "p95": 6.116,
+        "max": 6.3245
+      },
+      {
+        "samples": 24,
+        "min": 1.3746,
+        "median": 5.207,
+        "mean": 4.8621125,
+        "p95": 6.3898,
+        "max": 7.4471
+      }
+    ],
+    "createConfigureRegressionFirstFrames": {
+      "samples": 8,
+      "min": 5.5929,
+      "median": 8.2327,
+      "mean": 10.13635,
+      "p95": 16.2449,
+      "max": 20.6864
+    },
+    "talkOnly": {
+      "samples": 8,
+      "min": 1.2874,
+      "median": 1.567,
+      "mean": 2.1201375000000002,
+      "p95": 1.8199,
+      "max": 6.0182
+    },
+    "blinkOnly": {
+      "samples": 8,
+      "min": 4.0269,
+      "median": 4.7398,
+      "mean": 5.704562500000001,
+      "p95": 6.3434,
+      "max": 11.5604
+    },
+    "gazeOnly": {
+      "samples": 8,
+      "min": 0.7702,
+      "median": 0.9338,
+      "mean": 1.008075,
+      "p95": 1.2839,
+      "max": 1.3764
+    },
+    "sameState": {
+      "samples": 8,
+      "min": 0.0257,
+      "median": 0.0295,
+      "mean": 0.0363125,
+      "p95": 0.0356,
+      "max": 0.0832
+    },
+    "serialFallbackFirstFrames": {
+      "samples": 8,
+      "min": 10.8951,
+      "median": 11.8837,
+      "mean": 12.6875875,
+      "p95": 13.8405,
+      "max": 15.951
+    },
+    "observedCombined24CaseTargetUnder8ms": true
+  },
+  "regression": {
+    "parallelCycles": 8,
+    "parallelPassed": true,
+    "serialCycles": 8,
+    "serialPassed": true,
+    "firstAndReconfigureChangedAll": true,
+    "sameStateBuffersExactAndChangedFalse": true,
+    "gazeOnlyTwoIrisesChangedOthersByteExact": true,
+    "talkDoesNotMutateEyeBuffers": true,
+    "blinkDoesNotMutateMouthBuffers": true,
+    "repeatedSetupDisposeWorkerJoin": true
+  },
+  "changes": [
+    "No approximation or new face: exact source geometry/UV/FloatRGBA equations and original Float32 rounding order kept",
+    "Bounded per-lane exact XY memo; generation reset avoids unordered allocation/whole-map eviction spikes; exact cached sourceZ avoids duplicate evaluation",
+    "Exact cage triangle index at resolution256, conservative barycentric-compatible bounds, descending conservative Z upper bound; no triangle simplification",
+    "Neutral-rim segment cell index and Y crossing index; existing transition saturation moved before work, same final formula in active band",
+    "State dependencies compared by exact normalized doubles; invariant vertices and unchanged dynamic buffers reused",
+    "One persistent standard-C++ worker plus calling lane processes dirty 256-vertex chunks; Godot ptrw/Variant/Dictionary and publication remain calling thread; own lane caches, atomic cursor, barrier, destructor wake/join",
+    "Serial fallback via DFY_FACE_SERIAL; DFY_FACE_PROFILE forces serial timer collection"
+  ],
+  "limitations": [
+    "Timing is local measurement, not a worst-case system scheduling guarantee or full-frame 60fps proof",
+    "No ThreadSanitizer run; concurrency boundaries audited and native repeated parity/setup-dispose checks passed",
+    "Whole-avatar visual quality, side/back art, physical soft tissues/hair/cloth and final integration remain separate requirements"
+  ],
+  "baselineNotes": "Parent historical native-comparison-grid48.json remains mean ~19.22ms/max33.53; before-optimization 40ms report is earlier pre-cache work. performance-baseline/native-comparison.json is explicitly a profiled serial snapshot (timers add overhead), not the unprofiled starting benchmark."
+}

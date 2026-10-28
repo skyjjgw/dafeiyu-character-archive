@@ -1,0 +1,377 @@
+{
+  "scope": "CPU only bounded no-contact compute/numerical diagnostic; not full cloth acceptance",
+  "physical_material_equivalence": false,
+  "default_promotion": false,
+  "render_fps_measured": false,
+  "full_frame_realtime_established": false,
+  "free_positions_written": false,
+  "impulses_capped": false,
+  "gpu_enabled": false,
+  "mass_calibration": {
+    "pass": true,
+    "trials": [
+      {
+        "expected_free_point_mass_kg": 0.00025,
+        "impulse_per_free_point_ns": 1.2e-05,
+        "kernel_inverse_mass_per_kg": 4000.0,
+        "layer": "outer",
+        "max_displacement_error_m": 3.31929186359048e-08,
+        "max_relative_inverse_mass_error": 0.000165939331054688,
+        "measured_inverse_mass_minmax_per_kg": [
+          3999.47166442871,
+          4000.66375732422
+        ],
+        "pass": true,
+        "pin_control_difference_m": 0.0,
+        "pins": 48,
+        "points": 320,
+        "tested_free_points": 272,
+        "total_mass_kg": 0.08
+      },
+      {
+        "expected_free_point_mass_kg": 9.94318181818182e-05,
+        "impulse_per_free_point_ns": 4.77272727272727e-06,
+        "kernel_inverse_mass_per_kg": 10057.1428571429,
+        "layer": "lining",
+        "max_displacement_error_m": 3.31929186359048e-08,
+        "max_relative_inverse_mass_error": 0.000165939331054688,
+        "measured_inverse_mass_minmax_per_kg": [
+          10055.8144705636,
+          10058.8117327009
+        ],
+        "pass": true,
+        "pin_control_difference_m": 3.63797880709171e-12,
+        "pins": 48,
+        "points": 352,
+        "tested_free_points": 304,
+        "total_mass_kg": 0.035
+      }
+    ]
+  },
+  "runs": [
+    {
+      "dt_s": 0.00416666666666667,
+      "wall_seconds": 1.643636,
+      "simulated_seconds": 1.0,
+      "wall_per_simulated_second": 1.643636,
+      "trials": [
+        {
+          "name": "outer_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "free_inverse_mass_per_kg": 4000.0,
+            "free_point_mass_kg": 0.00025,
+            "k_j_per_rad2": 5e-05,
+            "mass_distribution": "Jolt uniform all points before zeroing pins; independently impulse-calibrated on this LoD",
+            "mass_kg": 0.08,
+            "pins": 48,
+            "triangles": 544,
+            "vertices": 320
+          },
+          "bounded_diagnostic_pass": true,
+          "min_edge_ratio": 0.960244289073327,
+          "max_edge_ratio": 1.0441119319362,
+          "max_pin_error_m": 2.08649510113901e-07,
+          "max_displacement_m": 0.211744472384453,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "absolute_edge_minmax_m": [
+            0.0106251146644354,
+            0.0710497945547104
+          ]
+        },
+        {
+          "name": "outer_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "free_inverse_mass_per_kg": 4000.0,
+            "free_point_mass_kg": 0.00025,
+            "k_j_per_rad2": 5e-05,
+            "mass_distribution": "Jolt uniform all points before zeroing pins; independently impulse-calibrated on this LoD",
+            "mass_kg": 0.08,
+            "pins": 48,
+            "triangles": 544,
+            "vertices": 320
+          },
+          "bounded_diagnostic_pass": true,
+          "min_edge_ratio": 0.967730002967394,
+          "max_edge_ratio": 1.03417211699456,
+          "max_pin_error_m": 3.29177737512509e-07,
+          "max_displacement_m": 0.263687461614609,
+          "max_iterations": 9,
+          "max_relative_residual": 7.97235653025996e-09,
+          "material_time_ms": {
+            "count": 240,
+            "max": 0.356,
+            "mean": 0.1828125,
+            "p95": 0.277
+          },
+          "max_impulse_ns": 7.28688974919678e-05,
+          "max_delta_velocity_mps": 0.291475589967871,
+          "absolute_edge_minmax_m": [
+            0.0106251165270805,
+            0.0710416808724403
+          ]
+        },
+        {
+          "name": "lining_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "free_inverse_mass_per_kg": 10057.1428571429,
+            "free_point_mass_kg": 9.94318181818182e-05,
+            "k_j_per_rad2": 7e-05,
+            "mass_distribution": "Jolt uniform all points before zeroing pins; independently impulse-calibrated on this LoD",
+            "mass_kg": 0.035,
+            "pins": 48,
+            "triangles": 608,
+            "vertices": 352
+          },
+          "bounded_diagnostic_pass": true,
+          "min_edge_ratio": 0.977369967839801,
+          "max_edge_ratio": 1.02450841525533,
+          "max_pin_error_m": 1.51965480199578e-07,
+          "max_displacement_m": 0.178112134337425,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "absolute_edge_minmax_m": [
+            0.00829501356929541,
+            0.0513645261526108
+          ]
+        },
+        {
+          "name": "lining_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "free_inverse_mass_per_kg": 10057.1428571429,
+            "free_point_mass_kg": 9.94318181818182e-05,
+            "k_j_per_rad2": 7e-05,
+            "mass_distribution": "Jolt uniform all points before zeroing pins; independently impulse-calibrated on this LoD",
+            "mass_kg": 0.035,
+            "pins": 48,
+            "triangles": 608,
+            "vertices": 352
+          },
+          "bounded_diagnostic_pass": true,
+          "min_edge_ratio": 0.989997526024321,
+          "max_edge_ratio": 1.01120748038322,
+          "max_pin_error_m": 1.49058180909378e-07,
+          "max_displacement_m": 0.14870747923851,
+          "max_iterations": 16,
+          "max_relative_residual": 9.9842861473501e-09,
+          "material_time_ms": {
+            "count": 240,
+            "max": 0.538,
+            "mean": 0.247325,
+            "p95": 0.375
+          },
+          "max_impulse_ns": 1.78325308424198e-05,
+          "max_delta_velocity_mps": 0.179344310186622,
+          "absolute_edge_minmax_m": [
+            0.00829501356929541,
+            0.051276795566082
+          ]
+        }
+      ],
+      "combined_material_ms": {
+        "mean": 0.4301375,
+        "p95": 0.591,
+        "max": 0.753,
+        "count": 240
+      },
+      "combined_material_under_240hz_4_1667ms_budget_all_samples": true
+    },
+    {
+      "dt_s": 0.00416666666666667,
+      "wall_seconds": 6.532087,
+      "simulated_seconds": 4.0,
+      "wall_per_simulated_second": 1.63302175,
+      "trials": [
+        {
+          "name": "outer_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "free_inverse_mass_per_kg": 4000.0,
+            "free_point_mass_kg": 0.00025,
+            "k_j_per_rad2": 5e-05,
+            "mass_distribution": "Jolt uniform all points before zeroing pins; independently impulse-calibrated on this LoD",
+            "mass_kg": 0.08,
+            "pins": 48,
+            "triangles": 544,
+            "vertices": 320
+          },
+          "bounded_diagnostic_pass": true,
+          "min_edge_ratio": 0.960244289073327,
+          "max_edge_ratio": 1.0441119319362,
+          "max_pin_error_m": 4.48027378752158e-07,
+          "max_displacement_m": 0.211744472384453,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "absolute_edge_minmax_m": [
+            0.0106251146644354,
+            0.0710497945547104
+          ]
+        },
+        {
+          "name": "outer_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "free_inverse_mass_per_kg": 4000.0,
+            "free_point_mass_kg": 0.00025,
+            "k_j_per_rad2": 5e-05,
+            "mass_distribution": "Jolt uniform all points before zeroing pins; independently impulse-calibrated on this LoD",
+            "mass_kg": 0.08,
+            "pins": 48,
+            "triangles": 544,
+            "vertices": 320
+          },
+          "bounded_diagnostic_pass": true,
+          "min_edge_ratio": 0.967730002967394,
+          "max_edge_ratio": 1.03475776826654,
+          "max_pin_error_m": 7.15605040113587e-07,
+          "max_displacement_m": 0.263687461614609,
+          "max_iterations": 9,
+          "max_relative_residual": 7.97235653025996e-09,
+          "material_time_ms": {
+            "count": 960,
+            "max": 0.447,
+            "mean": 0.1825875,
+            "p95": 0.266
+          },
+          "max_impulse_ns": 7.28688974919678e-05,
+          "max_delta_velocity_mps": 0.291475589967871,
+          "absolute_edge_minmax_m": [
+            0.0106251165270805,
+            0.0710416808724403
+          ]
+        },
+        {
+          "name": "lining_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "free_inverse_mass_per_kg": 10057.1428571429,
+            "free_point_mass_kg": 9.94318181818182e-05,
+            "k_j_per_rad2": 7e-05,
+            "mass_distribution": "Jolt uniform all points before zeroing pins; independently impulse-calibrated on this LoD",
+            "mass_kg": 0.035,
+            "pins": 48,
+            "triangles": 608,
+            "vertices": 352
+          },
+          "bounded_diagnostic_pass": true,
+          "min_edge_ratio": 0.977369967839801,
+          "max_edge_ratio": 1.02483324705889,
+          "max_pin_error_m": 6.12626308793551e-07,
+          "max_displacement_m": 0.178112134337425,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "absolute_edge_minmax_m": [
+            0.00829501356929541,
+            0.0513645261526108
+          ]
+        },
+        {
+          "name": "lining_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "free_inverse_mass_per_kg": 10057.1428571429,
+            "free_point_mass_kg": 9.94318181818182e-05,
+            "k_j_per_rad2": 7e-05,
+            "mass_distribution": "Jolt uniform all points before zeroing pins; independently impulse-calibrated on this LoD",
+            "mass_kg": 0.035,
+            "pins": 48,
+            "triangles": 608,
+            "vertices": 352
+          },
+          "bounded_diagnostic_pass": true,
+          "min_edge_ratio": 0.989997526024321,
+          "max_edge_ratio": 1.01120748038322,
+          "max_pin_error_m": 2.98046501256977e-07,
+          "max_displacement_m": 0.14870747923851,
+          "max_iterations": 16,
+          "max_relative_residual": 9.99686952162529e-09,
+          "material_time_ms": {
+            "count": 960,
+            "max": 3.079,
+            "mean": 0.249914583333333,
+            "p95": 0.364
+          },
+          "max_impulse_ns": 1.78325308424198e-05,
+          "max_delta_velocity_mps": 0.179344310186622,
+          "absolute_edge_minmax_m": [
+            0.00829501356929541,
+            0.051276795566082
+          ]
+        }
+      ],
+      "combined_material_ms": {
+        "mean": 0.43250208333333334,
+        "p95": 0.573,
+        "max": 3.236,
+        "count": 960
+      },
+      "combined_material_under_240hz_4_1667ms_budget_all_samples": true
+    }
+  ],
+  "old_3104_reference": {
+    "file": "../../garment-implicit-kernel/reports/jolt-240hz-4s.json",
+    "combined_material_mean_ms": 6.3615864583333295,
+    "reference_includes_extra_grid_and_different_point_masses": true,
+    "same_uniform_hinge_k_c_and_total_layer_mass_but_not_calibrated_physical_equivalence": true,
+    "new_4s_mean_ms": 0.43250208333333334,
+    "observed_material_mean_ratio_old_over_new": 14.708799572256387
+  },
+  "artifact_identity": {
+    "source_frozen_dll": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-body\\garment-implicit-kernel\\component\\bin\\selected_implicit_cloth.windows.release.x86_64.dll",
+      "sha256": "8e8c9948916acd9cbd5af2833d752351b6aa7c7c7015633e3cd66bd3b1ee33f3"
+    },
+    "copied_dll": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-body\\garment-low-lod\\native-validation\\project\\bin\\selected_implicit_cloth.windows.release.x86_64.dll",
+      "sha256": "8e8c9948916acd9cbd5af2833d752351b6aa7c7c7015633e3cd66bd3b1ee33f3"
+    },
+    "low_lod_json": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-body\\garment-low-lod\\assets\\component.json",
+      "sha256": "4abadc9a6c00bdf8d05c67ceb753e2e419eabd579c714f49b7ec5f03fe641bd1"
+    },
+    "low_lod_bin": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-body\\garment-low-lod\\assets\\component.bin",
+      "sha256": "30f3725bb07ec69812eb80a5f4fd0414cc1506d752eefc7a46e49529114c5f45"
+    },
+    "godot_exe": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\godot\\4.7.2-stable\\Godot_v4.7.2-stable_win64.exe",
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    }
+  }
+}

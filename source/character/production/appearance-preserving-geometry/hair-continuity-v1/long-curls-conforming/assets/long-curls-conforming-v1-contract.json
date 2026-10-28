@@ -1,0 +1,149 @@
+{
+  "schema": "dafeiyu.long-curls-conforming.component.v1",
+  "asset": {
+    "file": "long-curls-conforming-v1.glb",
+    "bytes": 897056,
+    "sha256": "63a64c7da527ee54725b2851aa489360139348e7fca2d2b15edddabd84ed37a9"
+  },
+  "sourceImage": {
+    "source": "appearance-baseline-20261027/assets/neutral-front.png",
+    "sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+    "edited": false
+  },
+  "attach": {
+    "space": "Original Head local; no extra body scale or translation baked",
+    "parent": "Original Head control attachment",
+    "replaces": [
+      "left-auxiliary-source-traced-long-curls:original-pixel-surface",
+      "left-auxiliary-source-traced-long-curls:closed-thickness",
+      "left-auxiliary-source-traced-long-curls:back",
+      "right-auxiliary-source-traced-long-curls:original-pixel-surface",
+      "right-auxiliary-source-traced-long-curls:closed-thickness",
+      "right-auxiliary-source-traced-long-curls:back"
+    ],
+    "appliesTo": "Only these two long curls. Retain every other selected model part."
+  },
+  "meshes": [
+    {
+      "name": "left-auxiliary-source-traced-long-curls:conforming-curl-v1",
+      "vertices": 764,
+      "triangles": 1532,
+      "attributes": {
+        "POSITION": {
+          "accessor": 0,
+          "sha256": "80d33ae023486f7741b26e9d49105859f3b7a8440d5fe6afa436f8ee3c16d89f"
+        },
+        "NORMAL": {
+          "accessor": 1,
+          "sha256": "06559258eb8585f6e70f28d76065a9a94267fc9e220f49d80bf78dd4d2b63377"
+        },
+        "TEXCOORD_0": {
+          "accessor": 2,
+          "sha256": "d2b6afcefa170d8bc2c8c01e206776d723ea1af03ffb0e9199de00ce2293836f"
+        }
+      },
+      "indexSha256": "be0c5febfd490088fffd77dc434f43802423dc7d2ef2d92e72b122380452511e",
+      "metadata": {
+        "name": "left-auxiliary-source-traced-long-curls",
+        "holes": 2,
+        "sharedEdgeRefinementRounds": 3,
+        "depthPolicy": "Exactly original .010+.30*sqrt(clamp(distanceToSourceOuterOrHole/45,0,1))",
+        "frontPolicy": "Exactly original mapPoint plus (depth-.010)*.42; changed sampling/connectivity only",
+        "source": "Original auxiliary neutral-front.png, mirrored right as in frozen source",
+        "staticOnly": true,
+        "finalAccepted": false
+      }
+    },
+    {
+      "name": "right-auxiliary-source-traced-long-curls:conforming-curl-v1",
+      "vertices": 764,
+      "triangles": 1532,
+      "attributes": {
+        "POSITION": {
+          "accessor": 5,
+          "sha256": "14c8958e82c91473a280bc5555a64760b1e674e149d71870ac9ff94c67d1f133"
+        },
+        "NORMAL": {
+          "accessor": 6,
+          "sha256": "f661b7f2b343a298724d36f683cffd83c8ca97a6c9815fac8c0ba63954a1f178"
+        },
+        "TEXCOORD_0": {
+          "accessor": 7,
+          "sha256": "d2b6afcefa170d8bc2c8c01e206776d723ea1af03ffb0e9199de00ce2293836f"
+        }
+      },
+      "indexSha256": "c5494f2c50af446e093fae04d4caaa9ca7ac9d0aad33df047932a9cebd09196c",
+      "metadata": {
+        "name": "right-auxiliary-source-traced-long-curls",
+        "holes": 2,
+        "sharedEdgeRefinementRounds": 3,
+        "depthPolicy": "Exactly original .010+.30*sqrt(clamp(distanceToSourceOuterOrHole/45,0,1))",
+        "frontPolicy": "Exactly original mapPoint plus (depth-.010)*.42; changed sampling/connectivity only",
+        "source": "Original auxiliary neutral-front.png, mirrored right as in frozen source",
+        "staticOnly": true,
+        "finalAccepted": false
+      }
+    }
+  ],
+  "uv": {
+    "source": "TEXCOORD_0=(sourcePx/1144,1-sourcePy/1375)",
+    "gltfTextureSampling": "KHR_texture_transform offset(0,1), scale(1,-1)",
+    "godotCustomSampling": "If bypassing glTF standard material transforms, sample (UV.x,1-UV.y) exactly once; do not double flip."
+  },
+  "rendering": {
+    "front": "Original auxiliary MeshBasic unlit painting, original 0x9a88b0 tint, transparent=true, alphaTest=.4, depthWrite=true; source UV projection. glTF BLEND fallback cannot alone reproduce simultaneous alphaTest; use extras flags/custom material.",
+    "back": "Original blue MeshToonMaterial color. Standard glTF rough diffuse fallback differs from Three toon shading; use review for actual source rendering.",
+    "culling": "Backface culling on closed solids",
+    "depthWrite": true
+  },
+  "deformation": {
+    "implemented": false,
+    "policy": "Static rest geometry only; do not bind inherited source per-index hair deformation to these different vertex arrays."
+  },
+  "metadata": {
+    "schema": "dafeiyu.long-curls-conforming.v1",
+    "finalAccepted": false,
+    "staticOnly": true,
+    "shapeChanged": false,
+    "dynamicsImplemented": false,
+    "locks": [
+      {
+        "name": "left-auxiliary-source-traced-long-curls",
+        "holes": 2,
+        "sharedEdgeRefinementRounds": 3,
+        "depthPolicy": "Exactly original .010+.30*sqrt(clamp(distanceToSourceOuterOrHole/45,0,1))",
+        "frontPolicy": "Exactly original mapPoint plus (depth-.010)*.42; changed sampling/connectivity only",
+        "source": "Original auxiliary neutral-front.png, mirrored right as in frozen source",
+        "staticOnly": true,
+        "finalAccepted": false
+      },
+      {
+        "name": "right-auxiliary-source-traced-long-curls",
+        "holes": 2,
+        "sharedEdgeRefinementRounds": 3,
+        "depthPolicy": "Exactly original .010+.30*sqrt(clamp(distanceToSourceOuterOrHole/45,0,1))",
+        "frontPolicy": "Exactly original mapPoint plus (depth-.010)*.42; changed sampling/connectivity only",
+        "source": "Original auxiliary neutral-front.png, mirrored right as in frozen source",
+        "staticOnly": true,
+        "finalAccepted": false
+      }
+    ],
+    "limitations": [
+      "Only conforming tessellation and connected finite side/back topology changed.",
+      "Original front interpolation changes between old vertices; cracks are filled using the original nonlinear source equations.",
+      "Original auxiliary back/side inference and other head/body defects remain."
+    ]
+  },
+  "acceptance": {
+    "topology": "reports/geometry-check.json",
+    "visualPass": false,
+    "finalAccepted": false,
+    "nativeIntegrated": false
+  },
+  "limitations": [
+    "Two closed solids retain original source rest curves; contact against head/body remains unverified.",
+    "Other original locks remain unchanged.",
+    "Unknown back painting/depth inferred.",
+    "Actual front/45/90/back review required."
+  ]
+}

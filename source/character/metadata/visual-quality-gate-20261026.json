@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-26",
+  "user_statement": "我能接受你提供给我的参考视频的效果，我担心的是你达不到这个效果",
+  "meaning": "用户接受参考作品呈现的视觉效果；这不是对当前模型、技术样品或我们的交付能力的认可",
+  "full_objective": "以用户确认的冬冰人物为身份标准，达到精致二次元动画的外观、空间感、完整身体表演和自然动作，并成为本地可实时控制、互动和持续扩展能力的虚拟人物；不制作视频生成模型",
+  "current_claim": "用户已明确4348页面旧曲面人物最贴近，新native外观严重偏离；后续必须守住该形象。完整自然动作/全角度/物理与产品接入尚未完成。",
+  "visual_baseline_review": {
+    "evidence": [
+      "production/character3d/renders/front.png",
+      "production/character3d/renders/threequarter.png",
+      "production/v1/neutral-front.png",
+      "metadata/reference-video-alignment-asking.png"
+    ],
+    "result": "not_at_target_quality",
+    "observed_gaps": [
+      "脸型、眉眼关系与神态仍偏离身份参考",
+      "头发有厚模型分块、接缝与尖细末端",
+      "服装、手部与褶皱过于简化",
+      "线条、阴影与高光缺少统一美术控制",
+      "静态相似度不足，动态中保持身份及表演质量尚未证明"
+    ]
+  },
+  "evidence_that_is_insufficient": [
+    "其他团队做出的参考影片只证明技术路径存在",
+    "骨骼、渲染、物理或导出检查通过只证明相应技术功能",
+    "生成的漂亮静态图或设定图不证明可实时控制",
+    "一次转头或半身小样通过不证明全身动作、全部角度或最终目标完成"
+  ],
+  "first_probe": {
+    "purpose": "尽早暴露角色造型与渲染是否可能接近目标，不代替完整交付",
+    "scope": "统一半身构图，正面与小幅左右转头，一次连贯表情变化",
+    "identity_reference": "冬冰原视频代表片段优先；既有生成canonical仅作辅助手稿",
+    "required_evidence": [
+      "实际运行角色可控制角度、表情与暂停，能由用户临时改变输入",
+      "画面保持角色身份、脸型、眼睛、刘海和头饰比例",
+      "各测试姿态中线条、眼部与脸颊阴影保持动画设计，避免破洞、台阶与塑料模型质感",
+      "转头时五官、外轮廓和遮挡连贯，表情联动而非仅开嘴或整张图替换",
+      "同时保存实际实时画面与控制状态，标注已验证范围和仍不达标处"
+    ],
+    "status": "limited_frontal_improvement_observed_full_target_not_met"
+  },
+  "latest_probe_20261027": {
+    "runtime": "production/animation-look-study/",
+    "observed_improvements": [
+      "原片虹膜和前发细节保留在曲面网格，眼睑和嘴型连续变形",
+      "第三轮25度闭眼截图中的原半圆孔缝已消除",
+      "全身招手、脚底约束和尾裙次级运动已进入实时试作",
+      "原面板中央可开关显示人物，本地预览明确未连接DSH"
+    ],
+    "failed_full_scope_checks": [
+      "90度侧面暴露明显切片和断层，身体及头发体积尚不足",
+      "背面存在裸露头皮和纯色占位，不符合完整人物还原",
+      "尚无持物、完整全身表演和所需角度的最终质量证据"
+    ],
+    "evidence": [
+      "metadata/look-study-integration-blink-third.png",
+      "metadata/look-study-fullbody-side-third.png",
+      "metadata/look-study-side-structure-first.png",
+      "metadata/look-study-back-structure-first.png"
+    ],
+    "next_work": "保持正面身份，重建连续侧后体积并逐视角实际复核；不以已通过技术检查宣称还原完成"
+  },
+  "full_completion_still_requires": [
+    "全身比例、手部、服装、发束和鲸尾在所需视角保持同一人物",
+    "走动、转身、抬手、持物和情绪动作具备完整表演与自然过渡",
+    "物体接触、遮挡、地面接触与次级运动在实际交互范围成立",
+    "对话、实时口型、行为打断及持续扩展能力通过角色控制器接入产品",
+    "按实际原片视觉目标逐项复核，不能以技术测试数量代替质量达标"
+  ],
+  "decision_rule": "视觉小样若仍明显偏离目标，明确判为不达标并调整方法；不以工作量、运行成功或既有沉没成本降低标准",
+  "native_review_20261027": {
+    "status": "appearance_rejected_by_user",
+    "current_art": "production/native-character/dafeiyu-native-v6-study.blend",
+    "actual_multiview": "front/side/back/threequarter 与5个表情/头转样本均来自同一完整原生模型",
+    "body_source": "body-v3",
+    "face_source": "face-v4",
+    "hair_source": "hair-v6",
+    "motion": "原生v2有192帧真实连续动作渲染；优化运行分支正在修真实自然步态/接触/打断",
+    "verified_improvements": [
+      "完整闭合头体积与真球眼，不再是历史切片",
+      "较自然眼型/虹膜/鼻唇轮廓，连续眼睑和下颌",
+      "缩短手指、泡袖和钟裙、双叉尾",
+      "头发闭合体积与骨架、编辑法线/清晰动画色阶",
+      "衣裙大撕裂根因已修，一轮长GPU测试稳定"
+    ],
+    "open_failures": [
+      "源v2右手掌inside-out与真实proxy更新时序均已证实；修复资产/引擎需合体验证",
+      "v3尾出口尚未开孔，v4结构修复正在制作",
+      "实际Main21–23fps；next的优化数据尚须根实际窗口复验",
+      "完整自然步态、任意连续交互、指尖力闭合和最终神态尚未完成",
+      "完整新资产尚未接入DSH产品"
+    ],
+    "rule": "新资产静态审稿、局部工程检查和离线连续视频均不能代替实时最终验收"
+  },
+  "appearance_lock": {
+    "url": "http://127.0.0.1:4348/character-preview.html",
+    "snapshot": "production/appearance-baseline-20261027",
+    "required": "先保持已选人物的同机位外观，再补结构和动作；新脸/发型/比例不得因技术可运行而替换",
+    "not_implied": "用户没有认可旧角色的大角度缺陷、静态模块、整体物理或完整产品已完成"
+  }
+}

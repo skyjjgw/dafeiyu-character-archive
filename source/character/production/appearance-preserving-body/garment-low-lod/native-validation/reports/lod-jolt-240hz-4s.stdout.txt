@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+JOLT_TRIAL outer_no_bending edge=0.96024428907333,1.0441119319362 displacement=0.21174447238445 ms=0.0 iterations=0
+JOLT_TRIAL outer_implicit edge=0.96773000296739,1.03475776826654 displacement=0.26368746161461 ms=0.1825875 iterations=9
+JOLT_TRIAL lining_no_bending edge=0.9773699678398,1.02483324705889 displacement=0.17811213433743 ms=0.0 iterations=0
+JOLT_TRIAL lining_implicit edge=0.98999752602432,1.01120748038322 displacement=0.14870747923851 ms=0.24991458333333 iterations=16

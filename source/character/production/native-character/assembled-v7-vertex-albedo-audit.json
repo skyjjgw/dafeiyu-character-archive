@@ -1,0 +1,47 @@
+{
+  "rawSHA256": "42aefb7f77bac7b954bdc03ae7173bc99cf2cc65e4c649a565eb9d738d1c5c0f",
+  "runtimeSHA256": "df3469318c75681760cc55d2ae08492e2f57fdbfcc552296b978fbde0b3985be",
+  "binaryChunkSHA256": "801f4d913cef7824d48df9de7aeb884a2ab3ef8f267b5111ea6a0a515e8dde03",
+  "binaryChunkUnchanged": true,
+  "primitives": [
+    {
+      "mesh": "HeadSkin / continuous orbital and oral quad flow",
+      "material": "Face / editable albedo and gentle NPR",
+      "sourceAttribute": "FaceAlbedo",
+      "rawSemantic": "COLOR_1",
+      "runtimeSemantic": "COLOR_0",
+      "rule": "replace",
+      "accessor": 10,
+      "linearMin": [
+        0.6104982070649272,
+        0.40239566643778135,
+        0.31448844129091325
+      ],
+      "linearMax": [
+        0.6305485618371862,
+        0.5332722972457465,
+        0.439658197909514
+      ]
+    },
+    {
+      "mesh": "HeadSkin / continuous orbital and oral quad flow",
+      "material": "Lips / measured interrupted smile ink",
+      "sourceAttribute": "LipAlbedo",
+      "rawSemantic": "COLOR_2",
+      "runtimeSemantic": "COLOR_0",
+      "rule": "replace",
+      "accessor": 55,
+      "linearMin": [
+        0.21828030823224231,
+        0.13017471580071718,
+        0.09947356374456397
+      ],
+      "linearMax": [
+        0.61196307316701,
+        0.5272602426184482,
+        0.43389028763256277
+      ]
+    }
+  ],
+  "scope": "Actual named linear albedo mapped to standard runtime COLOR_0. Source geometry/skin/UV/morph binary is unchanged; custom NPR/iris shaders are still required."
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "status": "planned_contract_no_renderer_installed",
+  "character_id": "dafeiyu-v1",
+  "parameters": [
+    {
+      "id": "ParamAngleX",
+      "min": -30,
+      "max": 30,
+      "neutral": 0,
+      "use": "头左右转",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamAngleY",
+      "min": -30,
+      "max": 30,
+      "neutral": 0,
+      "use": "头上下转",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamAngleZ",
+      "min": -30,
+      "max": 30,
+      "neutral": 0,
+      "use": "头倾斜",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamEyeLOpen",
+      "min": 0,
+      "max": 1,
+      "neutral": 1,
+      "use": "左眼睁闭",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamEyeROpen",
+      "min": 0,
+      "max": 1,
+      "neutral": 1,
+      "use": "右眼睁闭",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamEyeBallX",
+      "min": -1,
+      "max": 1,
+      "neutral": 0,
+      "use": "眼球水平",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamEyeBallY",
+      "min": -1,
+      "max": 1,
+      "neutral": 0,
+      "use": "眼球竖直",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "min": 0,
+      "max": 1,
+      "neutral": 0,
+      "use": "嘴开合",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamMouthForm",
+      "min": -1,
+      "max": 1,
+      "neutral": 0,
+      "use": "嘴形",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamBreath",
+      "min": 0,
+      "max": 1,
+      "neutral": 0,
+      "use": "呼吸",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamBodyAngleX",
+      "min": -10,
+      "max": 10,
+      "neutral": 0,
+      "use": "身体左右小幅转动",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "ParamBodyAngleZ",
+      "min": -10,
+      "max": 10,
+      "neutral": 0,
+      "use": "身体轻摆",
+      "status": "requested_not_verified_in_new_model"
+    },
+    {
+      "id": "DfyTailSwing",
+      "min": -1,
+      "max": 1,
+      "neutral": 0,
+      "use": "自定义尾巴轻摆，非Live2D标准ID",
+      "status": "requested_not_verified_in_new_model"
+    }
+  ],
+  "parameter_note": "目标范围供首版制作参考。加载模型后必须读取实际ID和范围并clamp，不存在的参数跳过并记录缺失，不伪报已支持。Dfy前缀为本项目自定义。",
+  "groups": {
+    "EyeBlink": [
+      "ParamEyeLOpen",
+      "ParamEyeROpen"
+    ],
+    "LipSync": [
+      "ParamMouthOpenY"
+    ]
+  },
+  "expressions": [
+    "neutral",
+    "happy",
+    "angry",
+    "sad",
+    "surprised"
+  ],
+  "motions": [
+    "idle",
+    "greet"
+  ],
+  "controls": {
+    "blink": "automatic unless expression owns eyelids",
+    "mouth": "real audio amplitude only; neutral=0; stop/reset when audio ends, errors or pauses",
+    "emotion": "explicit expression choice or future structured emotion data; no hardcoded anger/sadness based on task errors",
+    "visibility": "pause rendering and audio on view switch or hidden document; release resources on unmount"
+  },
+  "dsh_state_mapping": [
+    {
+      "when": "!state.connected",
+      "visual": "neutral",
+      "label": "连接状态由现有HUD说明"
+    },
+    {
+      "when": "session.approvals.length > 0",
+      "visual": "neutral + attentive gaze",
+      "label": "等待你确认"
+    },
+    {
+      "when": "session.status === running",
+      "visual": "neutral + restrained focus",
+      "label": "正在处理（不自动张嘴）"
+    },
+    {
+      "when": "otherwise",
+      "visual": "neutral + idle",
+      "label": "待机"
+    }
+  ],
+  "events_needed_later": {
+    "audio": "audio.start / envelope / pause / ended",
+    "expression": "setExpression(name, transitionMs)",
+    "stage": "show / hide / dispose"
+  },
+  "file_deliverables": [
+    "dafeiyu_import.psd",
+    "dafeiyu.cmo3",
+    "dafeiyu.model3.json",
+    "dafeiyu.moc3",
+    "textures/*.png",
+    "expressions/*.exp3.json",
+    "motions/*.motion3.json",
+    "dafeiyu.physics3.json"
+  ],
+  "integration_note": "现有HUD使用内联隔离iframe，尚无人物渲染器。实现前需要选定本地资源打包方式，不把素材库4334端口当作软件依赖。",
+  "official_sources": [
+    "https://docs.live2d.com/en/cubism-editor-manual/standard-parameter-list/",
+    "https://docs.live2d.com/en/cubism-editor-manual/export-moc3-motion3-files/",
+    "https://docs.live2d.com/en/cubism-sdk-manual/model-web/"
+  ]
+}

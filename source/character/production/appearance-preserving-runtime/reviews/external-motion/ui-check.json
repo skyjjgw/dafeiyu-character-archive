@@ -1,0 +1,75 @@
+{
+	"checks": [
+		{
+			"name": "raw checkbox actual mode",
+			"pass": true
+		},
+		{
+			"name": "raw slider actual blend",
+			"pass": true
+		},
+		{
+			"name": "raw label actual mode",
+			"pass": true
+		},
+		{
+			"name": "contact checkbox actual mode",
+			"pass": true
+		},
+		{
+			"name": "contact label actual mode",
+			"pass": true
+		},
+		{
+			"name": "contact slider actual blend",
+			"pass": true
+		},
+		{
+			"name": "cancel checkbox actual mode",
+			"pass": true
+		},
+		{
+			"name": "cancel returned original controller",
+			"pass": true
+		},
+		{
+			"name": "cancel label actual mode",
+			"pass": true
+		},
+		{
+			"name": "original wave works after return",
+			"pass": true
+		},
+		{
+			"name": "pickup still explicitly rejected",
+			"pass": true
+		}
+	],
+	"display": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"fixed_fps_test_only": true,
+	"notes": "Separate bounded UI/state regression; source mesh stays hidden, target current files unchanged",
+	"ok": true,
+	"original_wave_after_cancel": {
+		"action": "wave",
+		"ok": true
+	},
+	"pickup": {
+		"action": "pickup",
+		"code": "character_action_not_available",
+		"ok": false,
+		"reason": "Not implemented: no verified hand-object contact or grasp constraint."
+	},
+	"runtime_seconds": 1.775,
+	"source_pose_overrides_active": false
+}

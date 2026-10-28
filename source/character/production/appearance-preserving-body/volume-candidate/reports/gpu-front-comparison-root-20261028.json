@@ -1,0 +1,13 @@
+{
+  "schema": "dafeiyu.skirt-depth.front-gpu-comparison.v1",
+  "resolution": [
+    640,
+    704
+  ],
+  "depthGain": 0.85,
+  "rgbRMSE": 0.08350774834762885,
+  "maxRGBDifference": 40,
+  "pixelsRGBDifferenceOver1": 24,
+  "alphaSilhouetteDifference": 0,
+  "note": "Actual WebGL neutral full-character render; not final appearance or physics acceptance"
+}

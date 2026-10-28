@@ -1,0 +1,800 @@
+{
+  "schema": "dafeiyu.native-body.v4-base",
+  "status": "native_shape_and_rig_study_built",
+  "blender_version": "4.5.15 LTS",
+  "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v4-base.blend",
+  "sha256": "2fd5e0fd26191cce1481923020b579445b6f27622aa7b7fa8f56d71458d8ad03",
+  "script": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body_v4.py",
+  "script_sha256": "c574760faf1ff82fa85e626f47ea08f57cd22ad552cbd93e7ab184b99b573ed5",
+  "seconds": 8.240875099960249,
+  "execution": {
+    "background": true,
+    "completed_python": true,
+    "argv": [
+      "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\blender\\blender-4.5.15-windows-x64\\blender.exe",
+      "--offline-mode",
+      "--disable-autoexec",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "production/native-character/scripts/build_body_v4.py"
+    ],
+    "invocation": "tools/blender/Invoke-Blender.ps1 -BlenderArguments @('--background','--factory-startup','--python-exit-code','1','--python','production/native-character/scripts/build_body_v3.py','--','--render-qa')"
+  },
+  "coordinates": {
+    "up": "Z",
+    "forward": "-Y",
+    "ground": 0,
+    "head_bone_origin": [
+      0,
+      0,
+      2.155
+    ],
+    "collar": 1.755,
+    "waist": 1.255,
+    "skirt_hem": 0.57
+  },
+  "validation": {
+    "body_topology": {
+      "vertices": 3392,
+      "edges": 6930,
+      "faces": 3540,
+      "quads": 3240,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "control_bones": 96,
+    "deform_bones": 52,
+    "finger_bones": 30,
+    "constraints": 76,
+    "drivers": 52,
+    "cloth_modifiers": 1,
+    "rigid_contacts": 52,
+    "surface_bindings": [
+      [
+        "Apron continuous wavy flounced border",
+        true
+      ],
+      [
+        "APRON single midsurface simulation follower",
+        true
+      ],
+      [
+        "Maid skirt - 360 pleats and encircling white hem",
+        true
+      ],
+      [
+        "Whale embroidery - double tail fin",
+        true
+      ],
+      [
+        "Whale embroidery - eye",
+        true
+      ],
+      [
+        "Whale embroidery - smooth body",
+        true
+      ],
+      [
+        "Whale embroidery - waterdrop",
+        true
+      ],
+      [
+        "Whale embroidery - white belly",
+        true
+      ],
+      [
+        "White shaped apron - physical curved cloth",
+        true
+      ]
+    ],
+    "failure_records": [],
+    "deformation": {
+      "finger_grip_max_actual_skin_change": 0.12514860104547218,
+      "ik_hand_max_actual_skin_change": 0.16522721289535888,
+      "ik_constant_lengths": [
+        {
+          "bone": "DEF-upper_arm.R",
+          "rest_length": 0.3191394507884979,
+          "posed_length": 0.31913949745614045,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bone": "DEF-forearm.R",
+          "rest_length": 0.22825419902801514,
+          "posed_length": 0.2282543211619771,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "evaluated_skin_finite": true,
+      "individual_fingers": [
+        {
+          "side": "R",
+          "digit": "thumb",
+          "affected_skin_vertices": 105,
+          "max_actual_skin_displacement": 0.10966455075516114,
+          "max_segment_length_error": 2.7862077218304693e-08
+        },
+        {
+          "side": "R",
+          "digit": "index",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.10160146708513791,
+          "max_segment_length_error": 3.5672386496099495e-08
+        },
+        {
+          "side": "R",
+          "digit": "middle",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.11288463492503795,
+          "max_segment_length_error": 8.892058436793526e-09
+        },
+        {
+          "side": "R",
+          "digit": "ring",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.10507203034845633,
+          "max_segment_length_error": 1.7000598297178815e-08
+        },
+        {
+          "side": "R",
+          "digit": "little",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.08628024358214366,
+          "max_segment_length_error": 2.7597960208791683e-08
+        },
+        {
+          "side": "L",
+          "digit": "thumb",
+          "affected_skin_vertices": 105,
+          "max_actual_skin_displacement": 0.10966440744468746,
+          "max_segment_length_error": 3.158736751676661e-08
+        },
+        {
+          "side": "L",
+          "digit": "index",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.1016013089638625,
+          "max_segment_length_error": 3.5657585287229843e-09
+        },
+        {
+          "side": "L",
+          "digit": "middle",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.11288439773120078,
+          "max_segment_length_error": 1.0754703586024483e-08
+        },
+        {
+          "side": "L",
+          "digit": "ring",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.10507198381388488,
+          "max_segment_length_error": 2.2446383037000306e-08
+        },
+        {
+          "side": "L",
+          "digit": "little",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.08628038390577368,
+          "max_segment_length_error": 2.7597960208791683e-08
+        }
+      ],
+      "thumb_opposition_actual_skin_displacement": 0.07261746353511009,
+      "fk_switch_actual_skin_displacement": 0.15753695147769636,
+      "footroll_actual_skin_displacement": 0.03597795745708324
+    },
+    "neutral_shoe_soles_world_z": {
+      "Rounded mary-jane shoe.L": -9.499496513853956e-07,
+      "Rounded mary-jane shoe.R": -1.0310419611414545e-06
+    },
+    "neutral_joint_roll_angles": {
+      "DEF-forearm.R": 0.00345267029479146,
+      "DEF-shin.R": 0.013549280352890491,
+      "DEF-forearm.L": 0.0035210466012358665,
+      "DEF-shin.L": 0.013549280352890491
+    },
+    "cloth_three_frame_observation": {
+      "frames": [
+        1,
+        2,
+        3
+      ],
+      "evaluated_vertices": 1216,
+      "max_vertex_change": 0.05363441185066889,
+      "finite": true,
+      "baked": false,
+      "collision_acceptance": false
+    },
+    "cloth_settings": {
+      "pin_group": "Waist_PIN",
+      "vertices": 1216,
+      "self_collision": true,
+      "high_solidify": true,
+      "simulation_baked": false
+    }
+  },
+  "renders": {},
+  "limitations": [
+    "No face component included; Head bone is the attachment contract",
+    "Native authored side/back shape is a hypothesis, not reference-author ground truth",
+    "Shape and deformation tests are not artistic approval",
+    "No continuous acting sequence, large cloth cache, balance controller or grasp has been authored",
+    "Contact proxies approximate visible volumes; physical interaction still needs scene acceptance testing"
+  ],
+  "failure_records": [],
+  "v3_branch_measurements": {
+    "sleeve": {
+      "measurement": "closed upper-right-sleeve section from actual cloth vertices, temporary caps only for measurement",
+      "baseline_volume": 0.015968636938905593,
+      "puffed_volume": 0.01996079733585512,
+      "volume_ratio": 1.2500000727816114,
+      "radial_amplitude": 0.13093786239624017,
+      "wrist_radial_factor": 0.94,
+      "rig_rest_changed": false
+    },
+    "tail": {
+      "topology": {
+        "vertices": 5114,
+        "edges": 14364,
+        "faces": 9252,
+        "quads": 815,
+        "connected_components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "construction": "one biconvex concave fork volume boolean-unioned to continuous S stem, no overlapping leaf lobes",
+      "common_fork_root": [
+        1.005,
+        0.2,
+        0.585
+      ],
+      "v_notch": [
+        1.2,
+        0.2,
+        0.635
+      ],
+      "pointed_lobe_tips": [
+        [
+          1.54,
+          0.2,
+          1.1
+        ],
+        [
+          1.575,
+          0.2,
+          0.285
+        ]
+      ],
+      "notch_depth_x": 0.3575,
+      "lobe_half_thickness_range": [
+        0.004,
+        0.039
+      ],
+      "rest_chain_changed": false,
+      "material": "existing muted deep navy; no bright cyan",
+      "native_weighted_deformation": {
+        "max_actual_mesh_displacement": 0.17160390977565104,
+        "max_bone_length_error": 5.24237848686937e-08,
+        "finite": true,
+        "test": "five small native rotations then restored; not physics or a swim action"
+      }
+    },
+    "rig_version": {
+      "v2_rest_sha256": "273629cf411033216593231d1fc579e079f59c81b77b52c313b417a22de3c321",
+      "v3_rest_sha256": "0ad9d2290da6d6e3cfd393b6cd9b319dfba34e14e9e529f4304a236e4580ba39",
+      "changed_rest_bones": [
+        "DEF-index.01.L",
+        "DEF-index.01.R",
+        "DEF-index.02.L",
+        "DEF-index.02.R",
+        "DEF-index.03.L",
+        "DEF-index.03.R",
+        "DEF-little.01.L",
+        "DEF-little.01.R",
+        "DEF-little.02.L",
+        "DEF-little.02.R",
+        "DEF-little.03.L",
+        "DEF-little.03.R",
+        "DEF-middle.01.L",
+        "DEF-middle.01.R",
+        "DEF-middle.02.L",
+        "DEF-middle.02.R",
+        "DEF-middle.03.L",
+        "DEF-middle.03.R",
+        "DEF-ring.01.L",
+        "DEF-ring.01.R",
+        "DEF-ring.02.L",
+        "DEF-ring.02.R",
+        "DEF-ring.03.L",
+        "DEF-ring.03.R",
+        "DEF-thumb.01.L",
+        "DEF-thumb.01.R",
+        "DEF-thumb.02.L",
+        "DEF-thumb.02.R",
+        "DEF-thumb.03.L",
+        "DEF-thumb.03.R"
+      ],
+      "unchanged_other_bones": 66,
+      "finger_segment_lengths": [
+        {
+          "bone": "DEF-index.01.L",
+          "v2_length": 0.04816001281142235,
+          "v3_length": 0.036119990050792694,
+          "ratio": 0.7499995939001481
+        },
+        {
+          "bone": "DEF-index.01.R",
+          "v2_length": 0.048160016536712646,
+          "v3_length": 0.03611999750137329,
+          "ratio": 0.749999690590613
+        },
+        {
+          "bone": "DEF-index.02.L",
+          "v2_length": 0.03696000203490257,
+          "v3_length": 0.027720030397176743,
+          "ratio": 0.7500007811417269
+        },
+        {
+          "bone": "DEF-index.02.R",
+          "v2_length": 0.03696000576019287,
+          "v3_length": 0.02772003412246704,
+          "ratio": 0.7500008063397657
+        },
+        {
+          "bone": "DEF-index.03.L",
+          "v2_length": 0.026879962533712387,
+          "v3_length": 0.02015995793044567,
+          "ratio": 0.7499994802880174
+        },
+        {
+          "bone": "DEF-index.03.R",
+          "v2_length": 0.026879966259002686,
+          "v3_length": 0.02015995979309082,
+          "ratio": 0.7499994456406288
+        },
+        {
+          "bone": "DEF-little.01.L",
+          "v2_length": 0.04084997996687889,
+          "v3_length": 0.030637497082352638,
+          "ratio": 0.7500002963818705
+        },
+        {
+          "bone": "DEF-little.01.R",
+          "v2_length": 0.04084998369216919,
+          "v3_length": 0.030637502670288086,
+          "ratio": 0.7500003647776534
+        },
+        {
+          "bone": "DEF-little.02.L",
+          "v2_length": 0.03135001286864281,
+          "v3_length": 0.023512478917837143,
+          "ratio": 0.7499990196608501
+        },
+        {
+          "bone": "DEF-little.02.R",
+          "v2_length": 0.031350016593933105,
+          "v3_length": 0.02351248264312744,
+          "ratio": 0.7499990493682102
+        },
+        {
+          "bone": "DEF-little.03.L",
+          "v2_length": 0.022800026461482048,
+          "v3_length": 0.017100036144256592,
+          "ratio": 0.7500007148300939
+        },
+        {
+          "bone": "DEF-little.03.R",
+          "v2_length": 0.022800028324127197,
+          "v3_length": 0.017100036144256592,
+          "ratio": 0.7500006535588896
+        },
+        {
+          "bone": "DEF-middle.01.L",
+          "v2_length": 0.053749971091747284,
+          "v3_length": 0.040312521159648895,
+          "ratio": 0.7500007970392832
+        },
+        {
+          "bone": "DEF-middle.01.R",
+          "v2_length": 0.05374997854232788,
+          "v3_length": 0.04031252861022949,
+          "ratio": 0.7500008316930498
+        },
+        {
+          "bone": "DEF-middle.02.L",
+          "v2_length": 0.04125004634261131,
+          "v3_length": 0.03093748912215233,
+          "ratio": 0.7499988937029118
+        },
+        {
+          "bone": "DEF-middle.02.R",
+          "v2_length": 0.04125005006790161,
+          "v3_length": 0.030937492847442627,
+          "ratio": 0.7499989162805013
+        },
+        {
+          "bone": "DEF-middle.03.L",
+          "v2_length": 0.02999996766448021,
+          "v3_length": 0.02249997854232788,
+          "ratio": 0.7500000931323578
+        },
+        {
+          "bone": "DEF-middle.03.R",
+          "v2_length": 0.029999971389770508,
+          "v3_length": 0.02249998040497303,
+          "ratio": 0.7500000620882309
+        },
+        {
+          "bone": "DEF-ring.01.L",
+          "v2_length": 0.0498800203204155,
+          "v3_length": 0.03741002082824707,
+          "ratio": 0.7500001120275295
+        },
+        {
+          "bone": "DEF-ring.01.R",
+          "v2_length": 0.049880027770996094,
+          "v3_length": 0.03741002082824707,
+          "ratio": 0.75
+        },
+        {
+          "bone": "DEF-ring.02.L",
+          "v2_length": 0.0382799468934536,
+          "v3_length": 0.028710003942251205,
+          "ratio": 0.7500011434749669
+        },
+        {
+          "bone": "DEF-ring.02.R",
+          "v2_length": 0.038279950618743896,
+          "v3_length": 0.028710007667541504,
+          "ratio": 0.7500011678041079
+        },
+        {
+          "bone": "DEF-ring.03.L",
+          "v2_length": 0.027840014547109604,
+          "v3_length": 0.02087998203933239,
+          "ratio": 0.7499989629675026
+        },
+        {
+          "bone": "DEF-ring.03.R",
+          "v2_length": 0.0278400219976902,
+          "v3_length": 0.02087998576462269,
+          "ratio": 0.7499988960624756
+        },
+        {
+          "bone": "DEF-thumb.01.L",
+          "v2_length": 0.04983968660235405,
+          "v3_length": 0.03737984970211983,
+          "ratio": 0.7500017004592137
+        },
+        {
+          "bone": "DEF-thumb.01.R",
+          "v2_length": 0.04983968660235405,
+          "v3_length": 0.03737984970211983,
+          "ratio": 0.7500017004592137
+        },
+        {
+          "bone": "DEF-thumb.02.L",
+          "v2_length": 0.042379312217235565,
+          "v3_length": 0.031784381717443466,
+          "ratio": 0.7499975826534729
+        },
+        {
+          "bone": "DEF-thumb.02.R",
+          "v2_length": 0.04237930476665497,
+          "v3_length": 0.031784381717443466,
+          "ratio": 0.7499977145083362
+        },
+        {
+          "bone": "DEF-thumb.03.L",
+          "v2_length": 0.03573509305715561,
+          "v3_length": 0.026801349595189095,
+          "ratio": 0.750000833979146
+        },
+        {
+          "bone": "DEF-thumb.03.R",
+          "v2_length": 0.035735100507736206,
+          "v3_length": 0.026801353320479393,
+          "ratio": 0.7500007818552863
+        }
+      ],
+      "clips_compatibility": "Bone names preserved; v3 shorter finger rest requires grip retuning. Existing v2 clips/contacts have not been certified against v3."
+    },
+    "skirt": [
+      {
+        "height_fraction": 0,
+        "v2_radii": [
+          0.305,
+          0.225
+        ],
+        "v3_radii": [
+          0.305,
+          0.225
+        ]
+      },
+      {
+        "height_fraction": 0.25,
+        "v2_radii": [
+          0.42625,
+          0.2875
+        ],
+        "v3_radii": [
+          0.5368684894858384,
+          0.3409342447429192
+        ]
+      },
+      {
+        "height_fraction": 0.5,
+        "v2_radii": [
+          0.5475,
+          0.35
+        ],
+        "v3_radii": [
+          0.6839291416275995,
+          0.4144645708137998
+        ]
+      },
+      {
+        "height_fraction": 0.75,
+        "v2_radii": [
+          0.66875,
+          0.4125
+        ],
+        "v3_radii": [
+          0.7743126722536471,
+          0.45965633612682355
+        ]
+      },
+      {
+        "height_fraction": 0.9,
+        "v2_radii": [
+          0.7415,
+          0.44999999999999996
+        ],
+        "v3_radii": [
+          0.7896440030424794,
+          0.46753050632233706
+        ]
+      },
+      {
+        "height_fraction": 1,
+        "v2_radii": [
+          0.79,
+          0.475
+        ],
+        "v3_radii": [
+          0.7799999999999999,
+          0.46299999999999997
+        ]
+      }
+    ],
+    "shoe": {
+      "R": {
+        "bbox": [
+          [
+            0.10176800936460495,
+            -0.289000004529953,
+            0.0
+          ],
+          [
+            0.3922320008277893,
+            0.0949999988079071,
+            0.17899200320243835
+          ]
+        ],
+        "toe_top_z": 0.16283202171325684,
+        "true_open_upper": true,
+        "sole_plane_z": 0.0
+      },
+      "L": {
+        "bbox": [
+          [
+            -0.3922320008277893,
+            -0.289000004529953,
+            0.0
+          ],
+          [
+            -0.10176800936460495,
+            0.0949999988079071,
+            0.17899200320243835
+          ]
+        ],
+        "toe_top_z": 0.16283202171325684,
+        "true_open_upper": true,
+        "sole_plane_z": 0.0
+      }
+    },
+    "resting_hand_pose": {
+      "grip": 0.105,
+      "thumb_opposition": 0.12,
+      "source": "native constrained finger drivers; no rest-bone scaling",
+      "palm": "convex front/back pad with continuously shared digit junctions",
+      "v2_palm_width": 0.164,
+      "v3_palm_width": 0.146,
+      "v2_palm_height": 0.12,
+      "v3_palm_height": 0.1,
+      "finger_end": "14 axial rings with rounded taper, smooth actual closed cap; three genuine articulated segments"
+    },
+    "frozen_v2_sources_unchanged": {
+      "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v2.blend": "c31befc1fd595e5a1575c5eb4b64c704f2839e592d994aac88f835cb442bbcf4",
+      "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v2-manifest.json": "b44cb01cdfa88102e2ff67872c00079793ae8b6078dcca562e79062ae2d7f90f",
+      "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py": "69c39d7861deaf05a64bbbc7d496861e9e803994343f687907e1fb4ac256f759",
+      "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-action-study.blend": "db9d5d839c995c4aa95513a189120c507115aeacc2a17985367bd2e7d3f3aa1a",
+      "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v3.blend": "a03fba495ee5e9f143a46bcc56abbde67bf16c72ea9de4b3e3a7999e81c36311",
+      "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body_v3.py": "7f809fb7a9c98369d14a03cb9886adde6651b9039fe82727a1797827a2aadac3"
+    }
+  },
+  "action_interface": {
+    "rig_object": "Dafeiyu BodyRig v4",
+    "units": "1 Blender unit = probe 1 unit; Z up, forward -Y, ground Z=0",
+    "root_control": "Root",
+    "cog_control": "COG",
+    "head_attachment_bone": "Head",
+    "root_motion_recipe": "Set pose_bones[Root].matrix = Matrix.Translation(world_position) @ Matrix.Rotation(yaw,4,Z) @ data.bones[Root].matrix_local. This avoids treating local Euler Z as world Z.",
+    "foot_lock_recipe": "After Root/COG update, assign CTRL-foot_ik matrix = rig.matrix_world.inverted() @ desired world control matrix. Keep the sole point fixed using the listed control-local sole offset. Keep ik_fk=1. Footroll deliberately changes the heel/ball/toe contact pivot.",
+    "grasp_recipe": "Target the actual object transform with CTRL-hand_ik; use control-local palm reference below. Close grip/individual curls and thumb_opposition continuously. Native prop interaction/constraint capture is not authored in this asset.",
+    "controls": {
+      "R": {
+        "hand_ik": "CTRL-hand_ik.R",
+        "elbow_pole": "CTRL-elbow_pole.R",
+        "foot_ik": "CTRL-foot_ik.R",
+        "knee_pole": "CTRL-knee_pole.R",
+        "ik_fk_property": "ik_fk; 1=IK, 0=FK, stored on each hand/foot IK control",
+        "arm_fk": [
+          "FK-upper_arm.R",
+          "FK-forearm.R",
+          "FK-hand.R"
+        ],
+        "leg_fk": [
+          "FK-thigh.R",
+          "FK-shin.R",
+          "FK-foot.R"
+        ],
+        "foot_roll_properties": [
+          "heel_roll",
+          "toe_roll",
+          "ball_roll",
+          "bank"
+        ],
+        "finger_control": "CTRL-fingers.R",
+        "finger_properties": [
+          "grip",
+          "thumb_opposition",
+          "thumb_curl",
+          "index_curl",
+          "middle_curl",
+          "ring_curl",
+          "little_curl"
+        ],
+        "finger_property_range": [
+          0,
+          1
+        ],
+        "palm_reference_local_to_hand_control": [
+          0.0,
+          0.060000061988830566,
+          0.0
+        ],
+        "sole_reference_local_to_foot_control": [
+          8.641373483442294e-08,
+          0.18838545680046082,
+          0.06552619487047195
+        ],
+        "neutral_sole_world": [
+          0.2470000982284546,
+          -0.11909130960702896,
+          0.0
+        ]
+      },
+      "L": {
+        "hand_ik": "CTRL-hand_ik.L",
+        "elbow_pole": "CTRL-elbow_pole.L",
+        "foot_ik": "CTRL-foot_ik.L",
+        "knee_pole": "CTRL-knee_pole.L",
+        "ik_fk_property": "ik_fk; 1=IK, 0=FK, stored on each hand/foot IK control",
+        "arm_fk": [
+          "FK-upper_arm.L",
+          "FK-forearm.L",
+          "FK-hand.L"
+        ],
+        "leg_fk": [
+          "FK-thigh.L",
+          "FK-shin.L",
+          "FK-foot.L"
+        ],
+        "foot_roll_properties": [
+          "heel_roll",
+          "toe_roll",
+          "ball_roll",
+          "bank"
+        ],
+        "finger_control": "CTRL-fingers.L",
+        "finger_properties": [
+          "grip",
+          "thumb_opposition",
+          "thumb_curl",
+          "index_curl",
+          "middle_curl",
+          "ring_curl",
+          "little_curl"
+        ],
+        "finger_property_range": [
+          0,
+          1
+        ],
+        "palm_reference_local_to_hand_control": [
+          0.0,
+          0.060000061988830566,
+          0.0
+        ],
+        "sole_reference_local_to_foot_control": [
+          -1.5200484426713956e-07,
+          0.18838544189929962,
+          0.06552619487047195
+        ],
+        "neutral_sole_world": [
+          -0.24700012803077698,
+          -0.11909130960702896,
+          0.0
+        ]
+      }
+    },
+    "finger_joints_per_digit": 3,
+    "face_hair_included": false,
+    "actions_baked": false,
+    "cloth_cache_baked": false,
+    "tail_rest_curve": [
+      [
+        0.25,
+        0.23999999463558197,
+        0.8999999761581421
+      ],
+      [
+        0.44999998807907104,
+        0.25999999046325684,
+        0.6800000071525574
+      ],
+      [
+        0.6499999761581421,
+        0.2800000011920929,
+        0.5
+      ],
+      [
+        0.8500000238418579,
+        0.25999999046325684,
+        0.5199999809265137
+      ],
+      [
+        1.0499999523162842,
+        0.2199999988079071,
+        0.6000000238418579
+      ],
+      [
+        1.159999966621399,
+        0.20000000298023224,
+        0.6700000166893005
+      ]
+    ]
+  },
+  "costume_geometry": {
+    "standing_collar": true,
+    "shaped_bib_with_flounced_edges": true,
+    "sapphire_oval_bezel": true,
+    "apron_border": "continuous curved flounce following cloth",
+    "whale_emblem": "five smooth thin embroidery meshes with subdivided curved cap interiors; single apron midsurface target, then render-only subdivision/solidify",
+    "decoration_deformation_chain": "Cloth cage -> single apron midsurface -> apron render/frill/embroidery; Solidify stays after surface deformation on render objects",
+    "mary_jane": "blunt rounded toe, actual upper opening, socked foot, curved leather strap and buckle",
+    "tail": "unchanged S-curve rest chain, single closed unioned fork with two pointed biconvex lobes and deep V notch"
+  },
+  "rig_rest_sha256": "0ad9d2290da6d6e3cfd393b6cd9b319dfba34e14e9e529f4304a236e4580ba39"
+}

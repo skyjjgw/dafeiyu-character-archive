@@ -1,0 +1,11 @@
+{
+  "scope": "Actual same-renderer front pixel comparison; not all-angle/physical or visual acceptance",
+  "width": 640,
+  "height": 704,
+  "strength": 0.55,
+  "rgbRMSE": 4.651692941099672,
+  "maxRGBDifference": 185,
+  "pixelsRGBDifferenceOver1": 2637,
+  "alphaSilhouetteDifference": 0,
+  "visualPass": false
+}

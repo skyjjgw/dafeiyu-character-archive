@@ -1,0 +1,10 @@
+{
+  "collected_on": "2026-10-25",
+  "source_catalogs": [
+    "https://raw.githubusercontent.com/lmy414/bluedafeiyu/main/data/works.json",
+    "https://raw.githubusercontent.com/lmy414/bluedafeiyu/main/data/video-archive.json",
+    "https://raw.githubusercontent.com/shuaizenge/ai-girls/main/catalog.json"
+  ],
+  "scope": "公开参考素材索引；不将聚合站声明提升为原作者授权；不下载语音、不克隆声音、不修改原软件",
+  "upstream_live2d": "https://github.com/Andersen216/dsh-whale-girl-live2d"
+}

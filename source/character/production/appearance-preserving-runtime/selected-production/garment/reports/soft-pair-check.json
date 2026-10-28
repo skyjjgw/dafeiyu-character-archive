@@ -1,0 +1,71 @@
+{
+	"checks": {
+		"enabled_soft_pair_passes_through": true,
+		"pinned_soft_support_remains_at_30cm": true,
+		"rigid_control_blocks_same_soft_sheet": true
+	},
+	"completed": true,
+	"rigid_control": {
+		"drop_minimum_y": 0.30349999666214,
+		"samples": [
+			{
+				"highest_y": 0.599903464317322,
+				"lowest_y": 0.599903464317322,
+				"tick": 1
+			},
+			{
+				"highest_y": 0.591386497020721,
+				"lowest_y": 0.591386497020721,
+				"tick": 10
+			},
+			{
+				"highest_y": 0.30349999666214,
+				"lowest_y": 0.30349999666214,
+				"tick": 60
+			},
+			{
+				"highest_y": 0.30349999666214,
+				"lowest_y": 0.30349999666214,
+				"tick": 120
+			},
+			{
+				"highest_y": 0.30349999666214,
+				"lowest_y": 0.30349999666214,
+				"tick": 240
+			}
+		]
+	},
+	"scope": "Actual official Godot4.7.2 Jolt; independent SoftBody pair is not narrowphase supported. Passing this negative test proves a limitation, not garment contact acceptance.",
+	"soft_pair": {
+		"drop_minimum_y": -4.11224222183228,
+		"layers_masks_mutually_enabled": true,
+		"samples": [
+			{
+				"highest_y": 0.599903464317322,
+				"lowest_y": 0.599903464317322,
+				"tick": 1
+			},
+			{
+				"highest_y": 0.591386497020721,
+				"lowest_y": 0.591386497020721,
+				"tick": 10
+			},
+			{
+				"highest_y": 0.29607966542244,
+				"lowest_y": 0.29607966542244,
+				"tick": 60
+			},
+			{
+				"highest_y": -0.602231085300446,
+				"lowest_y": -0.602231085300446,
+				"tick": 120
+			},
+			{
+				"highest_y": -4.11224222183228,
+				"lowest_y": -4.11224222183228,
+				"tick": 240
+			}
+		]
+	},
+	"unsupported_boundary_proven": true
+}

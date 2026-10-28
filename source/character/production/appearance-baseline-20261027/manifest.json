@@ -1,0 +1,103 @@
+{
+  "schema": "dafeiyu.appearance-baseline.v1",
+  "lockedOn": "2026-10-27",
+  "chosenURL": "http://127.0.0.1:4348/character-preview.html",
+  "userMeaning": "该页面旧曲面人物是最贴近的外观；并非确认旧结构已满足自然动作、全角度和物理要求",
+  "preserve": [
+    "现有五官与脸型",
+    "发型与头饰",
+    "头身及身体比例",
+    "原画细节、色彩与整体画法"
+  ],
+  "currentImplementation": "完整自包含预览、曲面网格和原画材质；所需角度与自然全身动作仍未达标",
+  "rejected": "新的native v2–v7造型不得作为已认可形象继续晋升；技术研究保留",
+  "frozenPreview": {
+    "file": "character-preview.html",
+    "sha256": "6abe1e431b3b14f30ea65ac03c16c07ea7a9e138a46f9012dd4ea6f9765ccc9d"
+  },
+  "sources": [
+    {
+      "file": "E:/zzz/dafeiyu-dsh-panel/hud/character-entry.js",
+      "snapshot": "source/character-entry.js",
+      "sha256": "7f425ae454f3928df54e60d42909b70be5124ad554bd3af89486ad1cb94a6a6b"
+    },
+    {
+      "file": "E:/zzz/dafeiyu-dsh-panel/scripts/build-character.mjs",
+      "snapshot": "source/build-character.mjs",
+      "sha256": "b303cc2dc3d9860da0456d48d5336a61184e42a17ae5be492c281fa3cd8a6160"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\app.js",
+      "snapshot": "source/app.js",
+      "sha256": "06faa2f0f89d2af085c04d660f4528e07acc547dece60cc4682a26b1fb318c12"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\body-full.js",
+      "snapshot": "source/body-full.js",
+      "sha256": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\body.js",
+      "snapshot": "source/body.js",
+      "sha256": "f048c225d9c99083d4488419d587991ef13bab2e59f92e3fab75f5dbffe0fcee"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\character.js",
+      "snapshot": "source/character.js",
+      "sha256": "f5c9383466f268f228af48ed9b33243a8aac4063417993a6c8ce18ef42812d95"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\face.js",
+      "snapshot": "source/face.js",
+      "sha256": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\hair.js",
+      "snapshot": "source/hair.js",
+      "sha256": "095319ae6f67c68d9f7935fea3d46d7a5b6f3bb88d0ee4c754aa7d2d9d87b40b"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\performance.js",
+      "snapshot": "source/performance.js",
+      "sha256": "30412dbf3abb38860c73c9333bfdafbcf4f71f7a21a978fa1b49ac8715702d44"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\profile-volume.js",
+      "snapshot": "source/profile-volume.js",
+      "sha256": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\rear-hair.js",
+      "snapshot": "source/rear-hair.js",
+      "sha256": "ce8b1430690eb356a8eab911c5cc40fd5ad98beb492f2f9cbaa4d84cab72d7d0"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\secondary-motion.js",
+      "snapshot": "source/secondary-motion.js",
+      "sha256": "afb65b07d2ff06a93be5271b12cb55536ca99c596d36187f08f3c9e752171c98"
+    },
+    {
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\animation-look-study\\stage.js",
+      "snapshot": "source/stage.js",
+      "sha256": "9a132abc8558a428eda3c010fb08a44eed7fadc7fd12c0587c4a47ce3a8b8301"
+    }
+  ],
+  "assets": [
+    {
+      "file": "E:/zzz/dafeiyu-character-materials-20261025/references/video-covers/BV1g2JX6HEHX.jpg",
+      "snapshot": "assets/BV1g2JX6HEHX.jpg",
+      "sha256": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4"
+    },
+    {
+      "file": "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png",
+      "snapshot": "assets/neutral-front.png",
+      "sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14"
+    },
+    {
+      "file": "E:/zzz/dafeiyu-character-materials-20261025/production/animation-look-study/turnaround-auxiliary-v2.png",
+      "snapshot": "assets/turnaround-auxiliary-v2.png",
+      "sha256": "408f5df1b2a7a58689201ce2d34f3be3d9fe359e5f6ffc4cff9c95f18b84ea34"
+    }
+  ],
+  "policy": "此处为用户选择的外观基准，旧动画/物理限制仍需修；任何后续结构必须实际对照该外观，不能用通用3D重建取代其身份"
+}

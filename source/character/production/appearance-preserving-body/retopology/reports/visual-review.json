@@ -1,0 +1,26 @@
+{
+  "schema": "dafeiyu.selected-hand-local-visual-review.v2",
+  "reviewedOn": "2026-10-28",
+  "appearanceBaseline": "http://127.0.0.1:4348/character-preview.html",
+  "numericalChecks": {
+    "finiteAndWeightsAndClosedTopology": true,
+    "body22WorldMatricesUnchanged": true,
+    "otherBodyGeometryUnchanged": true,
+    "sampledStrictCrossings": "28 states, both hands, zero strict crossings. Read intersection-diagnostic.json for actual method exclusions."
+  },
+  "localVisual": {
+    "status": "limited_visual_improvement_observed",
+    "final_quality": false,
+    "rootObservation": "Actual final CUA full neutral, rest back, curl.55+opposition.22 side: real thickness, no old collapse sheets, local proportions improved, whole-body scale/skin can continue into independent motion candidate; source girl retained. Fine wrist folds and finger roots still need refinement.",
+    "agentActualGpuViews": ["neutral front", "neutral 45", "neutral 90", "neutral back", ".55 curl 45", ".55 curl back", "full curl 45", "full curl 90", "right .55 curl45"],
+    "remaining": ["Slight wrist contour changes/creases need final cuff and pose review", "Unlit closeup has limited form shading", "No final user approval or full character fidelity certification"]
+  },
+  "graspAndPhysics": {
+    "forceClosureVerified": false,
+    "objectContactVerified": false,
+    "continuousSelfCollisionSolver": false,
+    "allPossiblePoseNoIntersectionClaim": false
+  },
+  "installedInto4348": false,
+  "finalCharacterPass": false
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "status": "verified_reopened_native",
+  "independent_process_reopen": true,
+  "blender_version": "4.5.15 LTS",
+  "native": {
+    "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\dafeiyu-master-v1.blend",
+    "bytes": 56534691,
+    "sha256": "e1a951beb0feae04e46509122274034c3cf631a67e435ff9dac8365b7c85d330"
+  },
+  "glb": {
+    "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\assets\\dafeiyu-body-rig-v1.glb",
+    "bytes": 34018144,
+    "sha256": "2a3d12fe7bb9c9446c6cf803a452de3b9d6f5ee1569efaaf051139ef30eb1278"
+  },
+  "build_script_sha256": "78209aa4943fc205169013e6ece43836640ae5b727da16171d5a1eda839f66b5",
+  "armature": {
+    "name": "Body + costume + hair + tail / weighted geometry",
+    "bones": 40,
+    "bone_names": [
+      "Pelvis",
+      "Spine",
+      "Chest",
+      "Neck",
+      "Head",
+      "Hair.-1.0.Root",
+      "Hair.-1.0.Mid",
+      "Hair.-1.0.Tip",
+      "Hair.-1.1.Root",
+      "Hair.-1.1.Mid",
+      "Hair.-1.1.Tip",
+      "Hair.-1.2.Root",
+      "Hair.-1.2.Mid",
+      "Hair.-1.2.Tip",
+      "Hair.1.0.Root",
+      "Hair.1.0.Mid",
+      "Hair.1.0.Tip",
+      "Hair.1.1.Root",
+      "Hair.1.1.Mid",
+      "Hair.1.1.Tip",
+      "Hair.1.2.Root",
+      "Hair.1.2.Mid",
+      "Hair.1.2.Tip",
+      "R.Shoulder",
+      "R.Elbow",
+      "R.Wrist",
+      "L.Shoulder",
+      "L.Elbow",
+      "L.Wrist",
+      "R.Hip",
+      "R.Knee",
+      "R.Ankle",
+      "L.Hip",
+      "L.Knee",
+      "L.Ankle",
+      "Tail.0",
+      "Tail.1",
+      "Tail.2",
+      "Tail.3",
+      "Tail.4"
+    ]
+  },
+  "native_skinned_meshes": 1,
+  "native_vertex_colour_meshes": 12,
+  "facial_morph_meshes": 36,
+  "morph_names": [
+    "blink",
+    "aa",
+    "happy",
+    "sad"
+  ],
+  "morph_max_vertex_changes": {
+    "blink": 0.16202081309670352,
+    "aa": 0.1296659071020491,
+    "happy": 0.026607639421827832,
+    "sad": 0.04877495866320242
+  },
+  "neutral_proportions": {
+    "body_scale": 0.74,
+    "expected_head_scale": 1.08,
+    "actual_head_matrix_scale": [
+      1.0800000429153442,
+      1.0800000429153442,
+      1.0800000429153442
+    ],
+    "applied_without_animation": true
+  },
+  "rig_viewport_helpers": {
+    "count": 1,
+    "all_excluded_from_render": true
+  },
+  "actions": {
+    "idle": [
+      "idle"
+    ],
+    "wave": [
+      "wave"
+    ],
+    "walk": [
+      "walk"
+    ],
+    "turn": [
+      "turn"
+    ]
+  },
+  "action_pose_checks": {
+    "idle": {
+      "nla_tracks": 1,
+      "sample_frame": 35,
+      "max_bone_matrix_component_change": 0.0660869162529707,
+      "max_sampled_skin_vertex_change": 0.08072318190616475,
+      "skin_samples": 129,
+      "finite": true
+    },
+    "wave": {
+      "nla_tracks": 1,
+      "sample_frame": 35,
+      "max_bone_matrix_component_change": 1.3898224532604218,
+      "max_sampled_skin_vertex_change": 0.8505633490242366,
+      "skin_samples": 129,
+      "finite": true
+    },
+    "walk": {
+      "nla_tracks": 1,
+      "sample_frame": 35,
+      "max_bone_matrix_component_change": 0.25450151041150093,
+      "max_sampled_skin_vertex_change": 0.15302631792285776,
+      "skin_samples": 129,
+      "finite": true
+    },
+    "turn": {
+      "nla_tracks": 1,
+      "sample_frame": 65,
+      "max_bone_matrix_component_change": 2.085806131362915,
+      "max_sampled_skin_vertex_change": 2.813708368965306,
+      "skin_samples": 129,
+      "finite": true
+    }
+  },
+  "references": [
+    {
+      "name": "REF_01_Canonical_Selected_Front",
+      "packed": true,
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\v1\\neutral-front.png",
+      "provenance": "Selected canonical image, unchanged pixels"
+    },
+    {
+      "name": "REF_02_INFERRED_Side_Back_Not_Author_Truth",
+      "packed": true,
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\references\\turnaround-inferred-v1.png",
+      "provenance": "AI-inferred structural turnaround; side/back are hypotheses, not original-author views; tail colour subordinate to v5"
+    },
+    {
+      "name": "REF_03_Tail_Colour_v5_Priority",
+      "packed": true,
+      "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\references\\user\\tail-color-reference-v5.png",
+      "provenance": "User tail v5 colour reference has priority; no outfit transfer"
+    }
+  ],
+  "renders": {
+    "front": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\front.png",
+      "bytes": 981631,
+      "sha256": "f818e56660c0c273da7ba155fb976108e6d67946c337c516d1d52ffd268d4a55"
+    },
+    "left": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\left.png",
+      "bytes": 891608,
+      "sha256": "72be62e4bb5264130549db4813e6598698acdfbf54cebf4a716b563a6de9e94f"
+    },
+    "back": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\back.png",
+      "bytes": 882684,
+      "sha256": "ad655c9b2716f2f74f286d9a2f1de2c69547717a185ea513b06d0726913609f9"
+    },
+    "threequarter": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\renders\\threequarter.png",
+      "bytes": 1136491,
+      "sha256": "0306cf1da658632ec4aec683fc74ed7c8b2f318ad6469ad64a5ced256199609e"
+    }
+  },
+  "source_hashes_used": {
+    "character.js": "8832aaf5c114fa0123b7e6c604bad020684af59d54eabba3d470141b545ba293",
+    "face.js": "f27968949d07f8b793c6081c52dbf81b3417c0b8fcf4378df529cbd6d0751e8d",
+    "hair.js": "e468ebd894a587d2feb792b916437c51d50a88a9a9b8becef38b9251dce315fe",
+    "costume.js": "b693224ed7134f89ba8cc93ee487e5e9b715aa7d230323023331c3a7b50f7aa5",
+    "tuning.js": "bfc2e64ccb0f7a73c14e8cb122627577d8cd2933be57c7041f4f7c5ab6dad033",
+    "physics.js": "6489b8255cb8d507e8ca9fe0209735c566b49315353c8437bb77caa21e846cda"
+  },
+  "source_hashes_at_verification": {
+    "character.js": "8832aaf5c114fa0123b7e6c604bad020684af59d54eabba3d470141b545ba293",
+    "face.js": "f27968949d07f8b793c6081c52dbf81b3417c0b8fcf4378df529cbd6d0751e8d",
+    "hair.js": "e468ebd894a587d2feb792b916437c51d50a88a9a9b8becef38b9251dce315fe",
+    "costume.js": "b693224ed7134f89ba8cc93ee487e5e9b715aa7d230323023331c3a7b50f7aa5",
+    "tuning.js": "bfc2e64ccb0f7a73c14e8cb122627577d8cd2933be57c7041f4f7c5ab6dad033",
+    "physics.js": "6489b8255cb8d507e8ca9fe0209735c566b49315353c8437bb77caa21e846cda"
+  },
+  "changed_source_files": [],
+  "shader": "Eevee native ShaderToRGB cel shade with original base and vertex colours; facial original colours preserved with emission",
+  "limitations": [
+    "Procedural triangulated refinement source, not production topology or final likeness approval.",
+    "Not a completed VRM or physics setup.",
+    "Side/back reference is inferred, not original-author ground truth.",
+    "Walk clip is in place; no foot IK/contact or motion-capture claim."
+  ]
+}

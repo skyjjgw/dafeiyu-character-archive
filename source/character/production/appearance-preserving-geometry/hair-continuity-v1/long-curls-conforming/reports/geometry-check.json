@@ -1,0 +1,121 @@
+{
+  "schema": "dafeiyu.long-curls-conforming.check.v1",
+  "records": [
+    {
+      "name": "left-auxiliary-source-traced-long-curls",
+      "topology": {
+        "vertices": 764,
+        "triangles": 1532,
+        "edges": 2298,
+        "eulerCharacteristic": -2,
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "degenerate": 0,
+        "minArea": 0.000005051703639453727,
+        "signedVolume": 0.05822298643880881,
+        "finite": true,
+        "normalsFinite": true
+      },
+      "originalHanging": {
+        "hangingVertexEdgeIncidences": 92,
+        "maxRest3DGap": 0.09025937751312539,
+        "collinearityTolerancePixels": 0.0005,
+        "scope": "Unpaired front edges only"
+      },
+      "candidateHanging": {
+        "hangingVertexEdgeIncidences": 0,
+        "maxRest3DGap": 0,
+        "collinearityTolerancePixels": 0.0005,
+        "scope": "Unpaired front edges only"
+      },
+      "strictCrossings": {
+        "strictNonAdjacentCrossingPairs": 0,
+        "testedAABBPairs": 6233,
+        "examples": [],
+        "excluded": "Shared-vertex adjacency; coplanar/edge-touch coincidences. This is strict transverse intersection checking, not a complete contact or collision certificate.",
+        "epsilon": 1e-8
+      },
+      "originalSourceEquationMaxError": 6.545175007934567e-8,
+      "candidateSourceEquationMaxError": 6.545175007934567e-8,
+      "candidateDepthEquationMaxError": 9.8347663901599e-9,
+      "minFrontSignedArea": 0.0000010823337266430144,
+      "frontDomain": "Source polygon with two holes; every front triangle points +Z; identical XY domain for back with strictly positive original depth",
+      "metadata": {
+        "name": "left-auxiliary-source-traced-long-curls",
+        "holes": 2,
+        "sharedEdgeRefinementRounds": 3,
+        "depthPolicy": "Exactly original .010+.30*sqrt(clamp(distanceToSourceOuterOrHole/45,0,1))",
+        "frontPolicy": "Exactly original mapPoint plus (depth-.010)*.42; changed sampling/connectivity only",
+        "source": "Original auxiliary neutral-front.png, mirrored right as in frozen source",
+        "staticOnly": true,
+        "finalAccepted": false
+      }
+    },
+    {
+      "name": "right-auxiliary-source-traced-long-curls",
+      "topology": {
+        "vertices": 764,
+        "triangles": 1532,
+        "edges": 2298,
+        "eulerCharacteristic": -2,
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "degenerate": 0,
+        "minArea": 0.000005051703639453727,
+        "signedVolume": 0.058222986438808806,
+        "finite": true,
+        "normalsFinite": true
+      },
+      "originalHanging": {
+        "hangingVertexEdgeIncidences": 92,
+        "maxRest3DGap": 0.09025937751312539,
+        "collinearityTolerancePixels": 0.0005,
+        "scope": "Unpaired front edges only"
+      },
+      "candidateHanging": {
+        "hangingVertexEdgeIncidences": 0,
+        "maxRest3DGap": 0,
+        "collinearityTolerancePixels": 0.0005,
+        "scope": "Unpaired front edges only"
+      },
+      "strictCrossings": {
+        "strictNonAdjacentCrossingPairs": 0,
+        "testedAABBPairs": 6196,
+        "examples": [],
+        "excluded": "Shared-vertex adjacency; coplanar/edge-touch coincidences. This is strict transverse intersection checking, not a complete contact or collision certificate.",
+        "epsilon": 1e-8
+      },
+      "originalSourceEquationMaxError": 6.545175007934567e-8,
+      "candidateSourceEquationMaxError": 6.545175007934567e-8,
+      "candidateDepthEquationMaxError": 9.8347663901599e-9,
+      "minFrontSignedArea": 0.0000010823337266430144,
+      "frontDomain": "Source polygon with two holes; every front triangle points +Z; identical XY domain for back with strictly positive original depth",
+      "metadata": {
+        "name": "right-auxiliary-source-traced-long-curls",
+        "holes": 2,
+        "sharedEdgeRefinementRounds": 3,
+        "depthPolicy": "Exactly original .010+.30*sqrt(clamp(distanceToSourceOuterOrHole/45,0,1))",
+        "frontPolicy": "Exactly original mapPoint plus (depth-.010)*.42; changed sampling/connectivity only",
+        "source": "Original auxiliary neutral-front.png, mirrored right as in frozen source",
+        "staticOnly": true,
+        "finalAccepted": false
+      }
+    }
+  ],
+  "passed": true,
+  "strictNonAdjacentTransverseIntersectionsChecked": true,
+  "visualPass": false,
+  "finalAccepted": false,
+  "dynamicsImplemented": false,
+  "sourceMechanism": "Original T joins are magnified by nonlinear front depthAt*.42. This candidate globally synchronizes every split edge and retains source equations.",
+  "unverified": [
+    "Actual GPU front/45/90/back visual comparison",
+    "Mutual contact with scalp/body/other locks",
+    "Material appearance at new side angles",
+    "Animated integration"
+  ]
+}

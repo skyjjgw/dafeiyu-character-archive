@@ -1,0 +1,823 @@
+{
+  "schema": "dafeiyu.implicit-cloth-research-summary.v1",
+  "status": "frozen_bounded_research_not_production",
+  "math_reference_pass": true,
+  "impulse_calibration_pass": true,
+  "boundary_regression_pass": true,
+  "experiments": [
+    {
+      "report": "jolt-240hz-4s.json",
+      "completed": true,
+      "dt_s": 0.00416666666666667,
+      "simulated_seconds": 4.0,
+      "wall_seconds": 31.229181,
+      "material_total_mean_ms": 6.3615864583333295,
+      "trials": [
+        {
+          "name": "grid4_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0005,
+            "mass_kg": 0.008,
+            "pins": 8,
+            "triangles": 18,
+            "vertices": 16
+          },
+          "min_edge_ratio": 0.999857507653515,
+          "max_edge_ratio": 1.00030778346841,
+          "max_pin_error_m": 1.01677903785458e-06,
+          "max_displacement_m": 0.265989661216736,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "grid4_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0005,
+            "mass_kg": 0.008,
+            "pins": 8,
+            "triangles": 18,
+            "vertices": 16
+          },
+          "min_edge_ratio": 0.999448403174606,
+          "max_edge_ratio": 1.0016353652856,
+          "max_pin_error_m": 4.80201322261564e-07,
+          "max_displacement_m": 0.236011639237404,
+          "max_iterations": 5,
+          "max_relative_residual": 6.5566693208044e-09,
+          "max_linear_balance_error_j": 2.15019598263574e-13,
+          "max_impulse_ns": 4.62340248839096e-05,
+          "max_delta_velocity_mps": 0.0924680497678192,
+          "material_time_ms": {
+            "count": 960,
+            "max": 0.206,
+            "mean": 0.0251354166666666,
+            "p95": 0.035
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "outer_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 5e-05,
+            "mass_kg": 0.08,
+            "pins": 96,
+            "triangles": 3456,
+            "vertices": 1824
+          },
+          "min_edge_ratio": 0.950067555555254,
+          "max_edge_ratio": 1.06229940642873,
+          "max_pin_error_m": 2.73244381787663e-07,
+          "max_displacement_m": 0.334617376327515,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "outer_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 5e-05,
+            "mass_kg": 0.08,
+            "pins": 96,
+            "triangles": 3456,
+            "vertices": 1824
+          },
+          "min_edge_ratio": 0.960669391244687,
+          "max_edge_ratio": 1.05034338548982,
+          "max_pin_error_m": 2.40187347344545e-07,
+          "max_displacement_m": 0.289009094238281,
+          "max_iterations": 56,
+          "max_relative_residual": 9.99633775804483e-09,
+          "max_linear_balance_error_j": 3.01658481180467e-12,
+          "max_impulse_ns": 2.40688429080066e-05,
+          "max_delta_velocity_mps": 0.548769618302551,
+          "material_time_ms": {
+            "count": 960,
+            "max": 6.805,
+            "mean": 3.41068541666667,
+            "p95": 4.265
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "lining_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 7e-05,
+            "mass_kg": 0.035,
+            "pins": 96,
+            "triangles": 2368,
+            "vertices": 1280
+          },
+          "min_edge_ratio": 0.979815753459849,
+          "max_edge_ratio": 1.02257881477809,
+          "max_pin_error_m": 5.69375629311253e-07,
+          "max_displacement_m": 0.223968774080276,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "lining_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 7e-05,
+            "mass_kg": 0.035,
+            "pins": 96,
+            "triangles": 2368,
+            "vertices": 1280
+          },
+          "min_edge_ratio": 0.98620252717208,
+          "max_edge_ratio": 1.02184771774535,
+          "max_pin_error_m": 2.08649510113901e-07,
+          "max_displacement_m": 0.166887834668159,
+          "max_iterations": 73,
+          "max_relative_residual": 9.99874727617282e-09,
+          "max_linear_balance_error_j": 1.84091647091253e-13,
+          "max_impulse_ns": 7.30054058601674e-06,
+          "max_delta_velocity_mps": 0.266991198574326,
+          "material_time_ms": {
+            "count": 960,
+            "max": 6.938,
+            "mean": 2.95090104166666,
+            "p95": 3.698
+          },
+          "bounded_diagnostic_pass": true
+        }
+      ]
+    },
+    {
+      "report": "jolt-240hz-1s-k10.json",
+      "completed": true,
+      "dt_s": 0.00416666666666667,
+      "simulated_seconds": 1.0,
+      "wall_seconds": 9.245717,
+      "material_total_mean_ms": 12.58147083333333,
+      "trials": [
+        {
+          "name": "grid4_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.005,
+            "mass_kg": 0.008,
+            "pins": 4,
+            "triangles": 18,
+            "vertices": 16
+          },
+          "min_edge_ratio": 0.99972283841625,
+          "max_edge_ratio": 1.00049564984836,
+          "max_pin_error_m": 3.00342492209893e-07,
+          "max_displacement_m": 0.396354496479034,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "grid4_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.005,
+            "mass_kg": 0.008,
+            "pins": 4,
+            "triangles": 18,
+            "vertices": 16
+          },
+          "min_edge_ratio": 0.99991640448072,
+          "max_edge_ratio": 1.00029124318034,
+          "max_pin_error_m": 3.58325678462279e-07,
+          "max_displacement_m": 0.399729788303375,
+          "max_iterations": 10,
+          "max_relative_residual": 9.81502540466101e-09,
+          "max_linear_balance_error_j": 2.71399816310143e-13,
+          "max_impulse_ns": 1.82071952011275e-05,
+          "max_delta_velocity_mps": 0.036414390402255,
+          "material_time_ms": {
+            "count": 240,
+            "max": 0.075,
+            "mean": 0.0260291666666666,
+            "p95": 0.035
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "outer_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0005,
+            "mass_kg": 0.08,
+            "pins": 96,
+            "triangles": 3456,
+            "vertices": 1824
+          },
+          "min_edge_ratio": 0.957796694603294,
+          "max_edge_ratio": 1.06229940642873,
+          "max_pin_error_m": 1.21800468377842e-07,
+          "max_displacement_m": 0.334617376327515,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "outer_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0005,
+            "mass_kg": 0.08,
+            "pins": 96,
+            "triangles": 3456,
+            "vertices": 1824
+          },
+          "min_edge_ratio": 0.93036538372199,
+          "max_edge_ratio": 1.08072873699121,
+          "max_pin_error_m": 2.98069778637e-07,
+          "max_displacement_m": 0.190147772431374,
+          "max_iterations": 129,
+          "max_relative_residual": 9.99470094707193e-09,
+          "max_linear_balance_error_j": 1.73860119009883e-11,
+          "max_impulse_ns": 8.85741107690556e-05,
+          "max_delta_velocity_mps": 2.01948972553447,
+          "material_time_ms": {
+            "count": 240,
+            "max": 9.638,
+            "mean": 6.64765,
+            "p95": 7.942
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "lining_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0007,
+            "mass_kg": 0.035,
+            "pins": 96,
+            "triangles": 2368,
+            "vertices": 1280
+          },
+          "min_edge_ratio": 0.982393405795169,
+          "max_edge_ratio": 1.02083592546027,
+          "max_pin_error_m": 2.41318588223294e-07,
+          "max_displacement_m": 0.223968774080276,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "lining_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0007,
+            "mass_kg": 0.035,
+            "pins": 96,
+            "triangles": 2368,
+            "vertices": 1280
+          },
+          "min_edge_ratio": 0.917762561595283,
+          "max_edge_ratio": 1.06153919927791,
+          "max_pin_error_m": 3.8744809671698e-07,
+          "max_displacement_m": 0.0102740852162242,
+          "max_iterations": 176,
+          "max_relative_residual": 9.99677080783134e-09,
+          "max_linear_balance_error_j": 1.09934370634557e-11,
+          "max_impulse_ns": 7.56461712952756e-05,
+          "max_delta_velocity_mps": 2.76648855022722,
+          "material_time_ms": {
+            "count": 240,
+            "max": 8.479,
+            "mean": 5.93382083333333,
+            "p95": 7.507
+          },
+          "bounded_diagnostic_pass": true
+        }
+      ]
+    },
+    {
+      "report": "jolt-120hz-1s.json",
+      "completed": true,
+      "dt_s": 0.00833333333333333,
+      "simulated_seconds": 1.0,
+      "wall_seconds": 4.348079,
+      "material_total_mean_ms": 9.904800000000002,
+      "trials": [
+        {
+          "name": "grid4_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0005,
+            "mass_kg": 0.008,
+            "pins": 8,
+            "triangles": 18,
+            "vertices": 16
+          },
+          "min_edge_ratio": 0.999557770762311,
+          "max_edge_ratio": 1.00096347177964,
+          "max_pin_error_m": 1.81586415237689e-07,
+          "max_displacement_m": 0.26581209897995,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "grid4_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0005,
+            "mass_kg": 0.008,
+            "pins": 8,
+            "triangles": 18,
+            "vertices": 16
+          },
+          "min_edge_ratio": 0.999140362425983,
+          "max_edge_ratio": 1.00290561452255,
+          "max_pin_error_m": 2.98209442917141e-07,
+          "max_displacement_m": 0.239158719778061,
+          "max_iterations": 7,
+          "max_relative_residual": 8.51513448609499e-09,
+          "max_linear_balance_error_j": 8.15269736892691e-14,
+          "max_impulse_ns": 8.37764112391964e-05,
+          "max_delta_velocity_mps": 0.167552822478393,
+          "material_time_ms": {
+            "count": 120,
+            "max": 0.065,
+            "mean": 0.0238583333333333,
+            "p95": 0.034
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "outer_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 5e-05,
+            "mass_kg": 0.08,
+            "pins": 96,
+            "triangles": 3456,
+            "vertices": 1824
+          },
+          "min_edge_ratio": 0.931092060129453,
+          "max_edge_ratio": 1.07830904736561,
+          "max_pin_error_m": 1.80359464252433e-07,
+          "max_displacement_m": 0.340012341737747,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "outer_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 5e-05,
+            "mass_kg": 0.08,
+            "pins": 96,
+            "triangles": 3456,
+            "vertices": 1824
+          },
+          "min_edge_ratio": 0.843450503742443,
+          "max_edge_ratio": 1.18840177084674,
+          "max_pin_error_m": 1.49766393064965e-07,
+          "max_displacement_m": 0.290041983127594,
+          "max_iterations": 98,
+          "max_relative_residual": 9.96989385301708e-09,
+          "max_linear_balance_error_j": 2.05150531978893e-11,
+          "max_impulse_ns": 5.41351667017751e-05,
+          "max_delta_velocity_mps": 1.23428180080047,
+          "material_time_ms": {
+            "count": 120,
+            "max": 8.493,
+            "mean": 5.319175,
+            "p95": 6.229
+          },
+          "bounded_diagnostic_pass": false
+        },
+        {
+          "name": "lining_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 7e-05,
+            "mass_kg": 0.035,
+            "pins": 96,
+            "triangles": 2368,
+            "vertices": 1280
+          },
+          "min_edge_ratio": 0.965075478852585,
+          "max_edge_ratio": 1.04514234523482,
+          "max_pin_error_m": 7.0313312505732e-08,
+          "max_displacement_m": 0.226444587111473,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "lining_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 7e-05,
+            "mass_kg": 0.035,
+            "pins": 96,
+            "triangles": 2368,
+            "vertices": 1280
+          },
+          "min_edge_ratio": 0.845862797665903,
+          "max_edge_ratio": 1.21741375073042,
+          "max_pin_error_m": 1.30118792185385e-07,
+          "max_displacement_m": 0.130227088928223,
+          "max_iterations": 130,
+          "max_relative_residual": 9.9731620076636e-09,
+          "max_linear_balance_error_j": 5.71960707962393e-12,
+          "max_impulse_ns": 2.51562789349706e-05,
+          "max_delta_velocity_mps": 0.920001058193212,
+          "material_time_ms": {
+            "count": 120,
+            "max": 6.216,
+            "mean": 4.585625,
+            "p95": 5.582
+          },
+          "bounded_diagnostic_pass": false
+        }
+      ]
+    },
+    {
+      "report": "jolt-480hz-1s.json",
+      "completed": true,
+      "dt_s": 0.00208333333333333,
+      "simulated_seconds": 1.0,
+      "wall_seconds": 14.200002,
+      "material_total_mean_ms": 4.12687291666667,
+      "trials": [
+        {
+          "name": "grid4_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0005,
+            "mass_kg": 0.008,
+            "pins": 8,
+            "triangles": 18,
+            "vertices": 16
+          },
+          "min_edge_ratio": 0.999953396620797,
+          "max_edge_ratio": 1.00009823590005,
+          "max_pin_error_m": 4.77418893751747e-07,
+          "max_displacement_m": 0.266058176755905,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "grid4_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 0.0005,
+            "mass_kg": 0.008,
+            "pins": 8,
+            "triangles": 18,
+            "vertices": 16
+          },
+          "min_edge_ratio": 0.999518261531042,
+          "max_edge_ratio": 1.00129573040403,
+          "max_pin_error_m": 5.45115767636162e-07,
+          "max_displacement_m": 0.235211610794067,
+          "max_iterations": 4,
+          "max_relative_residual": 2.32149104269438e-09,
+          "max_linear_balance_error_j": 4.10330596329003e-14,
+          "max_impulse_ns": 2.23627060685226e-05,
+          "max_delta_velocity_mps": 0.0447254121370451,
+          "material_time_ms": {
+            "count": 480,
+            "max": 5.739,
+            "mean": 0.0343125,
+            "p95": 0.03
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "outer_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 5e-05,
+            "mass_kg": 0.08,
+            "pins": 96,
+            "triangles": 3456,
+            "vertices": 1824
+          },
+          "min_edge_ratio": 0.962534485976803,
+          "max_edge_ratio": 1.04851850790958,
+          "max_pin_error_m": 2.39579890148889e-07,
+          "max_displacement_m": 0.297052443027496,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "outer_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 5e-05,
+            "mass_kg": 0.08,
+            "pins": 96,
+            "triangles": 3456,
+            "vertices": 1824
+          },
+          "min_edge_ratio": 0.976430815982207,
+          "max_edge_ratio": 1.03513666411396,
+          "max_pin_error_m": 1.2287812012346e-07,
+          "max_displacement_m": 0.273345947265625,
+          "max_iterations": 34,
+          "max_relative_residual": 9.9984178631058e-09,
+          "max_linear_balance_error_j": 9.06795146783657e-13,
+          "max_impulse_ns": 2.47894844606102e-05,
+          "max_delta_velocity_mps": 0.565200245701913,
+          "material_time_ms": {
+            "count": 480,
+            "max": 4.719,
+            "mean": 2.31092291666667,
+            "p95": 2.975
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "lining_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 7e-05,
+            "mass_kg": 0.035,
+            "pins": 96,
+            "triangles": 2368,
+            "vertices": 1280
+          },
+          "min_edge_ratio": 0.974743174015986,
+          "max_edge_ratio": 1.02306372244283,
+          "max_pin_error_m": 3.03926668721033e-07,
+          "max_displacement_m": 0.216955319046974,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "lining_implicit",
+          "fixture": {
+            "c_js_per_rad2": 2e-07,
+            "k_j_per_rad2": 7e-05,
+            "mass_kg": 0.035,
+            "pins": 96,
+            "triangles": 2368,
+            "vertices": 1280
+          },
+          "min_edge_ratio": 0.993940005622497,
+          "max_edge_ratio": 1.00691184722895,
+          "max_pin_error_m": 1.54543428720899e-07,
+          "max_displacement_m": 0.16648855805397,
+          "max_iterations": 42,
+          "max_relative_residual": 9.99996667497505e-09,
+          "max_linear_balance_error_j": 2.23715529879421e-14,
+          "max_impulse_ns": 7.20168577082073e-06,
+          "max_delta_velocity_mps": 0.263375936761444,
+          "material_time_ms": {
+            "count": 480,
+            "max": 3.24,
+            "mean": 1.81595,
+            "p95": 2.308
+          },
+          "bounded_diagnostic_pass": true
+        }
+      ]
+    },
+    {
+      "report": "official-jolt-grid-240hz-4s.json",
+      "completed": true,
+      "dt_s": 0.00416666666666667,
+      "simulated_seconds": 4.0,
+      "wall_seconds": 1.396622,
+      "material_total_mean_ms": 0,
+      "trials": [
+        {
+          "name": "official_jolt_grid10_no_bending",
+          "fixture": {
+            "c_js_per_rad2": 0.01,
+            "k_j_per_rad2": 100.0,
+            "mass_kg": 100.0,
+            "pins": 20,
+            "triangles": 162,
+            "vertices": 100
+          },
+          "min_edge_ratio": 0.990493366054239,
+          "max_edge_ratio": 1.01494282940396,
+          "max_pin_error_m": 5.45765078641125e-06,
+          "max_displacement_m": 7.06518602371216,
+          "max_iterations": 0,
+          "max_relative_residual": 0.0,
+          "max_linear_balance_error_j": 0.0,
+          "max_impulse_ns": 0.0,
+          "max_delta_velocity_mps": 0.0,
+          "material_time_ms": {
+            "count": 0,
+            "max": 0,
+            "mean": 0.0,
+            "p95": 0
+          },
+          "bounded_diagnostic_pass": true
+        },
+        {
+          "name": "official_jolt_grid10_implicit",
+          "fixture": {
+            "c_js_per_rad2": 0.01,
+            "k_j_per_rad2": 100.0,
+            "mass_kg": 100.0,
+            "pins": 20,
+            "triangles": 162,
+            "vertices": 100
+          },
+          "min_edge_ratio": 0.993248653949707,
+          "max_edge_ratio": 1.01262678715701,
+          "max_pin_error_m": 4.86280396216898e-06,
+          "max_displacement_m": 6.39464092254639,
+          "max_iterations": 8,
+          "max_relative_residual": 9.99243917182537e-09,
+          "max_linear_balance_error_j": 1.24054313488386e-07,
+          "max_impulse_ns": 2.64529640416477,
+          "max_delta_velocity_mps": 2.64529640416477,
+          "material_time_ms": {
+            "count": 960,
+            "max": 0.261,
+            "mean": 0.0616447916666668,
+            "p95": 0.09
+          },
+          "bounded_diagnostic_pass": true
+        }
+      ]
+    }
+  ],
+  "rate_comparison": [
+    {
+      "rates_hz": [
+        120,
+        240
+      ],
+      "layer": "outer_implicit",
+      "final_time_s": 1,
+      "rms_position_difference_m": 0.01827458933113455,
+      "max_position_difference_m": 0.06625976545571298,
+      "timestep_convergence_accepted": false
+    },
+    {
+      "rates_hz": [
+        120,
+        240
+      ],
+      "layer": "lining_implicit",
+      "final_time_s": 1,
+      "rms_position_difference_m": 0.00723389911355196,
+      "max_position_difference_m": 0.026792570454053307,
+      "timestep_convergence_accepted": false
+    },
+    {
+      "rates_hz": [
+        240,
+        480
+      ],
+      "layer": "outer_implicit",
+      "final_time_s": 1,
+      "rms_position_difference_m": 0.016832504889839516,
+      "max_position_difference_m": 0.07797717313336579,
+      "timestep_convergence_accepted": false
+    },
+    {
+      "rates_hz": [
+        240,
+        480
+      ],
+      "layer": "lining_implicit",
+      "final_time_s": 1,
+      "rms_position_difference_m": 0.014594438804277658,
+      "max_position_difference_m": 0.07762218356768945,
+      "timestep_convergence_accepted": false
+    }
+  ],
+  "scope_limits": [
+    "Supplied whole-tick average velocity is not actual Jolt last-substep velocity",
+    "Frozen-gradient SPD model, not full nonlinear/contact energy proof",
+    "Uniform per-hinge k is not calibrated continuum fabric",
+    "240Hz full mesh material already exceeds total 4.17ms physics-tick budget",
+    "120Hz bounded strain diagnostic fails",
+    "Outer support/appearance not accepted",
+    "No self/interlayer or body-contact test in this kernel project"
+  ],
+  "physical_acceptance": false,
+  "visual_acceptance": false,
+  "realtime_acceptance": false,
+  "installed_default": false,
+  "free_position_writes": false,
+  "impulse_caps": false,
+  "head_frozen_unchanged": true
+}

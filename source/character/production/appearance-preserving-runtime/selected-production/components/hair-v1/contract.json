@@ -1,0 +1,73 @@
+{
+  "schema": "dafeiyu.selected-production.external-component.v1",
+  "id": "selected-hair-continuous",
+  "version": "hair-v1-development-static-20261028",
+  "headLocal": true,
+  "parent": "Original head-control; unchanged Head-local identity attached once by commit",
+  "sourceGlbSha256": "8cdc482600a30d370ffe39b70a58a1674659756092dd197d19e5562fc87a0078",
+  "geometryAssetSha256": "8b1a87855163fdd3432910228c8048f925cafc8cd62a1690885f05b9115558a5",
+  "files": [
+    {
+      "path": "factory.gd",
+      "bytes": 14567,
+      "sha256": "788b157b4f9ceb628859f313cc52f64d6d22765f8b9488cd4c122e31f00b647a"
+    },
+    {
+      "path": "hair-v1.glb",
+      "bytes": 3483308,
+      "sha256": "8b1a87855163fdd3432910228c8048f925cafc8cd62a1690885f05b9115558a5"
+    },
+    {
+      "path": "rendering.json",
+      "bytes": 14054,
+      "sha256": "7ca352a4663a7046524cb3c7096ea1326458d0fbe3017e5d74b30c3dbc687e93"
+    },
+    {
+      "path": "check.gd",
+      "bytes": 8294,
+      "sha256": "21f4179b8f682d0fcb41cb2bad4156bebcd6a9bf6833c7ca2dd54ab2db521211"
+    }
+  ],
+  "originalMeshesReplaced": [
+    "left-face-framing-hair:original-pixel-surface",
+    "left-face-framing-hair:closed-thickness",
+    "left-face-framing-hair:back",
+    "right-face-framing-hair:original-pixel-surface",
+    "right-face-framing-hair:closed-thickness",
+    "right-face-framing-hair:back",
+    "central-forked-bangs:original-pixel-surface",
+    "central-forked-bangs:closed-thickness",
+    "central-forked-bangs:back",
+    "left-auxiliary-source-traced-long-curls:original-pixel-surface",
+    "left-auxiliary-source-traced-long-curls:closed-thickness",
+    "left-auxiliary-source-traced-long-curls:back",
+    "right-auxiliary-source-traced-long-curls:original-pixel-surface",
+    "right-auxiliary-source-traced-long-curls:closed-thickness",
+    "right-auxiliary-source-traced-long-curls:back"
+  ],
+  "textureOrder": [
+    "Host original cover0",
+    "Host original neutral-front1",
+    "Host original turnaround2"
+  ],
+  "texturePolicy": "Reuse already-linear RGBA16F host source_textures; host.source_material performs one V flip and does not decode twice",
+  "materialPolicy": "Actual Three SOURCE_i flags in rendering.json; long curls image1 + transparent + alphaTest .4 + depthWrite true, no standard BLEND substitution",
+  "floatColor": "No COLOR_0 present in these five geometry meshes; no lossy COLOR conversion needed",
+  "setup": "Validate all SHA/bytes, exact original resource names, actual imported canonical positions/UVs/triangle-material mapping; hidden unparented model only",
+  "commit": "Once-only Head identity attach and hide only exact 15 source resources",
+  "dispose": "Idempotent source visibility restore and own resource cleanup; never frees host textures",
+  "dynamicPhysics": false,
+  "hairPhysics": false,
+  "status": "development-static-structure",
+  "finalAccepted": false,
+  "limitations": [
+    "Three separate locks; not a Boolean union with the scalp or each other.",
+    "Long curls and their original T junctions remain unchanged.",
+    "Unknown back shape is inferred.",
+    "Front orthographic XY and source mapping retained, but altered rear occlusion requires actual GPU review.",
+    "Only conforming tessellation and connected finite side/back topology changed.",
+    "Original front interpolation changes between old vertices; cracks are filled using the original nonlinear source equations.",
+    "Original auxiliary back/side inference and other head/body defects remain.",
+    "Static Head attachment only; no inherited per-index deformer or hair physics."
+  ]
+}

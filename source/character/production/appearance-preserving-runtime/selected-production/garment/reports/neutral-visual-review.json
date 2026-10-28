@@ -1,0 +1,34 @@
+{
+  "schema": "dafeiyu.selected-garment.native-static-visual-review.v1",
+  "actualImagesViewed": true,
+  "renderWiringPass": true,
+  "visualPass": false,
+  "clothPhysicsAccepted": false,
+  "performanceAccepted": false,
+  "worldPausedBeforeInstall": true,
+  "physicalUpdates": 0,
+  "findings": [
+    "Original girl and original front apron image/colors retained.",
+    "Closed skirt depth visible at90; rear palette is inferred and hem/side transitions remain rough.",
+    "Original torso/legs/shoes still have severe side layering.",
+    "The45degree test fixture box occludes a portion of the hem; no claim of an unobstructed full check."
+  ],
+  "images": [
+    {
+      "path": "neutral-0.png",
+      "sha256": "48a85e24a08eb6c138c16411c167266d554ebbdd48bf876133c440f8d5d3c265"
+    },
+    {
+      "path": "neutral-45.png",
+      "sha256": "4e22adfbfc86983b4a4b4a363c2fd34658437925b5e2dd82ca79ee5588b805ff"
+    },
+    {
+      "path": "neutral-90.png",
+      "sha256": "dc49edb57554ce14d95762de7473b49ab21c647807a3bb1dba661be96f467301"
+    },
+    {
+      "path": "neutral-180.png",
+      "sha256": "f888bf841f75132a5b3570528668117a90b4030fa13bcafa0625fc0b3d7caeb8"
+    }
+  ]
+}

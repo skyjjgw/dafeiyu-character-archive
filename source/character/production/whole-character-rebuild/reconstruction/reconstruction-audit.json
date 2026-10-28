@@ -1,0 +1,203 @@
+{
+  "status": "real_mesh_generated_static_blockout_only",
+  "artifacts_root": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1",
+  "source_image": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-geometry\\hair-continuity-v1\\reports\\root-front.png",
+  "visible_identity_retained": [
+    "Blue hair and eyes",
+    "Maid dress/apron",
+    "Two shoes and legs",
+    "Blue whale tail"
+  ],
+  "visual_review": {
+    "front": "Recognizable chibi identity, but eyes smaller, facial features blurred and apron whale becomes a blue patch.",
+    "side": "Actual head/skull/face and body/skirt thickness; hair has a full back volume. Tail depth inferred.",
+    "back": "Full hair and back skirt reconstructed; this is model inference, not source-author ground truth.",
+    "editable_limit": "Dense single triangle surface with floating small components. Not a semantic character mesh, rig, VRM or final retopology."
+  },
+  "mesh": {
+    "vertices": 63503,
+    "triangles": 127006,
+    "extents_xyz": [
+      0.4790961742401123,
+      0.8470873534679413,
+      1.0077261328697205
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "components": [
+      {
+        "triangles": 126910,
+        "vertices": 63437,
+        "extents": [
+          0.4790961742401123,
+          0.8470873534679413,
+          1.0077261328697205
+        ]
+      },
+      {
+        "triangles": 16,
+        "vertices": 10,
+        "extents": [
+          0.00019997358322143555,
+          0.0010440945625305176,
+          0.00942450761795044
+        ]
+      },
+      {
+        "triangles": 16,
+        "vertices": 10,
+        "extents": [
+          0.0003502964973449707,
+          0.0013397932052612305,
+          0.009984135627746582
+        ]
+      },
+      {
+        "triangles": 16,
+        "vertices": 10,
+        "extents": [
+          0.0028415918350219727,
+          0.007117867469787598,
+          0.004112958908081055
+        ]
+      },
+      {
+        "triangles": 8,
+        "vertices": 6,
+        "extents": [
+          0.0008099079132080078,
+          0.00194472074508667,
+          0.007165312767028809
+        ]
+      },
+      {
+        "triangles": 8,
+        "vertices": 6,
+        "extents": [
+          0.00030547380447387695,
+          0.0008746981620788574,
+          0.002476513385772705
+        ]
+      },
+      {
+        "triangles": 8,
+        "vertices": 6,
+        "extents": [
+          0.0012478232383728027,
+          0.0011539459228515625,
+          0.003967225551605225
+        ]
+      },
+      {
+        "triangles": 8,
+        "vertices": 6,
+        "extents": [
+          0.004996657371520996,
+          0.008829236030578613,
+          0.004128754138946533
+        ]
+      },
+      {
+        "triangles": 8,
+        "vertices": 6,
+        "extents": [
+          4.8220157623291016e-05,
+          0.00018781423568725586,
+          0.0001767277717590332
+        ]
+      },
+      {
+        "triangles": 8,
+        "vertices": 6,
+        "extents": [
+          0.0005025863647460938,
+          0.001616060733795166,
+          0.0027710795402526855
+        ]
+      }
+    ],
+    "degenerate_faces_below_1e-12": 2,
+    "triangle_area_percentiles": [
+      4.440892098500626e-13,
+      5.24651753964951e-08,
+      1.862157293377315e-06,
+      1.6715346521108203e-05,
+      2.786639916779683e-05,
+      3.3312983324718725e-05,
+      3.953768746292452e-05
+    ]
+  },
+  "recommendation": "Use as whole-volume sculpt/retopology reference; manually restore canonical face/eye shape and whale apron graphic, design/audit unseen back. Do not start animation before form acceptance.",
+  "output_files": {
+    "character.glb": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\character.glb",
+      "bytes": 2541144,
+      "sha256": "1533bd23d0f5f860b7a44336abd2055d83a5308612a7ba9431aa39c523418ecd"
+    },
+    "character.ply": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\character.ply",
+      "bytes": 2667427,
+      "sha256": "6fcc20a87bd2a4cbd29f9883a2901b354848d589c37c5f034429e1671e27f279"
+    },
+    "input-official-preprocess.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\input-official-preprocess.png",
+      "bytes": 249772,
+      "sha256": "d2329e67bab64ab0eeb367af216e1eaaf9f3eb7a74b34edd3f942cfecc2087eb"
+    },
+    "render-manifest.json": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\render-manifest.json",
+      "bytes": 1789,
+      "sha256": "664575117029713bfe78ad172b6b18791c03fbe9f6a7a5daff69a4f2a332f39f"
+    },
+    "run-manifest.json": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\run-manifest.json",
+      "bytes": 2070,
+      "sha256": "a6ead3d7963a6a6a982d3831d321ab7df37c93a997e9c1cfef6a3b3b87ac995a"
+    },
+    "turntable-000.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-000.png",
+      "bytes": 522325,
+      "sha256": "1c0f2d7daee6c52dc6af239f914428dc536cf5b071533c238b9116e7e4691248"
+    },
+    "turntable-045.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-045.png",
+      "bytes": 495287,
+      "sha256": "4616ac8f3a9975277dec23601a7521eb6c358a54d4ddc039f4da2d8523545177"
+    },
+    "turntable-090.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-090.png",
+      "bytes": 444497,
+      "sha256": "0ae51e8f49af4768a1d30baaf1af12cae7b77fe005247c35a6c1a89824858ca5"
+    },
+    "turntable-135.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-135.png",
+      "bytes": 456265,
+      "sha256": "46ac1d2af3c39f0a5b7f2a9941deabb74210419a9d29c40dc212dbfb9fe2759d"
+    },
+    "turntable-180.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-180.png",
+      "bytes": 481997,
+      "sha256": "5f521b22df496961f95978693a6a9aedab57141d3f39ea696f4e3fe64daa5df3"
+    },
+    "turntable-225.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-225.png",
+      "bytes": 467533,
+      "sha256": "1d51f2df5884581d2b76ca27f13b9013a7ff32cd26f445f81b9b7f728215cd71"
+    },
+    "turntable-270.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-270.png",
+      "bytes": 450004,
+      "sha256": "83e2da26b4da97520e1f4f269731f210571e37d69b845956fd1cd750c94a0d43"
+    },
+    "turntable-315.png": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\turntable-315.png",
+      "bytes": 494966,
+      "sha256": "391b2dc07840ae70eab3332e855ce66176f03114abb0fc37a4b1ee1d1c6720c5"
+    },
+    "whole-character-static.blend": {
+      "path": "D:\\CodexTaskData\\dafeiyu-whole-model-reconstruction-20261028\\output\\canonical-front-v1\\whole-character-static.blend",
+      "bytes": 7425161,
+      "sha256": "98891b148dd838e0735dc039a0e3d6db150a38c8d8438c8d4fc96d2d50030ed2"
+    }
+  }
+}

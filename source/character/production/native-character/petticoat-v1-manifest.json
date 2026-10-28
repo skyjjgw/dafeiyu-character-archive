@@ -1,0 +1,50 @@
+{
+  "schema": "dafeiyu.native-petticoat-manifest.v1",
+  "status": "generated_contact_support_pending_actor_stress_review",
+  "blend": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\petticoat-v1.blend",
+  "json": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\petticoat-support-v1.json",
+  "blendSha256": "067420423028225f38ff9d0871cd10f124a851982a5e7420608fa7106cca60d2",
+  "jsonSha256": "ca5456100cd3f76db5b330c8cba07273bb6c881274bd3119426dd5d2d87e79f0",
+  "scriptSha256": "a482ee2e5be6012c0c24616dae0dfc39d5a895dad6f37ac7e34188576129a3b3",
+  "collection": "Petticoat_v1_EDITABLE",
+  "root": "PetticoatRoot",
+  "rootOriginNative": [
+    0.0,
+    0.0,
+    1.0999999046325684
+  ],
+  "rootOriginGodot": [
+    0.0,
+    1.0999999046325684,
+    -0.0
+  ],
+  "attachmentBone": "DEF-pelvis",
+  "garmentTopology": {
+    "vertices": 4224,
+    "faces": 4224,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0
+  },
+  "garmentVolume": 0.011906857135621871,
+  "minimumOuterCageRadialClearance": 0.005332686344849624,
+  "actualRadialScale": 0.92,
+  "minimumSampledConvexHullRadialClearance": 0.005332686344849624,
+  "panels": 64,
+  "nativeKinematicBodies": 64,
+  "nativeClothCollisionModifiers": 64,
+  "normalCheck": "Positive enclosed double-wall volume, manifold garment, consistently oriented closed convex panel hulls, actual normals PNG.",
+  "nativeAttachment": "Parent PetticoatRoot to actual body DEF-pelvis preserving its model-rest world transform; then the kinematic panel children and stiff visible garment follow its bone delta.",
+  "renders": [
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\petticoat-v1\\side.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\petticoat-v1\\threequarter.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\petticoat-v1\\underside.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\petticoat-v1\\normals-threequarter.png"
+  ],
+  "scope": "Sewn stiff petticoat contact approximation, not full multilayer tulle dynamics",
+  "limitations": [
+    "Piecewise convex contact represents sewn stiff boning and an inner skirt, not free multilayer tulle.",
+    "Small inward arc-chord filling occurs within each local convex panel; the skirt center is hollow.",
+    "Imported actual Skeleton global rest is authoritative for rebasing; do not add pelvis translation twice.",
+    "Outer garment bending, damping and collision response remain independent runtime responsibilities."
+  ]
+}

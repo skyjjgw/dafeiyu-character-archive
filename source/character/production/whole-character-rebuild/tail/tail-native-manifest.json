@@ -1,0 +1,81 @@
+{
+  "part": "tail",
+  "collection": "DAFEIYU_TAIL_NATIVE",
+  "file": "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\tail-native.blend",
+  "rawFrame": "X+front / Y+screen-right / Z+up",
+  "root": [
+    -0.025,
+    -0.06,
+    -0.16
+  ],
+  "centerline": [
+    [
+      -0.025,
+      -0.06,
+      -0.16
+    ],
+    [
+      -0.105,
+      -0.057,
+      -0.205
+    ],
+    [
+      -0.165,
+      -0.034,
+      -0.275
+    ],
+    [
+      -0.173,
+      0.027,
+      -0.319
+    ],
+    [
+      -0.153,
+      0.091,
+      -0.348
+    ],
+    [
+      -0.124,
+      0.157,
+      -0.361
+    ],
+    [
+      -0.103,
+      0.214,
+      -0.363
+    ],
+    [
+      -0.105,
+      0.249,
+      -0.369
+    ]
+  ],
+  "geometry": {
+    "vertices": 62310,
+    "faces": 62308,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "components": 1
+  },
+  "views": [
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\renders\\tail-000.png",
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\renders\\tail-045.png",
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\renders\\tail-090.png",
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\renders\\tail-180.png"
+  ],
+  "static": true,
+  "rigged": false,
+  "physics": false,
+  "cameraFacing": false,
+  "finalAccepted": false,
+  "frontBasis": "Original identity silhouette and two blue bands; asymmetric flukes retained",
+  "inferred": "Unseen back thickness, surface roundness, stem spatial bend",
+  "nativeReopenAudit": "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\native-reopen-audit.json",
+  "contextBody": "D:/CodexTaskData/dafeiyu-whole-form-20261028/body/body-native-v7.blend",
+  "contextViews": [
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\renders\\body-tail-context-000.png",
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\renders\\body-tail-context-045.png",
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\renders\\body-tail-context-090.png",
+    "D:\\CodexTaskData\\dafeiyu-whole-tail-20261028\\renders\\body-tail-context-180.png"
+  ]
+}

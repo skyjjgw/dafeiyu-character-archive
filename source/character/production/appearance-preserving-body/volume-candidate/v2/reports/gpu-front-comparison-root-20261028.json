@@ -1,0 +1,13 @@
+{
+  "schema": "dafeiyu.hollow-layered-skirt.front-gpu-comparison.v2",
+  "resolution": [
+    640,
+    704
+  ],
+  "depthGain": 0.85,
+  "rgbRMSE": 2.839180451824229,
+  "maxRGBDifference": 225,
+  "pixelsRGBDifferenceOver1": 1355,
+  "alphaSilhouetteDifference": 207,
+  "note": "Actual WebGL neutral full-character render; not final appearance or physics acceptance"
+}

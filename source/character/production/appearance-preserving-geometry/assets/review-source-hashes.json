@@ -1,0 +1,53 @@
+{
+  "schema": "dafeiyu.independent-source-review.v1",
+  "records": [
+    {
+      "name": "profile-volume.js",
+      "sourceSha256": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8",
+      "reviewSha256": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8",
+      "difference": "Only the Three import path is adapted for the independent review directory; all character equations are untouched."
+    },
+    {
+      "name": "face.js",
+      "sourceSha256": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8",
+      "reviewSha256": "1b878302137e8b3c6834b2f0e71f63711d7254254ad5d43e4c92950b0b6fd97d",
+      "difference": "Only the Three import path is adapted for the independent review directory; all character equations are untouched."
+    },
+    {
+      "name": "rear-hair.js",
+      "sourceSha256": "ce8b1430690eb356a8eab911c5cc40fd5ad98beb492f2f9cbaa4d84cab72d7d0",
+      "reviewSha256": "2ffe6eae74773e314f7237e15ad363b3cf730a9a22293e48fdb8b3d0b095d114",
+      "difference": "Only the Three import path is adapted for the independent review directory; all character equations are untouched."
+    },
+    {
+      "name": "hair.js",
+      "sourceSha256": "095319ae6f67c68d9f7935fea3d46d7a5b6f3bb88d0ee4c754aa7d2d9d87b40b",
+      "reviewSha256": "1692b1c7170f489a5c0bd70385ca04b816efd54043068b74bbd0ec52e486d56c",
+      "difference": "Only the Three import path is adapted for the independent review directory; all character equations are untouched."
+    },
+    {
+      "name": "body-full.js",
+      "sourceSha256": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723",
+      "reviewSha256": "f5e91317a06e076867e10d23cc8d9cc27607034ffcf9a5124d8e0885845d81a7",
+      "difference": "Only the Three import path is adapted for the independent review directory; all character equations are untouched."
+    },
+    {
+      "name": "performance.js",
+      "sourceSha256": "30412dbf3abb38860c73c9333bfdafbcf4f71f7a21a978fa1b49ac8715702d44",
+      "reviewSha256": "5d980c6f9047d5c626a80a323a613db3966a141d616561e6e0589f12e148f67f",
+      "difference": "Only the Three import path is adapted for the independent review directory; all character equations are untouched."
+    },
+    {
+      "name": "secondary-motion.js",
+      "sourceSha256": "afb65b07d2ff06a93be5271b12cb55536ca99c596d36187f08f3c9e752171c98",
+      "reviewSha256": "d342f877ebe45ff883edd8516f7107a578e61e10eb47f1dd74e578e152474fea",
+      "difference": "Only the Three import path is adapted for the independent review directory; all character equations are untouched."
+    },
+    {
+      "name": "character.js",
+      "sourceSha256": "f5c9383466f268f228af48ed9b33243a8aac4063417993a6c8ce18ef42812d95",
+      "reviewSha256": "623040eebff146e48512b1cbf60c845d4c4f13ca0152e867bdfaa0e912ae33fd",
+      "difference": "Only the Three import path is adapted for the independent review directory; all character equations are untouched."
+    }
+  ]
+}

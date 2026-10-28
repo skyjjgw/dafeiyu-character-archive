@@ -1,0 +1,1068 @@
+{
+  "schema": "dafeiyu.native-body.v4",
+  "status": "frozen_research_asset_not_approved_as_character_appearance",
+  "file": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v4.blend",
+  "sha256": "b2e65d8ddc520fb20d36b13a62adaf2ecf3b8ff1dd9a39d00740ffd15602a46d",
+  "sourceBase": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v4-base.blend",
+  "rigObject": "Dafeiyu BodyRig v4",
+  "rigRestSha256": "9f82955d143a7541a151582946dc18e93e6e04261782e32c9316b935172ecee8",
+  "boneRestDifferencesFromV3": [
+    {
+      "name": "DEF-thumb.01.R",
+      "previousHead": [
+        0.6200000047683716,
+        -0.015499998815357685,
+        1.0613861083984375
+      ],
+      "newHead": [
+        0.6200000047683716,
+        -0.015405997633934021,
+        1.0613861083984375
+      ],
+      "previousTail": [
+        0.5914999842643738,
+        -0.01849999837577343,
+        1.0373860597610474
+      ],
+      "newTail": [
+        0.5914999842643738,
+        -0.01840599812567234,
+        1.0373860597610474
+      ]
+    },
+    {
+      "name": "DEF-thumb.02.R",
+      "previousHead": [
+        0.5914999842643738,
+        -0.01849999837577343,
+        1.0373860597610474
+      ],
+      "newHead": [
+        0.5914999842643738,
+        -0.01840599812567234,
+        1.0373860597610474
+      ],
+      "previousTail": [
+        0.574999988079071,
+        -0.02149999886751175,
+        1.0103861093521118
+      ],
+      "newTail": [
+        0.574999988079071,
+        -0.02140599861741066,
+        1.0103861093521118
+      ]
+    },
+    {
+      "name": "DEF-thumb.03.R",
+      "previousHead": [
+        0.574999988079071,
+        -0.02149999886751175,
+        1.0103861093521118
+      ],
+      "newHead": [
+        0.574999988079071,
+        -0.02140599861741066,
+        1.0103861093521118
+      ],
+      "previousTail": [
+        0.5705000162124634,
+        -0.02449999749660492,
+        0.9841361045837402
+      ],
+      "newTail": [
+        0.5705000162124634,
+        -0.02440599724650383,
+        0.9841361045837402
+      ]
+    },
+    {
+      "name": "DEF-thumb.01.L",
+      "previousHead": [
+        -0.6200000047683716,
+        -0.015499998815357685,
+        1.0613861083984375
+      ],
+      "newHead": [
+        -0.6200000047683716,
+        -0.015405997633934021,
+        1.0613861083984375
+      ],
+      "previousTail": [
+        -0.5914999842643738,
+        -0.01849999837577343,
+        1.0373860597610474
+      ],
+      "newTail": [
+        -0.5914999842643738,
+        -0.01840599812567234,
+        1.0373860597610474
+      ]
+    },
+    {
+      "name": "DEF-thumb.02.L",
+      "previousHead": [
+        -0.5914999842643738,
+        -0.01849999837577343,
+        1.0373860597610474
+      ],
+      "newHead": [
+        -0.5914999842643738,
+        -0.01840599812567234,
+        1.0373860597610474
+      ],
+      "previousTail": [
+        -0.574999988079071,
+        -0.02149999886751175,
+        1.0103861093521118
+      ],
+      "newTail": [
+        -0.574999988079071,
+        -0.02140599861741066,
+        1.0103861093521118
+      ]
+    },
+    {
+      "name": "DEF-thumb.03.L",
+      "previousHead": [
+        -0.574999988079071,
+        -0.02149999886751175,
+        1.0103861093521118
+      ],
+      "newHead": [
+        -0.574999988079071,
+        -0.02140599861741066,
+        1.0103861093521118
+      ],
+      "previousTail": [
+        -0.5705000162124634,
+        -0.02449999749660492,
+        0.9841361045837402
+      ],
+      "newTail": [
+        -0.5705000162124634,
+        -0.02440599724650383,
+        0.9841361045837402
+      ]
+    },
+    {
+      "name": "DEF-tail.0",
+      "previousHead": [
+        0.25,
+        0.23999999463558197,
+        0.8999999761581421
+      ],
+      "newHead": [
+        0.25,
+        0.23999999463558197,
+        0.8999999761581421
+      ],
+      "previousTail": [
+        0.44999998807907104,
+        0.25999999046325684,
+        0.6800000071525574
+      ],
+      "newTail": [
+        0.41999998688697815,
+        0.46000000834465027,
+        0.8600000143051147
+      ]
+    },
+    {
+      "name": "DEF-tail.1",
+      "previousHead": [
+        0.44999998807907104,
+        0.25999999046325684,
+        0.6800000071525574
+      ],
+      "newHead": [
+        0.41999998688697815,
+        0.46000000834465027,
+        0.8600000143051147
+      ],
+      "previousTail": [
+        0.6499999761581421,
+        0.2800000011920929,
+        0.5
+      ],
+      "newTail": [
+        0.6499999761581421,
+        0.49000000953674316,
+        0.5600000023841858
+      ]
+    },
+    {
+      "name": "DEF-tail.2",
+      "previousHead": [
+        0.6499999761581421,
+        0.2800000011920929,
+        0.5
+      ],
+      "newHead": [
+        0.6499999761581421,
+        0.49000000953674316,
+        0.5600000023841858
+      ],
+      "previousTail": [
+        0.8500000238418579,
+        0.25999999046325684,
+        0.5199999809265137
+      ],
+      "newTail": [
+        0.8500000238418579,
+        0.4399999976158142,
+        0.5199999809265137
+      ]
+    },
+    {
+      "name": "DEF-tail.3",
+      "previousHead": [
+        0.8500000238418579,
+        0.25999999046325684,
+        0.5199999809265137
+      ],
+      "newHead": [
+        0.8500000238418579,
+        0.4399999976158142,
+        0.5199999809265137
+      ],
+      "previousTail": [
+        1.0499999523162842,
+        0.2199999988079071,
+        0.6000000238418579
+      ],
+      "newTail": [
+        1.0499999523162842,
+        0.3199999928474426,
+        0.6000000238418579
+      ]
+    },
+    {
+      "name": "DEF-tail.4",
+      "previousHead": [
+        1.0499999523162842,
+        0.2199999988079071,
+        0.6000000238418579
+      ],
+      "newHead": [
+        1.0499999523162842,
+        0.3199999928474426,
+        0.6000000238418579
+      ],
+      "previousTail": [
+        1.159999966621399,
+        0.20000000298023224,
+        0.6700000166893005
+      ],
+      "newTail": [
+        1.159999966621399,
+        0.2800000011920929,
+        0.6700000166893005
+      ]
+    }
+  ],
+  "sourceV2V3Unchanged": {
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v2.blend": "c31befc1fd595e5a1575c5eb4b64c704f2839e592d994aac88f835cb442bbcf4",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v3.blend": "a03fba495ee5e9f143a46bcc56abbde67bf16c72ea9de4b3e3a7999e81c36311",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body.py": "69c39d7861deaf05a64bbbc7d496861e9e803994343f687907e1fb4ac256f759",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\scripts\\build_body_v3.py": "7f809fb7a9c98369d14a03cb9886adde6651b9039fe82727a1797827a2aadac3",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\petticoat-v1.blend": "067420423028225f38ff9d0871cd10f124a851982a5e7420608fa7106cca60d2",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\petticoat-support-v1.json": "ca5456100cd3f76db5b330c8cba07273bb6c881274bd3119426dd5d2d87e79f0"
+  },
+  "baseValidation": {
+    "body_topology": {
+      "vertices": 3392,
+      "edges": 6930,
+      "faces": 3540,
+      "quads": 3240,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "control_bones": 96,
+    "deform_bones": 52,
+    "finger_bones": 30,
+    "constraints": 76,
+    "drivers": 52,
+    "cloth_modifiers": 1,
+    "rigid_contacts": 52,
+    "surface_bindings": [
+      [
+        "Apron continuous wavy flounced border",
+        true
+      ],
+      [
+        "APRON single midsurface simulation follower",
+        true
+      ],
+      [
+        "Maid skirt - 360 pleats and encircling white hem",
+        true
+      ],
+      [
+        "Whale embroidery - double tail fin",
+        true
+      ],
+      [
+        "Whale embroidery - eye",
+        true
+      ],
+      [
+        "Whale embroidery - smooth body",
+        true
+      ],
+      [
+        "Whale embroidery - waterdrop",
+        true
+      ],
+      [
+        "Whale embroidery - white belly",
+        true
+      ],
+      [
+        "White shaped apron - physical curved cloth",
+        true
+      ]
+    ],
+    "failure_records": [],
+    "deformation": {
+      "finger_grip_max_actual_skin_change": 0.12514860104547218,
+      "ik_hand_max_actual_skin_change": 0.16522721289535888,
+      "ik_constant_lengths": [
+        {
+          "bone": "DEF-upper_arm.R",
+          "rest_length": 0.3191394507884979,
+          "posed_length": 0.31913949745614045,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bone": "DEF-forearm.R",
+          "rest_length": 0.22825419902801514,
+          "posed_length": 0.2282543211619771,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "evaluated_skin_finite": true,
+      "individual_fingers": [
+        {
+          "side": "R",
+          "digit": "thumb",
+          "affected_skin_vertices": 105,
+          "max_actual_skin_displacement": 0.10966455075516114,
+          "max_segment_length_error": 2.7862077218304693e-08
+        },
+        {
+          "side": "R",
+          "digit": "index",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.10160146708513791,
+          "max_segment_length_error": 3.5672386496099495e-08
+        },
+        {
+          "side": "R",
+          "digit": "middle",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.11288463492503795,
+          "max_segment_length_error": 8.892058436793526e-09
+        },
+        {
+          "side": "R",
+          "digit": "ring",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.10507203034845633,
+          "max_segment_length_error": 1.7000598297178815e-08
+        },
+        {
+          "side": "R",
+          "digit": "little",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.08628024358214366,
+          "max_segment_length_error": 2.7597960208791683e-08
+        },
+        {
+          "side": "L",
+          "digit": "thumb",
+          "affected_skin_vertices": 105,
+          "max_actual_skin_displacement": 0.10966440744468746,
+          "max_segment_length_error": 3.158736751676661e-08
+        },
+        {
+          "side": "L",
+          "digit": "index",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.1016013089638625,
+          "max_segment_length_error": 3.5657585287229843e-09
+        },
+        {
+          "side": "L",
+          "digit": "middle",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.11288439773120078,
+          "max_segment_length_error": 1.0754703586024483e-08
+        },
+        {
+          "side": "L",
+          "digit": "ring",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.10507198381388488,
+          "max_segment_length_error": 2.2446383037000306e-08
+        },
+        {
+          "side": "L",
+          "digit": "little",
+          "affected_skin_vertices": 169,
+          "max_actual_skin_displacement": 0.08628038390577368,
+          "max_segment_length_error": 2.7597960208791683e-08
+        }
+      ],
+      "thumb_opposition_actual_skin_displacement": 0.07261746353511009,
+      "fk_switch_actual_skin_displacement": 0.15753695147769636,
+      "footroll_actual_skin_displacement": 0.03597795745708324
+    },
+    "neutral_shoe_soles_world_z": {
+      "Rounded mary-jane shoe.L": -9.499496513853956e-07,
+      "Rounded mary-jane shoe.R": -1.0310419611414545e-06
+    },
+    "neutral_joint_roll_angles": {
+      "DEF-forearm.R": 0.00345267029479146,
+      "DEF-shin.R": 0.013549280352890491,
+      "DEF-forearm.L": 0.0035210466012358665,
+      "DEF-shin.L": 0.013549280352890491
+    },
+    "cloth_three_frame_observation": {
+      "frames": [
+        1,
+        2,
+        3
+      ],
+      "evaluated_vertices": 1216,
+      "max_vertex_change": 0.05363441185066889,
+      "finite": true,
+      "baked": false,
+      "collision_acceptance": false
+    },
+    "cloth_settings": {
+      "pin_group": "Waist_PIN",
+      "vertices": 1216,
+      "self_collision": true,
+      "high_solidify": true,
+      "simulation_baked": false
+    }
+  },
+  "baseGeometryAudit": {
+    "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v4-base.blend",
+    "raw": {
+      "vertices": 3392,
+      "triangles": 6780,
+      "badNormalTriangles": 4,
+      "bad": [
+        {
+          "poly": 826,
+          "vertices": [
+            838,
+            837,
+            795
+          ],
+          "center": [
+            0.6524051427841187,
+            -0.02138933353126049,
+            1.0090134143829346
+          ],
+          "dot": -0.16450561583042145,
+          "area": 3.767793695744015e-05
+        },
+        {
+          "poly": 1372,
+          "vertices": [
+            1339,
+            1350,
+            826
+          ],
+          "center": [
+            0.7290255427360535,
+            -0.009273331612348557,
+            1.010033369064331
+          ],
+          "dot": -0.20379193872213364,
+          "area": 2.33237625354675e-05
+        },
+        {
+          "poly": 2400,
+          "vertices": [
+            2285,
+            2323,
+            2322
+          ],
+          "center": [
+            -0.6524051427841187,
+            -0.02138933353126049,
+            1.0090134143829346
+          ],
+          "dot": -0.16449860110878944,
+          "area": 3.767793474748026e-05
+        },
+        {
+          "poly": 2946,
+          "vertices": [
+            2316,
+            2836,
+            2835
+          ],
+          "center": [
+            -0.7290255427360535,
+            -0.009273333474993706,
+            1.0100334882736206
+          ],
+          "dot": -0.20379674062132835,
+          "area": 2.33237625354675e-05
+        }
+      ],
+      "volume": 0.2745661348145835,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "sharedEdgeSameDirection": 0
+    },
+    "rest": {
+      "vertices": 13862,
+      "triangles": 27720,
+      "badNormalTriangles": 0,
+      "bad": [],
+      "volume": 0.2715537424124508,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "sharedEdgeSameDirection": 0
+    },
+    "embroideryRest": {
+      "vertices": 362,
+      "triangles": 720,
+      "badNormalTriangles": 0,
+      "bad": [],
+      "volume": 5.094140499102888e-06,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "sharedEdgeSameDirection": 0
+    },
+    "rawPalmOrientation": {
+      "R": {
+        "frontFaceNormalY": [
+          -0.8312407732009888,
+          -0.8975743055343628,
+          -0.9329655170440674,
+          -0.9545843601226807,
+          -0.968526303768158,
+          -0.9776678085327148,
+          -0.9835605025291443,
+          -0.987088680267334,
+          -0.9887425303459167,
+          -0.9887425303459167,
+          -0.987088680267334,
+          -0.9835605025291443,
+          -0.9776678085327148,
+          -0.968526303768158,
+          -0.9545843601226807,
+          -0.9329655170440674,
+          -0.8975743055343628,
+          -0.8312407732009888,
+          -0.9495360255241394,
+          -0.9746043682098389,
+          -0.9854596257209778,
+          -0.9913476705551147,
+          -0.9948917031288147,
+          -0.997128427028656,
+          -0.9985431432723999,
+          -0.9993835091590881,
+          -0.9997764825820923,
+          -0.9997764825820923,
+          -0.9993835091590881,
+          -0.9985431432723999,
+          -0.997128427028656,
+          -0.9948917031288147,
+          -0.9913476705551147,
+          -0.9854596257209778,
+          -0.9746043682098389,
+          -0.9495360255241394,
+          -0.9668447375297546,
+          -0.9778326749801636,
+          -0.9818029999732971,
+          -0.9836837649345398,
+          -0.9847140312194824,
+          -0.9853271245956421,
+          -0.9857036471366882,
+          -0.9859243631362915,
+          -0.9860272407531738,
+          -0.9860272407531738,
+          -0.9859243631362915,
+          -0.9857036471366882,
+          -0.9853271245956421,
+          -0.9847140312194824,
+          -0.9836837649345398,
+          -0.9818029999732971,
+          -0.9778326749801636,
+          -0.9668447375297546,
+          -0.9327875375747681,
+          -0.9327875375747681
+        ],
+        "backFaceNormalY": [
+          0.8840572237968445,
+          0.940129816532135,
+          0.9673161506652832,
+          0.9821315407752991,
+          0.990516185760498,
+          0.9952830672264099,
+          0.9979393482208252,
+          0.99933260679245,
+          0.9999260902404785,
+          0.9999260902404785,
+          0.99933260679245,
+          0.9979393482208252,
+          0.9952830672264099,
+          0.990516185760498,
+          0.9821315407752991,
+          0.9673161506652832,
+          0.940129816532135,
+          0.8840572237968445,
+          0.9769530296325684,
+          0.9889779686927795,
+          0.9939523339271545,
+          0.9965385794639587,
+          0.9980319738388062,
+          0.9989386200904846,
+          0.9994929432868958,
+          0.999813973903656,
+          0.9999616146087646,
+          0.9999616146087646,
+          0.999813973903656,
+          0.9994929432868958,
+          0.9989386200904846,
+          0.9980319738388062,
+          0.9965385794639587,
+          0.9939523339271545,
+          0.9889779686927795,
+          0.9769530296325684,
+          0.9870468974113464,
+          0.9914290904998779,
+          0.9929904937744141,
+          0.9937260150909424,
+          0.9941278100013733,
+          0.9943666458129883,
+          0.9945130944252014,
+          0.9945989847183228,
+          0.994638979434967,
+          0.994638979434967,
+          0.9945989847183228,
+          0.9945130944252014,
+          0.9943666458129883,
+          0.9941278100013733,
+          0.9937260150909424,
+          0.9929904937744141,
+          0.9914290904998779,
+          0.9870468974113464,
+          0.972874641418457,
+          0.972874641418457
+        ],
+        "expectedFrontNegativeY": true,
+        "frontOutwardCount": 56,
+        "frontInwardCount": 0,
+        "backOutwardCount": 56,
+        "backInwardCount": 0
+      },
+      "L": {
+        "frontFaceNormalY": [
+          -0.8312407732009888,
+          -0.8975743055343628,
+          -0.9329655170440674,
+          -0.9545843601226807,
+          -0.968526303768158,
+          -0.9776678085327148,
+          -0.9835605025291443,
+          -0.987088680267334,
+          -0.9887425303459167,
+          -0.9887425303459167,
+          -0.987088680267334,
+          -0.9835605025291443,
+          -0.9776678085327148,
+          -0.968526303768158,
+          -0.9545843601226807,
+          -0.9329655170440674,
+          -0.8975743055343628,
+          -0.8312407732009888,
+          -0.9495360255241394,
+          -0.9746043682098389,
+          -0.9854596257209778,
+          -0.9913476705551147,
+          -0.9948917031288147,
+          -0.997128427028656,
+          -0.9985431432723999,
+          -0.9993835091590881,
+          -0.9997764825820923,
+          -0.9997764825820923,
+          -0.9993835091590881,
+          -0.9985431432723999,
+          -0.997128427028656,
+          -0.9948917031288147,
+          -0.9913476705551147,
+          -0.9854596257209778,
+          -0.9746043682098389,
+          -0.9495360255241394,
+          -0.9668447375297546,
+          -0.9778326749801636,
+          -0.9818029999732971,
+          -0.9836837649345398,
+          -0.9847140312194824,
+          -0.9853271245956421,
+          -0.9857036471366882,
+          -0.9859243631362915,
+          -0.9860272407531738,
+          -0.9860272407531738,
+          -0.9859243631362915,
+          -0.9857036471366882,
+          -0.9853271245956421,
+          -0.9847140312194824,
+          -0.9836837649345398,
+          -0.9818029999732971,
+          -0.9778326749801636,
+          -0.9668447375297546,
+          -0.9327875375747681,
+          -0.9327875375747681
+        ],
+        "backFaceNormalY": [
+          0.8840572237968445,
+          0.940129816532135,
+          0.9673161506652832,
+          0.9821315407752991,
+          0.990516185760498,
+          0.9952830672264099,
+          0.9979393482208252,
+          0.99933260679245,
+          0.9999260902404785,
+          0.9999260902404785,
+          0.99933260679245,
+          0.9979393482208252,
+          0.9952830672264099,
+          0.990516185760498,
+          0.9821315407752991,
+          0.9673161506652832,
+          0.940129816532135,
+          0.8840572237968445,
+          0.9769530296325684,
+          0.9889779686927795,
+          0.9939523339271545,
+          0.9965385794639587,
+          0.9980319738388062,
+          0.9989386200904846,
+          0.9994929432868958,
+          0.999813973903656,
+          0.9999616146087646,
+          0.9999616146087646,
+          0.999813973903656,
+          0.9994929432868958,
+          0.9989386200904846,
+          0.9980319738388062,
+          0.9965385794639587,
+          0.9939523339271545,
+          0.9889779686927795,
+          0.9769530296325684,
+          0.9870468974113464,
+          0.9914290904998779,
+          0.9929904937744141,
+          0.9937260150909424,
+          0.9941278100013733,
+          0.9943666458129883,
+          0.9945130944252014,
+          0.9945989847183228,
+          0.994638979434967,
+          0.994638979434967,
+          0.9945989847183228,
+          0.9945130944252014,
+          0.9943666458129883,
+          0.9941278100013733,
+          0.9937260150909424,
+          0.9929904937744141,
+          0.9914290904998779,
+          0.9870468974113464,
+          0.972874641418457,
+          0.972874641418457
+        ],
+        "expectedFrontNegativeY": true,
+        "frontOutwardCount": 56,
+        "frontInwardCount": 0,
+        "backOutwardCount": 56,
+        "backInwardCount": 0
+      }
+    },
+    "wave": {
+      "vertices": 13862,
+      "triangles": 27720,
+      "badNormalTriangles": 0,
+      "bad": [],
+      "volume": 0.27215679338051846,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "sharedEdgeSameDirection": 0
+    },
+    "poseDeterminants": {
+      "DEF-hand.L": 1.0000008344650269,
+      "DEF-hand.R": 1.0000007152557373,
+      "DEF-forearm.L": 1.0000009536743164,
+      "DEF-forearm.R": 1.0000007152557373
+    }
+  },
+  "outlet": {
+    "cageVertices": 1296,
+    "cageTriangles": 2432,
+    "petticoatMidVertices": 1296,
+    "portalBoundary": [
+      1262,
+      1263,
+      1264,
+      1265,
+      1266,
+      1267,
+      1268,
+      1269,
+      1270,
+      1271,
+      1272,
+      1273,
+      1274,
+      1275,
+      1276,
+      1277,
+      1278,
+      1279,
+      1280,
+      1281,
+      1282,
+      1283,
+      1284,
+      1285,
+      1286,
+      1287,
+      1288,
+      1289,
+      1290,
+      1291,
+      1292,
+      1293,
+      1294,
+      1295
+    ],
+    "actualRestOverlaps": {
+      "V4 flexible tail portal inner facing": 0,
+      "V4 petticoat same routed tail outlet": 0,
+      "V4 outer aperture folded two sided binding": 0,
+      "V4 inner aperture folded binding": 0
+    },
+    "bindingWidth": 0.018,
+    "facingConstruction": "Uncapped annular facing sleeve from the outer aperture through the petticoat opening to an open elastic collar around the actual tail root; follows the physical outer cloth cage, not a static rest overlay.",
+    "stitchRows": 2,
+    "stitchesPhysicallyIndependentlySimulated": false
+  },
+  "runtimeSources": {
+    "cage": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\skirt-physics-cage-v4.json",
+    "petticoat": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\petticoat-support-v2.json",
+    "glb": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\body-v4-bind.glb",
+    "renderBinding": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\cloth-render-bind-v4.json",
+    "glbSha256": "7aff189b8e7033a7b0e2d2d62d19d371e335d03e244d02abee98a71bbab72727",
+    "glbBytes": 13435816
+  },
+  "contacts": {
+    "petticoatPanels": 335,
+    "source": "actual surviving near-portal triangles, never a convex hull across the opening",
+    "minimumPanelTailSampleClearance": 0.00576695054769516
+  },
+  "wristLocalJointLimitsRadians": {
+    "x": [
+      -1.15,
+      1.15
+    ],
+    "y": [
+      -0.35,
+      0.35
+    ],
+    "z": [
+      -0.75,
+      0.75
+    ]
+  },
+  "soleOffsets": {
+    "R": {
+      "hand_ik": "CTRL-hand_ik.R",
+      "elbow_pole": "CTRL-elbow_pole.R",
+      "foot_ik": "CTRL-foot_ik.R",
+      "knee_pole": "CTRL-knee_pole.R",
+      "ik_fk_property": "ik_fk; 1=IK, 0=FK, stored on each hand/foot IK control",
+      "arm_fk": [
+        "FK-upper_arm.R",
+        "FK-forearm.R",
+        "FK-hand.R"
+      ],
+      "leg_fk": [
+        "FK-thigh.R",
+        "FK-shin.R",
+        "FK-foot.R"
+      ],
+      "foot_roll_properties": [
+        "heel_roll",
+        "toe_roll",
+        "ball_roll",
+        "bank"
+      ],
+      "finger_control": "CTRL-fingers.R",
+      "finger_properties": [
+        "grip",
+        "thumb_opposition",
+        "thumb_curl",
+        "index_curl",
+        "middle_curl",
+        "ring_curl",
+        "little_curl"
+      ],
+      "finger_property_range": [
+        0,
+        1
+      ],
+      "palm_reference_local_to_hand_control": [
+        0.0,
+        0.060000061988830566,
+        0.0
+      ],
+      "sole_reference_local_to_foot_control": [
+        8.641373483442294e-08,
+        0.18838545680046082,
+        0.06552619487047195
+      ],
+      "neutral_sole_world": [
+        0.2470000982284546,
+        -0.11909130960702896,
+        0.0
+      ]
+    },
+    "L": {
+      "hand_ik": "CTRL-hand_ik.L",
+      "elbow_pole": "CTRL-elbow_pole.L",
+      "foot_ik": "CTRL-foot_ik.L",
+      "knee_pole": "CTRL-knee_pole.L",
+      "ik_fk_property": "ik_fk; 1=IK, 0=FK, stored on each hand/foot IK control",
+      "arm_fk": [
+        "FK-upper_arm.L",
+        "FK-forearm.L",
+        "FK-hand.L"
+      ],
+      "leg_fk": [
+        "FK-thigh.L",
+        "FK-shin.L",
+        "FK-foot.L"
+      ],
+      "foot_roll_properties": [
+        "heel_roll",
+        "toe_roll",
+        "ball_roll",
+        "bank"
+      ],
+      "finger_control": "CTRL-fingers.L",
+      "finger_properties": [
+        "grip",
+        "thumb_opposition",
+        "thumb_curl",
+        "index_curl",
+        "middle_curl",
+        "ring_curl",
+        "little_curl"
+      ],
+      "finger_property_range": [
+        0,
+        1
+      ],
+      "palm_reference_local_to_hand_control": [
+        0.0,
+        0.060000061988830566,
+        0.0
+      ],
+      "sole_reference_local_to_foot_control": [
+        -1.5200484426713956e-07,
+        0.18838544189929962,
+        0.06552619487047195
+      ],
+      "neutral_sole_world": [
+        -0.24700012803077698,
+        -0.11909130960702896,
+        0.0
+      ]
+    }
+  },
+  "tailShapeAndColor": {
+    "v3_defect": "Unified v3 fork used only one navy material; a ventral surface was not assigned.",
+    "v4_change": "Both lobe tips softened through newly sampled curved boundary, shared base retained, increased biconvex volume; true voxel regularization and mesh smoothing remove Boolean slivers and cap ridges.",
+    "dorsalLinearColor": [
+      0.035,
+      0.043,
+      0.08
+    ],
+    "ventralLinearColor": [
+      0.085,
+      0.12,
+      0.2
+    ],
+    "materialFaceCounts": {
+      "dorsal": 10731,
+      "ventral": 8537
+    },
+    "flukeDepthY": 0.11918613314628601,
+    "beforeRemesh": {
+      "vertices": 5053,
+      "edges": 14214,
+      "faces": 9163,
+      "quads": 802,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "afterRemesh": {
+      "vertices": 19270,
+      "edges": 38536,
+      "faces": 19268,
+      "quads": 19268,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "positiveVolume": 0.02910509107166662,
+    "minimumActualMeshEdge": 0.0011338309850543737,
+    "reference": "references/user/tail-color-reference-v5.png used for palette only, not new costume or anatomy identity"
+  },
+  "limitations": [
+    "Native body has no face/hair; Head contract unchanged at (0,0,2.155).",
+    "Rendering and cloth/contact structure are not reference-quality artistic approval.",
+    "No old v2/v3 action, grip or foot lock is certified for v4.",
+    "Stitches/facing follow real cloth deformation but thread and multilayer fabric are not independently simulated.",
+    "Tail and cloth must be stress-tested together in runtime-next; rest clearance is not dynamic contact acceptance."
+  ],
+  "preparedRuntimeRenderSkinAudit": {
+    "rest": {
+      "vertices": 13862,
+      "badNormalTriangles": 0,
+      "bad": []
+    },
+    "wave": {
+      "vertices": 13862,
+      "badNormalTriangles": 0,
+      "bad": []
+    },
+    "scope": "Actual subdivided render vertices and interpolated skin weights that are sent to glTF; native joint limits are enforced."
+  },
+  "appearanceDecision": {
+    "directive": "Stop native art upgrade and v8 promotion; preserve technical research files.",
+    "authoritativeAppearanceBaseline": "http://127.0.0.1:4348/character-preview.html",
+    "currentNativeV2V3V4AcceptedAsFinalAppearance": false,
+    "furtherArtWorkPerformedAfterFreeze": false
+  }
+}

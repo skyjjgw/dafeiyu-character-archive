@@ -1,0 +1,88 @@
+{
+  "schema": "dafeiyu.continuous-headband.actual-visual-review.v1",
+  "date": "2026-10-28",
+  "status": "Rejected; research frozen after local color repairs. No default or native integration.",
+  "visualPass": false,
+  "finalQuality": false,
+  "nativeIntegration": false,
+  "actualEvidence": [
+    {
+      "revision": "initial palette accumulator bug",
+      "observer": "Root CUA actual WebGL; geometry agent view_image actual screenshots",
+      "screenshots": [
+        "cua-headband-front-20261028.png",
+        "cua-headband-left90-20261028.png"
+      ],
+      "findings": [
+        "Original girl face and hair remain, but bright white headpiece loses source grey detail and changes headpiece identity.",
+        "90 degree side remains a broad straight white plate with fine dark defects."
+      ],
+      "rootMeasuredFront": {
+        "rgbRMSEApprox": 22.243,
+        "pixelsRGBDifferenceOver1": 13344,
+        "alphaSilhouetteDifference": 232
+      }
+    },
+    {
+      "revision": "palette-zero-init-and-both-side-source-paint",
+      "observer": "Root CUA actual WebGL",
+      "screenshots": [
+        "cua-headband-colorfix-front-20261028.png",
+        "cua-headband-colorfix-left90-20261028.png"
+      ],
+      "findings": [
+        "Fixing THREE.Color white initialization and painting both actual visible cloth surfaces restores original white-grey drawing detail.",
+        "Side still fails: broad band shape, blue/dark regions that may be source UV hair pollution or actual geometric/hair intersection. Pending same-geometry solid diagnostic."
+      ]
+    },
+    {
+      "revision": "same-geometry solid-palette diagnostic",
+      "observer": "Root CUA actual WebGL; geometry agent view_image actual screenshots",
+      "screenshots": [
+        "cua-headband-solid-left90-20261028.png",
+        "cua-headband-solid-isolated-left90-20261028.png"
+      ],
+      "findings": [
+        "Blue/dark apparent holes disappear when source paint is disabled on the identical opaque geometry. That reviewed frame primarily had neighbouring source-hair color contamination, not literal open holes.",
+        "Isolated actual geometry remains a broad straight vertical strip. It is not an acceptable fitted cloth headband."
+      ]
+    },
+    {
+      "revision": "palette-and-both-sides-fixed-safe-cloth-color-reconstruction",
+      "observer": "Root CUA actual WebGL; geometry agent view_image actual screenshot",
+      "screenshots": [
+        "cua-headband-paintfix-left90-20261028.png"
+      ],
+      "findings": [
+        "Smoothly rebuilding high-chroma non-cloth samples with the original arch white-grey palette reduces blue contamination in this actual non-diagnostic frame.",
+        "Unnatural dark-grey blocks and a broad straight strip remain. This local paint improvement does not pass overall visual quality or the known 4108 strict self crossings."
+      ]
+    }
+  ],
+  "numericalBoundary": {
+    "conformingManifold": true,
+    "oneCanonicalComponent": true,
+    "strictCrossingDiagnostic": "reports/strict-crossing-diagnostic.json",
+    "strictNonAdjacentCrossingPairs": 4108,
+    "physicalQualityPassed": false,
+    "note": "Watertight indexed topology is insufficient. This candidate has transverse self intersections under the limited diagnostic; no collision/cloth quality pass.",
+    "crossingCategories": {
+      "top / underside": 624,
+      "rim / top": 229,
+      "underside / underside": 1889,
+      "rim / underside": 1267,
+      "rim / rim": 5,
+      "top / top": 94
+    },
+    "positionSha256": "0368437625aeb56922a72853ec61cbae3f8fe9f10de19fbef5953cc963835973",
+    "indexSha256": "6b2b03914c42f81503478eee26deca8f6c81ad7cd884fa2798825cbe908e6f5d"
+  },
+  "nextRequired": [
+    "Rebuild actual cloth trajectory using source scalp curvature and original frontal headpiece identity rather than a linear cross-depth strip.",
+    "Use an explicit boundary parameterization with finite-radius attachment; remove top/top crossings before generating physical thickness.",
+    "Replace average-normal thickness extrusion at tiny/concave source triangles; strict crossing diagnosis must pass before claiming physical structure quality.",
+    "Keep only trustworthy white-grey source cloth paint; infer unobserved regions from original palette and label them.",
+    "Re-run actual source/candidate front and all-angle review before any default/native integration."
+  ],
+  "finalCodeSha256": "10ed41fe39956cc62ad7eedc2be395230a95a73d0341964be347a615dc184ffb"
+}

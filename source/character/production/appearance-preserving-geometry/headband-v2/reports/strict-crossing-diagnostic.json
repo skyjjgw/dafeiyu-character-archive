@@ -1,0 +1,17 @@
+{
+  "surfaceOnly": false,
+  "positionSha256": "948e1fd6f39bae181b6066651f903916ae7e43d808ddd666e32c495e2adb0d5c",
+  "indexSha256": "4c045b1e6e2b758af64ccb9726032e6aae9ce1c4a8cce7a0ba120dfcb057edab",
+  "thickness": 0.003,
+  "crossingCategories": {},
+  "schema": "dafeiyu.continuous-headband.scalp-ribbon.strict-crossing-diagnostic.v2",
+  "candidateRevision": "dafeiyu.scalp-ribbon-headband.v2",
+  "triangles": 31808,
+  "testedPairs": 96900,
+  "broadPhasePairs": 2200799,
+  "strictNonAdjacentCrossingPairs": 0,
+  "firstHits": [],
+  "scope": "Transverse noncoplanar segment/triangle crossings with barycentric margin 1e-6; shared-vertex pairs and coplanar contacts excluded. Not complete self-intersection/collision certification.",
+  "passed": true,
+  "visualPass": false
+}

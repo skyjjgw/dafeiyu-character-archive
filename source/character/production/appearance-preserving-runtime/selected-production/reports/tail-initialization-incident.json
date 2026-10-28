@@ -1,0 +1,21 @@
+{
+  "schema": "dafeiyu.selected-tail-initialization-fix.v1",
+  "rejectedInitialState": {
+    "nodeAnchorY": 0.43505,
+    "serverAnchorYBeforeFirstPhysics": 0,
+    "maximumJointGapM": 0.259330689907074,
+    "maximumRenderGapM": 0.27831044793129,
+    "maximumAngularSpeedRadS": 47.123893737793,
+    "accepted": false
+  },
+  "cause": "Animatable boundary entered the tree at its default transform; Node transform changed afterwards while the server transform used to build initial constraints remained at the origin. A later body_set_state alone did not repair that initial constraint creation timing.",
+  "fix": "Set the kinematic boundary transform before add_child/enter-tree and construct joints only in that correct initial server frame. Never reposition free rigid bodies to conceal the failed startup.",
+  "followup": {
+    "sameTimePostSolverGapM": 0.000152792665176094,
+    "renderCurrentBoundaryVersusLastSolvedBodyGapM": 0.00116172234993428,
+    "tailPhysicalCheck": "tail-check.json",
+    "allTenChecksPass": true
+  },
+  "measurementCorrection": "Measure joint endpoints before submitting this tick's new pelvis target so both are at the same last-solved time; render one-tick lag is reported separately.",
+  "headlessProbeCorrection": "Dummy rendering cannot register a GPU skin. Headless tail vertex checks now use actual ArrayMesh bone/weight arrays, Skin inverse binds and solved Skeleton3D matrices; actual GPU capture separately uses skin bake after frame_post_draw."
+}

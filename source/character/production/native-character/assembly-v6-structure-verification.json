@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "scope": "Read-only structural multi-angle/deformation checks; no claim of gait physics, contact, artistic likeness or final quality",
+  "source": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\dafeiyu-native-v6-study.blend",
+  "sourceSha256": "96452f1e0f58b3650b98d5c5dfed73db6cc48f4f30c570023dcc60584c6227c6",
+  "poses": [
+    {
+      "bodyYaw": 0,
+      "headYaw": 0,
+      "blink": 0,
+      "aa": 0,
+      "evaluatedMeshes": 85,
+      "evaluatedVertices": 201953
+    },
+    {
+      "bodyYaw": 0,
+      "headYaw": 0.45,
+      "blink": 0.5,
+      "aa": 0.4,
+      "evaluatedMeshes": 85,
+      "evaluatedVertices": 201953
+    },
+    {
+      "bodyYaw": 0,
+      "headYaw": -0.45,
+      "blink": 1,
+      "aa": 0.3,
+      "evaluatedMeshes": 85,
+      "evaluatedVertices": 201953
+    },
+    {
+      "bodyYaw": 0,
+      "headYaw": 1.5707963267948966,
+      "blink": 0,
+      "aa": 0,
+      "evaluatedMeshes": 85,
+      "evaluatedVertices": 201953
+    },
+    {
+      "bodyYaw": 0,
+      "headYaw": -1.5707963267948966,
+      "blink": 0.5,
+      "aa": 0.5,
+      "evaluatedMeshes": 85,
+      "evaluatedVertices": 201953
+    },
+    {
+      "bodyYaw": 1.5707963267948966,
+      "headYaw": 0,
+      "blink": 0.3,
+      "aa": 0,
+      "evaluatedMeshes": 85,
+      "evaluatedVertices": 201953
+    },
+    {
+      "bodyYaw": 3.141592653589793,
+      "headYaw": 0,
+      "blink": 0,
+      "aa": 0.2,
+      "evaluatedMeshes": 85,
+      "evaluatedVertices": 201953
+    }
+  ],
+  "maximumHeadAttachmentMatrixError": 0.0,
+  "maximumDeformBoneLengthError": 8.639659986597881e-07
+}

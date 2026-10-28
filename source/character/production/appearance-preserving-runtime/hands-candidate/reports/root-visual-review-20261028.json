@@ -1,0 +1,21 @@
+{
+  "schema": "dafeiyu.selected-hands-root-visual-review.v1",
+  "observer": "Root actually viewed the native whole-character greeting and 45/90-degree isolated hand diagnostic captures",
+  "evidence": [
+    "native-full-greeting.png",
+    "native-hand-wave-curl055-view45.png",
+    "native-hand-wave-curl055-view90.png"
+  ],
+  "limited_pose_improvement": true,
+  "selected_character_identity_retained": true,
+  "final_quality": false,
+  "grasp_pass": false,
+  "physics_pass": false,
+  "promoted_to_default": false,
+  "findings": [
+    "The target-directed raised palm reads more plausibly as a greeting than the earlier downward or horizontal hand pose.",
+    "The whole-character image retains the selected girl's identity.",
+    "Isolated hand views still have flat unlit shading and local wrist contour folds; material and structural refinement remain incomplete."
+  ],
+  "ui_scope": "Only hands-candidate scene text states that independent finger joints are connected; grasp and hair/skirt physics remain pending. Default motion/controller files are unchanged."
+}

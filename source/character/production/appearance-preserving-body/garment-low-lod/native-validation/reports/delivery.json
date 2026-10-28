@@ -1,0 +1,125 @@
+{
+  "status": "bounded-cpu-native-integration-diagnostic-pass-not-default",
+  "mass_calibration_pass": true,
+  "hz": 240,
+  "durations_s": [
+    1,
+    4
+  ],
+  "numerical_diagnostic_pass": true,
+  "material_step_budget_pass": true,
+  "full_frame_realtime_established": false,
+  "physical_acceptance": false,
+  "visual_acceptance": false,
+  "collision_acceptance": false,
+  "current_connected": false,
+  "frozen_kernel_source_modified": false,
+  "new_solver_created": false,
+  "files": [
+    {
+      "path": "LICENSE-GODOT-CPP.md",
+      "bytes": 1093,
+      "sha256": "26a5b210d90760156ce886267ce9df235787dcc6cebfd7ecd95ef5b6fdcc95bf"
+    },
+    {
+      "path": "LICENSE-JOLT",
+      "bytes": 1052,
+      "sha256": "800abe35d64ad9defd636ff1ee8c961e06f0ebca3ef8d10083e8aa0e8ef86ac3"
+    },
+    {
+      "path": "project/bin/LICENSE-GODOT-CPP.md",
+      "bytes": 1093,
+      "sha256": "26a5b210d90760156ce886267ce9df235787dcc6cebfd7ecd95ef5b6fdcc95bf"
+    },
+    {
+      "path": "project/bin/selected_implicit_cloth.windows.release.x86_64.dll",
+      "bytes": 387584,
+      "sha256": "8e8c9948916acd9cbd5af2833d752351b6aa7c7c7015633e3cd66bd3b1ee33f3"
+    },
+    {
+      "path": "project/impulse_probe.gd",
+      "bytes": 2091,
+      "sha256": "5004a7612fef1f9303243b78c914c91411c200ed3334f781537336f941d064fb"
+    },
+    {
+      "path": "project/jolt_probe.gd",
+      "bytes": 10066,
+      "sha256": "ea04b770c38318bdaf1eb76981d59b5e72e9949cf1929627246996884e59703b"
+    },
+    {
+      "path": "project/mass_probe.gd",
+      "bytes": 4262,
+      "sha256": "7eca1bf600ad2975e20a8ab93d2705aede48c9589c1f52c09a6839c175f0015a"
+    },
+    {
+      "path": "project/probe_data.gd",
+      "bytes": 2729,
+      "sha256": "7e825665c7505fdd658c88076acd1c1e503b872a89747e262ee85e98aef17864"
+    },
+    {
+      "path": "project/project.godot",
+      "bytes": 328,
+      "sha256": "1c35ad21f3f61b6f15f63c8fbb090ca63fda52f9a13435be90b58148aab797de"
+    },
+    {
+      "path": "project/selected_implicit_cloth.gdextension",
+      "bytes": 197,
+      "sha256": "53e1731675dde72df9b3208689faba4d0f423bd0d20288f80e9f75fd0c5acae7"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 5677,
+      "sha256": "021f29065cd3cd95f4454c20d7e6c7bbdb966b9a339b69687d753c38ee9ef45e"
+    },
+    {
+      "path": "reports/environment.json",
+      "bytes": 368,
+      "sha256": "da6493e5088ea0a3b425e63fb1117d2dc0ae2e2ecca246130b5450b4555506e9"
+    },
+    {
+      "path": "reports/impulse-calibration.json",
+      "bytes": 615,
+      "sha256": "31cdfcb202d2ef3d52fabd4ccf2039d44972388760a1d6fcbc973cd21cbeaf6a"
+    },
+    {
+      "path": "reports/lod-jolt-240hz-1s.json",
+      "bytes": 557010,
+      "sha256": "906f5a95490ced4fee7588026441eecc5f0297eb2fe00aec62fcd61a07dc6a3e"
+    },
+    {
+      "path": "reports/lod-jolt-240hz-1s.stdout.txt",
+      "bytes": 555,
+      "sha256": "200983e8bed583046c538b7a9b9a06731d55c213658dfcc3b5e83309b83cf2de"
+    },
+    {
+      "path": "reports/lod-jolt-240hz-4s.json",
+      "bytes": 1782281,
+      "sha256": "f0b1a64e797267cc74d8d01f920e09d4815e8bb1d60929b3d928c4b8e6db1770"
+    },
+    {
+      "path": "reports/lod-jolt-240hz-4s.stdout.txt",
+      "bytes": 563,
+      "sha256": "0085cf758ba166bd4f5eabf14996ae99d695b795646fd8d2953a9919132d9f08"
+    },
+    {
+      "path": "reports/lod-mass-calibration.json",
+      "bytes": 120864,
+      "sha256": "6843c7f86734573322db5f06b272571bf3847200588c43816f2363bcfc7c3b09"
+    },
+    {
+      "path": "reports/summary.json",
+      "bytes": 14026,
+      "sha256": "f6b993690ae285cefbf38aee93167db1d2b48c80f8f42bf364cdc8644d27cc9e"
+    },
+    {
+      "path": "run.ps1",
+      "bytes": 1047,
+      "sha256": "234f7c1ca57b359a7bd8341b3a27a42400a86617ed64dd6bca279a093436edb8"
+    },
+    {
+      "path": "summarize.py",
+      "bytes": 3677,
+      "sha256": "b98251e59af286628ec010f81ec99924a23bb4137479e2e9d0b23e1281c15468"
+    }
+  ]
+}

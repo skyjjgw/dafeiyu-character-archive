@@ -1,0 +1,255 @@
+[
+  {
+    "id": "BV17nuU6xErx",
+    "type": "video",
+    "title": "可爱的大肥鱼",
+    "source_url": "https://www.bilibili.com/video/BV17nuU6xErx/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 31,
+    "purposes": [
+      "人物整体观感",
+      "表情与眨眼候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1Geuz6dErY",
+    "type": "video",
+    "title": "偷吃token的大肥鱼",
+    "source_url": "https://www.bilibili.com/video/BV1Geuz6dErY/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 16,
+    "purposes": [
+      "吃东西动作候选",
+      "偷吃情绪候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1CtgH6fEXy",
+    "type": "video",
+    "title": "认真回答用户问题的大肥鱼",
+    "source_url": "https://www.bilibili.com/video/BV1CtgH6fEXy/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 31,
+    "purposes": [
+      "说话口型候选",
+      "专注表情候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1PZgP6jEmS",
+    "type": "video",
+    "title": "打扫卫生的大肥鱼可爱呢",
+    "source_url": "https://www.bilibili.com/video/BV1PZgP6jEmS/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 65,
+    "purposes": [
+      "手部操作候选",
+      "全身动作候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1N9bk6MEqV",
+    "type": "video",
+    "title": "大肥鱼deepseek的游乐场冒险",
+    "source_url": "https://www.bilibili.com/video/BV1N9bk6MEqV/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 46,
+    "purposes": [
+      "多场景动作候选",
+      "情绪变化候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1ztbY6PECg",
+    "type": "video",
+    "title": "可爱的大肥鱼和用户们",
+    "source_url": "https://www.bilibili.com/video/BV1ztbY6PECg/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 61,
+    "purposes": [
+      "人物互动候选",
+      "说话与反应候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1638h6cEL9",
+    "type": "video",
+    "title": "大肥鱼deepseek和用户玩捉迷藏",
+    "source_url": "https://www.bilibili.com/video/BV1638h6cEL9/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 46,
+    "purposes": [
+      "移动与躲藏动作候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1LfhA6EEZn",
+    "type": "video",
+    "title": "大肥鱼教可爱的用户们画画",
+    "source_url": "https://www.bilibili.com/video/BV1LfhA6EEZn/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 61,
+    "purposes": [
+      "讲解口型候选",
+      "手部操作候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1QNhw6iEEr",
+    "type": "video",
+    "title": "大肥鱼和用户们比赛游泳",
+    "source_url": "https://www.bilibili.com/video/BV1QNhw6iEEr/",
+    "author": "余归qwq",
+    "author_url": "https://space.bilibili.com/3546611659573477",
+    "duration_seconds": 61,
+    "purposes": [
+      "身体运动候选",
+      "尾部运动候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1JUeH6UEo6",
+    "type": "video",
+    "title": "大肥鱼：我要验牌！",
+    "source_url": "https://www.bilibili.com/video/BV1JUeH6UEo6/",
+    "author": "阳光爬行者SunCreeper",
+    "author_url": "https://space.bilibili.com/3706988261280389",
+    "duration_seconds": 31,
+    "purposes": [
+      "说话与反应候选",
+      "夸张表情候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1MntH6jEQX",
+    "type": "video",
+    "title": "♡你的大肥鱼突然出现♡",
+    "source_url": "https://www.bilibili.com/video/BV1MntH6jEQX/",
+    "author": "阳光爬行者SunCreeper",
+    "author_url": "https://space.bilibili.com/3706988261280389",
+    "duration_seconds": 11,
+    "purposes": [
+      "角色入场候选",
+      "短动作循环候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1EZuA6YE3p",
+    "type": "video",
+    "title": "DeepSeek与GPT的终极对决",
+    "source_url": "https://www.bilibili.com/video/BV1EZuA6YE3p/",
+    "author": "阳光爬行者SunCreeper",
+    "author_url": "https://space.bilibili.com/3706988261280389",
+    "duration_seconds": 18,
+    "purposes": [
+      "角色互动候选",
+      "动作与表情变化候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1483R6hEzL",
+    "type": "video",
+    "title": "DeepSeek大肥鱼请你吃白饭",
+    "source_url": "https://www.bilibili.com/video/BV1483R6hEzL/",
+    "author": "阳光爬行者SunCreeper",
+    "author_url": "https://space.bilibili.com/3706988261280389",
+    "duration_seconds": 15,
+    "purposes": [
+      "吃饭与递物动作候选",
+      "角色互动候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV12Fga6fEz2",
+    "type": "video",
+    "title": "DeepSeek要变成干瘪瘪的大肥鱼～",
+    "source_url": "https://www.bilibili.com/video/BV12Fga6fEz2/",
+    "author": "阳光爬行者SunCreeper",
+    "author_url": "https://space.bilibili.com/3706988261280389",
+    "duration_seconds": 11,
+    "purposes": [
+      "情绪反应候选",
+      "形变动作候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  },
+  {
+    "id": "BV1RwK467EmV",
+    "type": "video",
+    "title": "DeepSeek V4再跳票的话，大肥鱼就要被甩开了！",
+    "source_url": "https://www.bilibili.com/video/BV1RwK467EmV/",
+    "author": "阳光爬行者SunCreeper",
+    "author_url": "https://space.bilibili.com/3706988261280389",
+    "duration_seconds": 30,
+    "purposes": [
+      "说话与情绪变化候选"
+    ],
+    "verification": "B站公开API已核实标题/作者/时长；未逐帧播放",
+    "license_status": "参考链接，视频及音乐权利单独核实",
+    "local_path": "",
+    "download_status": "link_only"
+  }
+]

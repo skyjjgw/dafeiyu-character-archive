@@ -1,0 +1,210 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-10-25",
+  "status": "rejected_by_user_appearance_mismatch_superseded_by_v2",
+  "assets": [
+    {
+      "id": "base",
+      "file": "base.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-36495349-5cc7-4f46-b001-9428d2cca922.png",
+      "generation": {
+        "id": "base",
+        "prompt": "Use case: precise-object-edit.\nThe attached transparent full-body illustration is the edit target. Make a facial-animation BASE layer by removing ONLY both eyes (including sclera, irises and eyelashes), both eyebrows and the tiny mouth. Fill those removed facial-feature regions seamlessly with the same pale skin and simple cel shading as the surrounding cheeks. Keep the tiny nose and blush. The face should be a smooth blank skin area except for the nose and blush, ready for separately overlaid eyes, eyebrows and mouth. Do not leave ghost eye outlines, dark spots, residual lashes or a mouth line.\nPreserve the entire rest of the image: same exact full-body frontal neutral pose, face contour, head proportions, grouped blue hair, ahoge, maid headband, fin ears and bows, navy/white dress, apron with blue whale emblem, small hands, short legs/shoes, thick whale tail. Do not remove the face itself or any hair. Keep all body parts fully inside the canvas with spacious transparent margins. Same restrained clean anime cel shading.\nTruly transparent background. One intact full-body BASE image, not an exploded sheet. No words, labels, gray placeholder face, masks, holes, scenery or extra elements.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1144,
+      "height": 1375,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox": [
+        103,
+        54,
+        1126,
+        1317
+      ],
+      "bytes": 1374275,
+      "sha256": "b466d50897b4ebd53726a6ba20ce417ee9e6f79543400ac4a2d89a3dce473b38"
+    },
+    {
+      "id": "eyes-open",
+      "file": "eyes-open.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-1df76e0b-243b-4b95-b19b-4938bb336d67.png",
+      "generation": {
+        "id": "eyes-open",
+        "prompt": "Use case: precise-object-edit. The supplied image is the definitive identity reference of the blue-haired anime whale maid. Create the requested first-pass separated raster component for a layered facial-animation prototype. Preserve the reference's clean dark blue-gray anime contours, cobalt blue colors and restrained cel shading. Truly transparent alpha background, no checkerboard artwork, no text, no labels, no extra face or character, no decorative symbols, no cast shadow. Keep the component frontal and level. The file will be positioned by the renderer; retain clear shapes and complete edges with generous transparent margin.\nComponent: ONLY the matching PAIR of open blue anime eyes from the reference, viewed straight on at equal height, with the original spacing relative to their width. Include white sclera, large blue irises/pupils, original simple white highlights, dark upper eyelashes and minimal lower eyelid lines. Broad rounded oval eyes, simple clean cel shading, identical in character to the reference. Left/right mirrored overall shape but retain natural matching eye highlights.\nEverything outside these two eye shapes must be transparent, including the skin between and around the eyes. No eyebrows, nose, mouth, face skin patch, cheeks, hair, head or dress. The sclera must remain white and opaque; only outside the eye perimeter is transparent. Put this pair as a single evenly spaced horizontal asset near the canvas center, taking up roughly 65 percent of canvas width. Both complete eyes visible with generous margin.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1774,
+      "height": 887,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox": [
+        275,
+        283,
+        1500,
+        614
+      ],
+      "bytes": 384122,
+      "sha256": "6f46a3528dbbecf44774933f915da60e1a31f30d495731b74594757090f6ef41",
+      "target": [
+        438,
+        493,
+        308,
+        83
+      ]
+    },
+    {
+      "id": "eyes-closed",
+      "file": "eyes-closed.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-7f19b195-38fc-430b-b75c-f88e955dc3fe.png",
+      "generation": {
+        "id": "eyes-closed",
+        "prompt": "Use case: precise-object-edit. The supplied image is the definitive identity reference of the blue-haired anime whale maid. Create the requested first-pass separated raster component for a layered facial-animation prototype. Preserve the reference's clean dark blue-gray anime contours, cobalt blue colors and restrained cel shading. Truly transparent alpha background, no checkerboard artwork, no text, no labels, no extra face or character, no decorative symbols, no cast shadow. Keep the component frontal and level. The file will be positioned by the renderer; retain clear shapes and complete edges with generous transparent margin.\nComponent: ONLY the matching PAIR of CLOSED neutral anime eyelid/eyelash strokes for this same girl. A relaxed natural blink: two graceful shallow curves with the same dark blue-black upper lash weight as her reference eyes, level and evenly spaced like the pair of open eyes. Fine subtle lower lid crease if needed. No smile/angry brows, no arched surprised eyes.\nEverything except the two eyelash/eyelid strokes is transparent. No sclera, irises, pupils, skin patch, brows, nose, mouth, cheeks, hair, head or dress. Two complete matching closed-eye strokes only, horizontal pair centered on canvas with generous empty transparent margin.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1774,
+      "height": 887,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox": [
+        381,
+        393,
+        1393,
+        498
+      ],
+      "bytes": 101596,
+      "sha256": "c3a888082fa135402ff4ea55226ebf402c1c4005a9e694e78c0872dbf41249da",
+      "target": [
+        438,
+        545,
+        308,
+        32
+      ]
+    },
+    {
+      "id": "brows",
+      "file": "brows.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-ce709e2a-1b28-4304-8d40-97ce2c1eddef.png",
+      "generation": {
+        "id": "brows",
+        "prompt": "Use case: precise-object-edit. The supplied image is the definitive identity reference of the blue-haired anime whale maid. Create the requested first-pass separated raster component for a layered facial-animation prototype. Preserve the reference's clean dark blue-gray anime contours, cobalt blue colors and restrained cel shading. Truly transparent alpha background, no checkerboard artwork, no text, no labels, no extra face or character, no decorative symbols, no cast shadow. Keep the component frontal and level. The file will be positioned by the renderer; retain clear shapes and complete edges with generous transparent margin.\nComponent: ONLY the TWO subtle neutral eyebrows of this same anime girl, frontal and level, slightly curved and relaxed, in muted dark cobalt blue. Match the thin simple tapered brow drawing implied by her expression. The two brows should have equal scale and natural spacing for the wide face and large eyes of the reference.\nNo eyes or eyelids, no skin, no forehead, no hair, face, nose, mouth or other features. Just two small clean curved eyebrow strokes with fine tapered ends on a fully transparent canvas, centered horizontally with generous empty margin. No exaggerated angry angles.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1672,
+      "height": 941,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox": [
+        396,
+        431,
+        1277,
+        507
+      ],
+      "bytes": 78628,
+      "sha256": "f700a6edc8efc9087183c5dc96a3b6ae9f75efa3be9f4a1c733820cd192e4027",
+      "target": [
+        451,
+        477,
+        282,
+        24
+      ]
+    },
+    {
+      "id": "mouth-closed",
+      "file": "mouth-closed.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-69e4a9e5-b28e-4db2-9b37-bded3afd4382.png",
+      "generation": {
+        "id": "mouth-closed",
+        "prompt": "Use case: precise-object-edit. The supplied image is the definitive identity reference of the blue-haired anime whale maid. Create the requested first-pass separated raster component for a layered facial-animation prototype. Preserve the reference's clean dark blue-gray anime contours, cobalt blue colors and restrained cel shading. Truly transparent alpha background, no checkerboard artwork, no text, no labels, no extra face or character, no decorative symbols, no cast shadow. Keep the component frontal and level. The file will be positioned by the renderer; retain clear shapes and complete edges with generous transparent margin.\nComponent: ONLY the tiny gently closed neutral mouth of this same wide-round-faced anime girl. A very small shallow soft W-like smiling curve, subtly tapered dark warm-brown anime line, matching her reference neutral mouth. No pronounced lips, lipstick, teeth or tongue. Frontal symmetrical mouth.\nNo face skin patch, cheeks, eyes, nose, eyebrows, hair or other objects. Nothing beyond the single tiny closed-mouth line, centered on a fully transparent canvas with generous empty margin. Keep the line crisp and clean, not painterly.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1536,
+      "height": 1024,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_bbox": [
+        705,
+        502,
+        831,
+        527
+      ],
+      "bytes": 420587,
+      "sha256": "7e1f697ccee0cee41ce865da200edfdfbaa312fa821c0d2e3a7b8bbe5d4d4fca",
+      "target": [
+        573,
+        628,
+        38,
+        8
+      ]
+    },
+    {
+      "id": "mouth-open",
+      "file": "mouth-open.png",
+      "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-7d64ee52-93c5-4f80-95b8-a3e965bb0e18.png",
+      "generation": {
+        "id": "mouth-open",
+        "prompt": "Use case: precise-object-edit. The supplied image is the definitive identity reference of the blue-haired anime whale maid. Create the requested first-pass separated raster component for a layered facial-animation prototype. Preserve the reference's clean dark blue-gray anime contours, cobalt blue colors and restrained cel shading. Truly transparent alpha background, no checkerboard artwork, no text, no labels, no extra face or character, no decorative symbols, no cast shadow. Keep the component frontal and level. The file will be positioned by the renderer; retain clear shapes and complete edges with generous transparent margin.\nComponent: ONLY one small open speaking mouth for this same anime girl. Match her clean simple anime facial drawing: a small rounded oval mouth, thin warm dark-brown outline, muted dark reddish interior and a small pale pink tongue at its bottom; optionally a tiny upper white tooth hint. Friendly neutral talking mouth, not a scream. Frontal symmetrical shape, modest width.\nNo face skin patch, cheeks, eyes, nose, eyebrows, hair, head or other objects. Everything outside the mouth perimeter must be transparent. The inside of the mouth is opaque cel-shaded color. Put just this complete mouth near canvas center with generous transparent margin. No photorealistic lips or fine wet texture.",
+        "referenced_image_paths": [
+          "E:/zzz/dafeiyu-character-materials-20261025/production/v1/neutral-front.png"
+        ],
+        "transparent_background": true
+      },
+      "width": 1536,
+      "height": 1024,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_bbox": [
+        638,
+        463,
+        896,
+        605
+      ],
+      "bytes": 528282,
+      "sha256": "217596cfe6897f613821886c964a39675a7a63b3c87d68efcf0cdff62642a4cc",
+      "target": [
+        571,
+        619,
+        42,
+        25
+      ]
+    }
+  ],
+  "canvas": {
+    "width": 1144,
+    "height": 1375
+  },
+  "limitations": [
+    "Body, hair, tail and face skin are still combined in the base.",
+    "Paired eyes are not separated into sclera, iris and eyelids.",
+    "This is a raster facial prototype, not a Cubism model or completed layered PSD."
+  ],
+  "user_feedback": "五官完全不对啊，你帮我调节好",
+  "superseded_by": "correction-v2-manifest.json"
+}

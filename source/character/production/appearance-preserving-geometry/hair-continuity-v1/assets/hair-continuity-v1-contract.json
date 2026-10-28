@@ -1,0 +1,209 @@
+{
+  "schema": "dafeiyu.hair-continuity.component.v1",
+  "asset": {
+    "file": "hair-continuity-v1.glb",
+    "bytes": 779112,
+    "sha256": "336f73603a38b5c57842446ba825463512e8c4eca2502e2f12a62873b3112857"
+  },
+  "sourceImage": {
+    "source": "appearance-baseline-20261027/assets/BV1g2JX6HEHX.jpg",
+    "sha256": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+    "edited": false
+  },
+  "attach": {
+    "space": "Original Head local; no extra body scale or translation baked",
+    "parent": "Original Head control attachment",
+    "replaces": [
+      "left-face-framing-hair:original-pixel-surface",
+      "left-face-framing-hair:closed-thickness",
+      "left-face-framing-hair:back",
+      "right-face-framing-hair:original-pixel-surface",
+      "right-face-framing-hair:closed-thickness",
+      "right-face-framing-hair:back",
+      "central-forked-bangs:original-pixel-surface",
+      "central-forked-bangs:closed-thickness",
+      "central-forked-bangs:back"
+    ],
+    "appliesTo": "Only these three locks. Retain every other selected model part."
+  },
+  "meshes": [
+    {
+      "name": "left-face-framing-hair:conforming-continuous-volume-v1",
+      "vertices": 5182,
+      "triangles": 10360,
+      "attributes": {
+        "POSITION": {
+          "accessor": 0,
+          "sha256": "330bb7b391c6a2ed27a2b424d22663120400c0993f704ddaddaf6713a32f4d22"
+        },
+        "NORMAL": {
+          "accessor": 1,
+          "sha256": "09fa7ec8d86e843934f056b5c7fd1eca90447a58432c1f31a5edce90619fdb31"
+        },
+        "TEXCOORD_0": {
+          "accessor": 2,
+          "sha256": "9fd1235fcadf2fc6c01d381996ce4fd56d07a340f42ebc16e853c90cb7623dd6"
+        }
+      },
+      "indexSha256": "ff7c60fca630a1168008e842a19203ad51ff3a9b7a6dd9a5becebe5fdf61704a",
+      "metadata": {
+        "name": "left-face-framing-hair",
+        "sharedEdgeRefinementRounds": 5,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      }
+    },
+    {
+      "name": "right-face-framing-hair:conforming-continuous-volume-v1",
+      "vertices": 4972,
+      "triangles": 9940,
+      "attributes": {
+        "POSITION": {
+          "accessor": 5,
+          "sha256": "4cf1e96e02352694a37a0224994d9e625fc8faeeac8b764881a9365a43fd321e"
+        },
+        "NORMAL": {
+          "accessor": 6,
+          "sha256": "b15fb25f26c90a9226afe4453cdc038a5c0599d3ecb8ea31ece793bb6aef9b95"
+        },
+        "TEXCOORD_0": {
+          "accessor": 7,
+          "sha256": "c4a104a7b88813ddd1be1bd883535a2c1fbeb00b0830191264d2c5003bdc2abd"
+        }
+      },
+      "indexSha256": "8be905782ca18bdce0af7520f473db267273d4c956a85750dad5b129f350e655",
+      "metadata": {
+        "name": "right-face-framing-hair",
+        "sharedEdgeRefinementRounds": 6,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      }
+    },
+    {
+      "name": "central-forked-bangs:conforming-continuous-volume-v1",
+      "vertices": 2784,
+      "triangles": 5564,
+      "attributes": {
+        "POSITION": {
+          "accessor": 10,
+          "sha256": "5aefd78dc95d59cd2509a1ff0f296b5af2c2fcb95101bd1e7160add4ac4a0c17"
+        },
+        "NORMAL": {
+          "accessor": 11,
+          "sha256": "f8569bfc0c7dfd8e4c9e1d41fc58485a3857f1498d71354f0e120b2720f0c925"
+        },
+        "TEXCOORD_0": {
+          "accessor": 12,
+          "sha256": "724873e36f0c7cf6b3468df18e7e9d3bfc765e8e2ef507146ad9a9bc7d19b1a3"
+        }
+      },
+      "indexSha256": "b5b44b1fe92df359ffab2c5dab11e1838ef02f6ee7d90b4ea4eabe11afd1ac11",
+      "metadata": {
+        "name": "central-forked-bangs",
+        "sharedEdgeRefinementRounds": 5,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      }
+    }
+  ],
+  "uv": {
+    "source": "TEXCOORD_0=(sourcePx/1920,1-sourcePy/1080)",
+    "gltfTextureSampling": "KHR_texture_transform offset(0,1), scale(1,-1)",
+    "godotCustomSampling": "If bypassing glTF standard material transforms, sample (UV.x,1-UV.y) exactly once; do not double flip."
+  },
+  "rendering": {
+    "front": "Original MeshBasic unlit cover painting, opaque; original UV projection",
+    "back": "Original blue MeshToonMaterial color. Standard glTF rough diffuse fallback differs from Three toon shading; use review for actual source rendering.",
+    "culling": "Backface culling on closed solids",
+    "depthWrite": true
+  },
+  "deformation": {
+    "implemented": false,
+    "policy": "Static rest geometry only; do not bind inherited source per-index hair deformation to these different vertex arrays."
+  },
+  "metadata": {
+    "schema": "dafeiyu.hair-continuity.v1",
+    "finalAccepted": false,
+    "staticOnly": true,
+    "dynamicsImplemented": false,
+    "replaced": [
+      "left-face-framing-hair",
+      "right-face-framing-hair",
+      "central-forked-bangs"
+    ],
+    "locks": [
+      {
+        "name": "left-face-framing-hair",
+        "sharedEdgeRefinementRounds": 5,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      },
+      {
+        "name": "right-face-framing-hair",
+        "sharedEdgeRefinementRounds": 6,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      },
+      {
+        "name": "central-forked-bangs",
+        "sharedEdgeRefinementRounds": 5,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      }
+    ],
+    "limitations": [
+      "Three separate locks; not a Boolean union with the scalp or each other.",
+      "Long curls and their original T junctions remain unchanged.",
+      "Unknown back shape is inferred.",
+      "Front orthographic XY and source mapping retained, but altered rear occlusion requires actual GPU review."
+    ]
+  },
+  "acceptance": {
+    "topology": "reports/geometry-check.json",
+    "visualPass": false,
+    "finalAccepted": false,
+    "nativeIntegrated": false
+  },
+  "limitations": [
+    "Three closed solids intersect/overlap the existing scalp and each other; no union or contact solution is claimed.",
+    "No long curl repair yet.",
+    "Unknown back painting/depth inferred.",
+    "Actual front/45/90/back review required."
+  ]
+}

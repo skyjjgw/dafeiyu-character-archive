@@ -1,0 +1,39 @@
+{
+  "scope": "read-only static file/JSON/GLB audit",
+  "generatedAt": "2026-10-28T19:59:31.9309034+08:00",
+  "files": {
+    "headbandMjs": {
+      "sha256": "72769501a9c7258d864c4581b7a0b90128c37dba7b9e0988af53e807f8a3cfb7",
+      "expected": "72769501a9c7258d864c4581b7a0b90128c37dba7b9e0988af53e807f8a3cfb7",
+      "pass": true
+    },
+    "glb": {
+      "bytes": 1223644,
+      "sha256": "c46ab19cb79e8b6768b2b0a86ddc0f09b3681957932a47c4b9ed0b0083014ebb",
+      "expectedBytes": 1223644,
+      "expectedSha256": "c46ab19cb79e8b6768b2b0a86ddc0f09b3681957932a47c4b9ed0b0083014ebb",
+      "pass": true
+    }
+  },
+  "checks": {
+    "contractAssetBytesShaMatches": true,
+    "normalPaintDefault": "Enabled (diagnosticSolid=false)",
+    "regionDiagnosticDefault": "Disabled (diagnosticRegions=false)",
+    "bothSurfaceLayersSharePaintWeight": "generator evaluates paintAt per vertex for layer=0 and layer=1; UV1.x emitted on both; export maps uv1 -> TEXCOORD_1; contract says Godot UV2.x",
+    "shaderChannel": "UV2.x",
+    "exportChannel": "TEXCOORD_1",
+    "channelMapping": "TEXCOORD_1 imports as Godot UV2; naming consistent",
+    "strictGeometryCurrentHashesMatch": true,
+    "strictNonAdjacentCrossingPairs": 0,
+    "actualGpuImportCurrentAssetVerified": false,
+    "gpuImportReportAssetSha256": "1aec7dafc286dcf7aa19697cf1a0006d4a2a9865f5b8f813ec80b0aa0c7ff6b4",
+    "gpuReportIsStale": true
+  },
+  "findings": [
+    "README historical asset SHA/bytes are stale and conflict with current contract/actual files; current contract and requested SHA match disk.",
+    "GPU import report binds a different GLB SHA; do not claim current asset GPU-import verified.",
+    "Static strict geometry report position/index SHA matches current contract and reports zero strict crossings.",
+    "Normal source paint is enabled by default (diagnosticSolid=false); solid-color and region diagnostics are disabled by default. Inner/outer paint weight is emitted through the same paintAt calculation."
+  ],
+  "overall": "PASS for identity and file bindings, channel naming, defaults, and current strict geometry hash binding; GPU gate remains unverified."
+}

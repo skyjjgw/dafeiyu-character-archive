@@ -1,0 +1,143 @@
+{
+  "schema": "dafeiyu.selected-headband-ribbon.component-contract.v2",
+  "asset": {
+    "file": "headband-v2.glb",
+    "bytes": 1223644,
+    "sha256": "c46ab19cb79e8b6768b2b0a86ddc0f09b3681957932a47c4b9ed0b0083014ebb"
+  },
+  "sourceImage": {
+    "sha256": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+    "source": "appearance-baseline-20261027/assets/BV1g2JX6HEHX.jpg",
+    "embeddedImage": 0,
+    "edited": false
+  },
+  "mesh": {
+    "name": "selected-maid-headband-scalp-ribbon-v2",
+    "vertices": 15906,
+    "triangles": 31808,
+    "canonicalDomain": "headband-v2-domain.json",
+    "positionSha256": "948e1fd6f39bae181b6066651f903916ae7e43d808ddd666e32c495e2adb0d5c",
+    "indexSha256": "4c045b1e6e2b758af64ccb9726032e6aae9ce1c4a8cce7a0ba120dfcb057edab",
+    "attributes": {
+      "POSITION": {
+        "accessor": 0,
+        "componentCount": 47718,
+        "sha256": "948e1fd6f39bae181b6066651f903916ae7e43d808ddd666e32c495e2adb0d5c"
+      },
+      "NORMAL": {
+        "accessor": 1,
+        "componentCount": 47718,
+        "sha256": "4f6a1a15efb7ede6a4e978972e6c92af61fa93b8b466f5206a68bfef1444c918"
+      },
+      "TEXCOORD_0": {
+        "accessor": 2,
+        "componentCount": 31812,
+        "sha256": "8a6a9df05485ded6a8deb40e8047831fe990f715768b4733ab4c67c907c498f6"
+      },
+      "TEXCOORD_1": {
+        "accessor": 3,
+        "componentCount": 31812,
+        "sha256": "3df22481ec8811f0df86c1b230ebb4307419c913d4a082abdaf7d29e47e61c96"
+      },
+      "COLOR_0": {
+        "accessor": 4,
+        "componentCount": 47718,
+        "sha256": "fde3e4fa0140fde9e0bd4a675a8ad277597cde974bf0ca20333baaef110c118a"
+      }
+    }
+  },
+  "attach": {
+    "space": "Original source Head local; no extra body-scale/translation baked",
+    "parent": "Original Head-control bone attachment, transform applied once",
+    "replaces": [
+      "continuous-rounded-three-dimensional-headband",
+      "left-painted-white-frill:original-pixel-surface",
+      "left-painted-white-frill:closed-thickness",
+      "left-painted-white-frill:back",
+      "right-painted-white-frill:original-pixel-surface",
+      "right-painted-white-frill:closed-thickness",
+      "right-painted-white-frill:back"
+    ]
+  },
+  "material": {
+    "type": "Unlit source paint + original arch vertex palette with limited geometric shade",
+    "safeGLTFFallback": "Unlit COLOR_0 only. It intentionally does not show complete custom source paint.",
+    "requiresCustomMaterial": true,
+    "uv": "TEXCOORD_0=(sourcePx/1920,1-sourcePy/1080); original frill radial-interval UV remap by u where observed. This is a semantic UV remap, not a per-source-vertex UV lock. Original image unchanged; Godot samples (UV.x,1-UV.y) once",
+    "paintWeight": "TEXCOORD_1.x; use Godot UV2.x",
+    "palette": "COLOR_0 source linear float RGB sampled from original headband arch; do not silently pack into lossy RGBA8",
+    "sourceImage": "Original sRGB texture; decode to linear before blend, encode to display once",
+    "blend": "chroma=(max(sourceRGB)-min(sourceRGB))/(max(sourceRGB)+.025); trust=1-smoothstep(.18,.42,chroma); out=mix(palette*shade,sourceLinearRGB,paintWeight*trust)",
+    "shade": "0.86+0.14*max(0,dot(normalWorld,normalize(-3,6,5)))",
+    "alpha": "Opaque 1; no transparent hole masking",
+    "culling": "Back-face culling on a genuinely closed solid shell",
+    "depthWrite": true
+  },
+  "deformation": {
+    "initial": "Rigid Head attachment only; this component does not claim cloth dynamics",
+    "future": "Canonical u,v,layer domain permits external cloth controls; preserve inner/outer radial separation and run collision checks before enabling physics"
+  },
+  "metadata": {
+    "schema": "dafeiyu.scalp-ribbon-headband.v2",
+    "parameters": {
+      "uSegments": 240,
+      "vSegments": 32,
+      "axisX": 0.73,
+      "axisY": 0.67,
+      "axisZ": 0.43,
+      "backAxisZ": 0.52,
+      "centerY": 0.17,
+      "centerZ": -0.03,
+      "tilt": 0.3,
+      "betaBack": -0.2,
+      "betaFront": 0.25,
+      "crownFrontExtra": -0.41,
+      "bandClearance": 0.004,
+      "frillFraction": 0.32,
+      "frillWidth": 0.15,
+      "scallopAmplitude": 0.035,
+      "pleatAmplitude": 0.009,
+      "lobes": 16,
+      "thickness": 0.003
+    },
+    "coordinateSystem": "Original Head local +Y up +Z front; no scene-scale calibration",
+    "domain": {
+      "u": [
+        0,
+        3.141592653589793
+      ],
+      "v": [
+        0,
+        1
+      ],
+      "uMonotonic": true,
+      "vBetaMonotonic": true,
+      "embedding": "Rotated ellipsoid direction followed by a positive radial graph; inner layer uses identical directions and finite radial thickness. No cropped-outline station forcing.",
+      "midSurfaceVertices": 7953,
+      "midSurfaceTriangles": 15360
+    },
+    "sourcePaint": "Original frill white-grey source radial-interval UV remap by u where observed; high-chroma neighbouring hair samples reconstruct from original arch palette. Unknown cloth is inferred, not original-author paint.",
+    "thicknessMode": "Finite radial distance, .003 uncalibrated source units by default; no average-normal fold inversion",
+    "physicalStatus": "Rest geometry only; not yet cloth dynamics or complete avatar physics",
+    "originalMeshesReplaced": [
+      "continuous-rounded-three-dimensional-headband",
+      "left-painted-white-frill:original-pixel-surface",
+      "left-painted-white-frill:closed-thickness",
+      "left-painted-white-frill:back",
+      "right-painted-white-frill:original-pixel-surface",
+      "right-painted-white-frill:closed-thickness",
+      "right-painted-white-frill:back"
+    ]
+  },
+  "acceptance": {
+    "staticData": "See mid-surface-crossings.json, strict-crossing-diagnostic.json, geometry-check.json",
+    "visualPass": false,
+    "finalQuality": false,
+    "nativeIntegrated": false
+  },
+  "limitations": [
+    "Unknown cloth depth/paint are source-guided inference, not an author scan",
+    "Other original hair layers/body/face remain unchanged and imperfect",
+    "Self-crossing diagnostics exclude coplanar and shared-vertex pairs; actual hair contact/physics needs independent checks"
+  ]
+}

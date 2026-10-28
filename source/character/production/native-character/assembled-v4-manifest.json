@@ -1,0 +1,406 @@
+{
+  "status": "assembled_native_study_pending_visual_and_runtime_review",
+  "sources": {
+    "body": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\body-v3.blend",
+      "sha256": "a03fba495ee5e9f143a46bcc56abbde67bf16c72ea9de4b3e3a7999e81c36311"
+    },
+    "face": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\face-v3.blend",
+      "sha256": "e898f643686c96fa5c6f8030d51e9f5fe6d9be801324a7c26554563a4d7eac63"
+    },
+    "hair": {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\hair-v4.blend",
+      "sha256": "2680dbbf7c651de8de1295bfa1a7f42990ff406442e9e0ad2d67120b98ca5c3b"
+    }
+  },
+  "blend": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\dafeiyu-native-v4-study.blend",
+  "runtime_glb": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\dafeiyu-native-v4-study.glb",
+  "glb_bytes": 6336640,
+  "glb_sha256": "5d567ac0432b2c7949f5ef8367345964cda313801f4baed1265bbfe1299e5712",
+  "renders": [
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\assembled-v4\\front.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\assembled-v4\\side.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\assembled-v4\\back.png",
+    "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\renders\\assembled-v4\\threequarter.png"
+  ],
+  "headOrigin": [
+    0,
+    0,
+    2.155
+  ],
+  "runtime_cloth_cage": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\native-character\\assets\\skirt-physics-cage-v4.json",
+  "armatures": {
+    "Dafeiyu BodyRig v3": {
+      "bones": 96,
+      "boneNames": [
+        "Root",
+        "COG",
+        "DEF-pelvis",
+        "DEF-spine",
+        "DEF-chest",
+        "DEF-neck",
+        "Head",
+        "DEF-upper_arm.R",
+        "DEF-forearm.R",
+        "DEF-hand.R",
+        "DEF-thumb.01.R",
+        "DEF-thumb.02.R",
+        "DEF-thumb.03.R",
+        "DEF-index.01.R",
+        "DEF-index.02.R",
+        "DEF-index.03.R",
+        "DEF-middle.01.R",
+        "DEF-middle.02.R",
+        "DEF-middle.03.R",
+        "DEF-ring.01.R",
+        "DEF-ring.02.R",
+        "DEF-ring.03.R",
+        "DEF-little.01.R",
+        "DEF-little.02.R",
+        "DEF-little.03.R",
+        "CTRL-fingers.R",
+        "FK-upper_arm.R",
+        "FK-forearm.R",
+        "FK-hand.R",
+        "MCH-upper_arm.R",
+        "MCH-forearm.R",
+        "MCH-hand.R",
+        "DEF-upper_arm.L",
+        "DEF-forearm.L",
+        "DEF-hand.L",
+        "DEF-thumb.01.L",
+        "DEF-thumb.02.L",
+        "DEF-thumb.03.L",
+        "DEF-index.01.L",
+        "DEF-index.02.L",
+        "DEF-index.03.L",
+        "DEF-middle.01.L",
+        "DEF-middle.02.L",
+        "DEF-middle.03.L",
+        "DEF-ring.01.L",
+        "DEF-ring.02.L",
+        "DEF-ring.03.L",
+        "DEF-little.01.L",
+        "DEF-little.02.L",
+        "DEF-little.03.L",
+        "CTRL-fingers.L",
+        "FK-upper_arm.L",
+        "FK-forearm.L",
+        "FK-hand.L",
+        "MCH-upper_arm.L",
+        "MCH-forearm.L",
+        "MCH-hand.L",
+        "DEF-thigh.R",
+        "DEF-shin.R",
+        "DEF-foot.R",
+        "FK-thigh.R",
+        "FK-shin.R",
+        "FK-foot.R",
+        "MCH-thigh.R",
+        "MCH-shin.R",
+        "MCH-foot.R",
+        "DEF-thigh.L",
+        "DEF-shin.L",
+        "DEF-foot.L",
+        "FK-thigh.L",
+        "FK-shin.L",
+        "FK-foot.L",
+        "MCH-thigh.L",
+        "MCH-shin.L",
+        "MCH-foot.L",
+        "DEF-tail.0",
+        "DEF-tail.1",
+        "DEF-tail.2",
+        "DEF-tail.3",
+        "DEF-tail.4",
+        "CTRL-hand_ik.R",
+        "CTRL-elbow_pole.R",
+        "CTRL-foot_ik.R",
+        "MCH-heel.R",
+        "MCH-toe.R",
+        "MCH-ball.R",
+        "MCH-foot_target.R",
+        "CTRL-knee_pole.R",
+        "CTRL-hand_ik.L",
+        "CTRL-elbow_pole.L",
+        "CTRL-foot_ik.L",
+        "MCH-heel.L",
+        "MCH-toe.L",
+        "MCH-ball.L",
+        "MCH-foot_target.L",
+        "CTRL-knee_pole.L"
+      ]
+    },
+    "HairRig": {
+      "bones": 49,
+      "boneNames": [
+        "Hair.HeadAnchor",
+        "Hair.00.0",
+        "Hair.00.1",
+        "Hair.00.2",
+        "Hair.01.0",
+        "Hair.01.1",
+        "Hair.01.2",
+        "Hair.02.0",
+        "Hair.02.1",
+        "Hair.02.2",
+        "Hair.03.0",
+        "Hair.03.1",
+        "Hair.03.2",
+        "Hair.04.0",
+        "Hair.04.1",
+        "Hair.04.2",
+        "Hair.05.0",
+        "Hair.05.1",
+        "Hair.05.2",
+        "Hair.06.0",
+        "Hair.06.1",
+        "Hair.06.2",
+        "Hair.07.0",
+        "Hair.07.1",
+        "Hair.07.2",
+        "Hair.08.0",
+        "Hair.08.1",
+        "Hair.08.2",
+        "Hair.09.0",
+        "Hair.09.1",
+        "Hair.09.2",
+        "Hair.10.0",
+        "Hair.10.1",
+        "Hair.10.2",
+        "Hair.11.0",
+        "Hair.11.1",
+        "Hair.11.2",
+        "Hair.12.0",
+        "Hair.12.1",
+        "Hair.12.2",
+        "Hair.13.0",
+        "Hair.13.1",
+        "Hair.13.2",
+        "Hair.14.0",
+        "Hair.14.1",
+        "Hair.14.2",
+        "Hair.15.0",
+        "Hair.15.1",
+        "Hair.15.2"
+      ]
+    },
+    "FaceRig": {
+      "bones": 5,
+      "boneNames": [
+        "FaceHead",
+        "Jaw",
+        "Tongue",
+        "Eye.L",
+        "Eye.R"
+      ]
+    }
+  },
+  "materials": {
+    "Brows / fine muted warm ink": {
+      "baseColor": [
+        0.2961382567882538,
+        0.19120168685913086,
+        0.14995978772640228,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Dafeiyu cream": {
+      "baseColor": [
+        0.8100000023841858,
+        0.7900000214576721,
+        0.75,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Dafeiyu floor": {
+      "baseColor": [
+        0.550000011920929,
+        0.5899999737739563,
+        0.6100000143051147,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Dafeiyu gold": {
+      "baseColor": [
+        0.4699999988079071,
+        0.30000001192092896,
+        0.10000000149011612,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Dafeiyu navy": {
+      "baseColor": [
+        0.02500000037252903,
+        0.03700000047683716,
+        0.07199999690055847,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Dafeiyu skin": {
+      "baseColor": [
+        0.6499999761581421,
+        0.49000000953674316,
+        0.38999998569488525,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Dafeiyu whale": {
+      "baseColor": [
+        0.07500000298023224,
+        0.28999999165534973,
+        0.47999998927116394,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Eye.L / spherical iris, pupil and painted glints": {
+      "baseColor": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Eye.R / spherical iris, pupil and painted glints": {
+      "baseColor": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Face / editable albedo and gentle NPR": {
+      "baseColor": [
+        0.6104955673217773,
+        0.533276379108429,
+        0.43965718150138855,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Hair / cool indigo / three cel values": {
+      "baseColor": [
+        0.021219009533524513,
+        0.04817182570695877,
+        0.14126329123973846,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Hair bows / ocean blue": {
+      "baseColor": [
+        0.0423114113509655,
+        0.14702726900577545,
+        0.31854677200317383,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Hair drawn contour / native render only": {
+      "baseColor": [
+        0.0043914420530200005,
+        0.008568125776946545,
+        0.023153366521000862,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Hair ends / restrained blue": {
+      "baseColor": [
+        0.024157632142305374,
+        0.061246052384376526,
+        0.177888423204422,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Lashes / solid warm navy charcoal": {
+      "baseColor": [
+        0.012286487966775894,
+        0.009721217676997185,
+        0.01599629409611225,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Lids / fine muted lower edge": {
+      "baseColor": [
+        0.177888423204422,
+        0.11697066575288773,
+        0.09758734703063965,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Lips / measured interrupted smile ink": {
+      "baseColor": [
+        0.23839756846427917,
+        0.13563333451747894,
+        0.109461709856987,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Maid trim / ivory": {
+      "baseColor": [
+        0.6653872728347778,
+        0.6514056324958801,
+        0.6514056324958801,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Mouth / real recessed interior": {
+      "baseColor": [
+        0.09989872574806213,
+        0.02955683507025242,
+        0.04373503103852272,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "QA label ink": {
+      "baseColor": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Teeth / warm ivory": {
+      "baseColor": [
+        0.8549926280975342,
+        0.7835378050804138,
+        0.672443151473999,
+        1.0
+      ],
+      "proceduralNodes": true
+    },
+    "Tongue / soft rose": {
+      "baseColor": [
+        0.5088813304901123,
+        0.18447498977184296,
+        0.20863686501979828,
+        1.0
+      ],
+      "proceduralNodes": true
+    }
+  },
+  "limitations": [
+    "Current art has not reached the reference quality.",
+    "Procedural Blender cel/iris materials require runtime shaders; glTF alone does not preserve their appearance.",
+    "Native IK, drivers, collision constraints and cloth do not export as a realtime physics controller.",
+    "Continuous acting, grasp and full-angle runtime validation remain required."
+  ]
+}

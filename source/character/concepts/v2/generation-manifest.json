@@ -1,0 +1,51 @@
+{
+  "tool": "built-in imagegen",
+  "created_on": "2026-10-25",
+  "selection_status": "用户于2026-10-25表示可以了，接受D/E作为首版外观方向；继续制作统一正面与表情参考，尚非可动模型",
+  "intent": "动画截图式Q版，紧凑身体、宽圆脸、蓝色大组发束、干净线条与赛璐璐阴影",
+  "primary_video_ids": [
+    "BV1Tonb6JExo",
+    "BV1t6nu6bEsf",
+    "BV1g2JX6HEHX",
+    "BV1C2pg6cEZW"
+  ],
+  "variants": [
+    {
+      "id": "D",
+      "title": "动画Q版 · 完整造型",
+      "prompt": "Use case: stylized-concept.\nAsset: a corrected full-body visual development preview of 大肥鱼, a future interactive 2D virtual character.\nGenerate ONE image of the SAME blue-haired whale maid girl as the attached references.\nInput images 1 and 2: definitive facial identity, clean anime linework and cel-shaded treatment. Input image 3: low-resolution video reference for the compact full-body proportions, outfit and thick whale tail; use it for silhouette, not for image resolution. This is one character, not several.\nThe user's desired result is an anime episode frame of this specific little whale maid. Keep the very compact short torso, short legs and small hands of reference 3, a broad round face with full cheeks, the huge clear blue eyes of reference 2 and their simple white highlights. Avoid elongating the figure or sharpening the chin. Preserve her presence and expressive anime acting; she is not a flat sticker or toy.\nDesign locks: deep cobalt/navy hair, lighter blue ends, clearly grouped flowing locks, curved ahoge, center pointed bangs framing the face, two horizontal navy whale-fin ears with pale lower edges, small blue side bows, white pleated maid headband. Navy high-collared long-sleeved maid dress, modest white collar, navy bow and small blue round clasp, two white apron straps, white scalloped apron with a small simple blue whale emblem, short layered navy/white skirt, short striped socks, small dark shoes. A thick navy whale tail with blue highlights and two flukes curves visibly beside her. Match these elements to the reference. Do not add new gold embroidery or jewelry.\nStyle: polished 2D Japanese anime cel animation; crisp dark blue-gray contours, large clean color shapes, two or three clearly bounded shadow tones, restrained light gradients only inside the eyes and hair tips. Simple face planes, tiny nose dot, a few fine blush strokes. Detailed enough for an animation still, without painterly skin rendering, fine individual hair strands, volumetric haze or glossy 3D surfaces.\nPose/framing: full body at natural eye level, slight three-quarter-front angle, relaxed upright stance, one small hand raised in a conversational gesture and the other relaxed; open attentive eyes and a small lively speaking smile. Complete headband, feet and tail fully inside the frame. Short compact anatomy must remain evident. The figure occupies most of the image with comfortable margins.\nBackdrop: a simple muted warm room with a soft suggestion of wooden floor and wall, subdued enough that the face and silhouette stay clear. Neutral soft daylight and readable cel shadows.\nOne character only. No subtitles, captions, letters, watermark, UI, panel borders, other characters, laptop, bowl or props in front of the body. Do not copy the text or the orange-haired person in reference 2. No cinematic golden rim light, no oil paint, no doll texture, no thin adult body.",
+      "referenced_image_paths": [
+        "E:/zzz/dafeiyu-character-materials-20261025/references/video-covers/BV1t6nu6bEsf.jpg",
+        "E:/zzz/dafeiyu-character-materials-20261025/references/video-covers/BV1g2JX6HEHX.jpg",
+        "E:/zzz/dafeiyu-character-materials-20261025/references/dongbing-confirmed/storyboards/keyframes/BV1t6nu6bEsf-r0c6.png"
+      ],
+      "transparent_background": false,
+      "file": "D-anime-fullbody.png",
+      "generated_source_path": "E:/CodexData/Users/skyjj/.codex/generated_images/01a17213-eb64-70f1-aadc-491d8c4cdcf2/exec-52e63048-2ce1-4fc6-b03b-13bdf3b1f04d.png",
+      "status": "static_style_preview_not_layered_or_rigged",
+      "width": 1423,
+      "height": 1105,
+      "bytes": 2001355,
+      "sha256": "a365fb327a5fec7834cc6e9d1ca631f711a76633798025e553ebaf382ef746ef"
+    },
+    {
+      "id": "E",
+      "title": "动画Q版 · 说话近景",
+      "prompt": "Use case: stylized-concept.\nAsset: a second matching visual preview for a future 2D virtual character 大肥鱼.\nCreate ONE waist-up anime still of the SAME blue-haired whale maid as the supplied references, with a different conversational expression.\nInput image 1 is the just-established generated full-body design: keep her hair, palette, maid clothing, broad round face, compact proportions and anime drawing treatment consistent. Images 2 and 3 are the user's definitive source-video appearance references: prioritize their lively expressive face, clean simple eyes, wide cheeks and anime cel-shaded quality. Do not copy their subtitles or other cast.\nComposition: waist-up framing, complete ahoge and maid headband visible, slight three-quarter face angle, head gently tilted, small hands held near the chest. She looks toward the viewer, eyebrows slightly raised with an attentive curious expression, enormous clear blue oval eyes and a SMALL softly open talking mouth. Friendly and alert, not anguished. One character only.\nPreserve deep cobalt/navy hair in large flowing locks with lighter blue tips, pointed central bangs, curved ahoge, horizontal whale-fin ears with pale lower edge, small blue bows, white pleated maid headband, tiny nose dot, fine blush strokes, navy high-collared maid dress, white pleated collar, navy bow and small blue oval clasp, white apron straps and white scalloped apron. No redesigned accessories, gold trim or jewelry.\nStyle: recognisable 2D anime episode still, crisp blue-gray outlines, clear flat color areas, restrained two-tone cel shadows, subtle gradients confined to eyes/hair tips. Broad soft chin and full cheeks. Keep skin rendering simple; the delicacy is in eyebrow, eyelid, mouth shapes and expression rather than photorealistic volume. Match the specific face in source refs more closely than a generic big-eyed mascot.\nBackdrop: quiet dim warm study with an out-of-focus bookshelf, subtle neutral indoor light, enough separation to read the dark blue hair, no strong golden rim light.\nNo text, subtitles, speech bubbles, watermarks, UI, panel frame, other characters or handheld props. No oil painting, creamy painterly skin, 3D toy material, individual hair wisps, adult slim face, doll eyelashes, excessive eye sparkle or fog. This is a consistent static preview, not a collage or expression chart.",
+      "referenced_image_paths": [
+        "E:/zzz/dafeiyu-character-materials-20261025/concepts/v2/D-anime-fullbody.png",
+        "E:/zzz/dafeiyu-character-materials-20261025/references/video-covers/BV1g2JX6HEHX.jpg",
+        "E:/zzz/dafeiyu-character-materials-20261025/references/video-covers/BV1C2pg6cEZW.jpg"
+      ],
+      "transparent_background": false,
+      "file": "E-anime-closeup.png",
+      "generated_source_path": "E:/CodexData/Users/skyjj/.codex/generated_images/01a17213-eb64-70f1-aadc-491d8c4cdcf2/exec-a1a59c55-1952-4b7c-bc11-2d1168022af0.png",
+      "status": "static_style_preview_not_layered_or_rigged",
+      "width": 1423,
+      "height": 1105,
+      "bytes": 1803830,
+      "sha256": "d5d8f892de687b74962a322010a206a9659fb5937f5debc3c9013ec657243427"
+    }
+  ],
+  "next_stage": "production/v1/index.html"
+}

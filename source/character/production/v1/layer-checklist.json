@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "status": "planned_not_created",
+  "naming": "left/right = character's own left/right",
+  "guide_image": "neutral-front.png",
+  "art_format": "layered PSD with complete occluded surfaces",
+  "groups": [
+    {
+      "id": "Face",
+      "title": "脸与颈部",
+      "parts": [
+        "SkinBase",
+        "Neck",
+        "EarBaseLeft",
+        "EarBaseRight",
+        "BlushLeft",
+        "BlushRight"
+      ],
+      "notes": "脸底补全刘海与五官后方；头部转动时不能露空洞。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "EyeLeft",
+      "title": "人物左眼",
+      "parts": [
+        "Sclera",
+        "IrisPupil",
+        "Highlight",
+        "UpperLash",
+        "LowerLash",
+        "UpperLid",
+        "LowerLid"
+      ],
+      "notes": "眼白、虹膜、上下眼皮分离，闭眼缝与上睫毛形状统一。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "EyeRight",
+      "title": "人物右眼",
+      "parts": [
+        "Sclera",
+        "IrisPupil",
+        "Highlight",
+        "UpperLash",
+        "LowerLash",
+        "UpperLid",
+        "LowerLid"
+      ],
+      "notes": "与左眼保持同一画法，但独立控制；不要把反光与眼白合成一个静止部件。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Brows",
+      "title": "眉毛",
+      "parts": [
+        "BrowLeft",
+        "BrowRight"
+      ],
+      "notes": "画全被刘海遮住的眉形，支持平静、上挑与生气。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Mouth",
+      "title": "嘴",
+      "parts": [
+        "UpperLip",
+        "LowerLip",
+        "MouthInterior",
+        "Tongue",
+        "Teeth"
+      ],
+      "notes": "按所需开合形态补全口腔内部；不只叠一张黑色椭圆。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Hair",
+      "title": "头发",
+      "parts": [
+        "BackMass",
+        "BackLockLeft",
+        "BackLockRight",
+        "SideLockLeft",
+        "SideLockRight",
+        "BangCenter",
+        "BangLeft",
+        "BangRight",
+        "Ahoge"
+      ],
+      "notes": "后发、侧发、刘海与呆毛分别运动；每个活动发束根部适当延展。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Headwear",
+      "title": "头饰与鲸鳍耳",
+      "parts": [
+        "MaidBand",
+        "BowLeft",
+        "BowRight",
+        "FinEarLeft",
+        "FinEarRight"
+      ],
+      "notes": "保持默认蓝白头饰；耳鳍不能误画成猫耳。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Body",
+      "title": "服装与身体",
+      "parts": [
+        "TorsoDress",
+        "Collar",
+        "NeckBow",
+        "Clasp",
+        "ApronBib",
+        "ApronSkirt",
+        "SkirtFront",
+        "SkirtBack"
+      ],
+      "notes": "遮挡处补画完整躯干；围裙可随呼吸轻动。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Arms",
+      "title": "手臂",
+      "parts": [
+        "UpperArmLeft",
+        "ForearmLeft",
+        "HandLeft",
+        "UpperArmRight",
+        "ForearmRight",
+        "HandRight"
+      ],
+      "notes": "袖子与手部连接完整，左右命名以人物自身为准。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Legs",
+      "title": "腿与鞋袜",
+      "parts": [
+        "LegSockLeft",
+        "ShoeLeft",
+        "LegSockRight",
+        "ShoeRight"
+      ],
+      "notes": "裙下补齐连接，脚底不能切边。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Tail",
+      "title": "鲸尾",
+      "parts": [
+        "TailBase",
+        "TailMid",
+        "FlukeLeft",
+        "FlukeRight"
+      ],
+      "notes": "尾根在裙后延展，轻摆不露出断面；鲸尾不是鱼尾裙。",
+      "status": "pending_art_separation"
+    },
+    {
+      "id": "Effects",
+      "title": "可选表情效果",
+      "parts": [
+        "TearLeft",
+        "TearRight"
+      ],
+      "notes": "泪珠单独开关，默认隐藏，不自动改变既定人设。",
+      "status": "pending_art_separation"
+    }
+  ]
+}

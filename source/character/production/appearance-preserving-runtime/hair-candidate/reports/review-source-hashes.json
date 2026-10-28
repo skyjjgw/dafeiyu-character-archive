@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "name": "profile-volume.js",
+      "sourceSha256": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8",
+      "reviewSha256": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8",
+      "change": "Three import path only"
+    },
+    {
+      "name": "face.js",
+      "sourceSha256": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8",
+      "reviewSha256": "20c4052a0adbebe6115b84f31d1e8f90174893205520032d5ea6e264e249b190",
+      "change": "Three import path only"
+    },
+    {
+      "name": "rear-hair.js",
+      "sourceSha256": "ce8b1430690eb356a8eab911c5cc40fd5ad98beb492f2f9cbaa4d84cab72d7d0",
+      "reviewSha256": "3364750ddb4bba40c352b73536940e61d395ea594edcd2cb6214a9c4383ac6b2",
+      "change": "Three import path only"
+    },
+    {
+      "name": "hair.js",
+      "sourceSha256": "095319ae6f67c68d9f7935fea3d46d7a5b6f3bb88d0ee4c754aa7d2d9d87b40b",
+      "reviewSha256": "3cf00a1074f53d907f4b6e71b4ba4226aad045be2b931ac2f6f25088e31c9a5d",
+      "change": "Three import path only"
+    },
+    {
+      "name": "body-full.js",
+      "sourceSha256": "2e34426179199d84cc13122f4d5fe8432d2eb297175bc1d9d97c5a0eb2ece723",
+      "reviewSha256": "3b127eb1c881e0e1bde8bd1600c1f836e7419a1634e40ab5734389df4bbf3c7c",
+      "change": "Three import path only"
+    },
+    {
+      "name": "performance.js",
+      "sourceSha256": "30412dbf3abb38860c73c9333bfdafbcf4f71f7a21a978fa1b49ac8715702d44",
+      "reviewSha256": "c8ec36457853e4b3d735d1ecde2d8437da618cec9071e7102f4a04d66e98260c",
+      "change": "Three import path only"
+    },
+    {
+      "name": "secondary-motion.js",
+      "sourceSha256": "afb65b07d2ff06a93be5271b12cb55536ca99c596d36187f08f3c9e752171c98",
+      "reviewSha256": "d8bfddede661b209d2eff103803d09825a76d181414485207808206109e15515",
+      "change": "Three import path only"
+    },
+    {
+      "name": "character.js",
+      "sourceSha256": "f5c9383466f268f228af48ed9b33243a8aac4063417993a6c8ce18ef42812d95",
+      "reviewSha256": "98a87561c705fe048a83076991da87a538dc80bca8d71b0fc35e1e473ef759e5",
+      "change": "Three import path only"
+    }
+  ]
+}

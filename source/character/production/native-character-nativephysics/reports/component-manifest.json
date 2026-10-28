@@ -1,0 +1,158 @@
+{
+  "schema": "dafeiyu.native-cloth-bending.manifest.v1",
+  "created_utc": "2026-10-26T20:25:41.283333+00:00",
+  "scope": "Standalone technical archive; native character art is frozen/rejected, no renderer/GLB/DSH modification or promotion.",
+  "native_class": "NativeClothBending",
+  "ref_counted": true,
+  "files": {
+    "src/cloth_bending.hpp": {
+      "sha256": "b9412c90266678c8c1369bf2c534cfdc7d230e9b0387d3e5f6a40c5a66d73cb3",
+      "bytes": 2014
+    },
+    "src/cloth_bending.cpp": {
+      "sha256": "24a20ea7c46f1e2c96a51220be01f6baaf6e4b0a2fcf5c15fb83314299a79aec",
+      "bytes": 8073
+    },
+    "src/register_types.cpp": {
+      "sha256": "18f0974c77399fc9f04818f6e1a0fab91c3dfe533477de0cef154bf284aa65f1",
+      "bytes": 807
+    },
+    "CMakeLists.txt": {
+      "sha256": "dae90ec7e76a6c63f328128f5b8ba6d7a51f6d4fda55f667fdbb481497b25997",
+      "bytes": 1053
+    },
+    "build_profile.json": {
+      "sha256": "d91e96bc849d2f33e1ea0bff1ae7ec49bf0aac6d8e026c17ff5e340ebc352142",
+      "bytes": 40
+    },
+    "project/native_cloth_bending.gdextension": {
+      "sha256": "872de8725bd7d31640ed8efbeb4809fa7a77b427d49f7b786919b40d64fbe8a7",
+      "bytes": 198
+    },
+    "project/bin/native_cloth_bending.windows.release.x86_64.dll": {
+      "sha256": "c9e850a5ad460636228870f71e87a0670db05503a8e45593864835784b032469",
+      "bytes": 370688
+    },
+    "extension_api.json": {
+      "sha256": "d0e4c08c03b165156dabe6bfb6a906baf0069189f62035341230a246c86d6986",
+      "bytes": 6965057
+    },
+    "gdextension_interface.h": {
+      "sha256": "640b48188708ba0016f8d7ace9e0e1d3279a41fa1226c59ff3193b15538bd254",
+      "bytes": 142425
+    },
+    "project/fixtures/skirt-cage-schema2.json": {
+      "sha256": "eafa66d15d5f6af3b5f75b244e54aa426375d90123f7f49470e0157c19f42dca",
+      "bytes": 319179
+    },
+    "reports/native-bending-verification.json": {
+      "sha256": "3b0d78f88a669ff10df0fabc267e06969a30929d075d1d518efd87bfcc488a52",
+      "bytes": 2591
+    }
+  },
+  "godot_api": {
+    "version_major": 4,
+    "version_minor": 7,
+    "version_patch": 2,
+    "version_status": "stable",
+    "version_build": "official",
+    "version_full_name": "Godot Engine v4.7.2.stable.official",
+    "precision": "single"
+  },
+  "godot_cpp": {
+    "repository": "https://github.com/godotengine/godot-cpp",
+    "tag": "10.0.0-stable",
+    "commit": "507ed9d840c01a3c5b2a39af8bb4000bfac30bf5",
+    "source_unchanged": true
+  },
+  "toolchain": {
+    "compiler": "Installed Microsoft MSVC 19.50.35723 x64",
+    "cmake": "Installed Microsoft-bundled CMake 4.1.1-msvc1",
+    "windows_sdk": "10.0.26100.0",
+    "global_PATH_modified": false,
+    "new_compiler_installed": false
+  },
+  "verification": {
+    "ABI_load": true,
+    "benchmark": {
+      "batch_mean_ms": [
+        0.39469,
+        0.38679,
+        0.39831,
+        0.36813,
+        0.42041,
+        0.38872,
+        0.39281,
+        0.37631,
+        0.36206,
+        0.44205
+      ],
+      "evaluations": 1000,
+      "material_hz": 60,
+      "note": "Force evaluation and Godot array/dictionary boundary only; no Jolt integration or GPU measured",
+      "overall_mean_ms": 0.393028
+    },
+    "engine": {
+      "build": "official",
+      "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable",
+      "string": "4.7.2-stable (official)",
+      "timestamp": 0
+    },
+    "extension_class": "NativeClothBending",
+    "headless": true,
+    "invalid_inputs_rejected": true,
+    "maximum_force_component_difference_N": 4.02579171387973e-10,
+    "maximum_net_force_double": 3.47621659808675e-18,
+    "maximum_net_torque_double": 1.6501279990743e-19,
+    "reference_gradient": {
+      "cases": 300.0,
+      "finite_difference_energy_force_max_error": 6.07724807977217e-13,
+      "max_net_force_double": 1.78811203067275e-18,
+      "max_net_torque_double": 8.677851511149e-20
+    },
+    "rest_input_unmodified": true,
+    "rigid_rest_invariance": true,
+    "schema2": {
+      "boundary_edges": 162,
+      "boundary_precision": "Godot official single Vector3",
+      "configured": true,
+      "damping": 2.5e-05,
+      "energy_semantics": "Uncapped quadratic elastic diagnostic, matching reference; total moment is capped",
+      "first_sample_damping": "Zero velocity until two samples, avoids treating model rest/world placement as motion",
+      "hinge_count": 3567,
+      "integration": "Forces only; caller/Jolt owns positions and integration",
+      "internal_precision": "double",
+      "max_force_semantics": "Largest individual hinge contribution, matching reference; max_nodal_force is accumulated point maximum",
+      "moment_limit": 0.0015,
+      "ok": true,
+      "rest_degenerate_hinges": 0,
+      "stiffness": 0.0006,
+      "topology": "Every actual shared interior triangle edge; no grid shortcuts or hole bridging",
+      "triangles": 2432,
+      "vertices": 1296
+    },
+    "schema2_first": {
+      "max_force_component_error": 2.77594499036721e-11,
+      "net_force_double": 1.02402881542776e-18,
+      "net_torque_double": 1.12678305227547e-18
+    },
+    "schema2_second": {
+      "max_force_component_error": 2.74584107621406e-11,
+      "net_force_double": 1.23689547426215e-18,
+      "net_torque_double": 9.9204732460947e-19
+    },
+    "scope": "Standalone technical component; no renderer/character art accepted or installed",
+    "single_hinge_states": 600
+  },
+  "limitations": [
+    "No live Jolt integration/stress or GPU benchmark.",
+    "Forces only; Jolt remains responsible for integration and collision.",
+    "Energy metric remains the uncapped quadratic diagnostic while material moment is capped.",
+    "Win64 official single-precision ABI only."
+  ]
+}

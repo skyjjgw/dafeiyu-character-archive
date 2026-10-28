@@ -1,0 +1,60 @@
+{
+  "status": "generated_needs_visual_review",
+  "input": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\appearance-preserving-geometry\\hair-continuity-v1\\reports\\root-front.png",
+  "input_sha256": "a608633188057aa52d99f39256953c964d2267ddeba57875c59553fe5ded44b5",
+  "upstream_repository": "https://github.com/VAST-AI-Research/TripoSR",
+  "upstream_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+  "weight_revision": "5b521936b01fbe1890f6f9baed0254ab6351c04a",
+  "license": "MIT; retain upstream notices, including Apache notices in transformer source",
+  "adapters": [
+    "skimage CPU marching cubes (unchanged neural field)",
+    "rembg import guard: transparent input never calls rembg",
+    "DINO config resolved to already-downloaded official local JSON"
+  ],
+  "device": "cuda:0",
+  "resolution": 256,
+  "chunk_size": 4096,
+  "torch": "2.5.1+cu121",
+  "inference": "single-image complete-volume prediction; hidden back is inferred",
+  "limitations": [
+    "Not rigged",
+    "No physics",
+    "No semantic parts or retopology",
+    "Identity fidelity requires visual acceptance"
+  ],
+  "gpu_free_before": 7441743872,
+  "gpu_total": 8585216000,
+  "weight_bytes": 1677246742,
+  "weight_sha256": "429e2c6b22a0923967459de24d67f05962b235f79cde6b032aa7ed2ffcd970ee",
+  "load_seconds": 11.0348568999907,
+  "network_seconds": 1.3879069000249729,
+  "extract_export_seconds": 5.627181600022595,
+  "mesh": {
+    "vertices": 63503,
+    "triangles": 127006,
+    "bounds": [
+      [
+        -0.176466703414917,
+        -0.42940887808799744,
+        -0.5067750811576843
+      ],
+      [
+        0.3026294708251953,
+        0.41767847537994385,
+        0.5009510517120361
+      ]
+    ],
+    "extents": [
+      0.4790961742401123,
+      0.8470873534679413,
+      1.0077261328697205
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "euler_number": 0,
+    "components": 10,
+    "degenerate_faces": 2
+  },
+  "peak_cuda_allocated": 2628296192,
+  "elapsed_seconds": 18.428121500008274
+}

@@ -1,0 +1,98 @@
+{
+  "status": "shape_only_generated_pending_visual_review",
+  "started_utc": "2026-10-26T16:16:54.794513+00:00",
+  "purpose": "Unrigged geometry comparison study; not approved character, original-author truth, textured or animated asset",
+  "input": {
+    "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\v1\\neutral-front.png",
+    "sha256": "7de01a61c0c4b36fe972de377f3eb83548daf8b0601c60752cbd436e0aafbc14",
+    "size": [
+      1144,
+      1375
+    ],
+    "alpha_bbox": [
+      49,
+      54,
+      1110,
+      1300
+    ]
+  },
+  "source_commit": "f8db63096c8282cb27354314d896feba5ba6ff8a",
+  "source_modified": false,
+  "license": "Tencent Hunyuan 3D 2.0 Community License Agreement",
+  "python": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\venv\\Scripts\\python.exe",
+  "torch": "2.5.1+cu121",
+  "cuda_compiled": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_free_before_bytes": 7441743872,
+  "gpu_total_bytes": 8585216000,
+  "ram_available_before_bytes": 4742283264,
+  "parameters": {
+    "steps": 5,
+    "grid": 256,
+    "chunks": 2048,
+    "seed": 12345,
+    "offload": "model",
+    "flashvdm": true,
+    "mc_algo": "mc",
+    "dtype": "float16"
+  },
+  "local_models": [
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\models\\Hunyuan3D-2mini\\hunyuan3d-dit-v2-mini-turbo\\config.yaml",
+      "bytes": 1664
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\models\\Hunyuan3D-2mini\\hunyuan3d-dit-v2-mini-turbo\\model.fp16.safetensors",
+      "bytes": 3822584202
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\models\\Hunyuan3D-2mini\\hunyuan3d-vae-v2-mini-turbo\\config.yaml",
+      "bytes": 335
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\models\\Hunyuan3D-2mini\\hunyuan3d-vae-v2-mini-turbo\\model.fp16.safetensors",
+      "bytes": 407410402
+    }
+  ],
+  "verified_model_manifest": "E:\\zzz\\dafeiyu-character-materials-20261025\\tools\\hunyuan-mini\\model-manifest.json",
+  "network_model_downloads": false,
+  "texture_generation": false,
+  "background_removal": false,
+  "offload_adapter": "Local components map + CUDA execution device, upstream source untouched",
+  "model_load_seconds": 25.654738099954557,
+  "inference_seconds": 6.754454099980649,
+  "mesh": {
+    "vertices": 160319,
+    "faces": 422426,
+    "bounds": [
+      [
+        -0.7460725903511047,
+        -0.8907467722892761,
+        -0.19047358632087708
+      ],
+      [
+        0.7101117372512817,
+        0.9068695902824402,
+        0.3561975657939911
+      ]
+    ],
+    "watertight": false
+  },
+  "outputs": [
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\ai-shape-study\\runs\\20261027-001654-618950\\shape-grid256-seed12345.glb",
+      "bytes": 6993860,
+      "sha256": "2e8f9670810ca57d784250717996fdfd0822cf2d72286c3de3f9726eac76c36f"
+    },
+    {
+      "path": "E:\\zzz\\dafeiyu-character-materials-20261025\\production\\character3d\\ai-shape-study\\runs\\20261027-001654-618950\\shape-grid256-seed12345.obj",
+      "bytes": 13415874,
+      "sha256": "62a472b0541d3b1fe7edba82871a4ec9ca73f95fbb6f064a1e3c9cc6ce2cc63c"
+    }
+  ],
+  "total_seconds": 33.32665239996277,
+  "peak_torch_allocated_bytes": 2587595264,
+  "peak_torch_reserved_bytes": 2734686208,
+  "gpu_free_before_process_exit_bytes": 6386876416,
+  "finished_utc": "2026-10-26T16:17:28.844761+00:00"
+}

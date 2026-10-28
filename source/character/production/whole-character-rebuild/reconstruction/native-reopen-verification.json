@@ -1,0 +1,13 @@
+{
+  "native_reopen_pass": true,
+  "mesh_objects": 1,
+  "vertices": 63503,
+  "triangles": 127006,
+  "color_attributes": [
+    "Col"
+  ],
+  "armatures": 0,
+  "cameras": 1,
+  "external_image_dependencies": [],
+  "blender_version": "4.5.15 LTS"
+}

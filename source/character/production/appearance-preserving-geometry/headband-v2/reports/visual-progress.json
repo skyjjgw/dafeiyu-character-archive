@@ -1,0 +1,36 @@
+{
+  "schema": "dafeiyu.scalp-ribbon-headband.visual-progress.v2",
+  "status": "Current fit revision pending actual visual review; not integrated",
+  "currentAssetSha256": "d161534692fd935fa26c7acc19af970a7629eb028620c84d32a85d3ff05615a6",
+  "visualPass": false,
+  "finalQuality": false,
+  "nativeIntegrated": false,
+  "previousActualFailure": {
+    "screenshots": [
+      "reports/cua-v2-front-20261028.png",
+      "reports/cua-v2-left90-20261028.png"
+    ],
+    "findings": [
+      "Visible green background gap between blue hair and white headpiece: suspended hoop",
+      "Original white-grey maid scallops lost, enlarged plain arch dominates front",
+      "90 degree cloth is a broad cap-like strip"
+    ],
+    "observer": "Root actual CUA and geometry agent view_image"
+  },
+  "currentFitData": "reports/actual-mesh-contact.json",
+  "currentStrictData": [
+    "reports/mid-surface-crossings.json",
+    "reports/strict-crossing-diagnostic.json"
+  ],
+  "currentGeometryProof": "reports/geometry-check.json",
+  "pastActualNativeImport": {
+    "report": "gpu-check/reports/import-report.json",
+    "assetSHA": "1aec7dafc286dcf7aa19697cf1a0006d4a2a9865f5b8f813ec80b0aa0c7ff6b4",
+    "statement": "0 POSITION/UV/UV2 import errors, actual GPU source girl+component, but this is a past revision and does not approve current appearance"
+  },
+  "nextGate": [
+    "Actual current source/candidate front/45/90/back identity and fitted frill review",
+    "Then capture current exact GLB SHA in native with concrete custom material",
+    "Only after both gates copy accepted component into selected-production; no original4348 replacement by a failed candidate"
+  ]
+}

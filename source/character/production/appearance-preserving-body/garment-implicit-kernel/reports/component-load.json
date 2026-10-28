@@ -1,0 +1,5 @@
+{
+	"completed": true,
+	"pass": true,
+	"scope": "Exact frozen component descriptor loads its relative-path DLL outside probe project; no product install"
+}

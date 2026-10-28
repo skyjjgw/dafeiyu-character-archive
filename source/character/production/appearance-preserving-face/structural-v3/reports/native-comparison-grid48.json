@@ -1,0 +1,134 @@
+{
+	"authority": "Actual frozen-source Three factory + reviewed continuous-head-v3, not a mirrored native implementation",
+	"byAttribute": {
+		"color": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"position": {
+			"maximumError": 0.0000000298023223876953,
+			"unequalBits": 3939
+		},
+		"uv": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		}
+	},
+	"byMesh": {
+		"continuous head skin sockets and oral lining": {
+			"maximumError": 0.0000000298023223876953,
+			"unequalBits": 1149
+		},
+		"continuous short rounded chin contour": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"continuous smile contour": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"continuously deforming skin around mouth": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"left closed source-fitted ocular globe": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"left deforming skin eyelid": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"left moving eyelid crease": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"left moving lower eyelash": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"left moving upper eyelash": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"left pointed outer lashes": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"left sampled original iris": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"reference skin, nose and cheek paint only": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"right closed source-fitted ocular globe": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"right deforming skin eyelid": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"right moving eyelid crease": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"right moving lower eyelash": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"right moving upper eyelash": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"right pointed outer lashes": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"right sampled original iris": {
+			"maximumError": 0.0,
+			"unequalBits": 0
+		},
+		"tongue inside opening": {
+			"maximumError": 0.0000000298023223876953,
+			"unequalBits": 2790
+		}
+	},
+	"components": 12738912,
+	"gpuRendered": false,
+	"headless": true,
+	"kernelMs": [
+		19.597,
+		19.989,
+		20.0643,
+		19.4435,
+		18.4563,
+		19.5383,
+		14.6032,
+		12.8599,
+		12.7506,
+		12.5965,
+		18.9234,
+		20.6792,
+		13.1602,
+		13.8859,
+		28.0209,
+		21.5665,
+		20.9457,
+		21.2476,
+		33.5286,
+		19.6379,
+		19.3665,
+		20.1541,
+		21.3224,
+		18.9426
+	],
+	"maximumError": 0.0000000298023223876953,
+	"meshes": 20,
+	"passed": true,
+	"schema": "dafeiyu.structural-face-v3.native-comparison.v1",
+	"states": 24,
+	"visibilityMismatches": 0
+}

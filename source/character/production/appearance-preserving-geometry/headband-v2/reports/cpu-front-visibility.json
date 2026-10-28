@@ -1,0 +1,108 @@
+{
+  "schema": "dafeiyu.headband-v2.cpu-frontal-visibility-diagnostic.v1",
+  "resolution": [
+    640,
+    704
+  ],
+  "visiblePixels": 9643,
+  "frillPixels": 9643,
+  "mainBandPixels": 0,
+  "paintWeightOverHalfPixels": 7168,
+  "frillFractionOfVisible": 1,
+  "uBins": [
+    {
+      "frill": 586,
+      "band": 0,
+      "painted": 409
+    },
+    {
+      "frill": 817,
+      "band": 0,
+      "painted": 817
+    },
+    {
+      "frill": 773,
+      "band": 0,
+      "painted": 773
+    },
+    {
+      "frill": 862,
+      "band": 0,
+      "painted": 862
+    },
+    {
+      "frill": 820,
+      "band": 0,
+      "painted": 780
+    },
+    {
+      "frill": 654,
+      "band": 0,
+      "painted": 91
+    },
+    {
+      "frill": 379,
+      "band": 0,
+      "painted": 0
+    },
+    {
+      "frill": 115,
+      "band": 0,
+      "painted": 0
+    },
+    {
+      "frill": 147,
+      "band": 0,
+      "painted": 0
+    },
+    {
+      "frill": 375,
+      "band": 0,
+      "painted": 0
+    },
+    {
+      "frill": 569,
+      "band": 0,
+      "painted": 92
+    },
+    {
+      "frill": 815,
+      "band": 0,
+      "painted": 613
+    },
+    {
+      "frill": 832,
+      "band": 0,
+      "painted": 832
+    },
+    {
+      "frill": 748,
+      "band": 0,
+      "painted": 748
+    },
+    {
+      "frill": 789,
+      "band": 0,
+      "painted": 789
+    },
+    {
+      "frill": 362,
+      "band": 0,
+      "painted": 362
+    }
+  ],
+  "vBins": [
+    2399,
+    4500,
+    2664,
+    80,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "trianglesRasterized": 200270,
+  "scope": "Auxiliary CPU center-sample opaque depth raster in the same orthographic view, actual selected source geometry. Ignores texture alpha/antialias/material culling; actual GPU region diagnostic remains authoritative."
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-25",
+  "tool": "built-in imagegen",
+  "request": "尾巴没做好",
+  "status": "tail_silhouette_correction_static_prototype",
+  "file": "assets/tail-v3/tail-corrected.png",
+  "generated_source_path": "E:\\CodexData\\Users\\skyjj\\.codex\\generated_images\\01a17213-eb64-70f1-aadc-491d8c4cdcf2\\exec-db2c1aed-2581-4166-ad64-68ae14d6dc19.png",
+  "generation": {
+    "prompt": "Use case: precise-object-edit.\nEdit target is image 1: the transparent frontal full-body blue-haired whale maid. Correct ONLY her whale TAIL. Image 2 is supporting tail-anatomy/silhouette reference from the user's original running character: a curved tapering whale tail terminating in TWO distinct flukes. Do not copy image 2's pose, outfit, face, pot or background.\nProblem to fix: image 1 currently reads as one oversized upright leaf fin with a thick U-shaped lower mass. Replace that whole old tail silhouette with a clearly readable small WHALE TAIL.\nTail requirements:\n- One tail only, root emerging naturally from the lower back BEHIND the skirt on the viewer's right. No attachment to the hand, sleeve, hair or front of the apron.\n- A smoothly curved substantial but tapering peduncle, curling to the right then gently up. It becomes noticeably narrower BEFORE the terminal flukes, so the stalk and flukes read separately.\n- At the end, TWO distinct broad lateral whale fluke lobes in one mostly horizontal plane, separated by an unmistakable central V-shaped or shallow U-shaped notch. Both lobes must be visible, with balanced readable size. Their outer tips point outward left and right, not a single gigantic upright leaf or shark fin. A little perspective foreshortening is okay, but do not hide one lobe.\n- Dark navy upper color, restrained lighter blue underside/edge consistent with the current girl, clean anime contours and simple cel-shaded color blocks. Rounded friendly proportions; no sharp realism, fish scales or fin ribs.\n- Keep the overall tail compact beside the lower-right skirt, not an enormous fan. Within this 1144x1375 composition, aim for the new tail to occupy roughly x=710..1040 and y=860..1070; the two terminal lobes spread around the upper-right end. Leave ample transparent outer margin.\nPreserve the original image's head, face, eyes, eyebrows, tiny closed mouth, nose, hair, headband, ears, bows, entire maid outfit, apron whale emblem, hands, legs, shoes, frontal pose, scale, canvas and transparent margins as closely as possible. Do not enlarge, reposition or reframe the girl. DO NOT change any facial feature.\nTruly transparent alpha background. No checkerboard artwork, floor, props, labels, arrows, text, watermark, UI or extra appendages. One intact full-body illustration with the corrected double-fluked whale tail.",
+    "referenced_image_paths": [
+      "E:/zzz/dafeiyu-character-materials-20261025/production/facial-prototype/assets/corrected-v2/canonical.png",
+      "E:/zzz/dafeiyu-character-materials-20261025/references/user/reference-1.jpg"
+    ],
+    "transparent_background": true
+  },
+  "canonical": "assets/corrected-v2/canonical.png",
+  "fixes": [
+    "收细弯曲尾柄",
+    "明确两个横向展开的鲸尾瓣",
+    "增加清楚中央缺口",
+    "尾根保持在裙后"
+  ],
+  "scope": "仅在应用显示下半身尾部区域的新图；继续使用corrected-v2原有五官和脸部差分",
+  "limitations": "目前尾巴为静态轮廓修正，尚未拆分尾部关节或实现Live2D物理摆动",
+  "sha256": "0cc345d351b0fea92a0a3f8a361af6c2099e6f8bf6c27aed955a0411961b826d",
+  "bytes": 834048,
+  "width": 1144,
+  "height": 1375,
+  "render_layout": {
+    "file": "assets/tail-v3/tail-corrected.png",
+    "width": 1144,
+    "height": 1375,
+    "translate": [
+      -2,
+      -1
+    ],
+    "replacement_polygon": [
+      [
+        700,
+        930
+      ],
+      [
+        815,
+        930
+      ],
+      [
+        815,
+        860
+      ],
+      [
+        1120,
+        860
+      ],
+      [
+        1120,
+        1120
+      ],
+      [
+        700,
+        1120
+      ]
+    ],
+    "sha256": "0cc345d351b0fea92a0a3f8a361af6c2099e6f8bf6c27aed955a0411961b826d",
+    "status": "static_shape_correction_not_physics_rig"
+  }
+}

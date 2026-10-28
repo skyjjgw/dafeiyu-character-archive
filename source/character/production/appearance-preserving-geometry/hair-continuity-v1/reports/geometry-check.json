@@ -1,0 +1,609 @@
+{
+  "schema": "dafeiyu.hair-continuity.check.v1",
+  "original": [
+    {
+      "name": "left-face-framing-hair",
+      "frontTopology": {
+        "vertices": 3370,
+        "triangles": 5904,
+        "components": 1,
+        "boundaryEdges": 1232,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "degenerate": 0,
+        "minArea": 7.355837989636875e-8,
+        "signedVolume": 0.09159791673301056,
+        "finite": true,
+        "normalsFinite": true
+      },
+      "hanging": {
+        "hangingVertexEdgeIncidences": 237,
+        "maxRest3DGap": 0.0029034689069176627,
+        "uniqueUVVertices": 3370,
+        "uniqueUVEdges": 9472,
+        "collinearityTolerancePixels": 0.0005,
+        "edgeScope": "Unpaired front edges only; near-collinear internal triangles are conforming and are excluded",
+        "examples": [
+          {
+            "edge": [
+              [
+                580.0000190734863,
+                365.9999942779541
+              ],
+              [
+                568.9629364013672,
+                392.3484492301941
+              ]
+            ],
+            "vertex": [
+              574.4815063476562,
+              379.1741895675659
+            ],
+            "rest3DGap": 0.00003502907342996308
+          },
+          {
+            "edge": [
+              [
+                568.9629364013672,
+                392.3484492301941
+              ],
+              [
+                556.1481285095215,
+                417.97257900238037
+              ]
+            ],
+            "vertex": [
+              562.5555610656738,
+              405.16048192977905
+            ],
+            "rest3DGap": 0.000040347624662919696
+          },
+          {
+            "edge": [
+              [
+                556.1481285095215,
+                417.97257900238037
+              ],
+              [
+                542.0000267028809,
+                442.740740776062
+              ]
+            ],
+            "vertex": [
+              549.0740776062012,
+              430.3566598892212
+            ],
+            "rest3DGap": 0.000044509771603942405
+          },
+          {
+            "edge": [
+              [
+                542.0000267028809,
+                442.740740776062
+              ],
+              [
+                526.962947845459,
+                466.5212917327881
+              ]
+            ],
+            "vertex": [
+              534.4814872741699,
+              454.63101625442505
+            ],
+            "rest3DGap": 0.000047028065317974944
+          }
+        ]
+      }
+    },
+    {
+      "name": "right-face-framing-hair",
+      "frontTopology": {
+        "vertices": 4564,
+        "triangles": 8191,
+        "components": 1,
+        "boundaryEdges": 1329,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "degenerate": 0,
+        "minArea": 8.450274608373245e-8,
+        "signedVolume": 0.055459154952762726,
+        "finite": true,
+        "normalsFinite": true
+      },
+      "hanging": {
+        "hangingVertexEdgeIncidences": 319,
+        "maxRest3DGap": 0.002649322152221568,
+        "uniqueUVVertices": 4564,
+        "uniqueUVEdges": 12951,
+        "collinearityTolerancePixels": 0.0005,
+        "edgeScope": "Unpaired front edges only; near-collinear internal triangles are conforming and are excluded",
+        "examples": [
+          {
+            "edge": [
+              [
+                849.1496086120605,
+                0
+              ],
+              [
+                876.9205284118652,
+                0.08986473083496094
+              ]
+            ],
+            "vertex": [
+              863.0350685119629,
+              0.04493236541748047
+            ],
+            "rest3DGap": 0.00027520954772802575
+          },
+          {
+            "edge": [
+              [
+                876.9205284118652,
+                0.08986473083496094
+              ],
+              [
+                903.643627166748,
+                1.747276782989502
+              ]
+            ],
+            "vertex": [
+              890.2820777893066,
+              0.9185385704040527
+            ],
+            "rest3DGap": 0.0002597195385289409
+          },
+          {
+            "edge": [
+              [
+                1117.0909881591797,
+                122.12616920471191
+              ],
+              [
+                1133.4420776367188,
+                142.7592658996582
+              ]
+            ],
+            "vertex": [
+              1125.2665328979492,
+              132.44271755218506
+            ],
+            "rest3DGap": 0.00032657384906432604
+          },
+          {
+            "edge": [
+              [
+                1133.4420776367188,
+                142.7592658996582
+              ],
+              [
+                1148.9553451538086,
+                164.71638679504395
+              ]
+            ],
+            "vertex": [
+              1141.1987686157227,
+              153.73782634735107
+            ],
+            "rest3DGap": 0.0004535495986162998
+          }
+        ]
+      }
+    },
+    {
+      "name": "central-forked-bangs",
+      "frontTopology": {
+        "vertices": 2327,
+        "triangles": 3992,
+        "components": 1,
+        "boundaryEdges": 952,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "degenerate": 0,
+        "minArea": 2.3886836059791137e-8,
+        "signedVolume": 0.055698701123196886,
+        "finite": true,
+        "normalsFinite": true
+      },
+      "hanging": {
+        "hangingVertexEdgeIncidences": 214,
+        "maxRest3DGap": 0.001786544640562309,
+        "uniqueUVVertices": 2327,
+        "uniqueUVEdges": 6464,
+        "collinearityTolerancePixels": 0.0005,
+        "edgeScope": "Unpaired front edges only; near-collinear internal triangles are conforming and are excluded",
+        "examples": [
+          {
+            "edge": [
+              [
+                863.2795143127441,
+                11.651387214660645
+              ],
+              [
+                885.5462837219238,
+                36.754610538482666
+              ]
+            ],
+            "vertex": [
+              874.412899017334,
+              24.203031063079834
+            ],
+            "rest3DGap": 0.0007598278314591814
+          },
+          {
+            "edge": [
+              [
+                885.5462837219238,
+                36.754610538482666
+              ],
+              [
+                904.8254585266113,
+                64.01832103729248
+              ]
+            ],
+            "vertex": [
+              895.1858711242676,
+              50.38649797439575
+            ],
+            "rest3DGap": 0.0006055479354825858
+          },
+          {
+            "edge": [
+              [
+                904.8254585266113,
+                64.01832103729248
+              ],
+              [
+                921.1992645263672,
+                93.15451383590698
+              ]
+            ],
+            "vertex": [
+              913.0123329162598,
+              78.58644962310791
+            ],
+            "rest3DGap": 0.00006604240691345604
+          },
+          {
+            "edge": [
+              [
+                921.1992645263672,
+                93.15451383590698
+              ],
+              [
+                934.7499847412109,
+                123.874990940094
+              ]
+            ],
+            "vertex": [
+              927.9746246337891,
+              108.51475238800049
+            ],
+            "rest3DGap": 0.0004005283129074872
+          }
+        ]
+      }
+    }
+  ],
+  "longCurlDiagnostics": [
+    {
+      "name": "left-auxiliary-source-traced-long-curls:original-pixel-surface",
+      "hanging": {
+        "hangingVertexEdgeIncidences": 92,
+        "maxRest3DGap": 0.09025937751312539,
+        "uniqueUVVertices": 515,
+        "uniqueUVEdges": 1292,
+        "collinearityTolerancePixels": 0.0005,
+        "edgeScope": "Unpaired front edges only; near-collinear internal triangles are conforming and are excluded",
+        "examples": [
+          {
+            "edge": [
+              [
+                354.9999997615814,
+                685.0000023841858
+              ],
+              [
+                360.0000002384186,
+                673.0000302195549
+              ]
+            ],
+            "vertex": [
+              357.5,
+              678.9999753236771
+            ],
+            "rest3DGap": 0.012573048807878814
+          },
+          {
+            "edge": [
+              [
+                360.0000002384186,
+                673.0000302195549
+              ],
+              [
+                362.99998688697815,
+                663.9999896287918
+              ]
+            ],
+            "vertex": [
+              361.49999356269836,
+              668.4999689459801
+            ],
+            "rest3DGap": 0.01133091414327275
+          },
+          {
+            "edge": [
+              [
+                446.00001525878906,
+                733.0000139772892
+              ],
+              [
+                439.0000009536743,
+                730.9999912977219
+              ]
+            ],
+            "vertex": [
+              444.2500116825104,
+              732.499998062849
+            ],
+            "rest3DGap": 0.013318039395674889
+          },
+          {
+            "edge": [
+              [
+                446.00001525878906,
+                733.0000139772892
+              ],
+              [
+                439.0000009536743,
+                730.9999912977219
+              ]
+            ],
+            "vertex": [
+              442.5000081062317,
+              731.9999821484089
+            ],
+            "rest3DGap": 0.0188316067919113
+          }
+        ]
+      },
+      "frontTopology": {
+        "vertices": 515,
+        "triangles": 707,
+        "components": 1,
+        "boundaryEdges": 463,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 2,
+        "degenerate": 0,
+        "minArea": 0.000008033649023291976,
+        "signedVolume": 0.002331419776050423,
+        "finite": true,
+        "normalsFinite": true
+      }
+    },
+    {
+      "name": "right-auxiliary-source-traced-long-curls:original-pixel-surface",
+      "hanging": {
+        "hangingVertexEdgeIncidences": 92,
+        "maxRest3DGap": 0.09025937751312539,
+        "uniqueUVVertices": 515,
+        "uniqueUVEdges": 1292,
+        "collinearityTolerancePixels": 0.0005,
+        "edgeScope": "Unpaired front edges only; near-collinear internal triangles are conforming and are excluded",
+        "examples": [
+          {
+            "edge": [
+              [
+                360.0000002384186,
+                673.0000302195549
+              ],
+              [
+                354.9999997615814,
+                685.0000023841858
+              ]
+            ],
+            "vertex": [
+              357.5,
+              678.9999753236771
+            ],
+            "rest3DGap": 0.012573048807878814
+          },
+          {
+            "edge": [
+              [
+                362.99998688697815,
+                663.9999896287918
+              ],
+              [
+                360.0000002384186,
+                673.0000302195549
+              ]
+            ],
+            "vertex": [
+              361.49999356269836,
+              668.4999689459801
+            ],
+            "rest3DGap": 0.01133091414327275
+          },
+          {
+            "edge": [
+              [
+                439.0000009536743,
+                730.9999912977219
+              ],
+              [
+                446.00001525878906,
+                733.0000139772892
+              ]
+            ],
+            "vertex": [
+              444.2500116825104,
+              732.499998062849
+            ],
+            "rest3DGap": 0.013318039395674889
+          },
+          {
+            "edge": [
+              [
+                439.0000009536743,
+                730.9999912977219
+              ],
+              [
+                446.00001525878906,
+                733.0000139772892
+              ]
+            ],
+            "vertex": [
+              442.5000081062317,
+              731.9999821484089
+            ],
+            "rest3DGap": 0.0188316067919113
+          }
+        ]
+      },
+      "frontTopology": {
+        "vertices": 515,
+        "triangles": 707,
+        "components": 1,
+        "boundaryEdges": 463,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 2,
+        "degenerate": 0,
+        "minArea": 0.000008033649023291976,
+        "signedVolume": 0.002331419776050423,
+        "finite": true,
+        "normalsFinite": true
+      }
+    }
+  ],
+  "candidate": [
+    {
+      "name": "left-face-framing-hair",
+      "topology": {
+        "vertices": 5182,
+        "triangles": 10360,
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "degenerate": 0,
+        "minArea": 1.6900866568508565e-7,
+        "signedVolume": 0.11090242939547114,
+        "finite": true,
+        "normalsFinite": true
+      },
+      "hanging": {
+        "hangingVertexEdgeIncidences": 0,
+        "maxRest3DGap": 0,
+        "uniqueUVVertices": 2591,
+        "uniqueUVEdges": 7563,
+        "collinearityTolerancePixels": 0.0005,
+        "edgeScope": "Unpaired front edges only; near-collinear internal triangles are conforming and are excluded",
+        "examples": []
+      },
+      "frontSourceMappingMaxError": 6.69883485349132e-8,
+      "minimumFrontTriangleNormalZ": 0.048745637530844786,
+      "positionSha256": "330bb7b391c6a2ed27a2b424d22663120400c0993f704ddaddaf6713a32f4d22",
+      "indexSha256": "ff7c60fca630a1168008e842a19203ad51ff3a9b7a6dd9a5becebe5fdf61704a",
+      "metadata": {
+        "name": "left-face-framing-hair",
+        "sharedEdgeRefinementRounds": 5,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      }
+    },
+    {
+      "name": "right-face-framing-hair",
+      "topology": {
+        "vertices": 4972,
+        "triangles": 9940,
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "degenerate": 0,
+        "minArea": 1.2926871401643126e-8,
+        "signedVolume": 0.0658378024311531,
+        "finite": true,
+        "normalsFinite": true
+      },
+      "hanging": {
+        "hangingVertexEdgeIncidences": 0,
+        "maxRest3DGap": 0,
+        "uniqueUVVertices": 2486,
+        "uniqueUVEdges": 7235,
+        "collinearityTolerancePixels": 0.0005,
+        "edgeScope": "Unpaired front edges only; near-collinear internal triangles are conforming and are excluded",
+        "examples": []
+      },
+      "frontSourceMappingMaxError": 1.0143448658794796e-7,
+      "minimumFrontTriangleNormalZ": 0.010329844401491657,
+      "positionSha256": "4cf1e96e02352694a37a0224994d9e625fc8faeeac8b764881a9365a43fd321e",
+      "indexSha256": "8be905782ca18bdce0af7520f473db267273d4c956a85750dad5b129f350e655",
+      "metadata": {
+        "name": "right-face-framing-hair",
+        "sharedEdgeRefinementRounds": 6,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      }
+    },
+    {
+      "name": "central-forked-bangs",
+      "topology": {
+        "vertices": 2784,
+        "triangles": 5564,
+        "components": 1,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "orientationConflicts": 0,
+        "degenerate": 0,
+        "minArea": 4.0639948359990096e-8,
+        "signedVolume": 0.07719472763695563,
+        "finite": true,
+        "normalsFinite": true
+      },
+      "hanging": {
+        "hangingVertexEdgeIncidences": 0,
+        "maxRest3DGap": 0,
+        "uniqueUVVertices": 1392,
+        "uniqueUVEdges": 3939,
+        "collinearityTolerancePixels": 0.0005,
+        "edgeScope": "Unpaired front edges only; near-collinear internal triangles are conforming and are excluded",
+        "examples": []
+      },
+      "frontSourceMappingMaxError": 7.33144707443234e-8,
+      "minimumFrontTriangleNormalZ": 0.09444372067768057,
+      "positionSha256": "5aefd78dc95d59cd2509a1ff0f296b5af2c2fcb95101bd1e7160add4ac4a0c17",
+      "indexSha256": "b5b44b1fe92df359ffab2c5dab11e1838ef02f6ee7d90b4ea4eabe11afd1ac11",
+      "metadata": {
+        "name": "central-forked-bangs",
+        "sharedEdgeRefinementRounds": 5,
+        "fullDepth": 0.4,
+        "maxEdge": 36,
+        "depthRange": [
+          0.018,
+          0.41800000000000004
+        ],
+        "shape": "Closed connected front/back radial-depth lens with conforming shared front edges; posterior curvature enlarged behind the original projected front",
+        "backSurface": "Inferred depth only; original blue side material, no claim of authored side/back painting"
+      }
+    }
+  ],
+  "originalGeometryBytesUnchanged": true,
+  "frontProjectionPolicy": "Same source image coordinates and silhouette; candidate conforming interior tessellation changes interpolation slightly. Actual GPU pixel difference pending.",
+  "topologyPassed": true,
+  "strictAllTriangleIntersectionCheck": false,
+  "visualPass": false,
+  "finalAccepted": false,
+  "dynamicsImplemented": false
+}

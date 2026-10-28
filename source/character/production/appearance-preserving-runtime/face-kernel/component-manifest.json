@@ -1,0 +1,95 @@
+{
+  "schema": "dafeiyu.selected-face-kernel-component.v1",
+  "status": "Independent appearance-preserving candidate; not installed into 4348 or DSH; not user art approval",
+  "authority": "http://127.0.0.1:4348/character-preview.html",
+  "sourceHashes": {
+    "face.js": "bac8255b431d9b958286e1a6b40c8eb84921565882217aff2d6d26a743215cc8",
+    "profile-volume.js": "20eba2088ef03c541072d8f01a9b79c199a431af140f49ab4c4ff9b89fb131a8"
+  },
+  "sourceTextureSha256": "13fe2f29954e60e5b9f2bb39e1a52bcae687513d43031b64be1b29848f76f7e4",
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "platform": "Windows x86_64 official Godot 4.7.2, standard precision",
+  "installFolder": "res://face-kernel/",
+  "entry": "res://face-kernel/face_adapter.gd",
+  "library": "res://face-kernel/selected_face_kernel.gdextension",
+  "runtimeFiles": [
+    {
+      "path": "face_adapter.gd",
+      "bytes": 7346,
+      "sha256": "aba8f4173120780f8380937cdbebc3941665f614889efe13454295673c423ca2"
+    },
+    {
+      "path": "bin/selected_face_kernel.windows.release.x86_64.dll",
+      "bytes": 416256,
+      "sha256": "7f30f4bdc0b23f6c15a125880ff876e489bf14e305df1138cca16bf88f68b3ef"
+    },
+    {
+      "path": "source-equations.json",
+      "bytes": 170798,
+      "sha256": "97a24124b9b59ee09ffbf1ade29578bd40af1b7e2878295186d5bf5e93268578"
+    },
+    {
+      "path": "source-descriptors.json",
+      "bytes": 23154,
+      "sha256": "33239a45193485bf555a041917d232bdf52552072cf1feb8d82e4d0404bd4032"
+    },
+    {
+      "path": "selected_face_kernel.gdextension",
+      "bytes": 210,
+      "sha256": "8462be3cb70eda29aeb5f9bdc81458e154df258ad734e39310c7e8b217897964"
+    }
+  ],
+  "stateChannels": {
+    "blink": [
+      0,
+      1
+    ],
+    "talk": [
+      0,
+      1
+    ],
+    "happy": [
+      0,
+      1
+    ],
+    "sad": [
+      0,
+      1
+    ],
+    "gazeX": [
+      -1,
+      1
+    ],
+    "gazeY": [
+      -1,
+      1
+    ]
+  },
+  "sourceMeshes": 22,
+  "dynamicMeshes": 18,
+  "topology": "Source semantic vertex order, fixed through every update; 18 replacements only during setup; no reconstruction per frame",
+  "materials": "Retain original source image, original MeshBasic/paint behavior, original render flags, Float32 RGBA through CUSTOM0; no replacement iris shader",
+  "coordinates": "Original Head local: X right, Y up, +Z forward; parent Head motion applied once by scene",
+  "proof": {
+    "states": 44,
+    "float32Components": 2762276,
+    "nativeUnequalBits": 0,
+    "gpuReadbackUnequalBits": 0,
+    "meshRebuildsPerUpdate": 0,
+    "disposeRestoresSource": true,
+    "kernelMeanMs": 2.94536818181818,
+    "submitMeanMs": 0.126545454545455,
+    "scope": "Actual RTX 4060 Compatibility renderer face-only probe; full-character visual comparison and structural depth review remain separate"
+  },
+  "structuralDepth": "source-default is the exact initial authority. Explicit structural-candidate may change Z only using reviewed profile/globe parameters; no claim of source XYZ parity for changed structure."
+}
